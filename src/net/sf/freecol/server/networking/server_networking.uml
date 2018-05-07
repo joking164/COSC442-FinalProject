@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_jo-vkFJREeiyW7NaN4qWdw" name="server_networking">
+    <eAnnotations xmi:id="_jyyL0FJREeiyW7NaN4qWdw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_jyyL0VJREeiyW7NaN4qWdw" source="codegen">
+        <details xmi:id="_jyyL0lJREeiyW7NaN4qWdw" key="codegenDirectory" value="/COSC442-FinalProject/src"/>
+        <details xmi:id="_kBtYoFJREeiyW7NaN4qWdw" key="AssociatedSourceCode" value="/COSC442-FinalProject/src/net/sf/freecol/server/networking/DummyConnection.java;4196863671/1;/COSC442-FinalProject/src/net/sf/freecol/server/networking/Server.java;1441455223/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_j9YSQVJREeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_j9Y5UFJREeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_j9Y5UVJREeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_j9Y5UlJREeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_j9Y5U1JREeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_j9Y5VFJREeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_j9Y5VVJREeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_j9Y5VlJREeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_j9Y5V1JREeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_j9NTIFJREeiyW7NaN4qWdw" name="net">
+      <packagedElement xmi:type="uml:Package" xmi:id="_j9N6MFJREeiyW7NaN4qWdw" name="sf">
+        <packagedElement xmi:type="uml:Package" xmi:id="_j9N6MVJREeiyW7NaN4qWdw" name="freecol">
+          <packagedElement xmi:type="uml:Package" xmi:id="_j9N6MlJREeiyW7NaN4qWdw" name="server">
+            <packagedElement xmi:type="uml:Package" xmi:id="_j9QWcFJREeiyW7NaN4qWdw" name="networking">
+              <packagedElement xmi:type="uml:Class" xmi:id="_j9YSQFJREeiyW7NaN4qWdw" name="DummyConnection" isLeaf="true">
+                <ownedComment xmi:id="_j-N_wFJREeiyW7NaN4qWdw">
+                  <body>A dummy connection, used for AI players.</body>
+                </ownedComment>
+                <generalization xmi:id="_j-CZllJREeiyW7NaN4qWdw" general="_j92MUVJREeiyW7NaN4qWdw"/>
+                <ownedAttribute xmi:id="_j-HSEFJREeiyW7NaN4qWdw" name="outgoingMessageHandler" visibility="private" type="_j92zYFJREeiyW7NaN4qWdw" association="_j-Om0FJREeiyW7NaN4qWdw"/>
+                <ownedAttribute xmi:id="_j-H5IVJREeiyW7NaN4qWdw" name="otherConnection" type="_j9YSQFJREeiyW7NaN4qWdw" isReadOnly="true" association="_j-PN4VJREeiyW7NaN4qWdw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_j-LjgVJREeiyW7NaN4qWdw" name="DummyConnection" specification="_j-AkYFJREeiyW7NaN4qWdw">
+                  <ownedParameter xmi:id="_j-LjglJREeiyW7NaN4qWdw" name="name">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_j-Ljg1JREeiyW7NaN4qWdw" name="incomingMessageHandler" type="_j92zYFJREeiyW7NaN4qWdw"/>
+                  <ownedParameter xmi:id="_j-LjhFJREeiyW7NaN4qWdw" type="_j9YSQFJREeiyW7NaN4qWdw" direction="return"/>
+                  <language>java</language>
+                  <body>super(name);&#xD;
+     setMessageHandler(incomingMessageHandler);&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_j-MKkFJREeiyW7NaN4qWdw" name="setOutgoingMessageHandler" specification="_j-AkZlJREeiyW7NaN4qWdw">
+                  <ownedParameter xmi:id="_j-MKkVJREeiyW7NaN4qWdw" name="mh" type="_j92zYFJREeiyW7NaN4qWdw"/>
+                  <language>java</language>
+                  <body>this.outgoingMessageHandler = mh;&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_j-MKklJREeiyW7NaN4qWdw" name="setConnection" specification="_j93acVJREeiyW7NaN4qWdw">
+                  <ownedParameter xmi:id="_j-MKk1JREeiyW7NaN4qWdw" name="dc" type="_j9YSQFJREeiyW7NaN4qWdw"/>
+                  <language>java</language>
+                  <body>this.otherConnection = dc;&#xD;
+     setOutgoingMessageHandler(dc.getMessageHandler());&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_j-MKlFJREeiyW7NaN4qWdw" name="send" specification="_j-BLcFJREeiyW7NaN4qWdw">
+                  <ownedParameter xmi:id="_j-MKlVJREeiyW7NaN4qWdw" name="element" type="_j92zYlJREeiyW7NaN4qWdw"/>
+                  <language>java</language>
+                  <body>try {&#xD;
+         outgoingMessageHandler.handle(getOtherConnection(), element);&#xD;
+         log(element, true);&#xD;
+     } catch (FreeColException e) {&#xD;
+     }&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_j-MKllJREeiyW7NaN4qWdw" name="sendAndWait" specification="_j-BygFJREeiyW7NaN4qWdw">
+                  <ownedParameter xmi:id="_j-MKl1JREeiyW7NaN4qWdw" name="element" type="_j92zYlJREeiyW7NaN4qWdw"/>
+                  <language>java</language>
+                  <body>send(element);&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_j-MKmFJREeiyW7NaN4qWdw" name="ask" specification="_j-CZkFJREeiyW7NaN4qWdw">
+                  <ownedParameter xmi:id="_j-MKmVJREeiyW7NaN4qWdw" name="request" type="_j92zYlJREeiyW7NaN4qWdw"/>
+                  <ownedParameter xmi:id="_j-MKmlJREeiyW7NaN4qWdw" type="_j92zYlJREeiyW7NaN4qWdw" direction="return"/>
+                  <language>java</language>
+                  <body>Element reply;&#xD;
+     try {&#xD;
+         log(request, true);&#xD;
+         reply = outgoingMessageHandler.handle(getOtherConnection(),&#xD;
+                                               request);&#xD;
+         log(reply, false);            &#xD;
+     } catch (FreeColException e) {&#xD;
+         reply = null;&#xD;
+     }&#xD;
+     return reply;&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_j-MKm1JREeiyW7NaN4qWdw" name="toString" specification="_j9aHcFJREeiyW7NaN4qWdw">
+                  <ownedParameter xmi:id="_j-MKnFJREeiyW7NaN4qWdw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return &quot;[DummyConnection &quot; + getName() + &quot;]&quot;;&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_j9ZgYFJREeiyW7NaN4qWdw" name="close"/>
+                <ownedOperation xmi:id="_j9aHcFJREeiyW7NaN4qWdw" name="toString" method="_j-MKm1JREeiyW7NaN4qWdw">
+                  <ownedParameter xmi:id="_j9aHcVJREeiyW7NaN4qWdw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_j93acVJREeiyW7NaN4qWdw" name="setConnection" method="_j-MKklJREeiyW7NaN4qWdw">
+                  <ownedComment xmi:id="_j-N_w1JREeiyW7NaN4qWdw">
+                    <body>Sets the other connection for this dummy connection.&#xD;
+     *&#xD;
+     * @param dc The &lt;code>DummyConnection&lt;/code> to connect to.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_j93aclJREeiyW7NaN4qWdw" name="dc" type="_j9YSQFJREeiyW7NaN4qWdw"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_j-AkYFJREeiyW7NaN4qWdw" name="DummyConnection" method="_j-LjgVJREeiyW7NaN4qWdw">
+                  <eAnnotations xmi:id="_j-AkY1JREeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_j-AkZFJREeiyW7NaN4qWdw" key="create"/>
+                  </eAnnotations>
+                  <ownedComment xmi:id="_j-N_wVJREeiyW7NaN4qWdw">
+                    <body>Sets up a dummy connection using the specified {@link MessageHandler}s.&#xD;
+     *&#xD;
+     * @param incomingMessageHandler The &lt;code>MessageHandler&lt;/code>&#xD;
+     *     to call for each message received.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_j-AkYVJREeiyW7NaN4qWdw" name="name">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_j-AkYlJREeiyW7NaN4qWdw" name="incomingMessageHandler" type="_j92zYFJREeiyW7NaN4qWdw"/>
+                  <ownedParameter xmi:id="_j-AkZVJREeiyW7NaN4qWdw" type="_j9YSQFJREeiyW7NaN4qWdw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_j-AkZlJREeiyW7NaN4qWdw" name="setOutgoingMessageHandler" visibility="private" method="_j-MKkFJREeiyW7NaN4qWdw">
+                  <ownedComment xmi:id="_j-N_wlJREeiyW7NaN4qWdw">
+                    <body>Sets the outgoing MessageHandler for this Connection.&#xD;
+     *&#xD;
+     * @param mh The new MessageHandler for this Connection.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_j-AkZ1JREeiyW7NaN4qWdw" name="mh" type="_j92zYFJREeiyW7NaN4qWdw"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_j-BLcFJREeiyW7NaN4qWdw" name="send" method="_j-MKlFJREeiyW7NaN4qWdw" raisedException="_j90-MFJREeiyW7NaN4qWdw">
+                  <ownedParameter xmi:id="_j-BLcVJREeiyW7NaN4qWdw" name="element" type="_j92zYlJREeiyW7NaN4qWdw"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_j-BygFJREeiyW7NaN4qWdw" name="sendAndWait" method="_j-MKllJREeiyW7NaN4qWdw" raisedException="_j90-MFJREeiyW7NaN4qWdw">
+                  <ownedParameter xmi:id="_j-BygVJREeiyW7NaN4qWdw" name="element" type="_j92zYlJREeiyW7NaN4qWdw"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_j-CZkFJREeiyW7NaN4qWdw" name="ask" method="_j-MKmFJREeiyW7NaN4qWdw" raisedException="_j90-MFJREeiyW7NaN4qWdw">
+                  <ownedParameter xmi:id="_j-CZkVJREeiyW7NaN4qWdw" name="request" type="_j92zYlJREeiyW7NaN4qWdw"/>
+                  <ownedParameter xmi:id="_j-CZklJREeiyW7NaN4qWdw" type="_j92zYlJREeiyW7NaN4qWdw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_j9b8oFJREeiyW7NaN4qWdw" name="Server" isLeaf="true">
+                <ownedComment xmi:id="_j-N_xFJREeiyW7NaN4qWdw">
+                  <body>The networking server in which new clients can connect and methods&#xD;
+like &lt;code>sendToAll&lt;/code> are kept.&#xD;
+ *&#xD;
+&lt;br>&lt;br>&#xD;
+ *&#xD;
+When a new client connects to the server a new {@link Connection}&#xD;
+is made, with {@link net.sf.freecol.server.control.UserConnectionHandler}&#xD;
+as the control object.&#xD;
+ *&#xD;
+@see net.sf.freecol.common.networking</body>
+                </ownedComment>
+                <generalization xmi:id="_j-GrAlJREeiyW7NaN4qWdw" general="_j-DAoVJREeiyW7NaN4qWdw"/>
+                <ownedAttribute xmi:id="_j-H5IlJREeiyW7NaN4qWdw" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_j97r4VJREeiyW7NaN4qWdw" isReadOnly="true" association="_j-P08VJREeiyW7NaN4qWdw">
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_j-H5I1JREeiyW7NaN4qWdw" value="Logger.getLogger(Server.class.getName())"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_j-IgMFJREeiyW7NaN4qWdw" name="BACKLOG_DEFAULT" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_j-IgMVJREeiyW7NaN4qWdw" value="10"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_j-IgMlJREeiyW7NaN4qWdw" name="serverSocket" visibility="private" isLeaf="true" type="_j952sVJREeiyW7NaN4qWdw" isReadOnly="true" association="_j-QcAVJREeiyW7NaN4qWdw"/>
+                <ownedAttribute xmi:id="_j-IgNFJREeiyW7NaN4qWdw" name="connections" visibility="private" isLeaf="true" type="_j97E0VJREeiyW7NaN4qWdw" isReadOnly="true" association="_j-RDEVJREeiyW7NaN4qWdw">
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_j-JHQVJREeiyW7NaN4qWdw" value="new HashMap&lt;>()"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_j-JuUVJREeiyW7NaN4qWdw" name="running" visibility="private">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_j-JuUlJREeiyW7NaN4qWdw" value="true"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_j-JuVFJREeiyW7NaN4qWdw" name="freeColServer" visibility="private" isLeaf="true" type="_j98S8VJREeiyW7NaN4qWdw" isReadOnly="true" association="_j-RDFFJREeiyW7NaN4qWdw"/>
+                <ownedAttribute xmi:id="_j-KVYVJREeiyW7NaN4qWdw" name="host" visibility="private" isLeaf="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_j-KVY1JREeiyW7NaN4qWdw" name="port" isLeaf="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_j-K8c1JREeiyW7NaN4qWdw" name="shutdownLock" visibility="private" isLeaf="true" type="_j-DnsFJREeiyW7NaN4qWdw" isReadOnly="true" association="_j-RqIVJREeiyW7NaN4qWdw">
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_j-K8dFJREeiyW7NaN4qWdw" value="new Object()"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_j-MxoFJREeiyW7NaN4qWdw" name="Server" specification="_j-EOwVJREeiyW7NaN4qWdw">
+                  <ownedParameter xmi:id="_j-MxoVJREeiyW7NaN4qWdw" name="freeColServer" type="_j98S8VJREeiyW7NaN4qWdw"/>
+                  <ownedParameter xmi:id="_j-MxolJREeiyW7NaN4qWdw" name="host">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_j-Mxo1JREeiyW7NaN4qWdw" name="port">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_j-MxpFJREeiyW7NaN4qWdw" type="_j9b8oFJREeiyW7NaN4qWdw" direction="return"/>
+                  <language>java</language>
+                  <body>super(FreeCol.SERVER_THREAD + &quot;Server&quot;);&#xD;
+&#xD;
+     this.freeColServer = freeColServer;&#xD;
+     this.host = host;&#xD;
+     this.port = port;&#xD;
+     this.serverSocket = new ServerSocket(port, BACKLOG_DEFAULT,&#xD;
+                                          InetAddress.getByName(host));&#xD;
+     this.serverSocket.setReuseAddress(true);&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_j-MxpVJREeiyW7NaN4qWdw" name="getHost" specification="_j9dx0FJREeiyW7NaN4qWdw">
+                  <ownedParameter xmi:id="_j-MxplJREeiyW7NaN4qWdw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return this.host;&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_j-Mxp1JREeiyW7NaN4qWdw" name="getConnection" specification="_j-E10VJREeiyW7NaN4qWdw">
+                  <ownedParameter xmi:id="_j-MxqFJREeiyW7NaN4qWdw" name="socket" type="_j96dwVJREeiyW7NaN4qWdw"/>
+                  <ownedParameter xmi:id="_j-MxqVJREeiyW7NaN4qWdw" type="_j92MUVJREeiyW7NaN4qWdw" direction="return"/>
+                  <language>java</language>
+                  <body>return connections.get(socket);&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_j-MxqlJREeiyW7NaN4qWdw" name="addDummyConnection" specification="_j-E11FJREeiyW7NaN4qWdw">
+                  <ownedParameter xmi:id="_j-Mxq1JREeiyW7NaN4qWdw" name="connection" type="_j92MUVJREeiyW7NaN4qWdw"/>
+                  <language>java</language>
+                  <body>if (!running) return;&#xD;
+     connections.put(new Socket(), connection);&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_j-MxrFJREeiyW7NaN4qWdw" name="addConnection" specification="_j-Fc4FJREeiyW7NaN4qWdw">
+                  <ownedParameter xmi:id="_j-MxrVJREeiyW7NaN4qWdw" name="connection" type="_j92MUVJREeiyW7NaN4qWdw"/>
+                  <language>java</language>
+                  <body>if (!running) return;&#xD;
+     connections.put(connection.getSocket(), connection);&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_j-MxrlJREeiyW7NaN4qWdw" name="removeConnection" specification="_j-Fc4lJREeiyW7NaN4qWdw">
+                  <ownedParameter xmi:id="_j-Mxr1JREeiyW7NaN4qWdw" name="connection" type="_j92MUVJREeiyW7NaN4qWdw"/>
+                  <language>java</language>
+                  <body>connections.remove(connection.getSocket());&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_j-MxsFJREeiyW7NaN4qWdw" name="setMessageHandlerToAllConnections" specification="_j-GD8FJREeiyW7NaN4qWdw">
+                  <ownedParameter xmi:id="_j-MxsVJREeiyW7NaN4qWdw" name="mh" type="_j92zYFJREeiyW7NaN4qWdw"/>
+                  <language>java</language>
+                  <body>for (Connection c : connections.values()) {&#xD;
+         c.setMessageHandler(mh);&#xD;
+     }&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_j-NYsFJREeiyW7NaN4qWdw" name="sendToAll" specification="_j-GD8lJREeiyW7NaN4qWdw">
+                  <ownedParameter xmi:id="_j-NYsVJREeiyW7NaN4qWdw" name="element" type="_j92zYlJREeiyW7NaN4qWdw"/>
+                  <ownedParameter xmi:id="_j-NYslJREeiyW7NaN4qWdw" name="exceptConnection" type="_j92MUVJREeiyW7NaN4qWdw"/>
+                  <language>java</language>
+                  <body>for (Connection c : new ArrayList&lt;>(connections.values())) {&#xD;
+         if (c == exceptConnection) continue;&#xD;
+         if (c.isAlive()) {&#xD;
+             try {&#xD;
+                 c.sendAndWait(element);&#xD;
+             } catch (IOException e) {&#xD;
+                 logger.log(Level.WARNING, &quot;Unable to send to: &quot; + c, e);&#xD;
+             }&#xD;
+         } else {&#xD;
+             logger.log(Level.INFO, &quot;Reap dead connection: &quot; + c);&#xD;
+             removeConnection(c);&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_j-NYs1JREeiyW7NaN4qWdw" name="sendToAll" specification="_j-GrAFJREeiyW7NaN4qWdw">
+                  <ownedParameter xmi:id="_j-NYtFJREeiyW7NaN4qWdw" name="element" type="_j92zYlJREeiyW7NaN4qWdw"/>
+                  <language>java</language>
+                  <body>sendToAll(element, null);&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_j-NYtVJREeiyW7NaN4qWdw" name="run" specification="_j9eY4FJREeiyW7NaN4qWdw">
+                  <language>java</language>
+                  <body>synchronized (shutdownLock) {&#xD;
+         while (running) {&#xD;
+             Socket clientSocket = null;&#xD;
+             try {&#xD;
+                 clientSocket = serverSocket.accept();&#xD;
+&#xD;
+                 logger.info(&quot;Got client connection from &quot;&#xD;
+                     + clientSocket.getInetAddress()&#xD;
+                     + &quot;:&quot; + clientSocket.getPort());&#xD;
+                 Connection connection =&#xD;
+                     new Connection(clientSocket,&#xD;
+                         freeColServer.getUserConnectionHandler(),&#xD;
+                         FreeCol.SERVER_THREAD);&#xD;
+                 addConnection(connection);&#xD;
+             } catch (IOException e) {&#xD;
+                 if (running) {&#xD;
+                     logger.log(Level.WARNING, &quot;Connection failed: &quot;, e);&#xD;
+                 }&#xD;
+             }&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_j-NYtlJREeiyW7NaN4qWdw" name="shutdown" specification="_j9eY5FJREeiyW7NaN4qWdw">
+                  <language>java</language>
+                  <body>this.running = false;&#xD;
+ &#xD;
+     try {&#xD;
+         serverSocket.close();&#xD;
+         logger.fine(&quot;Closed server socket.&quot;);&#xD;
+     } catch (IOException e) {&#xD;
+         logger.log(Level.WARNING, &quot;Could not close the server socket!&quot;, e);&#xD;
+     }&#xD;
+&#xD;
+     synchronized (shutdownLock) {&#xD;
+         // See run() above.&#xD;
+         logger.fine(&quot;Wait for Server.run to complete.&quot;);&#xD;
+     }&#xD;
+&#xD;
+     for (Connection c : connections.values()) {&#xD;
+         if (c.isAlive()) c.close();&#xD;
+     }&#xD;
+     connections.clear();&#xD;
+&#xD;
+     freeColServer.removeFromMetaServer();&#xD;
+     logger.fine(&quot;Server shutdown.&quot;);&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_j9dx0FJREeiyW7NaN4qWdw" name="getHost" method="_j-MxpVJREeiyW7NaN4qWdw">
+                  <ownedComment xmi:id="_j-N_xlJREeiyW7NaN4qWdw">
+                    <body>Gets the host that is being used for the public socket.&#xD;
+     *&#xD;
+     * @return The name of the host.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_j9dx0VJREeiyW7NaN4qWdw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_j9eY4FJREeiyW7NaN4qWdw" name="run" method="_j-NYtVJREeiyW7NaN4qWdw"/>
+                <ownedOperation xmi:id="_j9eY5FJREeiyW7NaN4qWdw" name="shutdown" method="_j-NYtlJREeiyW7NaN4qWdw">
+                  <ownedComment xmi:id="_j-N_zlJREeiyW7NaN4qWdw">
+                    <body>Shuts down the server thread.</body>
+                  </ownedComment>
+                </ownedOperation>
+                <ownedOperation xmi:id="_j-EOwVJREeiyW7NaN4qWdw" name="Server" method="_j-MxoFJREeiyW7NaN4qWdw" raisedException="_j90-MFJREeiyW7NaN4qWdw">
+                  <eAnnotations xmi:id="_j-EOxVJREeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_j-EOxlJREeiyW7NaN4qWdw" key="create"/>
+                  </eAnnotations>
+                  <ownedComment xmi:id="_j-N_xVJREeiyW7NaN4qWdw">
+                    <body>Creates a new network server. Use {@link #run server.start()} to start&#xD;
+     * listening for new connections.&#xD;
+     *&#xD;
+     * @param freeColServer The owner of this &lt;code>Server&lt;/code>.&#xD;
+     * @param host The name of the host for the public socket.&#xD;
+     * @param port The TCP port to use for the public socket.&#xD;
+     * @throws IOException if the public socket cannot be created.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_j-EOwlJREeiyW7NaN4qWdw" name="freeColServer" type="_j98S8VJREeiyW7NaN4qWdw"/>
+                  <ownedParameter xmi:id="_j-EOw1JREeiyW7NaN4qWdw" name="host">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_j-EOxFJREeiyW7NaN4qWdw" name="port">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_j-E10FJREeiyW7NaN4qWdw" type="_j9b8oFJREeiyW7NaN4qWdw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_j-E10VJREeiyW7NaN4qWdw" name="getConnection" method="_j-Mxp1JREeiyW7NaN4qWdw">
+                  <ownedComment xmi:id="_j-N_x1JREeiyW7NaN4qWdw">
+                    <body>Gets a &lt;code>Connection&lt;/code> identified by a &lt;code>Socket&lt;/code>.&#xD;
+     *&#xD;
+     * @param socket The &lt;code>Socket&lt;/code> that identifies the&#xD;
+     *               &lt;code>Connection&lt;/code>&#xD;
+     * @return The &lt;code>Connection&lt;/code>.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_j-E10lJREeiyW7NaN4qWdw" name="socket" type="_j96dwVJREeiyW7NaN4qWdw"/>
+                  <ownedParameter xmi:id="_j-E101JREeiyW7NaN4qWdw" type="_j92MUVJREeiyW7NaN4qWdw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_j-E11FJREeiyW7NaN4qWdw" name="addDummyConnection" method="_j-MxqlJREeiyW7NaN4qWdw">
+                  <ownedComment xmi:id="_j-N_yFJREeiyW7NaN4qWdw">
+                    <body>Adds a (usually Dummy)Connection into the hashmap.&#xD;
+     *&#xD;
+     * @param connection The connection to add.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_j-E11VJREeiyW7NaN4qWdw" name="connection" type="_j92MUVJREeiyW7NaN4qWdw"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_j-Fc4FJREeiyW7NaN4qWdw" name="addConnection" method="_j-MxrFJREeiyW7NaN4qWdw">
+                  <ownedComment xmi:id="_j-N_yVJREeiyW7NaN4qWdw">
+                    <body>Adds a Connection into the hashmap.&#xD;
+     *&#xD;
+     * @param connection The connection to add.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_j-Fc4VJREeiyW7NaN4qWdw" name="connection" type="_j92MUVJREeiyW7NaN4qWdw"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_j-Fc4lJREeiyW7NaN4qWdw" name="removeConnection" method="_j-MxrlJREeiyW7NaN4qWdw">
+                  <ownedComment xmi:id="_j-N_ylJREeiyW7NaN4qWdw">
+                    <body>Removes the given connection.&#xD;
+     *&#xD;
+     * @param connection The connection that should be removed.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_j-Fc41JREeiyW7NaN4qWdw" name="connection" type="_j92MUVJREeiyW7NaN4qWdw"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_j-GD8FJREeiyW7NaN4qWdw" name="setMessageHandlerToAllConnections" method="_j-MxsFJREeiyW7NaN4qWdw">
+                  <ownedComment xmi:id="_j-N_y1JREeiyW7NaN4qWdw">
+                    <body>Sets the specified &lt;code>MessageHandler&lt;/code> to all connections.&#xD;
+     *&#xD;
+     * @param mh The &lt;code>MessageHandler&lt;/code> to use.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_j-GD8VJREeiyW7NaN4qWdw" name="mh" type="_j92zYFJREeiyW7NaN4qWdw"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_j-GD8lJREeiyW7NaN4qWdw" name="sendToAll" method="_j-NYsFJREeiyW7NaN4qWdw">
+                  <ownedComment xmi:id="_j-N_zFJREeiyW7NaN4qWdw">
+                    <body>Sends a network message to all connections with an optional exception.&#xD;
+     *&#xD;
+     * @param element The root &lt;code>Element&lt;/code> of the message to send.&#xD;
+     * @param exceptConnection An optional &lt;code>Connection&lt;/code> not&#xD;
+     *     to send to.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_j-GD81JREeiyW7NaN4qWdw" name="element" type="_j92zYlJREeiyW7NaN4qWdw"/>
+                  <ownedParameter xmi:id="_j-GD9FJREeiyW7NaN4qWdw" name="exceptConnection" type="_j92MUVJREeiyW7NaN4qWdw"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_j-GrAFJREeiyW7NaN4qWdw" name="sendToAll" method="_j-NYs1JREeiyW7NaN4qWdw">
+                  <ownedComment xmi:id="_j-N_zVJREeiyW7NaN4qWdw">
+                    <body>Sends a network message to all connections.&#xD;
+     *&#xD;
+     * @param element The root element of the message to send.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_j-GrAVJREeiyW7NaN4qWdw" name="element" type="_j92zYlJREeiyW7NaN4qWdw"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_j-Om0FJREeiyW7NaN4qWdw" name="" memberEnd="_j-Om0VJREeiyW7NaN4qWdw _j-HSEFJREeiyW7NaN4qWdw">
+                <ownedEnd xmi:id="_j-Om0VJREeiyW7NaN4qWdw" name="" type="_j9YSQFJREeiyW7NaN4qWdw" association="_j-Om0FJREeiyW7NaN4qWdw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_j-PN4VJREeiyW7NaN4qWdw" name="" memberEnd="_j-PN4lJREeiyW7NaN4qWdw _j-H5IVJREeiyW7NaN4qWdw">
+                <ownedEnd xmi:id="_j-PN4lJREeiyW7NaN4qWdw" name="" type="_j9YSQFJREeiyW7NaN4qWdw" association="_j-PN4VJREeiyW7NaN4qWdw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_j-P08VJREeiyW7NaN4qWdw" name="" memberEnd="_j-P08lJREeiyW7NaN4qWdw _j-H5IlJREeiyW7NaN4qWdw">
+                <ownedEnd xmi:id="_j-P08lJREeiyW7NaN4qWdw" name="" type="_j9b8oFJREeiyW7NaN4qWdw" association="_j-P08VJREeiyW7NaN4qWdw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_j-QcAVJREeiyW7NaN4qWdw" name="" memberEnd="_j-QcAlJREeiyW7NaN4qWdw _j-IgMlJREeiyW7NaN4qWdw">
+                <ownedEnd xmi:id="_j-QcAlJREeiyW7NaN4qWdw" name="" type="_j9b8oFJREeiyW7NaN4qWdw" association="_j-QcAVJREeiyW7NaN4qWdw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_j-RDEVJREeiyW7NaN4qWdw" name="" memberEnd="_j-RDElJREeiyW7NaN4qWdw _j-IgNFJREeiyW7NaN4qWdw">
+                <ownedEnd xmi:id="_j-RDElJREeiyW7NaN4qWdw" name="" type="_j9b8oFJREeiyW7NaN4qWdw" association="_j-RDEVJREeiyW7NaN4qWdw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_j-RDFFJREeiyW7NaN4qWdw" name="" memberEnd="_j-RDFVJREeiyW7NaN4qWdw _j-JuVFJREeiyW7NaN4qWdw">
+                <ownedEnd xmi:id="_j-RDFVJREeiyW7NaN4qWdw" name="" type="_j9b8oFJREeiyW7NaN4qWdw" association="_j-RDFFJREeiyW7NaN4qWdw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_j-RqIVJREeiyW7NaN4qWdw" name="" memberEnd="_j-RqIlJREeiyW7NaN4qWdw _j-K8c1JREeiyW7NaN4qWdw">
+                <ownedEnd xmi:id="_j-RqIlJREeiyW7NaN4qWdw" name="" type="_j9b8oFJREeiyW7NaN4qWdw" association="_j-RqIVJREeiyW7NaN4qWdw"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_j98S8VJREeiyW7NaN4qWdw" name="FreeColServer"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_j9N6NVJREeiyW7NaN4qWdw" name="common">
+            <packagedElement xmi:type="uml:Package" xmi:id="_j9N6NlJREeiyW7NaN4qWdw" name="networking">
+              <packagedElement xmi:type="uml:Class" xmi:id="_j92MUVJREeiyW7NaN4qWdw" name="Connection"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_j92zYFJREeiyW7NaN4qWdw" name="MessageHandler"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_j91lQVJREeiyW7NaN4qWdw" name="FreeColException"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_j97r41JREeiyW7NaN4qWdw" name="FreeCol"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_j9N6M1JREeiyW7NaN4qWdw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_j9N6NFJREeiyW7NaN4qWdw" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_j90-MFJREeiyW7NaN4qWdw" name="IOException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_j9Q9gFJREeiyW7NaN4qWdw" name="net">
+        <packagedElement xmi:type="uml:Class" xmi:id="_j95PoFJREeiyW7NaN4qWdw" name="InetAddress"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_j952sVJREeiyW7NaN4qWdw" name="ServerSocket"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_j96dwVJREeiyW7NaN4qWdw" name="Socket"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_j9RkkFJREeiyW7NaN4qWdw" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_j9RkkVJREeiyW7NaN4qWdw" name="logging">
+          <packagedElement xmi:type="uml:Class" xmi:id="_j97E01JREeiyW7NaN4qWdw" name="Level"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_j97r4VJREeiyW7NaN4qWdw" name="Logger"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_j96dw1JREeiyW7NaN4qWdw" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_j97E0VJREeiyW7NaN4qWdw" name="HashMap"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_j-DAoFJREeiyW7NaN4qWdw" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_j-DAoVJREeiyW7NaN4qWdw" name="Thread"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_j-DnsFJREeiyW7NaN4qWdw" name="Object"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_j9N6N1JREeiyW7NaN4qWdw" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_j9N6OFJREeiyW7NaN4qWdw" name="w3c">
+        <packagedElement xmi:type="uml:Package" xmi:id="_j9N6OVJREeiyW7NaN4qWdw" name="dom">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_j92zYlJREeiyW7NaN4qWdw" name="Element"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_jyyy4FJREeiyW7NaN4qWdw">
+      <eAnnotations xmi:id="_jyyy4VJREeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_jyzZ8FJREeiyW7NaN4qWdw" base_Package="_jo-vkFJREeiyW7NaN4qWdw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_j9ZgYVJREeiyW7NaN4qWdw" base_Element="_j9ZgYFJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_j9ZgYlJREeiyW7NaN4qWdw" base_Element="_j9ZgYFJREeiyW7NaN4qWdw">
+    <annotations xmi:id="_j9ZgY1JREeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_j9aHclJREeiyW7NaN4qWdw" base_Element="_j9aHcFJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_j9aHc1JREeiyW7NaN4qWdw" base_Element="_j9aHcFJREeiyW7NaN4qWdw">
+    <annotations xmi:id="_j9aHdFJREeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_j9eY4VJREeiyW7NaN4qWdw" base_Element="_j9eY4FJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_j9eY4lJREeiyW7NaN4qWdw" base_Element="_j9eY4FJREeiyW7NaN4qWdw">
+    <annotations xmi:id="_j9eY41JREeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_j91lQFJREeiyW7NaN4qWdw" base_Element="_j90-MFJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_j92MUFJREeiyW7NaN4qWdw" base_Element="_j91lQVJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_j92MUlJREeiyW7NaN4qWdw" base_Element="_j92MUVJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_j92zYVJREeiyW7NaN4qWdw" base_Element="_j92zYFJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_j93acFJREeiyW7NaN4qWdw" base_Element="_j92zYlJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_j952sFJREeiyW7NaN4qWdw" base_Element="_j95PoFJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_j96dwFJREeiyW7NaN4qWdw" base_Element="_j952sVJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_j96dwlJREeiyW7NaN4qWdw" base_Element="_j96dwVJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_j97E0FJREeiyW7NaN4qWdw" base_Element="_j96dw1JREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_j97E0lJREeiyW7NaN4qWdw" base_Element="_j97E0VJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_j97r4FJREeiyW7NaN4qWdw" base_Element="_j97E01JREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_j97r4lJREeiyW7NaN4qWdw" base_Element="_j97r4VJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_j98S8FJREeiyW7NaN4qWdw" base_Element="_j97r41JREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_j986AFJREeiyW7NaN4qWdw" base_Element="_j98S8VJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_j-BLclJREeiyW7NaN4qWdw" base_Element="_j-BLcFJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_j-BLc1JREeiyW7NaN4qWdw" base_Element="_j-BLcFJREeiyW7NaN4qWdw">
+    <annotations xmi:id="_j-BLdFJREeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_j-ByglJREeiyW7NaN4qWdw" base_Element="_j-BygFJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_j-Byg1JREeiyW7NaN4qWdw" base_Element="_j-BygFJREeiyW7NaN4qWdw">
+    <annotations xmi:id="_j-ByhFJREeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_j-CZk1JREeiyW7NaN4qWdw" base_Element="_j-CZkFJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_j-CZlFJREeiyW7NaN4qWdw" base_Element="_j-CZkFJREeiyW7NaN4qWdw">
+    <annotations xmi:id="_j-CZlVJREeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_j-DAolJREeiyW7NaN4qWdw" base_Element="_j-DAoVJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_j-EOwFJREeiyW7NaN4qWdw" base_Element="_j-DnsFJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_j-H5IFJREeiyW7NaN4qWdw" base_Element="_j-HSEFJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_j-IgM1JREeiyW7NaN4qWdw" base_Element="_j-IgMlJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Generics xmi:id="_j-JHQFJREeiyW7NaN4qWdw" genericsValue="Socket, Connection" base_Element="_j-IgNFJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_j-JuUFJREeiyW7NaN4qWdw" base_Element="_j-IgNFJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_j-JuU1JREeiyW7NaN4qWdw" base_Element="_j-JuUVJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_j-KVYFJREeiyW7NaN4qWdw" base_Element="_j-JuVFJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_j-KVYlJREeiyW7NaN4qWdw" base_Element="_j-KVYVJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_j-K8cFJREeiyW7NaN4qWdw" base_Element="_j-KVY1JREeiyW7NaN4qWdw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_j-K8cVJREeiyW7NaN4qWdw" name="getPort" method="_j-MKnVJREeiyW7NaN4qWdw">
+      <ownedParameter xmi:id="_j-K8clJREeiyW7NaN4qWdw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_j-LjgFJREeiyW7NaN4qWdw" base_Element="_j-K8c1JREeiyW7NaN4qWdw"/>
+  <uml:OpaqueBehavior xmi:id="_j-MKnVJREeiyW7NaN4qWdw" name="getPort" specification="_j-K8cVJREeiyW7NaN4qWdw">
+    <ownedParameter xmi:id="_j-MKnlJREeiyW7NaN4qWdw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return this.port;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_j-PN4FJREeiyW7NaN4qWdw" base_Element="_j-Om0FJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_j-P08FJREeiyW7NaN4qWdw" base_Element="_j-PN4VJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_j-QcAFJREeiyW7NaN4qWdw" base_Element="_j-P08VJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_j-RDEFJREeiyW7NaN4qWdw" base_Element="_j-QcAVJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_j-RDE1JREeiyW7NaN4qWdw" base_Element="_j-RDEVJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_j-RqIFJREeiyW7NaN4qWdw" base_Element="_j-RDFFJREeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_j-SRMFJREeiyW7NaN4qWdw" base_Element="_j-RqIVJREeiyW7NaN4qWdw"/>
+</xmi:XMI>

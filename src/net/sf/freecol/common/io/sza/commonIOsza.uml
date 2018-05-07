@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_FxISsFIoEeibjuLm5_lcNQ" name="commonIOsza">
+    <eAnnotations xmi:id="_GrMuQFIoEeibjuLm5_lcNQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_GrMuQVIoEeibjuLm5_lcNQ" source="codegen">
+        <details xmi:id="_GrMuQlIoEeibjuLm5_lcNQ" key="codegenDirectory" value="/COSC442-FinalProject/src"/>
+        <details xmi:id="_Hl6DAFIoEeibjuLm5_lcNQ" key="AssociatedSourceCode" value="/COSC442-FinalProject/src/net/sf/freecol/common/io/sza/AnimationEvent.java;1250749139/1;/COSC442-FinalProject/src/net/sf/freecol/common/io/sza/ImageAnimationEvent.java;3816609280/1;/COSC442-FinalProject/src/net/sf/freecol/common/io/sza/SimpleZippedAnimation.java;286584144/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_HJSYcFIoEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_HJSYcVIoEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_HJSYclIoEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_HJSYc1IoEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_HJSYdFIoEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_HJSYdVIoEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_HJSYdlIoEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_HJSYd1IoEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_HJS_gFIoEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_HJJOgFIoEeibjuLm5_lcNQ" name="net">
+      <packagedElement xmi:type="uml:Package" xmi:id="_HJJOgVIoEeibjuLm5_lcNQ" name="sf">
+        <packagedElement xmi:type="uml:Package" xmi:id="_HJJ1kFIoEeibjuLm5_lcNQ" name="freecol">
+          <packagedElement xmi:type="uml:Package" xmi:id="_HJJ1kVIoEeibjuLm5_lcNQ" name="common">
+            <packagedElement xmi:type="uml:Package" xmi:id="_HJJ1klIoEeibjuLm5_lcNQ" name="io">
+              <packagedElement xmi:type="uml:Package" xmi:id="_HJJ1k1IoEeibjuLm5_lcNQ" name="sza">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_HJRKUFIoEeibjuLm5_lcNQ" name="AnimationEvent">
+                  <ownedComment xmi:id="_HKkK01IoEeibjuLm5_lcNQ">
+                    <body>An event created by an animation.</body>
+                  </ownedComment>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Interface" xmi:id="_HJRxYFIoEeibjuLm5_lcNQ" name="ImageAnimationEvent">
+                  <ownedComment xmi:id="_HKkK1FIoEeibjuLm5_lcNQ">
+                    <body>An event describing that the given image should&#xD;
+be displayed.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_HJz84lIoEeibjuLm5_lcNQ" general="_HJRKUFIoEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_HJS_gVIoEeibjuLm5_lcNQ" name="image" type="_HJz84FIoEeibjuLm5_lcNQ" isReadOnly="true" association="_HKmAAFIoEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_HJS_glIoEeibjuLm5_lcNQ" name="durationInMs" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedAttribute>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_HJTmkFIoEeibjuLm5_lcNQ" name="SimpleZippedAnimation" isLeaf="true">
+                  <ownedComment xmi:id="_HKkx4FIoEeibjuLm5_lcNQ">
+                    <body>An animation made from images stored in a zip-file.</body>
+                  </ownedComment>
+                  <ownedAttribute xmi:id="_HKXWgFIoEeibjuLm5_lcNQ" name="ANIMATION_DESCRIPTOR_FILE" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_HKXWgVIoEeibjuLm5_lcNQ" value="&quot;animation.txt&quot;"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_HKX9kFIoEeibjuLm5_lcNQ" name="events" visibility="private" isLeaf="true" type="_HJRKUFIoEeibjuLm5_lcNQ" isOrdered="true" isReadOnly="true" association="_HKmnEVIoEeibjuLm5_lcNQ">
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HKX9kVIoEeibjuLm5_lcNQ" value="*"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_HKYkoFIoEeibjuLm5_lcNQ" name="width" visibility="private" isLeaf="true" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_HKZLsFIoEeibjuLm5_lcNQ" name="height" visibility="private" isLeaf="true" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedAttribute>
+                  <interfaceRealization xmi:id="_HKPaslIoEeibjuLm5_lcNQ" client="_HJTmkFIoEeibjuLm5_lcNQ" supplier="_HKPasFIoEeibjuLm5_lcNQ" contract="_HKPasFIoEeibjuLm5_lcNQ"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HKhukFIoEeibjuLm5_lcNQ" name="SimpleZippedAnimation" specification="_HKRP4FIoEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_HKhukVIoEeibjuLm5_lcNQ" name="url" type="_HJ9t7VIoEeibjuLm5_lcNQ">
+                      <eAnnotations xmi:id="_HKhuklIoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_HKhuk1IoEeibjuLm5_lcNQ" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_HKhulFIoEeibjuLm5_lcNQ" type="_HJTmkFIoEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>this(url.openStream());&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HKiVoFIoEeibjuLm5_lcNQ" name="SimpleZippedAnimation" specification="_HKR28VIoEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_HKiVoVIoEeibjuLm5_lcNQ" name="zipStream" type="_HJ9t6VIoEeibjuLm5_lcNQ">
+                      <eAnnotations xmi:id="_HKiVolIoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_HKiVo1IoEeibjuLm5_lcNQ" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_HKiVpFIoEeibjuLm5_lcNQ" type="_HJTmkFIoEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>this(new ZipInputStream(zipStream));&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HKiVpVIoEeibjuLm5_lcNQ" name="SimpleZippedAnimation" specification="_HKSeAFIoEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_HKiVplIoEeibjuLm5_lcNQ" name="events" type="_HJ9t-VIoEeibjuLm5_lcNQ">
+                      <eAnnotations xmi:id="_HKiVp1IoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_HKiVqFIoEeibjuLm5_lcNQ" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_HKiVqVIoEeibjuLm5_lcNQ" name="width">
+                      <eAnnotations xmi:id="_HKiVqlIoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_HKiVq1IoEeibjuLm5_lcNQ" key="final"/>
+                      </eAnnotations>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_HKiVrFIoEeibjuLm5_lcNQ" name="height">
+                      <eAnnotations xmi:id="_HKiVrVIoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_HKiVrlIoEeibjuLm5_lcNQ" key="final"/>
+                      </eAnnotations>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_HKiVr1IoEeibjuLm5_lcNQ" type="_HJTmkFIoEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>this.events = events;&#xD;
+     this.width = width;&#xD;
+     this.height = height;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HKiVsFIoEeibjuLm5_lcNQ" name="SimpleZippedAnimation" specification="_HKTsIlIoEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_HKiVsVIoEeibjuLm5_lcNQ" name="zipStream" type="_HJ9t_1IoEeibjuLm5_lcNQ">
+                      <eAnnotations xmi:id="_HKiVslIoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_HKiVs1IoEeibjuLm5_lcNQ" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_HKiVtFIoEeibjuLm5_lcNQ" type="_HJTmkFIoEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>this.events = new ArrayList&lt;>();&#xD;
+&#xD;
+     /*&#xD;
+      * Preload all files from the archive since we cannot&#xD;
+      * use a ZipFile for reading (as we should support an&#xD;
+      * arbitrary stream).&#xD;
+      */&#xD;
+     final Map&lt;String, BufferedImage> loadingImages = new HashMap&lt;>();&#xD;
+     final List&lt;String> loadingDescriptor = new LinkedList&lt;>();&#xD;
+     try {&#xD;
+         ZipEntry entry;&#xD;
+         while ((entry = zipStream.getNextEntry()) != null) {&#xD;
+             if (ANIMATION_DESCRIPTOR_FILE.equals(entry.getName())) {&#xD;
+                 final BufferedReader in = new BufferedReader(new InputStreamReader(zipStream, &quot;UTF-8&quot;));&#xD;
+                 String line;&#xD;
+                 while ((line = in.readLine()) != null) {&#xD;
+                     loadingDescriptor.add(line);&#xD;
+                 }&#xD;
+             } else {&#xD;
+                 loadingImages.put(entry.getName(), ImageIO.read(zipStream));&#xD;
+             }&#xD;
+             zipStream.closeEntry();&#xD;
+         }&#xD;
+     } finally {&#xD;
+         try {&#xD;
+             zipStream.close();&#xD;
+         } catch (IOException e) {}&#xD;
+     }&#xD;
+     &#xD;
+     if (loadingDescriptor.isEmpty()) {&#xD;
+         throw new IOException(&quot;animation.txt is missing from the SZA.&quot;);&#xD;
+     }&#xD;
+     &#xD;
+     int largestWidth = 0;&#xD;
+     int largestHeight = 0;&#xD;
+     for (String line : loadingDescriptor) {&#xD;
+         final int index = line.indexOf('(');&#xD;
+         final int index2 = line.indexOf(&quot;ms)&quot;);&#xD;
+         if (index &lt; 0 || index2 &lt;= index) {&#xD;
+             throw new IOException(&quot;animation.txt should use the format: FILNAME (TIMEms)&quot;);&#xD;
+         }&#xD;
+         final String imageName = line.substring(0, index).trim();&#xD;
+         final int durationInMs = Integer.parseInt(line.substring(index+1, index2));&#xD;
+         final BufferedImage image = loadingImages.get(imageName);&#xD;
+         if (image == null) {&#xD;
+             throw new IOException(&quot;Could not find referenced image: &quot; + imageName);&#xD;
+         }&#xD;
+         events.add(new ImageAnimationEventImpl(image, durationInMs)); &#xD;
+         if (image.getWidth() > largestWidth) {&#xD;
+             largestWidth = image.getWidth();&#xD;
+         }&#xD;
+         if (image.getHeight() > largestHeight) {&#xD;
+             largestHeight = image.getHeight();&#xD;
+         }&#xD;
+     }&#xD;
+     this.width = largestWidth;&#xD;
+     this.height = largestHeight;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HKi8sFIoEeibjuLm5_lcNQ" name="getWidth" specification="_HJUNoFIoEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_HKi8sVIoEeibjuLm5_lcNQ" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return width;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HKi8slIoEeibjuLm5_lcNQ" name="getHeight" specification="_HJU0sVIoEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_HKi8s1IoEeibjuLm5_lcNQ" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return height;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HKi8tFIoEeibjuLm5_lcNQ" name="iterator" specification="_HJU0s1IoEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_HKi8tVIoEeibjuLm5_lcNQ" type="_HJ9t9VIoEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return Collections.unmodifiableList(events).iterator();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HKi8tlIoEeibjuLm5_lcNQ" name="createScaledVersion" specification="_HJVbxFIoEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_HKi8t1IoEeibjuLm5_lcNQ" name="scale">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_HKi8uFIoEeibjuLm5_lcNQ" type="_HJTmkFIoEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>final List&lt;AnimationEvent> newEvents = new ArrayList&lt;>();&#xD;
+     for (AnimationEvent event : events) {&#xD;
+         if (event instanceof ImageAnimationEvent) {&#xD;
+             newEvents.add(((ImageAnimationEventImpl) event).createScaledVersion(scale));&#xD;
+         } else {&#xD;
+             newEvents.add(event);&#xD;
+         }&#xD;
+     }&#xD;
+     return new SimpleZippedAnimation(newEvents, (int) (width * scale), (int) (height * scale));&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_HJUNoFIoEeibjuLm5_lcNQ" name="getWidth" method="_HKi8sFIoEeibjuLm5_lcNQ">
+                    <ownedComment xmi:id="_HKkx41IoEeibjuLm5_lcNQ">
+                      <body>Gets the width of the animation.&#xD;
+     * @return The largest width of all the frames in&#xD;
+     *      this animation.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_HJU0sFIoEeibjuLm5_lcNQ" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_HJU0sVIoEeibjuLm5_lcNQ" name="getHeight" method="_HKi8slIoEeibjuLm5_lcNQ">
+                    <ownedComment xmi:id="_HKkx5FIoEeibjuLm5_lcNQ">
+                      <body>Gets the height of the animation.&#xD;
+     * @return The largest height of all the frames in&#xD;
+     *      this animation.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_HJU0slIoEeibjuLm5_lcNQ" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_HJU0s1IoEeibjuLm5_lcNQ" name="iterator" method="_HKi8tFIoEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_HKUTMlIoEeibjuLm5_lcNQ" type="_HJ9t9VIoEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_HJVbxFIoEeibjuLm5_lcNQ" name="createScaledVersion" method="_HKi8tlIoEeibjuLm5_lcNQ">
+                    <ownedComment xmi:id="_HKkx5VIoEeibjuLm5_lcNQ">
+                      <body>Creates a scaled animation based on this object.&#xD;
+     * &#xD;
+     * @param scale The scaling factor (with 1 being normal size,&#xD;
+     *      2 twice the size, 0.5 half the size etc).&#xD;
+     * @return The scaled animation.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_HJVbxVIoEeibjuLm5_lcNQ" name="scale">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_HJ9uA1IoEeibjuLm5_lcNQ" type="_HJTmkFIoEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_HKRP4FIoEeibjuLm5_lcNQ" name="SimpleZippedAnimation" method="_HKhukFIoEeibjuLm5_lcNQ" raisedException="_HJ9t51IoEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_HKRP4lIoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_HKRP41IoEeibjuLm5_lcNQ" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_HKkx4VIoEeibjuLm5_lcNQ">
+                      <body>Creates a new animation from a stream generated by the&#xD;
+     * provided URL.&#xD;
+     * &#xD;
+     * @param url The URL to read a zip-file from. &#xD;
+     * @throws IOException if the file cannot be opened, or&#xD;
+     *      is invalid.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_HKRP4VIoEeibjuLm5_lcNQ" name="url" type="_HJ9t7VIoEeibjuLm5_lcNQ">
+                      <eAnnotations xmi:id="_HKRP5VIoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_HKR28FIoEeibjuLm5_lcNQ" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_HKRP5FIoEeibjuLm5_lcNQ" type="_HJTmkFIoEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_HKR28VIoEeibjuLm5_lcNQ" name="SimpleZippedAnimation" method="_HKiVoFIoEeibjuLm5_lcNQ" raisedException="_HJ9t51IoEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_HKR281IoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_HKR29FIoEeibjuLm5_lcNQ" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_HKkx4lIoEeibjuLm5_lcNQ">
+                      <body>Creates a new animation from a stream.&#xD;
+     * &#xD;
+     * @param zipStream An &lt;code>InputStream&lt;/code> to a zip-file. &#xD;
+     * @throws IOException if the file cannot be opened, or&#xD;
+     *      is invalid.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_HKR28lIoEeibjuLm5_lcNQ" name="zipStream" type="_HJ9t6VIoEeibjuLm5_lcNQ">
+                      <eAnnotations xmi:id="_HKR29lIoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_HKR291IoEeibjuLm5_lcNQ" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_HKR29VIoEeibjuLm5_lcNQ" type="_HJTmkFIoEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_HKSeAFIoEeibjuLm5_lcNQ" name="SimpleZippedAnimation" visibility="private" method="_HKiVpVIoEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_HKSeBFIoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_HKSeBVIoEeibjuLm5_lcNQ" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_HKSeAVIoEeibjuLm5_lcNQ" name="events" type="_HJ9t-VIoEeibjuLm5_lcNQ">
+                      <eAnnotations xmi:id="_HKTFEFIoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_HKTFEVIoEeibjuLm5_lcNQ" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_HKSeAlIoEeibjuLm5_lcNQ" name="width">
+                      <eAnnotations xmi:id="_HKTFE1IoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_HKTFFFIoEeibjuLm5_lcNQ" key="final"/>
+                      </eAnnotations>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_HKSeA1IoEeibjuLm5_lcNQ" name="height">
+                      <eAnnotations xmi:id="_HKTsIFIoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_HKTsIVIoEeibjuLm5_lcNQ" key="final"/>
+                      </eAnnotations>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_HKSeBlIoEeibjuLm5_lcNQ" type="_HJTmkFIoEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_HKTsIlIoEeibjuLm5_lcNQ" name="SimpleZippedAnimation" visibility="private" method="_HKiVsFIoEeibjuLm5_lcNQ" raisedException="_HJ9t51IoEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_HKTsJFIoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_HKTsJVIoEeibjuLm5_lcNQ" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_HKTsI1IoEeibjuLm5_lcNQ" name="zipStream" type="_HJ9t_1IoEeibjuLm5_lcNQ">
+                      <eAnnotations xmi:id="_HKUTMFIoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_HKUTMVIoEeibjuLm5_lcNQ" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_HKTsJlIoEeibjuLm5_lcNQ" type="_HJTmkFIoEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_HJWC0FIoEeibjuLm5_lcNQ" name="ImageAnimationEventImpl" visibility="private" isLeaf="true">
+                    <eAnnotations xmi:id="_HJWp4FIoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_HJWp4VIoEeibjuLm5_lcNQ" key="static"/>
+                    </eAnnotations>
+                    <ownedAttribute xmi:id="_HKZywFIoEeibjuLm5_lcNQ" name="_c" visibility="private" isLeaf="true" isStatic="true" type="_HJz841IoEeibjuLm5_lcNQ" isReadOnly="true" association="_HKnOIVIoEeibjuLm5_lcNQ">
+                      <defaultValue xmi:type="uml:LiteralString" xmi:id="_HKZywVIoEeibjuLm5_lcNQ" value="new Component() {}"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:id="_HKZywlIoEeibjuLm5_lcNQ" name="image" visibility="private" isLeaf="true" type="_HJz84FIoEeibjuLm5_lcNQ" isReadOnly="true" association="_HKnOJFIoEeibjuLm5_lcNQ"/>
+                    <ownedAttribute xmi:id="_HKeEMFIoEeibjuLm5_lcNQ" name="durationInMs" visibility="private" isLeaf="true" isReadOnly="true">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedAttribute>
+                    <interfaceRealization xmi:id="_HJ9uBFIoEeibjuLm5_lcNQ" client="_HJWC0FIoEeibjuLm5_lcNQ" supplier="_HJRxYFIoEeibjuLm5_lcNQ" contract="_HJRxYFIoEeibjuLm5_lcNQ"/>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HKjjwFIoEeibjuLm5_lcNQ" name="ImageAnimationEventImpl" specification="_HKU6QFIoEeibjuLm5_lcNQ">
+                      <ownedParameter xmi:id="_HKjjwVIoEeibjuLm5_lcNQ" name="image" type="_HJz84FIoEeibjuLm5_lcNQ">
+                        <eAnnotations xmi:id="_HKjjwlIoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                          <details xmi:id="_HKjjw1IoEeibjuLm5_lcNQ" key="final"/>
+                        </eAnnotations>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_HKjjxFIoEeibjuLm5_lcNQ" name="durationInMs">
+                        <eAnnotations xmi:id="_HKjjxVIoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                          <details xmi:id="_HKjjxlIoEeibjuLm5_lcNQ" key="final"/>
+                        </eAnnotations>
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_HKjjx1IoEeibjuLm5_lcNQ" type="_HJWC0FIoEeibjuLm5_lcNQ" direction="return"/>
+                      <language>java</language>
+                      <body>this.image = image;&#xD;
+         this.durationInMs = durationInMs;&#xD;
+     </body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HKjjyFIoEeibjuLm5_lcNQ" name="getImage" specification="_HJWp4lIoEeibjuLm5_lcNQ">
+                      <ownedParameter xmi:id="_HKjjyVIoEeibjuLm5_lcNQ" type="_HJz84FIoEeibjuLm5_lcNQ" direction="return"/>
+                      <language>java</language>
+                      <body>return image;&#xD;
+     </body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HKjjylIoEeibjuLm5_lcNQ" name="getDurationInMs" specification="_HJXQ81IoEeibjuLm5_lcNQ">
+                      <ownedParameter xmi:id="_HKjjy1IoEeibjuLm5_lcNQ" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <language>java</language>
+                      <body>return durationInMs;&#xD;
+     </body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HKkK0FIoEeibjuLm5_lcNQ" name="createScaledVersion" specification="_HJX4AVIoEeibjuLm5_lcNQ">
+                      <ownedParameter xmi:id="_HKkK0VIoEeibjuLm5_lcNQ" name="scale">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_HKkK0lIoEeibjuLm5_lcNQ" type="_HJRxYFIoEeibjuLm5_lcNQ" direction="return"/>
+                      <language>java</language>
+                      <body>final int width = (int) (image.getWidth(null) * scale);&#xD;
+         final int height = (int) (image.getHeight(null) * scale);&#xD;
+         &#xD;
+         BufferedImage scaled = new BufferedImage(width, height,&#xD;
+             BufferedImage.TYPE_INT_ARGB);&#xD;
+         Graphics2D g = scaled.createGraphics();&#xD;
+         g.setRenderingHint(RenderingHints.KEY_INTERPOLATION,&#xD;
+             RenderingHints.VALUE_INTERPOLATION_BICUBIC);&#xD;
+         g.drawImage(image, 0, 0, width, height, null);&#xD;
+         g.dispose();&#xD;
+&#xD;
+         return new ImageAnimationEventImpl(scaled, durationInMs);&#xD;
+     </body>
+                    </ownedBehavior>
+                    <ownedOperation xmi:id="_HJWp4lIoEeibjuLm5_lcNQ" name="getImage" method="_HKjjyFIoEeibjuLm5_lcNQ">
+                      <ownedParameter xmi:id="_HKVhUFIoEeibjuLm5_lcNQ" type="_HJz84FIoEeibjuLm5_lcNQ" direction="return"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_HJXQ81IoEeibjuLm5_lcNQ" name="getDurationInMs" method="_HKjjylIoEeibjuLm5_lcNQ">
+                      <ownedParameter xmi:id="_HJXQ9FIoEeibjuLm5_lcNQ" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_HJX4AVIoEeibjuLm5_lcNQ" name="createScaledVersion" visibility="private" method="_HKkK0FIoEeibjuLm5_lcNQ">
+                      <ownedParameter xmi:id="_HJX4AlIoEeibjuLm5_lcNQ" name="scale">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_HJ9uBVIoEeibjuLm5_lcNQ" type="_HJRxYFIoEeibjuLm5_lcNQ" direction="return"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_HKU6QFIoEeibjuLm5_lcNQ" name="ImageAnimationEventImpl" visibility="private" method="_HKjjwFIoEeibjuLm5_lcNQ">
+                      <eAnnotations xmi:id="_HKU6Q1IoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_HKU6RFIoEeibjuLm5_lcNQ" key="create"/>
+                      </eAnnotations>
+                      <ownedParameter xmi:id="_HKU6QVIoEeibjuLm5_lcNQ" name="image" type="_HJz84FIoEeibjuLm5_lcNQ">
+                        <eAnnotations xmi:id="_HKU6RlIoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                          <details xmi:id="_HKU6R1IoEeibjuLm5_lcNQ" key="final"/>
+                        </eAnnotations>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_HKU6QlIoEeibjuLm5_lcNQ" name="durationInMs">
+                        <eAnnotations xmi:id="_HKU6SFIoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                          <details xmi:id="_HKU6SVIoEeibjuLm5_lcNQ" key="final"/>
+                        </eAnnotations>
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_HKU6RVIoEeibjuLm5_lcNQ" type="_HJWC0FIoEeibjuLm5_lcNQ" direction="return"/>
+                    </ownedOperation>
+                  </nestedClassifier>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_HKmAAFIoEeibjuLm5_lcNQ" name="" memberEnd="_HKmAAVIoEeibjuLm5_lcNQ _HJS_gVIoEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_HKmAAVIoEeibjuLm5_lcNQ" name="" type="_HJRxYFIoEeibjuLm5_lcNQ" association="_HKmAAFIoEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_HKmnEVIoEeibjuLm5_lcNQ" name="" memberEnd="_HKmnElIoEeibjuLm5_lcNQ _HKX9kFIoEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_HKmnElIoEeibjuLm5_lcNQ" name="" type="_HJTmkFIoEeibjuLm5_lcNQ" association="_HKmnEVIoEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_HKnOIVIoEeibjuLm5_lcNQ" name="" memberEnd="_HKnOIlIoEeibjuLm5_lcNQ _HKZywFIoEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_HKnOIlIoEeibjuLm5_lcNQ" name="" type="_HJWC0FIoEeibjuLm5_lcNQ" association="_HKnOIVIoEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_HKnOJFIoEeibjuLm5_lcNQ" name="" memberEnd="_HKnOJVIoEeibjuLm5_lcNQ _HKZywlIoEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_HKnOJVIoEeibjuLm5_lcNQ" name="" type="_HJWC0FIoEeibjuLm5_lcNQ" association="_HKnOJFIoEeibjuLm5_lcNQ"/>
+                </packagedElement>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_HJJ1lFIoEeibjuLm5_lcNQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_HJJ1lVIoEeibjuLm5_lcNQ" name="awt">
+        <packagedElement xmi:type="uml:Package" xmi:id="_HJKcoFIoEeibjuLm5_lcNQ" name="image">
+          <packagedElement xmi:type="uml:Class" xmi:id="_HJ9t41IoEeibjuLm5_lcNQ" name="BufferedImage"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_HJz84FIoEeibjuLm5_lcNQ" name="Image"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_HJz841IoEeibjuLm5_lcNQ" name="Component"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_HJz85VIoEeibjuLm5_lcNQ" name="Graphics2D"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_HJ9t4VIoEeibjuLm5_lcNQ" name="RenderingHints"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_HJKcoVIoEeibjuLm5_lcNQ" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_HJ9t5VIoEeibjuLm5_lcNQ" name="BufferedReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_HJ9t51IoEeibjuLm5_lcNQ" name="IOException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_HJ9t6VIoEeibjuLm5_lcNQ" name="InputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_HJ9t61IoEeibjuLm5_lcNQ" name="InputStreamReader"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_HJKcolIoEeibjuLm5_lcNQ" name="net">
+        <packagedElement xmi:type="uml:Class" xmi:id="_HJ9t7VIoEeibjuLm5_lcNQ" name="URL"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_HJKco1IoEeibjuLm5_lcNQ" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_HJKcpFIoEeibjuLm5_lcNQ" name="zip">
+          <packagedElement xmi:type="uml:Class" xmi:id="_HJ9t_VIoEeibjuLm5_lcNQ" name="ZipEntry"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_HJ9t_1IoEeibjuLm5_lcNQ" name="ZipInputStream"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_HJ9t71IoEeibjuLm5_lcNQ" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_HJ9t8VIoEeibjuLm5_lcNQ" name="Collections"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_HJ9t81IoEeibjuLm5_lcNQ" name="HashMap"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_HJ9t9VIoEeibjuLm5_lcNQ" name="Iterator"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_HJ9t91IoEeibjuLm5_lcNQ" name="LinkedList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_HJ9t-VIoEeibjuLm5_lcNQ" name="List"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_HJ9t-1IoEeibjuLm5_lcNQ" name="Map"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_HKOzoFIoEeibjuLm5_lcNQ" name="lang">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_HKPasFIoEeibjuLm5_lcNQ" name="Iterable"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_HJKcpVIoEeibjuLm5_lcNQ" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_HJLDsFIoEeibjuLm5_lcNQ" name="imageio">
+        <packagedElement xmi:type="uml:Class" xmi:id="_HJ9uAVIoEeibjuLm5_lcNQ" name="ImageIO"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_HDtU4FIoEeibjuLm5_lcNQ">
+      <eAnnotations xmi:id="_HDtU4VIoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_HDtU4lIoEeibjuLm5_lcNQ" base_Package="_FxISsFIoEeibjuLm5_lcNQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Generics xmi:id="_HJVbwFIoEeibjuLm5_lcNQ" genericsValue="AnimationEvent" base_Element="_HJU0s1IoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_HJVbwVIoEeibjuLm5_lcNQ" base_Element="_HJU0s1IoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_HJVbwlIoEeibjuLm5_lcNQ" base_Element="_HJU0s1IoEeibjuLm5_lcNQ">
+    <annotations xmi:id="_HJVbw1IoEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_HJXQ8FIoEeibjuLm5_lcNQ" base_Element="_HJWp4lIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_HJXQ8VIoEeibjuLm5_lcNQ" base_Element="_HJWp4lIoEeibjuLm5_lcNQ">
+    <annotations xmi:id="_HJXQ8lIoEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_HJXQ9VIoEeibjuLm5_lcNQ" base_Element="_HJXQ81IoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_HJXQ9lIoEeibjuLm5_lcNQ" base_Element="_HJXQ81IoEeibjuLm5_lcNQ">
+    <annotations xmi:id="_HJX4AFIoEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_HJz84VIoEeibjuLm5_lcNQ" base_Element="_HJz84FIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HJz85FIoEeibjuLm5_lcNQ" base_Element="_HJz841IoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HJ9t4FIoEeibjuLm5_lcNQ" base_Element="_HJz85VIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HJ9t4lIoEeibjuLm5_lcNQ" base_Element="_HJ9t4VIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HJ9t5FIoEeibjuLm5_lcNQ" base_Element="_HJ9t41IoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HJ9t5lIoEeibjuLm5_lcNQ" base_Element="_HJ9t5VIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HJ9t6FIoEeibjuLm5_lcNQ" base_Element="_HJ9t51IoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HJ9t6lIoEeibjuLm5_lcNQ" base_Element="_HJ9t6VIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HJ9t7FIoEeibjuLm5_lcNQ" base_Element="_HJ9t61IoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HJ9t7lIoEeibjuLm5_lcNQ" base_Element="_HJ9t7VIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HJ9t8FIoEeibjuLm5_lcNQ" base_Element="_HJ9t71IoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HJ9t8lIoEeibjuLm5_lcNQ" base_Element="_HJ9t8VIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HJ9t9FIoEeibjuLm5_lcNQ" base_Element="_HJ9t81IoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HJ9t9lIoEeibjuLm5_lcNQ" base_Element="_HJ9t9VIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HJ9t-FIoEeibjuLm5_lcNQ" base_Element="_HJ9t91IoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HJ9t-lIoEeibjuLm5_lcNQ" base_Element="_HJ9t-VIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HJ9t_FIoEeibjuLm5_lcNQ" base_Element="_HJ9t-1IoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HJ9t_lIoEeibjuLm5_lcNQ" base_Element="_HJ9t_VIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HJ9uAFIoEeibjuLm5_lcNQ" base_Element="_HJ9t_1IoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HJ9uAlIoEeibjuLm5_lcNQ" base_Element="_HJ9uAVIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HKPasVIoEeibjuLm5_lcNQ" base_Element="_HKPasFIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Generics xmi:id="_HKQo0FIoEeibjuLm5_lcNQ" genericsValue="AnimationEvent" base_Element="_HKPaslIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Generics xmi:id="_HKTFElIoEeibjuLm5_lcNQ" genericsValue="AnimationEvent" base_Element="_HKSeAVIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_HKX9klIoEeibjuLm5_lcNQ" base_Element="_HKX9kFIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_HKYkoVIoEeibjuLm5_lcNQ" base_Element="_HKYkoFIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_HKZLsVIoEeibjuLm5_lcNQ" base_Element="_HKZLsFIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_HKaZ0FIoEeibjuLm5_lcNQ" base_Element="_HKZywlIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_HKfSUFIoEeibjuLm5_lcNQ" base_Element="_HKeEMFIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HKmnEFIoEeibjuLm5_lcNQ" base_Element="_HKmAAFIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HKnOIFIoEeibjuLm5_lcNQ" base_Element="_HKmnEVIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HKnOI1IoEeibjuLm5_lcNQ" base_Element="_HKnOIVIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_HKn1MFIoEeibjuLm5_lcNQ" base_Element="_HKnOJFIoEeibjuLm5_lcNQ"/>
+</xmi:XMI>

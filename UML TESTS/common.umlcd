@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_NEpZEFInEeibjuLm5_lcNQ">
+  <modelElement href="common.uml#_NuHz4FInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OQFRcFInEeibjuLm5_lcNQ" targetItem="_OQF4gFInEeibjuLm5_lcNQ" sourceItem="_OQAY8FInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OQHtsVInEeibjuLm5_lcNQ" targetItem="_OQI72VInEeibjuLm5_lcNQ" sourceItem="_OQHtsFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OQIUwFInEeibjuLm5_lcNQ" targetItem="_OQI76VInEeibjuLm5_lcNQ" sourceItem="_OQHtslInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OQIUwlInEeibjuLm5_lcNQ" targetItem="_OQI78VInEeibjuLm5_lcNQ" sourceItem="_OQIUwVInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OQIUxFInEeibjuLm5_lcNQ" targetItem="_OQI791InEeibjuLm5_lcNQ" sourceItem="_OQIUw1InEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OQI70FInEeibjuLm5_lcNQ" source="_OQI72VInEeibjuLm5_lcNQ">
+    <modelElement href="common.uml#_NwE7zFInEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_OQI70VInEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="common.uml#_NwE7zlInEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OQI70lInEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_OQI701InEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="common.uml#_NwE7zVInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_OQI71FInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_OQI71VInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OQI71lInEeibjuLm5_lcNQ" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="common.uml#_NvvkgFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_OQI711InEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_OQI72FInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OQLYEVInEeibjuLm5_lcNQ" targetItem="_OQL_IFInEeibjuLm5_lcNQ" sourceItem="_OQLYEFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OQMmMVInEeibjuLm5_lcNQ" targetItem="_OQPCcFInEeibjuLm5_lcNQ" sourceItem="_OQMmMFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OQNNQVInEeibjuLm5_lcNQ" targetItem="_OQPCnlInEeibjuLm5_lcNQ" sourceItem="_OQNNQFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OQNNQ1InEeibjuLm5_lcNQ" targetItem="_OQPCvFInEeibjuLm5_lcNQ" sourceItem="_OQNNQlInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OQN0UVInEeibjuLm5_lcNQ" targetItem="_OQPC11InEeibjuLm5_lcNQ" sourceItem="_OQN0UFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OQN0U1InEeibjuLm5_lcNQ" targetItem="_OQPC3FInEeibjuLm5_lcNQ" sourceItem="_OQN0UlInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OQN0VVInEeibjuLm5_lcNQ" targetItem="_OQPC4VInEeibjuLm5_lcNQ" sourceItem="_OQN0VFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OQN0V1InEeibjuLm5_lcNQ" targetItem="_OQPC5lInEeibjuLm5_lcNQ" sourceItem="_OQN0VlInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OQObYFInEeibjuLm5_lcNQ" targetItem="_OQPC8lInEeibjuLm5_lcNQ" sourceItem="_OQN0WFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OQObYlInEeibjuLm5_lcNQ" targetItem="_OQPC-1InEeibjuLm5_lcNQ" sourceItem="_OQObYVInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OQObZFInEeibjuLm5_lcNQ" targetItem="_OQPDAVInEeibjuLm5_lcNQ" sourceItem="_OQObY1InEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OQObZlInEeibjuLm5_lcNQ" targetItem="_OQPDCVInEeibjuLm5_lcNQ" sourceItem="_OQObZVInEeibjuLm5_lcNQ"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OQAY8FInEeibjuLm5_lcNQ" sourceConnectionVisual="_OQFRcFInEeibjuLm5_lcNQ" text="The Exception thrown by the FreeCol application." item="_OQF4gFInEeibjuLm5_lcNQ">
+    <modelElement href="common.uml#_NwE7u1InEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OQHtsFInEeibjuLm5_lcNQ" sourceConnectionVisual="_OQHtsVInEeibjuLm5_lcNQ" text="A wrapper for the pseudo-random number generator seed." item="_OQI72VInEeibjuLm5_lcNQ">
+    <modelElement href="common.uml#_NwE7vFInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OQHtslInEeibjuLm5_lcNQ" sourceConnectionVisual="_OQIUwFInEeibjuLm5_lcNQ" text="Gets the seed for the PRNG.&#xD;&#xA;     *&#xD;&#xA;     * @param generate Force generation of a new seed.&#xD;&#xA;     * @return The seed." item="_OQI76VInEeibjuLm5_lcNQ">
+    <modelElement href="common.uml#_NwE7vVInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OQIUwVInEeibjuLm5_lcNQ" sourceConnectionVisual="_OQIUwlInEeibjuLm5_lcNQ" text="Sets the seed for the PRNG.&#xD;&#xA;     *&#xD;&#xA;     * @param arg A string defining the seed." item="_OQI78VInEeibjuLm5_lcNQ">
+    <modelElement href="common.uml#_NwE7vlInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OQIUw1InEeibjuLm5_lcNQ" sourceConnectionVisual="_OQIUxFInEeibjuLm5_lcNQ" text="Increments the seed for the PRNG." item="_OQI791InEeibjuLm5_lcNQ">
+    <modelElement href="common.uml#_NwE7v1InEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OQLYEFInEeibjuLm5_lcNQ" sourceConnectionVisual="_OQLYEVInEeibjuLm5_lcNQ" text="Any object that provides a string identifier that can be used to&#xD;&#xA;identify it, and to provide a localized name for it." item="_OQL_IFInEeibjuLm5_lcNQ">
+    <modelElement href="common.uml#_NwE7wFInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OQMmMFInEeibjuLm5_lcNQ" sourceConnectionVisual="_OQMmMVInEeibjuLm5_lcNQ" text="Contains information about a single server.  This information is&#xD;&#xA;normally retrieved from a meta-server.&#xD;&#xA;&#xD;&#xA;@see net.sf.freecol.metaserver" item="_OQPCcFInEeibjuLm5_lcNQ">
+    <modelElement href="common.uml#_NwE7wVInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OQNNQFInEeibjuLm5_lcNQ" sourceConnectionVisual="_OQNNQVInEeibjuLm5_lcNQ" text="Creates a new object with the given information.&#xD;&#xA;     *&#xD;&#xA;     * @param name The name of the server.&#xD;&#xA;     * @param address The IP-address of the server.&#xD;&#xA;     * @param port The port number in which clients may connect.&#xD;&#xA;     * @param slotsAvailable Number of players that may conncet.&#xD;&#xA;     * @param currentlyPlaying Number of players that are currently connected.&#xD;&#xA;     * @param isGameStarted &lt;i>true&lt;/i> if the game has started.&#xD;&#xA;     * @param version The version of the server.&#xD;&#xA;     * @param gameState The current state of the game." item="_OQPCnlInEeibjuLm5_lcNQ">
+    <modelElement href="common.uml#_NwE7wlInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OQNNQlInEeibjuLm5_lcNQ" sourceConnectionVisual="_OQNNQ1InEeibjuLm5_lcNQ" text="Updates the object with the given information.&#xD;&#xA;     *&#xD;&#xA;     * @param name The name of the server.&#xD;&#xA;     * @param address The IP-address of the server.&#xD;&#xA;     * @param port The port number in which clients may connect.&#xD;&#xA;     * @param slotsAvailable Number of players that may conncet.&#xD;&#xA;     * @param currentlyPlaying Number of players that are currently connected.&#xD;&#xA;     * @param isGameStarted &lt;i>true&lt;/i> if the game has started.&#xD;&#xA;     * @param version The version of the server.&#xD;&#xA;     * @param gameState The current state of the game." item="_OQPCvFInEeibjuLm5_lcNQ">
+    <modelElement href="common.uml#_NwE7xFInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OQN0UFInEeibjuLm5_lcNQ" sourceConnectionVisual="_OQN0UVInEeibjuLm5_lcNQ" text="Returns the IP-address.&#xD;&#xA;     * @return The IP-address of the server." item="_OQPC11InEeibjuLm5_lcNQ">
+    <modelElement href="common.uml#_NwE7xlInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OQN0UlInEeibjuLm5_lcNQ" sourceConnectionVisual="_OQN0U1InEeibjuLm5_lcNQ" text="Returns the number of currently active (connected and not dead) players.&#xD;&#xA;     * @return The number of players." item="_OQPC3FInEeibjuLm5_lcNQ">
+    <modelElement href="common.uml#_NwE7x1InEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OQN0VFInEeibjuLm5_lcNQ" sourceConnectionVisual="_OQN0VVInEeibjuLm5_lcNQ" text="Returns the FreeCol version of the server.&#xD;&#xA;     *&#xD;&#xA;     * @return The version.&#xD;&#xA;     * @see FreeCol#getVersion" item="_OQPC4VInEeibjuLm5_lcNQ">
+    <modelElement href="common.uml#_NwE7yFInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OQN0VlInEeibjuLm5_lcNQ" sourceConnectionVisual="_OQN0V1InEeibjuLm5_lcNQ" text="Gets the tag name of the root element representing this object.&#xD;&#xA;     * @return &quot;metaItem&quot;." item="_OQPC5lInEeibjuLm5_lcNQ">
+    <modelElement href="common.uml#_NwE7y1InEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OQN0WFInEeibjuLm5_lcNQ" sourceConnectionVisual="_OQObYFInEeibjuLm5_lcNQ" text="Creates an object from the given &lt;code>Element&lt;/code>.&#xD;&#xA;     *&#xD;&#xA;     * @param element The XML DOM Element containing the information that will be&#xD;&#xA;     *        used for the new object." item="_OQPC8lInEeibjuLm5_lcNQ">
+    <modelElement href="common.uml#_NwE7w1InEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OQObYVInEeibjuLm5_lcNQ" sourceConnectionVisual="_OQObYlInEeibjuLm5_lcNQ" text="Update the server info from an element.&#xD;&#xA;     *&#xD;&#xA;     * @param element The &lt;code>Element&lt;/code> to update from." item="_OQPC-1InEeibjuLm5_lcNQ">
+    <modelElement href="common.uml#_NwE7xVInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OQObY1InEeibjuLm5_lcNQ" sourceConnectionVisual="_OQObZFInEeibjuLm5_lcNQ" text="Creates an XML-representation of this object.&#xD;&#xA;     * @param document The document in which the element should be created.&#xD;&#xA;     * @return The XML DOM Element representing this object." item="_OQPDAVInEeibjuLm5_lcNQ">
+    <modelElement href="common.uml#_NwE7yVInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OQObZVInEeibjuLm5_lcNQ" sourceConnectionVisual="_OQObZlInEeibjuLm5_lcNQ" text="Reads attributes from the given element.&#xD;&#xA;     * @param element The XML DOM Element containing information that&#xD;&#xA;     *        should be read by this object." item="_OQPDCVInEeibjuLm5_lcNQ">
+    <modelElement href="common.uml#_NwE7ylInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OQF4gFInEeibjuLm5_lcNQ" comments="_OQAY8FInEeibjuLm5_lcNQ" targetConnectionVisual="_OQFRcFInEeibjuLm5_lcNQ" name="FreeColException">
+    <modelElement href="common.uml#_NvMK4FInEeibjuLm5_lcNQ"/>
+    <visualProperties xmi:id="_OQF4gVInEeibjuLm5_lcNQ" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OQF4glInEeibjuLm5_lcNQ" label="+"/>
+    <operations xmi:id="_OQF4g1InEeibjuLm5_lcNQ" name="FreeColException">
+      <modelElement href="common.uml#_NvMx9FInEeibjuLm5_lcNQ"/>
+      <keywords xmi:id="_OQF4hFInEeibjuLm5_lcNQ" keyword="create"/>
+      <visibility xmi:id="_OQF4hVInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_OQF4hlInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OQF4h1InEeibjuLm5_lcNQ">
+        <modelElement href="common.uml#_NvMx-FInEeibjuLm5_lcNQ"/>
+        <type xmi:id="_OQF4iFInEeibjuLm5_lcNQ" name="FreeColException">
+          <modelElement href="common.uml#_NvMK4FInEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OQF4iVInEeibjuLm5_lcNQ" name="message">
+        <modelElement href="common.uml#_NvMx9VInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQF4ilInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQF4i1InEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OQF4jFInEeibjuLm5_lcNQ" name="FreeColException">
+      <modelElement href="common.uml#_Nvpd5VInEeibjuLm5_lcNQ"/>
+      <keywords xmi:id="_OQF4jVInEeibjuLm5_lcNQ" keyword="create"/>
+      <visibility xmi:id="_OQF4jlInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_OQF4j1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OQF4kFInEeibjuLm5_lcNQ">
+        <modelElement href="common.uml#_Nvpd6lInEeibjuLm5_lcNQ"/>
+        <type xmi:id="_OQF4kVInEeibjuLm5_lcNQ" name="FreeColException">
+          <modelElement href="common.uml#_NvMK4FInEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OQF4klInEeibjuLm5_lcNQ" name="message">
+        <modelElement href="common.uml#_Nvpd5lInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQF4k1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQF4lFInEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OQF4lVInEeibjuLm5_lcNQ" name="throwable">
+        <modelElement href="common.uml#_Nvpd51InEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQF4llInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQF4l1InEeibjuLm5_lcNQ" name="Throwable">
+          <modelElement href="common.uml#_Nvpd41InEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OQI72VInEeibjuLm5_lcNQ" comments="_OQHtsFInEeibjuLm5_lcNQ" targetConnectionVisual="_OQHtsVInEeibjuLm5_lcNQ" name="FreeColSeed" associationsOut="_OQI70FInEeibjuLm5_lcNQ">
+    <modelElement href="common.uml#_NvNZAFInEeibjuLm5_lcNQ"/>
+    <visualProperties xmi:id="_OQI72lInEeibjuLm5_lcNQ" position="-417.0,-73.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OQI721InEeibjuLm5_lcNQ" label="+"/>
+    <attributes xmi:id="_OQI73FInEeibjuLm5_lcNQ" defaultValue="Logger.getLogger(FreeColSeed.class.getName())" name="logger" staticAttribute="true">
+      <modelElement href="common.uml#_NvvkgFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_OQI73VInEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_OQI73lInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_OQI731InEeibjuLm5_lcNQ" name="Logger">
+        <modelElement href="common.uml#_NvjXQlInEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OQI74FInEeibjuLm5_lcNQ" defaultValue="0L" name="DEFAULT_SEED" staticAttribute="true">
+      <modelElement href="common.uml#_NvvkglInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_OQI74VInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_OQI74lInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_OQI741InEeibjuLm5_lcNQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OQI75FInEeibjuLm5_lcNQ" defaultValue="DEFAULT_SEED" name="freeColSeed" staticAttribute="true">
+      <modelElement href="common.uml#_NvvkhFInEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_OQI75VInEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="common.uml#_NvwLkFInEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_OQI75lInEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_OQI751InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_OQI76FInEeibjuLm5_lcNQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OQI76VInEeibjuLm5_lcNQ" comments="_OQHtslInEeibjuLm5_lcNQ" targetConnectionVisual="_OQIUwFInEeibjuLm5_lcNQ" name="getFreeColSeed" staticOperation="true">
+      <modelElement href="common.uml#_NvOAEFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_OQI76lInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_OQI761InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OQI77FInEeibjuLm5_lcNQ">
+        <modelElement href="common.uml#_NvOAElInEeibjuLm5_lcNQ"/>
+        <type xmi:id="_OQI77VInEeibjuLm5_lcNQ" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OQI77lInEeibjuLm5_lcNQ" name="generate">
+        <modelElement href="common.uml#_NvOAEVInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQI771InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQI78FInEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OQI78VInEeibjuLm5_lcNQ" comments="_OQIUwVInEeibjuLm5_lcNQ" targetConnectionVisual="_OQIUwlInEeibjuLm5_lcNQ" name="setFreeColSeed" staticOperation="true">
+      <modelElement href="common.uml#_NvOnIFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_OQI78lInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_OQI781InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OQI79FInEeibjuLm5_lcNQ" name="arg">
+        <modelElement href="common.uml#_NvOnIVInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQI79VInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQI79lInEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OQI791InEeibjuLm5_lcNQ" comments="_OQIUw1InEeibjuLm5_lcNQ" targetConnectionVisual="_OQIUxFInEeibjuLm5_lcNQ" name="incrementFreeColSeed" staticOperation="true">
+      <modelElement href="common.uml#_NvOnIlInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_OQI7-FInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_OQI7-VInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_OQL_IFInEeibjuLm5_lcNQ" comments="_OQLYEFInEeibjuLm5_lcNQ" targetConnectionVisual="_OQLYEVInEeibjuLm5_lcNQ" name="ObjectWithId">
+    <modelElement href="common.uml#_NvOnI1InEeibjuLm5_lcNQ"/>
+    <visualProperties xmi:id="_OQL_IVInEeibjuLm5_lcNQ" position="670.0,31.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OQL_IlInEeibjuLm5_lcNQ" label="+"/>
+    <attributes xmi:id="_OQL_I1InEeibjuLm5_lcNQ" name="id">
+      <modelElement href="common.uml#_NvPOMFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_OQL_JFInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_OQL_JVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_OQL_JlInEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OQPCcFInEeibjuLm5_lcNQ" comments="_OQMmMFInEeibjuLm5_lcNQ" targetConnectionVisual="_OQMmMVInEeibjuLm5_lcNQ" name="ServerInfo">
+    <modelElement href="common.uml#_NvPOMVInEeibjuLm5_lcNQ"/>
+    <visualProperties xmi:id="_OQPCcVInEeibjuLm5_lcNQ" position="-330.0,-701.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OQPCclInEeibjuLm5_lcNQ" label="+"/>
+    <attributes xmi:id="_OQPCc1InEeibjuLm5_lcNQ" name="name">
+      <modelElement href="common.uml#_NvwyoFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_OQPCdFInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_OQPCdVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_OQPCdlInEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OQPCd1InEeibjuLm5_lcNQ" name="address">
+      <modelElement href="common.uml#_NvwyoVInEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_OQPCeFInEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="common.uml#_NvxZsFInEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_OQPCeVInEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_OQPCelInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_OQPCe1InEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OQPCfFInEeibjuLm5_lcNQ" name="port">
+      <modelElement href="common.uml#_NvxZsVInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_OQPCfVInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_OQPCflInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_OQPCf1InEeibjuLm5_lcNQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OQPCgFInEeibjuLm5_lcNQ" name="currentlyPlaying">
+      <modelElement href="common.uml#_NvxZslInEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_OQPCgVInEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="common.uml#_NvyAwFInEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_OQPCglInEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_OQPCg1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_OQPChFInEeibjuLm5_lcNQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OQPChVInEeibjuLm5_lcNQ" name="slotsAvailable">
+      <modelElement href="common.uml#_NvyAwVInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_OQPChlInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_OQPCh1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_OQPCiFInEeibjuLm5_lcNQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OQPCiVInEeibjuLm5_lcNQ" name="isGameStarted">
+      <modelElement href="common.uml#_NvyAwlInEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_OQPCilInEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="common.uml#_Nvyn0FInEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_OQPCi1InEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_OQPCjFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_OQPCjVInEeibjuLm5_lcNQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OQPCjlInEeibjuLm5_lcNQ" name="version">
+      <modelElement href="common.uml#_Nvyn0VInEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_OQPCj1InEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="common.uml#_Nvyn0lInEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_OQPCkFInEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_OQPCkVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_OQPCklInEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OQPCk1InEeibjuLm5_lcNQ" name="gameState">
+      <modelElement href="common.uml#_Nvyn01InEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_OQPClFInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_OQPClVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_OQPCllInEeibjuLm5_lcNQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OQPCl1InEeibjuLm5_lcNQ" name="ServerInfo">
+      <modelElement href="common.uml#_NvP1QFInEeibjuLm5_lcNQ"/>
+      <keywords xmi:id="_OQPCmFInEeibjuLm5_lcNQ" keyword="create"/>
+      <stereotypes xmi:id="_OQPCmVInEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="common.uml#_NvP1Q1InEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_OQPCmlInEeibjuLm5_lcNQ" label="#"/>
+      <cardinality xmi:id="_OQPCm1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OQPCnFInEeibjuLm5_lcNQ">
+        <modelElement href="common.uml#_NvP1RFInEeibjuLm5_lcNQ"/>
+        <type xmi:id="_OQPCnVInEeibjuLm5_lcNQ" name="ServerInfo">
+          <modelElement href="common.uml#_NvPOMVInEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OQPCnlInEeibjuLm5_lcNQ" comments="_OQNNQFInEeibjuLm5_lcNQ" targetConnectionVisual="_OQNNQVInEeibjuLm5_lcNQ" name="ServerInfo">
+      <modelElement href="common.uml#_NvQcUFInEeibjuLm5_lcNQ"/>
+      <keywords xmi:id="_OQPCn1InEeibjuLm5_lcNQ" keyword="create"/>
+      <visibility xmi:id="_OQPCoFInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_OQPCoVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OQPColInEeibjuLm5_lcNQ">
+        <modelElement href="common.uml#_NvQcW1InEeibjuLm5_lcNQ"/>
+        <type xmi:id="_OQPCo1InEeibjuLm5_lcNQ" name="ServerInfo">
+          <modelElement href="common.uml#_NvPOMVInEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OQPCpFInEeibjuLm5_lcNQ" name="name">
+        <modelElement href="common.uml#_NvQcUVInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQPCpVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQPCplInEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OQPCp1InEeibjuLm5_lcNQ" name="address">
+        <modelElement href="common.uml#_NvQcUlInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQPCqFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQPCqVInEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OQPCqlInEeibjuLm5_lcNQ" name="port">
+        <modelElement href="common.uml#_NvQcU1InEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQPCq1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQPCrFInEeibjuLm5_lcNQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OQPCrVInEeibjuLm5_lcNQ" name="slotsAvailable">
+        <modelElement href="common.uml#_NvQcVFInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQPCrlInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQPCr1InEeibjuLm5_lcNQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OQPCsFInEeibjuLm5_lcNQ" name="currentlyPlaying">
+        <modelElement href="common.uml#_NvQcVVInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQPCsVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQPCslInEeibjuLm5_lcNQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OQPCs1InEeibjuLm5_lcNQ" name="isGameStarted">
+        <modelElement href="common.uml#_NvQcVlInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQPCtFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQPCtVInEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OQPCtlInEeibjuLm5_lcNQ" name="version">
+        <modelElement href="common.uml#_NvQcV1InEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQPCt1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQPCuFInEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OQPCuVInEeibjuLm5_lcNQ" name="gameState">
+        <modelElement href="common.uml#_NvQcWFInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQPCulInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQPCu1InEeibjuLm5_lcNQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OQPCvFInEeibjuLm5_lcNQ" comments="_OQNNQlInEeibjuLm5_lcNQ" targetConnectionVisual="_OQNNQ1InEeibjuLm5_lcNQ" name="update">
+      <modelElement href="common.uml#_NvRDYFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_OQPCvVInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_OQPCvlInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OQPCv1InEeibjuLm5_lcNQ" name="name">
+        <modelElement href="common.uml#_NvRDYVInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQPCwFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQPCwVInEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OQPCwlInEeibjuLm5_lcNQ" name="address">
+        <modelElement href="common.uml#_NvRDYlInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQPCw1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQPCxFInEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OQPCxVInEeibjuLm5_lcNQ" name="port">
+        <modelElement href="common.uml#_NvRDY1InEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQPCxlInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQPCx1InEeibjuLm5_lcNQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OQPCyFInEeibjuLm5_lcNQ" name="slotsAvailable">
+        <modelElement href="common.uml#_NvRDZFInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQPCyVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQPCylInEeibjuLm5_lcNQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OQPCy1InEeibjuLm5_lcNQ" name="currentlyPlaying">
+        <modelElement href="common.uml#_NvRDZVInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQPCzFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQPCzVInEeibjuLm5_lcNQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OQPCzlInEeibjuLm5_lcNQ" name="isGameStarted">
+        <modelElement href="common.uml#_NvRDZlInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQPCz1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQPC0FInEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OQPC0VInEeibjuLm5_lcNQ" name="version">
+        <modelElement href="common.uml#_NvRDZ1InEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQPC0lInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQPC01InEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OQPC1FInEeibjuLm5_lcNQ" name="gameState">
+        <modelElement href="common.uml#_NvRDaFInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQPC1VInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQPC1lInEeibjuLm5_lcNQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OQPC11InEeibjuLm5_lcNQ" comments="_OQN0UFInEeibjuLm5_lcNQ" targetConnectionVisual="_OQN0UVInEeibjuLm5_lcNQ" name="getAddress">
+      <modelElement href="common.uml#_NvRqcFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_OQPC2FInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_OQPC2VInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OQPC2lInEeibjuLm5_lcNQ">
+        <modelElement href="common.uml#_NvRqcVInEeibjuLm5_lcNQ"/>
+        <type xmi:id="_OQPC21InEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OQPC3FInEeibjuLm5_lcNQ" comments="_OQN0UlInEeibjuLm5_lcNQ" targetConnectionVisual="_OQN0U1InEeibjuLm5_lcNQ" name="getCurrentlyPlaying">
+      <modelElement href="common.uml#_NvRqclInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_OQPC3VInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_OQPC3lInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OQPC31InEeibjuLm5_lcNQ">
+        <modelElement href="common.uml#_NvRqc1InEeibjuLm5_lcNQ"/>
+        <type xmi:id="_OQPC4FInEeibjuLm5_lcNQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OQPC4VInEeibjuLm5_lcNQ" comments="_OQN0VFInEeibjuLm5_lcNQ" targetConnectionVisual="_OQN0VVInEeibjuLm5_lcNQ" name="getVersion">
+      <modelElement href="common.uml#_NvRqdFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_OQPC4lInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_OQPC41InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OQPC5FInEeibjuLm5_lcNQ">
+        <modelElement href="common.uml#_NvRqdVInEeibjuLm5_lcNQ"/>
+        <type xmi:id="_OQPC5VInEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OQPC5lInEeibjuLm5_lcNQ" comments="_OQN0VlInEeibjuLm5_lcNQ" targetConnectionVisual="_OQN0V1InEeibjuLm5_lcNQ" name="getXMLElementTagName" staticOperation="true">
+      <modelElement href="common.uml#_NvRqdlInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_OQPC51InEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_OQPC6FInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OQPC6VInEeibjuLm5_lcNQ">
+        <modelElement href="common.uml#_NvRqd1InEeibjuLm5_lcNQ"/>
+        <type xmi:id="_OQPC6lInEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OQPC61InEeibjuLm5_lcNQ" name="toString">
+      <modelElement href="common.uml#_NvSRgFInEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_OQPC7FInEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="common.uml#_NvSRglInEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OQPC7VInEeibjuLm5_lcNQ" name="Annotations">
+        <modelElement href="common.uml#_NvSRg1InEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_OQPC7lInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_OQPC71InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OQPC8FInEeibjuLm5_lcNQ">
+        <modelElement href="common.uml#_NvSRgVInEeibjuLm5_lcNQ"/>
+        <type xmi:id="_OQPC8VInEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OQPC8lInEeibjuLm5_lcNQ" comments="_OQN0WFInEeibjuLm5_lcNQ" targetConnectionVisual="_OQObYFInEeibjuLm5_lcNQ" name="ServerInfo">
+      <modelElement href="common.uml#_Nvr6IFInEeibjuLm5_lcNQ"/>
+      <keywords xmi:id="_OQPC81InEeibjuLm5_lcNQ" keyword="create"/>
+      <visibility xmi:id="_OQPC9FInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_OQPC9VInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OQPC9lInEeibjuLm5_lcNQ">
+        <modelElement href="common.uml#_NvshMlInEeibjuLm5_lcNQ"/>
+        <type xmi:id="_OQPC91InEeibjuLm5_lcNQ" name="ServerInfo">
+          <modelElement href="common.uml#_NvPOMVInEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OQPC-FInEeibjuLm5_lcNQ" name="element">
+        <modelElement href="common.uml#_Nvr6IVInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQPC-VInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQPC-lInEeibjuLm5_lcNQ" name="Element">
+          <modelElement href="common.uml#_NvmakFInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OQPC-1InEeibjuLm5_lcNQ" comments="_OQObYVInEeibjuLm5_lcNQ" targetConnectionVisual="_OQObYlInEeibjuLm5_lcNQ" name="update">
+      <modelElement href="common.uml#_NvshM1InEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_OQPC_FInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_OQPC_VInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OQPC_lInEeibjuLm5_lcNQ" name="element">
+        <modelElement href="common.uml#_NvshNFInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQPC_1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQPDAFInEeibjuLm5_lcNQ" name="Element">
+          <modelElement href="common.uml#_NvmakFInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OQPDAVInEeibjuLm5_lcNQ" comments="_OQObY1InEeibjuLm5_lcNQ" targetConnectionVisual="_OQObZFInEeibjuLm5_lcNQ" name="toXMLElement">
+      <modelElement href="common.uml#_NvtIQFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_OQPDAlInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_OQPDA1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OQPDBFInEeibjuLm5_lcNQ">
+        <modelElement href="common.uml#_NvtIQlInEeibjuLm5_lcNQ"/>
+        <type xmi:id="_OQPDBVInEeibjuLm5_lcNQ" name="Element">
+          <modelElement href="common.uml#_NvmakFInEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OQPDBlInEeibjuLm5_lcNQ" name="document">
+        <modelElement href="common.uml#_NvtIQVInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQPDB1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQPDCFInEeibjuLm5_lcNQ" name="Document">
+          <modelElement href="common.uml#_NvlzgVInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OQPDCVInEeibjuLm5_lcNQ" comments="_OQObZVInEeibjuLm5_lcNQ" targetConnectionVisual="_OQObZlInEeibjuLm5_lcNQ" name="readFromXMLElement">
+      <modelElement href="common.uml#_NvtvUFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_OQPDClInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_OQPDC1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OQPDDFInEeibjuLm5_lcNQ" name="element">
+        <modelElement href="common.uml#_NvtvUVInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_OQPDDVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OQPDDlInEeibjuLm5_lcNQ" name="Element">
+          <modelElement href="common.uml#_NvmakFInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

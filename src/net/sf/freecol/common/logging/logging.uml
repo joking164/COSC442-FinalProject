@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_RY5nEFIoEeibjuLm5_lcNQ" name="logging">
+    <eAnnotations xmi:id="_SmYt4FIoEeibjuLm5_lcNQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_SmYt4VIoEeibjuLm5_lcNQ" source="codegen">
+        <details xmi:id="_SmYt4lIoEeibjuLm5_lcNQ" key="codegenDirectory" value="/COSC442-FinalProject/src"/>
+        <details xmi:id="_THGOQFIoEeibjuLm5_lcNQ" key="AssociatedSourceCode" value="/COSC442-FinalProject/src/net/sf/freecol/common/logging/DefaultHandler.java;1163334355/1;/COSC442-FinalProject/src/net/sf/freecol/common/logging/TextFormatter.java;754311893/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_Sr448FIoEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_Sr448VIoEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_Sr448lIoEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_Sr4481IoEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_Sr449FIoEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_Sr6HEFIoEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_Sr6HEVIoEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_Sr6HElIoEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_Sr6HE1IoEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Sr0ngFIoEeibjuLm5_lcNQ" name="net">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Sr0ngVIoEeibjuLm5_lcNQ" name="sf">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Sr0nglIoEeibjuLm5_lcNQ" name="freecol">
+          <packagedElement xmi:type="uml:Package" xmi:id="_Sr0ng1IoEeibjuLm5_lcNQ" name="common">
+            <packagedElement xmi:type="uml:Package" xmi:id="_Sr0niFIoEeibjuLm5_lcNQ" name="debug">
+              <packagedElement xmi:type="uml:Class" xmi:id="_SsOQIVIoEeibjuLm5_lcNQ" name="FreeColDebugger"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Sr1OkFIoEeibjuLm5_lcNQ" name="networking">
+              <packagedElement xmi:type="uml:Class" xmi:id="_SsOQI1IoEeibjuLm5_lcNQ" name="DOMMessage"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Sr1OkVIoEeibjuLm5_lcNQ" name="util">
+              <packagedElement xmi:type="uml:Class" xmi:id="_SsO3MVIoEeibjuLm5_lcNQ" name="Utils"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Sr11oFIoEeibjuLm5_lcNQ" name="logging">
+              <packagedElement xmi:type="uml:Class" xmi:id="_Sr3DwFIoEeibjuLm5_lcNQ" name="DefaultHandler" isLeaf="true">
+                <ownedComment xmi:id="_SsWzAlIoEeibjuLm5_lcNQ">
+                  <body>The default handler for FreeCol's log records. It currently only&#xD;
+logs to a file in the format offered by TextFormatter.</body>
+                </ownedComment>
+                <generalization xmi:id="_SsTvs1IoEeibjuLm5_lcNQ" general="_SsMa8VIoEeibjuLm5_lcNQ"/>
+                <ownedAttribute xmi:id="_SsU91FIoEeibjuLm5_lcNQ" name="writer" visibility="private" isLeaf="true" type="_SsLz41IoEeibjuLm5_lcNQ" isReadOnly="true" association="_SsXaEFIoEeibjuLm5_lcNQ"/>
+                <ownedAttribute xmi:id="_SsVk4VIoEeibjuLm5_lcNQ" name="consoleLogging" visibility="private" isLeaf="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SsWL8FIoEeibjuLm5_lcNQ" name="DefaultHandler" specification="_Sr6HFFIoEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_SsWL8VIoEeibjuLm5_lcNQ" name="consoleLogging">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_SsWL8lIoEeibjuLm5_lcNQ" name="fileName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_SsWL81IoEeibjuLm5_lcNQ" type="_Sr3DwFIoEeibjuLm5_lcNQ" direction="return"/>
+                  <language>java</language>
+                  <body>this.consoleLogging = consoleLogging;&#xD;
+     File file = new File(fileName);&#xD;
+&#xD;
+     if (file.exists()) {&#xD;
+         if (file.isDirectory()) {&#xD;
+             throw new FreeColException(&quot;Log file \&quot;&quot; + fileName&#xD;
+                 + &quot;\&quot; could not be created.&quot;);&#xD;
+         } else if (file.isFile()) {&#xD;
+             file.delete();&#xD;
+         }&#xD;
+     }&#xD;
+&#xD;
+     try {&#xD;
+         file.createNewFile();&#xD;
+     } catch (IOException e) {&#xD;
+         throw new FreeColException(&quot;Log file \&quot;&quot; + fileName&#xD;
+             + &quot;\&quot; could not be created.&quot;, e);&#xD;
+     }&#xD;
+     if (!file.canWrite()) {&#xD;
+         throw new FreeColException(&quot;Can not write in log file \&quot;&quot;&#xD;
+             + fileName + &quot;\&quot;.&quot;);&#xD;
+     }&#xD;
+     if ((writer = Utils.getFileUTF8Writer(file)) == null) {&#xD;
+         throw new FreeColException(&quot;Can not write in log file \&quot;&quot;&#xD;
+             + fileName + &quot;\&quot;.&quot;);&#xD;
+     }&#xD;
+&#xD;
+     // We should use XMLFormatter here in the future&#xD;
+     // or maybe a self-made HTMLFormatter.&#xD;
+     setFormatter(new TextFormatter());&#xD;
+&#xD;
+     try {&#xD;
+         StringBuilder sb = new StringBuilder(512);&#xD;
+         sb.append(&quot;FreeCol game version: &quot;)&#xD;
+             .append(FreeCol.getRevision())&#xD;
+             .append(&quot;\nFreeCol protocol version: &quot;)&#xD;
+             .append(DOMMessage.getFreeColProtocolVersion())&#xD;
+             .append(&quot;\n\nJava vendor: &quot;)&#xD;
+             .append(System.getProperty(&quot;java.vendor&quot;))&#xD;
+             .append(&quot;\nJava version: &quot;)&#xD;
+             .append(System.getProperty(&quot;java.version&quot;))&#xD;
+             .append(&quot;\nJava WM name: &quot;)&#xD;
+             .append(System.getProperty(&quot;java.vm.name&quot;))&#xD;
+             .append(&quot;\nJava WM vendor: &quot;)&#xD;
+             .append(System.getProperty(&quot;java.vm.vendor&quot;))&#xD;
+             .append(&quot;\nJava WM version: &quot;)&#xD;
+             .append(System.getProperty(&quot;java.vm.version&quot;))&#xD;
+             .append(&quot;\n\nOS name: &quot;)&#xD;
+             .append(System.getProperty(&quot;os.name&quot;))&#xD;
+             .append(&quot;\nOS architecture: &quot;)&#xD;
+             .append(System.getProperty(&quot;os.arch&quot;))&#xD;
+             .append(&quot;\nOS version: &quot;)&#xD;
+             .append(System.getProperty(&quot;os.version&quot;))&#xD;
+             .append(&quot;\n\n&quot;);&#xD;
+         writer.write(sb.toString());&#xD;
+     } catch (IOException e) {&#xD;
+         e.printStackTrace(System.err);&#xD;
+     }&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SsWL9FIoEeibjuLm5_lcNQ" name="close" specification="_Sr6uJFIoEeibjuLm5_lcNQ">
+                  <language>java</language>
+                  <body>try {&#xD;
+         writer.close();&#xD;
+     } catch (IOException e) {&#xD;
+         e.printStackTrace(System.err);&#xD;
+     }&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SsWL9VIoEeibjuLm5_lcNQ" name="flush" specification="_Sr7VMlIoEeibjuLm5_lcNQ">
+                  <language>java</language>
+                  <body>try {&#xD;
+         writer.flush();&#xD;
+     } catch (IOException e) {&#xD;
+         e.printStackTrace(System.err);&#xD;
+     }&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SsWL9lIoEeibjuLm5_lcNQ" name="publish" specification="_SsTIoFIoEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_SsWL91IoEeibjuLm5_lcNQ" name="record" type="_SsNCAVIoEeibjuLm5_lcNQ"/>
+                  <language>java</language>
+                  <body>if (record.getThrown() != null) {&#xD;
+         FreeColDebugger.handleCrash();&#xD;
+     }&#xD;
+     if (record.getLevel().intValue() &lt; getLevel().intValue()) {&#xD;
+         return;&#xD;
+     }&#xD;
+&#xD;
+     String str = getFormatter().format(record);&#xD;
+     if (consoleLogging&#xD;
+         &amp;&amp; record.getLevel().intValue() >= Level.WARNING.intValue()) {&#xD;
+         System.err.println(str);&#xD;
+     }&#xD;
+&#xD;
+     try {&#xD;
+         writer.write(str, 0, str.length());&#xD;
+     } catch (IOException e) {&#xD;
+         System.err.println(&quot;Failed to write log record!&quot;);&#xD;
+         e.printStackTrace(System.err);&#xD;
+     }&#xD;
+&#xD;
+     // Because FreeCol is still in a very early stage:&#xD;
+     flush();&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_Sr6HFFIoEeibjuLm5_lcNQ" name="DefaultHandler" method="_SsWL8FIoEeibjuLm5_lcNQ" raisedException="_SsNpElIoEeibjuLm5_lcNQ">
+                  <eAnnotations xmi:id="_Sr6uIVIoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_Sr6uIlIoEeibjuLm5_lcNQ" key="create"/>
+                  </eAnnotations>
+                  <ownedComment xmi:id="_SsWzA1IoEeibjuLm5_lcNQ">
+                    <body>The constructor to use.&#xD;
+     * &#xD;
+     * @param consoleLogging The flag to log to the console as well.&#xD;
+     * @exception FreeColException In case the log file could not be&#xD;
+     *     created/written to.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_Sr6HFVIoEeibjuLm5_lcNQ" name="consoleLogging">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Sr6uIFIoEeibjuLm5_lcNQ" name="fileName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Sr6uI1IoEeibjuLm5_lcNQ" type="_Sr3DwFIoEeibjuLm5_lcNQ" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Sr6uJFIoEeibjuLm5_lcNQ" name="close" method="_SsWL9FIoEeibjuLm5_lcNQ"/>
+                <ownedOperation xmi:id="_Sr7VMlIoEeibjuLm5_lcNQ" name="flush" method="_SsWL9VIoEeibjuLm5_lcNQ"/>
+                <ownedOperation xmi:id="_SsTIoFIoEeibjuLm5_lcNQ" name="publish" method="_SsWL9lIoEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_SsTIoVIoEeibjuLm5_lcNQ" name="record" type="_SsNCAVIoEeibjuLm5_lcNQ"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_Sr8jUFIoEeibjuLm5_lcNQ" name="TextFormatter" visibility="package" isLeaf="true">
+                <ownedComment xmi:id="_SsWzBFIoEeibjuLm5_lcNQ">
+                  <body>Formats a log record's data into human-readable text.</body>
+                </ownedComment>
+                <generalization xmi:id="_SsU901IoEeibjuLm5_lcNQ" general="_SsR6gVIoEeibjuLm5_lcNQ"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SsWL-FIoEeibjuLm5_lcNQ" name="format" specification="_SsUWwFIoEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_SsWzAFIoEeibjuLm5_lcNQ" name="record" type="_SsNCAVIoEeibjuLm5_lcNQ"/>
+                  <ownedParameter xmi:id="_SsWzAVIoEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>StringBuilder result = new StringBuilder();&#xD;
+     result.append(record.getSourceClassName())&#xD;
+         .append(' ').append(record.getSourceMethodName())&#xD;
+         .append(&quot;\n\t&quot;).append(record.getLevel().getName())&#xD;
+         .append(&quot;: &quot;).append(record.getMessage().replaceAll(&quot;\n&quot;, &quot;\n\t&quot;))&#xD;
+         .append(&quot;\n\t&quot;).append(new Date(record.getMillis()))&#xD;
+         .append(&quot;\n\tThread: &quot;).append(record.getThreadID())&#xD;
+         .append('\n');&#xD;
+     if (record.getThrown() != null) {&#xD;
+         StringWriter sw = new StringWriter();&#xD;
+         PrintWriter pw = new PrintWriter(sw);&#xD;
+         pw.println(&quot;\tStack trace:&quot;);&#xD;
+         record.getThrown().printStackTrace(pw);&#xD;
+         pw.println(&quot;----------------------------&quot;);&#xD;
+         pw.flush();&#xD;
+         result.append(sw);&#xD;
+     }&#xD;
+&#xD;
+     return result.toString();&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_Sr8jUVIoEeibjuLm5_lcNQ" name="TextFormatter">
+                  <eAnnotations xmi:id="_Sr8jUlIoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_Sr8jU1IoEeibjuLm5_lcNQ" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_Sr8jVVIoEeibjuLm5_lcNQ" type="_Sr8jUFIoEeibjuLm5_lcNQ" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_SsUWwFIoEeibjuLm5_lcNQ" name="format" method="_SsWL-FIoEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_SsUWwVIoEeibjuLm5_lcNQ" name="record" type="_SsNCAVIoEeibjuLm5_lcNQ"/>
+                  <ownedParameter xmi:id="_SsUWwlIoEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_SsXaEFIoEeibjuLm5_lcNQ" name="" memberEnd="_SsXaEVIoEeibjuLm5_lcNQ _SsU91FIoEeibjuLm5_lcNQ">
+                <ownedEnd xmi:id="_SsXaEVIoEeibjuLm5_lcNQ" name="" type="_Sr3DwFIoEeibjuLm5_lcNQ" association="_SsXaEFIoEeibjuLm5_lcNQ"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_SsNpElIoEeibjuLm5_lcNQ" name="FreeColException"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_SsNpEFIoEeibjuLm5_lcNQ" name="FreeCol"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Sr0nhFIoEeibjuLm5_lcNQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Sr0nhVIoEeibjuLm5_lcNQ" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_SsLM0FIoEeibjuLm5_lcNQ" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SsLz4VIoEeibjuLm5_lcNQ" name="IOException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SsLz41IoEeibjuLm5_lcNQ" name="Writer"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SsQFUFIoEeibjuLm5_lcNQ" name="PrintWriter"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SsQsYVIoEeibjuLm5_lcNQ" name="StringWriter"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Sr0nhlIoEeibjuLm5_lcNQ" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Sr0nh1IoEeibjuLm5_lcNQ" name="logging">
+          <packagedElement xmi:type="uml:Class" xmi:id="_SsMa8VIoEeibjuLm5_lcNQ" name="Handler"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_SsMa81IoEeibjuLm5_lcNQ" name="Level"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_SsNCAVIoEeibjuLm5_lcNQ" name="LogRecord"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_SsR6gVIoEeibjuLm5_lcNQ" name="Formatter"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_SsRTcVIoEeibjuLm5_lcNQ" name="Date"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_SmZ8AFIoEeibjuLm5_lcNQ">
+      <eAnnotations xmi:id="_SmZ8AVIoEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_SmZ8AlIoEeibjuLm5_lcNQ" base_Package="_RY5nEFIoEeibjuLm5_lcNQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Sr6uJVIoEeibjuLm5_lcNQ" base_Element="_Sr6uJFIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_Sr7VMFIoEeibjuLm5_lcNQ" base_Element="_Sr6uJFIoEeibjuLm5_lcNQ">
+    <annotations xmi:id="_Sr7VMVIoEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Sr7VM1IoEeibjuLm5_lcNQ" base_Element="_Sr7VMlIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_Sr7VNFIoEeibjuLm5_lcNQ" base_Element="_Sr7VMlIoEeibjuLm5_lcNQ">
+    <annotations xmi:id="_Sr7VNVIoEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Sr8jVFIoEeibjuLm5_lcNQ" base_Element="_Sr8jUVIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_SsLz4FIoEeibjuLm5_lcNQ" base_Element="_SsLM0FIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_SsLz4lIoEeibjuLm5_lcNQ" base_Element="_SsLz4VIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_SsMa8FIoEeibjuLm5_lcNQ" base_Element="_SsLz41IoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_SsMa8lIoEeibjuLm5_lcNQ" base_Element="_SsMa8VIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_SsNCAFIoEeibjuLm5_lcNQ" base_Element="_SsMa81IoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_SsNCAlIoEeibjuLm5_lcNQ" base_Element="_SsNCAVIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_SsNpEVIoEeibjuLm5_lcNQ" base_Element="_SsNpEFIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_SsOQIFIoEeibjuLm5_lcNQ" base_Element="_SsNpElIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_SsOQIlIoEeibjuLm5_lcNQ" base_Element="_SsOQIVIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_SsO3MFIoEeibjuLm5_lcNQ" base_Element="_SsOQI1IoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_SsO3MlIoEeibjuLm5_lcNQ" base_Element="_SsO3MVIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_SsQsYFIoEeibjuLm5_lcNQ" base_Element="_SsQFUFIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_SsRTcFIoEeibjuLm5_lcNQ" base_Element="_SsQsYVIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_SsR6gFIoEeibjuLm5_lcNQ" base_Element="_SsRTcVIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_SsR6glIoEeibjuLm5_lcNQ" base_Element="_SsR6gVIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SsTvsFIoEeibjuLm5_lcNQ" base_Element="_SsTIoFIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_SsTvsVIoEeibjuLm5_lcNQ" base_Element="_SsTIoFIoEeibjuLm5_lcNQ">
+    <annotations xmi:id="_SsTvslIoEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SsU90FIoEeibjuLm5_lcNQ" base_Element="_SsUWwFIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_SsU90VIoEeibjuLm5_lcNQ" base_Element="_SsUWwFIoEeibjuLm5_lcNQ">
+    <annotations xmi:id="_SsU90lIoEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SsVk4FIoEeibjuLm5_lcNQ" base_Element="_SsU91FIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SsVk4lIoEeibjuLm5_lcNQ" base_Element="_SsVk4VIoEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_SsXaElIoEeibjuLm5_lcNQ" base_Element="_SsXaEFIoEeibjuLm5_lcNQ"/>
+</xmi:XMI>

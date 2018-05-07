@@ -1,0 +1,1381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_C8MGEFJNEeiyW7NaN4qWdw" name="pathfinding">
+    <eAnnotations xmi:id="_DQT78FJNEeiyW7NaN4qWdw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_DQT78VJNEeiyW7NaN4qWdw" source="codegen">
+        <details xmi:id="_DQUjAFJNEeiyW7NaN4qWdw" key="codegenDirectory" value="/COSC442-FinalProject/src"/>
+        <details xmi:id="_Egr-sFJNEeiyW7NaN4qWdw" key="AssociatedSourceCode" value="/COSC442-FinalProject/src/net/sf/freecol/common/model/pathfinding/BaseCostDecider.java;1924562548/1;/COSC442-FinalProject/src/net/sf/freecol/common/model/pathfinding/CostDecider.java;3323083278/1;/COSC442-FinalProject/src/net/sf/freecol/common/model/pathfinding/CostDeciders.java;3260669431/1;/COSC442-FinalProject/src/net/sf/freecol/common/model/pathfinding/GoalDecider.java;3665758014/1;/COSC442-FinalProject/src/net/sf/freecol/common/model/pathfinding/GoalDeciders.java;3834469236/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_DuH5UFJNEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_DuH5UVJNEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_DuH5UlJNEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_DuH5U1JNEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_DuH5VFJNEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_DuH5VVJNEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_DuH5VlJNEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_DuIgYFJNEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_DuIgYVJNEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_DsjzEFJNEeiyW7NaN4qWdw" name="net">
+      <packagedElement xmi:type="uml:Package" xmi:id="_DsjzEVJNEeiyW7NaN4qWdw" name="sf">
+        <packagedElement xmi:type="uml:Package" xmi:id="_DskaIFJNEeiyW7NaN4qWdw" name="freecol">
+          <packagedElement xmi:type="uml:Package" xmi:id="_DskaIVJNEeiyW7NaN4qWdw" name="common">
+            <packagedElement xmi:type="uml:Package" xmi:id="_DskaIlJNEeiyW7NaN4qWdw" name="model">
+              <packagedElement xmi:type="uml:Package" xmi:id="_Dsx1gFJNEeiyW7NaN4qWdw" name="pathfinding">
+                <packagedElement xmi:type="uml:Class" xmi:id="_DuDA0FJNEeiyW7NaN4qWdw" name="BaseCostDecider" visibility="package">
+                  <ownedComment xmi:id="_EBHt0FJNEeiyW7NaN4qWdw">
+                    <body>Class for determining the cost of a single move.&#xD;
+&#xD;
+This {@link CostDecider} is used as a default by&#xD;
+{@link net.sf.freecol.common.model.Map#findPath} and &#xD;
+{@link net.sf.freecol.common.model.Map#search} &#xD;
+if no other &lt;code>CostDecider&lt;/code> has been specified.</body>
+                  </ownedComment>
+                  <ownedAttribute xmi:id="_EAy9sFJNEeiyW7NaN4qWdw" name="movesLeft" visibility="protected">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_EA0L0VJNEeiyW7NaN4qWdw" name="newTurns" visibility="protected">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedAttribute>
+                  <interfaceRealization xmi:id="_D_xqAVJNEeiyW7NaN4qWdw" client="_DuDA0FJNEeiyW7NaN4qWdw" supplier="_DuuWQFJNEeiyW7NaN4qWdw" contract="_DuuWQFJNEeiyW7NaN4qWdw"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EA980FJNEeiyW7NaN4qWdw" name="getCost" specification="_EAZ8IFJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EA-j4FJNEeiyW7NaN4qWdw" name="unit" type="_D_wb4FJNEeiyW7NaN4qWdw">
+                      <eAnnotations xmi:id="_EA-j4VJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EA-j4lJNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EA-j41JNEeiyW7NaN4qWdw" name="oldLocation" type="_D_t_oFJNEeiyW7NaN4qWdw">
+                      <eAnnotations xmi:id="_EA-j5FJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EA-j5VJNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EA-j5lJNEeiyW7NaN4qWdw" name="newLocation" type="_D_t_oFJNEeiyW7NaN4qWdw">
+                      <eAnnotations xmi:id="_EA-j51JNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EA-j6FJNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EA-j6VJNEeiyW7NaN4qWdw" name="movesLeftBefore">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EA-j6lJNEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>int cost = 0;&#xD;
+     newTurns = 0;&#xD;
+           &#xD;
+     Tile oldTile = oldLocation.getTile();&#xD;
+     Tile newTile = newLocation.getTile();&#xD;
+     if (oldLocation instanceof Europe) { // Coming from Europe&#xD;
+         if (newLocation instanceof Europe&#xD;
+             || newTile == null&#xD;
+             || !newTile.isDirectlyHighSeasConnected()&#xD;
+             || !unit.getType().canMoveToHighSeas()) return ILLEGAL_MOVE;&#xD;
+         newTurns = unit.getSailTurns();&#xD;
+         movesLeft = unit.getInitialMovesLeft();&#xD;
+         cost = newTurns * unit.getInitialMovesLeft();&#xD;
+&#xD;
+     } else if (oldTile == null) {&#xD;
+         return ILLEGAL_MOVE;&#xD;
+&#xD;
+     } else if (newLocation instanceof Europe) { // Going to Europe&#xD;
+         if (!unit.getType().canMoveToHighSeas()) return ILLEGAL_MOVE;&#xD;
+         newTurns = unit.getSailTurns();&#xD;
+         movesLeft = unit.getInitialMovesLeft();&#xD;
+         cost = newTurns * unit.getInitialMovesLeft();&#xD;
+&#xD;
+     } else if (newTile == null || !newTile.isExplored()) {&#xD;
+         return ILLEGAL_MOVE;&#xD;
+&#xD;
+     } else { // Moving between tiles&#xD;
+         // Disallow illegal moves.&#xD;
+         // Special moves and moving off a carrier consume a whole turn.&#xD;
+         boolean consumeMove = false;&#xD;
+         switch (unit.getSimpleMoveType(oldTile, newTile)) {&#xD;
+         case MOVE_HIGH_SEAS:&#xD;
+             break;&#xD;
+         case ATTACK_UNIT:&#xD;
+             // Ignore hostile units in the base case, treating attacks&#xD;
+             // as moves.&#xD;
+         case MOVE:&#xD;
+             if (!unit.isOnCarrier()) break; // Fall through if disembarking.&#xD;
+         case ATTACK_SETTLEMENT:&#xD;
+         case EXPLORE_LOST_CITY_RUMOUR:&#xD;
+         case EMBARK:&#xD;
+         case ENTER_INDIAN_SETTLEMENT_WITH_FREE_COLONIST:&#xD;
+         case ENTER_INDIAN_SETTLEMENT_WITH_SCOUT:&#xD;
+         case ENTER_INDIAN_SETTLEMENT_WITH_MISSIONARY:&#xD;
+         case ENTER_FOREIGN_COLONY_WITH_SCOUT:&#xD;
+         case ENTER_SETTLEMENT_WITH_CARRIER_AND_GOODS:&#xD;
+             consumeMove = true;&#xD;
+             break;&#xD;
+         default:&#xD;
+             return ILLEGAL_MOVE;&#xD;
+         }&#xD;
+&#xD;
+         cost = unit.getMoveCost(oldTile, newTile, movesLeftBefore);&#xD;
+         if (cost &lt;= movesLeftBefore) {&#xD;
+             movesLeft = movesLeftBefore - cost;&#xD;
+         } else { // This move takes an extra turn to complete:&#xD;
+             final int thisTurnMovesLeft = movesLeftBefore;&#xD;
+             int initialMoves = unit.getInitialMovesLeft();&#xD;
+             final int moveCostNextTurn = unit.getMoveCost(oldTile, newTile,&#xD;
+                                                           initialMoves);&#xD;
+             cost = thisTurnMovesLeft + moveCostNextTurn;&#xD;
+             movesLeft = initialMoves - moveCostNextTurn;&#xD;
+             newTurns++;&#xD;
+         }&#xD;
+         if (consumeMove) {&#xD;
+             cost += movesLeft;&#xD;
+             movesLeft = 0;&#xD;
+         }&#xD;
+     }&#xD;
+     return cost;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EA-j61JNEeiyW7NaN4qWdw" name="getMovesLeft" specification="_DuKVkFJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EA-j7FJNEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return movesLeft;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EA_K8FJNEeiyW7NaN4qWdw" name="getNewTurns" specification="_Duo2sVJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EA_K8VJNEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return newTurns;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_DuKVkFJNEeiyW7NaN4qWdw" name="getMovesLeft" method="_EA-j61JNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_DuK8oFJNEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_Duo2sVJNEeiyW7NaN4qWdw" name="getNewTurns" method="_EA_K8FJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_DupdwFJNEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_EAZ8IFJNEeiyW7NaN4qWdw" name="getCost" method="_EA980FJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EAZ8IVJNEeiyW7NaN4qWdw" name="unit" type="_D_wb4FJNEeiyW7NaN4qWdw">
+                      <eAnnotations xmi:id="_EAajMlJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EAajM1JNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EAZ8IlJNEeiyW7NaN4qWdw" name="oldLocation" type="_D_t_oFJNEeiyW7NaN4qWdw">
+                      <eAnnotations xmi:id="_EAajNFJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EAajNVJNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EAZ8I1JNEeiyW7NaN4qWdw" name="newLocation" type="_D_t_oFJNEeiyW7NaN4qWdw">
+                      <eAnnotations xmi:id="_EAajNlJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EAbKQFJNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EAZ8JFJNEeiyW7NaN4qWdw" name="movesLeftBefore">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EAajMFJNEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Interface" xmi:id="_DuuWQFJNEeiyW7NaN4qWdw" name="CostDecider">
+                  <ownedComment xmi:id="_EBHt0VJNEeiyW7NaN4qWdw">
+                    <body>Determines the cost of a single move.&#xD;
+Used by {@link net.sf.freecol.common.model.Map#findPath}&#xD;
+and {@link net.sf.freecol.common.model.Map#search}.</body>
+                  </ownedComment>
+                  <ownedAttribute xmi:id="_DuvkYFJNEeiyW7NaN4qWdw" name="ILLEGAL_MOVE" isLeaf="true" isStatic="true" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_DuvkYVJNEeiyW7NaN4qWdw" value="-1"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_DuxZkFJNEeiyW7NaN4qWdw" name="movesLeft" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_DuyAoFJNEeiyW7NaN4qWdw" name="newTurns" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedAttribute>
+                  <ownedOperation xmi:id="_EAcYYFJNEeiyW7NaN4qWdw" name="getCost">
+                    <ownedParameter xmi:id="_EAcYYVJNEeiyW7NaN4qWdw" name="unit" type="_D_wb4FJNEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_EAcYYlJNEeiyW7NaN4qWdw" name="oldLocation" type="_D_t_oFJNEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_EAcYY1JNEeiyW7NaN4qWdw" name="newLocation" type="_D_t_oFJNEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_EAcYZFJNEeiyW7NaN4qWdw" name="movesLeftBefore">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EAcYZVJNEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_DuzOwFJNEeiyW7NaN4qWdw" name="CostDeciders" isLeaf="true">
+                  <ownedComment xmi:id="_EBHt0lJNEeiyW7NaN4qWdw">
+                    <body>Cost deciders to be used while finding paths.</body>
+                  </ownedComment>
+                  <ownedAttribute xmi:id="_EA1Z8FJNEeiyW7NaN4qWdw" name="avoidIllegalCostDecider" visibility="private" isLeaf="true" isStatic="true" type="_DuuWQFJNEeiyW7NaN4qWdw" isReadOnly="true" association="_EBbP0FJNEeiyW7NaN4qWdw">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_EA1Z8VJNEeiyW7NaN4qWdw" value="new BaseCostDecider()"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_EA2BAFJNEeiyW7NaN4qWdw" name="trivialCostDecider" visibility="private" isLeaf="true" isStatic="true" type="_DuuWQFJNEeiyW7NaN4qWdw" isReadOnly="true" association="_EBcd8VJNEeiyW7NaN4qWdw">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_EA2BAVJNEeiyW7NaN4qWdw" value="new CostDecider() {&#xD;&#xA;            @Override&#xD;&#xA;            public int getCost(Unit unit, Location oldLocation,&#xD;&#xA;                               Location newLocation, int movesLeft) {&#xD;&#xA;                return (newLocation == null) ? ILLEGAL_MOVE&#xD;&#xA;                    : (newLocation instanceof Europe) ? 1&#xD;&#xA;                    : (newLocation.getTile() == null) ? ILLEGAL_MOVE&#xD;&#xA;                    : 1;&#xD;&#xA;            }&#xD;&#xA;            @Override&#xD;&#xA;            public int getMovesLeft() { return 0; }&#xD;&#xA;            @Override&#xD;&#xA;            public int getNewTurns() { return 0; }&#xD;&#xA;        }"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_EA2oEFJNEeiyW7NaN4qWdw" name="tileCostDecider" visibility="private" isLeaf="true" isStatic="true" type="_DuuWQFJNEeiyW7NaN4qWdw" isReadOnly="true" association="_EBdFAVJNEeiyW7NaN4qWdw">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_EA2oEVJNEeiyW7NaN4qWdw" value="new CostDecider() {&#xD;&#xA;            @Override&#xD;&#xA;            public int getCost(Unit unit, Location oldLocation,&#xD;&#xA;                               Location newLocation, int movesLeft) {&#xD;&#xA;                return (newLocation == null) ? ILLEGAL_MOVE&#xD;&#xA;                    : (newLocation instanceof Europe) ? 1&#xD;&#xA;                    : (newLocation.getTile() == null) ? ILLEGAL_MOVE&#xD;&#xA;                    : (unit.isTileAccessible(newLocation.getTile())) ? 1&#xD;&#xA;                    : ILLEGAL_MOVE;&#xD;&#xA;            }&#xD;&#xA;            @Override&#xD;&#xA;            public int getMovesLeft() { return 0; }&#xD;&#xA;            @Override&#xD;&#xA;            public int getNewTurns() { return 1; }&#xD;&#xA;        }"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_EA3PIFJNEeiyW7NaN4qWdw" name="serverAvoidIllegalCostDecider" visibility="private" isLeaf="true" isStatic="true" type="_DuuWQFJNEeiyW7NaN4qWdw" isReadOnly="true" association="_EBeTIVJNEeiyW7NaN4qWdw">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_EA3PIVJNEeiyW7NaN4qWdw" value="new ServerBaseCostDecider()"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_EA3PIlJNEeiyW7NaN4qWdw" name="avoidSettlementsCostDecider" visibility="private" isLeaf="true" isStatic="true" type="_Du5VYFJNEeiyW7NaN4qWdw" isReadOnly="true" association="_EBe6MVJNEeiyW7NaN4qWdw">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_EA32MFJNEeiyW7NaN4qWdw" value="new AvoidSettlementsCostDecider()"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_EA32MVJNEeiyW7NaN4qWdw" name="avoidSettlementsAndBlockingUnitsCostDecider" visibility="private" isLeaf="true" isStatic="true" type="_Du7xoFJNEeiyW7NaN4qWdw" isReadOnly="true" association="_EBgIUVJNEeiyW7NaN4qWdw">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_EA32MlJNEeiyW7NaN4qWdw" value="new AvoidSettlementsAndBlockingUnitsCostDecider()"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBBAIFJNEeiyW7NaN4qWdw" name="getComposedCostDecider" specification="_D_-eUFJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EBBAIVJNEeiyW7NaN4qWdw" name="cds" type="_DuuWQFJNEeiyW7NaN4qWdw">
+                      <eAnnotations xmi:id="_EBBAIlJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EBBAI1JNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EBBAJFJNEeiyW7NaN4qWdw" value="*"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EBBAJVJNEeiyW7NaN4qWdw" type="_DuuWQFJNEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>if (cds.length &lt; 2) {&#xD;
+         throw new IllegalArgumentException(&quot;Short CostDecider list&quot;);&#xD;
+     }&#xD;
+&#xD;
+     return new CostDecider() {&#xD;
+&#xD;
+         private final CostDecider[] costDeciders = cds;&#xD;
+         private int ret = -1;&#xD;
+         private int index = -1;&#xD;
+&#xD;
+         @Override&#xD;
+         public int getCost(Unit unit, Location oldLocation,&#xD;
+                            Location newLocation, int movesLeft) {&#xD;
+             for (int i = 0; i &lt; costDeciders.length; i++) {&#xD;
+                 int cost = costDeciders[i].getCost(unit, oldLocation,&#xD;
+                                                    newLocation, movesLeft);&#xD;
+                 if (cost == ILLEGAL_MOVE || cost == Map.INFINITY) {&#xD;
+                     index = i;&#xD;
+                     return ILLEGAL_MOVE;&#xD;
+                 }&#xD;
+                 if (cost > ret) {&#xD;
+                     index = i;&#xD;
+                     ret = cost;&#xD;
+                 }&#xD;
+             }&#xD;
+             return ret;&#xD;
+         }&#xD;
+&#xD;
+         @Override&#xD;
+         public int getMovesLeft() {&#xD;
+             return (index &lt; 0) ? 0 : costDeciders[index].getMovesLeft();&#xD;
+         }&#xD;
+&#xD;
+         @Override&#xD;
+         public int getNewTurns() {&#xD;
+             return (index &lt; 0) ? 0 : costDeciders[index].getNewTurns();&#xD;
+         }&#xD;
+     };&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBBAJlJNEeiyW7NaN4qWdw" name="defaultCostDeciderFor" specification="_EAliUVJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EBBnMFJNEeiyW7NaN4qWdw" name="unit" type="_D_wb4FJNEeiyW7NaN4qWdw">
+                      <eAnnotations xmi:id="_EBBnMVJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EBBnMlJNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EBBnM1JNEeiyW7NaN4qWdw" type="_DuuWQFJNEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>return (unit == null)&#xD;
+         ? avoidIllegal()&#xD;
+         : (unit.isNaval())&#xD;
+         ? avoidNavalDanger()&#xD;
+         : (unit.isOffensiveUnit())&#xD;
+         ? avoidSettlements()&#xD;
+         : avoidSettlementsAndBlockingUnits();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBBnNFJNEeiyW7NaN4qWdw" name="numberOfTiles" specification="_DvAqIFJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EBBnNVJNEeiyW7NaN4qWdw" type="_DuuWQFJNEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>return trivialCostDecider;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBBnNlJNEeiyW7NaN4qWdw" name="numberOfLegalTiles" specification="_DvB4QFJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EBBnN1JNEeiyW7NaN4qWdw" type="_DuuWQFJNEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>return tileCostDecider;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBBnOFJNEeiyW7NaN4qWdw" name="avoidIllegal" specification="_DvCfUFJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EBBnOVJNEeiyW7NaN4qWdw" type="_DuuWQFJNEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>return avoidIllegalCostDecider;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBCOQFJNEeiyW7NaN4qWdw" name="serverAvoidIllegal" specification="_DvDGYFJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EBCOQVJNEeiyW7NaN4qWdw" type="_DuuWQFJNEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>return serverAvoidIllegalCostDecider;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBCOQlJNEeiyW7NaN4qWdw" name="avoidSettlements" specification="_DvDtcFJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EBCOQ1JNEeiyW7NaN4qWdw" type="_DuuWQFJNEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>return avoidSettlementsCostDecider;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBCORFJNEeiyW7NaN4qWdw" name="avoidSettlementsAndBlockingUnits" specification="_DvEUgFJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EBCORVJNEeiyW7NaN4qWdw" type="_DuuWQFJNEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>return avoidSettlementsAndBlockingUnitsCostDecider;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBC1UFJNEeiyW7NaN4qWdw" name="avoidNavalDanger" specification="_DvE7kFJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EBC1UVJNEeiyW7NaN4qWdw" type="_DuuWQFJNEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>return new AvoidNavalDangerCostDecider();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_DvAqIFJNEeiyW7NaN4qWdw" name="numberOfTiles" isStatic="true" method="_EBBnNFJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EAA6kFJNEeiyW7NaN4qWdw" type="_DuuWQFJNEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_DvB4QFJNEeiyW7NaN4qWdw" name="numberOfLegalTiles" isStatic="true" method="_EBBnNlJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EAA6kVJNEeiyW7NaN4qWdw" type="_DuuWQFJNEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_DvCfUFJNEeiyW7NaN4qWdw" name="avoidIllegal" isStatic="true" method="_EBBnOFJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EAA6klJNEeiyW7NaN4qWdw" type="_DuuWQFJNEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_DvDGYFJNEeiyW7NaN4qWdw" name="serverAvoidIllegal" isStatic="true" method="_EBCOQFJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EABhoFJNEeiyW7NaN4qWdw" type="_DuuWQFJNEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_DvDtcFJNEeiyW7NaN4qWdw" name="avoidSettlements" isStatic="true" method="_EBCOQlJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EABhoVJNEeiyW7NaN4qWdw" type="_DuuWQFJNEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_DvEUgFJNEeiyW7NaN4qWdw" name="avoidSettlementsAndBlockingUnits" isStatic="true" method="_EBCORFJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EABholJNEeiyW7NaN4qWdw" type="_DuuWQFJNEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_DvE7kFJNEeiyW7NaN4qWdw" name="avoidNavalDanger" isStatic="true" method="_EBC1UFJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EABho1JNEeiyW7NaN4qWdw" type="_DuuWQFJNEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_D_-eUFJNEeiyW7NaN4qWdw" name="getComposedCostDecider" isStatic="true" method="_EBBAIFJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_D__FYFJNEeiyW7NaN4qWdw" name="cds" type="_DuuWQFJNEeiyW7NaN4qWdw">
+                      <eAnnotations xmi:id="_EAATgFJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EAATgVJNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_D__scVJNEeiyW7NaN4qWdw" value="*"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_D__FYVJNEeiyW7NaN4qWdw" type="_DuuWQFJNEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_EAliUVJNEeiyW7NaN4qWdw" name="defaultCostDeciderFor" isStatic="true" method="_EBBAJlJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EAliUlJNEeiyW7NaN4qWdw" name="unit" type="_D_wb4FJNEeiyW7NaN4qWdw">
+                      <eAnnotations xmi:id="_EAmJYVJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EAmJYlJNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EAmJYFJNEeiyW7NaN4qWdw" type="_DuuWQFJNEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_Du2SEFJNEeiyW7NaN4qWdw" name="ServerBaseCostDecider" visibility="private">
+                    <eAnnotations xmi:id="_Du25IFJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Du25IVJNEeiyW7NaN4qWdw" key="static"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_EBHt01JNEeiyW7NaN4qWdw">
+                      <body>A &lt;code>CostDecider&lt;/code> that uses server-side knowledge of where&#xD;
+     * a player has explored to limit searches.</body>
+                    </ownedComment>
+                    <generalization xmi:id="_D_6M4FJNEeiyW7NaN4qWdw" general="_DuDA0FJNEeiyW7NaN4qWdw"/>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EA_yAFJNEeiyW7NaN4qWdw" name="getCost" specification="_EAdmgFJNEeiyW7NaN4qWdw">
+                      <ownedParameter xmi:id="_EA_yAVJNEeiyW7NaN4qWdw" name="unit" type="_D_wb4FJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EA_yAlJNEeiyW7NaN4qWdw" name="oldLocation" type="_D_t_oFJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EA_yA1JNEeiyW7NaN4qWdw" name="newLocation" type="_D_t_oFJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EA_yBFJNEeiyW7NaN4qWdw" name="movesLeft">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_EA_yBVJNEeiyW7NaN4qWdw" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <language>java</language>
+                      <body>int cost = super.getCost(unit, oldLocation, newLocation, movesLeft);&#xD;
+         if (cost != ILLEGAL_MOVE &amp;&amp; cost != Map.INFINITY) {&#xD;
+             if (newLocation instanceof Europe) {&#xD;
+                 ; // ok&#xD;
+             } else if (!newLocation.getTile().isExploredBy(unit.getOwner())) {&#xD;
+                 return ILLEGAL_MOVE;&#xD;
+             }&#xD;
+         }&#xD;
+         return cost;&#xD;
+     </body>
+                    </ownedBehavior>
+                    <ownedOperation xmi:id="_EAdmgFJNEeiyW7NaN4qWdw" name="getCost" method="_EA_yAFJNEeiyW7NaN4qWdw">
+                      <ownedParameter xmi:id="_EAeNkFJNEeiyW7NaN4qWdw" name="unit" type="_D_wb4FJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EAeNkVJNEeiyW7NaN4qWdw" name="oldLocation" type="_D_t_oFJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EAeNklJNEeiyW7NaN4qWdw" name="newLocation" type="_D_t_oFJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EAeNk1JNEeiyW7NaN4qWdw" name="movesLeft">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_EAeNlFJNEeiyW7NaN4qWdw" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                  </nestedClassifier>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_Du5VYFJNEeiyW7NaN4qWdw" name="AvoidSettlementsCostDecider" visibility="private">
+                    <eAnnotations xmi:id="_Du5VYVJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Du5VYlJNEeiyW7NaN4qWdw" key="static"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_EBIU4FJNEeiyW7NaN4qWdw">
+                      <body>A &lt;code>CostDecider&lt;/code> that costs unit moves normally while&#xD;
+     * avoiding other player settlements.</body>
+                    </ownedComment>
+                    <generalization xmi:id="_D_7bAFJNEeiyW7NaN4qWdw" general="_DuDA0FJNEeiyW7NaN4qWdw"/>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EA_yBlJNEeiyW7NaN4qWdw" name="getCost" specification="_EAgCwFJNEeiyW7NaN4qWdw">
+                      <ownedParameter xmi:id="_EA_yB1JNEeiyW7NaN4qWdw" name="unit" type="_D_wb4FJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EA_yCFJNEeiyW7NaN4qWdw" name="oldLocation" type="_D_t_oFJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EA_yCVJNEeiyW7NaN4qWdw" name="newLocation" type="_D_t_oFJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EA_yClJNEeiyW7NaN4qWdw" name="movesLeft">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_EA_yC1JNEeiyW7NaN4qWdw" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <language>java</language>
+                      <body>int cost = super.getCost(unit, oldLocation, newLocation, movesLeft);&#xD;
+         if (cost != ILLEGAL_MOVE &amp;&amp; cost != Map.INFINITY) {&#xD;
+             Settlement settlement = newLocation.getSettlement();&#xD;
+             if (settlement != null&#xD;
+                 &amp;&amp; settlement.getOwner() != unit.getOwner()) {&#xD;
+                 return ILLEGAL_MOVE;&#xD;
+             }&#xD;
+         }&#xD;
+         return cost;&#xD;
+     </body>
+                    </ownedBehavior>
+                    <ownedOperation xmi:id="_EAgCwFJNEeiyW7NaN4qWdw" name="getCost" method="_EA_yBlJNEeiyW7NaN4qWdw">
+                      <ownedParameter xmi:id="_EAgCwVJNEeiyW7NaN4qWdw" name="unit" type="_D_wb4FJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EAgCwlJNEeiyW7NaN4qWdw" name="oldLocation" type="_D_t_oFJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EAgCw1JNEeiyW7NaN4qWdw" name="newLocation" type="_D_t_oFJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EAgCxFJNEeiyW7NaN4qWdw" name="movesLeft">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_EAgp0FJNEeiyW7NaN4qWdw" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                  </nestedClassifier>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_Du7xoFJNEeiyW7NaN4qWdw" name="AvoidSettlementsAndBlockingUnitsCostDecider" visibility="private">
+                    <eAnnotations xmi:id="_Du7xoVJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Du7xolJNEeiyW7NaN4qWdw" key="static"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_EBIU4VJNEeiyW7NaN4qWdw">
+                      <body>A &lt;code>CostDecider&lt;/code> that costs unit moves normally while&#xD;
+     * avoiding other player settlements and units, and does not explore&#xD;
+     * if it is trading.</body>
+                    </ownedComment>
+                    <generalization xmi:id="_D_8pIFJNEeiyW7NaN4qWdw" general="_Du5VYFJNEeiyW7NaN4qWdw"/>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBAZEFJNEeiyW7NaN4qWdw" name="getCost" specification="_EAh38FJNEeiyW7NaN4qWdw">
+                      <ownedParameter xmi:id="_EBAZEVJNEeiyW7NaN4qWdw" name="unit" type="_D_wb4FJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EBAZElJNEeiyW7NaN4qWdw" name="oldLocation" type="_D_t_oFJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EBAZE1JNEeiyW7NaN4qWdw" name="newLocation" type="_D_t_oFJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EBAZFFJNEeiyW7NaN4qWdw" name="movesLeft">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_EBAZFVJNEeiyW7NaN4qWdw" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <language>java</language>
+                      <body>int cost = super.getCost(unit, oldLocation, newLocation, movesLeft);&#xD;
+         Tile tile = newLocation.getTile();&#xD;
+         if (cost != ILLEGAL_MOVE &amp;&amp; cost != Map.INFINITY&#xD;
+             &amp;&amp; tile != null) {&#xD;
+             final Unit defender = tile.getFirstUnit();&#xD;
+             if (defender != null&#xD;
+                 &amp;&amp; defender.getOwner() != unit.getOwner()) {&#xD;
+                 return ILLEGAL_MOVE;&#xD;
+             } else if (unit.getTradeRoute() != null&#xD;
+                 &amp;&amp; tile.hasLostCityRumour()) {&#xD;
+                 return ILLEGAL_MOVE;&#xD;
+             }&#xD;
+         }&#xD;
+         return cost;&#xD;
+     </body>
+                    </ownedBehavior>
+                    <ownedOperation xmi:id="_EAh38FJNEeiyW7NaN4qWdw" name="getCost" method="_EBAZEFJNEeiyW7NaN4qWdw">
+                      <ownedParameter xmi:id="_EAh38VJNEeiyW7NaN4qWdw" name="unit" type="_D_wb4FJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EAh38lJNEeiyW7NaN4qWdw" name="oldLocation" type="_D_t_oFJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EAh381JNEeiyW7NaN4qWdw" name="newLocation" type="_D_t_oFJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EAh39FJNEeiyW7NaN4qWdw" name="movesLeft">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_EAifAFJNEeiyW7NaN4qWdw" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                  </nestedClassifier>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_Du-N4FJNEeiyW7NaN4qWdw" name="AvoidNavalDangerCostDecider" visibility="private">
+                    <eAnnotations xmi:id="_Du-N4VJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Du-N4lJNEeiyW7NaN4qWdw" key="static"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_EBIU4lJNEeiyW7NaN4qWdw">
+                      <body>A &lt;code>CostDecider&lt;/code> to avoid naval danger.</body>
+                    </ownedComment>
+                    <generalization xmi:id="_D_93QFJNEeiyW7NaN4qWdw" general="_Du7xoFJNEeiyW7NaN4qWdw"/>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBAZFlJNEeiyW7NaN4qWdw" name="getCost" specification="_EAjtIFJNEeiyW7NaN4qWdw">
+                      <ownedParameter xmi:id="_EBAZF1JNEeiyW7NaN4qWdw" name="unit" type="_D_wb4FJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EBAZGFJNEeiyW7NaN4qWdw" name="oldLocation" type="_D_t_oFJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EBAZGVJNEeiyW7NaN4qWdw" name="newLocation" type="_D_t_oFJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EBAZGlJNEeiyW7NaN4qWdw" name="movesLeft">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_EBAZG1JNEeiyW7NaN4qWdw" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <language>java</language>
+                      <body>int cost = super.getCost(unit, oldLocation, newLocation, movesLeft);&#xD;
+         Tile tile = newLocation.getTile();&#xD;
+         if (cost != ILLEGAL_MOVE &amp;&amp; cost != Map.INFINITY &amp;&amp; tile != null) {&#xD;
+             if (tile.isDangerousToShip(unit)) {&#xD;
+                 cost = ILLEGAL_MOVE;&#xD;
+             } else {&#xD;
+                 final Player owner = unit.getOwner();&#xD;
+                 tiles: for (Tile t : tile.getSurroundingTiles(1)) {&#xD;
+                     for (Unit u : t.getUnitList()) {&#xD;
+                         if (u.getOwner() == owner) break;&#xD;
+                         if (u.hasAbility(Ability.PIRACY)&#xD;
+                             || (u.getOwner().atWarWith(owner)&#xD;
+                                 &amp;&amp; u.isOffensiveUnit())) {&#xD;
+                             this.movesLeft = 0;&#xD;
+                             this.newTurns++;&#xD;
+                             break tiles;&#xD;
+                         }&#xD;
+                     }&#xD;
+                 }&#xD;
+             }&#xD;
+         }&#xD;
+         return cost;&#xD;
+     </body>
+                    </ownedBehavior>
+                    <ownedOperation xmi:id="_EAjtIFJNEeiyW7NaN4qWdw" name="getCost" method="_EBAZFlJNEeiyW7NaN4qWdw">
+                      <ownedParameter xmi:id="_EAkUMFJNEeiyW7NaN4qWdw" name="unit" type="_D_wb4FJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EAkUMVJNEeiyW7NaN4qWdw" name="oldLocation" type="_D_t_oFJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EAkUMlJNEeiyW7NaN4qWdw" name="newLocation" type="_D_t_oFJNEeiyW7NaN4qWdw"/>
+                      <ownedParameter xmi:id="_EAkUM1JNEeiyW7NaN4qWdw" name="movesLeft">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_EAkUNFJNEeiyW7NaN4qWdw" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                  </nestedClassifier>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Interface" xmi:id="_DvWBUFJNEeiyW7NaN4qWdw" name="GoalDecider">
+                  <ownedComment xmi:id="_EBIU41JNEeiyW7NaN4qWdw">
+                    <body>Used by {@link net.sf.freecol.common.model.Map#search} in order to&#xD;
+determine a goal.&#xD;
+&#xD;
+&lt;br />&lt;br />&#xD;
+&#xD;
+The method {@link #check(Unit, PathNode)} will be called by {@link&#xD;
+net.sf.freecol.common.model.Map#search} until:&#xD;
+&#xD;
+&lt;ol>&#xD;
+  &lt;li>The method returns &lt;code>true&lt;/code> and there is &#xD;
+      {@link #hasSubGoals() no sub goals}.&lt;/li>&#xD;
+  &lt;li>The maximum distance of the search has been reached.&lt;/li>&#xD;
+&lt;/ol>&#xD;
+&#xD;
+The method {@link #getGoal()} will get called after this.</body>
+                  </ownedComment>
+                  <ownedOperation xmi:id="_DvWoYFJNEeiyW7NaN4qWdw" name="getGoal">
+                    <ownedComment xmi:id="_EBIU5FJNEeiyW7NaN4qWdw">
+                      <body>Gets the &lt;code>PathNode&lt;/code> containing the goal.&#xD;
+     *&#xD;
+     * @return The &lt;code>PathNode&lt;/code> where the &lt;code>Tile&lt;/code>&#xD;
+     *     returned by &lt;code>pathNode.getTile()&lt;/code> is the goal.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_EAnXgFJNEeiyW7NaN4qWdw" type="_EAGaIFJNEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_DvXPcFJNEeiyW7NaN4qWdw" name="hasSubGoals">
+                    <ownedComment xmi:id="_EBIU5VJNEeiyW7NaN4qWdw">
+                      <body>Determines whether this &lt;code>GoalDecider&lt;/code> has any&#xD;
+     * sub goals.&#xD;
+     * &#xD;
+     * @return &lt;code>true&lt;/code> if there are any sub goals&#xD;
+     *     and &lt;code>false&lt;/code> otherwise.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_DvXPcVJNEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_EAoloFJNEeiyW7NaN4qWdw" name="check">
+                    <ownedComment xmi:id="_EBIU5lJNEeiyW7NaN4qWdw">
+                      <body>Checks whether the given &lt;code>PathNode&lt;/code> is a &#xD;
+     * goal/sub-goal.&#xD;
+     * &#xD;
+     * @param u The &lt;code>Unit&lt;/code> which we are trying &#xD;
+     *     to find a path for.&#xD;
+     * @param pathNode The &lt;code>PathNode&lt;/code> where the&#xD;
+     *     &lt;code>Tile&lt;/code> returned by&#xD;
+     *     &lt;code>pathNode.getTile()&lt;/code> is the tile to be checked.&#xD;
+     * @return &lt;code>true&lt;/code> if the &lt;code>PathNode&lt;/code> was&#xD;
+     *     either a goal or a sub goal and &lt;code>false&lt;/code>&#xD;
+     *     otherwise. The goal should be returned by {@link #getGoal()}&#xD;
+     *     right after a call to this method, if this method returns&#xD;
+     *     &lt;code>true&lt;/code> and {@link #hasSubGoals()} returns&#xD;
+     *     &lt;code>false&lt;/code>.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_EAoloVJNEeiyW7NaN4qWdw" name="u" type="_D_wb4FJNEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_EAololJNEeiyW7NaN4qWdw" name="pathNode" type="_EAGaIFJNEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_EAolo1JNEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_DvZEoFJNEeiyW7NaN4qWdw" name="GoalDeciders" isLeaf="true">
+                  <ownedComment xmi:id="_EBI78FJNEeiyW7NaN4qWdw">
+                    <body>Handy library of GoalDeciders.</body>
+                  </ownedComment>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBDcYFJNEeiyW7NaN4qWdw" name="getComposedGoalDecider" specification="_EAO9AVJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EBDcYVJNEeiyW7NaN4qWdw" name="all">
+                      <eAnnotations xmi:id="_EBDcYlJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EBDcY1JNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EBDcZFJNEeiyW7NaN4qWdw" name="gds" type="_DvWBUFJNEeiyW7NaN4qWdw">
+                      <eAnnotations xmi:id="_EBDcZVJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EBDcZlJNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EBDcZ1JNEeiyW7NaN4qWdw" value="*"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EBDcaFJNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>if (gds.length &lt; 2) {&#xD;
+         throw new IllegalArgumentException(&quot;Short GoalDecider list&quot;);&#xD;
+     }&#xD;
+&#xD;
+     return new GoalDecider() {&#xD;
+         private int winner = gds.length;&#xD;
+         private PathNode goal = null;&#xD;
+&#xD;
+         @Override&#xD;
+         public PathNode getGoal() { return goal; }&#xD;
+         @Override&#xD;
+         public boolean hasSubGoals() {&#xD;
+             for (int i = 0; i &lt; gds.length; i++) {&#xD;
+                 if (!all &amp;&amp; i > this.winner) break;&#xD;
+                 if (gds[i].hasSubGoals()) {&#xD;
+                     if (!all) return true;&#xD;
+                 } else {&#xD;
+                     if (all) return false;&#xD;
+                 }&#xD;
+             }&#xD;
+             return !all;&#xD;
+         }&#xD;
+         @Override&#xD;
+         public boolean check(Unit u, PathNode path) {&#xD;
+             for (int i = 0; i &lt; gds.length; i++) {&#xD;
+                 if (!all &amp;&amp; i > this.winner) break;&#xD;
+                 if (gds[i].check(u, path)) {&#xD;
+                     if (!all) {&#xD;
+                         this.winner = i;&#xD;
+                         this.goal = path;&#xD;
+                         return true;&#xD;
+                     }&#xD;
+                 } else {&#xD;
+                     if (all) {&#xD;
+                         return false;&#xD;
+                     }&#xD;
+                 }&#xD;
+             }&#xD;
+             if (all) {&#xD;
+                 this.winner = 0;&#xD;
+                 this.goal = path;&#xD;
+                 return true;&#xD;
+             }&#xD;
+             return false;&#xD;
+         }&#xD;
+     };&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBEDcFJNEeiyW7NaN4qWdw" name="getOurClosestSettlementGoalDecider" specification="_Dva50FJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EBEDcVJNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>return new GoalDecider() {&#xD;
+         private PathNode bestPath = null;&#xD;
+         private float bestValue = 0.0f;&#xD;
+&#xD;
+         @Override&#xD;
+         public PathNode getGoal() { return bestPath; }&#xD;
+         @Override&#xD;
+         public boolean hasSubGoals() { return true; }&#xD;
+         @Override&#xD;
+         public boolean check(Unit u, PathNode path) {&#xD;
+             Location loc = path.getLastNode().getLocation();&#xD;
+             Settlement settlement = loc.getSettlement();&#xD;
+             if (settlement != null &amp;&amp; settlement.getOwner().owns(u)) {&#xD;
+                 float value = ((settlement.isConnectedPort()) ? 2.0f&#xD;
+                     : 1.0f) / (path.getTotalTurns() + 1);&#xD;
+                 if (bestValue &lt; value) {&#xD;
+                     bestValue = value;&#xD;
+                     bestPath = path;&#xD;
+                     return true;&#xD;
+                 }&#xD;
+             }&#xD;
+             return false;&#xD;
+         }&#xD;
+     };&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBEDclJNEeiyW7NaN4qWdw" name="getHighSeasGoalDecider" specification="_Dvbg4FJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EBEDc1JNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>return new GoalDecider() {&#xD;
+         private PathNode best = null;&#xD;
+         &#xD;
+         @Override&#xD;
+         public PathNode getGoal() { return best; }&#xD;
+         @Override&#xD;
+         public boolean hasSubGoals() { return false; }&#xD;
+         @Override&#xD;
+         public boolean check(Unit u, PathNode path) {&#xD;
+             Tile tile = path.getTile();&#xD;
+             if (tile != null&#xD;
+                 &amp;&amp; tile.isExploredBy(u.getOwner())&#xD;
+                 &amp;&amp; tile.isDirectlyHighSeasConnected()&#xD;
+                 &amp;&amp; (tile.getFirstUnit() == null&#xD;
+                     || u.getOwner().owns(tile.getFirstUnit()))) {&#xD;
+                 if (best == null || path.getCost() &lt; best.getCost()) {&#xD;
+                     best = path;&#xD;
+                     return true;&#xD;
+                 }&#xD;
+             }&#xD;
+             return false;&#xD;
+         }&#xD;
+     };&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBEDdFJNEeiyW7NaN4qWdw" name="getSimpleHighSeasGoalDecider" specification="_DvcH8FJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EBEDdVJNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>return new GoalDecider() {&#xD;
+         private PathNode first = null;&#xD;
+&#xD;
+         @Override&#xD;
+         public PathNode getGoal() { return first; }&#xD;
+         @Override&#xD;
+         public boolean hasSubGoals() { return false; }&#xD;
+         @Override&#xD;
+         public boolean check(Unit u, PathNode path) {&#xD;
+             Tile tile = path.getTile();&#xD;
+             if (tile != null&#xD;
+                 &amp;&amp; tile.isDirectlyHighSeasConnected()) {&#xD;
+                 first = path;&#xD;
+                 return true;&#xD;
+             }&#xD;
+             return false;&#xD;
+         }&#xD;
+     };&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBEqgFJNEeiyW7NaN4qWdw" name="getLocationGoalDecider" specification="_EApMsFJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EBEqgVJNEeiyW7NaN4qWdw" name="target" type="_D_t_oFJNEeiyW7NaN4qWdw">
+                      <eAnnotations xmi:id="_EBEqglJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EBEqg1JNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EBEqhFJNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>return new GoalDecider() {&#xD;
+         private PathNode best = null;&#xD;
+         private int bestCost = FreeColObject.INFINITY;&#xD;
+&#xD;
+         @Override&#xD;
+         public PathNode getGoal() { return best; }&#xD;
+         @Override&#xD;
+         public boolean hasSubGoals() { return false; }&#xD;
+         @Override&#xD;
+         public boolean check(Unit u, PathNode path) {&#xD;
+             int cost;&#xD;
+             if (Map.isSameLocation(path.getLocation(), target)) {&#xD;
+                 if ((cost = path.getCost()) &lt; bestCost) {&#xD;
+                     best = path;&#xD;
+                     bestCost = cost;&#xD;
+                 }&#xD;
+                 return true;&#xD;
+             }&#xD;
+             return false;&#xD;
+         }&#xD;
+     };&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBEqhVJNEeiyW7NaN4qWdw" name="getAdjacentLocationGoalDecider" specification="_EApzw1JNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EBEqhlJNEeiyW7NaN4qWdw" name="target" type="_D_t_oFJNEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_EBEqh1JNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>final Tile tile = target.getTile();&#xD;
+     if (tile == null) return null;&#xD;
+&#xD;
+     return new GoalDecider() {&#xD;
+         private PathNode best = null;&#xD;
+&#xD;
+         @Override&#xD;
+         public PathNode getGoal() { return best; }&#xD;
+         @Override&#xD;
+         public boolean hasSubGoals() { return false; }&#xD;
+         @Override&#xD;
+         public boolean check(Unit u, PathNode path) {&#xD;
+             Tile t = path.getTile();&#xD;
+             if (t != null &amp;&amp; t.isAdjacent(tile)) {&#xD;
+                 best = path;&#xD;
+                 return true;&#xD;
+             }&#xD;
+             return false;&#xD;
+         }&#xD;
+     };&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBEqiFJNEeiyW7NaN4qWdw" name="getEnemySettlementGoalDecider" specification="_EArB4FJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EBEqiVJNEeiyW7NaN4qWdw" name="enemies" type="_EAIPUFJNEeiyW7NaN4qWdw">
+                      <eAnnotations xmi:id="_EBEqilJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EBEqi1JNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EBEqjFJNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>return new GoalDecider() {&#xD;
+         private PathNode best = null;&#xD;
+                     &#xD;
+         @Override&#xD;
+         public PathNode getGoal() { return best; }&#xD;
+         @Override&#xD;
+         public boolean hasSubGoals() { return false; }&#xD;
+         @Override&#xD;
+         public boolean check(Unit u, PathNode path) {&#xD;
+             Tile t = path.getTile();&#xD;
+             if (t == null || !t.isLand()) return false;&#xD;
+             Settlement s = t.getSettlement();&#xD;
+             if (s == null) return false;&#xD;
+             if (enemies.contains(s.getOwner())) {&#xD;
+                 best = path;&#xD;
+                 return true;&#xD;
+             }&#xD;
+             return false;&#xD;
+         }&#xD;
+     };&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBFRkFJNEeiyW7NaN4qWdw" name="getDisembarkGoalDecider" specification="_EAsQAFJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EBFRkVJNEeiyW7NaN4qWdw" name="target" type="_D_vNwFJNEeiyW7NaN4qWdw">
+                      <eAnnotations xmi:id="_EBFRklJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EBFRk1JNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EBFRlFJNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>return new GoalDecider() {&#xD;
+         private double bestScore = -1.0;&#xD;
+         private boolean goalDangerous = true;&#xD;
+         private PathNode goal = null;&#xD;
+&#xD;
+         @Override&#xD;
+         public PathNode getGoal() { return goal; }&#xD;
+         @Override&#xD;
+         public boolean hasSubGoals() { return true; }&#xD;
+         @Override&#xD;
+         public boolean check(Unit u, PathNode pathNode) {&#xD;
+             Tile tile = pathNode.getTile();&#xD;
+             if (tile == null || !tile.isLand() || !tile.isEmpty()&#xD;
+                 || tile.hasSettlement()) return false;&#xD;
+             final Player owner = u.getOwner();&#xD;
+             boolean found = false, danger = false;&#xD;
+             for (Tile t : pathNode.getTile().getSurroundingTiles(1)) {&#xD;
+                 if (!t.isHighSeasConnected() || t.isLand()) continue;&#xD;
+                 for (Tile t2 : t.getSurroundingTiles(1)) {&#xD;
+                     Settlement settlement = t2.getSettlement();&#xD;
+                     if (settlement != null&#xD;
+                         &amp;&amp; !owner.owns(settlement)&#xD;
+                         &amp;&amp; settlement.hasAbility(Ability.BOMBARD_SHIPS)&#xD;
+                         &amp;&amp; (owner.atWarWith(settlement.getOwner())&#xD;
+                             || u.hasAbility(Ability.PIRACY))) {&#xD;
+                         danger = true;&#xD;
+                         break;&#xD;
+                     }&#xD;
+                 }&#xD;
+                 if (goalDangerous) {&#xD;
+                     found = true;&#xD;
+                     if (!danger) {&#xD;
+                         // Found first non-dangerous tile, reset scores&#xD;
+                         goalDangerous = false;&#xD;
+                         bestScore = -1.0f;&#xD;
+                     }&#xD;
+                 } else {&#xD;
+                     found = !danger; // Only accept non-dangerous tiles&#xD;
+                 }&#xD;
+             }&#xD;
+             if (found) {&#xD;
+                 double distance = 1.0 + u.getGame().getMap()&#xD;
+                     .getDistance(target, tile);&#xD;
+                 double score = tile.getDefenceValue() / distance;&#xD;
+                 if (bestScore &lt; score) {&#xD;
+                     bestScore = score;&#xD;
+                     goal = pathNode;&#xD;
+                     return true;&#xD;
+                 }&#xD;
+             }&#xD;
+             return false;&#xD;
+         }&#xD;
+     };&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBFRlVJNEeiyW7NaN4qWdw" name="getStealthyGoalDecider" specification="_EAs3ElJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EBFRllJNEeiyW7NaN4qWdw" name="enemy" type="_D_3woVJNEeiyW7NaN4qWdw">
+                      <eAnnotations xmi:id="_EBFRl1JNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EBFRmFJNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EBFRmVJNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>return new GoalDecider() {&#xD;
+         private PathNode goal = null;&#xD;
+&#xD;
+         @Override&#xD;
+         public PathNode getGoal() { return goal; }&#xD;
+         @Override&#xD;
+         public boolean hasSubGoals() { return true; }&#xD;
+         @Override&#xD;
+         public boolean check(Unit u, PathNode pathNode) {&#xD;
+             Tile tile = pathNode.getTile();&#xD;
+             if (enemy.canSee(tile)) return false;&#xD;
+             this.goal = pathNode;&#xD;
+             return true;&#xD;
+         }&#xD;
+     };&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBF4oFJNEeiyW7NaN4qWdw" name="getReduceHighSeasCountGoalDecider" specification="_EAteIlJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EBF4oVJNEeiyW7NaN4qWdw" name="unit" type="_D_wb4FJNEeiyW7NaN4qWdw">
+                      <eAnnotations xmi:id="_EBF4olJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EBF4o1JNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EBF4pFJNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>return new GoalDecider() {&#xD;
+         private PathNode goal = null;&#xD;
+         private int score = unit.getTile().getHighSeasCount();&#xD;
+&#xD;
+         @Override&#xD;
+         public PathNode getGoal() { return goal; }&#xD;
+         @Override&#xD;
+         public boolean hasSubGoals() { return true; }&#xD;
+         @Override&#xD;
+         public boolean check(Unit u, PathNode pathNode) {&#xD;
+             Tile tile = pathNode.getTile();&#xD;
+             if (tile.getHighSeasCount() &lt; score) {&#xD;
+                 Settlement s = tile.getSettlement();&#xD;
+                 if (unit.getOwner().owns(s)) {&#xD;
+                     this.goal = pathNode;&#xD;
+                     this.score = tile.getHighSeasCount();&#xD;
+                     return true;&#xD;
+                 }&#xD;
+             }&#xD;
+             return false;&#xD;
+         }&#xD;
+     };&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBF4pVJNEeiyW7NaN4qWdw" name="getCornerGoalDecider" specification="_DvfLQFJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EBF4plJNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>return new GoalDecider() {&#xD;
+         private PathNode goal = null;&#xD;
+         private int score = Integer.MAX_VALUE;&#xD;
+&#xD;
+         @Override&#xD;
+         public PathNode getGoal() { return goal; }&#xD;
+         @Override&#xD;
+         public boolean hasSubGoals() { return true; }&#xD;
+         @Override&#xD;
+         public boolean check(Unit u, PathNode pathNode) {&#xD;
+             Tile tile = pathNode.getTile();&#xD;
+             if (tile.getHighSeasCount() &lt; score &amp;&amp; tile.isRiverCorner()) {&#xD;
+                 score = tile.getHighSeasCount();&#xD;
+                 goal = pathNode;&#xD;
+                 return true;&#xD;
+             }&#xD;
+             return false;&#xD;
+         }&#xD;
+     };&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_Dva50FJNEeiyW7NaN4qWdw" name="getOurClosestSettlementGoalDecider" isStatic="true" method="_EBEDcFJNEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_EBI78VJNEeiyW7NaN4qWdw">
+                      <body>Gets a GoalDecider to find the `closest' settlement owned by the&#xD;
+     * searching unit player, with connected ports weighted double.&#xD;
+     *&#xD;
+     * @return The closest settlement goal decider.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_EAQyMFJNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_Dvbg4FJNEeiyW7NaN4qWdw" name="getHighSeasGoalDecider" isStatic="true" method="_EBEDclJNEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_EBI78lJNEeiyW7NaN4qWdw">
+                      <body>Gets a GoalDecider to find the closest high seas tile to a target.&#xD;
+     * Used when arriving on the map from Europe.&#xD;
+     *&#xD;
+     * @return The high seas goal decider.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_EAQyMVJNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_DvcH8FJNEeiyW7NaN4qWdw" name="getSimpleHighSeasGoalDecider" isStatic="true" method="_EBEDdFJNEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_EBI781JNEeiyW7NaN4qWdw">
+                      <body>Build a simple goal decider to find the first high seas tile&#xD;
+     * without using the unit parameter.&#xD;
+     *&#xD;
+     * @return A &lt;code>GoalDecider&lt;/code> that finds the nearest high seas tile.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_EAQyMlJNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_DvfLQFJNEeiyW7NaN4qWdw" name="getCornerGoalDecider" isStatic="true" method="_EBF4pVJNEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_EBTUBVJNEeiyW7NaN4qWdw">
+                      <body>Get a goal decider to find tiles on river corners, preferring ones&#xD;
+     * closest to the high seas.  This is useful when a unit is stuck on&#xD;
+     * a river.  By moving to a corner (i.e. where another unit can get&#xD;
+     * past it) the chance that the blockage clears is enhanced.&#xD;
+     *&#xD;
+     * @return A suitable goal decider.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_EASAUFJNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_EAO9AVJNEeiyW7NaN4qWdw" name="getComposedGoalDecider" isStatic="true" method="_EBDcYFJNEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_EAO9AlJNEeiyW7NaN4qWdw" name="all">
+                      <eAnnotations xmi:id="_EAQLIFJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EAQLIVJNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EAPkEFJNEeiyW7NaN4qWdw" name="gds" type="_DvWBUFJNEeiyW7NaN4qWdw">
+                      <eAnnotations xmi:id="_EAQLI1JNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EAQLJFJNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EAQLIlJNEeiyW7NaN4qWdw" value="*"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EAPkEVJNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_EApMsFJNEeiyW7NaN4qWdw" name="getLocationGoalDecider" isStatic="true" method="_EBEqgFJNEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_EBI79FJNEeiyW7NaN4qWdw">
+                      <body>Builds a simple goal decider to find a single target location.&#xD;
+     *&#xD;
+     * @param target The target &lt;code>Location&lt;/code>.&#xD;
+     * @return A &lt;code>GoalDecider&lt;/code> that only succeeds for the&#xD;
+     *     target location.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_EApMsVJNEeiyW7NaN4qWdw" name="target" type="_D_t_oFJNEeiyW7NaN4qWdw">
+                      <eAnnotations xmi:id="_EApzwVJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EApzwlJNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EApzwFJNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_EApzw1JNEeiyW7NaN4qWdw" name="getAdjacentLocationGoalDecider" isStatic="true" method="_EBEqhVJNEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_EBTUAFJNEeiyW7NaN4qWdw">
+                      <body>Builds a goal decider to find an adjacent tile to a target location.&#xD;
+     *&#xD;
+     * @param target The target &lt;code>Location&lt;/code>.&#xD;
+     * @return A &lt;code>GoalDecider&lt;/code> that only succeeds for tiles&#xD;
+     *     adjacent to the target location.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_EApzxFJNEeiyW7NaN4qWdw" name="target" type="_D_t_oFJNEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_EAqa0FJNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_EArB4FJNEeiyW7NaN4qWdw" name="getEnemySettlementGoalDecider" isStatic="true" method="_EBEqiFJNEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_EBTUAVJNEeiyW7NaN4qWdw">
+                      <body>Get a goal decider that succeeds for settlements owned by one&#xD;
+     * of a given list of enemies.&#xD;
+     *&#xD;
+     * @param enemies The list of enemy &lt;code>Player&lt;/code>s.&#xD;
+     * @return A suitable &lt;code>GoalDecider&lt;/code>.&#xD;
+     *</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_EArB4VJNEeiyW7NaN4qWdw" name="enemies" type="_EAIPUFJNEeiyW7NaN4qWdw">
+                      <eAnnotations xmi:id="_EArB41JNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EArB5FJNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EArB4lJNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_EAsQAFJNEeiyW7NaN4qWdw" name="getDisembarkGoalDecider" isStatic="true" method="_EBFRkFJNEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_EBTUAlJNEeiyW7NaN4qWdw">
+                      <body>Goal decider to find the best land tile to disembark a unit that&#xD;
+     * is planning to attack a given target.&#xD;
+     *&#xD;
+     * The result must be:&#xD;
+     * - Unoccupied&#xD;
+     * - Have at least one unoccupied high-seas-connected neighbour&#xD;
+     * - Favour the best natural defence of the alternatives&#xD;
+     * - Favour a short journey to the target&#xD;
+     * - Prioritize not landing next to a hostile fort/fortress.&#xD;
+     *&#xD;
+     * @param target The target &lt;code>Tile&lt;/code>.&#xD;
+     * @return A suitable &lt;code>GoalDecider&lt;/code>.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_EAsQAVJNEeiyW7NaN4qWdw" name="target" type="_D_vNwFJNEeiyW7NaN4qWdw">
+                      <eAnnotations xmi:id="_EAs3EFJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EAs3EVJNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EAsQAlJNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_EAs3ElJNEeiyW7NaN4qWdw" name="getStealthyGoalDecider" isStatic="true" method="_EBFRlVJNEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_EBTUA1JNEeiyW7NaN4qWdw">
+                      <body>Get a goal decider to find tiles that an enemy player can not see.&#xD;
+     *&#xD;
+     * @param enemy The enemy &lt;code>Player&lt;/code> to avoid.&#xD;
+     * @return A suitable &lt;code>GoalDecider&lt;/code>.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_EAs3E1JNEeiyW7NaN4qWdw" name="enemy" type="_D_3woVJNEeiyW7NaN4qWdw">
+                      <eAnnotations xmi:id="_EAteIFJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EAteIVJNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EAs3FFJNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_EAteIlJNEeiyW7NaN4qWdw" name="getReduceHighSeasCountGoalDecider" isStatic="true" method="_EBF4oFJNEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_EBTUBFJNEeiyW7NaN4qWdw">
+                      <body>Get a goal decider to find tiles with a settlement with a lower&#xD;
+     * high seas count than a unit currently has.  Useful for tunnelling&#xD;
+     * out of intermittantly blocked rivers.&#xD;
+     *&#xD;
+     * @param unit The &lt;code>Unit&lt;/code> to get the goal decider for.&#xD;
+     * @return A suitable &lt;code>GoalDecider&lt;/code>.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_EAteI1JNEeiyW7NaN4qWdw" name="unit" type="_D_wb4FJNEeiyW7NaN4qWdw">
+                      <eAnnotations xmi:id="_EAuFMVJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EAuFMlJNEeiyW7NaN4qWdw" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_EAuFMFJNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_DvfyUFJNEeiyW7NaN4qWdw" name="MultipleAdjacentDecider">
+                    <eAnnotations xmi:id="_DvgZYFJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_DvgZYVJNEeiyW7NaN4qWdw" key="static"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_EBT7EFJNEeiyW7NaN4qWdw">
+                      <body>A class to wrap a goal decider that searches for paths to an&#xD;
+     * adjacent tile to a set of locations, and the results of such a&#xD;
+     * search.</body>
+                    </ownedComment>
+                    <ownedAttribute xmi:id="_EA5EUFJNEeiyW7NaN4qWdw" name="gd" visibility="private" isLeaf="true" type="_DvWBUFJNEeiyW7NaN4qWdw" isReadOnly="true" association="_EBgvYVJNEeiyW7NaN4qWdw"/>
+                    <ownedAttribute xmi:id="_EA5rYVJNEeiyW7NaN4qWdw" name="results" visibility="private" isLeaf="true" type="_EAJdcVJNEeiyW7NaN4qWdw" isReadOnly="true" association="_EBh9gVJNEeiyW7NaN4qWdw">
+                      <defaultValue xmi:type="uml:LiteralString" xmi:id="_EA65gVJNEeiyW7NaN4qWdw" value="new HashMap&lt;>()"/>
+                    </ownedAttribute>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBF4p1JNEeiyW7NaN4qWdw" name="MultipleAdjacentDecider" specification="_EAusQFJNEeiyW7NaN4qWdw">
+                      <ownedParameter xmi:id="_EBF4qFJNEeiyW7NaN4qWdw" name="locs" type="_EANH0FJNEeiyW7NaN4qWdw">
+                        <eAnnotations xmi:id="_EBF4qVJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                          <details xmi:id="_EBF4qlJNEeiyW7NaN4qWdw" key="final"/>
+                        </eAnnotations>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_EBF4q1JNEeiyW7NaN4qWdw" type="_DvfyUFJNEeiyW7NaN4qWdw" direction="return"/>
+                      <language>java</language>
+                      <body>this.gd = new GoalDecider() {&#xD;
+&#xD;
+                 @Override&#xD;
+                 public PathNode getGoal() { return null; }&#xD;
+                 @Override&#xD;
+                 public boolean hasSubGoals() { return true; }&#xD;
+                 @Override&#xD;
+                 public boolean check(Unit u, PathNode path) {&#xD;
+                     Tile tile = path.getTile();&#xD;
+                     if (tile == null) return false;&#xD;
+                     for (Location loc : locs) {&#xD;
+                         if (tile.isAdjacent(loc.getTile())) {&#xD;
+                             PathNode p = results.get(loc);&#xD;
+                             if (p == null&#xD;
+                                 || p.getCost() > path.getCost()) {&#xD;
+                                 results.put(loc, path);&#xD;
+                             }&#xD;
+                         }&#xD;
+                     }&#xD;
+                     return false;&#xD;
+                 }&#xD;
+             };&#xD;
+     </body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBGfsFJNEeiyW7NaN4qWdw" name="getGoalDecider" specification="_DvhngFJNEeiyW7NaN4qWdw">
+                      <ownedParameter xmi:id="_EBGfsVJNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                      <language>java</language>
+                      <body>return gd;&#xD;
+     </body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EBGfslJNEeiyW7NaN4qWdw" name="getResults" specification="_DviOkFJNEeiyW7NaN4qWdw">
+                      <ownedParameter xmi:id="_EBGfs1JNEeiyW7NaN4qWdw" type="_EAJdcVJNEeiyW7NaN4qWdw" direction="return"/>
+                      <language>java</language>
+                      <body>return results;&#xD;
+     </body>
+                    </ownedBehavior>
+                    <ownedOperation xmi:id="_DvhngFJNEeiyW7NaN4qWdw" name="getGoalDecider" method="_EBGfsFJNEeiyW7NaN4qWdw">
+                      <ownedParameter xmi:id="_EASnYFJNEeiyW7NaN4qWdw" type="_DvWBUFJNEeiyW7NaN4qWdw" direction="return"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_DviOkFJNEeiyW7NaN4qWdw" name="getResults" method="_EBGfslJNEeiyW7NaN4qWdw">
+                      <ownedParameter xmi:id="_EAwhcFJNEeiyW7NaN4qWdw" type="_EAJdcVJNEeiyW7NaN4qWdw" direction="return"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_EAusQFJNEeiyW7NaN4qWdw" name="MultipleAdjacentDecider" method="_EBF4p1JNEeiyW7NaN4qWdw">
+                      <eAnnotations xmi:id="_EAvTUFJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_EAvTUVJNEeiyW7NaN4qWdw" key="create"/>
+                      </eAnnotations>
+                      <ownedComment xmi:id="_EBT7EVJNEeiyW7NaN4qWdw">
+                        <body>Create a multiple decider.&#xD;
+         *&#xD;
+         * @param locs The list of &lt;code>Location&lt;/code>s to search for&#xD;
+         *     paths to an adjacent location for.</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_EAusQVJNEeiyW7NaN4qWdw" name="locs" type="_EANH0FJNEeiyW7NaN4qWdw">
+                        <eAnnotations xmi:id="_EAvTU1JNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                          <details xmi:id="_EAvTVFJNEeiyW7NaN4qWdw" key="final"/>
+                        </eAnnotations>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_EAvTUlJNEeiyW7NaN4qWdw" type="_DvfyUFJNEeiyW7NaN4qWdw" direction="return"/>
+                    </ownedOperation>
+                  </nestedClassifier>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_EBbP0FJNEeiyW7NaN4qWdw" name="" memberEnd="_EBbP0VJNEeiyW7NaN4qWdw _EA1Z8FJNEeiyW7NaN4qWdw">
+                  <ownedEnd xmi:id="_EBbP0VJNEeiyW7NaN4qWdw" name="" type="_DuzOwFJNEeiyW7NaN4qWdw" association="_EBbP0FJNEeiyW7NaN4qWdw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_EBcd8VJNEeiyW7NaN4qWdw" name="" memberEnd="_EBcd8lJNEeiyW7NaN4qWdw _EA2BAFJNEeiyW7NaN4qWdw">
+                  <ownedEnd xmi:id="_EBcd8lJNEeiyW7NaN4qWdw" name="" type="_DuzOwFJNEeiyW7NaN4qWdw" association="_EBcd8VJNEeiyW7NaN4qWdw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_EBdFAVJNEeiyW7NaN4qWdw" name="" memberEnd="_EBdFAlJNEeiyW7NaN4qWdw _EA2oEFJNEeiyW7NaN4qWdw">
+                  <ownedEnd xmi:id="_EBdFAlJNEeiyW7NaN4qWdw" name="" type="_DuzOwFJNEeiyW7NaN4qWdw" association="_EBdFAVJNEeiyW7NaN4qWdw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_EBeTIVJNEeiyW7NaN4qWdw" name="" memberEnd="_EBeTIlJNEeiyW7NaN4qWdw _EA3PIFJNEeiyW7NaN4qWdw">
+                  <ownedEnd xmi:id="_EBeTIlJNEeiyW7NaN4qWdw" name="" type="_DuzOwFJNEeiyW7NaN4qWdw" association="_EBeTIVJNEeiyW7NaN4qWdw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_EBe6MVJNEeiyW7NaN4qWdw" name="" memberEnd="_EBe6MlJNEeiyW7NaN4qWdw _EA3PIlJNEeiyW7NaN4qWdw">
+                  <ownedEnd xmi:id="_EBe6MlJNEeiyW7NaN4qWdw" name="" type="_DuzOwFJNEeiyW7NaN4qWdw" association="_EBe6MVJNEeiyW7NaN4qWdw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_EBgIUVJNEeiyW7NaN4qWdw" name="" memberEnd="_EBgIUlJNEeiyW7NaN4qWdw _EA32MVJNEeiyW7NaN4qWdw">
+                  <ownedEnd xmi:id="_EBgIUlJNEeiyW7NaN4qWdw" name="" type="_DuzOwFJNEeiyW7NaN4qWdw" association="_EBgIUVJNEeiyW7NaN4qWdw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_EBgvYVJNEeiyW7NaN4qWdw" name="" memberEnd="_EBgvYlJNEeiyW7NaN4qWdw _EA5EUFJNEeiyW7NaN4qWdw">
+                  <ownedEnd xmi:id="_EBgvYlJNEeiyW7NaN4qWdw" name="" type="_DvfyUFJNEeiyW7NaN4qWdw" association="_EBgvYVJNEeiyW7NaN4qWdw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_EBh9gVJNEeiyW7NaN4qWdw" name="" memberEnd="_EBh9glJNEeiyW7NaN4qWdw _EA5rYVJNEeiyW7NaN4qWdw">
+                  <ownedEnd xmi:id="_EBh9glJNEeiyW7NaN4qWdw" name="" type="_DvfyUFJNEeiyW7NaN4qWdw" association="_EBh9gVJNEeiyW7NaN4qWdw"/>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D_sKcFJNEeiyW7NaN4qWdw" name="Europe"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D_t_oFJNEeiyW7NaN4qWdw" name="Location"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D_vNwFJNEeiyW7NaN4qWdw" name="Tile"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D_wb4FJNEeiyW7NaN4qWdw" name="Unit"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D_1UYFJNEeiyW7NaN4qWdw" name="Ability"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D_2igVJNEeiyW7NaN4qWdw" name="Map"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D_3woVJNEeiyW7NaN4qWdw" name="Player"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D_4-wFJNEeiyW7NaN4qWdw" name="Settlement"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_EAGaIFJNEeiyW7NaN4qWdw" name="PathNode"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_EAOV8FJNEeiyW7NaN4qWdw" name="FreeColObject"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_DtnjAFJNEeiyW7NaN4qWdw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_DtnjAVJNEeiyW7NaN4qWdw" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_EAIPUFJNEeiyW7NaN4qWdw" name="Collection"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_EAJdcVJNEeiyW7NaN4qWdw" name="HashMap"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_EANH0FJNEeiyW7NaN4qWdw" name="List"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_DQWYMFJNEeiyW7NaN4qWdw">
+      <eAnnotations xmi:id="_DQbQsFJNEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_DQeUAFJNEeiyW7NaN4qWdw" base_Package="_C8MGEFJNEeiyW7NaN4qWdw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DuMKwFJNEeiyW7NaN4qWdw" base_Element="_DuKVkFJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_DuoPoFJNEeiyW7NaN4qWdw" base_Element="_DuKVkFJNEeiyW7NaN4qWdw">
+    <annotations xmi:id="_Duo2sFJNEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DuqE0FJNEeiyW7NaN4qWdw" base_Element="_Duo2sVJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_Duqr4FJNEeiyW7NaN4qWdw" base_Element="_Duo2sVJNEeiyW7NaN4qWdw">
+    <annotations xmi:id="_Duqr4VJNEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_Dv73MFJNEeiyW7NaN4qWdw" genericsValue="Location, PathNode" base_Element="_DviOkFJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D_tYkFJNEeiyW7NaN4qWdw" base_Element="_D_sKcFJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D_umsFJNEeiyW7NaN4qWdw" base_Element="_D_t_oFJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D_v00FJNEeiyW7NaN4qWdw" base_Element="_D_vNwFJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D_xqAFJNEeiyW7NaN4qWdw" base_Element="_D_wb4FJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D_2igFJNEeiyW7NaN4qWdw" base_Element="_D_1UYFJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D_3woFJNEeiyW7NaN4qWdw" base_Element="_D_2igVJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D_4XsFJNEeiyW7NaN4qWdw" base_Element="_D_3woVJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D_5l0FJNEeiyW7NaN4qWdw" base_Element="_D_4-wFJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_D__scFJNEeiyW7NaN4qWdw" base_Element="_D_-eUFJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Array xmi:id="_EAATglJNEeiyW7NaN4qWdw" base_Element="_D__FYFJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_EAHBMFJNEeiyW7NaN4qWdw" base_Element="_EAGaIFJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_EAJdcFJNEeiyW7NaN4qWdw" base_Element="_EAIPUFJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_EAL5sFJNEeiyW7NaN4qWdw" base_Element="_EAJdcVJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_EANu4FJNEeiyW7NaN4qWdw" base_Element="_EANH0FJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_EAO9AFJNEeiyW7NaN4qWdw" base_Element="_EAOV8FJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EAPkElJNEeiyW7NaN4qWdw" base_Element="_EAO9AVJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Array xmi:id="_EAQLJVJNEeiyW7NaN4qWdw" dimensions="1" base_Element="_EAPkEFJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EAajMVJNEeiyW7NaN4qWdw" base_Element="_EAZ8IFJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_EAbKQVJNEeiyW7NaN4qWdw" base_Element="_EAZ8IFJNEeiyW7NaN4qWdw">
+    <annotations xmi:id="_EAbKQlJNEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EAe0oFJNEeiyW7NaN4qWdw" base_Element="_EAdmgFJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_EAfbsFJNEeiyW7NaN4qWdw" base_Element="_EAdmgFJNEeiyW7NaN4qWdw">
+    <annotations xmi:id="_EAfbsVJNEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EAgp0VJNEeiyW7NaN4qWdw" base_Element="_EAgCwFJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_EAhQ4FJNEeiyW7NaN4qWdw" base_Element="_EAgCwFJNEeiyW7NaN4qWdw">
+    <annotations xmi:id="_EAhQ4VJNEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EAifAVJNEeiyW7NaN4qWdw" base_Element="_EAh38FJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_EAjGEFJNEeiyW7NaN4qWdw" base_Element="_EAh38FJNEeiyW7NaN4qWdw">
+    <annotations xmi:id="_EAjGEVJNEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EAk7QFJNEeiyW7NaN4qWdw" base_Element="_EAjtIFJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_EAk7QVJNEeiyW7NaN4qWdw" base_Element="_EAjtIFJNEeiyW7NaN4qWdw">
+    <annotations xmi:id="_EAliUFJNEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_EAro8FJNEeiyW7NaN4qWdw" genericsValue="Player" base_Element="_EArB4VJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Generics xmi:id="_EAv6YFJNEeiyW7NaN4qWdw" genericsValue="Location" base_Element="_EAusQVJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EA0L0FJNEeiyW7NaN4qWdw" base_Element="_EAy9sFJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EA0y4FJNEeiyW7NaN4qWdw" base_Element="_EA0L0VJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EA5rYFJNEeiyW7NaN4qWdw" base_Element="_EA5EUFJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Generics xmi:id="_EA65gFJNEeiyW7NaN4qWdw" genericsValue="Location, PathNode" base_Element="_EA5rYVJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EA7gkFJNEeiyW7NaN4qWdw" base_Element="_EA5rYVJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_EBcd8FJNEeiyW7NaN4qWdw" base_Element="_EBbP0FJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_EBdFAFJNEeiyW7NaN4qWdw" base_Element="_EBcd8VJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_EBeTIFJNEeiyW7NaN4qWdw" base_Element="_EBdFAVJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_EBe6MFJNEeiyW7NaN4qWdw" base_Element="_EBeTIVJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_EBgIUFJNEeiyW7NaN4qWdw" base_Element="_EBe6MVJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_EBgvYFJNEeiyW7NaN4qWdw" base_Element="_EBgIUVJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_EBh9gFJNEeiyW7NaN4qWdw" base_Element="_EBgvYVJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_EBikkFJNEeiyW7NaN4qWdw" base_Element="_EBh9gVJNEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Patch xmi:id="_EgntQFJNEeiyW7NaN4qWdw" base_Element="_DuzOwFJNEeiyW7NaN4qWdw" patchText="@@ -3998,32 +3998,132 @@&#xA;         %7D%0D%0A    %7D&#xA;+;%0D%0A    /**%0D%0A     * A server-side %3Ccode%3ECostDecider%3C/code%3E that costs unit moves normally.%0D%0A     */%0D%0A&#xA;     private stat&#xA;@@ -5013,32 +5013,119 @@&#xA;         %7D%0D%0A    %7D&#xA;+;%0D%0A    /**%0D%0A     * An instance of the cost decider for avoiding settlements.%0D%0A     */%0D%0A&#xA;     private stat&#xA;@@ -6351,24 +6351,113 @@&#xA;     %7D%0D%0A    %7D&#xA;+;%0D%0A%0D%0A    /**%0D%0A     * An instance of the settlement+unit avoiding cost decider.%0D%0A     */%0D%0A&#xA;     private &#xA;@@ -8059,16 +8059,503 @@&#xA; %7D%0D%0A    %7D&#xA;+;%0D%0A%0D%0A%0D%0A    // Public interface%0D%0A%0D%0A    /**%0D%0A     * Gets a composite cost decider composed of two or more%0D%0A     * individual cost deciders.  The result/s are determined by the%0D%0A     * cost decider which returns the highest cost, with an%0D%0A     * ILLEGAL_MOVE result dominating.%0D%0A     *%0D%0A     * @param cds A series (two minimum) of %3Ccode%3ECostDecider%3C/code%3Es%0D%0A     *     to compose.%0D%0A     * @return A new %3Ccode%3ECostDecider%3C/code%3E composed of the argument%0D%0A     *     cost deciders.%0D%0A     */%0D%0A&#xA;     publ&#xA;" conflicting="false"/>
+  <UMLLabProfile:Patch xmi:id="_EgpicFJNEeiyW7NaN4qWdw" base_Element="_DvZEoFJNEeiyW7NaN4qWdw" patchText="@@ -18294,11 +18294,14 @@&#xA; %7D%0D%0A    %7D&#xA;+;%0D%0A&#xA; %7D%0D%0A&#xA;" conflicting="false"/>
+</xmi:XMI>

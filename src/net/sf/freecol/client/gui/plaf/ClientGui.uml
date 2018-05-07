@@ -1,0 +1,2407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_hy93sFImEeibjuLm5_lcNQ" name="ClientGui">
+    <eAnnotations xmi:id="_izdEUFImEeibjuLm5_lcNQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_izdEUVImEeibjuLm5_lcNQ" source="codegen">
+        <details xmi:id="_izdEUlImEeibjuLm5_lcNQ" key="codegenDirectory" value="/COSC442-FinalProject/src"/>
+        <details xmi:id="_js500FImEeibjuLm5_lcNQ" key="AssociatedSourceCode" value="/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/FreeColBrightPanelUI.java;611933187/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/FreeColButtonUI.java;245882838/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/FreeColCheckBoxUI.java;618881608/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/FreeColComboBoxRenderer.java;2254226164/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/FreeColComboBoxUI.java;1100944354/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/FreeColFileChooserUI.java;322808207/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/FreeColLabelUI.java;574206983/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/FreeColListUI.java;1421668746/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/FreeColLookAndFeel.java;3327788024/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/FreeColMenuBarUI.java;1862813029/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/FreeColMenuItemUI.java;4110436812/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/FreeColOptionPaneUI.java;140635726/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/FreeColPanelUI.java;1673739650/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/FreeColPopupMenuUI.java;2923335933/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/FreeColRadioButtonUI.java;2025416989/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/FreeColScrollPaneUI.java;2422248573/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/FreeColSelectedPanelUI.java;24142992/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/FreeColTableHeaderUI.java;2103784148/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/FreeColTableUI.java;3161252638/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/FreeColTextAreaUI.java;2362938291/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/FreeColTextFieldUI.java;1782906977/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/FreeColToolTipUI.java;2011659529/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/FreeColTransparentPanelUI.java;2432683840/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/plaf/LAFUtilities.java;2511558497/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_jNbqkFImEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_jNbqkVImEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_jNbqklImEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_jNbqk1ImEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_jNbqlFImEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_jNbqlVImEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_jNbqllImEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_jNbql1ImEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_jNcRoFImEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_jMpncFImEeibjuLm5_lcNQ" name="net">
+      <packagedElement xmi:type="uml:Package" xmi:id="_jMqOgFImEeibjuLm5_lcNQ" name="sf">
+        <packagedElement xmi:type="uml:Package" xmi:id="_jMqOgVImEeibjuLm5_lcNQ" name="freecol">
+          <packagedElement xmi:type="uml:Package" xmi:id="_jMqOglImEeibjuLm5_lcNQ" name="client">
+            <packagedElement xmi:type="uml:Package" xmi:id="_jMqOg1ImEeibjuLm5_lcNQ" name="gui">
+              <packagedElement xmi:type="uml:Package" xmi:id="_jMrcoVImEeibjuLm5_lcNQ" name="plaf">
+                <packagedElement xmi:type="uml:Class" xmi:id="_jNbDgFImEeibjuLm5_lcNQ" name="FreeColBrightPanelUI">
+                  <ownedComment xmi:id="_jU0E8FImEeibjuLm5_lcNQ">
+                    <body>Draw the &quot;image.background.FreeColBrightPanel&quot; resource as a tiled&#xD;
+background image.  BrightPanel is intended to provide a lighter&#xD;
+background than the default panel, and is used for panels that&#xD;
+might contain icons and text annotations, for example, many of the&#xD;
+subpanels in the ColonyPanel.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_jTwVBFImEeibjuLm5_lcNQ" general="_jTB8QlImEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_jUmCgFImEeibjuLm5_lcNQ" name="sharedInstance" visibility="private" isLeaf="true" isStatic="true" type="_jNbDgFImEeibjuLm5_lcNQ" isReadOnly="true" association="_jU7ZsFImEeibjuLm5_lcNQ">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jUmCgVImEeibjuLm5_lcNQ" value="new FreeColBrightPanelUI()"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUswMFImEeibjuLm5_lcNQ" name="createUI" specification="_jTvt8FImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUswMVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUswMlImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return sharedInstance;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUswM1ImEeibjuLm5_lcNQ" name="paint" specification="_jTCjU1ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUswNFImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUswNVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>if (c.isOpaque()) {&#xD;
+         ImageLibrary.drawTiledImage(&quot;image.background.FreeColBrightPanel&quot;, g, c, null);&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jTCjU1ImEeibjuLm5_lcNQ" name="paint" method="_jUswM1ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jTCjVFImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jTCjVVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jTvt8FImEeibjuLm5_lcNQ" name="createUI" isStatic="true" method="_jUswMFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jTvt8VImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jTvt8lImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jNc4sFImEeibjuLm5_lcNQ" name="FreeColButtonUI">
+                  <ownedComment xmi:id="_jU0E8lImEeibjuLm5_lcNQ">
+                    <body>Sets the default opaque attribute to &lt;i>false&lt;/i> and&#xD;
+uses a 10% black shading on the {@link #paintButtonPressed}.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_jTyxQ1ImEeibjuLm5_lcNQ" general="_jTGNs1ImEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_jUmCglImEeibjuLm5_lcNQ" name="sharedInstance" visibility="private" isLeaf="true" isStatic="true" type="_jNc4sFImEeibjuLm5_lcNQ" isReadOnly="true" association="_jU8AwVImEeibjuLm5_lcNQ">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jUmCg1ImEeibjuLm5_lcNQ" value="new FreeColButtonUI()"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUswNlImEeibjuLm5_lcNQ" name="createUI" specification="_jTw8EFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUswN1ImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUswOFImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return sharedInstance;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUtXQFImEeibjuLm5_lcNQ" name="installUI" specification="_jTxjIFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUtXQVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>super.installUI(c);&#xD;
+&#xD;
+     c.setOpaque(false);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUtXQlImEeibjuLm5_lcNQ" name="paint" specification="_jTxjJVImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUtXQ1ImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUtXRFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>LAFUtilities.setProperties(g, c);&#xD;
+&#xD;
+     if (c.isOpaque()) {&#xD;
+         ImageLibrary.drawTiledImage(&quot;image.background.FreeColButton&quot;, g, c, null);&#xD;
+     }&#xD;
+     super.paint(g, c);&#xD;
+&#xD;
+     AbstractButton a = (AbstractButton) c;&#xD;
+     if (a.isRolloverEnabled()) {&#xD;
+         Point p = MouseInfo.getPointerInfo().getLocation();&#xD;
+         SwingUtilities.convertPointFromScreen(p, c);&#xD;
+         boolean rollover = c.contains(p);&#xD;
+         if (rollover) {&#xD;
+             paintButtonPressed(g, (AbstractButton) c);&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUtXRVImEeibjuLm5_lcNQ" name="paintButtonPressed" specification="_jTyKNVImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUtXRlImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUtXR1ImEeibjuLm5_lcNQ" name="c" type="_jTFmo1ImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>if (c.isContentAreaFilled()) {&#xD;
+         Graphics2D g2d = (Graphics2D) g;&#xD;
+         Dimension size = c.getSize();&#xD;
+         Composite oldComposite = g2d.getComposite();&#xD;
+         Color oldColor = g2d.getColor();&#xD;
+         g2d.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, 0.1f));&#xD;
+         g2d.setColor(Color.BLACK);&#xD;
+         g2d.fillRect(0, 0, size.width, size.height);&#xD;
+         g2d.setComposite(oldComposite);&#xD;
+         g2d.setColor(oldColor);&#xD;
+&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jTw8EFImEeibjuLm5_lcNQ" name="createUI" isStatic="true" method="_jUswNlImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jTw8EVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jTw8ElImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jTxjIFImEeibjuLm5_lcNQ" name="installUI" method="_jUtXQFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jTxjIVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jTxjJVImEeibjuLm5_lcNQ" name="paint" method="_jUtXQlImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jTyKMFImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jTyKMVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jTyKNVImEeibjuLm5_lcNQ" name="paintButtonPressed" visibility="protected" method="_jUtXRVImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jTyKNlImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jTyKN1ImEeibjuLm5_lcNQ" name="c" type="_jTFmo1ImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jNdfwFImEeibjuLm5_lcNQ" name="FreeColCheckBoxUI">
+                  <ownedComment xmi:id="_jU0sAFImEeibjuLm5_lcNQ">
+                    <body>Sets the default opaque attribute to &lt;i>false&lt;/i>.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_jT0mc1ImEeibjuLm5_lcNQ" general="_jTIC4FImEeibjuLm5_lcNQ"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUtXSFImEeibjuLm5_lcNQ" name="createUI" specification="_jTzYUFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUtXSVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUtXSlImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return new FreeColCheckBoxUI();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUtXS1ImEeibjuLm5_lcNQ" name="installUI" specification="_jTzYV1ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUtXTFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>super.installUI(c);&#xD;
+&#xD;
+     c.setOpaque(false);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUtXTVImEeibjuLm5_lcNQ" name="paint" specification="_jTz_ZFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUtXTlImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUtXT1ImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>LAFUtilities.setProperties(g, c);&#xD;
+     super.paint(g, c);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jTzYUFImEeibjuLm5_lcNQ" name="createUI" isStatic="true" method="_jUtXSFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jTzYUVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jTzYUlImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jTzYV1ImEeibjuLm5_lcNQ" name="installUI" method="_jUtXS1ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jTz_YFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jTz_ZFImEeibjuLm5_lcNQ" name="paint" method="_jUtXTVImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jTz_ZVImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jTz_ZlImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jNfU8FImEeibjuLm5_lcNQ" name="FreeColComboBoxRenderer">
+                  <ownedComment xmi:id="_jU0sAlImEeibjuLm5_lcNQ">
+                    <body>A &lt;code>ListCellRenderer&lt;/code> to be used by&#xD;
+&lt;code>FreeColListUI&lt;/code> and &lt;code>JComboBox&lt;/code>es that&#xD;
+display &lt;code>ObjectWithId&lt;/code> values.</body>
+                  </ownedComment>
+                  <ownedAttribute xmi:id="_jUmpkFImEeibjuLm5_lcNQ" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_jTJ4FFImEeibjuLm5_lcNQ" isReadOnly="true" association="_jU8n0VImEeibjuLm5_lcNQ">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jUmpkVImEeibjuLm5_lcNQ" value="Logger.getLogger(FreeColComboBoxRenderer.class.getName())"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_jUmpklImEeibjuLm5_lcNQ" name="SELECTED_COMPONENT" visibility="private" isLeaf="true" type="_jNhKI1ImEeibjuLm5_lcNQ" isReadOnly="true" association="_jU9O4VImEeibjuLm5_lcNQ">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jUmpk1ImEeibjuLm5_lcNQ" value="new SelectedComponent()"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_jUmplVImEeibjuLm5_lcNQ" name="NORMAL_COMPONENT" visibility="private" isLeaf="true" type="_jNhxMFImEeibjuLm5_lcNQ" isReadOnly="true" association="_jU9O5FImEeibjuLm5_lcNQ">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jUmpllImEeibjuLm5_lcNQ" value="new NormalComponent()"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_jUnQoVImEeibjuLm5_lcNQ" name="prefix" visibility="private" isLeaf="true" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_jUnQo1ImEeibjuLm5_lcNQ" name="localize" visibility="private">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jUnQpFImEeibjuLm5_lcNQ" value="true"/>
+                  </ownedAttribute>
+                  <interfaceRealization xmi:id="_jT0mdFImEeibjuLm5_lcNQ" client="_jNfU8FImEeibjuLm5_lcNQ" supplier="_jTJ4ElImEeibjuLm5_lcNQ" contract="_jTJ4ElImEeibjuLm5_lcNQ"/>
+                  <interfaceRealization xmi:id="_jT1NgVImEeibjuLm5_lcNQ" client="_jNfU8FImEeibjuLm5_lcNQ" supplier="_jTIp8lImEeibjuLm5_lcNQ" contract="_jTIp8lImEeibjuLm5_lcNQ"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUtXUFImEeibjuLm5_lcNQ" name="FreeColComboBoxRenderer" specification="_jNf8AFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUtXUVImEeibjuLm5_lcNQ" type="_jNfU8FImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>this(&quot;&quot;);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUtXUlImEeibjuLm5_lcNQ" name="FreeColComboBoxRenderer" specification="_jNgjE1ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUtXU1ImEeibjuLm5_lcNQ" name="prefix">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_jUtXVFImEeibjuLm5_lcNQ" type="_jNfU8FImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>this(prefix, true);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUt-UFImEeibjuLm5_lcNQ" name="FreeColComboBoxRenderer" specification="_jNgjGFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUt-UVImEeibjuLm5_lcNQ" name="prefix">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_jUt-UlImEeibjuLm5_lcNQ" name="localize">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_jUt-U1ImEeibjuLm5_lcNQ" type="_jNfU8FImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>this.prefix = prefix;&#xD;
+     this.localize = localize;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUt-VFImEeibjuLm5_lcNQ" name="getListCellRendererComponent" specification="_jT10klImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUt-VVImEeibjuLm5_lcNQ" name="list" type="_jTJ4EFImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUt-VlImEeibjuLm5_lcNQ" name="value" type="_jT10kFImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUt-V1ImEeibjuLm5_lcNQ" name="index">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_jUt-WFImEeibjuLm5_lcNQ" name="isSelected">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_jUt-WVImEeibjuLm5_lcNQ" name="hasFocus">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_jUt-WlImEeibjuLm5_lcNQ" type="_jTIp8FImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>JLabel c = isSelected ? SELECTED_COMPONENT : NORMAL_COMPONENT;&#xD;
+     c.setForeground(list.getForeground());&#xD;
+     c.setFont(list.getFont());&#xD;
+     setLabelValues(c, value);&#xD;
+     return c;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUt-W1ImEeibjuLm5_lcNQ" name="setLabelValues" specification="_jT3CsFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUt-XFImEeibjuLm5_lcNQ" name="c" type="_jTIp9FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUt-XVImEeibjuLm5_lcNQ" name="value" type="_jT10kFImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>if (value == null) {&#xD;
+         c.setText(null);&#xD;
+     } else if (value instanceof Integer) {&#xD;
+         // partial load values from SelectAmountDialog are Integers&#xD;
+         c.setText(value.toString());&#xD;
+     } else if (value instanceof Language) {&#xD;
+         c.setText(value.toString());&#xD;
+     } else if (value instanceof String) {&#xD;
+         String string = (String)value;&#xD;
+         if (localize) {&#xD;
+             String[] nd = Messages.getBestNameAndDescription(string);&#xD;
+             c.setText(nd[0]);&#xD;
+             if (nd[1] != null) c.setToolTipText(nd[1]);&#xD;
+         } else {&#xD;
+             c.setText(string);&#xD;
+         }&#xD;
+     } else if (value instanceof Named) {&#xD;
+         Named named = (Named)value;&#xD;
+         String[] nad = Messages.getBestNameAndDescription(named);&#xD;
+         c.setText(nad[0]);&#xD;
+         if (nad[1] != null) c.setToolTipText(nad[1]);&#xD;
+     } else if (value instanceof ObjectWithId) {&#xD;
+         String id = ((prefix == null) ? &quot;&quot; : prefix)&#xD;
+             + ((ObjectWithId)value).getId();&#xD;
+         String[] nd = Messages.getBestNameAndDescription(id);&#xD;
+         if (value instanceof Nameable) {&#xD;
+             String realname = ((Nameable)value).getName();&#xD;
+             if (realname != null) nd[0] = realname;&#xD;
+         }&#xD;
+         c.setText(nd[0]);&#xD;
+         if (nd[1] != null) c.setToolTipText(nd[1]);&#xD;
+     } else {&#xD;
+         logger.warning(&quot;What is this?: &quot; + value&#xD;
+             + &quot; (&quot; + value.getClass() + &quot;)&quot;);&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jNf8AFImEeibjuLm5_lcNQ" name="FreeColComboBoxRenderer" method="_jUtXUFImEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_jNgjEFImEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_jNgjEVImEeibjuLm5_lcNQ" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_jU0sA1ImEeibjuLm5_lcNQ">
+                      <body>Creates a new &lt;code>FreeColComboBoxRenderer&lt;/code> instance&#xD;
+     * with an empty prefix.&#xD;
+     *</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_jNgjElImEeibjuLm5_lcNQ" type="_jNfU8FImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jNgjE1ImEeibjuLm5_lcNQ" name="FreeColComboBoxRenderer" method="_jUtXUlImEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_jNgjFVImEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_jNgjFlImEeibjuLm5_lcNQ" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_jU0sBFImEeibjuLm5_lcNQ">
+                      <body>Creates a new &lt;code>FreeColComboBoxRenderer&lt;/code> instance&#xD;
+     * with a given prefix.&#xD;
+     *&#xD;
+     * @param prefix a &lt;code>String&lt;/code> value</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_jNgjFFImEeibjuLm5_lcNQ" name="prefix">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_jNgjF1ImEeibjuLm5_lcNQ" type="_jNfU8FImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jNgjGFImEeibjuLm5_lcNQ" name="FreeColComboBoxRenderer" method="_jUt-UFImEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_jNhKIFImEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_jNhKIVImEeibjuLm5_lcNQ" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_jU0sBVImEeibjuLm5_lcNQ">
+                      <body>Creates a new &lt;code>FreeColComboBoxRenderer&lt;/code> instance&#xD;
+     * with a given prefix.&#xD;
+     *&#xD;
+     * @param prefix a &lt;code>String&lt;/code> value&#xD;
+     * @param localize a &lt;code>boolean&lt;/code> value</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_jNgjGVImEeibjuLm5_lcNQ" name="prefix">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_jNgjGlImEeibjuLm5_lcNQ" name="localize">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_jNhKIlImEeibjuLm5_lcNQ" type="_jNfU8FImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jT10klImEeibjuLm5_lcNQ" name="getListCellRendererComponent" method="_jUt-VFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jT10k1ImEeibjuLm5_lcNQ" name="list" type="_jTJ4EFImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jT10lFImEeibjuLm5_lcNQ" name="value" type="_jT10kFImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jT10lVImEeibjuLm5_lcNQ" name="index">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_jT10llImEeibjuLm5_lcNQ" name="isSelected">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_jT10l1ImEeibjuLm5_lcNQ" name="hasFocus">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_jT10mFImEeibjuLm5_lcNQ" type="_jTIp8FImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jT3CsFImEeibjuLm5_lcNQ" name="setLabelValues" method="_jUt-W1ImEeibjuLm5_lcNQ">
+                    <ownedComment xmi:id="_jU0sBlImEeibjuLm5_lcNQ">
+                      <body>Set the text to place in a label.&#xD;
+     *&#xD;
+     * @param c The &lt;code>JLabel&lt;/code> to assign.&#xD;
+     * @param value The object to derive a text value from.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_jT3pwFImEeibjuLm5_lcNQ" name="c" type="_jTIp9FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jT3pwVImEeibjuLm5_lcNQ" name="value" type="_jT10kFImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_jNhKI1ImEeibjuLm5_lcNQ" name="SelectedComponent" visibility="private">
+                    <eAnnotations xmi:id="_jNhKJFImEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_jNhKJVImEeibjuLm5_lcNQ" key="static"/>
+                    </eAnnotations>
+                    <generalization xmi:id="_jT4Q0FImEeibjuLm5_lcNQ" general="_jTIp9FImEeibjuLm5_lcNQ"/>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUt-XlImEeibjuLm5_lcNQ" name="SelectedComponent" specification="_jNhKJlImEeibjuLm5_lcNQ">
+                      <ownedParameter xmi:id="_jUt-X1ImEeibjuLm5_lcNQ" type="_jNhKI1ImEeibjuLm5_lcNQ" direction="return"/>
+                      <language>java</language>
+                      <body>setOpaque(false);&#xD;
+     </body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUt-YFImEeibjuLm5_lcNQ" name="paintComponent" specification="_jT3pwlImEeibjuLm5_lcNQ">
+                      <ownedParameter xmi:id="_jUt-YVImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                      <language>java</language>
+                      <body>Graphics2D g2d = (Graphics2D) g;&#xD;
+         Composite oldComposite = g2d.getComposite();&#xD;
+         Color oldColor = g2d.getColor();&#xD;
+         g2d.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, 0.1f));&#xD;
+         g2d.setColor(Color.BLACK);&#xD;
+         g2d.fillRect(0, 0, getWidth(), getHeight());&#xD;
+         g2d.setComposite(oldComposite);&#xD;
+         g2d.setColor(oldColor);&#xD;
+&#xD;
+         super.paintComponent(g);&#xD;
+     </body>
+                    </ownedBehavior>
+                    <ownedOperation xmi:id="_jNhKJlImEeibjuLm5_lcNQ" name="SelectedComponent" method="_jUt-XlImEeibjuLm5_lcNQ">
+                      <eAnnotations xmi:id="_jNhKJ1ImEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_jNhKKFImEeibjuLm5_lcNQ" key="create"/>
+                      </eAnnotations>
+                      <ownedParameter xmi:id="_jNhKKVImEeibjuLm5_lcNQ" type="_jNhKI1ImEeibjuLm5_lcNQ" direction="return"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_jT3pwlImEeibjuLm5_lcNQ" name="paintComponent" method="_jUt-YFImEeibjuLm5_lcNQ">
+                      <ownedParameter xmi:id="_jT3pw1ImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    </ownedOperation>
+                  </nestedClassifier>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_jNhxMFImEeibjuLm5_lcNQ" name="NormalComponent" visibility="private">
+                    <eAnnotations xmi:id="_jNhxMVImEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_jNhxMlImEeibjuLm5_lcNQ" key="static"/>
+                    </eAnnotations>
+                    <generalization xmi:id="_jT4Q0VImEeibjuLm5_lcNQ" general="_jTIp9FImEeibjuLm5_lcNQ"/>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUt-YlImEeibjuLm5_lcNQ" name="NormalComponent" specification="_jNhxM1ImEeibjuLm5_lcNQ">
+                      <ownedParameter xmi:id="_jUt-Y1ImEeibjuLm5_lcNQ" type="_jNhxMFImEeibjuLm5_lcNQ" direction="return"/>
+                      <language>java</language>
+                      <body>setOpaque(false);&#xD;
+     </body>
+                    </ownedBehavior>
+                    <ownedOperation xmi:id="_jNhxM1ImEeibjuLm5_lcNQ" name="NormalComponent" method="_jUt-YlImEeibjuLm5_lcNQ">
+                      <eAnnotations xmi:id="_jNhxNFImEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_jNhxNVImEeibjuLm5_lcNQ" key="create"/>
+                      </eAnnotations>
+                      <ownedParameter xmi:id="_jNhxNlImEeibjuLm5_lcNQ" type="_jNhxMFImEeibjuLm5_lcNQ" direction="return"/>
+                    </ownedOperation>
+                  </nestedClassifier>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jNjmYFImEeibjuLm5_lcNQ" name="FreeColComboBoxUI">
+                  <ownedComment xmi:id="_jU0sB1ImEeibjuLm5_lcNQ">
+                    <body>Sets the default opaque attribute to &lt;i>false&lt;/i>.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_jT6GA1ImEeibjuLm5_lcNQ" general="_jTLtQFImEeibjuLm5_lcNQ"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUt-ZFImEeibjuLm5_lcNQ" name="createUI" specification="_jT434FImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUt-ZVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUt-ZlImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return new FreeColComboBoxUI();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUt-Z1ImEeibjuLm5_lcNQ" name="installUI" specification="_jT4351ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUt-aFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>super.installUI(c);&#xD;
+&#xD;
+     c.setOpaque(false);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUulYFImEeibjuLm5_lcNQ" name="createRenderer" specification="_jNjmYVImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUulYVImEeibjuLm5_lcNQ" type="_jTJ4ElImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return new FreeColComboBoxRenderer();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jNjmYVImEeibjuLm5_lcNQ" name="createRenderer" visibility="protected" method="_jUulYFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jT6GAlImEeibjuLm5_lcNQ" type="_jTJ4ElImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jT434FImEeibjuLm5_lcNQ" name="createUI" isStatic="true" method="_jUt-ZFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jT434VImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jT434lImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jT4351ImEeibjuLm5_lcNQ" name="installUI" method="_jUt-Z1ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jT436FImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jNk0gFImEeibjuLm5_lcNQ" name="FreeColFileChooserUI">
+                  <ownedComment xmi:id="_jU0sCVImEeibjuLm5_lcNQ">
+                    <body>UI for the file chooser.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_jT7UJFImEeibjuLm5_lcNQ" general="_jTOJg1ImEeibjuLm5_lcNQ"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUulYlImEeibjuLm5_lcNQ" name="createUI" specification="_jT6GBFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUulY1ImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUulZFImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return new FreeColFileChooserUI((JFileChooser) c);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUulZVImEeibjuLm5_lcNQ" name="FreeColFileChooserUI" specification="_jT6tElImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUulZlImEeibjuLm5_lcNQ" name="filechooser" type="_jTNicFImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUulZ1ImEeibjuLm5_lcNQ" type="_jNk0gFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>super(filechooser);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUulaFImEeibjuLm5_lcNQ" name="addControlButtons" specification="_jNk0gVImEeibjuLm5_lcNQ">
+                    <language>java</language>
+                    <body>JPanel buttonPanel = getButtonPanel();&#xD;
+     Component[] buttons = buttonPanel.getComponents();&#xD;
+     buttonPanel.removeAll();&#xD;
+     for (int i=buttons.length-1; i>=0; i--) {&#xD;
+         buttonPanel.add(buttons[i]);&#xD;
+     }&#xD;
+     super.addControlButtons();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jNk0gVImEeibjuLm5_lcNQ" name="addControlButtons" visibility="protected" method="_jUulaFImEeibjuLm5_lcNQ"/>
+                  <ownedOperation xmi:id="_jT6GBFImEeibjuLm5_lcNQ" name="createUI" isStatic="true" method="_jUulYlImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jT6tEFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jT6tEVImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jT6tElImEeibjuLm5_lcNQ" name="FreeColFileChooserUI" method="_jUulZVImEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_jT7UIVImEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_jT7UIlImEeibjuLm5_lcNQ" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_jT7UIFImEeibjuLm5_lcNQ" name="filechooser" type="_jTNicFImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jT7UI1ImEeibjuLm5_lcNQ" type="_jNk0gFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jNlbk1ImEeibjuLm5_lcNQ" name="FreeColLabelUI">
+                  <ownedComment xmi:id="_jU0sClImEeibjuLm5_lcNQ">
+                    <body>Sets the default opaque attribute to &lt;i>false&lt;/i>.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_jT9wZlImEeibjuLm5_lcNQ" general="_jTOwkVImEeibjuLm5_lcNQ"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUulaVImEeibjuLm5_lcNQ" name="createUI" specification="_jT77MFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUulalImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUula1ImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return new FreeColLabelUI();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUulbFImEeibjuLm5_lcNQ" name="installUI" specification="_jT8iQFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUulbVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>super.installUI(c);&#xD;
+&#xD;
+     c.setOpaque(false);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUulblImEeibjuLm5_lcNQ" name="paint" specification="_jT9wYFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUulb1ImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUulcFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>LAFUtilities.setProperties(g, c);&#xD;
+     super.paint(g, c);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jT77MFImEeibjuLm5_lcNQ" name="createUI" isStatic="true" method="_jUulaVImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jT77MVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jT77MlImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jT8iQFImEeibjuLm5_lcNQ" name="installUI" method="_jUulbFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jT9JUFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jT9wYFImEeibjuLm5_lcNQ" name="paint" method="_jUulblImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jT9wYVImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jT9wYlImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jNmpsFImEeibjuLm5_lcNQ" name="FreeColListUI">
+                  <ownedComment xmi:id="_jU0sDFImEeibjuLm5_lcNQ">
+                    <body>UI-class for lists, such as the drop down list of colonies in the&#xD;
+Colony panel.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_jUBawlImEeibjuLm5_lcNQ" general="_jTP-sFImEeibjuLm5_lcNQ"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUulcVImEeibjuLm5_lcNQ" name="createUI" specification="_jT-XcFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUulclImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUulc1ImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return new FreeColListUI();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUvMcFImEeibjuLm5_lcNQ" name="installUI" specification="_jT_lk1ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUvMcVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>super.installUI(c);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUvMclImEeibjuLm5_lcNQ" name="paint" specification="_jUAzsFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUvMc1ImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUvMdFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>ImageLibrary.drawTiledImage(&quot;image.background.FreeColList&quot;, g, c, null);&#xD;
+     LAFUtilities.setProperties(g, c);&#xD;
+     super.paint(g, c);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jT-XcFImEeibjuLm5_lcNQ" name="createUI" isStatic="true" method="_jUulcVImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jT-XcVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jT-XclImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jT_lk1ImEeibjuLm5_lcNQ" name="installUI" method="_jUvMcFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jT_llFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUAzsFImEeibjuLm5_lcNQ" name="paint" method="_jUvMclImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUAzsVImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUAzslImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jNnQwFImEeibjuLm5_lcNQ" name="FreeColLookAndFeel">
+                  <ownedComment xmi:id="_jU0sDlImEeibjuLm5_lcNQ">
+                    <body>Implements the FreeCol look and feel.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_jUDP8lImEeibjuLm5_lcNQ" general="_jTTpEVImEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_jUn3sFImEeibjuLm5_lcNQ" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_jTJ4FFImEeibjuLm5_lcNQ" isReadOnly="true" association="_jU918VImEeibjuLm5_lcNQ">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jUn3sVImEeibjuLm5_lcNQ" value="Logger.getLogger(FreeColLookAndFeel.class.getName())"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_jUn3slImEeibjuLm5_lcNQ" name="uiClasses" visibility="private" isLeaf="true" isStatic="true" type="_jUCB0VImEeibjuLm5_lcNQ" isReadOnly="true" association="_jU-dAVImEeibjuLm5_lcNQ">
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jUn3s1ImEeibjuLm5_lcNQ" value="*"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jUoewVImEeibjuLm5_lcNQ" value="{&#xD;&#xA;        FreeColButtonUI.class,&#xD;&#xA;        FreeColCheckBoxUI.class,&#xD;&#xA;        FreeColComboBoxUI.class,&#xD;&#xA;        FreeColFileChooserUI.class,&#xD;&#xA;        FreeColLabelUI.class,&#xD;&#xA;        FreeColListUI.class,&#xD;&#xA;        FreeColMenuBarUI.class,&#xD;&#xA;        FreeColMenuItemUI.class,&#xD;&#xA;        FreeColOptionPaneUI.class,&#xD;&#xA;        FreeColPanelUI.class,&#xD;&#xA;        FreeColPopupMenuUI.class,&#xD;&#xA;        FreeColRadioButtonUI.class,&#xD;&#xA;        FreeColScrollPaneUI.class,&#xD;&#xA;        FreeColTableHeaderUI.class,&#xD;&#xA;        FreeColTableUI.class,&#xD;&#xA;        FreeColTextAreaUI.class,&#xD;&#xA;        FreeColTextFieldUI.class,&#xD;&#xA;        FreeColToolTipUI.class,&#xD;&#xA;        FreeColTransparentPanelUI.class&#xD;&#xA;    }"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUvMdVImEeibjuLm5_lcNQ" name="FreeColLookAndFeel" specification="_jNnQwVImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUvMdlImEeibjuLm5_lcNQ" type="_jNnQwFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>super();&#xD;
+&#xD;
+     setCurrentTheme(new DefaultMetalTheme() {&#xD;
+             @Override&#xD;
+             protected ColorUIResource getPrimary1() {&#xD;
+                 return new ColorUIResource(ResourceManager.getColor(&quot;color.primary1.LookAndFeel&quot;));&#xD;
+             }&#xD;
+&#xD;
+             @Override&#xD;
+             protected ColorUIResource getPrimary2() {&#xD;
+                 return new ColorUIResource(ResourceManager.getColor(&quot;color.backgroundSelect.LookAndFeel&quot;));&#xD;
+             }&#xD;
+&#xD;
+             @Override&#xD;
+             protected ColorUIResource getPrimary3() {&#xD;
+                 return new ColorUIResource(ResourceManager.getColor(&quot;color.primary3.LookAndFeel&quot;));&#xD;
+             }&#xD;
+&#xD;
+             @Override&#xD;
+             protected ColorUIResource getSecondary1() {&#xD;
+                 return new ColorUIResource(ResourceManager.getColor(&quot;color.secondary1.LookAndFeel&quot;));&#xD;
+             }&#xD;
+&#xD;
+             @Override&#xD;
+             protected ColorUIResource getSecondary2() {&#xD;
+                 return new ColorUIResource(ResourceManager.getColor(&quot;color.disabled.LookAndFeel&quot;));&#xD;
+             }&#xD;
+&#xD;
+             @Override&#xD;
+             protected ColorUIResource getSecondary3() {&#xD;
+                 return new ColorUIResource(ResourceManager.getColor(&quot;color.background.LookAndFeel&quot;));&#xD;
+             }&#xD;
+&#xD;
+             @Override&#xD;
+             public ColorUIResource getMenuDisabledForeground() {&#xD;
+                 return new ColorUIResource(ResourceManager.getColor(&quot;color.disabledMenu.LookAndFeel&quot;));&#xD;
+             }&#xD;
+         });&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUvMd1ImEeibjuLm5_lcNQ" name="getDefaults" specification="_jNn301ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUvMeFImEeibjuLm5_lcNQ" type="_jTSa81ImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>UIDefaults u = super.getDefaults();&#xD;
+&#xD;
+     try {&#xD;
+         int offset = &quot;FreeCol&quot;.length();&#xD;
+         for (Class&lt;?> uiClass : uiClasses) {&#xD;
+             String name = uiClass.getName();&#xD;
+             int index = name.lastIndexOf(&quot;FreeCol&quot;);&#xD;
+             if (index >= 0) {&#xD;
+                 index += offset;&#xD;
+                 String shortName = name.substring(index);&#xD;
+                 u.put(shortName, name);&#xD;
+                 u.put(name, uiClass);&#xD;
+             }&#xD;
+         }&#xD;
+&#xD;
+         // Sharing FreeColBrightPanelUI:&#xD;
+         String brightPanelUI = &quot;net.sf.freecol.client.gui.plaf.FreeColBrightPanelUI&quot;;&#xD;
+         u.put(brightPanelUI, Class.forName(brightPanelUI));&#xD;
+         u.put(&quot;InPortPanelUI&quot;, brightPanelUI);&#xD;
+         u.put(&quot;CargoPanelUI&quot;, brightPanelUI);&#xD;
+         u.put(&quot;BuildingsPanelUI&quot;, brightPanelUI);&#xD;
+         u.put(&quot;OutsideColonyPanelUI&quot;, brightPanelUI);&#xD;
+         u.put(&quot;WarehousePanelUI&quot;, brightPanelUI);&#xD;
+         u.put(&quot;ConstructionPanelUI&quot;, brightPanelUI);&#xD;
+         u.put(&quot;PopulationPanelUI&quot;, brightPanelUI);&#xD;
+         u.put(&quot;WarehouseGoodsPanelUI&quot;, brightPanelUI);&#xD;
+         u.put(&quot;ReportPanelUI&quot;, brightPanelUI);&#xD;
+         u.put(&quot;ColopediaPanelUI&quot;, brightPanelUI);&#xD;
+         u.put(&quot;TilePanelUI&quot;, brightPanelUI);&#xD;
+         u.put(&quot;OptionGroupUI&quot;, brightPanelUI);&#xD;
+&#xD;
+         // Sharing FreeColTransparentPanelUI:&#xD;
+         String transparentPanelUI = &quot;net.sf.freecol.client.gui.plaf.FreeColTransparentPanelUI&quot;;&#xD;
+         u.put(transparentPanelUI, Class.forName(transparentPanelUI));&#xD;
+         u.put(&quot;MarketPanelUI&quot;, transparentPanelUI);&#xD;
+         u.put(&quot;EuropeCargoPanelUI&quot;, transparentPanelUI);&#xD;
+         u.put(&quot;ToAmericaPanelUI&quot;, transparentPanelUI);&#xD;
+         u.put(&quot;ToEuropePanelUI&quot;, transparentPanelUI);&#xD;
+         u.put(&quot;EuropeInPortPanelUI&quot;, transparentPanelUI);&#xD;
+         u.put(&quot;DocksPanelUI&quot;, transparentPanelUI);&#xD;
+&#xD;
+         // ColorButton&#xD;
+         u.put(&quot;javax.swing.plaf.metal.MetalButtonUI&quot;, javax.swing.plaf.metal.MetalButtonUI.class);&#xD;
+         u.put(&quot;ColorButtonUI&quot;, &quot;javax.swing.plaf.metal.MetalButtonUI&quot;);&#xD;
+&#xD;
+         // Add cursors:&#xD;
+         String key = &quot;image.icon.cursor.go&quot;;&#xD;
+         if (ResourceManager.hasImageResource(key)) {&#xD;
+             Image im = ResourceManager.getImage(key);&#xD;
+             u.put(&quot;cursor.go&quot;,&#xD;
+                 Toolkit.getDefaultToolkit().createCustomCursor(im,&#xD;
+                     new Point(im.getWidth(null)/2, im.getHeight(null)/2),&#xD;
+                     &quot;go&quot;));&#xD;
+         } else {&#xD;
+             u.put(&quot;cursor.go&quot;, Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));&#xD;
+         }&#xD;
+&#xD;
+     } catch (ClassNotFoundException e) {&#xD;
+         logger.log(Level.SEVERE, &quot;Failed to load look and feel!&quot;, e);&#xD;
+         System.exit(1);&#xD;
+     }&#xD;
+&#xD;
+     return u;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUvMeVImEeibjuLm5_lcNQ" name="install" specification="_jTUQIlImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUvMelImEeibjuLm5_lcNQ" name="fclaf" type="_jNnQwFImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>try {&#xD;
+         UIManager.setLookAndFeel(fclaf);&#xD;
+         UIManager.put(&quot;Button.defaultButtonFollowsFocus&quot;, Boolean.TRUE);&#xD;
+     } catch (UnsupportedLookAndFeelException e) {&#xD;
+         throw new FreeColException(&quot;Look and feel install failure&quot;, e);&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUvMe1ImEeibjuLm5_lcNQ" name="installFont" specification="_jUDP8FImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUvMfFImEeibjuLm5_lcNQ" name="defaultFont" type="_jTRM0lImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>UIDefaults u = UIManager.getDefaults();&#xD;
+     java.util.Enumeration&lt;Object> keys = u.keys();&#xD;
+     while (keys.hasMoreElements()) {&#xD;
+         Object key = keys.nextElement();&#xD;
+         if (u.get(key) instanceof javax.swing.plaf.FontUIResource) {&#xD;
+             u.put(key, defaultFont);&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUvMfVImEeibjuLm5_lcNQ" name="getDescription" specification="_jNoe4FImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUvMflImEeibjuLm5_lcNQ" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return &quot;The default Look and Feel for FreeCol&quot;;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUvMf1ImEeibjuLm5_lcNQ" name="getName" specification="_jNoe5VImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUvMgFImEeibjuLm5_lcNQ" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return &quot;FreeCol Look and Feel&quot;;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jNnQwVImEeibjuLm5_lcNQ" name="FreeColLookAndFeel" method="_jUvMdVImEeibjuLm5_lcNQ" raisedException="_jTTpE1ImEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_jNn30FImEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_jNn30VImEeibjuLm5_lcNQ" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_jU0sD1ImEeibjuLm5_lcNQ">
+                      <body>Initiates a new FreeCol look and feel.&#xD;
+     *&#xD;
+     * @exception FreeColException If the ui directory could not be found.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_jNn30lImEeibjuLm5_lcNQ" type="_jNnQwFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jNn301ImEeibjuLm5_lcNQ" name="getDefaults" method="_jUvMd1ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUCo4VImEeibjuLm5_lcNQ" type="_jTSa81ImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jNoe4FImEeibjuLm5_lcNQ" name="getDescription" method="_jUvMfVImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jNoe4VImEeibjuLm5_lcNQ" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jNoe5VImEeibjuLm5_lcNQ" name="getName" method="_jUvMf1ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jNoe5lImEeibjuLm5_lcNQ" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jTUQIlImEeibjuLm5_lcNQ" name="install" isStatic="true" method="_jUvMeVImEeibjuLm5_lcNQ" raisedException="_jTTpE1ImEeibjuLm5_lcNQ">
+                    <ownedComment xmi:id="_jU0sEFImEeibjuLm5_lcNQ">
+                      <body>Installs a FreeColLookAndFeel as the default look and feel.&#xD;
+     *&#xD;
+     * @param fclaf The &lt;code>FreeColLookAndFeel&lt;/code> to install.&#xD;
+     * @throws FreeColException if the installation fails.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_jTUQI1ImEeibjuLm5_lcNQ" name="fclaf" type="_jNnQwFImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUDP8FImEeibjuLm5_lcNQ" name="installFont" isStatic="true" method="_jUvMe1ImEeibjuLm5_lcNQ">
+                    <ownedComment xmi:id="_jU0sEVImEeibjuLm5_lcNQ">
+                      <body>Set the default font in all UI elements.&#xD;
+     *&#xD;
+     * @param defaultFont A &lt;code>Font&lt;/code> to use by default.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_jUDP8VImEeibjuLm5_lcNQ" name="defaultFont" type="_jTRM0lImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jNptAFImEeibjuLm5_lcNQ" name="FreeColMenuBarUI">
+                  <ownedComment xmi:id="_jU1TEFImEeibjuLm5_lcNQ">
+                    <body>Use the &quot;image.background.FreeColMenuBar&quot; resource as a tiled background&#xD;
+image on FreeColMenuBar, such as that at the top of the window.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_jUFsM1ImEeibjuLm5_lcNQ" general="_jTVeQFImEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_jUoew1ImEeibjuLm5_lcNQ" name="sharedInstance" visibility="private" isLeaf="true" isStatic="true" type="_jNptAFImEeibjuLm5_lcNQ" isReadOnly="true" association="_jU_EEVImEeibjuLm5_lcNQ">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jUoexFImEeibjuLm5_lcNQ" value="new FreeColMenuBarUI()"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUvMgVImEeibjuLm5_lcNQ" name="createUI" specification="_jUFFIFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUvMglImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUvMg1ImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return sharedInstance;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUvzgFImEeibjuLm5_lcNQ" name="paint" specification="_jTVeQlImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUvzgVImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUvzglImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>if (c.isOpaque()) {&#xD;
+         ImageLibrary.drawTiledImage(&quot;image.background.FreeColMenuBar&quot;, g, c, null);&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jTVeQlImEeibjuLm5_lcNQ" name="paint" method="_jUvzgFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jTVeQ1ImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jTWFUFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUFFIFImEeibjuLm5_lcNQ" name="createUI" isStatic="true" method="_jUvMgVImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUFFIVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUFFIlImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jNriMFImEeibjuLm5_lcNQ" name="FreeColMenuItemUI">
+                  <ownedComment xmi:id="_jU1TElImEeibjuLm5_lcNQ">
+                    <body>UI-class for menu items.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_jUIvglImEeibjuLm5_lcNQ" general="_jTWsYFImEeibjuLm5_lcNQ"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUvzg1ImEeibjuLm5_lcNQ" name="createUI" specification="_jUGTQFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUvzhFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUvzhVImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return new FreeColMenuItemUI();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUvzhlImEeibjuLm5_lcNQ" name="installUI" specification="_jUG6U1ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUvzh1ImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>super.installUI(c);&#xD;
+&#xD;
+     c.setOpaque(false);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUvziFImEeibjuLm5_lcNQ" name="paint" specification="_jUHhYVImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUvziVImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUvzilImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>LAFUtilities.setProperties(g, c);&#xD;
+     super.paint(g, c);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jUGTQFImEeibjuLm5_lcNQ" name="createUI" isStatic="true" method="_jUvzg1ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUGTQVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUGTQlImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUG6U1ImEeibjuLm5_lcNQ" name="installUI" method="_jUvzhlImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUG6VFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUHhYVImEeibjuLm5_lcNQ" name="paint" method="_jUvziFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUHhYlImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUHhY1ImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jNswUFImEeibjuLm5_lcNQ" name="FreeColOptionPaneUI">
+                  <ownedComment xmi:id="_jU1TFFImEeibjuLm5_lcNQ">
+                    <body>Draw the &quot;image.background.FreeColOptionPane&quot; resource as a tiled&#xD;
+background image.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_jUNoA1ImEeibjuLm5_lcNQ" general="_jTZIo1ImEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_jUoexVImEeibjuLm5_lcNQ" name="initialFocusComponent" type="_jTIp8FImEeibjuLm5_lcNQ" isReadOnly="true" association="_jU_rIVImEeibjuLm5_lcNQ">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jUpF0FImEeibjuLm5_lcNQ" value="null"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_jUpF0VImEeibjuLm5_lcNQ" name="okIndex" visibility="private">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jUpF0lImEeibjuLm5_lcNQ" value="-1"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_jUpF1VImEeibjuLm5_lcNQ" name="newButtons" visibility="private" type="_jTYhkVImEeibjuLm5_lcNQ" association="_jU_rJFImEeibjuLm5_lcNQ">
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jUpF1lImEeibjuLm5_lcNQ" value="*"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jUpF2FImEeibjuLm5_lcNQ" value="null"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_jU1TFVImEeibjuLm5_lcNQ" name="cancelIndex" visibility="private">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jU1TGFImEeibjuLm5_lcNQ" value="-1"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUvzi1ImEeibjuLm5_lcNQ" name="createUI" specification="_jUIvg1ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUvzjFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUvzjVImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return new FreeColOptionPaneUI();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUvzjlImEeibjuLm5_lcNQ" name="getColumns" specification="_jNulglImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUvzj1ImEeibjuLm5_lcNQ" name="nButtons">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_jUvzkFImEeibjuLm5_lcNQ" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return (nButtons > 21) ? 4&#xD;
+         :  ((nButtons % 4) == 0 &amp;&amp; nButtons > 12) ? 4&#xD;
+         :  ((nButtons % 3) == 0 &amp;&amp; nButtons > 6)  ? 3&#xD;
+         :  ((nButtons % 2) == 0 &amp;&amp; nButtons > 4)  ? 2&#xD;
+         :  (nButtons > 5)  ? 2&#xD;
+         :  1;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUwakFImEeibjuLm5_lcNQ" name="prepareButtons" specification="_jUKksVImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUwakVImEeibjuLm5_lcNQ" name="buttons" type="_jUJ9oFImEeibjuLm5_lcNQ">
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jUwaklImEeibjuLm5_lcNQ" value="*"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>if (this.newButtons != null) return;&#xD;
+&#xD;
+     final String okLabel = Messages.message(&quot;ok&quot;);&#xD;
+     final String cancelLabel = Messages.message(&quot;cancel&quot;);&#xD;
+     this.newButtons = new JButton[buttons.length];&#xD;
+&#xD;
+     int maxWidth = 0, maxHeight = 0;&#xD;
+     for (int i = 0; i &lt; buttons.length; i++) {&#xD;
+         JButton b;&#xD;
+         if (buttons[i] instanceof ChoiceItem) {&#xD;
+             ChoiceItem ci = (ChoiceItem)buttons[i];&#xD;
+             String label = ci.toString();&#xD;
+             Icon icon = ci.getIcon();&#xD;
+             b = (icon == null) ? new JButton(label)&#xD;
+                 : (label == null || label.isEmpty()) ? new JButton(icon)&#xD;
+                 : new JButton(label, icon);&#xD;
+             b.setName(&quot;OptionPane.button.&quot; + label);&#xD;
+             if (ci.isOK()) this.okIndex = i;&#xD;
+             else if (ci.isCancel()) this.cancelIndex = i;&#xD;
+         } else if (buttons[i] instanceof Icon) {&#xD;
+             b = new JButton((Icon)buttons[i]);&#xD;
+             b.setName(&quot;OptionPane.button.withIcon&quot;);&#xD;
+         } else {&#xD;
+             String label = buttons[i].toString();&#xD;
+             b = new JButton(label);&#xD;
+             b.setName(&quot;OptionPane.button.&quot; + label);&#xD;
+             if (okLabel.equals(label)) this.okIndex = i;&#xD;
+             else if (cancelLabel.equals(label)) this.cancelIndex = i;&#xD;
+         }&#xD;
+         maxWidth = Math.max(maxWidth, b.getMinimumSize().width);&#xD;
+         maxHeight = Math.max(maxHeight, b.getMinimumSize().height);&#xD;
+         ActionListener buttonListener = createButtonActionListener(i);&#xD;
+         if (buttonListener != null) b.addActionListener(buttonListener);&#xD;
+         this.newButtons[i] = b;&#xD;
+     }&#xD;
+     if (maxWidth > 0) {&#xD;
+         Dimension dimension = new Dimension(maxWidth, maxHeight);&#xD;
+         for (int i = 0; i &lt; buttons.length; i++) {&#xD;
+             if (buttons[i] instanceof Icon) continue;&#xD;
+             newButtons[i].setPreferredSize(dimension);&#xD;
+             newButtons[i].setMinimumSize(dimension);&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUwak1ImEeibjuLm5_lcNQ" name="createButtonArea" specification="_jNvMkFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUwalFImEeibjuLm5_lcNQ" type="_jTXTcFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>Object[] buttons = getButtons();&#xD;
+     prepareButtons(buttons);&#xD;
+&#xD;
+     JPanel bottom;&#xD;
+     if (this.okIndex >= 0) { // Confirm dialog&#xD;
+         bottom = new MigPanel(new MigLayout(&quot;insets dialog&quot;));&#xD;
+     } else { // Multi-line choice dialog&#xD;
+         bottom = new MigPanel(new MigLayout(&quot;wrap &quot;&#xD;
+                 + getColumns(buttons.length)));&#xD;
+     }&#xD;
+     bottom.setOpaque(false);&#xD;
+     bottom.setName(&quot;OptionPane.buttonArea&quot;);&#xD;
+     addButtonComponents(bottom, buttons, getInitialValueIndex());&#xD;
+     bottom.setSize(bottom.getPreferredSize());&#xD;
+     return bottom;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUwalVImEeibjuLm5_lcNQ" name="addButtonComponents" specification="_jULLwlImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUwallImEeibjuLm5_lcNQ" name="container" type="_jTXTcFImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUwal1ImEeibjuLm5_lcNQ" name="buttons" type="_jUJ9oFImEeibjuLm5_lcNQ">
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jUwamFImEeibjuLm5_lcNQ" value="*"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_jUwamVImEeibjuLm5_lcNQ" name="initialIndex">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>if (buttons == null) return;&#xD;
+&#xD;
+     if (0 &lt;= initialIndex &amp;&amp; initialIndex &lt; buttons.length) {&#xD;
+         JButton b = newButtons[initialIndex];&#xD;
+         this.initialFocusComponent = b;&#xD;
+         b.addHierarchyListener((HierarchyEvent e) -> {&#xD;
+                 if ((e.getChangeFlags() &amp; HierarchyEvent.PARENT_CHANGED) != 0) {&#xD;
+                     JButton button = (JButton)e.getComponent();&#xD;
+                     JRootPane root = SwingUtilities.getRootPane(button);&#xD;
+                     if (root != null) root.setDefaultButton(button);&#xD;
+                 }&#xD;
+             });&#xD;
+     }&#xD;
+&#xD;
+     if (okIndex >= 0) {&#xD;
+         // If OK is present this is a confirm-dialog.  Put everything&#xD;
+         // in the same span especially the Cancel.&#xD;
+         if (cancelIndex >= 0) {&#xD;
+             container.add(newButtons[cancelIndex], &quot;tag cancel&quot;);&#xD;
+         }&#xD;
+         container.add(newButtons[okIndex], &quot;tag ok&quot;);&#xD;
+         for (int i = 0; i &lt; buttons.length; i++) {&#xD;
+             if (i == okIndex || i == cancelIndex) continue;&#xD;
+             container.add(newButtons[i]);&#xD;
+         }&#xD;
+     } else {&#xD;
+         // This must be a choice dialog.  The wrap argument to the&#xD;
+         // MigLayout constructor will do the work for us.&#xD;
+         for (int i = 0; i &lt; buttons.length; i++) {&#xD;
+             if (i == cancelIndex) continue;&#xD;
+             container.add(newButtons[i]);&#xD;
+         }&#xD;
+         if (cancelIndex >= 0) {&#xD;
+             container.add(newButtons[cancelIndex],&#xD;
+                           &quot;newline 20, tag cancel&quot;);&#xD;
+         }&#xD;
+     }&#xD;
+     // The righthand button gets truncated, so add some extra space.&#xD;
+     Dimension prefer = container.getPreferredSize();&#xD;
+     prefer = new Dimension((int)(prefer.getWidth() + 100),&#xD;
+                            (int)prefer.getHeight());&#xD;
+     container.setMinimumSize(prefer);&#xD;
+     container.setPreferredSize(prefer);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUwamlImEeibjuLm5_lcNQ" name="selectInitialValue" specification="_jUMZ4lImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUwam1ImEeibjuLm5_lcNQ" name="op" type="_jTYhk1ImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>if (initialFocusComponent != null) {&#xD;
+         initialFocusComponent.requestFocus();&#xD;
+ &#xD;
+         if (initialFocusComponent instanceof JButton) {&#xD;
+             JRootPane root = SwingUtilities.getRootPane(initialFocusComponent);&#xD;
+             if (root != null) {&#xD;
+                 root.setDefaultButton((JButton)initialFocusComponent);&#xD;
+             }&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUwanFImEeibjuLm5_lcNQ" name="paint" specification="_jUNA8lImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUwanVImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUwanlImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>if (c.isOpaque()) {&#xD;
+         ImageLibrary.drawTiledImage(&quot;image.background.FreeColOptionPane&quot;,&#xD;
+                                     g, c, null);&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jNt-cFImEeibjuLm5_lcNQ" name="FreeColOptionPaneUI" visibility="private">
+                    <eAnnotations xmi:id="_jNt-cVImEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_jNt-clImEeibjuLm5_lcNQ" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_jNulgVImEeibjuLm5_lcNQ" type="_jNswUFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jNulglImEeibjuLm5_lcNQ" name="getColumns" visibility="private" method="_jUvzjlImEeibjuLm5_lcNQ">
+                    <ownedComment xmi:id="_jU16IFImEeibjuLm5_lcNQ">
+                      <body>Choose the number of columns for the OptionPane buttons.&#xD;
+     *&#xD;
+     * @param nButtons The number of buttons.&#xD;
+     * @return A suitable number of columns.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_jNulg1ImEeibjuLm5_lcNQ" name="nButtons">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_jNulhFImEeibjuLm5_lcNQ" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jNvMkFImEeibjuLm5_lcNQ" name="createButtonArea" visibility="protected" method="_jUwak1ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jULLwVImEeibjuLm5_lcNQ" type="_jTXTcFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUIvg1ImEeibjuLm5_lcNQ" name="createUI" isStatic="true" method="_jUvzi1ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUJWkFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUJWkVImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUKksVImEeibjuLm5_lcNQ" name="prepareButtons" visibility="private" method="_jUwakFImEeibjuLm5_lcNQ">
+                    <ownedComment xmi:id="_jU16IVImEeibjuLm5_lcNQ">
+                      <body>Prepare the new buttons for this component.&#xD;
+     *&#xD;
+     * @param buttons An array of objects provided to define the buttons.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_jUKkslImEeibjuLm5_lcNQ" name="buttons" type="_jUJ9oFImEeibjuLm5_lcNQ">
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jULLwFImEeibjuLm5_lcNQ" value="*"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jULLwlImEeibjuLm5_lcNQ" name="addButtonComponents" visibility="protected" method="_jUwalVImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jULLw1ImEeibjuLm5_lcNQ" name="container" type="_jTXTcFImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jULy0FImEeibjuLm5_lcNQ" name="buttons" type="_jUJ9oFImEeibjuLm5_lcNQ">
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jULy01ImEeibjuLm5_lcNQ" value="*"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_jULy0VImEeibjuLm5_lcNQ" name="initialIndex">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUMZ4lImEeibjuLm5_lcNQ" name="selectInitialValue" method="_jUwamlImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUMZ41ImEeibjuLm5_lcNQ" name="op" type="_jTYhk1ImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUNA8lImEeibjuLm5_lcNQ" name="paint" method="_jUwanFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUNA81ImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUNA9FImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jNwasFImEeibjuLm5_lcNQ" name="FreeColPanelUI">
+                  <ownedComment xmi:id="_jU16IlImEeibjuLm5_lcNQ">
+                    <body>Draw the &quot;image.background.FreeColPanel&quot; resource as a tiled background image.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_jUO2JlImEeibjuLm5_lcNQ" general="_jTB8QlImEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_jUps4VImEeibjuLm5_lcNQ" name="sharedInstance" visibility="private" isLeaf="true" isStatic="true" type="_jNwasFImEeibjuLm5_lcNQ" isReadOnly="true" association="_jVASMVImEeibjuLm5_lcNQ">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jUps4lImEeibjuLm5_lcNQ" value="new FreeColPanelUI()"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUwan1ImEeibjuLm5_lcNQ" name="createUI" specification="_jUOPEFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUwaoFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUwaoVImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return sharedInstance;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUxBoFImEeibjuLm5_lcNQ" name="paint" specification="_jTcL8FImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUxBoVImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUxBolImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>if (c.isOpaque()) {&#xD;
+         ImageLibrary.drawTiledImage(&quot;image.background.FreeColPanel&quot;, g, c, null);&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jNy28FImEeibjuLm5_lcNQ" name="FreeColPanelUI" visibility="private">
+                    <eAnnotations xmi:id="_jNy28VImEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_jNy28lImEeibjuLm5_lcNQ" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_jNy29FImEeibjuLm5_lcNQ" type="_jNwasFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jTcL8FImEeibjuLm5_lcNQ" name="paint" method="_jUxBoFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jTcL8VImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jTcL8lImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUOPEFImEeibjuLm5_lcNQ" name="createUI" isStatic="true" method="_jUwan1ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUO2IFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUO2IVImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jNzeAFImEeibjuLm5_lcNQ" name="FreeColPopupMenuUI">
+                  <ownedComment xmi:id="_jU16JFImEeibjuLm5_lcNQ">
+                    <body>Draw the &quot;image.background.FreeColPopupMenu&quot; resource as a tiled&#xD;
+background image on popup menus, such as the drop down from the&#xD;
+menu bar at the top of the main window or the tile popup.&#xD;
+Obviously these contain text so a light colour is recommended.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_jUQER1ImEeibjuLm5_lcNQ" general="_jTczAFImEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_jUps41ImEeibjuLm5_lcNQ" name="sharedInstance" visibility="private" isLeaf="true" isStatic="true" type="_jNzeAFImEeibjuLm5_lcNQ" isReadOnly="true" association="_jVASNFImEeibjuLm5_lcNQ">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jUqT8FImEeibjuLm5_lcNQ" value="new FreeColPopupMenuUI()"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUxBo1ImEeibjuLm5_lcNQ" name="createUI" specification="_jUQEQFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUxBpFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUxBpVImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return sharedInstance;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUxBplImEeibjuLm5_lcNQ" name="paint" specification="_jTdaEVImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUxBp1ImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUxBqFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>if (c.isOpaque()) {&#xD;
+         ImageLibrary.drawTiledImage(&quot;image.background.FreeColPopupMenu&quot;, g, c, null);&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jTdaEVImEeibjuLm5_lcNQ" name="paint" method="_jUxBplImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jTdaElImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jTdaE1ImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUQEQFImEeibjuLm5_lcNQ" name="createUI" isStatic="true" method="_jUxBo1ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUQEQVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUQEQlImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jN0sIFImEeibjuLm5_lcNQ" name="FreeColRadioButtonUI">
+                  <ownedComment xmi:id="_jU16JlImEeibjuLm5_lcNQ">
+                    <body>Sets the default opaque attribute to &lt;i>false&lt;/i>.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_jUR5c1ImEeibjuLm5_lcNQ" general="_jTeBIFImEeibjuLm5_lcNQ"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUxBqVImEeibjuLm5_lcNQ" name="createUI" specification="_jUQrUFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUxBqlImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUxBq1ImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return new FreeColRadioButtonUI();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUxBrFImEeibjuLm5_lcNQ" name="installUI" specification="_jURSYVImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUxBrVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>super.installUI(c);&#xD;
+&#xD;
+     c.setOpaque(false);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUxBrlImEeibjuLm5_lcNQ" name="paint" specification="_jURSZlImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUxBr1ImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUxBsFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>LAFUtilities.setProperties(g, c);&#xD;
+     super.paint(g, c);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jUQrUFImEeibjuLm5_lcNQ" name="createUI" isStatic="true" method="_jUxBqVImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUQrUVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUQrUlImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jURSYVImEeibjuLm5_lcNQ" name="installUI" method="_jUxBrFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jURSYlImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jURSZlImEeibjuLm5_lcNQ" name="paint" method="_jUxBrlImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jURSZ1ImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jURSaFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jN1TMFImEeibjuLm5_lcNQ" name="FreeColScrollPaneUI">
+                  <ownedComment xmi:id="_jU16KFImEeibjuLm5_lcNQ">
+                    <body>UI-class for scroll panes.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_jUUVtVImEeibjuLm5_lcNQ" general="_jTeoMVImEeibjuLm5_lcNQ"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUxBsVImEeibjuLm5_lcNQ" name="createUI" specification="_jUSggFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUxBslImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUxBs1ImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return new FreeColScrollPaneUI();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUxBtFImEeibjuLm5_lcNQ" name="installUI" specification="_jUSgh1ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUxBtVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>super.installUI(c);&#xD;
+&#xD;
+     c.setOpaque(false);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUxosFImEeibjuLm5_lcNQ" name="paint" specification="_jUSgjFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUxosVImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUxoslImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>LAFUtilities.setProperties(g, c);&#xD;
+     super.paint(g, c);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jUSggFImEeibjuLm5_lcNQ" name="createUI" isStatic="true" method="_jUxBsVImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUSggVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUSgglImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUSgh1ImEeibjuLm5_lcNQ" name="installUI" method="_jUxBtFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUSgiFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUSgjFImEeibjuLm5_lcNQ" name="paint" method="_jUxosFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUUVsFImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUUVsVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jN2hUFImEeibjuLm5_lcNQ" name="FreeColSelectedPanelUI">
+                  <ownedComment xmi:id="_jU16KlImEeibjuLm5_lcNQ">
+                    <body>Draws with partial transparency.  Used in Europe.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_jUWK5VImEeibjuLm5_lcNQ" general="_jTB8QlImEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_jUqT8VImEeibjuLm5_lcNQ" name="sharedInstance" visibility="private" isLeaf="true" isStatic="true" type="_jN2hUFImEeibjuLm5_lcNQ" isReadOnly="true" association="_jVA5QVImEeibjuLm5_lcNQ">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jUqT8lImEeibjuLm5_lcNQ" value="new FreeColSelectedPanelUI()"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUxos1ImEeibjuLm5_lcNQ" name="createUI" specification="_jUU8wFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUxotFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUxotVImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return sharedInstance;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUxotlImEeibjuLm5_lcNQ" name="paint" specification="_jUVj01ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUxot1ImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUxouFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>Graphics2D g2d = (Graphics2D) g;&#xD;
+     Composite oldComposite = g2d.getComposite();&#xD;
+     Color oldColor = g2d.getColor();&#xD;
+     g2d.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, 0.1f));&#xD;
+     g2d.setColor(Color.BLACK);&#xD;
+     g2d.fillRect(0, 0, c.getWidth(), c.getHeight());&#xD;
+     g2d.setComposite(oldComposite);&#xD;
+     g2d.setColor(oldColor);&#xD;
+&#xD;
+     //super.paintComponent(g);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jUU8wFImEeibjuLm5_lcNQ" name="createUI" isStatic="true" method="_jUxos1ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUU8wVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUU8wlImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUVj01ImEeibjuLm5_lcNQ" name="paint" method="_jUxotlImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUWK4FImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUWK4VImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jN3IYFImEeibjuLm5_lcNQ" name="FreeColTableHeaderUI">
+                  <ownedComment xmi:id="_jU16LFImEeibjuLm5_lcNQ">
+                    <body>UI-class for table headers.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_jUYnIlImEeibjuLm5_lcNQ" general="_jTgdYFImEeibjuLm5_lcNQ"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUxouVImEeibjuLm5_lcNQ" name="createUI" specification="_jUWx8FImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUxoulImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUxou1ImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return new FreeColTableHeaderUI();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUxovFImEeibjuLm5_lcNQ" name="installUI" specification="_jUXZBFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUxovVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>super.installUI(c);&#xD;
+&#xD;
+     JTableHeader j = (JTableHeader) c;&#xD;
+     j.setOpaque(false);&#xD;
+&#xD;
+     DefaultTableCellRenderer dtcr = (DefaultTableCellRenderer) j.getDefaultRenderer();&#xD;
+     dtcr.setOpaque(false);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUxovlImEeibjuLm5_lcNQ" name="paint" specification="_jUYAE1ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUxov1ImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUxowFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>LAFUtilities.setProperties(g, c);&#xD;
+     super.paint(g, c);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jUWx8FImEeibjuLm5_lcNQ" name="createUI" isStatic="true" method="_jUxouVImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUWx8VImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUWx8lImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUXZBFImEeibjuLm5_lcNQ" name="installUI" method="_jUxovFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUXZBVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUYAE1ImEeibjuLm5_lcNQ" name="paint" method="_jUxovlImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUYAFFImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUYAFVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jN49kFImEeibjuLm5_lcNQ" name="FreeColTableUI">
+                  <ownedComment xmi:id="_jU16LlImEeibjuLm5_lcNQ">
+                    <body>UI-class for tables.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_jUbDZVImEeibjuLm5_lcNQ" general="_jTiSkFImEeibjuLm5_lcNQ"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUxowVImEeibjuLm5_lcNQ" name="createUI" specification="_jUZOMFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUxowlImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUxow1ImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return new FreeColTableUI();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUyPwFImEeibjuLm5_lcNQ" name="installUI" specification="_jUZ1QFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUyPwVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>super.installUI(c);&#xD;
+&#xD;
+     c.setOpaque(false);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUyPwlImEeibjuLm5_lcNQ" name="paint" specification="_jUacUFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUyPw1ImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUyPxFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>LAFUtilities.setProperties(g, c);&#xD;
+     super.paint(g, c);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jUZOMFImEeibjuLm5_lcNQ" name="createUI" isStatic="true" method="_jUxowVImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUZOMVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUZOMlImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUZ1QFImEeibjuLm5_lcNQ" name="installUI" method="_jUyPwFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUZ1QVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUacUFImEeibjuLm5_lcNQ" name="paint" method="_jUyPwlImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUbDYFImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUbDYVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jN6LsFImEeibjuLm5_lcNQ" name="FreeColTextAreaUI">
+                  <ownedComment xmi:id="_jU16MFImEeibjuLm5_lcNQ">
+                    <body>Provides a tiled background image &quot;image.background.FreeColTextArea&quot; to&#xD;
+text areas.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_jUc4klImEeibjuLm5_lcNQ" general="_jTjgsFImEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_jUqT81ImEeibjuLm5_lcNQ" name="c" visibility="private" isLeaf="true" type="_jS-R4FImEeibjuLm5_lcNQ" isReadOnly="true" association="_jVBgUVImEeibjuLm5_lcNQ"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUyPxVImEeibjuLm5_lcNQ" name="FreeColTextAreaUI" specification="_jUbqcFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUyPxlImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUyPx1ImEeibjuLm5_lcNQ" type="_jN6LsFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>this.c = c;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUyPyFImEeibjuLm5_lcNQ" name="createUI" specification="_jUcRgFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUyPyVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUyPylImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return new FreeColTextAreaUI(c);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUyPy1ImEeibjuLm5_lcNQ" name="paintSafely" specification="_jUcRg1ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUyPzFImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>LAFUtilities.setProperties(g, c);&#xD;
+     super.paintSafely(g);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUyPzVImEeibjuLm5_lcNQ" name="paintBackground" specification="_jTkHwFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUyPzlImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>JComponent c = getComponent();&#xD;
+     if (c.isOpaque()) {&#xD;
+         ImageLibrary.drawTiledImage(&quot;image.background.FreeColTextArea&quot;, g, c, null);&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jTkHwFImEeibjuLm5_lcNQ" name="paintBackground" method="_jUyPzVImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jTkHwVImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUbqcFImEeibjuLm5_lcNQ" name="FreeColTextAreaUI" method="_jUyPxVImEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_jUbqclImEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_jUbqc1ImEeibjuLm5_lcNQ" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_jUbqcVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUbqdFImEeibjuLm5_lcNQ" type="_jN6LsFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUcRgFImEeibjuLm5_lcNQ" name="createUI" isStatic="true" method="_jUyPyFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUcRgVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUcRglImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUcRg1ImEeibjuLm5_lcNQ" name="paintSafely" method="_jUyPy1ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUcRhFImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jN8A4FImEeibjuLm5_lcNQ" name="FreeColTextFieldUI">
+                  <ownedComment xmi:id="_jU2hMFImEeibjuLm5_lcNQ">
+                    <body>Provides a tiled background image &quot;image.background.FreeColTextField&quot; to&#xD;
+text fields.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_jUetwFImEeibjuLm5_lcNQ" general="_jTku0FImEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_jUq7AFImEeibjuLm5_lcNQ" name="c" visibility="private" isLeaf="true" type="_jS-R4FImEeibjuLm5_lcNQ" isReadOnly="true" association="_jVCHYVImEeibjuLm5_lcNQ"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUyPz1ImEeibjuLm5_lcNQ" name="FreeColTextFieldUI" specification="_jUdfoFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUyP0FImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUyP0VImEeibjuLm5_lcNQ" type="_jN8A4FImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>this.c = c;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUyP0lImEeibjuLm5_lcNQ" name="createUI" specification="_jUdfpVImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUyP01ImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUyP1FImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return new FreeColTextFieldUI(c);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUyP1VImEeibjuLm5_lcNQ" name="paintSafely" specification="_jUeGsFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUyP1lImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>LAFUtilities.setProperties(g, c);&#xD;
+     super.paintSafely(g);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUy20FImEeibjuLm5_lcNQ" name="paintBackground" specification="_jTlV4FImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUy20VImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>JComponent c = getComponent();&#xD;
+&#xD;
+     if (c.isOpaque()) {&#xD;
+         ImageLibrary.drawTiledImage(&quot;image.background.FreeColTextField&quot;, g, c, null);&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jTlV4FImEeibjuLm5_lcNQ" name="paintBackground" method="_jUy20FImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jTlV4VImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUdfoFImEeibjuLm5_lcNQ" name="FreeColTextFieldUI" method="_jUyPz1ImEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_jUdfolImEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_jUdfo1ImEeibjuLm5_lcNQ" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_jUdfoVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUdfpFImEeibjuLm5_lcNQ" type="_jN8A4FImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUdfpVImEeibjuLm5_lcNQ" name="createUI" isStatic="true" method="_jUyP0lImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUdfplImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUdfp1ImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUeGsFImEeibjuLm5_lcNQ" name="paintSafely" method="_jUyP1VImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUeGsVImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jN92EFImEeibjuLm5_lcNQ" name="FreeColToolTipUI">
+                  <ownedComment xmi:id="_jU2hMVImEeibjuLm5_lcNQ">
+                    <body>Draw the &quot;image.background.FreeColToolTip&quot; resource as a tiled background&#xD;
+image on tool tip popups.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_jUiYI1ImEeibjuLm5_lcNQ" general="_jTnyJVImEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_jUq7AlImEeibjuLm5_lcNQ" name="sharedInstance" visibility="private" isLeaf="true" isStatic="true" type="_jN92EFImEeibjuLm5_lcNQ" isReadOnly="true" association="_jVCHZFImEeibjuLm5_lcNQ">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jUq7A1ImEeibjuLm5_lcNQ" value="new FreeColToolTipUI()"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_jUq7BFImEeibjuLm5_lcNQ" name="frc" visibility="private" isLeaf="true" isStatic="true" type="_jTmkAlImEeibjuLm5_lcNQ" isReadOnly="true" association="_jVCHZ1ImEeibjuLm5_lcNQ">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jUq7BVImEeibjuLm5_lcNQ" value="new FontRenderContext(null, true, false)"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_jUq7BlImEeibjuLm5_lcNQ" name="margin" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jUriEFImEeibjuLm5_lcNQ" value="5"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_jUriEVImEeibjuLm5_lcNQ" name="maximumWidth" visibility="private" isStatic="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jUriElImEeibjuLm5_lcNQ" value="300"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_jUriFFImEeibjuLm5_lcNQ" name="LEADING" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jUriFVImEeibjuLm5_lcNQ" value="5"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_jUriFlImEeibjuLm5_lcNQ" name="lineBreak" visibility="private" isLeaf="true" isStatic="true" type="_jTnyIVImEeibjuLm5_lcNQ" isReadOnly="true" association="_jVCucVImEeibjuLm5_lcNQ">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jUriF1ImEeibjuLm5_lcNQ" value="Pattern.compile(&quot;\n&quot;)"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUy20lImEeibjuLm5_lcNQ" name="FreeColToolTipUI" specification="_jN-dIFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUy201ImEeibjuLm5_lcNQ" type="_jN92EFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>super();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUy21FImEeibjuLm5_lcNQ" name="createUI" specification="_jUfU0FImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUy21VImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUy21lImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return sharedInstance;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUy211ImEeibjuLm5_lcNQ" name="setMaximumWidth" specification="_jN_EMVImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUy22FImEeibjuLm5_lcNQ" name="width">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>maximumWidth = width;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUy22VImEeibjuLm5_lcNQ" name="paint" specification="_jUf74VImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUy22lImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUy221ImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>if (c.isOpaque()) {&#xD;
+         ImageLibrary.drawTiledImage(&quot;image.background.FreeColToolTip&quot;, g, c, null);&#xD;
+     }&#xD;
+&#xD;
+     g.setColor(Color.BLACK); // FIXME: find out why this is necessary&#xD;
+&#xD;
+     Graphics2D graphics = (Graphics2D)g;&#xD;
+     float x = margin;&#xD;
+     float y = margin;&#xD;
+     for (String line : lineBreak.split(((JToolTip) c).getTipText())) {&#xD;
+         if (line.isEmpty()) {&#xD;
+             y += LEADING;&#xD;
+             continue;&#xD;
+         }&#xD;
+         AttributedCharacterIterator styledText =&#xD;
+             new AttributedString(line).getIterator();&#xD;
+&#xD;
+         LineBreakMeasurer measurer = new LineBreakMeasurer(styledText, frc);&#xD;
+&#xD;
+         while (measurer.getPosition() &lt; styledText.getEndIndex()) {&#xD;
+&#xD;
+             TextLayout layout = measurer.nextLayout(maximumWidth);&#xD;
+&#xD;
+             y += (layout.getAscent());&#xD;
+             float dx = layout.isLeftToRight() ?&#xD;
+                 0 : (maximumWidth - layout.getAdvance());&#xD;
+&#xD;
+             layout.draw(graphics, x + dx, y);&#xD;
+             y += layout.getDescent() + layout.getLeading();&#xD;
+         }&#xD;
+     }&#xD;
+  </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUy23FImEeibjuLm5_lcNQ" name="getPreferredSize" specification="_jUgi8lImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUy23VImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUy23lImEeibjuLm5_lcNQ" type="_jTE_kVImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>String tipText = ((JToolTip)c).getTipText();&#xD;
+     if (tipText == null || tipText.isEmpty()) {&#xD;
+         return new Dimension(0, 0);&#xD;
+     }&#xD;
+&#xD;
+     float x = 0f;&#xD;
+     float y = 0f;&#xD;
+     for (String line : lineBreak.split(tipText)) {&#xD;
+         if (line.isEmpty()) {&#xD;
+             y += LEADING;&#xD;
+             continue;&#xD;
+         }&#xD;
+         AttributedCharacterIterator styledText&#xD;
+             = new AttributedString(line).getIterator();&#xD;
+         LineBreakMeasurer measurer = new LineBreakMeasurer(styledText, frc);&#xD;
+&#xD;
+         while (measurer.getPosition() &lt; styledText.getEndIndex()) {&#xD;
+&#xD;
+             TextLayout layout = measurer.nextLayout(maximumWidth);&#xD;
+&#xD;
+             x = Math.max(x, layout.getVisibleAdvance());&#xD;
+             y += layout.getAscent() + layout.getDescent() + layout.getLeading();&#xD;
+&#xD;
+         }&#xD;
+     }&#xD;
+     return new Dimension((int) (x + 2 * margin),&#xD;
+                          (int) (y + 2 * margin));&#xD;
+&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUy231ImEeibjuLm5_lcNQ" name="getMinimumSize" specification="_jUhKA1ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUy24FImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUy24VImEeibjuLm5_lcNQ" type="_jTE_kVImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return getPreferredSize(c);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUy24lImEeibjuLm5_lcNQ" name="getMaximumSize" specification="_jUhxE1ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUy241ImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUy25FImEeibjuLm5_lcNQ" type="_jTE_kVImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return getPreferredSize(c);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jN-dIFImEeibjuLm5_lcNQ" name="FreeColToolTipUI" visibility="private" method="_jUy20lImEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_jN-dIVImEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_jN-dIlImEeibjuLm5_lcNQ" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_jN_EMFImEeibjuLm5_lcNQ" type="_jN92EFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jN_EMVImEeibjuLm5_lcNQ" name="setMaximumWidth" isStatic="true" method="_jUy211ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jN_EMlImEeibjuLm5_lcNQ" name="width">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUfU0FImEeibjuLm5_lcNQ" name="createUI" isStatic="true" method="_jUy21FImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUfU0VImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUfU0lImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUf74VImEeibjuLm5_lcNQ" name="paint" method="_jUy22VImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUf74lImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUf741ImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUgi8lImEeibjuLm5_lcNQ" name="getPreferredSize" method="_jUy23FImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUgi81ImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUgi9FImEeibjuLm5_lcNQ" type="_jTE_kVImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUhKA1ImEeibjuLm5_lcNQ" name="getMinimumSize" method="_jUy231ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUhKBFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUhKBVImEeibjuLm5_lcNQ" type="_jTE_kVImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUhxE1ImEeibjuLm5_lcNQ" name="getMaximumSize" method="_jUy24lImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUhxFFImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUhxFVImEeibjuLm5_lcNQ" type="_jTE_kVImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jOBgcFImEeibjuLm5_lcNQ" name="FreeColTransparentPanelUI">
+                  <ownedComment xmi:id="_jU2hM1ImEeibjuLm5_lcNQ">
+                    <body>Draws with partial transparency.  Used in Europe.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_jUjmR1ImEeibjuLm5_lcNQ" general="_jTB8QlImEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_jUriGFImEeibjuLm5_lcNQ" name="sharedInstance" visibility="private" isLeaf="true" isStatic="true" type="_jOBgcFImEeibjuLm5_lcNQ" isReadOnly="true" association="_jVDVgVImEeibjuLm5_lcNQ">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jUriGVImEeibjuLm5_lcNQ" value="new FreeColTransparentPanelUI()"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUzd4FImEeibjuLm5_lcNQ" name="createUI" specification="_jUjmQFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUzd4VImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUzd4lImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return sharedInstance;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUzd41ImEeibjuLm5_lcNQ" name="paint" specification="_jTpnUFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUzd5FImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUzd5VImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>if (c.isOpaque()) {&#xD;
+         throw new IllegalStateException(&quot;FreeColTransparentPanelUI can only be used on components which are !isOpaque()&quot;);&#xD;
+     }&#xD;
+&#xD;
+     int width = c.getWidth();&#xD;
+     int height = c.getHeight();&#xD;
+&#xD;
+     Graphics2D g2 = (Graphics2D)g;&#xD;
+     Composite oldComposite = g2.getComposite();&#xD;
+     g2.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, 0.6f));&#xD;
+     g2.setColor(Color.WHITE);&#xD;
+     g2.fillRect(0, 0, width, height);&#xD;
+     g2.setComposite(oldComposite);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jTpnUFImEeibjuLm5_lcNQ" name="paint" method="_jUzd41ImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jTqOYFImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jTqOYVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_jUjmQFImEeibjuLm5_lcNQ" name="createUI" isStatic="true" method="_jUzd4FImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUjmQVImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUjmQlImEeibjuLm5_lcNQ" type="_jTB8QFImEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jOCukFImEeibjuLm5_lcNQ" name="LAFUtilities" isLeaf="true">
+                  <ownedComment xmi:id="_jU2hNVImEeibjuLm5_lcNQ">
+                    <body>Utility methods for Look-and-Feel classes.</body>
+                  </ownedComment>
+                  <ownedAttribute xmi:id="_jUriGlImEeibjuLm5_lcNQ" name="AA_TEXT_SIZE" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_jUriG1ImEeibjuLm5_lcNQ" value="16"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jUzd5lImEeibjuLm5_lcNQ" name="setProperties" specification="_jUkNUFImEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_jUzd51ImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUzd6FImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>Graphics2D g2 = (Graphics2D) g;&#xD;
+     if (c.getFont().getSize() >= AA_TEXT_SIZE) {&#xD;
+         g2.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING,&#xD;
+                 RenderingHints.VALUE_TEXT_ANTIALIAS_ON);&#xD;
+     }&#xD;
+     Object textAA = c.getClientProperty(RenderingHints.KEY_TEXT_ANTIALIASING);&#xD;
+     if (textAA != null) {&#xD;
+         g2.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, textAA);&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_jUkNUFImEeibjuLm5_lcNQ" name="setProperties" isStatic="true" method="_jUzd5lImEeibjuLm5_lcNQ">
+                    <ownedComment xmi:id="_jU2hNlImEeibjuLm5_lcNQ">
+                      <body>Modifies the given graphics object with any relevant&#xD;
+     * {@link JComponent#getClientProperty(Object) client property}&#xD;
+     * from the given component.&#xD;
+     *&#xD;
+     * Currently only &lt;code>RenderingHints.KEY_TEXT_ANTIALIASING&lt;/code>&#xD;
+     * is supported. Antialiasing is enabled explicitly if the text size&#xD;
+     * is larger or equal to 16.&#xD;
+     *&#xD;
+     * @param g The graphics object to be updated.&#xD;
+     * @param c The component to get the properties from.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_jUkNUVImEeibjuLm5_lcNQ" name="g" type="_jTCjUVImEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_jUkNUlImEeibjuLm5_lcNQ" name="c" type="_jS-R4FImEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_jT10kFImEeibjuLm5_lcNQ" name="T"/>
+                <packagedElement xmi:type="uml:Association" xmi:id="_jU7ZsFImEeibjuLm5_lcNQ" name="" memberEnd="_jU7ZsVImEeibjuLm5_lcNQ _jUmCgFImEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_jU7ZsVImEeibjuLm5_lcNQ" name="" type="_jNbDgFImEeibjuLm5_lcNQ" association="_jU7ZsFImEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_jU8AwVImEeibjuLm5_lcNQ" name="" memberEnd="_jU8AwlImEeibjuLm5_lcNQ _jUmCglImEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_jU8AwlImEeibjuLm5_lcNQ" name="" type="_jNc4sFImEeibjuLm5_lcNQ" association="_jU8AwVImEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_jU8n0VImEeibjuLm5_lcNQ" name="" memberEnd="_jU8n0lImEeibjuLm5_lcNQ _jUmpkFImEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_jU8n0lImEeibjuLm5_lcNQ" name="" type="_jNfU8FImEeibjuLm5_lcNQ" association="_jU8n0VImEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_jU9O4VImEeibjuLm5_lcNQ" name="" memberEnd="_jU9O4lImEeibjuLm5_lcNQ _jUmpklImEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_jU9O4lImEeibjuLm5_lcNQ" name="" type="_jNfU8FImEeibjuLm5_lcNQ" association="_jU9O4VImEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_jU9O5FImEeibjuLm5_lcNQ" name="" memberEnd="_jU9O5VImEeibjuLm5_lcNQ _jUmplVImEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_jU9O5VImEeibjuLm5_lcNQ" name="" type="_jNfU8FImEeibjuLm5_lcNQ" association="_jU9O5FImEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_jU918VImEeibjuLm5_lcNQ" name="" memberEnd="_jU918lImEeibjuLm5_lcNQ _jUn3sFImEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_jU918lImEeibjuLm5_lcNQ" name="" type="_jNnQwFImEeibjuLm5_lcNQ" association="_jU918VImEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_jU-dAVImEeibjuLm5_lcNQ" name="" memberEnd="_jU-dAlImEeibjuLm5_lcNQ _jUn3slImEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_jU-dAlImEeibjuLm5_lcNQ" name="" type="_jNnQwFImEeibjuLm5_lcNQ" association="_jU-dAVImEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_jU_EEVImEeibjuLm5_lcNQ" name="" memberEnd="_jU_EElImEeibjuLm5_lcNQ _jUoew1ImEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_jU_EElImEeibjuLm5_lcNQ" name="" type="_jNptAFImEeibjuLm5_lcNQ" association="_jU_EEVImEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_jU_rIVImEeibjuLm5_lcNQ" name="" memberEnd="_jU_rIlImEeibjuLm5_lcNQ _jUoexVImEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_jU_rIlImEeibjuLm5_lcNQ" name="" type="_jNswUFImEeibjuLm5_lcNQ" association="_jU_rIVImEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_jU_rJFImEeibjuLm5_lcNQ" name="" memberEnd="_jU_rJVImEeibjuLm5_lcNQ _jUpF1VImEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_jU_rJVImEeibjuLm5_lcNQ" name="" type="_jNswUFImEeibjuLm5_lcNQ" association="_jU_rJFImEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_jVASMVImEeibjuLm5_lcNQ" name="" memberEnd="_jVASMlImEeibjuLm5_lcNQ _jUps4VImEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_jVASMlImEeibjuLm5_lcNQ" name="" type="_jNwasFImEeibjuLm5_lcNQ" association="_jVASMVImEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_jVASNFImEeibjuLm5_lcNQ" name="" memberEnd="_jVASNVImEeibjuLm5_lcNQ _jUps41ImEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_jVASNVImEeibjuLm5_lcNQ" name="" type="_jNzeAFImEeibjuLm5_lcNQ" association="_jVASNFImEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_jVA5QVImEeibjuLm5_lcNQ" name="" memberEnd="_jVA5QlImEeibjuLm5_lcNQ _jUqT8VImEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_jVA5QlImEeibjuLm5_lcNQ" name="" type="_jN2hUFImEeibjuLm5_lcNQ" association="_jVA5QVImEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_jVBgUVImEeibjuLm5_lcNQ" name="" memberEnd="_jVBgUlImEeibjuLm5_lcNQ _jUqT81ImEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_jVBgUlImEeibjuLm5_lcNQ" name="" type="_jN6LsFImEeibjuLm5_lcNQ" association="_jVBgUVImEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_jVCHYVImEeibjuLm5_lcNQ" name="" memberEnd="_jVCHYlImEeibjuLm5_lcNQ _jUq7AFImEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_jVCHYlImEeibjuLm5_lcNQ" name="" type="_jN8A4FImEeibjuLm5_lcNQ" association="_jVCHYVImEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_jVCHZFImEeibjuLm5_lcNQ" name="" memberEnd="_jVCHZVImEeibjuLm5_lcNQ _jUq7AlImEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_jVCHZVImEeibjuLm5_lcNQ" name="" type="_jN92EFImEeibjuLm5_lcNQ" association="_jVCHZFImEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_jVCHZ1ImEeibjuLm5_lcNQ" name="" memberEnd="_jVCHaFImEeibjuLm5_lcNQ _jUq7BFImEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_jVCHaFImEeibjuLm5_lcNQ" name="" type="_jN92EFImEeibjuLm5_lcNQ" association="_jVCHZ1ImEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_jVCucVImEeibjuLm5_lcNQ" name="" memberEnd="_jVCuclImEeibjuLm5_lcNQ _jUriFlImEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_jVCuclImEeibjuLm5_lcNQ" name="" type="_jN92EFImEeibjuLm5_lcNQ" association="_jVCucVImEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_jVDVgVImEeibjuLm5_lcNQ" name="" memberEnd="_jVDVglImEeibjuLm5_lcNQ _jUriGFImEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_jVDVglImEeibjuLm5_lcNQ" name="" type="_jOBgcFImEeibjuLm5_lcNQ" association="_jVDVgVImEeibjuLm5_lcNQ"/>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_jM2bwVImEeibjuLm5_lcNQ" name="panel">
+                <packagedElement xmi:type="uml:Class" xmi:id="_jTZvs1ImEeibjuLm5_lcNQ" name="MigPanel"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_jTB8RFImEeibjuLm5_lcNQ" name="ImageLibrary"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_jTZvsVImEeibjuLm5_lcNQ" name="ChoiceItem"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_jMuf8VImEeibjuLm5_lcNQ" name="common">
+            <packagedElement xmi:type="uml:Package" xmi:id="_jMuf8lImEeibjuLm5_lcNQ" name="i18n">
+              <packagedElement xmi:type="uml:Class" xmi:id="_jTKfI1ImEeibjuLm5_lcNQ" name="Messages"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_jMuf81ImEeibjuLm5_lcNQ" name="model">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_jTKfJVImEeibjuLm5_lcNQ" name="Nameable"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_jTLGMVImEeibjuLm5_lcNQ" name="Named"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_jMuf9FImEeibjuLm5_lcNQ" name="option">
+              <packagedElement xmi:type="uml:Package" xmi:id="_jMuf9VImEeibjuLm5_lcNQ" name="LanguageOption">
+                <packagedElement xmi:type="uml:Class" xmi:id="_jTLGM1ImEeibjuLm5_lcNQ" name="Language"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_jMvHAFImEeibjuLm5_lcNQ" name="resources">
+              <packagedElement xmi:type="uml:Class" xmi:id="_jTUQIFImEeibjuLm5_lcNQ" name="ResourceManager"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_jTKfIVImEeibjuLm5_lcNQ" name="ObjectWithId"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_jTTpE1ImEeibjuLm5_lcNQ" name="FreeColException"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_jMvHAlImEeibjuLm5_lcNQ" name="miginfocom">
+        <packagedElement xmi:type="uml:Package" xmi:id="_jM2bwFImEeibjuLm5_lcNQ" name="swing">
+          <packagedElement xmi:type="uml:Class" xmi:id="_jTZIpVImEeibjuLm5_lcNQ" name="MigLayout"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_jMqOhFImEeibjuLm5_lcNQ" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_jMqOhVImEeibjuLm5_lcNQ" name="swing">
+        <packagedElement xmi:type="uml:Package" xmi:id="_jMqOhlImEeibjuLm5_lcNQ" name="plaf">
+          <packagedElement xmi:type="uml:Package" xmi:id="_jMqOh1ImEeibjuLm5_lcNQ" name="basic">
+            <packagedElement xmi:type="uml:Class" xmi:id="_jTB8QlImEeibjuLm5_lcNQ" name="BasicPanelUI"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_jTIC4FImEeibjuLm5_lcNQ" name="BasicCheckBoxUI"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_jTP-sFImEeibjuLm5_lcNQ" name="BasicListUI"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_jTVeQFImEeibjuLm5_lcNQ" name="BasicMenuBarUI"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_jTWsYFImEeibjuLm5_lcNQ" name="BasicMenuItemUI"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_jTZIo1ImEeibjuLm5_lcNQ" name="BasicOptionPaneUI"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_jTczAFImEeibjuLm5_lcNQ" name="BasicPopupMenuUI"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_jTeBIFImEeibjuLm5_lcNQ" name="BasicRadioButtonUI"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_jTeoMVImEeibjuLm5_lcNQ" name="BasicScrollPaneUI"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_jTgdYFImEeibjuLm5_lcNQ" name="BasicTableHeaderUI"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_jTiSkFImEeibjuLm5_lcNQ" name="BasicTableUI"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_jTjgsFImEeibjuLm5_lcNQ" name="BasicTextAreaUI"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_jTku0FImEeibjuLm5_lcNQ" name="BasicTextFieldUI"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_jTnyJVImEeibjuLm5_lcNQ" name="BasicToolTipUI"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_jMsDsFImEeibjuLm5_lcNQ" name="metal">
+            <packagedElement xmi:type="uml:Class" xmi:id="_jTGNs1ImEeibjuLm5_lcNQ" name="MetalButtonUI"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_jTLtQFImEeibjuLm5_lcNQ" name="MetalComboBoxUI"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_jTOJg1ImEeibjuLm5_lcNQ" name="MetalFileChooserUI"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_jTOwkVImEeibjuLm5_lcNQ" name="MetalLabelUI"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_jTTCBVImEeibjuLm5_lcNQ" name="DefaultMetalTheme"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_jTTpEVImEeibjuLm5_lcNQ" name="MetalLookAndFeel"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_jTB8QFImEeibjuLm5_lcNQ" name="ComponentUI"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_jTIp8lImEeibjuLm5_lcNQ" name="UIResource"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_jTTCA1ImEeibjuLm5_lcNQ" name="ColorUIResource"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_jM4Q8FImEeibjuLm5_lcNQ" name="table">
+          <packagedElement xmi:type="uml:Class" xmi:id="_jTgdYlImEeibjuLm5_lcNQ" name="DefaultTableCellRenderer"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_jThEcVImEeibjuLm5_lcNQ" name="JTableHeader"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jS-R4FImEeibjuLm5_lcNQ" name="JComponent"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTFmo1ImEeibjuLm5_lcNQ" name="AbstractButton"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTGNsVImEeibjuLm5_lcNQ" name="SwingUtilities"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTIp9FImEeibjuLm5_lcNQ" name="JLabel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTJ4EFImEeibjuLm5_lcNQ" name="JList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_jTJ4ElImEeibjuLm5_lcNQ" name="ListCellRenderer"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTNicFImEeibjuLm5_lcNQ" name="JFileChooser"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTOJgVImEeibjuLm5_lcNQ" name="JPanel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTSa81ImEeibjuLm5_lcNQ" name="UIDefaults"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTSa9VImEeibjuLm5_lcNQ" name="UIManager"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTTCAVImEeibjuLm5_lcNQ" name="UnsupportedLookAndFeelException"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_jTX6hFImEeibjuLm5_lcNQ" name="Icon"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTYhkVImEeibjuLm5_lcNQ" name="JButton"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTYhk1ImEeibjuLm5_lcNQ" name="JOptionPane"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTZIoVImEeibjuLm5_lcNQ" name="JRootPane"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTnyI1ImEeibjuLm5_lcNQ" name="JToolTip"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_jMq1kFImEeibjuLm5_lcNQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_jMrcoFImEeibjuLm5_lcNQ" name="awt">
+        <packagedElement xmi:type="uml:Package" xmi:id="_jMvHAVImEeibjuLm5_lcNQ" name="event">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_jTX6gFImEeibjuLm5_lcNQ" name="ActionListener"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_jTX6glImEeibjuLm5_lcNQ" name="HierarchyEvent"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_jNDQEFImEeibjuLm5_lcNQ" name="font">
+          <packagedElement xmi:type="uml:Class" xmi:id="_jTmkAFImEeibjuLm5_lcNQ" name="LineBreakMeasurer"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_jTmkAlImEeibjuLm5_lcNQ" name="FontRenderContext"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_jTmkBFImEeibjuLm5_lcNQ" name="TextLayout"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTCjUVImEeibjuLm5_lcNQ" name="Graphics"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTEYgFImEeibjuLm5_lcNQ" name="AlphaComposite"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTEYglImEeibjuLm5_lcNQ" name="Color"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_jTEYhFImEeibjuLm5_lcNQ" name="Composite"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTE_kVImEeibjuLm5_lcNQ" name="Dimension"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTE_k1ImEeibjuLm5_lcNQ" name="Graphics2D"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTE_lVImEeibjuLm5_lcNQ" name="MouseInfo"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTFmoVImEeibjuLm5_lcNQ" name="Point"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTIp8FImEeibjuLm5_lcNQ" name="Component"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTRM0FImEeibjuLm5_lcNQ" name="Cursor"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTRM0lImEeibjuLm5_lcNQ" name="Font"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTRz4VImEeibjuLm5_lcNQ" name="Image"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTRz41ImEeibjuLm5_lcNQ" name="Toolkit"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTXTcFImEeibjuLm5_lcNQ" name="Container"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTq1cFImEeibjuLm5_lcNQ" name="RenderingHints"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_jMsqwFImEeibjuLm5_lcNQ" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_jMuf8FImEeibjuLm5_lcNQ" name="logging">
+          <packagedElement xmi:type="uml:Class" xmi:id="_jTJ4FFImEeibjuLm5_lcNQ" name="Logger"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_jTSa8VImEeibjuLm5_lcNQ" name="Level"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_jNEeMVImEeibjuLm5_lcNQ" name="regex">
+          <packagedElement xmi:type="uml:Class" xmi:id="_jTnyIVImEeibjuLm5_lcNQ" name="Pattern"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_jNEeMFImEeibjuLm5_lcNQ" name="text">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_jTnLEVImEeibjuLm5_lcNQ" name="AttributedCharacterIterator"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jTnLE1ImEeibjuLm5_lcNQ" name="AttributedString"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_jUCB0FImEeibjuLm5_lcNQ" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_jUCB0VImEeibjuLm5_lcNQ" name="Class"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jUJ9oFImEeibjuLm5_lcNQ" name="Object"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_i7XDIFImEeibjuLm5_lcNQ">
+      <eAnnotations xmi:id="_i7XDIVImEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_i7XDIlImEeibjuLm5_lcNQ" base_Package="_hy93sFImEeibjuLm5_lcNQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Generics xmi:id="_jNfU8VImEeibjuLm5_lcNQ" genericsValue="T" base_Element="_jNfU8FImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jNkNcFImEeibjuLm5_lcNQ" base_Element="_jNjmYVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jNkNcVImEeibjuLm5_lcNQ" base_Element="_jNjmYVImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jNkNclImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jNlbkFImEeibjuLm5_lcNQ" base_Element="_jNk0gVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jNlbkVImEeibjuLm5_lcNQ" base_Element="_jNk0gVImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jNlbklImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jNn31FImEeibjuLm5_lcNQ" base_Element="_jNn301ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jNn31VImEeibjuLm5_lcNQ" base_Element="_jNn301ImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jNn31lImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jNoe4lImEeibjuLm5_lcNQ" base_Element="_jNoe4FImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jNoe41ImEeibjuLm5_lcNQ" base_Element="_jNoe4FImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jNoe5FImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jNoe51ImEeibjuLm5_lcNQ" base_Element="_jNoe5VImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jNpF8FImEeibjuLm5_lcNQ" base_Element="_jNoe5VImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jNpF8VImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jNulgFImEeibjuLm5_lcNQ" base_Element="_jNt-cFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jNvMkVImEeibjuLm5_lcNQ" base_Element="_jNvMkFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jNvzoFImEeibjuLm5_lcNQ" base_Element="_jNvMkFImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jNvzoVImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jNy281ImEeibjuLm5_lcNQ" base_Element="_jNy28FImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTBVMFImEeibjuLm5_lcNQ" base_Element="_jS-R4FImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTB8QVImEeibjuLm5_lcNQ" base_Element="_jTB8QFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTB8Q1ImEeibjuLm5_lcNQ" base_Element="_jTB8QlImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTCjUFImEeibjuLm5_lcNQ" base_Element="_jTB8RFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTCjUlImEeibjuLm5_lcNQ" base_Element="_jTCjUVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jTDxcFImEeibjuLm5_lcNQ" base_Element="_jTCjU1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jTDxcVImEeibjuLm5_lcNQ" base_Element="_jTCjU1ImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jTDxclImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_jTEYgVImEeibjuLm5_lcNQ" base_Element="_jTEYgFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTEYg1ImEeibjuLm5_lcNQ" base_Element="_jTEYglImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTE_kFImEeibjuLm5_lcNQ" base_Element="_jTEYhFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTE_klImEeibjuLm5_lcNQ" base_Element="_jTE_kVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTE_lFImEeibjuLm5_lcNQ" base_Element="_jTE_k1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTFmoFImEeibjuLm5_lcNQ" base_Element="_jTE_lVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTFmolImEeibjuLm5_lcNQ" base_Element="_jTFmoVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTGNsFImEeibjuLm5_lcNQ" base_Element="_jTFmo1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTGNslImEeibjuLm5_lcNQ" base_Element="_jTGNsVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTGNtFImEeibjuLm5_lcNQ" base_Element="_jTGNs1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTIC4VImEeibjuLm5_lcNQ" base_Element="_jTIC4FImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTIp8VImEeibjuLm5_lcNQ" base_Element="_jTIp8FImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTIp81ImEeibjuLm5_lcNQ" base_Element="_jTIp8lImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTJRAFImEeibjuLm5_lcNQ" base_Element="_jTIp9FImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTJ4EVImEeibjuLm5_lcNQ" base_Element="_jTJ4EFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTJ4E1ImEeibjuLm5_lcNQ" base_Element="_jTJ4ElImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTKfIFImEeibjuLm5_lcNQ" base_Element="_jTJ4FFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTKfIlImEeibjuLm5_lcNQ" base_Element="_jTKfIVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTKfJFImEeibjuLm5_lcNQ" base_Element="_jTKfI1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTLGMFImEeibjuLm5_lcNQ" base_Element="_jTKfJVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTLGMlImEeibjuLm5_lcNQ" base_Element="_jTLGMVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTLGNFImEeibjuLm5_lcNQ" base_Element="_jTLGM1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTLtQVImEeibjuLm5_lcNQ" base_Element="_jTLtQFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTOJgFImEeibjuLm5_lcNQ" base_Element="_jTNicFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTOJglImEeibjuLm5_lcNQ" base_Element="_jTOJgVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTOwkFImEeibjuLm5_lcNQ" base_Element="_jTOJg1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTPXoFImEeibjuLm5_lcNQ" base_Element="_jTOwkVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTQlwFImEeibjuLm5_lcNQ" base_Element="_jTP-sFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTRM0VImEeibjuLm5_lcNQ" base_Element="_jTRM0FImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTRz4FImEeibjuLm5_lcNQ" base_Element="_jTRM0lImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTRz4lImEeibjuLm5_lcNQ" base_Element="_jTRz4VImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTSa8FImEeibjuLm5_lcNQ" base_Element="_jTRz41ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTSa8lImEeibjuLm5_lcNQ" base_Element="_jTSa8VImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTSa9FImEeibjuLm5_lcNQ" base_Element="_jTSa81ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTTCAFImEeibjuLm5_lcNQ" base_Element="_jTSa9VImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTTCAlImEeibjuLm5_lcNQ" base_Element="_jTTCAVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTTCBFImEeibjuLm5_lcNQ" base_Element="_jTTCA1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTTpEFImEeibjuLm5_lcNQ" base_Element="_jTTCBVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTTpElImEeibjuLm5_lcNQ" base_Element="_jTTpEVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTTpFFImEeibjuLm5_lcNQ" base_Element="_jTTpE1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTUQIVImEeibjuLm5_lcNQ" base_Element="_jTUQIFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTVeQVImEeibjuLm5_lcNQ" base_Element="_jTVeQFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jTWFUVImEeibjuLm5_lcNQ" base_Element="_jTVeQlImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jTWFUlImEeibjuLm5_lcNQ" base_Element="_jTVeQlImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jTWFU1ImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_jTWsYVImEeibjuLm5_lcNQ" base_Element="_jTWsYFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTXTcVImEeibjuLm5_lcNQ" base_Element="_jTXTcFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTX6gVImEeibjuLm5_lcNQ" base_Element="_jTX6gFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTX6g1ImEeibjuLm5_lcNQ" base_Element="_jTX6glImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTYhkFImEeibjuLm5_lcNQ" base_Element="_jTX6hFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTYhklImEeibjuLm5_lcNQ" base_Element="_jTYhkVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTZIoFImEeibjuLm5_lcNQ" base_Element="_jTYhk1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTZIolImEeibjuLm5_lcNQ" base_Element="_jTZIoVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTZIpFImEeibjuLm5_lcNQ" base_Element="_jTZIo1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTZvsFImEeibjuLm5_lcNQ" base_Element="_jTZIpVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTZvslImEeibjuLm5_lcNQ" base_Element="_jTZvsVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTZvtFImEeibjuLm5_lcNQ" base_Element="_jTZvs1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jTcL81ImEeibjuLm5_lcNQ" base_Element="_jTcL8FImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jTcL9FImEeibjuLm5_lcNQ" base_Element="_jTcL8FImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jTcL9VImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_jTdaEFImEeibjuLm5_lcNQ" base_Element="_jTczAFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jTdaFFImEeibjuLm5_lcNQ" base_Element="_jTdaEVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jTdaFVImEeibjuLm5_lcNQ" base_Element="_jTdaEVImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jTdaFlImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_jTeoMFImEeibjuLm5_lcNQ" base_Element="_jTeBIFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTfPQFImEeibjuLm5_lcNQ" base_Element="_jTeoMVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTgdYVImEeibjuLm5_lcNQ" base_Element="_jTgdYFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jThEcFImEeibjuLm5_lcNQ" base_Element="_jTgdYlImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jThEclImEeibjuLm5_lcNQ" base_Element="_jThEcVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTi5oFImEeibjuLm5_lcNQ" base_Element="_jTiSkFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTjgsVImEeibjuLm5_lcNQ" base_Element="_jTjgsFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jTkHwlImEeibjuLm5_lcNQ" base_Element="_jTkHwFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jTkHw1ImEeibjuLm5_lcNQ" base_Element="_jTkHwFImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jTkHxFImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_jTku0VImEeibjuLm5_lcNQ" base_Element="_jTku0FImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jTlV4lImEeibjuLm5_lcNQ" base_Element="_jTlV4FImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jTlV41ImEeibjuLm5_lcNQ" base_Element="_jTlV4FImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jTlV5FImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_jTmkAVImEeibjuLm5_lcNQ" base_Element="_jTmkAFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTmkA1ImEeibjuLm5_lcNQ" base_Element="_jTmkAlImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTnLEFImEeibjuLm5_lcNQ" base_Element="_jTmkBFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTnLElImEeibjuLm5_lcNQ" base_Element="_jTnLEVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTnyIFImEeibjuLm5_lcNQ" base_Element="_jTnLE1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTnyIlImEeibjuLm5_lcNQ" base_Element="_jTnyIVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jTnyJFImEeibjuLm5_lcNQ" base_Element="_jTnyI1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jToZMFImEeibjuLm5_lcNQ" base_Element="_jTnyJVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jTqOYlImEeibjuLm5_lcNQ" base_Element="_jTpnUFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jTqOY1ImEeibjuLm5_lcNQ" base_Element="_jTpnUFImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jTqOZFImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_jTq1cVImEeibjuLm5_lcNQ" base_Element="_jTq1cFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jTwVAFImEeibjuLm5_lcNQ" base_Element="_jTvt8FImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jTwVAVImEeibjuLm5_lcNQ" base_Element="_jTvt8VImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jTwVAlImEeibjuLm5_lcNQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_jTwVA1ImEeibjuLm5_lcNQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jU0E8VImEeibjuLm5_lcNQ" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jTw8E1ImEeibjuLm5_lcNQ" base_Element="_jTw8EFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jTw8FFImEeibjuLm5_lcNQ" base_Element="_jTw8EVImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jTw8FVImEeibjuLm5_lcNQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_jTw8FlImEeibjuLm5_lcNQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jU0E81ImEeibjuLm5_lcNQ" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jTxjIlImEeibjuLm5_lcNQ" base_Element="_jTxjIFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jTxjI1ImEeibjuLm5_lcNQ" base_Element="_jTxjIFImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jTxjJFImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jTyKMlImEeibjuLm5_lcNQ" base_Element="_jTxjJVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jTyKM1ImEeibjuLm5_lcNQ" base_Element="_jTxjJVImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jTyKNFImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jTyxQFImEeibjuLm5_lcNQ" base_Element="_jTyKNVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jTyxQVImEeibjuLm5_lcNQ" base_Element="_jTyKNVImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jTyxQlImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jTzYU1ImEeibjuLm5_lcNQ" base_Element="_jTzYUFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jTzYVFImEeibjuLm5_lcNQ" base_Element="_jTzYUVImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jTzYVVImEeibjuLm5_lcNQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_jTzYVlImEeibjuLm5_lcNQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jU0sAVImEeibjuLm5_lcNQ" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jTz_YVImEeibjuLm5_lcNQ" base_Element="_jTzYV1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jTz_YlImEeibjuLm5_lcNQ" base_Element="_jTzYV1ImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jTz_Y1ImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jT0mcFImEeibjuLm5_lcNQ" base_Element="_jTz_ZFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jT0mcVImEeibjuLm5_lcNQ" base_Element="_jTz_ZFImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jT0mclImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_jT1NgFImEeibjuLm5_lcNQ" genericsValue="T" base_Element="_jT0mdFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jT10kVImEeibjuLm5_lcNQ" base_Element="_jT10kFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jT2boFImEeibjuLm5_lcNQ" base_Element="_jT10klImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Generics xmi:id="_jT2boVImEeibjuLm5_lcNQ" genericsValue="? extends T" base_Element="_jT10k1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jT2bolImEeibjuLm5_lcNQ" base_Element="_jT10klImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jT2bo1ImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jT3pxFImEeibjuLm5_lcNQ" base_Element="_jT3pwlImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jT3pxVImEeibjuLm5_lcNQ" base_Element="_jT3pwlImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jT3pxlImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jT4341ImEeibjuLm5_lcNQ" base_Element="_jT434FImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jT435FImEeibjuLm5_lcNQ" base_Element="_jT434VImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jT435VImEeibjuLm5_lcNQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_jT435lImEeibjuLm5_lcNQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jU0sCFImEeibjuLm5_lcNQ" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jT5e8FImEeibjuLm5_lcNQ" base_Element="_jT4351ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jT6GAFImEeibjuLm5_lcNQ" base_Element="_jT4351ImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jT6GAVImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jT77M1ImEeibjuLm5_lcNQ" base_Element="_jT77MFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jT77NFImEeibjuLm5_lcNQ" base_Element="_jT77MVImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jT77NVImEeibjuLm5_lcNQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_jT77NlImEeibjuLm5_lcNQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jU0sC1ImEeibjuLm5_lcNQ" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jT9JUVImEeibjuLm5_lcNQ" base_Element="_jT8iQFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jT9JUlImEeibjuLm5_lcNQ" base_Element="_jT8iQFImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jT9JU1ImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jT9wY1ImEeibjuLm5_lcNQ" base_Element="_jT9wYFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jT9wZFImEeibjuLm5_lcNQ" base_Element="_jT9wYFImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jT9wZVImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jT--gFImEeibjuLm5_lcNQ" base_Element="_jT-XcFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jT_lkFImEeibjuLm5_lcNQ" base_Element="_jT-XcVImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jT_lkVImEeibjuLm5_lcNQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_jT_lklImEeibjuLm5_lcNQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jU0sDVImEeibjuLm5_lcNQ" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUAMoFImEeibjuLm5_lcNQ" base_Element="_jT_lk1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUAMoVImEeibjuLm5_lcNQ" base_Element="_jT_lk1ImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUAMolImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUAzs1ImEeibjuLm5_lcNQ" base_Element="_jUAzsFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUBawFImEeibjuLm5_lcNQ" base_Element="_jUAzsFImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUBawVImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_jUCo4FImEeibjuLm5_lcNQ" base_Element="_jUCB0VImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUFFI1ImEeibjuLm5_lcNQ" base_Element="_jUFFIFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUFsMFImEeibjuLm5_lcNQ" base_Element="_jUFFIVImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUFsMVImEeibjuLm5_lcNQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_jUFsMlImEeibjuLm5_lcNQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jU1TEVImEeibjuLm5_lcNQ" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUGTQ1ImEeibjuLm5_lcNQ" base_Element="_jUGTQFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUG6UFImEeibjuLm5_lcNQ" base_Element="_jUGTQVImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUG6UVImEeibjuLm5_lcNQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_jUG6UlImEeibjuLm5_lcNQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jU1TE1ImEeibjuLm5_lcNQ" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUG6VVImEeibjuLm5_lcNQ" base_Element="_jUG6U1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUG6VlImEeibjuLm5_lcNQ" base_Element="_jUG6U1ImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUHhYFImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUHhZFImEeibjuLm5_lcNQ" base_Element="_jUHhYVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUIvgFImEeibjuLm5_lcNQ" base_Element="_jUHhYVImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUIvgVImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUJWklImEeibjuLm5_lcNQ" base_Element="_jUIvg1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUJWk1ImEeibjuLm5_lcNQ" base_Element="_jUJWkFImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUJWlFImEeibjuLm5_lcNQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_jUJWlVImEeibjuLm5_lcNQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jU1TGVImEeibjuLm5_lcNQ" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_jUKksFImEeibjuLm5_lcNQ" base_Element="_jUJ9oFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jULy0lImEeibjuLm5_lcNQ" base_Element="_jULLwlImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Array xmi:id="_jULy1FImEeibjuLm5_lcNQ" base_Element="_jULy0FImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUMZ4FImEeibjuLm5_lcNQ" base_Element="_jULLwlImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUMZ4VImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUMZ5FImEeibjuLm5_lcNQ" base_Element="_jUMZ4lImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUNA8FImEeibjuLm5_lcNQ" base_Element="_jUMZ4lImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUNA8VImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUNoAFImEeibjuLm5_lcNQ" base_Element="_jUNA8lImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUNoAVImEeibjuLm5_lcNQ" base_Element="_jUNA8lImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUNoAlImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUO2IlImEeibjuLm5_lcNQ" base_Element="_jUOPEFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUO2I1ImEeibjuLm5_lcNQ" base_Element="_jUO2IFImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUO2JFImEeibjuLm5_lcNQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_jUO2JVImEeibjuLm5_lcNQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jU16I1ImEeibjuLm5_lcNQ" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUQEQ1ImEeibjuLm5_lcNQ" base_Element="_jUQEQFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUQERFImEeibjuLm5_lcNQ" base_Element="_jUQEQVImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUQERVImEeibjuLm5_lcNQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_jUQERlImEeibjuLm5_lcNQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jU16JVImEeibjuLm5_lcNQ" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUQrU1ImEeibjuLm5_lcNQ" base_Element="_jUQrUFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUQrVFImEeibjuLm5_lcNQ" base_Element="_jUQrUVImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUQrVVImEeibjuLm5_lcNQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_jURSYFImEeibjuLm5_lcNQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jU16J1ImEeibjuLm5_lcNQ" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jURSY1ImEeibjuLm5_lcNQ" base_Element="_jURSYVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jURSZFImEeibjuLm5_lcNQ" base_Element="_jURSYVImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jURSZVImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUR5cFImEeibjuLm5_lcNQ" base_Element="_jURSZlImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUR5cVImEeibjuLm5_lcNQ" base_Element="_jURSZlImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUR5clImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUSgg1ImEeibjuLm5_lcNQ" base_Element="_jUSggFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUSghFImEeibjuLm5_lcNQ" base_Element="_jUSggVImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUSghVImEeibjuLm5_lcNQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_jUSghlImEeibjuLm5_lcNQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jU16KVImEeibjuLm5_lcNQ" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUSgiVImEeibjuLm5_lcNQ" base_Element="_jUSgh1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUSgilImEeibjuLm5_lcNQ" base_Element="_jUSgh1ImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUSgi1ImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUUVslImEeibjuLm5_lcNQ" base_Element="_jUSgjFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUUVs1ImEeibjuLm5_lcNQ" base_Element="_jUSgjFImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUUVtFImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUU8w1ImEeibjuLm5_lcNQ" base_Element="_jUU8wFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUVj0FImEeibjuLm5_lcNQ" base_Element="_jUU8wVImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUVj0VImEeibjuLm5_lcNQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_jUVj0lImEeibjuLm5_lcNQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jU16K1ImEeibjuLm5_lcNQ" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUWK4lImEeibjuLm5_lcNQ" base_Element="_jUVj01ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUWK41ImEeibjuLm5_lcNQ" base_Element="_jUVj01ImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUWK5FImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUXZAFImEeibjuLm5_lcNQ" base_Element="_jUWx8FImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUXZAVImEeibjuLm5_lcNQ" base_Element="_jUWx8VImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUXZAlImEeibjuLm5_lcNQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_jUXZA1ImEeibjuLm5_lcNQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jU16LVImEeibjuLm5_lcNQ" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUYAEFImEeibjuLm5_lcNQ" base_Element="_jUXZBFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUYAEVImEeibjuLm5_lcNQ" base_Element="_jUXZBFImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUYAElImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUYAFlImEeibjuLm5_lcNQ" base_Element="_jUYAE1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUYnIFImEeibjuLm5_lcNQ" base_Element="_jUYAE1ImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUYnIVImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUZOM1ImEeibjuLm5_lcNQ" base_Element="_jUZOMFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUZONFImEeibjuLm5_lcNQ" base_Element="_jUZOMVImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUZONVImEeibjuLm5_lcNQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_jUZONlImEeibjuLm5_lcNQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jU16L1ImEeibjuLm5_lcNQ" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUZ1QlImEeibjuLm5_lcNQ" base_Element="_jUZ1QFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUZ1Q1ImEeibjuLm5_lcNQ" base_Element="_jUZ1QFImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUZ1RFImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUbDYlImEeibjuLm5_lcNQ" base_Element="_jUacUFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUbDY1ImEeibjuLm5_lcNQ" base_Element="_jUacUFImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUbDZFImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUcRhVImEeibjuLm5_lcNQ" base_Element="_jUcRg1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUc4kFImEeibjuLm5_lcNQ" base_Element="_jUcRg1ImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUc4kVImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUeGslImEeibjuLm5_lcNQ" base_Element="_jUeGsFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUeGs1ImEeibjuLm5_lcNQ" base_Element="_jUeGsFImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUeGtFImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUfU01ImEeibjuLm5_lcNQ" base_Element="_jUfU0FImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUfU1FImEeibjuLm5_lcNQ" base_Element="_jUfU0VImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUfU1VImEeibjuLm5_lcNQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_jUf74FImEeibjuLm5_lcNQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jU2hMlImEeibjuLm5_lcNQ" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUf75FImEeibjuLm5_lcNQ" base_Element="_jUf74VImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUgi8FImEeibjuLm5_lcNQ" base_Element="_jUf74VImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUgi8VImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUhKAFImEeibjuLm5_lcNQ" base_Element="_jUgi8lImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUhKAVImEeibjuLm5_lcNQ" base_Element="_jUgi8lImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUhKAlImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUhxEFImEeibjuLm5_lcNQ" base_Element="_jUhKA1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUhxEVImEeibjuLm5_lcNQ" base_Element="_jUhKA1ImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUhxElImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUiYIFImEeibjuLm5_lcNQ" base_Element="_jUhxE1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUiYIVImEeibjuLm5_lcNQ" base_Element="_jUhxE1ImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUiYIlImEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUjmQ1ImEeibjuLm5_lcNQ" base_Element="_jUjmQFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_jUjmRFImEeibjuLm5_lcNQ" base_Element="_jUjmQVImEeibjuLm5_lcNQ">
+    <annotations xmi:id="_jUjmRVImEeibjuLm5_lcNQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_jUjmRlImEeibjuLm5_lcNQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_jU2hNFImEeibjuLm5_lcNQ" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUmplFImEeibjuLm5_lcNQ" base_Element="_jUmpklImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUnQoFImEeibjuLm5_lcNQ" base_Element="_jUmplVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUnQolImEeibjuLm5_lcNQ" base_Element="_jUnQoVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUnQpVImEeibjuLm5_lcNQ" base_Element="_jUnQo1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Array xmi:id="_jUoewFImEeibjuLm5_lcNQ" base_Element="_jUn3slImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUoewlImEeibjuLm5_lcNQ" base_Element="_jUn3slImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_jUpF01ImEeibjuLm5_lcNQ" base_Property="_jUpF0VImEeibjuLm5_lcNQ" siblings="_jU1TFVImEeibjuLm5_lcNQ" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUpF1FImEeibjuLm5_lcNQ" base_Element="_jUpF0VImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Array xmi:id="_jUpF11ImEeibjuLm5_lcNQ" base_Element="_jUpF1VImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUps4FImEeibjuLm5_lcNQ" base_Element="_jUpF1VImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUqT9FImEeibjuLm5_lcNQ" base_Element="_jUqT81ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUq7AVImEeibjuLm5_lcNQ" base_Element="_jUq7AFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jUriE1ImEeibjuLm5_lcNQ" base_Element="_jUriEVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_jU1TFlImEeibjuLm5_lcNQ" base_Property="_jU1TFVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jU1TF1ImEeibjuLm5_lcNQ" base_Element="_jU1TFVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jU8AwFImEeibjuLm5_lcNQ" base_Element="_jU7ZsFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jU8n0FImEeibjuLm5_lcNQ" base_Element="_jU8AwVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jU9O4FImEeibjuLm5_lcNQ" base_Element="_jU8n0VImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jU9O41ImEeibjuLm5_lcNQ" base_Element="_jU9O4VImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jU918FImEeibjuLm5_lcNQ" base_Element="_jU9O5FImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jU-dAFImEeibjuLm5_lcNQ" base_Element="_jU918VImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jU_EEFImEeibjuLm5_lcNQ" base_Element="_jU-dAVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jU_rIFImEeibjuLm5_lcNQ" base_Element="_jU_EEVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jU_rI1ImEeibjuLm5_lcNQ" base_Element="_jU_rIVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jVASMFImEeibjuLm5_lcNQ" base_Element="_jU_rJFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jVASM1ImEeibjuLm5_lcNQ" base_Element="_jVASMVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jVA5QFImEeibjuLm5_lcNQ" base_Element="_jVASNFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jVBgUFImEeibjuLm5_lcNQ" base_Element="_jVA5QVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jVCHYFImEeibjuLm5_lcNQ" base_Element="_jVBgUVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jVCHY1ImEeibjuLm5_lcNQ" base_Element="_jVCHYVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jVCHZlImEeibjuLm5_lcNQ" base_Element="_jVCHZFImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jVCucFImEeibjuLm5_lcNQ" base_Element="_jVCHZ1ImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jVDVgFImEeibjuLm5_lcNQ" base_Element="_jVCucVImEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_jVDVg1ImEeibjuLm5_lcNQ" base_Element="_jVDVgVImEeibjuLm5_lcNQ"/>
+</xmi:XMI>

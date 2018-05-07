@@ -1,0 +1,1586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_stBN0FJPEeiyW7NaN4qWdw" name="serverAIGoal">
+    <eAnnotations xmi:id="_tomFQFJPEeiyW7NaN4qWdw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_tomFQVJPEeiyW7NaN4qWdw" source="codegen">
+        <details xmi:id="_tomFQlJPEeiyW7NaN4qWdw" key="codegenDirectory" value="/COSC442-FinalProject/src"/>
+        <details xmi:id="_uZA1kFJPEeiyW7NaN4qWdw" key="AssociatedSourceCode" value="/COSC442-FinalProject/src/net/sf/freecol/server/ai/goal/GoalConstants.java;101664126/1;/COSC442-FinalProject/src/net/sf/freecol/server/ai/goal/Goal.java;4243778150/1;/COSC442-FinalProject/src/net/sf/freecol/server/ai/goal/CreateMissionAtSettlementGoal.java;3815234073/1;/COSC442-FinalProject/src/net/sf/freecol/server/ai/goal/GotoAdjacentGoal.java;1305374468/1;/COSC442-FinalProject/src/net/sf/freecol/server/ai/goal/ManageMissionariesGoal.java;2736334508/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_t9Si4FJPEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_t9Si4VJPEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_t9Si4lJPEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_t9Si41JPEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_t9Si5FJPEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_t9Si5VJPEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_t9Si5lJPEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_t9Si51JPEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_t9TxAFJPEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_t85hUFJPEeiyW7NaN4qWdw" name="net">
+      <packagedElement xmi:type="uml:Package" xmi:id="_t86IYFJPEeiyW7NaN4qWdw" name="sf">
+        <packagedElement xmi:type="uml:Package" xmi:id="_t86IYVJPEeiyW7NaN4qWdw" name="freecol">
+          <packagedElement xmi:type="uml:Package" xmi:id="_t86IYlJPEeiyW7NaN4qWdw" name="server">
+            <packagedElement xmi:type="uml:Package" xmi:id="_t86IY1JPEeiyW7NaN4qWdw" name="ai">
+              <packagedElement xmi:type="uml:Package" xmi:id="_t86IZFJPEeiyW7NaN4qWdw" name="goal">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_t9R70FJPEeiyW7NaN4qWdw" name="GoalConstants">
+                  <ownedComment xmi:id="_uB6kNVJPEeiyW7NaN4qWdw">
+                    <body>Contains constants used by the Goal classes.&#xD;
+* These constants are affecting AI behaviour.</body>
+                  </ownedComment>
+                  <ownedAttribute xmi:id="_t9R70VJPEeiyW7NaN4qWdw" name="MAX_SEARCH_RADIUS" isLeaf="true" isStatic="true" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_t9Si6FJPEeiyW7NaN4qWdw" value="8"/>
+                  </ownedAttribute>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_t9TJ8FJPEeiyW7NaN4qWdw" name="Goal" isAbstract="true">
+                  <ownedComment xmi:id="_uB7LQFJPEeiyW7NaN4qWdw">
+                    <body>A Goal is used to encapsulate a specific part of the&#xD;
+decision-making process of an AI.&#xD;
+&lt;/p>&lt;p>&#xD;
+Using a top-down approach, every {@link AIPlayer} has a set of Goals which,&#xD;
+in turn, may have further subgoals. In combination, this tree of goals&#xD;
+and subgoals reflects the current strategy of the AIPlayer.&#xD;
+&lt;/p>&lt;p>&#xD;
+Units (each one wrapped in an {@link AIUnit} object) will be moved between&#xD;
+existing Goal objects.&#xD;
+FIXME: Turn {@link AIUnit} into a simple wrapper for individual units.&#xD;
+&lt;/p>&lt;p>&#xD;
+Specific AI goals are created by extending this class; some of&#xD;
+these could also be used to assist the human player (i.e. GoTo,&#xD;
+Scouting, Trade, Piracy).</body>
+                  </ownedComment>
+                  <generalization xmi:id="_uBl0FlJPEeiyW7NaN4qWdw" general="_uBRD81JPEeiyW7NaN4qWdw"/>
+                  <ownedAttribute xmi:id="_uBwzMFJPEeiyW7NaN4qWdw" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_uBP10VJPEeiyW7NaN4qWdw" isReadOnly="true" association="_uB9ngFJPEeiyW7NaN4qWdw">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_uBxaQFJPEeiyW7NaN4qWdw" value="Logger.getLogger(Goal.class.getName())"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_uBxaQVJPEeiyW7NaN4qWdw" name="relativeWeight" visibility="private">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_uBxaQ1JPEeiyW7NaN4qWdw" name="needsPlanning" visibility="protected">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_uByBUFJPEeiyW7NaN4qWdw" name="isFinished" visibility="protected">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_uByBUlJPEeiyW7NaN4qWdw" name="availableUnitsList" visibility="protected" isLeaf="true" type="_uBSSEVJPEeiyW7NaN4qWdw" isOrdered="true" isReadOnly="true" association="_uB-OkVJPEeiyW7NaN4qWdw">
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uByBU1JPEeiyW7NaN4qWdw" value="*"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_uByoYVJPEeiyW7NaN4qWdw" name="player" visibility="protected" isLeaf="true" type="_uBRrAVJPEeiyW7NaN4qWdw" isReadOnly="true" association="_uB-1oVJPEeiyW7NaN4qWdw"/>
+                  <ownedAttribute xmi:id="_uByoY1JPEeiyW7NaN4qWdw" name="parentGoal" visibility="private" isLeaf="true" type="_t9TJ8FJPEeiyW7NaN4qWdw" isReadOnly="true" association="_uCB48VJPEeiyW7NaN4qWdw"/>
+                  <interfaceRealization xmi:id="_uBSSE1JPEeiyW7NaN4qWdw" client="_t9TJ8FJPEeiyW7NaN4qWdw" supplier="_t9R70FJPEeiyW7NaN4qWdw" contract="_t9R70FJPEeiyW7NaN4qWdw"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB2SwFJPEeiyW7NaN4qWdw" name="Goal" specification="_uBiwwFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB2SwVJPEeiyW7NaN4qWdw" name="p" type="_uBRrAVJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uB2SwlJPEeiyW7NaN4qWdw" name="g" type="_t9TJ8FJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uB2Sw1JPEeiyW7NaN4qWdw" name="w">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_uB2SxFJPEeiyW7NaN4qWdw" type="_t9TJ8FJPEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>super(p.getAIMain());&#xD;
+     player = p;&#xD;
+     parentGoal = g;&#xD;
+     relativeWeight = w;&#xD;
+     getGame().getTurn().getNumber();&#xD;
+     needsPlanning = true; //a newly created Goal always needs planning&#xD;
+     isFinished = false; //only plan() should set this to true!&#xD;
+     availableUnitsList = new ArrayList&lt;>();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB2SxVJPEeiyW7NaN4qWdw" name="Goal" specification="_uBjX01JPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB2SxlJPEeiyW7NaN4qWdw" name="p" type="_uBRrAVJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uB2Sx1JPEeiyW7NaN4qWdw" name="g" type="_t9TJ8FJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uB2SyFJPEeiyW7NaN4qWdw" name="w">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_uB2SyVJPEeiyW7NaN4qWdw" name="u" type="_uBSSEVJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uB2SylJPEeiyW7NaN4qWdw" type="_t9TJ8FJPEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>this(p,g,w);&#xD;
+     addUnit(u);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB2Sy1JPEeiyW7NaN4qWdw" name="isFinished" specification="_t9UYEFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB2SzFJPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return isFinished;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB250FJPEeiyW7NaN4qWdw" name="cancelGoal" specification="_t9U_IVJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB250VJPEeiyW7NaN4qWdw" type="_uBSSEVJPEeiyW7NaN4qWdw" isOrdered="true" direction="return">
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uB250lJPEeiyW7NaN4qWdw" value="*"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>logger.finest(&quot;Entering method cancelGoal() for &quot;+getDebugDescription());&#xD;
+     List&lt;AIUnit> cancelledUnitsList = new ArrayList&lt;>();&#xD;
+&#xD;
+     //get units from subgoals&#xD;
+     Iterator&lt;Goal> git = getSubGoalIterator();&#xD;
+     while (git!=null &amp;&amp; git.hasNext()) {&#xD;
+         Goal g = git.next();&#xD;
+         List&lt;AIUnit> ulist = g.cancelGoal();&#xD;
+         cancelledUnitsList.addAll(ulist);&#xD;
+     }&#xD;
+&#xD;
+     //get own units&#xD;
+     Iterator&lt;AIUnit> uit = getOwnedAIUnitsIterator();&#xD;
+     while (uit.hasNext()) {&#xD;
+         AIUnit u = uit.next();&#xD;
+         cancelledUnitsList.add(u);&#xD;
+     }&#xD;
+     logger.info(&quot;Got &quot;+cancelledUnitsList.size()+&quot; units from cancelled subgoals&quot;);&#xD;
+     return cancelledUnitsList;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB2501JPEeiyW7NaN4qWdw" name="doPlanning" specification="_t9U_JFJPEeiyW7NaN4qWdw">
+                    <language>java</language>
+                    <body>logger.finest(&quot;Entering method doPlanning() for &quot;+getDebugDescription());&#xD;
+     boolean subgoalsPlanned = false;&#xD;
+&#xD;
+     normalizeSubGoalWeights();&#xD;
+&#xD;
+     Iterator&lt;Goal> git = getSubGoalIterator();&#xD;
+     while (git!=null &amp;&amp; git.hasNext()) {&#xD;
+         Goal g = git.next();&#xD;
+         if (g.needsPlanning()) {&#xD;
+             g.doPlanning();&#xD;
+             subgoalsPlanned = true;&#xD;
+         }&#xD;
+     }&#xD;
+&#xD;
+     //after all subgoals have been planned, let's plan ourselves&#xD;
+     if (needsPlanning || subgoalsPlanned) {&#xD;
+         plan();&#xD;
+         needsPlanning = false;&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB251FJPEeiyW7NaN4qWdw" name="needsPlanning" specification="_t9VmMFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB251VJPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>logger.finest(&quot;Entering method needsPlanning() for &quot;+getDebugDescription());&#xD;
+     if (needsPlanning) {&#xD;
+         return true;&#xD;
+     } else {&#xD;
+         Iterator&lt;Goal> git = getSubGoalIterator();&#xD;
+         while (git!=null &amp;&amp; git.hasNext()) {&#xD;
+             Goal g = git.next();&#xD;
+             if (g.needsPlanning()) {&#xD;
+                 return true;&#xD;
+             }&#xD;
+         }&#xD;
+     }&#xD;
+     return false;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB251lJPEeiyW7NaN4qWdw" name="setNeedsPlanningRecursive" specification="_t9VmMlJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB2511JPEeiyW7NaN4qWdw" name="p">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>logger.finest(&quot;Entering method setNeedsPlanningRecursive() for &quot;+getDebugDescription());&#xD;
+     needsPlanning = p;&#xD;
+&#xD;
+     Iterator&lt;Goal> git = getSubGoalIterator();&#xD;
+     while (git!=null &amp;&amp; git.hasNext()) {&#xD;
+         Goal g = git.next();&#xD;
+         g.setNeedsPlanningRecursive(p);&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB252FJPEeiyW7NaN4qWdw" name="getWeight" specification="_t9VmNFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB252VJPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return relativeWeight;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB252lJPEeiyW7NaN4qWdw" name="getParentWeight" specification="_t9WNQFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB2521JPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>if (parentGoal == null) {&#xD;
+         //we must be a direct goal of our AIPlayer&#xD;
+         return 1.0f;&#xD;
+     } else {&#xD;
+         return parentGoal.getAbsoluteWeight();&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB253FJPEeiyW7NaN4qWdw" name="getAbsoluteWeight" specification="_t9WNQlJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB253VJPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return getParentWeight() * relativeWeight;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB253lJPEeiyW7NaN4qWdw" name="setWeight" specification="_t9WNRFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB2531JPEeiyW7NaN4qWdw" name="w">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>relativeWeight = w;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB3g4FJPEeiyW7NaN4qWdw" name="normalizeSubGoalWeights" specification="_t9W0UFJPEeiyW7NaN4qWdw">
+                    <language>java</language>
+                    <body>float sumWeights = 0f;&#xD;
+&#xD;
+     Iterator&lt;Goal> git = getSubGoalIterator();&#xD;
+     while (git!=null &amp;&amp; git.hasNext()) {&#xD;
+         Goal g = git.next();&#xD;
+         sumWeights += g.getWeight();&#xD;
+     }&#xD;
+&#xD;
+     //allow for a small rounding or other error margin before normalizing&#xD;
+     if (sumWeights>0f &amp;&amp; (sumWeights&lt;0.95f || sumWeights>1.05f)) {&#xD;
+         git = getSubGoalIterator();&#xD;
+         while (git!=null &amp;&amp; git.hasNext()) {&#xD;
+             Goal g = git.next();&#xD;
+             g.setWeight(g.getWeight()/sumWeights);&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB3g4VJPEeiyW7NaN4qWdw" name="requestWorker" specification="_uBj-4FJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB3g4lJPEeiyW7NaN4qWdw" name="gt" type="_uBP101JPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uB3g41JPEeiyW7NaN4qWdw" name="minProduction">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>//FIXME: Uncomment after AIPlayer.addWorkerWish() has been written.&#xD;
+     //int turnsWithoutUnit = getGame().getTurn().getNumber() - turnLastUnitAdded;&#xD;
+     //player.addWorkerWish(this, gt, minProduction, getAbsoluteWeight(), turnsWithoutUnit);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB3g5FJPEeiyW7NaN4qWdw" name="addUnit" specification="_uBj-41JPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB3g5VJPEeiyW7NaN4qWdw" name="u" type="_uBSSEVJPEeiyW7NaN4qWdw"/>
+                    <language>java</language>
+                    <body>logger.finest(&quot;Entering method addUnit() for &quot;+getDebugDescription()+&quot; with unit: &quot;+u.getId());&#xD;
+     getGame().getTurn().getNumber();&#xD;
+     availableUnitsList.add(u);&#xD;
+     u.setGoal(this);&#xD;
+     needsPlanning = true; //adding a unit to the Goal means it might need planning&#xD;
+     isFinished = false; //in case the goal was finished but not yet cancelled&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB3g5lJPEeiyW7NaN4qWdw" name="addUnitToParent" specification="_uBkl8FJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB3g51JPEeiyW7NaN4qWdw" name="u" type="_uBSSEVJPEeiyW7NaN4qWdw"/>
+                    <language>java</language>
+                    <body>logger.finest(&quot;Entering method addUnitToParent() for &quot;+getDebugDescription()+&quot; with unit: &quot;+u.getId());&#xD;
+     if (parentGoal != null) {&#xD;
+         parentGoal.addUnit(u);&#xD;
+     } else {&#xD;
+         //Setting goal=null will make the unit appear in the unit iterator next turn.&#xD;
+         //FIXME: What about this turn?&#xD;
+         u.setGoal(null);&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB3g6FJPEeiyW7NaN4qWdw" name="canYieldUnit" specification="_uBkl8lJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB3g6VJPEeiyW7NaN4qWdw" name="ut" type="_uBQc4VJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uB3g6lJPEeiyW7NaN4qWdw" name="o" type="_uBRD81JPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uB3g61JPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>Iterator&lt;AIUnit> uit = getOwnedAIUnitsIterator();&#xD;
+     while (uit.hasNext()) {&#xD;
+         AIUnit u = uit.next();&#xD;
+         //first found unit is enough&#xD;
+         if (u.getUnit().getType().equals(ut)) {&#xD;
+             return true;&#xD;
+         }&#xD;
+     }&#xD;
+     //None found among our own units, check subgoals&#xD;
+     Iterator&lt;Goal> git = getSubGoalIterator();&#xD;
+     while (git!=null &amp;&amp; git.hasNext()) {&#xD;
+         Goal g = git.next();&#xD;
+         if (g.canYieldUnit(ut, o)) {&#xD;
+             return true;&#xD;
+         }&#xD;
+     }&#xD;
+     //None found among subgoals&#xD;
+     return false;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB3g7FJPEeiyW7NaN4qWdw" name="getYieldedUnitWeight" specification="_uBlNAFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB3g7VJPEeiyW7NaN4qWdw" name="ut" type="_uBQc4VJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uB3g7lJPEeiyW7NaN4qWdw" name="o" type="_uBRD81JPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uB3g71JPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>//weights should normally be in range [0;1]&#xD;
+     //if there is a matching unit, this will be overwritten&#xD;
+     float unitWeight = 99f;&#xD;
+&#xD;
+     Iterator&lt;AIUnit> uit = getOwnedAIUnitsIterator();&#xD;
+     while (uit.hasNext()) {&#xD;
+         AIUnit u = uit.next();&#xD;
+         //all units in one goal have the same weight, so no need to compare&#xD;
+         if (u.getUnit().getType().equals(ut)) {&#xD;
+             unitWeight = getAbsoluteWeight();&#xD;
+         }&#xD;
+     }&#xD;
+     //check subgoals&#xD;
+     Iterator&lt;Goal> git = getSubGoalIterator();&#xD;
+     while (git!=null &amp;&amp; git.hasNext()) {&#xD;
+         Goal g = git.next();&#xD;
+         float newWeight = g.getYieldedUnitWeight(ut, o);&#xD;
+         if (newWeight &lt; unitWeight) {&#xD;
+             unitWeight = newWeight;&#xD;
+         }&#xD;
+     }&#xD;
+     return unitWeight;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB4H8FJPEeiyW7NaN4qWdw" name="yieldUnit" specification="_uBlNBFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB4H8VJPEeiyW7NaN4qWdw" name="ut" type="_uBQc4VJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uB4H8lJPEeiyW7NaN4qWdw" name="o" type="_uBRD81JPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uB4H81JPEeiyW7NaN4qWdw" type="_uBSSEVJPEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>float unitWeight = 99f;&#xD;
+     AIUnit yieldedUnit = null;&#xD;
+     boolean isOwnUnit = false;&#xD;
+&#xD;
+&#xD;
+     Iterator&lt;AIUnit> uit = getOwnedAIUnitsIterator();&#xD;
+     while (uit.hasNext()) {&#xD;
+         AIUnit u = uit.next();&#xD;
+         //all units in one goal have the same weight, so no need to compare&#xD;
+         if (u.getUnit().getType().equals(ut)) {&#xD;
+             unitWeight = getAbsoluteWeight();&#xD;
+             yieldedUnit = u;&#xD;
+             isOwnUnit = true;&#xD;
+         }&#xD;
+     }&#xD;
+     //check subgoals&#xD;
+     Iterator&lt;Goal> git = getSubGoalIterator();&#xD;
+     while (git!=null &amp;&amp; git.hasNext()) {&#xD;
+         Goal g = git.next();&#xD;
+         float newWeight = g.getYieldedUnitWeight(ut, o);&#xD;
+         if (newWeight &lt; unitWeight) {&#xD;
+             unitWeight = newWeight;&#xD;
+             yieldedUnit = g.yieldUnit(ut, o);&#xD;
+             isOwnUnit = false;&#xD;
+         }&#xD;
+     }&#xD;
+     if (isOwnUnit) {&#xD;
+         removeUnit(yieldedUnit);&#xD;
+         needsPlanning = true;&#xD;
+     }&#xD;
+     return yieldedUnit;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB4H9FJPEeiyW7NaN4qWdw" name="validateOwnedUnits" specification="_t9XbYFJPEeiyW7NaN4qWdw">
+                    <language>java</language>
+                    <body>Iterator&lt;AIUnit> uit = getOwnedAIUnitsIterator();&#xD;
+     while (uit.hasNext()) {&#xD;
+         AIUnit u = uit.next();&#xD;
+         if (!(u.getGoal()==this)) {&#xD;
+             logger.warning(&quot;Goal &quot;+ getGoalDescription() + &quot; owns unit with another goal: &quot;&#xD;
+                            + u.getGoal().getGoalDescription());&#xD;
+             removeUnit(u);&#xD;
+         }&#xD;
+         //FIXME: Uncomment after AIUnit.isValid() has been written.&#xD;
+         //if (!u.isValid()) {&#xD;
+         //    removeUnit(u);&#xD;
+         //}&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB4H9VJPEeiyW7NaN4qWdw" name="getGoalDescription" specification="_t9XbYVJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB4H9lJPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>String goalName = lastPart(getClass().getName(), &quot;.&quot;);&#xD;
+     return goalName.substring(0, goalName.length() - &quot;goal&quot;.length());&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB4H91JPEeiyW7NaN4qWdw" name="getDebugDescription" specification="_t9YCcFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB4H-FJPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>String descr = &quot;&quot;;&#xD;
+&#xD;
+     //if goal has parent goal, add that as well&#xD;
+     //no recursive call, to avoid lengthy descriptions&#xD;
+     if (parentGoal!=null) {&#xD;
+         descr = parentGoal.getGoalDescription() + &quot;>>&quot;;&#xD;
+     }&#xD;
+     return descr + getGoalDescription();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB4H-VJPEeiyW7NaN4qWdw" name="getXMLElementTagName" specification="_t9YCclJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB4H-lJPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return &quot;aiGoal&quot;;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_t9UYEFJPEeiyW7NaN4qWdw" name="isFinished" method="_uB2Sy1JPEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_uB7LQ1JPEeiyW7NaN4qWdw">
+                      <body>Determines whether this goal is finished.&#xD;
+     * If it is, this means it can be cancelled by its parent.&#xD;
+     *&#xD;
+     * @return true, if the goal is finished, false otherwise</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_t9U_IFJPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9U_IVJPEeiyW7NaN4qWdw" name="cancelGoal" method="_uB250FJPEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_uB7LRFJPEeiyW7NaN4qWdw">
+                      <body>Cancels a goal and all of its subgoals.&#xD;
+     * If a goal is cancelled, it will recursively cancelGoal() its subgoals first,&#xD;
+     * and return all units to the object calling this.&#xD;
+     * After this method has been called, it should be safe for the parent&#xD;
+     * to remove this goal from its list of subgoals.&#xD;
+     * &lt;/p>&lt;p>&#xD;
+     * NOTE: Preferably, only the direct parent should call this.&#xD;
+     *&#xD;
+     * @return A list of all {@link AIUnit} being freed up by this action</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_t9U_IlJPEeiyW7NaN4qWdw" type="_uBSSEVJPEeiyW7NaN4qWdw" isOrdered="true" direction="return">
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t9U_I1JPEeiyW7NaN4qWdw" value="*"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9U_JFJPEeiyW7NaN4qWdw" name="doPlanning" method="_uB2501JPEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_uB7LRVJPEeiyW7NaN4qWdw">
+                      <body>Recursively calls {@link #doPlanning} in subgoals that {@link #needsPlanning()},&#xD;
+     * then calls its own planning method.</body>
+                    </ownedComment>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9VmMFJPEeiyW7NaN4qWdw" name="needsPlanning" method="_uB251FJPEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_uB7LRlJPEeiyW7NaN4qWdw">
+                      <body>Determines whether this or a subgoal {@link #needsPlanning}.&#xD;
+     *&#xD;
+     * @return true if this Goal or at least one subgoal needs planning, false otherwise</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_t9VmMVJPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9VmMlJPEeiyW7NaN4qWdw" name="setNeedsPlanningRecursive" method="_uB251lJPEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_uB7LR1JPEeiyW7NaN4qWdw">
+                      <body>Sets the {@link #needsPlanning} status of this Goal and all its subgoals.&#xD;
+     * Should be called by the {@link AIPlayer} once for each of its subgoals&#xD;
+     * at the start of a turn. The Goal will handle all other instances of this&#xD;
+     * flag needing to be reset internally.&#xD;
+     *&#xD;
+     * @param p Boolean determining whether to set needsPlanning =true or =false</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_t9VmM1JPEeiyW7NaN4qWdw" name="p">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9VmNFJPEeiyW7NaN4qWdw" name="getWeight" method="_uB252FJPEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_uB7LSFJPEeiyW7NaN4qWdw">
+                      <body>Returns the relativeWeight this goal has been weighted with by its parent.&#xD;
+     * &lt;/p>&lt;p>&#xD;
+     * NOTE: In many cases, you will want to use {@link #getAbsoluteWeight()} instead.&#xD;
+     *&#xD;
+     * @return The relative weight {@link #relativeWeight} of this goal</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_t9VmNVJPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9WNQFJPEeiyW7NaN4qWdw" name="getParentWeight" method="_uB252lJPEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_uB7LSVJPEeiyW7NaN4qWdw">
+                      <body>Gets the weight of the parent goal, or 1 if there is no parent goal.&#xD;
+     *&#xD;
+     * @return The absolute weight [0;1] of the parent goal, or 1 if a parent goal does not exist</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_t9WNQVJPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9WNQlJPEeiyW7NaN4qWdw" name="getAbsoluteWeight" method="_uB253FJPEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_uB7LSlJPEeiyW7NaN4qWdw">
+                      <body>Returns the absolute weight of this goal.&#xD;
+     * &lt;/p>&lt;p>&#xD;
+     * The absolute weight is the weight of this goal in relation to the {@link AIPlayer}.&#xD;
+     * This is used when making requests, to allow the AIPlayer to find the&#xD;
+     * &quot;most important&quot; request.&#xD;
+     *&#xD;
+     * @return The absolute weight [0;1] of this goal</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_t9WNQ1JPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9WNRFJPEeiyW7NaN4qWdw" name="setWeight" method="_uB253lJPEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_uB7LS1JPEeiyW7NaN4qWdw">
+                      <body>Sets a relative weight for this goal.&#xD;
+     * Each Goal is weighted by its parent goal.&#xD;
+     * The parent should assure that the sum of weights given to its subgoals is =1&#xD;
+     *&#xD;
+     * @param w A relative weight, should be in range [0;1]</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_t9WNRVJPEeiyW7NaN4qWdw" name="w">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9W0UFJPEeiyW7NaN4qWdw" name="normalizeSubGoalWeights" method="_uB3g4FJPEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_uB7LTFJPEeiyW7NaN4qWdw">
+                      <body>Calling this ensures that the relative weights given to&#xD;
+     * subgoals add up to 1.&#xD;
+     * &lt;/p>&lt;p>&#xD;
+     * NOTE: This allows for a small margin of error (+/- 0.05),&#xD;
+     * to avoid recalculating too often.</body>
+                    </ownedComment>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9XbYFJPEeiyW7NaN4qWdw" name="validateOwnedUnits" visibility="protected" method="_uB4H9FJPEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_uB7LU1JPEeiyW7NaN4qWdw">
+                      <body>Checks all owned AIUnits for validity, and removes invalid ones.&#xD;
+     * An AIUnit is supposed to be invalid if it no longer contains a valid Unit.&#xD;
+     * This may be the case if the Unit has been removed from the game between turns.&#xD;
+     * &lt;/p>&lt;p>&#xD;
+     * NOTE: The assumption here is that AIUnit#isValid() will return true&#xD;
+     * as long as the {@link net.sf.freecol.common.model.Unit} wrapped in it exists.</body>
+                    </ownedComment>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9XbYVJPEeiyW7NaN4qWdw" name="getGoalDescription" method="_uB4H9VJPEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_uB7LVFJPEeiyW7NaN4qWdw">
+                      <body>Returns a string describing just this goal.  An implementing&#xD;
+     * class may override this method to add specialized information.&#xD;
+     * Used by {@link #getDebugDescription()}.&#xD;
+     *&#xD;
+     * @return a string describing this goal</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_t9XbYlJPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9YCcFJPEeiyW7NaN4qWdw" name="getDebugDescription" method="_uB4H91JPEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_uB7yUFJPEeiyW7NaN4qWdw">
+                      <body>Build and return a string describing this goal including its parent goal.&#xD;
+     * Used by &quot;Display AI-missions&quot; in debug mode.&#xD;
+     *&#xD;
+     * @return a string describing this goal</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_t9YCcVJPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9YCclJPEeiyW7NaN4qWdw" name="getXMLElementTagName" isStatic="true" method="_uB4H-VJPEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_uB7yUVJPEeiyW7NaN4qWdw">
+                      <body>Returns the tag name of the root element representing this object.&#xD;
+     *&#xD;
+     * @return &quot;aiGoal&quot;</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_t9YCc1JPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9YCdFJPEeiyW7NaN4qWdw" name="getOwnedAIUnitsIterator" visibility="protected" isAbstract="true">
+                    <ownedComment xmi:id="_uB7yUlJPEeiyW7NaN4qWdw">
+                      <body>Since internal implementation details may vary,&#xD;
+     * each Goal will define an iterator over all of its units.&#xD;
+     *&#xD;
+     * @return An Iterator over all {@link AIUnit} currently managed by this goal.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_uBl0ElJPEeiyW7NaN4qWdw" type="_uBOAoFJPEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9YpgVJPEeiyW7NaN4qWdw" name="getSubGoalIterator" visibility="protected" isAbstract="true">
+                    <ownedComment xmi:id="_uB7yU1JPEeiyW7NaN4qWdw">
+                      <body>Since internal implementation details may vary,&#xD;
+     * each Goal will define an iterator over all of its subgoals.&#xD;
+     *&#xD;
+     * @return An Iterator over all currently existing subgoals.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_uBl0E1JPEeiyW7NaN4qWdw" type="_uBOAoFJPEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9Z3oFJPEeiyW7NaN4qWdw" name="plan" visibility="protected" isAbstract="true">
+                    <ownedComment xmi:id="_uB7yVVJPEeiyW7NaN4qWdw">
+                      <body>This is the method that actually does the planning for this goal.&#xD;
+     *&#xD;
+     * It should contain:&#xD;
+     * &lt;ul>&#xD;
+     * &lt;li>calling {@link #validateOwnedUnits()} to remove AIUnits no longer&#xD;
+     * containing a valid unit&lt;/li>&#xD;
+     * &lt;li>putting units on the {@link #availableUnitsList} to work&#xD;
+     *   &lt;ul>&lt;li>eventually by adding it to one of the subgoals, or&lt;/li>&#xD;
+     *   &lt;li>by adding it back to the {@link AIPlayer}, or&lt;/li>&#xD;
+     *   &lt;li>last but not least, by spending their movement points for some internal mission&lt;/li>&lt;/ul>&lt;/li>&#xD;
+     * &lt;li>requesting new units (via a method like {@link #requestWorker(GoodsType,int)})&lt;/li>&#xD;
+     * &lt;li>managing direct subgoals, including:&#xD;
+     *   &lt;ul>&lt;li>creating new ones, if necessary&lt;/li>&#xD;
+     *   &lt;li>cancelling those with isFinished()==true&lt;/li>&#xD;
+     *   &lt;li>setting new weights using {@link #setWeight(float)}&lt;/li>&lt;/ul>&lt;/li>&#xD;
+     * &lt;li>setting our own isFinished status&lt;/li>&#xD;
+     * &lt;/ul></body>
+                    </ownedComment>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_uBiwwFJPEeiyW7NaN4qWdw" name="Goal" method="_uB2SwFJPEeiyW7NaN4qWdw">
+                    <eAnnotations xmi:id="_uBjX0FJPEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_uBjX0VJPEeiyW7NaN4qWdw" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_uB7LQVJPEeiyW7NaN4qWdw">
+                      <body>Standard constructor&#xD;
+     *&#xD;
+     * @param p The {@link AIPlayer} this goal belongs to&#xD;
+     * @param g The parent goal; may be null if we're a direct goal of the AIPlayer&#xD;
+     * @param w The relativeWeight of this goal</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_uBiwwVJPEeiyW7NaN4qWdw" name="p" type="_uBRrAVJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uBiwwlJPEeiyW7NaN4qWdw" name="g" type="_t9TJ8FJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uBiww1JPEeiyW7NaN4qWdw" name="w">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_uBjX0lJPEeiyW7NaN4qWdw" type="_t9TJ8FJPEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_uBjX01JPEeiyW7NaN4qWdw" name="Goal" method="_uB2SxVJPEeiyW7NaN4qWdw">
+                    <eAnnotations xmi:id="_uBjX2FJPEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_uBjX2VJPEeiyW7NaN4qWdw" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_uB7LQlJPEeiyW7NaN4qWdw">
+                      <body>Alternate constructor - directly add a unit to this Goal.&#xD;
+     * The calling object ensures that this unit is not currently part of another Goal.&#xD;
+     *&#xD;
+     * @param p The {@link AIPlayer} this goal belongs to&#xD;
+     * @param g The parent goal; may be null if we're a direct goal of the AIPlayer&#xD;
+     * @param w The relativeWeight of this goal&#xD;
+     * @param u An initial {@link AIUnit} given to this goal</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_uBjX1FJPEeiyW7NaN4qWdw" name="p" type="_uBRrAVJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uBjX1VJPEeiyW7NaN4qWdw" name="g" type="_t9TJ8FJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uBjX1lJPEeiyW7NaN4qWdw" name="w">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_uBjX11JPEeiyW7NaN4qWdw" name="u" type="_uBSSEVJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uBjX2lJPEeiyW7NaN4qWdw" type="_t9TJ8FJPEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_uBj-4FJPEeiyW7NaN4qWdw" name="requestWorker" visibility="protected" method="_uB3g4VJPEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_uB7LTVJPEeiyW7NaN4qWdw">
+                      <body>Wrapper method for a worker request sent to the {@link AIPlayer}.&#xD;
+     * &lt;/p>&lt;p>&#xD;
+     * Each Goal can request necessary units from the AIPlayer.&#xD;
+     * Here, such a request is wrapped in a private method for convenience.&#xD;
+     * Each request contains a weight, which is {@link #getAbsoluteWeight()}&#xD;
+     * of this goal, and the number of turns since a unit request has last been granted.&#xD;
+     * The latter should be taken into account as a &quot;bonus weight&quot; by the AIPlayer.&#xD;
+     * &lt;/p>&lt;p>&#xD;
+     * FIXME: AIPlayer#addUnitWish(Goal,GoodsType,int,float,int); should add&#xD;
+     * requests to a set-like structure, so that there's only one active request&#xD;
+     * per Goal at any time. Since fulfilling a request using {@link #addUnit(AIUnit)}&#xD;
+     * means that {@link #plan()} will be called again during the turn,&#xD;
+     * the Goal will be able to request again.&#xD;
+     *&#xD;
+     * @param gt The {@link GoodsType} we're requesting a worker for.&#xD;
+     * @param minProduction The minimum a unit needs to produce to be considered.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_uBj-4VJPEeiyW7NaN4qWdw" name="gt" type="_uBP101JPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uBj-4lJPEeiyW7NaN4qWdw" name="minProduction">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_uBj-41JPEeiyW7NaN4qWdw" name="addUnit" isLeaf="true" method="_uB3g5FJPEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_uB7LTlJPEeiyW7NaN4qWdw">
+                      <body>Adds a unit to this goal.&#xD;
+     * This may be from {@link AIPlayer} fulfilling a unit request,&#xD;
+     * by the parent goal, or by a subgoal that no longer needs the unit.&#xD;
+     * &lt;/p>&lt;p>&#xD;
+     * Possible FIXME: If the unit we're requesting is a high-interest one,&#xD;
+     * such as a Galleon, AIUnit#setLoaningGoal() may be used to&#xD;
+     * signal that this unit may _only_ be moved to subgoals, or back to&#xD;
+     * {@link AIPlayer}, but not further up the hierarchy or to any other requesting Goal.&#xD;
+     *&#xD;
+     * @param u The {@link AIUnit} being added to this goal</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_uBj-5FJPEeiyW7NaN4qWdw" name="u" type="_uBSSEVJPEeiyW7NaN4qWdw"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_uBkl8FJPEeiyW7NaN4qWdw" name="addUnitToParent" visibility="protected" method="_uB3g5lJPEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_uB7LT1JPEeiyW7NaN4qWdw">
+                      <body>Adds a unit to the parent goal.&#xD;
+     * If this goal doesn't have a parent goal,&#xD;
+     * the unit will be added to {@link AIPlayer} instead.&#xD;
+     *&#xD;
+     * @param u The {@link AIUnit} to be added to the parent</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_uBkl8VJPEeiyW7NaN4qWdw" name="u" type="_uBSSEVJPEeiyW7NaN4qWdw"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_uBkl8lJPEeiyW7NaN4qWdw" name="canYieldUnit" method="_uB3g6FJPEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_uB7LUFJPEeiyW7NaN4qWdw">
+                      <body>Used by a parent goal to check whether this goal, including subgoals,&#xD;
+     * can yield a specific unit.&#xD;
+     * &lt;/p>&lt;p>&#xD;
+     * This recursively checks its subgoals, if there's no match among the own units.&#xD;
+     * &lt;/p>&lt;p>&#xD;
+     * Possible FIXME: Check whether AIUnit#isOnLoan() - in which case, we mustn't&#xD;
+     * yield a unit unless it's the {@link AIPlayer} that requests.&#xD;
+     *&#xD;
+     * @param ut The {@link UnitType} wanted by the parent&#xD;
+     * @param o The {@link AIObject} (should be AIPlayer or another Goal) calling this&#xD;
+     * @return true if this goal or one of its subgoals can yield the specified {@link UnitType}, false otherwise</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_uBkl81JPEeiyW7NaN4qWdw" name="ut" type="_uBQc4VJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uBkl9FJPEeiyW7NaN4qWdw" name="o" type="_uBRD81JPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uBkl9VJPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_uBlNAFJPEeiyW7NaN4qWdw" name="getYieldedUnitWeight" method="_uB3g7FJPEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_uB7LUVJPEeiyW7NaN4qWdw">
+                      <body>Returns the absolute weight of the unit which would be yielded by {@link #yieldUnit(UnitType,AIObject)}.&#xD;
+     * This is the same as {@link #getAbsoluteWeight()} of the yielding goal.&#xD;
+     *&#xD;
+     * @param ut The {@link UnitType} wanted by the parent&#xD;
+     * @param o The {@link AIObject} (should be AIPlayer or another Goal) calling this&#xD;
+     * @return The absolute weight ([0;1]) of the goal currently owning&#xD;
+     * the unit that would be yielded.&#xD;
+     * Note that the returned value might be 99f if there is no unit to yield.&#xD;
+     * The calling function should use {@link #canYieldUnit(UnitType,AIObject)} first,&#xD;
+     * or is responsible to sanitize this result itself before trying&#xD;
+     * to {@link #yieldUnit(UnitType,AIObject)} based on it.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_uBlNAVJPEeiyW7NaN4qWdw" name="ut" type="_uBQc4VJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uBlNAlJPEeiyW7NaN4qWdw" name="o" type="_uBRD81JPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uBlNA1JPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_uBlNBFJPEeiyW7NaN4qWdw" name="yieldUnit" method="_uB4H8FJPEeiyW7NaN4qWdw">
+                    <ownedComment xmi:id="_uB7LUlJPEeiyW7NaN4qWdw">
+                      <body>Removes a unit from the goal, potentially from a subgoal,&#xD;
+     * and yields it to the caller.&#xD;
+     * &lt;/p>&lt;p>&#xD;
+     * Returned unit should be the one with minimum absolute weight,&#xD;
+     * see {@link #getYieldedUnitWeight(UnitType,AIObject)}.&#xD;
+     *&#xD;
+     * @param ut The {@link UnitType} wanted by the parent&#xD;
+     * @param o The {@link AIObject} (should be AIPlayer or another Goal) calling this&#xD;
+     * @return The {@link AIUnit} with minimal absolute weight.&#xD;
+     * Note that this may be null if no matching unit is found!</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_uBlNBVJPEeiyW7NaN4qWdw" name="ut" type="_uBQc4VJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uBl0EFJPEeiyW7NaN4qWdw" name="o" type="_uBRD81JPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uBl0EVJPEeiyW7NaN4qWdw" type="_uBSSEVJPEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_uBl0FFJPEeiyW7NaN4qWdw" name="removeUnit" visibility="protected" isAbstract="true">
+                    <ownedComment xmi:id="_uB7yVFJPEeiyW7NaN4qWdw">
+                      <body>Ensures that a unit moved to another Goal is properly removed from this.&#xD;
+     * If a unit is removed from this goal via {@link #yieldUnit(UnitType,AIObject)},&#xD;
+     * or if the Unit contained in the {@link AIUnit} no longer is valid,&#xD;
+     * this method is called to clean up any remaining references to the unit.&#xD;
+     * &lt;/p>&lt;p>&#xD;
+     * Any implementation of this will need to iterate over all AIUnit object&#xD;
+     * references used by this goal, and remove those that equal the given parameter.&#xD;
+     *&#xD;
+     * @param u The AIUnit supposed to be removed from this goal.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_uBl0FVJPEeiyW7NaN4qWdw" name="u" type="_uBSSEVJPEeiyW7NaN4qWdw"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_t9eJEFJPEeiyW7NaN4qWdw" name="CreateMissionAtSettlementGoal">
+                  <ownedComment xmi:id="_uB7yVlJPEeiyW7NaN4qWdw">
+                    <body>This {@link Goal} deals with one missionary unit.&#xD;
+&lt;/p>&lt;p>&#xD;
+On construction, an {@link AIUnit} and an {@link IndianSettlement}&#xD;
+are given to this.&#xD;
+The Goal will try to create a mission at that settlement,&#xD;
+eventually by bringing the missionary unit there first using a&#xD;
+{@link GotoAdjacentGoal}.&#xD;
+Should the target become invalid, the missionary will be given back&#xD;
+to the parent of this goal ({@link ManageMissionariesGoal}, in most cases).&#xD;
+Excess units will be given back to the parent, or the {@link AIPlayer} directly.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_uBZm0FJPEeiyW7NaN4qWdw" general="_t9TJ8FJPEeiyW7NaN4qWdw"/>
+                  <ownedAttribute xmi:id="_uBz2gFJPEeiyW7NaN4qWdw" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_uBP10VJPEeiyW7NaN4qWdw" isReadOnly="true" association="_uCCgAVJPEeiyW7NaN4qWdw">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_uBz2gVJPEeiyW7NaN4qWdw" value="Logger.getLogger(CreateMissionAtSettlementGoal.class.getName())"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_uBz2glJPEeiyW7NaN4qWdw" name="target" visibility="private" isLeaf="true" type="_uBYYsFJPEeiyW7NaN4qWdw" isReadOnly="true" association="_uCDHEVJPEeiyW7NaN4qWdw"/>
+                  <ownedAttribute xmi:id="_uBz2hFJPEeiyW7NaN4qWdw" name="gotoSubGoal" visibility="private" type="_t9k2wFJPEeiyW7NaN4qWdw" association="_uCDuIVJPEeiyW7NaN4qWdw"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB4vAFJPEeiyW7NaN4qWdw" name="CreateMissionAtSettlementGoal" specification="_uBnpQFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB4vAVJPEeiyW7NaN4qWdw" name="p" type="_uBRrAVJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uB4vAlJPEeiyW7NaN4qWdw" name="g" type="_t9TJ8FJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uB4vA1JPEeiyW7NaN4qWdw" name="w">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_uB4vBFJPEeiyW7NaN4qWdw" name="u" type="_uBSSEVJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uB4vBVJPEeiyW7NaN4qWdw" name="i" type="_uBYYsFJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uB4vBlJPEeiyW7NaN4qWdw" type="_t9eJEFJPEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>super(p,g,w,u);&#xD;
+     target = i;&#xD;
+     gotoSubGoal = null;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB4vB1JPEeiyW7NaN4qWdw" name="getOwnedAIUnitsIterator" specification="_t9ewIFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB4vCFJPEeiyW7NaN4qWdw" type="_uBOAoFJPEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>return availableUnitsList.iterator();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB4vCVJPEeiyW7NaN4qWdw" name="getSubGoalIterator" specification="_t9f-QVJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB4vClJPEeiyW7NaN4qWdw" type="_uBOAoFJPEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>List&lt;Goal> subGoalList = new ArrayList&lt;>();&#xD;
+     if (gotoSubGoal != null) {&#xD;
+         subGoalList.add(gotoSubGoal);&#xD;
+     }&#xD;
+     return subGoalList.iterator();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB4vC1JPEeiyW7NaN4qWdw" name="removeUnit" specification="_uBoQUVJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB4vDFJPEeiyW7NaN4qWdw" name="u" type="_uBSSEVJPEeiyW7NaN4qWdw"/>
+                    <language>java</language>
+                    <body>Iterator&lt;AIUnit> uit = availableUnitsList.iterator();&#xD;
+     while (uit.hasNext()) {&#xD;
+         AIUnit unit = uit.next();&#xD;
+         if (unit.equals(u)) {&#xD;
+             uit.remove();&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB4vDVJPEeiyW7NaN4qWdw" name="plan" specification="_t9glU1JPEeiyW7NaN4qWdw">
+                    <language>java</language>
+                    <body>isFinished = false;&#xD;
+&#xD;
+     // FIXME: Check whether our target settlement is still valid.&#xD;
+     // If not, skip the rest and set isFinished = true.&#xD;
+&#xD;
+     if (gotoSubGoal != null) {&#xD;
+         //We do have a gotoSubGoal, so probably a missionary there.&#xD;
+         //Run through available units. They must be excess,&#xD;
+         //so return units to our parent.&#xD;
+         validateOwnedUnits();&#xD;
+&#xD;
+         Iterator&lt;AIUnit> uit = availableUnitsList.iterator();&#xD;
+         while (uit.hasNext()) {&#xD;
+             AIUnit u = uit.next();&#xD;
+             uit.remove();&#xD;
+             addUnitToParent(u);&#xD;
+         }&#xD;
+&#xD;
+         if (gotoSubGoal.isFinished()) {&#xD;
+             //the goto is Finished, so we should get back our missionary&#xD;
+             List&lt;AIUnit> units = gotoSubGoal.cancelGoal();&#xD;
+             availableUnitsList.addAll(units);&#xD;
+             gotoSubGoal = null;&#xD;
+         }&#xD;
+     }&#xD;
+     if (gotoSubGoal == null) {&#xD;
+         //We don't have a gotoSubGoal. Check for a missionary&#xD;
+         //adjacent to our target, or create a subgoal for an available missionary.&#xD;
+         //Return all other units.&#xD;
+         validateOwnedUnits();&#xD;
+&#xD;
+         boolean hasFoundMissionary = false;&#xD;
+         Iterator&lt;AIUnit> uit = availableUnitsList.iterator();&#xD;
+         while (uit.hasNext()) {&#xD;
+             AIUnit u = uit.next();&#xD;
+             uit.remove();&#xD;
+             if (!&quot;model.role.missionary&quot;.equals(u.getUnit().getRole().getId())) {&#xD;
+                 //FIXME: Uncomment after this method has been added to AIPlayer&#xD;
+                 //player.addUnit(u);&#xD;
+             } else {&#xD;
+                 if (!hasFoundMissionary) {&#xD;
+                     hasFoundMissionary = true;&#xD;
+                     if (u.getUnit().getTile().isAdjacent(target.getTile())) {&#xD;
+                         //Missionary is adjacent, use it to finish the goal.&#xD;
+                         if (target.hasMissionary(player.getPlayer())) {&#xD;
+                             PathNode pathNode = u.getUnit().findPath(target.getTile());&#xD;
+                             u.getUnit().setMovesLeft(0);&#xD;
+&#xD;
+                             AIMessage.askEstablishMission(u,&#xD;
+                                 pathNode.getDirection(),&#xD;
+                                 target.hasMissionary());&#xD;
+                         } else {&#xD;
+                             //we can't establish a mission here&#xD;
+                             addUnitToParent(u);&#xD;
+                         }&#xD;
+                         isFinished = true;&#xD;
+                     } else {&#xD;
+                         //Missionary is not adjacent to target,&#xD;
+                         //use it to create a GoToAdjacentGoal&#xD;
+                         logger.info(&quot;Creating subgoal GotoAdjacentGoal.&quot;);&#xD;
+                         gotoSubGoal = new GotoAdjacentGoal(player,this,1,u,target.getTile());&#xD;
+                     }&#xD;
+                 } else {&#xD;
+                     //We already have one missionary at work, so we send all&#xD;
+                     //others back to our parent. In rare cases, this might&#xD;
+                     //include the one already adjacent to our target.&#xD;
+                     //However, that one will finish the work after being added&#xD;
+                     //to another goal, so this is no big deal.&#xD;
+                     addUnitToParent(u);&#xD;
+                 }&#xD;
+             }&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB4vDlJPEeiyW7NaN4qWdw" name="getGoalDescription" specification="_t9hMYlJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB4vD1JPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>String descr = super.getGoalDescription();&#xD;
+     if (target!=null) {&#xD;
+         descr += &quot;:&quot;+target.getName();&#xD;
+     } else {&#xD;
+         descr += &quot;:null&quot;;&#xD;
+     }&#xD;
+     return descr;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB4vEFJPEeiyW7NaN4qWdw" name="getXMLTagName" specification="_t9hzclJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB4vEVJPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return getXMLElementTagName(); </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_t9ewIFJPEeiyW7NaN4qWdw" name="getOwnedAIUnitsIterator" visibility="protected" method="_uB4vB1JPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uBnpSVJPEeiyW7NaN4qWdw" type="_uBOAoFJPEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9f-QVJPEeiyW7NaN4qWdw" name="getSubGoalIterator" visibility="protected" method="_uB4vCVJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uBoQUFJPEeiyW7NaN4qWdw" type="_uBOAoFJPEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9glU1JPEeiyW7NaN4qWdw" name="plan" visibility="protected" method="_uB4vDVJPEeiyW7NaN4qWdw"/>
+                  <ownedOperation xmi:id="_t9hMYlJPEeiyW7NaN4qWdw" name="getGoalDescription" method="_uB4vDlJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_t9hMY1JPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9hzclJPEeiyW7NaN4qWdw" name="getXMLTagName" method="_uB4vEFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_t9hzc1JPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_uBnpQFJPEeiyW7NaN4qWdw" name="CreateMissionAtSettlementGoal" method="_uB4vAFJPEeiyW7NaN4qWdw">
+                    <eAnnotations xmi:id="_uBnpRlJPEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_uBnpR1JPEeiyW7NaN4qWdw" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_uBnpQVJPEeiyW7NaN4qWdw" name="p" type="_uBRrAVJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uBnpQlJPEeiyW7NaN4qWdw" name="g" type="_t9TJ8FJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uBnpQ1JPEeiyW7NaN4qWdw" name="w">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_uBnpRFJPEeiyW7NaN4qWdw" name="u" type="_uBSSEVJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uBnpRVJPEeiyW7NaN4qWdw" name="i" type="_uBYYsFJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uBnpSFJPEeiyW7NaN4qWdw" type="_t9eJEFJPEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_uBoQUVJPEeiyW7NaN4qWdw" name="removeUnit" visibility="protected" method="_uB4vC1JPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uBoQUlJPEeiyW7NaN4qWdw" name="u" type="_uBSSEVJPEeiyW7NaN4qWdw"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_uBo3YFJPEeiyW7NaN4qWdw" name="toXML" raisedException="_uBWjgFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uBo3YVJPEeiyW7NaN4qWdw" name="xw" type="_uBXxoVJPEeiyW7NaN4qWdw"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_uBpecFJPEeiyW7NaN4qWdw" name="readFromXML" raisedException="_uBWjgFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uBpecVJPEeiyW7NaN4qWdw" name="xr" type="_uBXKkVJPEeiyW7NaN4qWdw"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_t9k2wFJPEeiyW7NaN4qWdw" name="GotoAdjacentGoal">
+                  <ownedComment xmi:id="_uB7yV1JPEeiyW7NaN4qWdw">
+                    <body>A goal to make a move to a tile adjacent to a target tile.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_uBcqIFJPEeiyW7NaN4qWdw" general="_t9TJ8FJPEeiyW7NaN4qWdw"/>
+                  <ownedAttribute xmi:id="_uB0dkFJPEeiyW7NaN4qWdw" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_uBP10VJPEeiyW7NaN4qWdw" isReadOnly="true" association="_uCEVMVJPEeiyW7NaN4qWdw">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_uB0dkVJPEeiyW7NaN4qWdw" value="Logger.getLogger(GotoAdjacentGoal.class.getName())"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_uB0dklJPEeiyW7NaN4qWdw" name="target" visibility="private" isLeaf="true" type="_uBbcAFJPEeiyW7NaN4qWdw" isReadOnly="true" association="_uCGKYVJPEeiyW7NaN4qWdw"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB5WEFJPEeiyW7NaN4qWdw" name="GotoAdjacentGoal" specification="_uBqFgFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB5WEVJPEeiyW7NaN4qWdw" name="p" type="_uBRrAVJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uB5WElJPEeiyW7NaN4qWdw" name="g" type="_t9TJ8FJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uB5WE1JPEeiyW7NaN4qWdw" name="w">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_uB5WFFJPEeiyW7NaN4qWdw" name="u" type="_uBSSEVJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uB5WFVJPEeiyW7NaN4qWdw" name="t" type="_uBbcAFJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uB5WFlJPEeiyW7NaN4qWdw" type="_t9k2wFJPEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>super(p,g,w,u);&#xD;
+     target = t;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB5WF1JPEeiyW7NaN4qWdw" name="getOwnedAIUnitsIterator" specification="_t9ld0FJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB5WGFJPEeiyW7NaN4qWdw" type="_uBOAoFJPEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>return availableUnitsList.iterator();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB5WGVJPEeiyW7NaN4qWdw" name="getSubGoalIterator" specification="_t9mr8FJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB5WGlJPEeiyW7NaN4qWdw" type="_uBOAoFJPEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>return null;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB5WG1JPEeiyW7NaN4qWdw" name="removeUnit" specification="_uBrToFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB5WHFJPEeiyW7NaN4qWdw" name="u" type="_uBSSEVJPEeiyW7NaN4qWdw"/>
+                    <language>java</language>
+                    <body>Iterator&lt;AIUnit> uit = availableUnitsList.iterator();&#xD;
+     while (uit.hasNext()) {&#xD;
+         AIUnit unit = uit.next();&#xD;
+         if (unit.equals(u)) {&#xD;
+             uit.remove();&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB5WHVJPEeiyW7NaN4qWdw" name="plan" specification="_t9nTA1JPEeiyW7NaN4qWdw">
+                    <language>java</language>
+                    <body>isFinished = false;&#xD;
+     &#xD;
+     //Run through available units. For each unit, find a path to the&#xD;
+     //target and move towards it. Return to parent if adjacent to target,&#xD;
+     //or no path can be found.&#xD;
+     Iterator&lt;AIUnit> uit = availableUnitsList.iterator();&#xD;
+     nextUnit: while (uit.hasNext()) {&#xD;
+         AIUnit u = uit.next();&#xD;
+&#xD;
+         PathNode pathNode = u.getUnit().findPath(target);&#xD;
+         if (pathNode==null) {&#xD;
+             uit.remove();&#xD;
+             addUnitToParent(u);            &#xD;
+         } else {&#xD;
+             while (pathNode.next != null &#xD;
+                     &amp;&amp; pathNode.getTurns() == 0&#xD;
+                     &amp;&amp; pathNode.getTile() != target&#xD;
+                     &amp;&amp; (u.getUnit().getMoveType(pathNode.getDirection()) == MoveType.MOVE&#xD;
+                       ||u.getUnit().getMoveType(pathNode.getDirection()) == MoveType.EXPLORE_LOST_CITY_RUMOUR)) {&#xD;
+                     &#xD;
+                         if(u.getUnit().getMoveType(pathNode.getDirection()) == MoveType.EXPLORE_LOST_CITY_RUMOUR) {&#xD;
+                             logger.warning(&quot;Accidental rumour exploration!&quot;);&#xD;
+                         }&#xD;
+                     &#xD;
+                         u.move(pathNode.getDirection());&#xD;
+                         if (u.getUnit() == null&#xD;
+                             || u.getUnit().isDisposed()) {&#xD;
+                             continue nextUnit;&#xD;
+                         }&#xD;
+                         pathNode = pathNode.next;&#xD;
+             }&#xD;
+             if (u.getUnit().getTile().isAdjacent(target)) {&#xD;
+                 //If unit is adjacent after moving, return to parent&#xD;
+                 uit.remove();&#xD;
+                 addUnitToParent(u);&#xD;
+             }&#xD;
+         }&#xD;
+     }&#xD;
+     &#xD;
+     if (availableUnitsList.isEmpty()) {&#xD;
+         //we don't have any units left to deal with,&#xD;
+         //signal that we may safely be cancelled now&#xD;
+         isFinished = true;&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB5WHlJPEeiyW7NaN4qWdw" name="getGoalDescription" specification="_t9n6E1JPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB5WH1JPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>String descr = super.getGoalDescription();&#xD;
+     if (target!=null) {&#xD;
+         descr += &quot;:&quot;+target.getX()+&quot;,&quot;+target.getY();&#xD;
+     } else {&#xD;
+         descr += &quot;:null&quot;;&#xD;
+     }&#xD;
+     return descr;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB59IFJPEeiyW7NaN4qWdw" name="getXMLTagName" specification="_t9ohI1JPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB59IVJPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return getXMLElementTagName(); </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_t9ld0FJPEeiyW7NaN4qWdw" name="getOwnedAIUnitsIterator" visibility="protected" method="_uB5WF1JPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uBqsmFJPEeiyW7NaN4qWdw" type="_uBOAoFJPEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9mr8FJPEeiyW7NaN4qWdw" name="getSubGoalIterator" visibility="protected" method="_uB5WGVJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uBqsmVJPEeiyW7NaN4qWdw" type="_uBOAoFJPEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9nTA1JPEeiyW7NaN4qWdw" name="plan" visibility="protected" method="_uB5WHVJPEeiyW7NaN4qWdw"/>
+                  <ownedOperation xmi:id="_t9n6E1JPEeiyW7NaN4qWdw" name="getGoalDescription" method="_uB5WHlJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_t9n6FFJPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9ohI1JPEeiyW7NaN4qWdw" name="getXMLTagName" method="_uB59IFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_t9ohJFJPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_uBqFgFJPEeiyW7NaN4qWdw" name="GotoAdjacentGoal" method="_uB5WEFJPEeiyW7NaN4qWdw">
+                    <eAnnotations xmi:id="_uBqslVJPEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_uBqsllJPEeiyW7NaN4qWdw" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_uBqskFJPEeiyW7NaN4qWdw" name="p" type="_uBRrAVJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uBqskVJPEeiyW7NaN4qWdw" name="g" type="_t9TJ8FJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uBqsklJPEeiyW7NaN4qWdw" name="w">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_uBqsk1JPEeiyW7NaN4qWdw" name="u" type="_uBSSEVJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uBqslFJPEeiyW7NaN4qWdw" name="t" type="_uBbcAFJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uBqsl1JPEeiyW7NaN4qWdw" type="_t9k2wFJPEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_uBrToFJPEeiyW7NaN4qWdw" name="removeUnit" visibility="protected" method="_uB5WG1JPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uBrToVJPEeiyW7NaN4qWdw" name="u" type="_uBSSEVJPEeiyW7NaN4qWdw"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_uBrTpVJPEeiyW7NaN4qWdw" name="toXML" raisedException="_uBWjgFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uBr6sFJPEeiyW7NaN4qWdw" name="xw" type="_uBXxoVJPEeiyW7NaN4qWdw"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_uBr6tFJPEeiyW7NaN4qWdw" name="readFromXML" raisedException="_uBWjgFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uBr6tVJPEeiyW7NaN4qWdw" name="xr" type="_uBXKkVJPEeiyW7NaN4qWdw"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_t9rkcFJPEeiyW7NaN4qWdw" name="ManageMissionariesGoal">
+                  <ownedComment xmi:id="_uB7yWFJPEeiyW7NaN4qWdw">
+                    <body>This {@link Goal} deals with all missionaries of one {@link AIPlayer}.&#xD;
+&lt;/p>&lt;p>&#xD;
+For each missionary unit that is being added, this goal will try to find&#xD;
+an {@link IndianSettlement} needing a visit.&#xD;
+Distance and reachability from the current position of the unit are&#xD;
+taken into account, with the implicit assumption that the current&#xD;
+location of the unit is sensible in that a nearby settlement is&#xD;
+even worth visiting.&#xD;
+Since missionary units are either created in a player-owned colony,&#xD;
+or brought there from Europe, this assumption will most often be valid.&#xD;
+&lt;/p>&lt;p>&#xD;
+If a settlement has been found, a {@link CreateMissionAtSettlementGoal}&#xD;
+will be created, and the unit be moved there.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_uBfGYFJPEeiyW7NaN4qWdw" general="_t9TJ8FJPEeiyW7NaN4qWdw"/>
+                  <ownedAttribute xmi:id="_uB1EoFJPEeiyW7NaN4qWdw" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_uBP10VJPEeiyW7NaN4qWdw" isReadOnly="true" association="_uCGxcVJPEeiyW7NaN4qWdw">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_uB1EoVJPEeiyW7NaN4qWdw" value="Logger.getLogger(ManageMissionariesGoal.class.getName())"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_uB1EolJPEeiyW7NaN4qWdw" name="subGoalList" visibility="private" isLeaf="true" type="_t9TJ8FJPEeiyW7NaN4qWdw" isOrdered="true" isReadOnly="true" association="_uCH_kFJPEeiyW7NaN4qWdw">
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uB1Eo1JPEeiyW7NaN4qWdw" value="*"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB59IlJPEeiyW7NaN4qWdw" name="ManageMissionariesGoal" specification="_uBtI0FJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB59I1JPEeiyW7NaN4qWdw" name="p" type="_uBRrAVJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uB59JFJPEeiyW7NaN4qWdw" name="g" type="_t9TJ8FJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uB59JVJPEeiyW7NaN4qWdw" name="w">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_uB59JlJPEeiyW7NaN4qWdw" type="_t9rkcFJPEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>super(p,g,w);&#xD;
+     subGoalList = new ArrayList&lt;>();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB59J1JPEeiyW7NaN4qWdw" name="getOwnedAIUnitsIterator" specification="_t9sLgFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB59KFJPEeiyW7NaN4qWdw" type="_uBOAoFJPEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>return availableUnitsList.iterator();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB59KVJPEeiyW7NaN4qWdw" name="getSubGoalIterator" specification="_t9tZoFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB59KlJPEeiyW7NaN4qWdw" type="_uBOAoFJPEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>return subGoalList.iterator();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB59K1JPEeiyW7NaN4qWdw" name="removeUnit" specification="_uBtv4lJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB59LFJPEeiyW7NaN4qWdw" name="u" type="_uBSSEVJPEeiyW7NaN4qWdw"/>
+                    <language>java</language>
+                    <body>Iterator&lt;AIUnit> uit = availableUnitsList.iterator();&#xD;
+     while (uit.hasNext()) {&#xD;
+         AIUnit unit = uit.next();&#xD;
+         if (unit.equals(u)) {&#xD;
+             uit.remove();&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB59LVJPEeiyW7NaN4qWdw" name="plan" specification="_t9uAs1JPEeiyW7NaN4qWdw">
+                    <language>java</language>
+                    <body>isFinished = false;&#xD;
+&#xD;
+     //cancel already finished subgoals first&#xD;
+     //most of the time, we won't get any units back from this&#xD;
+     Iterator&lt;Goal> git = subGoalList.iterator();&#xD;
+     while (git.hasNext()) {&#xD;
+         Goal g = git.next();&#xD;
+         if (g.isFinished()) {&#xD;
+             List&lt;AIUnit> units = g.cancelGoal();&#xD;
+             availableUnitsList.addAll(units);&#xD;
+             git.remove();&#xD;
+         }&#xD;
+     }&#xD;
+&#xD;
+     //check whether our unit references are still valid,&#xD;
+     //so that we can use them in the following step&#xD;
+     validateOwnedUnits();&#xD;
+&#xD;
+     //Run through available units. If it's a missionary, create a subgoal&#xD;
+     //for it. If not, return unit to AIPlayer.&#xD;
+     Iterator&lt;AIUnit> uit = availableUnitsList.iterator();&#xD;
+     while (uit.hasNext()) {&#xD;
+         AIUnit u = uit.next();&#xD;
+         uit.remove();&#xD;
+&#xD;
+         if (&quot;model.role.missionary&quot;.equals(u.getUnit().getRole().getId())) {&#xD;
+             IndianSettlement i = findSettlement(u.getUnit().getTile());&#xD;
+             if (i != null) {&#xD;
+                 PathNode pathNode = u.getUnit().findPath(i.getTile());&#xD;
+                 if (pathNode != null) {&#xD;
+                     logger.info(&quot;Creating subgoal CreateMissionAtSettlementGoal.&quot;);&#xD;
+                     CreateMissionAtSettlementGoal g = new CreateMissionAtSettlementGoal(player,this,1,u,i);&#xD;
+                     subGoalList.add(g);&#xD;
+                 }&#xD;
+             }&#xD;
+         } else {&#xD;
+             //Setting goal=null will make the unit appear in the unit iterator next turn.&#xD;
+             //FIXME: What about this turn?&#xD;
+             u.setGoal(null);&#xD;
+         }&#xD;
+     }&#xD;
+&#xD;
+     if (availableUnitsList.isEmpty() &amp;&amp; subGoalList.isEmpty()) {&#xD;
+         //we don't have any units to deal with, and no active subgoals&#xD;
+         //signal that we may safely be cancelled now&#xD;
+         isFinished = true;&#xD;
+     } else {&#xD;
+         //set subgoal weights in case their number has changed&#xD;
+         float newWeight = 1f/subGoalList.size();&#xD;
+         git = subGoalList.iterator();&#xD;
+         while (git.hasNext()) {&#xD;
+             Goal g = git.next();&#xD;
+             g.setWeight(newWeight);&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB59LlJPEeiyW7NaN4qWdw" name="getGoalDescription" specification="_t9unw1JPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB59L1JPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>String descr = super.getGoalDescription();&#xD;
+     return descr + &quot;:&quot; + availableUnitsList.size();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB6kMFJPEeiyW7NaN4qWdw" name="findSettlement" specification="_uBuW81JPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB6kMVJPEeiyW7NaN4qWdw" name="tile" type="_uBbcAFJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uB6kMlJPEeiyW7NaN4qWdw" type="_uBYYsFJPEeiyW7NaN4qWdw" direction="return"/>
+                    <language>java</language>
+                    <body>return (tile == null)&#xD;
+         //FIXME: We're in europe - let's deal with it.&#xD;
+         ? null&#xD;
+         //Possible FIXME: Slightly randomize findings?&#xD;
+         //Otherwise, missionaries starting from the same position will find&#xD;
+         //the same settlement.&#xD;
+         : find(map(tile.getSurroundingTiles(1, MAX_SEARCH_RADIUS),&#xD;
+                 t -> t.getIndianSettlement()),&#xD;
+             is -> is != null &amp;&amp; !is.hasMissionary(player.getPlayer()),&#xD;
+             null);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uB6kM1JPEeiyW7NaN4qWdw" name="getXMLTagName" specification="_t9vO01JPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uB6kNFJPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return getXMLElementTagName(); </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_t9sLgFJPEeiyW7NaN4qWdw" name="getOwnedAIUnitsIterator" visibility="protected" method="_uB59J1JPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uBtv4FJPEeiyW7NaN4qWdw" type="_uBOAoFJPEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9tZoFJPEeiyW7NaN4qWdw" name="getSubGoalIterator" visibility="protected" method="_uB59KVJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uBtv4VJPEeiyW7NaN4qWdw" type="_uBOAoFJPEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9uAs1JPEeiyW7NaN4qWdw" name="plan" visibility="protected" method="_uB59LVJPEeiyW7NaN4qWdw"/>
+                  <ownedOperation xmi:id="_t9unw1JPEeiyW7NaN4qWdw" name="getGoalDescription" method="_uB59LlJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_t9unxFJPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_t9vO01JPEeiyW7NaN4qWdw" name="getXMLTagName" method="_uB6kM1JPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_t9v14FJPEeiyW7NaN4qWdw" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_uBtI0FJPEeiyW7NaN4qWdw" name="ManageMissionariesGoal" method="_uB59IlJPEeiyW7NaN4qWdw">
+                    <eAnnotations xmi:id="_uBtI1FJPEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_uBtI1VJPEeiyW7NaN4qWdw" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_uBtI0VJPEeiyW7NaN4qWdw" name="p" type="_uBRrAVJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uBtI0lJPEeiyW7NaN4qWdw" name="g" type="_t9TJ8FJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uBtI01JPEeiyW7NaN4qWdw" name="w">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_uBtI1lJPEeiyW7NaN4qWdw" type="_t9rkcFJPEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_uBtv4lJPEeiyW7NaN4qWdw" name="removeUnit" visibility="protected" method="_uB59K1JPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uBtv41JPEeiyW7NaN4qWdw" name="u" type="_uBSSEVJPEeiyW7NaN4qWdw"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_uBuW81JPEeiyW7NaN4qWdw" name="findSettlement" visibility="private" method="_uB6kMFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uBuW9FJPEeiyW7NaN4qWdw" name="tile" type="_uBbcAFJPEeiyW7NaN4qWdw"/>
+                    <ownedParameter xmi:id="_uBuW9VJPEeiyW7NaN4qWdw" type="_uBYYsFJPEeiyW7NaN4qWdw" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_uBu-AFJPEeiyW7NaN4qWdw" name="toXML" raisedException="_uBWjgFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uBu-AVJPEeiyW7NaN4qWdw" name="xw" type="_uBXxoVJPEeiyW7NaN4qWdw"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_uBvlEFJPEeiyW7NaN4qWdw" name="readFromXML" raisedException="_uBWjgFJPEeiyW7NaN4qWdw">
+                    <ownedParameter xmi:id="_uBvlEVJPEeiyW7NaN4qWdw" name="xr" type="_uBXKkVJPEeiyW7NaN4qWdw"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_uB9ngFJPEeiyW7NaN4qWdw" name="" memberEnd="_uB9ngVJPEeiyW7NaN4qWdw _uBwzMFJPEeiyW7NaN4qWdw">
+                  <ownedEnd xmi:id="_uB9ngVJPEeiyW7NaN4qWdw" name="" type="_t9TJ8FJPEeiyW7NaN4qWdw" association="_uB9ngFJPEeiyW7NaN4qWdw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_uB-OkVJPEeiyW7NaN4qWdw" name="" memberEnd="_uB-OklJPEeiyW7NaN4qWdw _uByBUlJPEeiyW7NaN4qWdw">
+                  <ownedEnd xmi:id="_uB-OklJPEeiyW7NaN4qWdw" name="" type="_t9TJ8FJPEeiyW7NaN4qWdw" association="_uB-OkVJPEeiyW7NaN4qWdw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_uB-1oVJPEeiyW7NaN4qWdw" name="" memberEnd="_uB-1olJPEeiyW7NaN4qWdw _uByoYVJPEeiyW7NaN4qWdw">
+                  <ownedEnd xmi:id="_uB-1olJPEeiyW7NaN4qWdw" name="" type="_t9TJ8FJPEeiyW7NaN4qWdw" association="_uB-1oVJPEeiyW7NaN4qWdw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_uCB48VJPEeiyW7NaN4qWdw" name="" memberEnd="_uCB48lJPEeiyW7NaN4qWdw _uByoY1JPEeiyW7NaN4qWdw">
+                  <ownedEnd xmi:id="_uCB48lJPEeiyW7NaN4qWdw" name="" type="_t9TJ8FJPEeiyW7NaN4qWdw" association="_uCB48VJPEeiyW7NaN4qWdw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_uCCgAVJPEeiyW7NaN4qWdw" name="" memberEnd="_uCCgAlJPEeiyW7NaN4qWdw _uBz2gFJPEeiyW7NaN4qWdw">
+                  <ownedEnd xmi:id="_uCCgAlJPEeiyW7NaN4qWdw" name="" type="_t9eJEFJPEeiyW7NaN4qWdw" association="_uCCgAVJPEeiyW7NaN4qWdw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_uCDHEVJPEeiyW7NaN4qWdw" name="" memberEnd="_uCDHElJPEeiyW7NaN4qWdw _uBz2glJPEeiyW7NaN4qWdw">
+                  <ownedEnd xmi:id="_uCDHElJPEeiyW7NaN4qWdw" name="" type="_t9eJEFJPEeiyW7NaN4qWdw" association="_uCDHEVJPEeiyW7NaN4qWdw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_uCDuIVJPEeiyW7NaN4qWdw" name="" memberEnd="_uCDuIlJPEeiyW7NaN4qWdw _uBz2hFJPEeiyW7NaN4qWdw">
+                  <ownedEnd xmi:id="_uCDuIlJPEeiyW7NaN4qWdw" name="" type="_t9eJEFJPEeiyW7NaN4qWdw" association="_uCDuIVJPEeiyW7NaN4qWdw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_uCEVMVJPEeiyW7NaN4qWdw" name="" memberEnd="_uCEVMlJPEeiyW7NaN4qWdw _uB0dkFJPEeiyW7NaN4qWdw">
+                  <ownedEnd xmi:id="_uCEVMlJPEeiyW7NaN4qWdw" name="" type="_t9k2wFJPEeiyW7NaN4qWdw" association="_uCEVMVJPEeiyW7NaN4qWdw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_uCGKYVJPEeiyW7NaN4qWdw" name="" memberEnd="_uCGKYlJPEeiyW7NaN4qWdw _uB0dklJPEeiyW7NaN4qWdw">
+                  <ownedEnd xmi:id="_uCGKYlJPEeiyW7NaN4qWdw" name="" type="_t9k2wFJPEeiyW7NaN4qWdw" association="_uCGKYVJPEeiyW7NaN4qWdw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_uCGxcVJPEeiyW7NaN4qWdw" name="" memberEnd="_uCGxclJPEeiyW7NaN4qWdw _uB1EoFJPEeiyW7NaN4qWdw">
+                  <ownedEnd xmi:id="_uCGxclJPEeiyW7NaN4qWdw" name="" type="_t9rkcFJPEeiyW7NaN4qWdw" association="_uCGxcVJPEeiyW7NaN4qWdw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_uCH_kFJPEeiyW7NaN4qWdw" name="" memberEnd="_uCH_kVJPEeiyW7NaN4qWdw _uB1EolJPEeiyW7NaN4qWdw">
+                  <ownedEnd xmi:id="_uCH_kVJPEeiyW7NaN4qWdw" name="" type="_t9rkcFJPEeiyW7NaN4qWdw" association="_uCH_kFJPEeiyW7NaN4qWdw"/>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_uBRD81JPEeiyW7NaN4qWdw" name="AIObject"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_uBRrAVJPEeiyW7NaN4qWdw" name="AIPlayer"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_uBSSEVJPEeiyW7NaN4qWdw" name="AIUnit"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_uBY_wVJPEeiyW7NaN4qWdw" name="AIMessage"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_t86vc1JPEeiyW7NaN4qWdw" name="common">
+            <packagedElement xmi:type="uml:Package" xmi:id="_t86vdFJPEeiyW7NaN4qWdw" name="model">
+              <packagedElement xmi:type="uml:Package" xmi:id="_t9D5YFJPEeiyW7NaN4qWdw" name="Unit">
+                <packagedElement xmi:type="uml:Enumeration" xmi:id="_uBcDEVJPEeiyW7NaN4qWdw" name="MoveType"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_uBP101JPEeiyW7NaN4qWdw" name="GoodsType"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_uBQc4VJPEeiyW7NaN4qWdw" name="UnitType"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_uBYYsFJPEeiyW7NaN4qWdw" name="IndianSettlement"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_uBYYslJPEeiyW7NaN4qWdw" name="PathNode"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_uBbcAFJPEeiyW7NaN4qWdw" name="Tile"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_t86vdVJPEeiyW7NaN4qWdw" name="util">
+              <packagedElement xmi:type="uml:Class" xmi:id="_uBRD8VJPEeiyW7NaN4qWdw" name="StringUtils"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_uBd4QFJPEeiyW7NaN4qWdw" name="CollectionUtils"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_t9BdIlJPEeiyW7NaN4qWdw" name="io">
+              <packagedElement xmi:type="uml:Class" xmi:id="_uBXKkVJPEeiyW7NaN4qWdw" name="FreeColXMLReader"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_uBXxoVJPEeiyW7NaN4qWdw" name="FreeColXMLWriter"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_t86vcFJPEeiyW7NaN4qWdw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_t86vcVJPEeiyW7NaN4qWdw" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_t86vclJPEeiyW7NaN4qWdw" name="logging">
+          <packagedElement xmi:type="uml:Class" xmi:id="_uBP10VJPEeiyW7NaN4qWdw" name="Logger"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_uBOAoFJPEeiyW7NaN4qWdw" name="Iterator"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_uBOnsVJPEeiyW7NaN4qWdw" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uBPOwVJPEeiyW7NaN4qWdw" name="ArrayList"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_t9A2EFJPEeiyW7NaN4qWdw" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_t9BdIFJPEeiyW7NaN4qWdw" name="xml">
+        <packagedElement xmi:type="uml:Package" xmi:id="_t9BdIVJPEeiyW7NaN4qWdw" name="stream">
+          <packagedElement xmi:type="uml:Class" xmi:id="_uBWjgFJPEeiyW7NaN4qWdw" name="XMLStreamException"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_tstJMFJPEeiyW7NaN4qWdw">
+      <eAnnotations xmi:id="_tstJMVJPEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_tstJMlJPEeiyW7NaN4qWdw" base_Package="_stBN0FJPEeiyW7NaN4qWdw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Generics xmi:id="_t9YpgFJPEeiyW7NaN4qWdw" genericsValue="AIUnit" base_Element="_t9YCdFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Generics xmi:id="_t9ZQkFJPEeiyW7NaN4qWdw" genericsValue="Goal" base_Element="_t9YpgVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Generics xmi:id="_t9fXMFJPEeiyW7NaN4qWdw" genericsValue="AIUnit" base_Element="_t9ewIFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9fXMVJPEeiyW7NaN4qWdw" base_Element="_t9ewIFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9fXMlJPEeiyW7NaN4qWdw" base_Element="_t9ewIFJPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_t9f-QFJPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_t9f-QlJPEeiyW7NaN4qWdw" genericsValue="Goal" base_Element="_t9f-QVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9glUFJPEeiyW7NaN4qWdw" base_Element="_t9f-QVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9glUVJPEeiyW7NaN4qWdw" base_Element="_t9f-QVJPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_t9glUlJPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9glVFJPEeiyW7NaN4qWdw" base_Element="_t9glU1JPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9hMYFJPEeiyW7NaN4qWdw" base_Element="_t9glU1JPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_t9hMYVJPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9hMZFJPEeiyW7NaN4qWdw" base_Element="_t9hMYlJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9hzcFJPEeiyW7NaN4qWdw" base_Element="_t9hMYlJPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_t9hzcVJPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9hzdFJPEeiyW7NaN4qWdw" base_Element="_t9hzclJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9iagFJPEeiyW7NaN4qWdw" base_Element="_t9hzclJPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_t9iagVJPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_t9mE4FJPEeiyW7NaN4qWdw" genericsValue="AIUnit" base_Element="_t9ld0FJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9mE4VJPEeiyW7NaN4qWdw" base_Element="_t9ld0FJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9mE4lJPEeiyW7NaN4qWdw" base_Element="_t9ld0FJPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_t9mE41JPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_t9mr8VJPEeiyW7NaN4qWdw" genericsValue="Goal" base_Element="_t9mr8FJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9nTAFJPEeiyW7NaN4qWdw" base_Element="_t9mr8FJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9nTAVJPEeiyW7NaN4qWdw" base_Element="_t9mr8FJPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_t9nTAlJPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9n6EFJPEeiyW7NaN4qWdw" base_Element="_t9nTA1JPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9n6EVJPEeiyW7NaN4qWdw" base_Element="_t9nTA1JPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_t9n6ElJPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9ohIFJPEeiyW7NaN4qWdw" base_Element="_t9n6E1JPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9ohIVJPEeiyW7NaN4qWdw" base_Element="_t9n6E1JPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_t9ohIlJPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9pIMFJPEeiyW7NaN4qWdw" base_Element="_t9ohI1JPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9pIMVJPEeiyW7NaN4qWdw" base_Element="_t9ohI1JPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_t9pIMlJPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_t9sykFJPEeiyW7NaN4qWdw" genericsValue="AIUnit" base_Element="_t9sLgFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9sykVJPEeiyW7NaN4qWdw" base_Element="_t9sLgFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9syklJPEeiyW7NaN4qWdw" base_Element="_t9sLgFJPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_t9syk1JPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_t9tZoVJPEeiyW7NaN4qWdw" genericsValue="Goal" base_Element="_t9tZoFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9uAsFJPEeiyW7NaN4qWdw" base_Element="_t9tZoFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9uAsVJPEeiyW7NaN4qWdw" base_Element="_t9tZoFJPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_t9uAslJPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9unwFJPEeiyW7NaN4qWdw" base_Element="_t9uAs1JPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9unwVJPEeiyW7NaN4qWdw" base_Element="_t9uAs1JPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_t9unwlJPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9vO0FJPEeiyW7NaN4qWdw" base_Element="_t9unw1JPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9vO0VJPEeiyW7NaN4qWdw" base_Element="_t9unw1JPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_t9vO0lJPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9v14VJPEeiyW7NaN4qWdw" base_Element="_t9vO01JPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9v14lJPEeiyW7NaN4qWdw" base_Element="_t9vO01JPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_t9v141JPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_uBOnsFJPEeiyW7NaN4qWdw" base_Element="_uBOAoFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uBPOwFJPEeiyW7NaN4qWdw" base_Element="_uBOnsVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uBP10FJPEeiyW7NaN4qWdw" base_Element="_uBPOwVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uBP10lJPEeiyW7NaN4qWdw" base_Element="_uBP10VJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uBQc4FJPEeiyW7NaN4qWdw" base_Element="_uBP101JPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uBRD8FJPEeiyW7NaN4qWdw" base_Element="_uBQc4VJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uBRD8lJPEeiyW7NaN4qWdw" base_Element="_uBRD8VJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uBRrAFJPEeiyW7NaN4qWdw" base_Element="_uBRD81JPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uBSSEFJPEeiyW7NaN4qWdw" base_Element="_uBRrAVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uBSSElJPEeiyW7NaN4qWdw" base_Element="_uBSSEVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uBXKkFJPEeiyW7NaN4qWdw" base_Element="_uBWjgFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uBXxoFJPEeiyW7NaN4qWdw" base_Element="_uBXKkVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uBXxolJPEeiyW7NaN4qWdw" base_Element="_uBXxoVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uBYYsVJPEeiyW7NaN4qWdw" base_Element="_uBYYsFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uBY_wFJPEeiyW7NaN4qWdw" base_Element="_uBYYslJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uBY_wlJPEeiyW7NaN4qWdw" base_Element="_uBY_wVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uBcDEFJPEeiyW7NaN4qWdw" base_Element="_uBbcAFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uBcDElJPEeiyW7NaN4qWdw" base_Element="_uBcDEVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uBefUFJPEeiyW7NaN4qWdw" base_Element="_uBd4QFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uBoQU1JPEeiyW7NaN4qWdw" base_Element="_uBoQUVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_uBoQVFJPEeiyW7NaN4qWdw" base_Element="_uBoQUVJPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_uBoQVVJPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uBo3YlJPEeiyW7NaN4qWdw" base_Element="_uBo3YFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_uBo3Y1JPEeiyW7NaN4qWdw" base_Element="_uBo3YFJPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_uBo3ZFJPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uBpeclJPEeiyW7NaN4qWdw" base_Element="_uBpecFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_uBpec1JPEeiyW7NaN4qWdw" base_Element="_uBpecFJPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_uBpedFJPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uBrTolJPEeiyW7NaN4qWdw" base_Element="_uBrToFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_uBrTo1JPEeiyW7NaN4qWdw" base_Element="_uBrToFJPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_uBrTpFJPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uBr6sVJPEeiyW7NaN4qWdw" base_Element="_uBrTpVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_uBr6slJPEeiyW7NaN4qWdw" base_Element="_uBrTpVJPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_uBr6s1JPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uBshwFJPEeiyW7NaN4qWdw" base_Element="_uBr6tFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_uBshwVJPEeiyW7NaN4qWdw" base_Element="_uBr6tFJPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_uBshwlJPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uBuW8FJPEeiyW7NaN4qWdw" base_Element="_uBtv4lJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_uBuW8VJPEeiyW7NaN4qWdw" base_Element="_uBtv4lJPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_uBuW8lJPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uBu-AlJPEeiyW7NaN4qWdw" base_Element="_uBu-AFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_uBu-A1JPEeiyW7NaN4qWdw" base_Element="_uBu-AFJPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_uBu-BFJPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uBvlElJPEeiyW7NaN4qWdw" base_Element="_uBvlEFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_uBvlE1JPEeiyW7NaN4qWdw" base_Element="_uBvlEFJPEeiyW7NaN4qWdw">
+    <annotations xmi:id="_uBvlFFJPEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uBxaQlJPEeiyW7NaN4qWdw" base_Element="_uBxaQVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uBxaRFJPEeiyW7NaN4qWdw" base_Element="_uBxaQ1JPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uByBUVJPEeiyW7NaN4qWdw" base_Element="_uByBUFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uByoYFJPEeiyW7NaN4qWdw" base_Element="_uByBUlJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uByoYlJPEeiyW7NaN4qWdw" base_Element="_uByoYVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uByoZFJPEeiyW7NaN4qWdw" base_Element="_uByoY1JPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uBz2g1JPEeiyW7NaN4qWdw" base_Element="_uBz2glJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uBz2hVJPEeiyW7NaN4qWdw" base_Element="_uBz2hFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uB0dk1JPEeiyW7NaN4qWdw" base_Element="_uB0dklJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uB1rsFJPEeiyW7NaN4qWdw" base_Element="_uB1EolJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uB-OkFJPEeiyW7NaN4qWdw" base_Element="_uB9ngFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uB-1oFJPEeiyW7NaN4qWdw" base_Element="_uB-OkVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uCB48FJPEeiyW7NaN4qWdw" base_Element="_uB-1oVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uCCgAFJPEeiyW7NaN4qWdw" base_Element="_uCB48VJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uCDHEFJPEeiyW7NaN4qWdw" base_Element="_uCCgAVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uCDuIFJPEeiyW7NaN4qWdw" base_Element="_uCDHEVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uCEVMFJPEeiyW7NaN4qWdw" base_Element="_uCDuIVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uCGKYFJPEeiyW7NaN4qWdw" base_Element="_uCEVMVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uCGxcFJPEeiyW7NaN4qWdw" base_Element="_uCGKYVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uCHYgFJPEeiyW7NaN4qWdw" base_Element="_uCGxcVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_uCImoFJPEeiyW7NaN4qWdw" base_Element="_uCH_kFJPEeiyW7NaN4qWdw"/>
+</xmi:XMI>

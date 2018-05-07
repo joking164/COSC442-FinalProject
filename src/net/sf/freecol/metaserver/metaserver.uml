@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_0RpSUFJOEeiyW7NaN4qWdw" name="metaserver">
+    <eAnnotations xmi:id="_1JYyoFJOEeiyW7NaN4qWdw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_1JYyoVJOEeiyW7NaN4qWdw" source="codegen">
+        <details xmi:id="_1JYyolJOEeiyW7NaN4qWdw" key="codegenDirectory" value="/COSC442-FinalProject/src"/>
+        <details xmi:id="_1ntGUFJOEeiyW7NaN4qWdw" key="AssociatedSourceCode" value="/COSC442-FinalProject/src/net/sf/freecol/metaserver/MetaItem.java;904103119/1;/COSC442-FinalProject/src/net/sf/freecol/metaserver/MetaRegister.java;332210528/1;/COSC442-FinalProject/src/net/sf/freecol/metaserver/MetaServer.java;328161620/1;/COSC442-FinalProject/src/net/sf/freecol/metaserver/NetworkHandler.java;2263141729/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_1UyKUFJOEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_1UyxYFJOEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_1UyxYVJOEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_1UyxYlJOEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_1UyxY1JOEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_1UyxZFJOEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_1UyxZVJOEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_1UyxZlJOEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_1UzYcFJOEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1UZv0FJOEeiyW7NaN4qWdw" name="net">
+      <packagedElement xmi:type="uml:Package" xmi:id="_1UZv0VJOEeiyW7NaN4qWdw" name="sf">
+        <packagedElement xmi:type="uml:Package" xmi:id="_1UZv0lJOEeiyW7NaN4qWdw" name="freecol">
+          <packagedElement xmi:type="uml:Package" xmi:id="_1UaW41JOEeiyW7NaN4qWdw" name="common">
+            <packagedElement xmi:type="uml:Package" xmi:id="_1UdaMVJOEeiyW7NaN4qWdw" name="networking">
+              <packagedElement xmi:type="uml:Class" xmi:id="_1YHLIVJOEeiyW7NaN4qWdw" name="Connection"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_1YHyMVJOEeiyW7NaN4qWdw" name="DOMMessage"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_1YsZ8FJOEeiyW7NaN4qWdw" name="MessageHandler"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_1YC5sVJOEeiyW7NaN4qWdw" name="ServerInfo"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_1UcMEFJOEeiyW7NaN4qWdw" name="metaserver">
+            <packagedElement xmi:type="uml:Class" xmi:id="_1UxjQFJOEeiyW7NaN4qWdw" name="MetaItem">
+              <ownedComment xmi:id="_1ZjVmFJOEeiyW7NaN4qWdw">
+                <body>This object stores information about a single running server.</body>
+              </ownedComment>
+              <generalization xmi:id="_1Yx5gFJOEeiyW7NaN4qWdw" general="_1YC5sVJOEeiyW7NaN4qWdw"/>
+              <ownedAttribute xmi:id="_1Y7qgFJOEeiyW7NaN4qWdw" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_1YCSoFJOEeiyW7NaN4qWdw" isReadOnly="true" association="_1Zm_8FJOEeiyW7NaN4qWdw">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_1Y7qgVJOEeiyW7NaN4qWdw" value="Logger.getLogger(MetaItem.class.getName())"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_1Y84oFJOEeiyW7NaN4qWdw" name="lastUpdated" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZfEIFJOEeiyW7NaN4qWdw" name="MetaItem" specification="_1U2bwFJOEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_1ZfEIVJOEeiyW7NaN4qWdw" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZfEIlJOEeiyW7NaN4qWdw" name="address">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZfEI1JOEeiyW7NaN4qWdw" name="port">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZfEJFJOEeiyW7NaN4qWdw" name="slotsAvailable">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZfEJVJOEeiyW7NaN4qWdw" name="currentlyPlaying">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZfEJlJOEeiyW7NaN4qWdw" name="isGameStarted">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZfEJ1JOEeiyW7NaN4qWdw" name="version">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZfEKFJOEeiyW7NaN4qWdw" name="gameState">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZfEKVJOEeiyW7NaN4qWdw" type="_1UxjQFJOEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>super();&#xD;
+     update(name, address, port, slotsAvailable, currentlyPlaying, isGameStarted, version, gameState);&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZfEKlJOEeiyW7NaN4qWdw" name="update" specification="_1VGTYFJOEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_1ZfEK1JOEeiyW7NaN4qWdw" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZfELFJOEeiyW7NaN4qWdw" name="address">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZfELVJOEeiyW7NaN4qWdw" name="port">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZfELlJOEeiyW7NaN4qWdw" name="slotsAvailable">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZfEL1JOEeiyW7NaN4qWdw" name="currentlyPlaying">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZfEMFJOEeiyW7NaN4qWdw" name="isGameStarted">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZfEMVJOEeiyW7NaN4qWdw" name="version">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZfEMlJOEeiyW7NaN4qWdw" name="gameState">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>super.update(name, address, port, slotsAvailable, currentlyPlaying, isGameStarted, version, gameState);&#xD;
+     lastUpdated = System.currentTimeMillis();&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_1U2bwFJOEeiyW7NaN4qWdw" name="MetaItem" method="_1ZfEIFJOEeiyW7NaN4qWdw">
+                <eAnnotations xmi:id="_1VFsVVJOEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_1VFsVlJOEeiyW7NaN4qWdw" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_1U3C0FJOEeiyW7NaN4qWdw" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1U77UFJOEeiyW7NaN4qWdw" name="address">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VFFQFJOEeiyW7NaN4qWdw" name="port">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VFsUFJOEeiyW7NaN4qWdw" name="slotsAvailable">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VFsUVJOEeiyW7NaN4qWdw" name="currentlyPlaying">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VFsUlJOEeiyW7NaN4qWdw" name="isGameStarted">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VFsU1JOEeiyW7NaN4qWdw" name="version">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VFsVFJOEeiyW7NaN4qWdw" name="gameState">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VFsV1JOEeiyW7NaN4qWdw" type="_1UxjQFJOEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_1VGTYFJOEeiyW7NaN4qWdw" name="update" method="_1ZfEKlJOEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_1VGTYVJOEeiyW7NaN4qWdw" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VGTYlJOEeiyW7NaN4qWdw" name="address">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VGTY1JOEeiyW7NaN4qWdw" name="port">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VG6cFJOEeiyW7NaN4qWdw" name="slotsAvailable">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VG6cVJOEeiyW7NaN4qWdw" name="currentlyPlaying">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VG6clJOEeiyW7NaN4qWdw" name="isGameStarted">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VG6c1JOEeiyW7NaN4qWdw" name="version">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VG6dFJOEeiyW7NaN4qWdw" name="gameState">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_1VKk0FJOEeiyW7NaN4qWdw" name="MetaRegister" isLeaf="true">
+              <ownedComment xmi:id="_1Zj8oVJOEeiyW7NaN4qWdw">
+                <body>The &lt;code>MetaRegister&lt;/code> stores information about running servers.&#xD;
+Each server has it's own {@link MetaItem} object.</body>
+              </ownedComment>
+              <ownedAttribute xmi:id="_1Y9fsFJOEeiyW7NaN4qWdw" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_1YCSoFJOEeiyW7NaN4qWdw" isReadOnly="true" association="_1ZnnAVJOEeiyW7NaN4qWdw">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_1Y_78FJOEeiyW7NaN4qWdw" value="Logger.getLogger(MetaRegister.class.getName())"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_1ZAjAFJOEeiyW7NaN4qWdw" name="items" visibility="private" isLeaf="true" type="_1YFV8VJOEeiyW7NaN4qWdw" isReadOnly="true" association="_1ZoOEVJOEeiyW7NaN4qWdw">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_1ZBKEVJOEeiyW7NaN4qWdw" value="new ArrayList&lt;>()"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZfrMFJOEeiyW7NaN4qWdw" name="getItem" specification="_1VLL4FJOEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_1ZfrMVJOEeiyW7NaN4qWdw" name="address">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZfrMlJOEeiyW7NaN4qWdw" name="port">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZfrM1JOEeiyW7NaN4qWdw" type="_1UxjQFJOEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>int index = indexOf(address, port);&#xD;
+     if (index >= 0) {&#xD;
+         return items.get(index);&#xD;
+     } else {&#xD;
+         return null;&#xD;
+     }&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZfrNFJOEeiyW7NaN4qWdw" name="indexOf" specification="_1VLy8lJOEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_1ZfrNVJOEeiyW7NaN4qWdw" name="address">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZfrNlJOEeiyW7NaN4qWdw" name="port">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZfrN1JOEeiyW7NaN4qWdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>for (int i=0; i&lt;items.size(); i++) {&#xD;
+         if (address.equals(items.get(i).getAddress()) &amp;&amp; port == items.get(i).getPort()) {&#xD;
+             return i;&#xD;
+         }&#xD;
+     }&#xD;
+&#xD;
+     return -1;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZfrOFJOEeiyW7NaN4qWdw" name="removeDeadServers" specification="_1VMaAVJOEeiyW7NaN4qWdw">
+                <language>java</language>
+                <body>logger.info(&quot;Removing dead servers.&quot;);&#xD;
+&#xD;
+     long time = System.currentTimeMillis() - MetaServer.REMOVE_OLDER_THAN;&#xD;
+     for (int i=0; i&lt;items.size(); i++) {&#xD;
+         if (items.get(i).getLastUpdated() &lt; time) {&#xD;
+             logger.info(&quot;Removing: &quot; + items.get(i));&#xD;
+             items.remove(i);&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZgSQFJOEeiyW7NaN4qWdw" name="addServer" specification="_1VMaBFJOEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_1ZgSQVJOEeiyW7NaN4qWdw" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZgSQlJOEeiyW7NaN4qWdw" name="address">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZgSQ1JOEeiyW7NaN4qWdw" name="port">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZgSRFJOEeiyW7NaN4qWdw" name="slotsAvailable">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZgSRVJOEeiyW7NaN4qWdw" name="currentlyPlaying">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZgSRlJOEeiyW7NaN4qWdw" name="isGameStarted">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZgSR1JOEeiyW7NaN4qWdw" name="version">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZgSSFJOEeiyW7NaN4qWdw" name="gameState">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>MetaItem mi = getItem(address, port);&#xD;
+     if (mi == null) {&#xD;
+         // Check connection before adding the server:&#xD;
+         try (&#xD;
+             Connection mc = new Connection(address, port, null,&#xD;
+                                            FreeCol.METASERVER_THREAD);&#xD;
+         ) {&#xD;
+             mc.send(DOMMessage.createMessage(&quot;disconnect&quot;));&#xD;
+         } catch (IOException e) {&#xD;
+             logger.log(Level.WARNING, &quot;Server rejected disconnect.&quot;, e);&#xD;
+             throw e;&#xD;
+         }&#xD;
+         items.add(new MetaItem(name, address, port, slotsAvailable,&#xD;
+                 currentlyPlaying, isGameStarted, version, gameState));&#xD;
+         logger.info(&quot;Server added:&quot; + address + &quot;:&quot; + port);&#xD;
+     } else {&#xD;
+         updateServer(mi, name, address, port, slotsAvailable,&#xD;
+             currentlyPlaying, isGameStarted, version, gameState);&#xD;
+     }&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZgSSVJOEeiyW7NaN4qWdw" name="updateServer" specification="_1VNoIFJOEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_1ZgSSlJOEeiyW7NaN4qWdw" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZgSS1JOEeiyW7NaN4qWdw" name="address">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZgSTFJOEeiyW7NaN4qWdw" name="port">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZgSTVJOEeiyW7NaN4qWdw" name="slotsAvailable">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZgSTlJOEeiyW7NaN4qWdw" name="currentlyPlaying">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZgST1JOEeiyW7NaN4qWdw" name="isGameStarted">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZgSUFJOEeiyW7NaN4qWdw" name="version">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZgSUVJOEeiyW7NaN4qWdw" name="gameState">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>MetaItem mi = getItem(address, port);&#xD;
+     if (mi == null) {&#xD;
+         addServer(name, address, port, slotsAvailable, currentlyPlaying, isGameStarted, version, gameState);&#xD;
+     } else {&#xD;
+         updateServer(mi, name, address, port, slotsAvailable, currentlyPlaying, isGameStarted, version, gameState);&#xD;
+     }&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZgSUlJOEeiyW7NaN4qWdw" name="removeServer" specification="_1VOPMFJOEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_1ZgSU1JOEeiyW7NaN4qWdw" name="address">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZgSVFJOEeiyW7NaN4qWdw" name="port">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>int index = indexOf(address, port);&#xD;
+     if (index >= 0) {&#xD;
+         items.remove(index);&#xD;
+         logger.info(&quot;Removing server:&quot; + address + &quot;:&quot; + port);&#xD;
+     } else {&#xD;
+         logger.info(&quot;Trying to remove non-existing server:&quot; + address + &quot;:&quot; + port);&#xD;
+     }&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZgSVVJOEeiyW7NaN4qWdw" name="createServerList" specification="_1VO2QFJOEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_1ZgSVlJOEeiyW7NaN4qWdw" type="_1YIZQVJOEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>Element element = DOMMessage.createMessage(&quot;serverList&quot;);&#xD;
+     for (MetaItem item : items) {&#xD;
+         element.appendChild(item.toXMLElement(element.getOwnerDocument()));&#xD;
+     }&#xD;
+     return element;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1Zg5UFJOEeiyW7NaN4qWdw" name="updateServer" specification="_1YJAUlJOEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_1Zg5UVJOEeiyW7NaN4qWdw" name="mi" type="_1UxjQFJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1Zg5UlJOEeiyW7NaN4qWdw" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1Zg5U1JOEeiyW7NaN4qWdw" name="address">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1Zg5VFJOEeiyW7NaN4qWdw" name="port">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1Zg5VVJOEeiyW7NaN4qWdw" name="slotsAvailable">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1Zg5VlJOEeiyW7NaN4qWdw" name="currentlyPlaying">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1Zg5V1JOEeiyW7NaN4qWdw" name="isGameStarted">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1Zg5WFJOEeiyW7NaN4qWdw" name="version">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1Zg5WVJOEeiyW7NaN4qWdw" name="gameState">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>mi.update(name, address, port, slotsAvailable, currentlyPlaying, isGameStarted, version, gameState);&#xD;
+     logger.info(&quot;Server updated:&quot; + mi.toString());&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_1VLL4FJOEeiyW7NaN4qWdw" name="getItem" visibility="private" method="_1ZfrMFJOEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_1Zj8olJOEeiyW7NaN4qWdw">
+                  <body>Gets the server entry with the diven address and port.&#xD;
+     *&#xD;
+     * @param address The IP-address of the server.&#xD;
+     * @param port The port number of the server.&#xD;
+     * @return The server entry or &lt;code>null&lt;/code> if the given &#xD;
+     *         entry could not be found.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_1VLy8FJOEeiyW7NaN4qWdw" name="address">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VLy8VJOEeiyW7NaN4qWdw" name="port">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1YJAUVJOEeiyW7NaN4qWdw" type="_1UxjQFJOEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_1VLy8lJOEeiyW7NaN4qWdw" name="indexOf" visibility="private" method="_1ZfrNFJOEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_1Zj8o1JOEeiyW7NaN4qWdw">
+                  <body>Gets the index of the server entry with the diven address and port.&#xD;
+     *&#xD;
+     * @param address The IP-address of the server.&#xD;
+     * @param port The port number of the server.&#xD;
+     * @return The index or &lt;code>-1&lt;/code> if the given entry could&#xD;
+     *     not be found.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_1VLy81JOEeiyW7NaN4qWdw" name="address">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VLy9FJOEeiyW7NaN4qWdw" name="port">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VMaAFJOEeiyW7NaN4qWdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_1VMaAVJOEeiyW7NaN4qWdw" name="removeDeadServers" method="_1ZfrOFJOEeiyW7NaN4qWdw">
+                <eAnnotations xmi:id="_1VMaAlJOEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_1VMaA1JOEeiyW7NaN4qWdw" key="synchronized"/>
+                </eAnnotations>
+                <ownedComment xmi:id="_1Zj8pFJOEeiyW7NaN4qWdw">
+                  <body>Removes servers that have not sent an update for some time.</body>
+                </ownedComment>
+              </ownedOperation>
+              <ownedOperation xmi:id="_1VMaBFJOEeiyW7NaN4qWdw" name="addServer" method="_1ZgSQFJOEeiyW7NaN4qWdw" raisedException="_1YEu4FJOEeiyW7NaN4qWdw">
+                <eAnnotations xmi:id="_1VNBGFJOEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_1VNBGVJOEeiyW7NaN4qWdw" key="synchronized"/>
+                </eAnnotations>
+                <ownedComment xmi:id="_1Zj8pVJOEeiyW7NaN4qWdw">
+                  <body>Adds a new server with the given attributes.&#xD;
+     *&#xD;
+     * @param name The name of the server.&#xD;
+     * @param address The IP-address of the server.&#xD;
+     * @param port The port number in which clients may connect.&#xD;
+     * @param slotsAvailable Number of players that may conncet.&#xD;
+     * @param currentlyPlaying Number of players that are currently connected.&#xD;
+     * @param isGameStarted &lt;i>true&lt;/i> if the game has started.&#xD;
+     * @param version The version of the server.&#xD;
+     * @param gameState The current state of the game.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_1VNBEFJOEeiyW7NaN4qWdw" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VNBEVJOEeiyW7NaN4qWdw" name="address">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VNBElJOEeiyW7NaN4qWdw" name="port">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VNBE1JOEeiyW7NaN4qWdw" name="slotsAvailable">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VNBFFJOEeiyW7NaN4qWdw" name="currentlyPlaying">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VNBFVJOEeiyW7NaN4qWdw" name="isGameStarted">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VNBFlJOEeiyW7NaN4qWdw" name="version">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VNBF1JOEeiyW7NaN4qWdw" name="gameState">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_1VNoIFJOEeiyW7NaN4qWdw" name="updateServer" method="_1ZgSSVJOEeiyW7NaN4qWdw" raisedException="_1YEu4FJOEeiyW7NaN4qWdw">
+                <eAnnotations xmi:id="_1VNoKVJOEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_1VNoKlJOEeiyW7NaN4qWdw" key="synchronized"/>
+                </eAnnotations>
+                <ownedComment xmi:id="_1Zj8plJOEeiyW7NaN4qWdw">
+                  <body>Updates a server with the given attributes.&#xD;
+     *&#xD;
+     * @param name The name of the server.&#xD;
+     * @param address The IP-address of the server.&#xD;
+     * @param port The port number in which clients may connect.&#xD;
+     * @param slotsAvailable Number of players that may conncet.&#xD;
+     * @param currentlyPlaying Number of players that are currently connected.&#xD;
+     * @param isGameStarted &lt;i>true&lt;/i> if the game has started.&#xD;
+     * @param version The version of the server.&#xD;
+     * @param gameState The current state of the game.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_1VNoIVJOEeiyW7NaN4qWdw" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VNoIlJOEeiyW7NaN4qWdw" name="address">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VNoI1JOEeiyW7NaN4qWdw" name="port">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VNoJFJOEeiyW7NaN4qWdw" name="slotsAvailable">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VNoJVJOEeiyW7NaN4qWdw" name="currentlyPlaying">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VNoJlJOEeiyW7NaN4qWdw" name="isGameStarted">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VNoJ1JOEeiyW7NaN4qWdw" name="version">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VNoKFJOEeiyW7NaN4qWdw" name="gameState">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_1VOPMFJOEeiyW7NaN4qWdw" name="removeServer" method="_1ZgSUlJOEeiyW7NaN4qWdw">
+                <eAnnotations xmi:id="_1VOPM1JOEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_1VOPNFJOEeiyW7NaN4qWdw" key="synchronized"/>
+                </eAnnotations>
+                <ownedComment xmi:id="_1Zj8p1JOEeiyW7NaN4qWdw">
+                  <body>Removes a server from the register.&#xD;
+     *&#xD;
+     * @param address The IP-address of the server to remove.&#xD;
+     * @param port The port number of the server to remove.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_1VOPMVJOEeiyW7NaN4qWdw" name="address">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VOPMlJOEeiyW7NaN4qWdw" name="port">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_1VO2QFJOEeiyW7NaN4qWdw" name="createServerList" method="_1ZgSVVJOEeiyW7NaN4qWdw">
+                <eAnnotations xmi:id="_1VO2QVJOEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_1VO2QlJOEeiyW7NaN4qWdw" key="synchronized"/>
+                </eAnnotations>
+                <ownedComment xmi:id="_1Zj8qFJOEeiyW7NaN4qWdw">
+                  <body>Creates a server list.&#xD;
+     *&#xD;
+     * @return The server list as an XML DOM Element.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_1YzHoFJOEeiyW7NaN4qWdw" type="_1YIZQVJOEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_1YJAUlJOEeiyW7NaN4qWdw" name="updateServer" visibility="private" method="_1Zg5UFJOEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_1Zj8qVJOEeiyW7NaN4qWdw">
+                  <body>Updates a given &lt;code>MetaItem&lt;/code>.&#xD;
+     *&#xD;
+     * @param mi The &lt;code>MetaItem&lt;/code> that should be updated.&#xD;
+     * @param name The name of the server.&#xD;
+     * @param address The IP-address of the server.&#xD;
+     * @param port The port number in which clients may connect.&#xD;
+     * @param slotsAvailable Number of players that may conncet.&#xD;
+     * @param currentlyPlaying Number of players that are currently connected.&#xD;
+     * @param isGameStarted &lt;i>true&lt;/i> if the game has started.&#xD;
+     * @param version The version of the server.&#xD;
+     * @param gameState The current state of the game:&#xD;
+     *     {@link net.sf.freecol.server.FreeColServer.GameState#STARTING_GAME},&#xD;
+     *     {@link net.sf.freecol.server.FreeColServer.GameState#IN_GAME} or&#xD;
+     *     {@link net.sf.freecol.server.FreeColServer.GameState#ENDING_GAME}.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_1YJAU1JOEeiyW7NaN4qWdw" name="mi" type="_1UxjQFJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1YJnYFJOEeiyW7NaN4qWdw" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1YJnYVJOEeiyW7NaN4qWdw" name="address">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1YJnYlJOEeiyW7NaN4qWdw" name="port">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1YJnY1JOEeiyW7NaN4qWdw" name="slotsAvailable">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1YJnZFJOEeiyW7NaN4qWdw" name="currentlyPlaying">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1YJnZVJOEeiyW7NaN4qWdw" name="isGameStarted">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1YJnZlJOEeiyW7NaN4qWdw" name="version">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1YJnZ1JOEeiyW7NaN4qWdw" name="gameState">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_1VQrcFJOEeiyW7NaN4qWdw" name="MetaServer" isLeaf="true">
+              <ownedComment xmi:id="_1Zj8qlJOEeiyW7NaN4qWdw">
+                <body>The entry point and main controller object for the meta server.&#xD;
+&#xD;
+When a new client connects to the meta server a new {@link Connection} is&#xD;
+made, with {@link NetworkHandler} as the control object.&#xD;
+&#xD;
+@see net.sf.freecol.common.networking</body>
+              </ownedComment>
+              <generalization xmi:id="_1Y1j4lJOEeiyW7NaN4qWdw" general="_1YzusVJOEeiyW7NaN4qWdw"/>
+              <ownedAttribute xmi:id="_1ZDmUFJOEeiyW7NaN4qWdw" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_1YCSoFJOEeiyW7NaN4qWdw" isReadOnly="true" association="_1Zo1IVJOEeiyW7NaN4qWdw">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_1ZENYFJOEeiyW7NaN4qWdw" value="Logger.getLogger(MetaServer.class.getName())"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_1ZFbgFJOEeiyW7NaN4qWdw" name="REMOVE_DEAD_SERVERS_INTERVAL" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_1ZGCkFJOEeiyW7NaN4qWdw" value="120000"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_1ZGpoFJOEeiyW7NaN4qWdw" name="REMOVE_OLDER_THAN" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_1ZGpoVJOEeiyW7NaN4qWdw" value="90000"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_1ZGpolJOEeiyW7NaN4qWdw" name="serverSocket" visibility="private" isLeaf="true" type="_1YK1gFJOEeiyW7NaN4qWdw" isReadOnly="true" association="_1ZpcMVJOEeiyW7NaN4qWdw"/>
+              <ownedAttribute xmi:id="_1ZHQsFJOEeiyW7NaN4qWdw" name="connections" visibility="private" isLeaf="true" type="_1YMDoVJOEeiyW7NaN4qWdw" isReadOnly="true" association="_1ZqDQVJOEeiyW7NaN4qWdw">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_1ZH3wVJOEeiyW7NaN4qWdw" value="new HashMap&lt;>()"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_1ZKUAFJOEeiyW7NaN4qWdw" name="running" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_1ZK7EFJOEeiyW7NaN4qWdw" value="true"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_1ZPMgFJOEeiyW7NaN4qWdw" name="port" isLeaf="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_1ZYWcFJOEeiyW7NaN4qWdw" name="networkHandler" visibility="private" isLeaf="true" type="_1Vc4sFJOEeiyW7NaN4qWdw" isReadOnly="true" association="_1ZzNMVJOEeiyW7NaN4qWdw"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZhgYlJOEeiyW7NaN4qWdw" name="main" specification="_1VRSgFJOEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_1ZhgY1JOEeiyW7NaN4qWdw" name="args">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1ZhgZFJOEeiyW7NaN4qWdw" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>int port = -1;&#xD;
+     try {&#xD;
+         port = Integer.parseInt(args[0]);&#xD;
+     } catch (ArrayIndexOutOfBoundsException | NumberFormatException e) {&#xD;
+         System.out.println(&quot;Usage: java net.sf.freecol.metaserver.MetaServer PORT_NUMBER&quot;);&#xD;
+         System.exit(-1);&#xD;
+     }&#xD;
+&#xD;
+     MetaServer metaServer = null;&#xD;
+     try {&#xD;
+         metaServer = new MetaServer(port);&#xD;
+     } catch (IOException e) {&#xD;
+         logger.log(Level.WARNING, &quot;Could not create MetaServer!&quot;, e);&#xD;
+         System.exit(-1);&#xD;
+     }&#xD;
+&#xD;
+     metaServer.start();&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZhgZVJOEeiyW7NaN4qWdw" name="MetaServer" specification="_1VR5klJOEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_1ZhgZlJOEeiyW7NaN4qWdw" name="port">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1ZhgZ1JOEeiyW7NaN4qWdw" type="_1VQrcFJOEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>this.port = port;&#xD;
+&#xD;
+     final MetaRegister mr = new MetaRegister();&#xD;
+     networkHandler = new NetworkHandler(this, mr);&#xD;
+     serverSocket = new ServerSocket(port);&#xD;
+&#xD;
+     Timer t = new Timer(true);&#xD;
+     t.scheduleAtFixedRate(new TimerTask() {&#xD;
+         @Override&#xD;
+         public void run() {&#xD;
+             try {&#xD;
+                 mr.removeDeadServers();&#xD;
+             } catch (Exception ex) {&#xD;
+                 logger.log(Level.WARNING, &quot;Could not remove servers.&quot;, ex);&#xD;
+             }&#xD;
+         }&#xD;
+     }, REMOVE_DEAD_SERVERS_INTERVAL, REMOVE_DEAD_SERVERS_INTERVAL);&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZhgaFJOEeiyW7NaN4qWdw" name="run" specification="_1VTHsFJOEeiyW7NaN4qWdw">
+                <language>java</language>
+                <body>while (running) {&#xD;
+         Socket clientSocket = null;&#xD;
+         try {&#xD;
+             clientSocket = serverSocket.accept();&#xD;
+             logger.info(&quot;Client connection from: &quot;&#xD;
+                 + clientSocket.getInetAddress().toString());&#xD;
+             Connection connection = new Connection(clientSocket,&#xD;
+                 getNetworkHandler(), FreeCol.METASERVER_THREAD);&#xD;
+             connections.put(clientSocket, connection);&#xD;
+         } catch (IOException e) {&#xD;
+             logger.log(Level.WARNING, &quot;Meta-run&quot;, e);&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZhgaVJOEeiyW7NaN4qWdw" name="getNetworkHandler" specification="_1VTuwlJOEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_1ZhgalJOEeiyW7NaN4qWdw" type="_1Vc4sFJOEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>return networkHandler;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZiHcFJOEeiyW7NaN4qWdw" name="getConnectionIterator" specification="_1VTuw1JOEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_1ZiHcVJOEeiyW7NaN4qWdw" type="_1YMqsVJOEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>return connections.values().iterator();&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZiHclJOEeiyW7NaN4qWdw" name="shutdown" specification="_1VUV0VJOEeiyW7NaN4qWdw">
+                <language>java</language>
+                <body>running = false;&#xD;
+&#xD;
+     try {&#xD;
+         serverSocket.close();&#xD;
+     } catch (IOException e) {&#xD;
+         logger.log(Level.WARNING, &quot;Could not close the server socket!&quot;, e);&#xD;
+     }&#xD;
+&#xD;
+     Connection c;&#xD;
+     while ((c = connections.remove(0)) != null) c.close();&#xD;
+     logger.info(&quot;Server shutdown.&quot;);&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZiHc1JOEeiyW7NaN4qWdw" name="getConnection" specification="_1Y080VJOEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_1ZiHdFJOEeiyW7NaN4qWdw" name="socket" type="_1YLckVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1ZiHdVJOEeiyW7NaN4qWdw" type="_1YHLIVJOEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>return connections.get(socket);&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZiHdlJOEeiyW7NaN4qWdw" name="removeConnection" specification="_1Y1j4FJOEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_1ZiHd1JOEeiyW7NaN4qWdw" name="connection" type="_1YHLIVJOEeiyW7NaN4qWdw"/>
+                <language>java</language>
+                <body>connections.remove(connection.getSocket());&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_1VRSgFJOEeiyW7NaN4qWdw" name="main" isStatic="true" method="_1ZhgYlJOEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_1ZkjsFJOEeiyW7NaN4qWdw">
+                  <body>Creates and starts a new &lt;code>MetaServer&lt;/code>.&#xD;
+     * &#xD;
+     * @param args The command-line options.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_1VR5kFJOEeiyW7NaN4qWdw" name="args">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1VR5kVJOEeiyW7NaN4qWdw" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_1VR5klJOEeiyW7NaN4qWdw" name="MetaServer" method="_1ZhgZVJOEeiyW7NaN4qWdw" raisedException="_1YEu4FJOEeiyW7NaN4qWdw">
+                <eAnnotations xmi:id="_1VR5lFJOEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_1VR5lVJOEeiyW7NaN4qWdw" key="create"/>
+                </eAnnotations>
+                <ownedComment xmi:id="_1ZkjsVJOEeiyW7NaN4qWdw">
+                  <body>Creates a new network server. Use {@link #run metaServer.start()} to&#xD;
+     * start listening for new connections.&#xD;
+     * &#xD;
+     * @param port The TCP port to use for the public socket.&#xD;
+     * @throws IOException if the public socket cannot be created.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_1VR5k1JOEeiyW7NaN4qWdw" name="port">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_1VSgoFJOEeiyW7NaN4qWdw" type="_1VQrcFJOEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_1VTHsFJOEeiyW7NaN4qWdw" name="run" method="_1ZhgaFJOEeiyW7NaN4qWdw"/>
+              <ownedOperation xmi:id="_1VTuwlJOEeiyW7NaN4qWdw" name="getNetworkHandler" method="_1ZhgaVJOEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_1ZkjslJOEeiyW7NaN4qWdw">
+                  <body>Gets the control object that handles the network requests.&#xD;
+     * &#xD;
+     * @return The &lt;code>NetworkHandler&lt;/code>.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_1YqkwFJOEeiyW7NaN4qWdw" type="_1Vc4sFJOEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_1VTuw1JOEeiyW7NaN4qWdw" name="getConnectionIterator" method="_1ZiHcFJOEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_1Zkjs1JOEeiyW7NaN4qWdw">
+                  <body>Gets an iterator of every connection to this server.&#xD;
+     * &#xD;
+     * @return The &lt;code>Iterator&lt;/code>.&#xD;
+     * @see Connection</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_1Y080FJOEeiyW7NaN4qWdw" type="_1YMqsVJOEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_1VUV0VJOEeiyW7NaN4qWdw" name="shutdown" method="_1ZiHclJOEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_1ZkjtFJOEeiyW7NaN4qWdw">
+                  <body>Shuts down the server thread.</body>
+                </ownedComment>
+              </ownedOperation>
+              <ownedOperation xmi:id="_1Y080VJOEeiyW7NaN4qWdw" name="getConnection" method="_1ZiHc1JOEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_1ZkjtVJOEeiyW7NaN4qWdw">
+                  <body>Gets a &lt;code>Connection&lt;/code> identified by a &lt;code>Socket&lt;/code>.&#xD;
+     * &#xD;
+     * @param socket The &lt;code>Socket&lt;/code> that identifies the&#xD;
+     *            &lt;code>Connection&lt;/code>&#xD;
+     * @return The &lt;code>Connection&lt;/code>.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_1Y080lJOEeiyW7NaN4qWdw" name="socket" type="_1YLckVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1Y0801JOEeiyW7NaN4qWdw" type="_1YHLIVJOEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_1Y1j4FJOEeiyW7NaN4qWdw" name="removeConnection" method="_1ZiHdlJOEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_1ZkjtlJOEeiyW7NaN4qWdw">
+                  <body>Removes the given connection.&#xD;
+     * &#xD;
+     * @param connection The connection that should be removed.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_1Y1j4VJOEeiyW7NaN4qWdw" name="connection" type="_1YHLIVJOEeiyW7NaN4qWdw"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_1Vc4sFJOEeiyW7NaN4qWdw" name="NetworkHandler" isLeaf="true">
+              <ownedComment xmi:id="_1Zkjt1JOEeiyW7NaN4qWdw">
+                <body>Handles all network messages being sent to the metaserver.</body>
+              </ownedComment>
+              <ownedAttribute xmi:id="_1ZbZwFJOEeiyW7NaN4qWdw" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_1YCSoFJOEeiyW7NaN4qWdw" isReadOnly="true" association="_1Zz0QVJOEeiyW7NaN4qWdw">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_1Zcn4FJOEeiyW7NaN4qWdw" value="Logger.getLogger(NetworkHandler.class.getName())"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_1Zcn4VJOEeiyW7NaN4qWdw" name="metaServer" visibility="private" isLeaf="true" type="_1VQrcFJOEeiyW7NaN4qWdw" isReadOnly="true" association="_1Z0bUVJOEeiyW7NaN4qWdw"/>
+              <ownedAttribute xmi:id="_1ZdO8VJOEeiyW7NaN4qWdw" name="metaRegister" visibility="private" isLeaf="true" type="_1VKk0FJOEeiyW7NaN4qWdw" isReadOnly="true" association="_1Z1CYVJOEeiyW7NaN4qWdw"/>
+              <interfaceRealization xmi:id="_1Y2yAFJOEeiyW7NaN4qWdw" client="_1Vc4sFJOEeiyW7NaN4qWdw" supplier="_1YsZ8FJOEeiyW7NaN4qWdw" contract="_1YsZ8FJOEeiyW7NaN4qWdw"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZiHeFJOEeiyW7NaN4qWdw" name="NetworkHandler" specification="_1YtBAFJOEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_1ZiHeVJOEeiyW7NaN4qWdw" name="metaServer" type="_1VQrcFJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1ZiHelJOEeiyW7NaN4qWdw" name="metaRegister" type="_1VKk0FJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1ZiHe1JOEeiyW7NaN4qWdw" type="_1Vc4sFJOEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>this.metaServer = metaServer;&#xD;
+     this.metaRegister = metaRegister;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZiugFJOEeiyW7NaN4qWdw" name="handle" specification="_1Y3ZEFJOEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_1ZiugVJOEeiyW7NaN4qWdw" name="connection" type="_1YHLIVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1ZiuglJOEeiyW7NaN4qWdw" name="element" type="_1YIZQVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1Ziug1JOEeiyW7NaN4qWdw" type="_1YIZQVJOEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>Element reply = null;&#xD;
+&#xD;
+     String type = element.getTagName();&#xD;
+&#xD;
+     switch (type) {&#xD;
+         case &quot;register&quot;:&#xD;
+             reply = register(connection, element);&#xD;
+             break;&#xD;
+         case &quot;update&quot;:&#xD;
+             reply = update(connection, element);&#xD;
+             break;&#xD;
+         case &quot;getServerList&quot;:&#xD;
+             reply = getServerList(connection, element);&#xD;
+             break;&#xD;
+         case &quot;remove&quot;:&#xD;
+             reply = remove(connection, element);&#xD;
+             break;&#xD;
+         case &quot;disconnect&quot;:&#xD;
+             reply = disconnect(connection, element);&#xD;
+             break;&#xD;
+         default:&#xD;
+             logger.warning(&quot;Unkown request: &quot; + type);&#xD;
+             break;&#xD;
+     }&#xD;
+&#xD;
+     return reply;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZiuhFJOEeiyW7NaN4qWdw" name="getServerList" specification="_1Y4nMFJOEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_1ZiuhVJOEeiyW7NaN4qWdw" name="connection" type="_1YHLIVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1ZiuhlJOEeiyW7NaN4qWdw" name="element" type="_1YIZQVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1Ziuh1JOEeiyW7NaN4qWdw" type="_1YIZQVJOEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>return metaRegister.createServerList();&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZiuiFJOEeiyW7NaN4qWdw" name="register" specification="_1Y5OQFJOEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_1ZiuiVJOEeiyW7NaN4qWdw" name="connection" type="_1YHLIVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1ZiuilJOEeiyW7NaN4qWdw" name="element" type="_1YIZQVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1Ziui1JOEeiyW7NaN4qWdw" type="_1YIZQVJOEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>String name = element.getAttribute(&quot;name&quot;);&#xD;
+     String address = connection.getSocket().getInetAddress().getHostAddress();&#xD;
+     int port = Integer.parseInt(element.getAttribute(&quot;port&quot;));&#xD;
+     int slotsAvailable = Integer.parseInt(element.getAttribute(&quot;slotsAvailable&quot;));&#xD;
+     int currentlyPlaying = Integer.parseInt(element.getAttribute(&quot;currentlyPlaying&quot;));&#xD;
+     boolean isGameStarted = Boolean.valueOf(element.getAttribute(&quot;isGameStarted&quot;));&#xD;
+     String version = element.getAttribute(&quot;version&quot;);&#xD;
+     int gameState = Integer.parseInt(element.getAttribute(&quot;gameState&quot;));&#xD;
+&#xD;
+     try {&#xD;
+         metaRegister.addServer(name, address, port, slotsAvailable, currentlyPlaying, isGameStarted, version, gameState);&#xD;
+     } catch (IOException e) {&#xD;
+         return DOMMessage.createMessage(&quot;noRouteToServer&quot;);&#xD;
+     }&#xD;
+&#xD;
+     return DOMMessage.createMessage(&quot;ok&quot;);&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZiujFJOEeiyW7NaN4qWdw" name="update" specification="_1Y5ORFJOEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_1ZiujVJOEeiyW7NaN4qWdw" name="connection" type="_1YHLIVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1ZiujlJOEeiyW7NaN4qWdw" name="element" type="_1YIZQVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1Ziuj1JOEeiyW7NaN4qWdw" type="_1YIZQVJOEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>String name = element.getAttribute(&quot;name&quot;);&#xD;
+     String address = connection.getSocket().getInetAddress().getHostAddress();&#xD;
+     int port = Integer.parseInt(element.getAttribute(&quot;port&quot;));&#xD;
+     int slotsAvailable = Integer.parseInt(element.getAttribute(&quot;slotsAvailable&quot;));&#xD;
+     int currentlyPlaying = Integer.parseInt(element.getAttribute(&quot;currentlyPlaying&quot;));&#xD;
+     boolean isGameStarted = Boolean.valueOf(element.getAttribute(&quot;isGameStarted&quot;));&#xD;
+     String version = element.getAttribute(&quot;version&quot;);&#xD;
+     int gameState = Integer.parseInt(element.getAttribute(&quot;gameState&quot;));&#xD;
+&#xD;
+     try {&#xD;
+         metaRegister.updateServer(name, address, port, slotsAvailable, currentlyPlaying, isGameStarted, version, gameState);&#xD;
+     } catch (IOException e) {}&#xD;
+&#xD;
+     return null;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZjVkFJOEeiyW7NaN4qWdw" name="remove" specification="_1Y51UVJOEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_1ZjVkVJOEeiyW7NaN4qWdw" name="connection" type="_1YHLIVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1ZjVklJOEeiyW7NaN4qWdw" name="element" type="_1YIZQVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1ZjVk1JOEeiyW7NaN4qWdw" type="_1YIZQVJOEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>String address = connection.getSocket().getInetAddress().getHostAddress();&#xD;
+     int port = Integer.parseInt(element.getAttribute(&quot;port&quot;));&#xD;
+&#xD;
+     metaRegister.removeServer(address, port);&#xD;
+&#xD;
+     return null;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ZjVlFJOEeiyW7NaN4qWdw" name="disconnect" specification="_1Y6cYFJOEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_1ZjVlVJOEeiyW7NaN4qWdw" name="connection" type="_1YHLIVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1ZjVllJOEeiyW7NaN4qWdw" name="element" type="_1YIZQVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1ZjVl1JOEeiyW7NaN4qWdw" type="_1YIZQVJOEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>connection.reallyClose();&#xD;
+     metaServer.removeConnection(connection);&#xD;
+     return null;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_1YtBAFJOEeiyW7NaN4qWdw" name="NetworkHandler" method="_1ZiHeFJOEeiyW7NaN4qWdw">
+                <eAnnotations xmi:id="_1YtBA1JOEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_1YtBBFJOEeiyW7NaN4qWdw" key="create"/>
+                </eAnnotations>
+                <ownedComment xmi:id="_1ZkjuFJOEeiyW7NaN4qWdw">
+                  <body>The constructor to use.&#xD;
+    * &#xD;
+    * @param metaServer The &lt;code>MetaServer&lt;/code> this&#xD;
+    *       &lt;code>NetworkHandler&lt;/code> has been created&#xD;
+    *       for.&#xD;
+    * @param metaRegister An object containing a list&#xD;
+    *       of all the servers.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_1YtBAVJOEeiyW7NaN4qWdw" name="metaServer" type="_1VQrcFJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1YtBAlJOEeiyW7NaN4qWdw" name="metaRegister" type="_1VKk0FJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1YtBBVJOEeiyW7NaN4qWdw" type="_1Vc4sFJOEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_1Y3ZEFJOEeiyW7NaN4qWdw" name="handle" method="_1ZiugFJOEeiyW7NaN4qWdw">
+                <eAnnotations xmi:id="_1Y3ZE1JOEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_1Y3ZFFJOEeiyW7NaN4qWdw" key="synchronized"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_1Y3ZEVJOEeiyW7NaN4qWdw" name="connection" type="_1YHLIVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1Y3ZElJOEeiyW7NaN4qWdw" name="element" type="_1YIZQVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1Y4AIFJOEeiyW7NaN4qWdw" type="_1YIZQVJOEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_1Y4nMFJOEeiyW7NaN4qWdw" name="getServerList" visibility="private" method="_1ZiuhFJOEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_1ZkjuVJOEeiyW7NaN4qWdw">
+                  <body>Handles a &quot;getServerList&quot;-request.&#xD;
+     * @param connection The &lt;code>Connection&lt;/code> the message&#xD;
+     *       was received on.&#xD;
+     * @param element The element containing the request.&#xD;
+     * @return The reply: An &lt;code>Element&lt;/code> with a list of the&#xD;
+     *      servers in the {@link MetaRegister}.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_1Y4nMVJOEeiyW7NaN4qWdw" name="connection" type="_1YHLIVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1Y4nMlJOEeiyW7NaN4qWdw" name="element" type="_1YIZQVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1Y4nM1JOEeiyW7NaN4qWdw" type="_1YIZQVJOEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_1Y5OQFJOEeiyW7NaN4qWdw" name="register" visibility="private" method="_1ZiuiFJOEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_1ZkjulJOEeiyW7NaN4qWdw">
+                  <body>Handles a &quot;register&quot;-request.&#xD;
+     * &#xD;
+     * @param connection The connection the message was received on.&#xD;
+     * @param element The element containing the request.&#xD;
+     * @return The reply: &lt;code>null&lt;/code>.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_1Y5OQVJOEeiyW7NaN4qWdw" name="connection" type="_1YHLIVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1Y5OQlJOEeiyW7NaN4qWdw" name="element" type="_1YIZQVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1Y5OQ1JOEeiyW7NaN4qWdw" type="_1YIZQVJOEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_1Y5ORFJOEeiyW7NaN4qWdw" name="update" visibility="private" method="_1ZiujFJOEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_1Zkju1JOEeiyW7NaN4qWdw">
+                  <body>Handles an &quot;update&quot;-request.&#xD;
+     * &#xD;
+     * @param connection The connection the message came from.&#xD;
+     * @param element The element containing the request.&#xD;
+     * @return The reply: &lt;code>null&lt;/code>.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_1Y5ORVJOEeiyW7NaN4qWdw" name="connection" type="_1YHLIVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1Y5ORlJOEeiyW7NaN4qWdw" name="element" type="_1YIZQVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1Y51UFJOEeiyW7NaN4qWdw" type="_1YIZQVJOEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_1Y51UVJOEeiyW7NaN4qWdw" name="remove" visibility="private" method="_1ZjVkFJOEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_1ZkjvFJOEeiyW7NaN4qWdw">
+                  <body>Handles a &quot;remove&quot;-request.&#xD;
+     * &#xD;
+     * @param connection The connection the message came from.&#xD;
+     * @param element The element containing the request.&#xD;
+     * @return The reply: &lt;code>null&lt;/code>.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_1Y51UlJOEeiyW7NaN4qWdw" name="connection" type="_1YHLIVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1Y51U1JOEeiyW7NaN4qWdw" name="element" type="_1YIZQVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1Y51VFJOEeiyW7NaN4qWdw" type="_1YIZQVJOEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_1Y6cYFJOEeiyW7NaN4qWdw" name="disconnect" visibility="private" method="_1ZjVlFJOEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_1ZkjvVJOEeiyW7NaN4qWdw">
+                  <body>Handles a &quot;disconnect&quot;-request.&#xD;
+     * &#xD;
+     * @param connection The connection the message came from.&#xD;
+     * @param element The element containing the request.&#xD;
+     * @return The reply: &lt;code>null&lt;/code>.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_1Y6cYVJOEeiyW7NaN4qWdw" name="connection" type="_1YHLIVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1Y6cYlJOEeiyW7NaN4qWdw" name="element" type="_1YIZQVJOEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_1Y6cY1JOEeiyW7NaN4qWdw" type="_1YIZQVJOEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_1Zm_8FJOEeiyW7NaN4qWdw" name="" memberEnd="_1Zm_8VJOEeiyW7NaN4qWdw _1Y7qgFJOEeiyW7NaN4qWdw">
+              <ownedEnd xmi:id="_1Zm_8VJOEeiyW7NaN4qWdw" name="" type="_1UxjQFJOEeiyW7NaN4qWdw" association="_1Zm_8FJOEeiyW7NaN4qWdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_1ZnnAVJOEeiyW7NaN4qWdw" name="" memberEnd="_1ZnnAlJOEeiyW7NaN4qWdw _1Y9fsFJOEeiyW7NaN4qWdw">
+              <ownedEnd xmi:id="_1ZnnAlJOEeiyW7NaN4qWdw" name="" type="_1VKk0FJOEeiyW7NaN4qWdw" association="_1ZnnAVJOEeiyW7NaN4qWdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_1ZoOEVJOEeiyW7NaN4qWdw" name="" memberEnd="_1ZoOElJOEeiyW7NaN4qWdw _1ZAjAFJOEeiyW7NaN4qWdw">
+              <ownedEnd xmi:id="_1ZoOElJOEeiyW7NaN4qWdw" name="" type="_1VKk0FJOEeiyW7NaN4qWdw" association="_1ZoOEVJOEeiyW7NaN4qWdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_1Zo1IVJOEeiyW7NaN4qWdw" name="" memberEnd="_1Zo1IlJOEeiyW7NaN4qWdw _1ZDmUFJOEeiyW7NaN4qWdw">
+              <ownedEnd xmi:id="_1Zo1IlJOEeiyW7NaN4qWdw" name="" type="_1VQrcFJOEeiyW7NaN4qWdw" association="_1Zo1IVJOEeiyW7NaN4qWdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_1ZpcMVJOEeiyW7NaN4qWdw" name="" memberEnd="_1ZpcMlJOEeiyW7NaN4qWdw _1ZGpolJOEeiyW7NaN4qWdw">
+              <ownedEnd xmi:id="_1ZpcMlJOEeiyW7NaN4qWdw" name="" type="_1VQrcFJOEeiyW7NaN4qWdw" association="_1ZpcMVJOEeiyW7NaN4qWdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_1ZqDQVJOEeiyW7NaN4qWdw" name="" memberEnd="_1ZqDQlJOEeiyW7NaN4qWdw _1ZHQsFJOEeiyW7NaN4qWdw">
+              <ownedEnd xmi:id="_1ZqDQlJOEeiyW7NaN4qWdw" name="" type="_1VQrcFJOEeiyW7NaN4qWdw" association="_1ZqDQVJOEeiyW7NaN4qWdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_1ZzNMVJOEeiyW7NaN4qWdw" name="" memberEnd="_1ZzNMlJOEeiyW7NaN4qWdw _1ZYWcFJOEeiyW7NaN4qWdw">
+              <ownedEnd xmi:id="_1ZzNMlJOEeiyW7NaN4qWdw" name="" type="_1VQrcFJOEeiyW7NaN4qWdw" association="_1ZzNMVJOEeiyW7NaN4qWdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_1Zz0QVJOEeiyW7NaN4qWdw" name="" memberEnd="_1Zz0QlJOEeiyW7NaN4qWdw _1ZbZwFJOEeiyW7NaN4qWdw">
+              <ownedEnd xmi:id="_1Zz0QlJOEeiyW7NaN4qWdw" name="" type="_1Vc4sFJOEeiyW7NaN4qWdw" association="_1Zz0QVJOEeiyW7NaN4qWdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_1Z0bUVJOEeiyW7NaN4qWdw" name="" memberEnd="_1Z0bUlJOEeiyW7NaN4qWdw _1Zcn4VJOEeiyW7NaN4qWdw">
+              <ownedEnd xmi:id="_1Z0bUlJOEeiyW7NaN4qWdw" name="" type="_1Vc4sFJOEeiyW7NaN4qWdw" association="_1Z0bUVJOEeiyW7NaN4qWdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_1Z1CYVJOEeiyW7NaN4qWdw" name="" memberEnd="_1Z1CYlJOEeiyW7NaN4qWdw _1ZdO8VJOEeiyW7NaN4qWdw">
+              <ownedEnd xmi:id="_1Z1CYlJOEeiyW7NaN4qWdw" name="" type="_1Vc4sFJOEeiyW7NaN4qWdw" association="_1Z1CYVJOEeiyW7NaN4qWdw"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_1YGkEVJOEeiyW7NaN4qWdw" name="FreeCol"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1UaW4FJOEeiyW7NaN4qWdw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_1UaW4VJOEeiyW7NaN4qWdw" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_1UaW4lJOEeiyW7NaN4qWdw" name="logging">
+          <packagedElement xmi:type="uml:Class" xmi:id="_1YCSoFJOEeiyW7NaN4qWdw" name="Logger"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_1YF9AVJOEeiyW7NaN4qWdw" name="Level"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1YFV8VJOEeiyW7NaN4qWdw" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1YMDoVJOEeiyW7NaN4qWdw" name="HashMap"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_1YMqsVJOEeiyW7NaN4qWdw" name="Iterator"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1YovkFJOEeiyW7NaN4qWdw" name="Timer"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1YpWoVJOEeiyW7NaN4qWdw" name="TimerTask"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_1UdaMFJOEeiyW7NaN4qWdw" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_1YEu4FJOEeiyW7NaN4qWdw" name="IOException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_1UhroFJOEeiyW7NaN4qWdw" name="net">
+        <packagedElement xmi:type="uml:Class" xmi:id="_1YK1gFJOEeiyW7NaN4qWdw" name="ServerSocket"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1YLckVJOEeiyW7NaN4qWdw" name="Socket"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_1YzusFJOEeiyW7NaN4qWdw" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_1YzusVJOEeiyW7NaN4qWdw" name="Thread"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1UdaMlJOEeiyW7NaN4qWdw" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_1UeBQFJOEeiyW7NaN4qWdw" name="w3c">
+        <packagedElement xmi:type="uml:Package" xmi:id="_1UeBQVJOEeiyW7NaN4qWdw" name="dom">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_1YIZQVJOEeiyW7NaN4qWdw" name="Element"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_1JZZsFJOEeiyW7NaN4qWdw">
+      <eAnnotations xmi:id="_1JZZsVJOEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_1JZZslJOEeiyW7NaN4qWdw" base_Package="_0RpSUFJOEeiyW7NaN4qWdw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1VHhgFJOEeiyW7NaN4qWdw" base_Element="_1VGTYFJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_1VJWsFJOEeiyW7NaN4qWdw" base_Element="_1VGTYFJOEeiyW7NaN4qWdw">
+    <annotations xmi:id="_1VJ9wFJOEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1VTHsVJOEeiyW7NaN4qWdw" base_Element="_1VTHsFJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_1VTuwFJOEeiyW7NaN4qWdw" base_Element="_1VTHsFJOEeiyW7NaN4qWdw">
+    <annotations xmi:id="_1VTuwVJOEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_1VUV0FJOEeiyW7NaN4qWdw" genericsValue="Connection" base_Element="_1VTuw1JOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1YC5sFJOEeiyW7NaN4qWdw" base_Element="_1YCSoFJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1YDgwFJOEeiyW7NaN4qWdw" base_Element="_1YC5sVJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1YFV8FJOEeiyW7NaN4qWdw" base_Element="_1YEu4FJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1YF9AFJOEeiyW7NaN4qWdw" base_Element="_1YFV8VJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1YGkEFJOEeiyW7NaN4qWdw" base_Element="_1YF9AVJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1YHLIFJOEeiyW7NaN4qWdw" base_Element="_1YGkEVJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1YHyMFJOEeiyW7NaN4qWdw" base_Element="_1YHLIVJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1YIZQFJOEeiyW7NaN4qWdw" base_Element="_1YHyMVJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1YJAUFJOEeiyW7NaN4qWdw" base_Element="_1YIZQVJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1YLckFJOEeiyW7NaN4qWdw" base_Element="_1YK1gFJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1YMDoFJOEeiyW7NaN4qWdw" base_Element="_1YLckVJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1YMqsFJOEeiyW7NaN4qWdw" base_Element="_1YMDoVJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1YoIgFJOEeiyW7NaN4qWdw" base_Element="_1YMqsVJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1YpWoFJOEeiyW7NaN4qWdw" base_Element="_1YovkFJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1Yp9sFJOEeiyW7NaN4qWdw" base_Element="_1YpWoVJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1YsZ8VJOEeiyW7NaN4qWdw" base_Element="_1YsZ8FJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1Y0VwFJOEeiyW7NaN4qWdw" base_Element="_1YzusVJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1Y4AIVJOEeiyW7NaN4qWdw" base_Element="_1Y3ZEFJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_1Y4AIlJOEeiyW7NaN4qWdw" base_Element="_1Y3ZEFJOEeiyW7NaN4qWdw">
+    <annotations xmi:id="_1Y4AI1JOEeiyW7NaN4qWdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1Y8RkFJOEeiyW7NaN4qWdw" base_Element="_1Y7qgFJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Annotations xmi:id="_1Y8RkVJOEeiyW7NaN4qWdw" base_Element="_1Y7qgFJOEeiyW7NaN4qWdw">
+    <annotations xmi:id="_1Y8RklJOEeiyW7NaN4qWdw" name="SuppressWarnings">
+      <annotationParameters xmi:id="_1Y8Rk1JOEeiyW7NaN4qWdw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_1Zj8oFJOEeiyW7NaN4qWdw" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_1ZBKEFJOEeiyW7NaN4qWdw" genericsValue="MetaItem" base_Element="_1ZAjAFJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1ZBxIFJOEeiyW7NaN4qWdw" base_Element="_1ZAjAFJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1ZGpo1JOEeiyW7NaN4qWdw" base_Element="_1ZGpolJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Generics xmi:id="_1ZH3wFJOEeiyW7NaN4qWdw" genericsValue="Socket, Connection" base_Element="_1ZHQsFJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1ZH3wlJOEeiyW7NaN4qWdw" base_Element="_1ZHQsFJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1ZNXUFJOEeiyW7NaN4qWdw" base_Element="_1ZKUAFJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1ZUFAFJOEeiyW7NaN4qWdw" base_Element="_1ZPMgFJOEeiyW7NaN4qWdw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_1ZVTIFJOEeiyW7NaN4qWdw" name="getPort" method="_1ZhgYFJOEeiyW7NaN4qWdw">
+      <ownedParameter xmi:id="_1ZXvYFJOEeiyW7NaN4qWdw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1ZYWcVJOEeiyW7NaN4qWdw" base_Element="_1ZYWcFJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1ZdO8FJOEeiyW7NaN4qWdw" base_Element="_1Zcn4VJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1Zd2AFJOEeiyW7NaN4qWdw" base_Element="_1ZdO8VJOEeiyW7NaN4qWdw"/>
+  <uml:OpaqueBehavior xmi:id="_1ZhgYFJOEeiyW7NaN4qWdw" name="getPort" specification="_1ZVTIFJOEeiyW7NaN4qWdw">
+    <ownedParameter xmi:id="_1ZhgYVJOEeiyW7NaN4qWdw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return port;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_1ZnnAFJOEeiyW7NaN4qWdw" base_Element="_1Zm_8FJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1ZoOEFJOEeiyW7NaN4qWdw" base_Element="_1ZnnAVJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1Zo1IFJOEeiyW7NaN4qWdw" base_Element="_1ZoOEVJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1ZpcMFJOEeiyW7NaN4qWdw" base_Element="_1Zo1IVJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1ZqDQFJOEeiyW7NaN4qWdw" base_Element="_1ZpcMVJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1ZzNMFJOEeiyW7NaN4qWdw" base_Element="_1ZqDQVJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1Zz0QFJOEeiyW7NaN4qWdw" base_Element="_1ZzNMVJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1Z0bUFJOEeiyW7NaN4qWdw" base_Element="_1Zz0QVJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1Z1CYFJOEeiyW7NaN4qWdw" base_Element="_1Z0bUVJOEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_1Z2QgFJOEeiyW7NaN4qWdw" base_Element="_1Z1CYVJOEeiyW7NaN4qWdw"/>
+</xmi:XMI>

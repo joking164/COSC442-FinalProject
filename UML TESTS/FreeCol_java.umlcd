@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_P3C28FIhEeibjuLm5_lcNQ">
+  <modelElement href="FreeCol_java.uml#_Q_Dn4FIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8b2IFIhEeibjuLm5_lcNQ" targetItem="_R9PHYFIhEeibjuLm5_lcNQ" sourceItem="_R8bPEFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8ij0VIhEeibjuLm5_lcNQ" targetItem="_R9PuclIhEeibjuLm5_lcNQ" sourceItem="_R8ij0FIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8ij01IhEeibjuLm5_lcNQ" targetItem="_R9PueFIhEeibjuLm5_lcNQ" sourceItem="_R8ij0lIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8jK4VIhEeibjuLm5_lcNQ" targetItem="_R9PuflIhEeibjuLm5_lcNQ" sourceItem="_R8jK4FIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8jx8VIhEeibjuLm5_lcNQ" targetItem="_R9PuhFIhEeibjuLm5_lcNQ" sourceItem="_R8jx8FIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8kZAVIhEeibjuLm5_lcNQ" targetItem="_R9Puj1IhEeibjuLm5_lcNQ" sourceItem="_R8kZAFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8lAEFIhEeibjuLm5_lcNQ" targetItem="_R9PulVIhEeibjuLm5_lcNQ" sourceItem="_R8kZAlIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8lAElIhEeibjuLm5_lcNQ" targetItem="_R9PumlIhEeibjuLm5_lcNQ" sourceItem="_R8lAEVIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8lnIVIhEeibjuLm5_lcNQ" targetItem="_R9PuolIhEeibjuLm5_lcNQ" sourceItem="_R8lnIFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8mOMVIhEeibjuLm5_lcNQ" targetItem="_R9Pup1IhEeibjuLm5_lcNQ" sourceItem="_R8mOMFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8m1QVIhEeibjuLm5_lcNQ" targetItem="_R9Pur1IhEeibjuLm5_lcNQ" sourceItem="_R8m1QFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8ncUFIhEeibjuLm5_lcNQ" targetItem="_R9PutFIhEeibjuLm5_lcNQ" sourceItem="_R8m1QlIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8ncUlIhEeibjuLm5_lcNQ" targetItem="_R9PuvFIhEeibjuLm5_lcNQ" sourceItem="_R8ncUVIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8oDYVIhEeibjuLm5_lcNQ" targetItem="_R9PuwVIhEeibjuLm5_lcNQ" sourceItem="_R8oDYFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8oqcVIhEeibjuLm5_lcNQ" targetItem="_R9PuyVIhEeibjuLm5_lcNQ" sourceItem="_R8oqcFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8pRgVIhEeibjuLm5_lcNQ" targetItem="_R9Puz1IhEeibjuLm5_lcNQ" sourceItem="_R8pRgFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8p4kFIhEeibjuLm5_lcNQ" targetItem="_R9Pu1VIhEeibjuLm5_lcNQ" sourceItem="_R8pRglIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8p4klIhEeibjuLm5_lcNQ" targetItem="_R9Pu2lIhEeibjuLm5_lcNQ" sourceItem="_R8p4kVIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8qfoVIhEeibjuLm5_lcNQ" targetItem="_R9Pu31IhEeibjuLm5_lcNQ" sourceItem="_R8qfoFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8rGsVIhEeibjuLm5_lcNQ" targetItem="_R9Pu5FIhEeibjuLm5_lcNQ" sourceItem="_R8rGsFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8rGs1IhEeibjuLm5_lcNQ" targetItem="_R9Pu6lIhEeibjuLm5_lcNQ" sourceItem="_R8rGslIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8rtwVIhEeibjuLm5_lcNQ" targetItem="_R9Pu71IhEeibjuLm5_lcNQ" sourceItem="_R8rtwFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8sU0VIhEeibjuLm5_lcNQ" targetItem="_R9Pu91IhEeibjuLm5_lcNQ" sourceItem="_R8sU0FIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8s74VIhEeibjuLm5_lcNQ" targetItem="_R9Pu_1IhEeibjuLm5_lcNQ" sourceItem="_R8s74FIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8ti8VIhEeibjuLm5_lcNQ" targetItem="_R9PvBFIhEeibjuLm5_lcNQ" sourceItem="_R8ti8FIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8ti81IhEeibjuLm5_lcNQ" targetItem="_R9PvClIhEeibjuLm5_lcNQ" sourceItem="_R8ti8lIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8uKAVIhEeibjuLm5_lcNQ" targetItem="_R9PvD1IhEeibjuLm5_lcNQ" sourceItem="_R8uKAFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8uxEVIhEeibjuLm5_lcNQ" targetItem="_R9PvFVIhEeibjuLm5_lcNQ" sourceItem="_R8uxEFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8vYIFIhEeibjuLm5_lcNQ" targetItem="_R9PvGFIhEeibjuLm5_lcNQ" sourceItem="_R8uxElIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8vYIlIhEeibjuLm5_lcNQ" targetItem="_R9PvIFIhEeibjuLm5_lcNQ" sourceItem="_R8vYIVIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8v_MVIhEeibjuLm5_lcNQ" targetItem="_R9PvKFIhEeibjuLm5_lcNQ" sourceItem="_R8v_MFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8wmQVIhEeibjuLm5_lcNQ" targetItem="_R9PvMFIhEeibjuLm5_lcNQ" sourceItem="_R8wmQFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8xNUVIhEeibjuLm5_lcNQ" targetItem="_R9PvNlIhEeibjuLm5_lcNQ" sourceItem="_R8xNUFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8x0YFIhEeibjuLm5_lcNQ" targetItem="_R9PvPFIhEeibjuLm5_lcNQ" sourceItem="_R8xNUlIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8ybcVIhEeibjuLm5_lcNQ" targetItem="_R9PvRVIhEeibjuLm5_lcNQ" sourceItem="_R8ybcFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8ybc1IhEeibjuLm5_lcNQ" targetItem="_R9PvU1IhEeibjuLm5_lcNQ" sourceItem="_R8ybclIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8zCgVIhEeibjuLm5_lcNQ" targetItem="_R9PvWVIhEeibjuLm5_lcNQ" sourceItem="_R8zCgFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_R8zpkVIhEeibjuLm5_lcNQ" targetItem="_R9PvYVIhEeibjuLm5_lcNQ" sourceItem="_R8zpkFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_R9IZsFIhEeibjuLm5_lcNQ" source="_R9PHYFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Rax6kFIhEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_R9IZsVIhEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="FreeCol_java.uml#_RazIsFIhEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_R9IZslIhEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_R9IZs1IhEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="FreeCol_java.uml#_Rax6kVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9IZtFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9IZtVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_R9IZtlIhEeibjuLm5_lcNQ" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="FreeCol_java.uml#_RZNNQFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9IZt1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9IZuFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_R9Jn0FIhEeibjuLm5_lcNQ" source="_R9PHYFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_RazIsVIhEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_R9Jn0VIhEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="FreeCol_java.uml#_Ra0W0FIhEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_R9Jn0lIhEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_R9Jn01IhEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="FreeCol_java.uml#_RazIslIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9Jn1FIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9Jn1VIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_R9Jn1lIhEeibjuLm5_lcNQ" aggregationKind="NONE" name="locale" navigable="true">
+      <modelElement href="FreeCol_java.uml#_RZSs0VIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9Jn11IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9Jn2FIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_R9K18FIhEeibjuLm5_lcNQ" source="_R9PHYFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Ra0W0VIhEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_R9K18VIhEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="FreeCol_java.uml#_Ra094FIhEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_R9K18lIhEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_R9K181IhEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="FreeCol_java.uml#_Ra0W0lIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9K19FIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9K19VIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_R9K19lIhEeibjuLm5_lcNQ" aggregationKind="NONE" name="LOGLEVEL_DEFAULT" navigable="true">
+      <modelElement href="FreeCol_java.uml#_RZVJEFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9K191IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9K1-FIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_R9LdAFIhEeibjuLm5_lcNQ" source="_R9PHYFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Ra094VIhEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_R9LdAVIhEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="FreeCol_java.uml#_Ra1k8FIhEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_R9LdAlIhEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_R9LdA1IhEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="FreeCol_java.uml#_Ra094lIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9LdBFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9LdBVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_R9LdBlIhEeibjuLm5_lcNQ" aggregationKind="NONE" name="logLevel" navigable="true">
+      <modelElement href="FreeCol_java.uml#_RZ9bMVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9LdB1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9LdCFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_R9MrIFIhEeibjuLm5_lcNQ" source="_R9PHYFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Ra1k8VIhEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_R9MrIVIhEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="FreeCol_java.uml#_Ra2MAFIhEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_R9MrIlIhEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_R9MrI1IhEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="FreeCol_java.uml#_Ra1k8lIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9MrJFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9MrJVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_R9MrJlIhEeibjuLm5_lcNQ" aggregationKind="NONE" name="splashStream" navigable="true">
+      <modelElement href="FreeCol_java.uml#_RaCTsVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9MrJ1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9MrKFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_R9OgUFIhEeibjuLm5_lcNQ" source="_R9PHYFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Ra2MAVIhEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_R9OgUVIhEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="FreeCol_java.uml#_Ra2zEFIhEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_R9OgUlIhEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_R9OgU1IhEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="FreeCol_java.uml#_Ra2MAlIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9OgVFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9OgVVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_R9OgVlIhEeibjuLm5_lcNQ" aggregationKind="NONE" name="windowSize" navigable="true">
+      <modelElement href="FreeCol_java.uml#_RaDh01IhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9OgV1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9OgWFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8bPEFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8b2IFIhEeibjuLm5_lcNQ" text="This class is responsible for handling the command-line arguments&#xD;&#xA;and starting either the stand-alone server or the client-GUI.&#xD;&#xA; *&#xD;&#xA;@see net.sf.freecol.client.FreeColClient FreeColClient&#xD;&#xA;@see net.sf.freecol.server.FreeColServer FreeColServer" item="_R9PHYFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_RafmsFIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8ij0FIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8ij0VIhEeibjuLm5_lcNQ" text="The entrypoint.&#xD;&#xA;     *&#xD;&#xA;     * @param args The command-line arguments." item="_R9PuclIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Ram7cFIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8ij0lIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8ij01IhEeibjuLm5_lcNQ" text="Exit printing fatal error message.&#xD;&#xA;     *&#xD;&#xA;     * @param err The error message to print." item="_R9PueFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Ram7dVIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8jK4FIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8jK4VIhEeibjuLm5_lcNQ" text="Just gripe to System.err.&#xD;&#xA;     *&#xD;&#xA;     * @param key A message key." item="_R9PuflIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Ram7d1IhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8jx8FIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8jx8VIhEeibjuLm5_lcNQ" text="Find an option before the real option handling can get started.&#xD;&#xA;     * Takes care to use the *last* instance.&#xD;&#xA;     *&#xD;&#xA;     * @param option The option to find.&#xD;&#xA;     * @param args The  command-line arguments.&#xD;&#xA;     * @return The option's parameter." item="_R9PuhFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Ram7eFIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8kZAFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8kZAVIhEeibjuLm5_lcNQ" text="Processes the command-line arguments and takes appropriate&#xD;&#xA;     * actions for each of them.&#xD;&#xA;     *&#xD;&#xA;     * @param args The command-line arguments." item="_R9Puj1IhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_RanigFIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8kZAlIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8lAEFIhEeibjuLm5_lcNQ" text="Get the specification from the specified TC.&#xD;&#xA;     *&#xD;&#xA;     * @return A &lt;code>Specification&lt;/code>, quits on error." item="_R9PulVIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Ranig1IhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8lAEVIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8lAElIhEeibjuLm5_lcNQ" text="Sets the advantages type.&#xD;&#xA;     *&#xD;&#xA;     * Called from NewPanel when a selection is made.&#xD;&#xA;     *&#xD;&#xA;     * @param advantages The name of the new advantages type.&#xD;&#xA;     * @return The type of advantages set, or null if none." item="_R9PumlIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_RanihFIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8lnIFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8lnIVIhEeibjuLm5_lcNQ" text="Gets a comma separated list of localized advantage type names.&#xD;&#xA;     *&#xD;&#xA;     * @return A list of advantage types." item="_R9PuolIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_RanihVIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8mOMFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8mOMVIhEeibjuLm5_lcNQ" text="Selects a difficulty level.&#xD;&#xA;     *&#xD;&#xA;     * @param arg The supplied difficulty argument.&#xD;&#xA;     * @return The name of the selected difficulty, or null if none." item="_R9Pup1IhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_RanihlIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8m1QFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8m1QVIhEeibjuLm5_lcNQ" text="Gets the names of the valid difficulty levels.&#xD;&#xA;     *&#xD;&#xA;     * @return The valid difficulty levels, comma separated." item="_R9Pur1IhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_RaniiFIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8m1QlIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8ncUFIhEeibjuLm5_lcNQ" text="Sets the scale for GUI elements.&#xD;&#xA;     * &#xD;&#xA;     * @param arg The optional command line argument to be parsed.&#xD;&#xA;     * @return If the argument was correctly formatted." item="_R9PutFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_RaniiVIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8ncUVIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8ncUlIhEeibjuLm5_lcNQ" text="Gets the valid scale factors for the GUI.&#xD;&#xA;     * &#xD;&#xA;     * @return A string containing these." item="_R9PuvFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_RaniilIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8oDYFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8oDYVIhEeibjuLm5_lcNQ" text="Selects a European nation count.&#xD;&#xA;     *&#xD;&#xA;     * @param arg The supplied count argument.&#xD;&#xA;     * @return A valid nation number, or negative on error." item="_R9PuwVIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Ranii1IhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8oqcFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8oqcVIhEeibjuLm5_lcNQ" text="Sets the log level.&#xD;&#xA;     *&#xD;&#xA;     * @param arg The log level to set." item="_R9PuyVIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_RanijFIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8pRgFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8pRgVIhEeibjuLm5_lcNQ" text="Sets the user name.&#xD;&#xA;     *&#xD;&#xA;     * @param name The new user name." item="_R9Puz1IhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_RaoJkFIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8pRglIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8p4kFIhEeibjuLm5_lcNQ" text="Gets the current revision of game.&#xD;&#xA;     *&#xD;&#xA;     * @return The current version and SVN Revision of the game." item="_R9Pu1VIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_RaoJkVIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8p4kVIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8p4klIhEeibjuLm5_lcNQ" text="Get the default server host name.&#xD;&#xA;     *&#xD;&#xA;     * @return The host name." item="_R9Pu2lIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_RaoJklIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8qfoFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8qfoVIhEeibjuLm5_lcNQ" text="Gets the current Total-Conversion.&#xD;&#xA;     *&#xD;&#xA;     * @return Usually TC_DEFAULT, but can be overridden at the command line." item="_R9Pu31IhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_RaoJk1IhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8rGsFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8rGsVIhEeibjuLm5_lcNQ" text="Sets the Total-Conversion.&#xD;&#xA;     *&#xD;&#xA;     * Called from NewPanel when a selection is made.&#xD;&#xA;     *&#xD;&#xA;     * @param tc The name of the new total conversion." item="_R9Pu5FIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_RaoJlFIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8rGslIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8rGs1IhEeibjuLm5_lcNQ" text="Gets the FreeColTcFile for the current TC.&#xD;&#xA;     *&#xD;&#xA;     * @return The &lt;code>FreeColTcFile&lt;/code>." item="_R9Pu6lIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_RaoJlVIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8rtwFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8rtwVIhEeibjuLm5_lcNQ" text="Gets the timeout.&#xD;&#xA;     * Use the command line specified one if any, otherwise default&#xD;&#xA;     * to `infinite' in single player and the TIMEOUT_DEFAULT for&#xD;&#xA;     * multiplayer.&#xD;&#xA;     *&#xD;&#xA;     * @param singlePlayer True if this is a single player game.&#xD;&#xA;     * @return A suitable timeout value." item="_R9Pu71IhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_RaoJllIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8sU0FIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8sU0VIhEeibjuLm5_lcNQ" text="Sets the timeout.&#xD;&#xA;     *&#xD;&#xA;     * @param timeout A string containing the new timeout.&#xD;&#xA;     * @return True if the timeout was set." item="_R9Pu91IhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_RapXsFIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8s74FIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8s74VIhEeibjuLm5_lcNQ" text="Gets the current version of game.&#xD;&#xA;     *&#xD;&#xA;     * @return The current version of the game using the format &quot;x.y.z&quot;,&#xD;&#xA;     *         where &quot;x&quot; is major, &quot;y&quot; is minor and &quot;z&quot; is revision." item="_R9Pu_1IhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Rap-wFIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8ti8FIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8ti8VIhEeibjuLm5_lcNQ" text="Sets the window size.&#xD;&#xA;     *&#xD;&#xA;     * Does not fail because any empty or invalid value is interpreted as&#xD;&#xA;     * `windowed but use as much screen as possible'.&#xD;&#xA;     *&#xD;&#xA;     * @param arg The window size specification." item="_R9PvBFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Rap-wVIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8ti8lIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8ti81IhEeibjuLm5_lcNQ" text="We get a lot of lame bug reports with insufficient configuration&#xD;&#xA;     * information.  Get a buffer containing as much information as we can&#xD;&#xA;     * to embed in the log file and saved games.&#xD;&#xA;     *&#xD;&#xA;     * @return A &lt;code>StringBuilder&lt;/code> full of configuration information." item="_R9PvClIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Rap-xFIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8uKAFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8uKAVIhEeibjuLm5_lcNQ" text="Start a client.&#xD;&#xA;     *&#xD;&#xA;     * @param userMsg An optional user message key." item="_R9PvD1IhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Raql0FIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8uxEFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8uxEVIhEeibjuLm5_lcNQ" text="Start the server." item="_R9PvFVIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Raql0VIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8uxElIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8vYIFIhEeibjuLm5_lcNQ" text="Get the JarURLConnection from a class.&#xD;&#xA;     *&#xD;&#xA;     * @return The &lt;code>JarURLConnection&lt;/code>." item="_R9PvGFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Ram7cVIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8vYIVIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8vYIlIhEeibjuLm5_lcNQ" text="Extract the package version from the class.&#xD;&#xA;     *&#xD;&#xA;     * @param juc The &lt;code>JarURLConnection&lt;/code> to extract from.&#xD;&#xA;     * @return A value of the package version attribute." item="_R9PvIFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Ram7clIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8v_MFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8v_MVIhEeibjuLm5_lcNQ" text="Get a stream for the default splash file.&#xD;&#xA;     *&#xD;&#xA;     * Note: Not bothering to check for nulls as this is called in try&#xD;&#xA;     * block that ignores all exceptions.&#xD;&#xA;     *&#xD;&#xA;     * @param juc The &lt;code>JarURLConnection&lt;/code> to extract from.&#xD;&#xA;     * @return A suitable &lt;code>InputStream&lt;/code>, or null on error." item="_R9PvKFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Ram7c1IhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8wmQFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8wmQVIhEeibjuLm5_lcNQ" text="Exit printing fatal error message.&#xD;&#xA;     *&#xD;&#xA;     * @param template A &lt;code>StringTemplate&lt;/code> to print." item="_R9PvMFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Ram7dFIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8xNUFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8xNUVIhEeibjuLm5_lcNQ" text="Just gripe to System.err.&#xD;&#xA;     *&#xD;&#xA;     * @param template A &lt;code>StringTemplate&lt;/code> to print." item="_R9PvNlIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Ram7dlIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8xNUlIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8x0YFIhEeibjuLm5_lcNQ" text="Prints the usage message and exits.&#xD;&#xA;     *&#xD;&#xA;     * @param options The command line &lt;code>Options&lt;/code>.&#xD;&#xA;     * @param status The status to exit with." item="_R9PvPFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_RanigVIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8ybcFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8ybcVIhEeibjuLm5_lcNQ" text="Get the specification from a given TC file.&#xD;&#xA;     *&#xD;&#xA;     * @param tcf The &lt;code>FreeColTcFile&lt;/code> to load.&#xD;&#xA;     * @param advantages An optional &lt;code>Advantages&lt;/code> setting.&#xD;&#xA;     * @param difficulty An optional difficulty level.&#xD;&#xA;     * @return A &lt;code>Specification&lt;/code>." item="_R9PvRVIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_RaniglIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8ybclIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8ybc1IhEeibjuLm5_lcNQ" text="Sets the difficulty level.&#xD;&#xA;     *&#xD;&#xA;     * @param difficulty The actual &lt;code>OptionGroup&lt;/code>&#xD;&#xA;     *     containing the difficulty level." item="_R9PvU1IhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Ranih1IhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8zCgFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8zCgVIhEeibjuLm5_lcNQ" text="Utility to make a load failure message.&#xD;&#xA;     *&#xD;&#xA;     * @param file The &lt;code>File&lt;/code> that failed to load.&#xD;&#xA;     * @return A &lt;code>StringTemplate&lt;/code> with the error message." item="_R9PvWVIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Rap-wlIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_R8zpkFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_R8zpkVIhEeibjuLm5_lcNQ" text="Utility to make a save failure message.&#xD;&#xA;     *&#xD;&#xA;     * @param file The &lt;code>File&lt;/code> that failed to save.&#xD;&#xA;     * @return A &lt;code>StringTemplate&lt;/code> with the error message." item="_R9PvYVIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_Rap-w1IhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_R9PHYFIhEeibjuLm5_lcNQ" comments="_R8bPEFIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8b2IFIhEeibjuLm5_lcNQ" name="FreeCol" associationsOut="_R9IZsFIhEeibjuLm5_lcNQ _R9Jn0FIhEeibjuLm5_lcNQ _R9K18FIhEeibjuLm5_lcNQ _R9LdAFIhEeibjuLm5_lcNQ _R9MrIFIhEeibjuLm5_lcNQ _R9OgUFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_java.uml#_RAl48FIhEeibjuLm5_lcNQ"/>
+    <visualProperties xmi:id="_R9PHYVIhEeibjuLm5_lcNQ" position="1175.0,-1138.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_R9PHYlIhEeibjuLm5_lcNQ" label="+"/>
+    <attributes xmi:id="_R9PHY1IhEeibjuLm5_lcNQ" defaultValue="Logger.getLogger(FreeCol.class.getName())" name="logger" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZNNQFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHZFIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PHZVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHZlIhEeibjuLm5_lcNQ" name="Logger">
+        <modelElement href="FreeCol_java.uml#_RXsKUVIhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHZ1IhEeibjuLm5_lcNQ" defaultValue="&quot;0.11.6&quot;" name="FREECOL_VERSION" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZObYFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHaFIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PHaVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHalIhEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHa1IhEeibjuLm5_lcNQ" defaultValue="{&#xD;&#xA;        &quot;veryEasy&quot;, &quot;easy&quot;, &quot;medium&quot;, &quot;hard&quot;, &quot;veryHard&quot;&#xD;&#xA;    }" name="DIFFICULTIES" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZObYlIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PHbFIhEeibjuLm5_lcNQ" name="Array">
+        <modelElement href="FreeCol_java.uml#_RZPCcFIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PHbVIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PHblIhEeibjuLm5_lcNQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_R9PHb1IhEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHcFIhEeibjuLm5_lcNQ" defaultValue="&quot;fsg&quot;" name="FREECOL_SAVE_EXTENSION" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZPpgFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHcVIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PHclIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHc1IhEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHdFIhEeibjuLm5_lcNQ" defaultValue="System.getProperty(&quot;java.version&quot;)" name="JAVA_VERSION" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZPpglIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHdVIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PHdlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHd1IhEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHeFIhEeibjuLm5_lcNQ" defaultValue="Runtime.getRuntime().maxMemory()" name="MEMORY_MAX" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZPphFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHeVIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PHelIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHe1IhEeibjuLm5_lcNQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHfFIhEeibjuLm5_lcNQ" defaultValue="&quot;FreeColClient:&quot;" name="CLIENT_THREAD" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZQQkVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHfVIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PHflIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHf1IhEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHgFIhEeibjuLm5_lcNQ" defaultValue="&quot;FreeColServer:&quot;" name="SERVER_THREAD" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZQ3oFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHgVIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PHglIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHg1IhEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHhFIhEeibjuLm5_lcNQ" defaultValue="&quot;FreeColMetaServer:&quot;" name="METASERVER_THREAD" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZQ3olIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHhVIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PHhlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHh1IhEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHiFIhEeibjuLm5_lcNQ" defaultValue="&quot;meta.freecol.org&quot;" name="META_SERVER_ADDRESS" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZResFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHiVIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PHilIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHi1IhEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHjFIhEeibjuLm5_lcNQ" defaultValue="3540" name="META_SERVER_PORT" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZReslIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHjVIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PHjlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHj1IhEeibjuLm5_lcNQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHkFIhEeibjuLm5_lcNQ" defaultValue="null" name="freeColRevision" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZSFwFIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PHkVIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_RZSs0FIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PHklIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PHk1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHlFIhEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHlVIhEeibjuLm5_lcNQ" defaultValue="null" name="locale" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZSs0VIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHllIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PHl1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHmFIhEeibjuLm5_lcNQ" name="Locale">
+        <modelElement href="FreeCol_java.uml#_RXlcoFIhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHmVIhEeibjuLm5_lcNQ" defaultValue="Advantages.SELECTABLE" name="ADVANTAGES_DEFAULT" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZTT4VIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHmlIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PHm1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHnFIhEeibjuLm5_lcNQ" name="Advantages">
+        <modelElement href="FreeCol_java.uml#_RX8B8VIhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHnVIhEeibjuLm5_lcNQ" defaultValue="&quot;model.difficulty.medium&quot;" name="DIFFICULTY_DEFAULT" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZT68FIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHnlIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PHn1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHoFIhEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHoVIhEeibjuLm5_lcNQ" defaultValue="4" name="EUROPEANS_DEFAULT" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZT68lIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHolIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PHo1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHpFIhEeibjuLm5_lcNQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHpVIhEeibjuLm5_lcNQ" defaultValue="1" name="EUROPEANS_MIN" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZUiAVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHplIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PHp1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHqFIhEeibjuLm5_lcNQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHqVIhEeibjuLm5_lcNQ" defaultValue="Level.INFO" name="LOGLEVEL_DEFAULT" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZVJEFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHqlIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PHq1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHrFIhEeibjuLm5_lcNQ" name="Level">
+        <modelElement href="FreeCol_java.uml#_RXq8MVIhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHrVIhEeibjuLm5_lcNQ" defaultValue="&quot;1.8&quot;" name="JAVA_VERSION_MIN" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZuxsFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHrlIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PHr1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHsFIhEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHsVIhEeibjuLm5_lcNQ" defaultValue="128" name="MEMORY_MIN" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZvYwFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHslIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PHs1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHtFIhEeibjuLm5_lcNQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHtVIhEeibjuLm5_lcNQ" defaultValue="3541" name="PORT_DEFAULT" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZv_0FIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHtlIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PHt1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHuFIhEeibjuLm5_lcNQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHuVIhEeibjuLm5_lcNQ" defaultValue="&quot;splash.jpg&quot;" name="SPLASH_DEFAULT" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZwm4FIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHulIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PHu1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHvFIhEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHvVIhEeibjuLm5_lcNQ" defaultValue="&quot;freecol&quot;" name="TC_DEFAULT" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZwm4lIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHvlIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PHv1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHwFIhEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHwVIhEeibjuLm5_lcNQ" defaultValue="60" name="TIMEOUT_DEFAULT" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZxN8FIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHwlIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PHw1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHxFIhEeibjuLm5_lcNQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHxVIhEeibjuLm5_lcNQ" defaultValue="10" name="TIMEOUT_MIN" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZx1AFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHxlIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PHx1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHyFIhEeibjuLm5_lcNQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHyVIhEeibjuLm5_lcNQ" defaultValue="100" name="GUI_SCALE_MIN_PCT" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZycEFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHylIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PHy1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PHzFIhEeibjuLm5_lcNQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PHzVIhEeibjuLm5_lcNQ" defaultValue="200" name="GUI_SCALE_MAX_PCT" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZycElIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PHzlIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PHz1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PH0FIhEeibjuLm5_lcNQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PH0VIhEeibjuLm5_lcNQ" defaultValue="25" name="GUI_SCALE_STEP_PCT" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZzDIVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PH0lIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PH01IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PH1FIhEeibjuLm5_lcNQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PH1VIhEeibjuLm5_lcNQ" defaultValue="GUI_SCALE_MIN_PCT / 100.0f" name="GUI_SCALE_MIN" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZzDI1IhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PH1lIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PH11IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PH2FIhEeibjuLm5_lcNQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PH2VIhEeibjuLm5_lcNQ" defaultValue="GUI_SCALE_MAX_PCT / 100.0f" name="GUI_SCALE_MAX" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZzqMVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PH2lIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PH21IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PH3FIhEeibjuLm5_lcNQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PH3VIhEeibjuLm5_lcNQ" defaultValue="GUI_SCALE_STEP_PCT / 100.0f" name="GUI_SCALE_STEP" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZzqM1IhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PH3lIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PH31IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PH4FIhEeibjuLm5_lcNQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PH4VIhEeibjuLm5_lcNQ" defaultValue="1.0f" name="GUI_SCALE_DEFAULT" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZ0RQVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PH4lIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PH41IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PH5FIhEeibjuLm5_lcNQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PH5VIhEeibjuLm5_lcNQ" defaultValue="false" name="checkIntegrity" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZ0RQ1IhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PH5lIhEeibjuLm5_lcNQ" name="MultiDeclaration">
+        <modelElement href="FreeCol_java.uml#_RZ04UVIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_R9PH51IhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_RZ1fYFIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PH6FIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PH6VIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PH6lIhEeibjuLm5_lcNQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PH61IhEeibjuLm5_lcNQ" defaultValue="null" name="advantages" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZ3UkFIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PH7FIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_RZ37oFIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PH7VIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PH7lIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PH71IhEeibjuLm5_lcNQ" name="Advantages">
+        <modelElement href="FreeCol_java.uml#_RX8B8VIhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PH8FIhEeibjuLm5_lcNQ" defaultValue="null" name="difficulty" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZ5w0FIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PH8VIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_RZ5w0VIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PH8lIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PH81IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PH9FIhEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PH9VIhEeibjuLm5_lcNQ" defaultValue="EUROPEANS_DEFAULT" name="europeanCount" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZ7mAFIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PH9lIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_RZ7mAVIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PH91IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PH-FIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PH-VIhEeibjuLm5_lcNQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PH-lIhEeibjuLm5_lcNQ" defaultValue="null" name="fontName" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZ80IFIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PH-1IhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_RZ9bMFIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PH_FIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PH_VIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PH_lIhEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PH_1IhEeibjuLm5_lcNQ" defaultValue="LOGLEVEL_DEFAULT" name="logLevel" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZ9bMVIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PIAFIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_RZ-CQFIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PIAVIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PIAlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PIA1IhEeibjuLm5_lcNQ" name="Level">
+        <modelElement href="FreeCol_java.uml#_RXq8MVIhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PIBFIhEeibjuLm5_lcNQ" defaultValue="null" name="name" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZ-CQVIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PIBVIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_RZ-CQlIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PIBlIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PIB1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PICFIhEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PICVIhEeibjuLm5_lcNQ" defaultValue="-1" name="serverPort" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RZ_QYVIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PIClIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_RZ_QYlIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PIC1IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PIDFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PIDVIhEeibjuLm5_lcNQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PIDlIhEeibjuLm5_lcNQ" defaultValue="null" name="serverName" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RaBsoVIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PID1IhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_RaCTsFIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PIEFIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PIEVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PIElIhEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PIE1IhEeibjuLm5_lcNQ" name="splashStream" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RaCTsVIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PIFFIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_RaC6wFIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PIFVIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PIFlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PIF1IhEeibjuLm5_lcNQ" name="InputStream">
+        <modelElement href="FreeCol_java.uml#_RXdg0VIhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PIGFIhEeibjuLm5_lcNQ" defaultValue="null" name="tc" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RaC6wVIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PIGVIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_RaC6w1IhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PIGlIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PIG1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PIHFIhEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PIHVIhEeibjuLm5_lcNQ" defaultValue="-1" name="timeout" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RaDh0FIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PIHlIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_RaDh0lIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PIH1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PIIFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PIIVIhEeibjuLm5_lcNQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PIIlIhEeibjuLm5_lcNQ" defaultValue="new Dimension(-1, -1)" name="windowSize" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RaDh01IhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PII1IhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_RaEI4FIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PIJFIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PIJVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PIJlIhEeibjuLm5_lcNQ" name="Dimension">
+        <modelElement href="FreeCol_java.uml#_RXWzIFIhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PIJ1IhEeibjuLm5_lcNQ" defaultValue="GUI_SCALE_DEFAULT" name="guiScale" staticAttribute="true">
+      <modelElement href="FreeCol_java.uml#_RaEI4VIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PIKFIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_RaEI41IhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PIKVIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PIKlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PIK1IhEeibjuLm5_lcNQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PILFIhEeibjuLm5_lcNQ" defaultValue="false" name="consoleLogging">
+      <modelElement href="FreeCol_java.uml#_RafmsVIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PILVIhEeibjuLm5_lcNQ" name="MultiDeclaration">
+        <modelElement href="FreeCol_java.uml#_RagNwFIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_R9PILlIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_RagNwVIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PIL1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PIMFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PIMVIhEeibjuLm5_lcNQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PIMlIhEeibjuLm5_lcNQ" defaultValue="false" name="debugStart">
+      <modelElement href="FreeCol_java.uml#_RagNw1IhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PIM1IhEeibjuLm5_lcNQ" name="MultiDeclaration">
+        <modelElement href="FreeCol_java.uml#_Rag00FIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_R9PINFIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_Rag00VIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PINVIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PINlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PIN1IhEeibjuLm5_lcNQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PIOFIhEeibjuLm5_lcNQ" defaultValue="false" name="fastStart">
+      <modelElement href="FreeCol_java.uml#_Rag001IhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PIOVIhEeibjuLm5_lcNQ" name="MultiDeclaration">
+        <modelElement href="FreeCol_java.uml#_Rahb4FIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_R9PIOlIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_Rahb4VIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PIO1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PIPFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PIPVIhEeibjuLm5_lcNQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PIPlIhEeibjuLm5_lcNQ" defaultValue="false" name="headless">
+      <modelElement href="FreeCol_java.uml#_RaiC8FIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PIP1IhEeibjuLm5_lcNQ" name="MultiDeclaration">
+        <modelElement href="FreeCol_java.uml#_RaiC8VIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_R9PIQFIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_RaiC8lIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PIQVIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PIQlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PIQ1IhEeibjuLm5_lcNQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PIRFIhEeibjuLm5_lcNQ" defaultValue="true" name="introVideo">
+      <modelElement href="FreeCol_java.uml#_RaiqAFIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PIRVIhEeibjuLm5_lcNQ" name="MultiDeclaration">
+        <modelElement href="FreeCol_java.uml#_RaiqAVIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_R9PIRlIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_RaiqAlIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PIR1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PISFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PISVIhEeibjuLm5_lcNQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PISlIhEeibjuLm5_lcNQ" defaultValue="true" name="javaCheck">
+      <modelElement href="FreeCol_java.uml#_RajREFIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PIS1IhEeibjuLm5_lcNQ" name="MultiDeclaration">
+        <modelElement href="FreeCol_java.uml#_RajREVIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_R9PITFIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_RajRElIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PITVIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PITlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PIT1IhEeibjuLm5_lcNQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PIUFIhEeibjuLm5_lcNQ" defaultValue="true" name="memoryCheck">
+      <modelElement href="FreeCol_java.uml#_Raj4IFIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PIUVIhEeibjuLm5_lcNQ" name="MultiDeclaration">
+        <modelElement href="FreeCol_java.uml#_Raj4IVIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_R9PIUlIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_Raj4IlIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PIU1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PIVFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PIVVIhEeibjuLm5_lcNQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PIVlIhEeibjuLm5_lcNQ" defaultValue="true" name="publicServer">
+      <modelElement href="FreeCol_java.uml#_RakfMFIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PIV1IhEeibjuLm5_lcNQ" name="MultiDeclaration">
+        <modelElement href="FreeCol_java.uml#_RakfMVIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_R9PIWFIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_RakfMlIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PIWVIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PIWlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PIW1IhEeibjuLm5_lcNQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PIXFIhEeibjuLm5_lcNQ" defaultValue="true" name="sound">
+      <modelElement href="FreeCol_java.uml#_RalGQFIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PIXVIhEeibjuLm5_lcNQ" name="MultiDeclaration">
+        <modelElement href="FreeCol_java.uml#_RalGQVIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_R9PIXlIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_RalGQlIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PIX1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PIYFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PIYVIhEeibjuLm5_lcNQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_R9PIYlIhEeibjuLm5_lcNQ" defaultValue="false" name="standAloneServer">
+      <modelElement href="FreeCol_java.uml#_RaltUFIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_R9PIY1IhEeibjuLm5_lcNQ" name="MultiDeclaration">
+        <modelElement href="FreeCol_java.uml#_RaltUVIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_R9PIZFIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_RaltUlIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PIZVIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PIZlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_R9PIZ1IhEeibjuLm5_lcNQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_R9PIaFIhEeibjuLm5_lcNQ" name="FreeCol">
+      <modelElement href="FreeCol_java.uml#_RA-6gFIhEeibjuLm5_lcNQ"/>
+      <keywords xmi:id="_R9PIaVIhEeibjuLm5_lcNQ" keyword="create"/>
+      <stereotypes xmi:id="_R9PIalIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_java.uml#_RBAvsFIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_R9PIa1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PIbFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9PucFIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RBB90FIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9PucVIhEeibjuLm5_lcNQ" name="FreeCol">
+          <modelElement href="FreeCol_java.uml#_RAl48FIhEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_R9PuclIhEeibjuLm5_lcNQ" comments="_R8ij0FIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8ij0VIhEeibjuLm5_lcNQ" name="main" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBDL8FIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9Puc1IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PudFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_R9PudVIhEeibjuLm5_lcNQ" name="args">
+        <modelElement href="FreeCol_java.uml#_RBDL8VIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PudlIhEeibjuLm5_lcNQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_R9Pud1IhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9PueFIhEeibjuLm5_lcNQ" comments="_R8ij0lIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8ij01IhEeibjuLm5_lcNQ" name="fatal" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBLu0FIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PueVIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PuelIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_R9Pue1IhEeibjuLm5_lcNQ" name="err">
+        <modelElement href="FreeCol_java.uml#_RBMV4FIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PufFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9PufVIhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9PuflIhEeibjuLm5_lcNQ" comments="_R8jK4FIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8jK4VIhEeibjuLm5_lcNQ" name="gripe" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBNkAFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9Puf1IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PugFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_R9PugVIhEeibjuLm5_lcNQ" name="key">
+        <modelElement href="FreeCol_java.uml#_RBNkAVIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PuglIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9Pug1IhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9PuhFIhEeibjuLm5_lcNQ" comments="_R8jx8FIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8jx8VIhEeibjuLm5_lcNQ" name="findArg" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBOLEFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PuhVIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PuhlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9Puh1IhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RBOyIlIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9PuiFIhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_R9PuiVIhEeibjuLm5_lcNQ" name="option">
+        <modelElement href="FreeCol_java.uml#_RBOyIFIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PuilIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9Pui1IhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_R9PujFIhEeibjuLm5_lcNQ" name="args">
+        <modelElement href="FreeCol_java.uml#_RBOyIVIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PujVIhEeibjuLm5_lcNQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_R9PujlIhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9Puj1IhEeibjuLm5_lcNQ" comments="_R8kZAFIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8kZAVIhEeibjuLm5_lcNQ" name="handleArgs" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBQAQFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PukFIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PukVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_R9PuklIhEeibjuLm5_lcNQ" name="args">
+        <modelElement href="FreeCol_java.uml#_RBQAQVIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9Puk1IhEeibjuLm5_lcNQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_R9PulFIhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9PulVIhEeibjuLm5_lcNQ" comments="_R8kZAlIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8lAEFIhEeibjuLm5_lcNQ" name="getTCSpecification" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBScgFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PullIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9Pul1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9PumFIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RY9VoFIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9PumVIhEeibjuLm5_lcNQ" name="Specification">
+          <modelElement href="FreeCol_java.uml#_RX93IFIhEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_R9PumlIhEeibjuLm5_lcNQ" comments="_R8lAEVIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8lAElIhEeibjuLm5_lcNQ" name="selectAdvantages" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBTqoFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9Pum1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PunFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9PunVIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RY98sFIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9PunlIhEeibjuLm5_lcNQ" name="Advantages">
+          <modelElement href="FreeCol_java.uml#_RX8B8VIhEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_R9Pun1IhEeibjuLm5_lcNQ" name="advantages">
+        <modelElement href="FreeCol_java.uml#_RBURsFIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PuoFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9PuoVIhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9PuolIhEeibjuLm5_lcNQ" comments="_R8lnIFIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8lnIVIhEeibjuLm5_lcNQ" name="getValidAdvantages" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBVf0FIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9Puo1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PupFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9PupVIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RBWG4FIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9PuplIhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_R9Pup1IhEeibjuLm5_lcNQ" comments="_R8mOMFIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8mOMVIhEeibjuLm5_lcNQ" name="selectDifficulty" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBWt8FIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PuqFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PuqVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9PuqlIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RBXVAFIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9Puq1IhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_R9PurFIhEeibjuLm5_lcNQ" name="arg">
+        <modelElement href="FreeCol_java.uml#_RBWt8VIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PurVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9PurlIhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9Pur1IhEeibjuLm5_lcNQ" comments="_R8m1QFIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8m1QVIhEeibjuLm5_lcNQ" name="getValidDifficulties" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBX8EFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PusFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PusVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9PuslIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RBYjIFIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9Pus1IhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_R9PutFIhEeibjuLm5_lcNQ" comments="_R8m1QlIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8ncUFIhEeibjuLm5_lcNQ" name="setGUIScale" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBZKMFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PutVIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PutlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9Put1IhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RBZxQFIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9PuuFIhEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_R9PuuVIhEeibjuLm5_lcNQ" name="arg">
+        <modelElement href="FreeCol_java.uml#_RBZKMVIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PuulIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9Puu1IhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9PuvFIhEeibjuLm5_lcNQ" comments="_R8ncUVIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8ncUlIhEeibjuLm5_lcNQ" name="getValidGUIScales" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBZxQVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PuvVIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PuvlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9Puv1IhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RBaYUFIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9PuwFIhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_R9PuwVIhEeibjuLm5_lcNQ" comments="_R8oDYFIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8oDYVIhEeibjuLm5_lcNQ" name="selectEuropeanCount" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBa_YFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PuwlIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9Puw1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9PuxFIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RBa_YlIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9PuxVIhEeibjuLm5_lcNQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_R9PuxlIhEeibjuLm5_lcNQ" name="arg">
+        <modelElement href="FreeCol_java.uml#_RBa_YVIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9Pux1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9PuyFIhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9PuyVIhEeibjuLm5_lcNQ" comments="_R8oqcFIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8oqcVIhEeibjuLm5_lcNQ" name="setLogLevel" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBbmcFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PuylIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9Puy1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_R9PuzFIhEeibjuLm5_lcNQ" name="arg">
+        <modelElement href="FreeCol_java.uml#_RBcNgFIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PuzVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9PuzlIhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9Puz1IhEeibjuLm5_lcNQ" comments="_R8pRgFIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8pRgVIhEeibjuLm5_lcNQ" name="setName" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBc0kFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9Pu0FIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9Pu0VIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_R9Pu0lIhEeibjuLm5_lcNQ" name="name">
+        <modelElement href="FreeCol_java.uml#_RBc0kVIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9Pu01IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9Pu1FIhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9Pu1VIhEeibjuLm5_lcNQ" comments="_R8pRglIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8p4kFIhEeibjuLm5_lcNQ" name="getRevision" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBdboFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9Pu1lIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9Pu11IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9Pu2FIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RBdboVIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9Pu2VIhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_R9Pu2lIhEeibjuLm5_lcNQ" comments="_R8p4kVIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8p4klIhEeibjuLm5_lcNQ" name="getServerHost" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBeCsFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9Pu21IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9Pu3FIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9Pu3VIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RBepwFIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9Pu3lIhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_R9Pu31IhEeibjuLm5_lcNQ" comments="_R8qfoFIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8qfoVIhEeibjuLm5_lcNQ" name="getTC" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBepwVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9Pu4FIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9Pu4VIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9Pu4lIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RBfQ0FIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9Pu41IhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_R9Pu5FIhEeibjuLm5_lcNQ" comments="_R8rGsFIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8rGsVIhEeibjuLm5_lcNQ" name="setTC" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBf34FIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9Pu5VIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9Pu5lIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_R9Pu51IhEeibjuLm5_lcNQ" name="tc">
+        <modelElement href="FreeCol_java.uml#_RBf34VIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9Pu6FIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9Pu6VIhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9Pu6lIhEeibjuLm5_lcNQ" comments="_R8rGslIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8rGs1IhEeibjuLm5_lcNQ" name="getTCFile" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBf34lIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9Pu61IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9Pu7FIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9Pu7VIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RY-jwFIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9Pu7lIhEeibjuLm5_lcNQ" name="FreeColTcFile">
+          <modelElement href="FreeCol_java.uml#_RX4-oVIhEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_R9Pu71IhEeibjuLm5_lcNQ" comments="_R8rtwFIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8rtwVIhEeibjuLm5_lcNQ" name="getTimeout" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBhGAFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9Pu8FIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9Pu8VIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9Pu8lIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RBhtEFIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9Pu81IhEeibjuLm5_lcNQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_R9Pu9FIhEeibjuLm5_lcNQ" name="singlePlayer">
+        <modelElement href="FreeCol_java.uml#_RBhGAVIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9Pu9VIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9Pu9lIhEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9Pu91IhEeibjuLm5_lcNQ" comments="_R8sU0FIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8sU0VIhEeibjuLm5_lcNQ" name="setTimeout" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBiUIFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9Pu-FIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9Pu-VIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9Pu-lIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RBiUIlIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9Pu-1IhEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_R9Pu_FIhEeibjuLm5_lcNQ" name="timeout">
+        <modelElement href="FreeCol_java.uml#_RBiUIVIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9Pu_VIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9Pu_lIhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9Pu_1IhEeibjuLm5_lcNQ" comments="_R8s74FIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8s74VIhEeibjuLm5_lcNQ" name="getVersion" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBi7MFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PvAFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PvAVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9PvAlIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RBi7MVIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9PvA1IhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_R9PvBFIhEeibjuLm5_lcNQ" comments="_R8ti8FIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8ti8VIhEeibjuLm5_lcNQ" name="setWindowSize" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBjiQFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PvBVIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PvBlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_R9PvB1IhEeibjuLm5_lcNQ" name="arg">
+        <modelElement href="FreeCol_java.uml#_RBkJUFIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PvCFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9PvCVIhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9PvClIhEeibjuLm5_lcNQ" comments="_R8ti8lIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8ti81IhEeibjuLm5_lcNQ" name="getConfiguration" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBlXcFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PvC1IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PvDFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9PvDVIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RZBnEVIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9PvDlIhEeibjuLm5_lcNQ" name="StringBuilder">
+          <modelElement href="FreeCol_java.uml#_RZBAAFIhEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_R9PvD1IhEeibjuLm5_lcNQ" comments="_R8uKAFIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8uKAVIhEeibjuLm5_lcNQ" name="startClient" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBmlkFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PvEFIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PvEVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_R9PvElIhEeibjuLm5_lcNQ" name="userMsg">
+        <modelElement href="FreeCol_java.uml#_RBmlkVIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PvE1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9PvFFIhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9PvFVIhEeibjuLm5_lcNQ" comments="_R8uxEFIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8uxEVIhEeibjuLm5_lcNQ" name="startServer" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RBnMoFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PvFlIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PvF1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_R9PvGFIhEeibjuLm5_lcNQ" comments="_R8uxElIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8vYIFIhEeibjuLm5_lcNQ" name="getJarURLConnection" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RYzkoVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PvGVIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PvGlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9PvG1IhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RY0LsFIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9PvHFIhEeibjuLm5_lcNQ" name="JarURLConnection">
+          <modelElement href="FreeCol_java.uml#_RXiZUVIhEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_R9PvHVIhEeibjuLm5_lcNQ" name="c">
+        <modelElement href="FreeCol_java.uml#_RYzkolIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PvHlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9PvH1IhEeibjuLm5_lcNQ" name="Class">
+          <modelElement href="FreeCol_java.uml#_RYy9kFIhEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9PvIFIhEeibjuLm5_lcNQ" comments="_R8vYIVIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8vYIlIhEeibjuLm5_lcNQ" name="readVersion" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RY2A4FIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PvIVIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PvIlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9PvI1IhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RY2A4lIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9PvJFIhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_R9PvJVIhEeibjuLm5_lcNQ" name="juc">
+        <modelElement href="FreeCol_java.uml#_RY2A4VIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PvJlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9PvJ1IhEeibjuLm5_lcNQ" name="JarURLConnection">
+          <modelElement href="FreeCol_java.uml#_RXiZUVIhEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9PvKFIhEeibjuLm5_lcNQ" comments="_R8v_MFIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8v_MVIhEeibjuLm5_lcNQ" name="getDefaultSplashStream" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RY2n8FIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PvKVIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PvKlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9PvK1IhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RY3PAFIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9PvLFIhEeibjuLm5_lcNQ" name="InputStream">
+          <modelElement href="FreeCol_java.uml#_RXdg0VIhEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_R9PvLVIhEeibjuLm5_lcNQ" name="juc">
+        <modelElement href="FreeCol_java.uml#_RY2n8VIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PvLlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9PvL1IhEeibjuLm5_lcNQ" name="JarURLConnection">
+          <modelElement href="FreeCol_java.uml#_RXiZUVIhEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9PvMFIhEeibjuLm5_lcNQ" comments="_R8wmQFIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8wmQVIhEeibjuLm5_lcNQ" name="fatal" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RY32EFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PvMVIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PvMlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_R9PvM1IhEeibjuLm5_lcNQ" name="template">
+        <modelElement href="FreeCol_java.uml#_RY32EVIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PvNFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9PvNVIhEeibjuLm5_lcNQ" name="StringTemplate">
+          <modelElement href="FreeCol_java.uml#_RX93IlIhEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9PvNlIhEeibjuLm5_lcNQ" comments="_R8xNUFIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8xNUVIhEeibjuLm5_lcNQ" name="gripe" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RY4dIFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PvN1IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PvOFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_R9PvOVIhEeibjuLm5_lcNQ" name="template">
+        <modelElement href="FreeCol_java.uml#_RY4dIVIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PvOlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9PvO1IhEeibjuLm5_lcNQ" name="StringTemplate">
+          <modelElement href="FreeCol_java.uml#_RX93IlIhEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9PvPFIhEeibjuLm5_lcNQ" comments="_R8xNUlIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8x0YFIhEeibjuLm5_lcNQ" name="printUsage" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RY5rQFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PvPVIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_R9PvPlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_R9PvP1IhEeibjuLm5_lcNQ" name="options">
+        <modelElement href="FreeCol_java.uml#_RY5rQVIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PvQFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9PvQVIhEeibjuLm5_lcNQ" name="Options">
+          <modelElement href="FreeCol_java.uml#_RYFL4VIhEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_R9PvQlIhEeibjuLm5_lcNQ" name="status">
+        <modelElement href="FreeCol_java.uml#_RY5rQlIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PvQ1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9PvRFIhEeibjuLm5_lcNQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9PvRVIhEeibjuLm5_lcNQ" comments="_R8ybcFIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8ybcVIhEeibjuLm5_lcNQ" name="loadSpecification" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RY6SUFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PvRlIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PvR1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9PvSFIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RY8ukFIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9PvSVIhEeibjuLm5_lcNQ" name="Specification">
+          <modelElement href="FreeCol_java.uml#_RX93IFIhEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_R9PvSlIhEeibjuLm5_lcNQ" name="tcf">
+        <modelElement href="FreeCol_java.uml#_RY65YFIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PvS1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9PvTFIhEeibjuLm5_lcNQ" name="FreeColTcFile">
+          <modelElement href="FreeCol_java.uml#_RX4-oVIhEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_R9PvTVIhEeibjuLm5_lcNQ" name="advantages">
+        <modelElement href="FreeCol_java.uml#_RY65YVIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PvTlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9PvT1IhEeibjuLm5_lcNQ" name="Advantages">
+          <modelElement href="FreeCol_java.uml#_RX8B8VIhEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_R9PvUFIhEeibjuLm5_lcNQ" name="difficulty">
+        <modelElement href="FreeCol_java.uml#_RY65YlIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PvUVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9PvUlIhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9PvU1IhEeibjuLm5_lcNQ" comments="_R8ybclIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8ybc1IhEeibjuLm5_lcNQ" name="setDifficulty" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RY98sVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PvVFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PvVVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_R9PvVlIhEeibjuLm5_lcNQ" name="difficulty">
+        <modelElement href="FreeCol_java.uml#_RY98slIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PvV1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9PvWFIhEeibjuLm5_lcNQ" name="OptionGroup">
+          <modelElement href="FreeCol_java.uml#_RX_FQVIhEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9PvWVIhEeibjuLm5_lcNQ" comments="_R8zCgFIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8zCgVIhEeibjuLm5_lcNQ" name="badLoad" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RY_K0FIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PvWlIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PvW1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9PvXFIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RY_K0lIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9PvXVIhEeibjuLm5_lcNQ" name="StringTemplate">
+          <modelElement href="FreeCol_java.uml#_RX93IlIhEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_R9PvXlIhEeibjuLm5_lcNQ" name="file">
+        <modelElement href="FreeCol_java.uml#_RY_K0VIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PvX1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9PvYFIhEeibjuLm5_lcNQ" name="File">
+          <modelElement href="FreeCol_java.uml#_RXZ2cFIhEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_R9PvYVIhEeibjuLm5_lcNQ" comments="_R8zpkFIhEeibjuLm5_lcNQ" targetConnectionVisual="_R8zpkVIhEeibjuLm5_lcNQ" name="badSave" staticOperation="true">
+      <modelElement href="FreeCol_java.uml#_RZAY8FIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_R9PvYlIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_R9PvY1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_R9PvZFIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_java.uml#_RZAY8lIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_R9PvZVIhEeibjuLm5_lcNQ" name="StringTemplate">
+          <modelElement href="FreeCol_java.uml#_RX93IlIhEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_R9PvZlIhEeibjuLm5_lcNQ" name="file">
+        <modelElement href="FreeCol_java.uml#_RZAY8VIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_R9PvZ1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_R9PvaFIhEeibjuLm5_lcNQ" name="File">
+          <modelElement href="FreeCol_java.uml#_RXZ2cFIhEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_R_VZIFIhEeibjuLm5_lcNQ" name="IOException">
+    <modelElement href="FreeCol_java.uml#_RXeu8VIhEeibjuLm5_lcNQ"/>
+    <visualProperties xmi:id="_R_VZIVIhEeibjuLm5_lcNQ" position="1592.0,1224.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_R_VZIlIhEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="FreeCol_java.uml#_RXf9EFIhEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <visibility xmi:id="_R_VZI1IhEeibjuLm5_lcNQ" label="+"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,2379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_WLKRoFInEeibjuLm5_lcNQ" name="debug">
+    <eAnnotations xmi:id="_XRTaUFInEeibjuLm5_lcNQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_XRTaUVInEeibjuLm5_lcNQ" source="codegen">
+        <details xmi:id="_XRTaUlInEeibjuLm5_lcNQ" key="codegenDirectory" value="/COSC442-FinalProject/src"/>
+        <details xmi:id="_YGy34FInEeibjuLm5_lcNQ" key="AssociatedSourceCode" value="/COSC442-FinalProject/src/net/sf/freecol/common/debug/DebugUtils.java;3697518323/1;/COSC442-FinalProject/src/net/sf/freecol/common/debug/FreeColDebugger.java;2667418782/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_XhWogFInEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_XhWogVInEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_XhWoglInEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_XhWog1InEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_XhWohFInEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_XhWohVInEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_XhWohlInEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_XhWoh1InEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_XhWoiFInEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Xg4HYFInEeibjuLm5_lcNQ" name="net">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Xg4HYVInEeibjuLm5_lcNQ" name="sf">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Xg4HYlInEeibjuLm5_lcNQ" name="freecol">
+          <packagedElement xmi:type="uml:Package" xmi:id="_Xg4HY1InEeibjuLm5_lcNQ" name="common">
+            <packagedElement xmi:type="uml:Package" xmi:id="_Xg4ueVInEeibjuLm5_lcNQ" name="i18n">
+              <packagedElement xmi:type="uml:Class" xmi:id="_Xr8u8VInEeibjuLm5_lcNQ" name="Messages"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Xg4uelInEeibjuLm5_lcNQ" name="io">
+              <packagedElement xmi:type="uml:Package" xmi:id="_Xg4ue1InEeibjuLm5_lcNQ" name="FreeColXMLWriter">
+                <packagedElement xmi:type="uml:Enumeration" xmi:id="_Xr8u81InEeibjuLm5_lcNQ" name="WriteScope"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Xg5VgFInEeibjuLm5_lcNQ" name="model">
+              <packagedElement xmi:type="uml:Package" xmi:id="_Xg5VgVInEeibjuLm5_lcNQ" name="LostCityRumour">
+                <packagedElement xmi:type="uml:Enumeration" xmi:id="_XsC1kVInEeibjuLm5_lcNQ" name="RumourType"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_Xg5VglInEeibjuLm5_lcNQ" name="Monarch">
+                <packagedElement xmi:type="uml:Enumeration" xmi:id="_XsDcoVInEeibjuLm5_lcNQ" name="MonarchAction"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_Xr9WAVInEeibjuLm5_lcNQ" name="Building"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_Xr99EVInEeibjuLm5_lcNQ" name="BuildingType"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_Xr99E1InEeibjuLm5_lcNQ" name="Colony"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_Xr-kIVInEeibjuLm5_lcNQ" name="Disaster"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_Xr_LMVInEeibjuLm5_lcNQ" name="Europe"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_Xr_yQFInEeibjuLm5_lcNQ" name="FoundingFather"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_Xr_yQlInEeibjuLm5_lcNQ" name="Game"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsAZUVInEeibjuLm5_lcNQ" name="GameOptions"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsBAYFInEeibjuLm5_lcNQ" name="Goods"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsBAYlInEeibjuLm5_lcNQ" name="GoodsContainer"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsBncVInEeibjuLm5_lcNQ" name="GoodsType"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsBnc1InEeibjuLm5_lcNQ" name="IndianSettlement"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_XsCOgVInEeibjuLm5_lcNQ" name="Location"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsC1k1InEeibjuLm5_lcNQ" name="Map"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsEDsFInEeibjuLm5_lcNQ" name="Player"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsEDslInEeibjuLm5_lcNQ" name="Role"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsEqwVInEeibjuLm5_lcNQ" name="Settlement"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsEqw1InEeibjuLm5_lcNQ" name="Specification"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsFR0VInEeibjuLm5_lcNQ" name="StringTemplate"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsF44VInEeibjuLm5_lcNQ" name="Tension"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsF441InEeibjuLm5_lcNQ" name="Tile"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsGf8VInEeibjuLm5_lcNQ" name="Unit"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsHHAFInEeibjuLm5_lcNQ" name="UnitType"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Xg58kFInEeibjuLm5_lcNQ" name="option">
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsHHAlInEeibjuLm5_lcNQ" name="BooleanOption"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Xg58kVInEeibjuLm5_lcNQ" name="util">
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsHuEVInEeibjuLm5_lcNQ" name="LogBuilder"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsHuE1InEeibjuLm5_lcNQ" name="CollectionUtils"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsIVIVInEeibjuLm5_lcNQ" name="RandomChoice"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsIVI1InEeibjuLm5_lcNQ" name="StringUtils"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Xg8Y0FInEeibjuLm5_lcNQ" name="debug">
+              <packagedElement xmi:type="uml:Class" xmi:id="_XhMQcFInEeibjuLm5_lcNQ" name="DebugUtils">
+                <ownedComment xmi:id="_Xs7mYFInEeibjuLm5_lcNQ">
+                  <body>Utilities for in game debug support.&#xD;
+ *&#xD;
+Several client GUI features have optional debug routines.  These&#xD;
+routines are typically quite special in that they need to intrusive&#xD;
+things with the server, and do not have much in common with the&#xD;
+client code while still sometimes needing user interaction.  They&#xD;
+also have considerable similarity amongst themselves.  So they have&#xD;
+been collected here.&#xD;
+ *&#xD;
+The client GUI features that are the source of these routines are:&#xD;
+  - The colony panel&#xD;
+  - The debug menu&#xD;
+  - The tile popup menu</body>
+                </ownedComment>
+                <ownedAttribute xmi:id="_XsxOUFInEeibjuLm5_lcNQ" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_Xr5ro1InEeibjuLm5_lcNQ" isReadOnly="true" association="_Xs_QwFInEeibjuLm5_lcNQ">
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_XsxOUVInEeibjuLm5_lcNQ" value="Logger.getLogger(DebugUtils.class.getName())"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs3U8FInEeibjuLm5_lcNQ" name="addBuildings" specification="_XsZa4FInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs3U8VInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs3U8lInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs3U81InEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xs3U9FInEeibjuLm5_lcNQ" name="buildingTitle">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final Game game = freeColClient.getGame();&#xD;
+     final GUI gui = freeColClient.getGUI();&#xD;
+     final Player player = freeColClient.getMyPlayer();&#xD;
+&#xD;
+     BuildingType buildingType = gui.getChoice(null, buildingTitle,&#xD;
+         &quot;cancel&quot;,&#xD;
+         game.getSpecification().getBuildingTypeList().stream()&#xD;
+             .map(bt -> {&#xD;
+                     String msg = Messages.getName(bt);&#xD;
+                     return new ChoiceItem&lt;BuildingType>(msg, bt);&#xD;
+                 })&#xD;
+             .sorted().collect(Collectors.toList()));&#xD;
+     if (buildingType == null) return;&#xD;
+&#xD;
+     final Game sGame = server.getGame();&#xD;
+     final BuildingType sBuildingType = server.getSpecification()&#xD;
+         .getBuildingType(buildingType.getId());&#xD;
+     final Player sPlayer = sGame.getFreeColGameObject(player.getId(),&#xD;
+                                                       Player.class);&#xD;
+     List&lt;String> results = new ArrayList&lt;>();&#xD;
+     int fails = 0;&#xD;
+     for (Colony sColony : sPlayer.getColonies()) {&#xD;
+         Colony.NoBuildReason reason&#xD;
+             = sColony.getNoBuildReason(sBuildingType, null);&#xD;
+         results.add(sColony.getName() + &quot;: &quot; + reason);&#xD;
+         if (reason == Colony.NoBuildReason.NONE) {&#xD;
+             if (sBuildingType.isDefenceType()) {&#xD;
+                 sColony.getTile().cacheUnseen();//+til&#xD;
+             }&#xD;
+             Building sBuilding = new ServerBuilding(sGame, sColony,&#xD;
+                                                     sBuildingType);&#xD;
+             sColony.addBuilding(sBuilding);//-til&#xD;
+         } else {&#xD;
+             fails++;&#xD;
+         }&#xD;
+     }&#xD;
+     gui.showInformationMessage(join(&quot;, &quot;, results));&#xD;
+     if (fails &lt; sPlayer.getNumberOfSettlements()) {&#xD;
+         // Brutally resynchronize&#xD;
+         freeColClient.getConnectController().reconnect();&#xD;
+     }&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs3U9VInEeibjuLm5_lcNQ" name="addFathers" specification="_XsaB8lInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs3U9lInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs3U91InEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs3U-FInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xs3U-VInEeibjuLm5_lcNQ" name="fatherTitle">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final GUI gui = freeColClient.getGUI();&#xD;
+     final Player player = freeColClient.getMyPlayer();&#xD;
+     final Game sGame = server.getGame();&#xD;
+     final Specification sSpec = sGame.getSpecification();&#xD;
+     final Player sPlayer = sGame.getFreeColGameObject(player.getId(),&#xD;
+                                                       Player.class);&#xD;
+&#xD;
+     FoundingFather father = gui.getChoice(null, fatherTitle,&#xD;
+         &quot;cancel&quot;,&#xD;
+         sSpec.getFoundingFathers().stream()&#xD;
+             .filter(f -> !sPlayer.hasFather(f))&#xD;
+             .map(f -> {&#xD;
+                     String msg = Messages.getName(f);&#xD;
+                     return new ChoiceItem&lt;FoundingFather>(msg, f);&#xD;
+                 })&#xD;
+             .sorted().collect(Collectors.toList()));&#xD;
+     if (father != null) {&#xD;
+         server.getInGameController()&#xD;
+             .addFoundingFather((ServerPlayer)sPlayer, father);&#xD;
+     }&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs3U-lInEeibjuLm5_lcNQ" name="addGold" specification="_XsapAFInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs3U-1InEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs3U_FInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs3U_VInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final GUI gui = freeColClient.getGUI();&#xD;
+     final Player player = freeColClient.getMyPlayer();&#xD;
+     final Game sGame = server.getGame();&#xD;
+     final Player sPlayer = sGame.getFreeColGameObject(player.getId(),&#xD;
+                                                       Player.class);&#xD;
+&#xD;
+     String response = gui.getInput(null,&#xD;
+         StringTemplate.template(&quot;prompt.selectGold&quot;),&#xD;
+         Integer.toString(1000), &quot;ok&quot;, &quot;cancel&quot;);&#xD;
+     if (response == null || response.isEmpty()) return;&#xD;
+     int gold;&#xD;
+     try {&#xD;
+         gold = Integer.parseInt(response);&#xD;
+     } catch (NumberFormatException x) {&#xD;
+         return;&#xD;
+     }&#xD;
+     player.modifyGold(gold);&#xD;
+     sPlayer.modifyGold(gold);&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs3U_lInEeibjuLm5_lcNQ" name="addImmigration" specification="_XsapBFInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs3U_1InEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs3VAFInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs3VAVInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final GUI gui = freeColClient.getGUI();&#xD;
+     final Player player = freeColClient.getMyPlayer();&#xD;
+     final Game sGame = server.getGame();&#xD;
+     final Player sPlayer = sGame.getFreeColGameObject(player.getId(),&#xD;
+                                                       Player.class);&#xD;
+&#xD;
+     String response = gui.getInput(null,&#xD;
+         StringTemplate.template(&quot;prompt.selectImmigration&quot;),&#xD;
+         Integer.toString(100), &quot;ok&quot;, &quot;cancel&quot;);&#xD;
+     if (response == null || response.isEmpty()) return;&#xD;
+     int crosses;&#xD;
+     try {&#xD;
+         crosses = Integer.parseInt(response);&#xD;
+     } catch (NumberFormatException x) {&#xD;
+         return;&#xD;
+     }&#xD;
+     player.modifyImmigration(crosses);&#xD;
+     sPlayer.modifyImmigration(crosses);&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs3VAlInEeibjuLm5_lcNQ" name="addLiberty" specification="_XsapCFInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs3VA1InEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs3VBFInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs3VBVInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final GUI gui = freeColClient.getGUI();&#xD;
+     final Player player = freeColClient.getMyPlayer();&#xD;
+     final Game sGame = server.getGame();&#xD;
+&#xD;
+     String response = gui.getInput(null,&#xD;
+         StringTemplate.template(&quot;prompt.selectLiberty&quot;),&#xD;
+         Integer.toString(100), &quot;ok&quot;, &quot;cancel&quot;);&#xD;
+     if (response == null || response.isEmpty()) return;&#xD;
+     int liberty;&#xD;
+     try {&#xD;
+         liberty = Integer.parseInt(response);&#xD;
+     } catch (NumberFormatException x) {&#xD;
+         return;&#xD;
+     }&#xD;
+     for (Colony c : player.getColonies()) {&#xD;
+         c.addLiberty(liberty);&#xD;
+         sGame.getFreeColGameObject(c.getId(), Colony.class)&#xD;
+             .addLiberty(liberty);&#xD;
+     }&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs3VBlInEeibjuLm5_lcNQ" name="addSkipChangeListener" specification="_XsbQElInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs3VB1InEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs3VCFInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs3VCVInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xs3VClInEeibjuLm5_lcNQ" name="menu" type="_Xr6Ss1InEeibjuLm5_lcNQ"/>
+                  <ownedParameter xmi:id="_Xs3VC1InEeibjuLm5_lcNQ" name="item" type="_Xr65wVInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs3VDFInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs3VDVInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     if (server == null) return;&#xD;
+&#xD;
+     menu.addChangeListener((ChangeEvent e) -> {&#xD;
+             boolean skipping = server.getInGameController()&#xD;
+                 .getSkippedTurns() > 0;&#xD;
+             item.setText(Messages.message((skipping)&#xD;
+                     ? &quot;menuBar.debug.stopSkippingTurns&quot;&#xD;
+                     : &quot;menuBar.debug.skipTurns&quot;));&#xD;
+         });&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs38AFInEeibjuLm5_lcNQ" name="addNewUnitToTile" specification="_Xsb3IFInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs38AVInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs38AlInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs38A1InEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xs38BFInEeibjuLm5_lcNQ" name="tile" type="_XsF441InEeibjuLm5_lcNQ"/>
+                  <language>java</language>
+                  <body>final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final Game sGame = server.getGame();&#xD;
+     final Specification sSpec = sGame.getSpecification();&#xD;
+     final Player player = freeColClient.getMyPlayer();&#xD;
+     final Player sPlayer = sGame.getFreeColGameObject(player.getId(),&#xD;
+                                                       Player.class);&#xD;
+     final Tile sTile = sGame.getFreeColGameObject(tile.getId(), Tile.class);&#xD;
+     final GUI gui = freeColClient.getGUI();&#xD;
+&#xD;
+     UnitType unitChoice = gui.getChoice(null,&#xD;
+         StringTemplate.template(&quot;prompt.selectUnitType&quot;), &quot;cancel&quot;,&#xD;
+         sSpec.getUnitTypeList().stream()&#xD;
+             .map(ut -> {&#xD;
+                     String msg = Messages.getName(ut);&#xD;
+                     return new ChoiceItem&lt;UnitType>(msg, ut);&#xD;
+                 })&#xD;
+             .sorted().collect(Collectors.toList()));&#xD;
+     if (unitChoice == null) return;&#xD;
+&#xD;
+     Unit carrier = null, sCarrier = null;&#xD;
+     if (!sTile.isLand() &amp;&amp; !unitChoice.isNaval()) {&#xD;
+         sCarrier = find(sTile.getUnitList(), u -> u.isNaval()&#xD;
+             &amp;&amp; u.getSpaceLeft() >= unitChoice.getSpaceTaken());&#xD;
+     }&#xD;
+     Location loc = (sCarrier != null) ? sCarrier : sTile;&#xD;
+     ServerUnit sUnit = new ServerUnit(sGame, loc, sPlayer,&#xD;
+                                       unitChoice);//-vis(sPlayer)&#xD;
+     ((ServerPlayer)sPlayer).exploreForUnit(sUnit);&#xD;
+     sUnit.setMovesLeft(sUnit.getInitialMovesLeft());&#xD;
+     sPlayer.invalidateCanSeeTiles();//+vis(sPlayer)&#xD;
+&#xD;
+     freeColClient.getConnectController().reconnect();&#xD;
+     // Note &quot;game&quot; is no longer valid after reconnect.&#xD;
+     Unit unit = freeColClient.getGame()&#xD;
+         .getFreeColGameObject(sUnit.getId(), Unit.class);&#xD;
+     if (unit != null) {&#xD;
+         gui.setActiveUnit(unit);&#xD;
+         gui.refresh();&#xD;
+         gui.resetMenuBar();&#xD;
+     }&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs38BVInEeibjuLm5_lcNQ" name="addUnitGoods" specification="_Xsb3JVInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs38BlInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs38B1InEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs38CFInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xs38CVInEeibjuLm5_lcNQ" name="unit" type="_XsGf8VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs38ClInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs38C1InEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final Game sGame = server.getGame();&#xD;
+     final Specification sSpec = sGame.getSpecification();&#xD;
+     final GUI gui = freeColClient.getGUI();&#xD;
+&#xD;
+     List&lt;ChoiceItem&lt;GoodsType>> gtl = new ArrayList&lt;>();&#xD;
+     for (GoodsType t : sSpec.getGoodsTypeList()) {&#xD;
+         if (t.isFoodType() &amp;&amp; t != sSpec.getPrimaryFoodType()) continue;&#xD;
+         String msg = Messages.getName(t);&#xD;
+         gtl.add(new ChoiceItem&lt;>(msg, t));&#xD;
+     }&#xD;
+     Collections.sort(gtl);&#xD;
+     GoodsType goodsType = gui.getChoice(null,&#xD;
+         StringTemplate.template(&quot;prompt.selectGoodsType&quot;),&#xD;
+         &quot;cancel&quot;,&#xD;
+         sSpec.getGoodsTypeList().stream()&#xD;
+         .filter(gt -> !gt.isFoodType() || gt == sSpec.getPrimaryFoodType())&#xD;
+         .map(gt -> {&#xD;
+                 String msg = Messages.getName(gt);&#xD;
+                 return new ChoiceItem&lt;GoodsType>(msg, gt);&#xD;
+             })&#xD;
+         .sorted().collect(Collectors.toList()));&#xD;
+     if (goodsType == null) return;&#xD;
+&#xD;
+     String amount = gui.getInput(null,&#xD;
+         StringTemplate.template(&quot;prompt.selectGoodsAmount&quot;),&#xD;
+         &quot;20&quot;, &quot;ok&quot;, &quot;cancel&quot;);&#xD;
+     if (amount == null) return;&#xD;
+&#xD;
+     int a;&#xD;
+     try {&#xD;
+         a = Integer.parseInt(amount);&#xD;
+     } catch (NumberFormatException nfe) {&#xD;
+         return;&#xD;
+     }&#xD;
+     GoodsType sGoodsType = sSpec.getGoodsType(goodsType.getId());&#xD;
+     GoodsContainer ugc = unit.getGoodsContainer();&#xD;
+     GoodsContainer sgc = sGame.getFreeColGameObject(ugc.getId(),&#xD;
+                                                     GoodsContainer.class);&#xD;
+     ugc.setAmount(goodsType, a);&#xD;
+     sgc.setAmount(sGoodsType, a);&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs38DFInEeibjuLm5_lcNQ" name="applyDisaster" specification="_XsceMlInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs38DVInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs38DlInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs38D1InEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xs38EFInEeibjuLm5_lcNQ" name="colony" type="_Xr99E1InEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs38EVInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs38ElInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>final GUI gui = freeColClient.getGUI();&#xD;
+     List&lt;RandomChoice&lt;Disaster>> disasters = colony.getDisasters();&#xD;
+     if (disasters.isEmpty()) {&#xD;
+         gui.showErrorMessage(StringTemplate&#xD;
+             .template(&quot;error.disasterNotAvailable&quot;)&#xD;
+             .addName(&quot;%colony%&quot;, colony.getName()));&#xD;
+         return;&#xD;
+     }&#xD;
+     Disaster disaster = gui.getChoice(null,&#xD;
+         StringTemplate.template(&quot;prompt.selectDisaster&quot;), &quot;cancel&quot;,&#xD;
+         disasters.stream()&#xD;
+             .map(rc -> {&#xD;
+                     String label = Messages.getName(rc.getObject())&#xD;
+                         + &quot; &quot; + Integer.toString(rc.getProbability());&#xD;
+                     return new ChoiceItem&lt;Disaster>(label, rc.getObject());&#xD;
+                 })&#xD;
+             .sorted().collect(Collectors.toList()));&#xD;
+     if (disaster == null) return;&#xD;
+&#xD;
+     final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final Game sGame = server.getGame();&#xD;
+     final ServerColony sColony = sGame.getFreeColGameObject(colony.getId(),&#xD;
+         ServerColony.class);&#xD;
+     final Disaster sDisaster = sGame.getSpecification()&#xD;
+         .getDisaster(disaster.getId());&#xD;
+     if (server.getInGameController().debugApplyDisaster(sColony, sDisaster)&#xD;
+         &lt;= 0) {&#xD;
+         gui.showErrorMessage(StringTemplate&#xD;
+             .template(&quot;error.disasterAvoided&quot;)&#xD;
+             .addName(&quot;%colony%&quot;, colony.getName())&#xD;
+             .addNamed(&quot;%disaster%&quot;, disaster));&#xD;
+     }&#xD;
+     freeColClient.getInGameController().nextModelMessage();&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs38E1InEeibjuLm5_lcNQ" name="changeOwnership" specification="_XsceOVInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs38FFInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs38FVInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs38FlInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xs38F1InEeibjuLm5_lcNQ" name="colony" type="_Xr99E1InEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs38GFInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs38GVInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final Game sGame = server.getGame();&#xD;
+     final ServerColony sColony = sGame.getFreeColGameObject(colony.getId(),&#xD;
+         ServerColony.class);&#xD;
+     final GUI gui = freeColClient.getGUI();&#xD;
+     final Game game = freeColClient.getGame();&#xD;
+&#xD;
+     Player player = gui.getChoice(null,&#xD;
+         StringTemplate.template(&quot;prompt.selectOwner&quot;), &quot;cancel&quot;,&#xD;
+         game.getLiveEuropeanPlayers(colony.getOwner()).stream()&#xD;
+             .map(p -> {&#xD;
+                     String msg = Messages.message(p.getCountryLabel());&#xD;
+                     return new ChoiceItem&lt;Player>(msg, p);&#xD;
+                 })&#xD;
+             .sorted().collect(Collectors.toList()));&#xD;
+     if (player == null) return;&#xD;
+&#xD;
+     ServerPlayer sPlayer = sGame.getFreeColGameObject(player.getId(),&#xD;
+                                                       ServerPlayer.class);&#xD;
+     server.getInGameController().debugChangeOwner(sColony, sPlayer);&#xD;
+&#xD;
+     Player myPlayer = freeColClient.getMyPlayer();&#xD;
+     if (gui.getActiveUnit() != null&#xD;
+         &amp;&amp; gui.getActiveUnit().getOwner() != myPlayer) {&#xD;
+         freeColClient.getInGameController().nextActiveUnit();&#xD;
+     }&#xD;
+     gui.refresh();&#xD;
+     gui.resetMenuBar();&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs38GlInEeibjuLm5_lcNQ" name="changeOwnership" specification="_XsdFRFInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs38G1InEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs38HFInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs38HVInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xs38HlInEeibjuLm5_lcNQ" name="unit" type="_XsGf8VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs38H1InEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs38IFInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final GUI gui = freeColClient.getGUI();&#xD;
+     final Game game = unit.getGame();&#xD;
+&#xD;
+     Player player = gui.getChoice(null,&#xD;
+         StringTemplate.template(&quot;prompt.selectOwner&quot;), &quot;cancel&quot;,&#xD;
+         game.getLivePlayers(null).stream()&#xD;
+         .filter(p -> unit.getType().isAvailableTo(p))&#xD;
+         .map(p -> {&#xD;
+                 String msg = Messages.message(p.getCountryLabel());&#xD;
+                 return new ChoiceItem&lt;Player>(msg, p);&#xD;
+             })&#xD;
+         .sorted().collect(Collectors.toList()));&#xD;
+     if (player == null || unit.getOwner() == player) return;&#xD;
+&#xD;
+     final Game sGame = server.getGame();&#xD;
+     ServerUnit sUnit = sGame.getFreeColGameObject(unit.getId(), &#xD;
+                                                   ServerUnit.class);&#xD;
+     ServerPlayer sPlayer = sGame.getFreeColGameObject(player.getId(),&#xD;
+                                                       ServerPlayer.class);&#xD;
+     server.getInGameController().debugChangeOwner(sUnit, sPlayer);&#xD;
+&#xD;
+     Player myPlayer = freeColClient.getMyPlayer();&#xD;
+     if (unit.getOwner() == myPlayer) {&#xD;
+         gui.setActiveUnit(unit);&#xD;
+     } else {&#xD;
+         freeColClient.getInGameController().nextActiveUnit();&#xD;
+     }&#xD;
+     gui.refresh();&#xD;
+     gui.resetMenuBar();&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs38IVInEeibjuLm5_lcNQ" name="changeRole" specification="_XsdsVFInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs38IlInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs38I1InEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs38JFInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xs38JVInEeibjuLm5_lcNQ" name="unit" type="_XsGf8VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs38JlInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs38J1InEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final Game sGame = server.getGame();&#xD;
+     final Unit sUnit = sGame.getFreeColGameObject(unit.getId(), Unit.class);&#xD;
+     final GUI gui = freeColClient.getGUI();&#xD;
+&#xD;
+     Role roleChoice = gui.getChoice(null,&#xD;
+         StringTemplate.template(&quot;prompt.selectRole&quot;), &quot;cancel&quot;,&#xD;
+         sGame.getSpecification().getRoles().stream()&#xD;
+             .map(r -> new ChoiceItem&lt;Role>(r.getId(), r))&#xD;
+             .sorted().collect(Collectors.toList()));&#xD;
+     if (roleChoice == null) return;&#xD;
+&#xD;
+     sUnit.changeRole(roleChoice, roleChoice.getMaximumCount());&#xD;
+     freeColClient.getConnectController().reconnect();&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs38KFInEeibjuLm5_lcNQ" name="checkDesyncAction" specification="_XseTYFInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs38KVInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs38KlInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs38K1InEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xs38LFInEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final Game game = freeColClient.getGame();&#xD;
+     final Map map = game.getMap();&#xD;
+     final Player player = freeColClient.getMyPlayer();&#xD;
+     final Game sGame = server.getGame();&#xD;
+     final Map sMap = sGame.getMap();&#xD;
+     final ServerPlayer sPlayer = sGame.getFreeColGameObject(player.getId(),&#xD;
+                                                             ServerPlayer.class);&#xD;
+&#xD;
+     boolean problemDetected = false;&#xD;
+     LogBuilder lb = new LogBuilder(256);&#xD;
+     lb.add(&quot;Desynchronization detected\n&quot;);&#xD;
+     for (Tile t : sMap.getAllTiles()) {&#xD;
+         if (!sPlayer.canSee(t)) continue;&#xD;
+         for (Unit u : t.getUnitList()) {&#xD;
+             if (!sPlayer.owns(u)&#xD;
+                 &amp;&amp; (t.hasSettlement() || u.isOnCarrier())) continue;&#xD;
+             if (game.getFreeColGameObject(u.getId(), Unit.class) == null) {&#xD;
+                 lb.add(&quot;Unit missing on client-side.\n&quot;, &quot;  Server: &quot;,&#xD;
+                        u.getDescription(Unit.UnitLabelType.NATIONAL),&#xD;
+                        &quot;(&quot;, u.getId(), &quot;) from: &quot;, &#xD;
+                        u.getLocation().getId(), &quot;.\n&quot;);&#xD;
+                 try {&#xD;
+                     lb.add(&quot;  Client: &quot;, map.getTile(u.getTile().getX(),&#xD;
+                            u.getTile().getY()).getFirstUnit().getId(),&#xD;
+                            &quot;\n&quot;);&#xD;
+                 } catch (NullPointerException npe) {}&#xD;
+                 problemDetected = true;&#xD;
+             } else {&#xD;
+                 Unit cUnit = game.getFreeColGameObject(u.getId(),&#xD;
+                                                        Unit.class);&#xD;
+                 if (cUnit.hasTile()&#xD;
+                     &amp;&amp; !cUnit.getTile().getId().equals(u.getTile().getId())) {&#xD;
+                     lb.add(&quot;Unit located on different tiles.\n&quot;,&#xD;
+                         &quot;  Server: &quot;, u.getDescription(Unit.UnitLabelType.NATIONAL),&#xD;
+                         &quot;(&quot;, u.getId(), &quot;) from: &quot;,&#xD;
+                         u.getLocation().getId(), &quot;\n&quot;,&#xD;
+                         &quot;  Client: &quot;, cUnit.getDescription(Unit.UnitLabelType.NATIONAL),&#xD;
+                         &quot;(&quot;, cUnit.getId(), &quot;) at: &quot;,&#xD;
+                         cUnit.getLocation().getId(), &quot;\n&quot;);&#xD;
+                     problemDetected = true;&#xD;
+                 }&#xD;
+             }&#xD;
+         }&#xD;
+         Tile ct = game.getFreeColGameObject(t.getId(), Tile.class);&#xD;
+         Settlement sSettlement = t.getSettlement();&#xD;
+         Settlement cSettlement = ct.getSettlement();&#xD;
+         if (sSettlement == null) {&#xD;
+             if (cSettlement == null) {&#xD;
+                 ;// OK&#xD;
+             } else {&#xD;
+                 lb.add(&quot;Settlement still present in client: &quot;, cSettlement);&#xD;
+                 problemDetected = true;&#xD;
+             }&#xD;
+         } else {&#xD;
+             if (cSettlement == null) {&#xD;
+                 lb.add(&quot;Settlement not present in client: &quot;, sSettlement);&#xD;
+                 problemDetected = true;&#xD;
+             } else if (sSettlement.getId().equals(cSettlement.getId())) {&#xD;
+                 ;// OK&#xD;
+             } else {&#xD;
+                 lb.add(&quot;Settlements differ.\n  Server: &quot;,&#xD;
+                     sSettlement.toString(), &quot;\n  Client: &quot;, &#xD;
+                     cSettlement.toString(), &quot;\n&quot;);&#xD;
+             }&#xD;
+         }&#xD;
+     }&#xD;
+&#xD;
+     boolean goodsProblemDetected = false;&#xD;
+     for (GoodsType sg : sGame.getSpecification().getGoodsTypeList()) {&#xD;
+         int sPrice = sPlayer.getMarket().getBidPrice(sg, 1);&#xD;
+         GoodsType cg = game.getSpecification().getGoodsType(sg.getId());&#xD;
+         int cPrice = player.getMarket().getBidPrice(cg, 1);&#xD;
+         if (sPrice != cPrice) {&#xD;
+             lb.add(&quot;Goods prices for &quot;, sg, &quot; differ.\n&quot;);&#xD;
+             goodsProblemDetected = true;&#xD;
+         }&#xD;
+     }&#xD;
+     if (goodsProblemDetected) {&#xD;
+         lb.add(&quot;  Server:\n&quot;, sPlayer.getMarket(), &quot;\n&quot;,&#xD;
+             &quot;  Client:\n&quot;, player.getMarket(), &quot;\n&quot;);&#xD;
+         problemDetected = true;&#xD;
+     }&#xD;
+&#xD;
+     if (problemDetected) {&#xD;
+         lb.shrink(&quot;\n&quot;);&#xD;
+         String err = lb.toString();&#xD;
+         freeColClient.getGUI().showInformationMessage(err);&#xD;
+         logger.severe(err);&#xD;
+     }&#xD;
+     return problemDetected;&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs4jEFInEeibjuLm5_lcNQ" name="displayColonyPlan" specification="_XseTZVInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs4jEVInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs4jElInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs4jE1InEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xs4jFFInEeibjuLm5_lcNQ" name="colony" type="_Xr99E1InEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs4jFVInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs4jFlInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final AIMain aiMain = server.getAIMain();&#xD;
+     final AIColony aiColony = aiMain.getAIColony(colony);&#xD;
+     if (aiColony == null) {&#xD;
+         freeColClient.getGUI().showErrorMessage(StringTemplate&#xD;
+             .template(&quot;error.notAIColony&quot;)&#xD;
+             .addName(&quot;%colony%&quot;, colony.getName()));&#xD;
+     } else {&#xD;
+         // TODO: Missing i18n&#xD;
+         freeColClient.getGUI().showInformationMessage(aiColony.planToString());&#xD;
+     }&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs4jF1InEeibjuLm5_lcNQ" name="getColonyValue" specification="_Xse6c1InEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs4jGFInEeibjuLm5_lcNQ" name="tile" type="_XsF441InEeibjuLm5_lcNQ"/>
+                  <ownedParameter xmi:id="_Xs4jGVInEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>Player player = FreeColDebugger.debugDisplayColonyValuePlayer();&#xD;
+     if (player == null) return null;&#xD;
+     int value = player.getColonyValue(tile);&#xD;
+     if (value &lt; 0) {&#xD;
+         return Player.NoValueType.fromValue(value).toString();&#xD;
+     }&#xD;
+     return Integer.toString(value);&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs4jGlInEeibjuLm5_lcNQ" name="displayEurope" specification="_Xse6dlInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs4jG1InEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs4jHFInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs4jHVInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final Game sGame = server.getGame();&#xD;
+     final AIMain aiMain = server.getAIMain();&#xD;
+&#xD;
+     LogBuilder lb = new LogBuilder(256);&#xD;
+     List&lt;Unit> inEurope = new ArrayList&lt;>();&#xD;
+     List&lt;Unit> toEurope = new ArrayList&lt;>();&#xD;
+     List&lt;Unit> toAmerica = new ArrayList&lt;>();&#xD;
+     HashMap&lt;String,List&lt;Unit>> units = new HashMap&lt;>();&#xD;
+     for (Player tp : sGame.getLiveEuropeanPlayers(null)) {&#xD;
+         Player p = sGame.getFreeColGameObject(tp.getId(), Player.class);&#xD;
+         if (p.getEurope() == null) continue;&#xD;
+         inEurope.clear();&#xD;
+         toEurope.clear();&#xD;
+         toAmerica.clear();&#xD;
+         units.clear();&#xD;
+         units.put(Messages.message(&quot;sailingToEurope&quot;), toEurope);&#xD;
+         units.put(Messages.getName(p.getEurope()), inEurope);&#xD;
+         units.put(Messages.message(&quot;sailingToAmerica&quot;), toAmerica);&#xD;
+         lb.add(&quot;\n==&quot;, Messages.message(p.getCountryLabel()), &quot;==\n&quot;);&#xD;
+&#xD;
+         for (Unit u : p.getEurope().getUnitList()) {&#xD;
+             if (u.getDestination() instanceof Map) {&#xD;
+                 toAmerica.add(u);&#xD;
+                 continue;&#xD;
+             }&#xD;
+             if (u.getDestination() instanceof Europe) {&#xD;
+                 toEurope.add(u);&#xD;
+                 continue;&#xD;
+             }&#xD;
+             inEurope.add(u);&#xD;
+         }&#xD;
+&#xD;
+         for (Entry&lt;String, List&lt;Unit>> entry : units.entrySet()) {&#xD;
+             final String label = entry.getKey();&#xD;
+             final List&lt;Unit> list = entry.getValue();&#xD;
+             if (list.isEmpty()) continue;&#xD;
+             lb.add(&quot;\n->&quot;, label, &quot;\n&quot;);&#xD;
+             for (Unit u : list) {&#xD;
+                 lb.add(&quot;\n&quot;, u.getDescription(Unit.UnitLabelType.NATIONAL));&#xD;
+                 if (u.isDamaged()) {&#xD;
+                     lb.add(&quot; (&quot;, Messages.message(u.getRepairLabel()),&#xD;
+                         &quot;)&quot;);&#xD;
+                 } else {&#xD;
+                     lb.add(&quot;    &quot;);&#xD;
+                     AIUnit aiu = aiMain.getAIUnit(u);&#xD;
+                     if (!aiu.hasMission()) {&#xD;
+                         lb.add(&quot; (&quot;, Messages.message(&quot;none&quot;), &quot;)&quot;);&#xD;
+                     } else {&#xD;
+                         lb.add(aiu.getMission().toString()&#xD;
+                             .replaceAll(&quot;\n&quot;, &quot;    \n&quot;));&#xD;
+                     }&#xD;
+                 }&#xD;
+             }&#xD;
+             lb.add(&quot;\n&quot;);&#xD;
+         }&#xD;
+         lb.add(&quot;\n->&quot;, Messages.message(&quot;immigrants&quot;), &quot;\n\n&quot;);&#xD;
+         for (UnitType unitType : p.getEurope().getRecruitables()) {&#xD;
+             lb.add(Messages.getName(unitType), &quot;\n&quot;);&#xD;
+         }&#xD;
+         lb.add(&quot;\n&quot;);&#xD;
+     }&#xD;
+     freeColClient.getGUI().showInformationMessage(lb.toString());&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs4jHlInEeibjuLm5_lcNQ" name="displayMission" specification="_XsfhglInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs4jH1InEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs4jIFInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs4jIVInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xs4jIlInEeibjuLm5_lcNQ" name="unit" type="_XsGf8VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs4jI1InEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs4jJFInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final AIMain aiMain = server.getAIMain();&#xD;
+     final AIUnit aiUnit = aiMain.getAIUnit(unit);&#xD;
+     Mission m = aiUnit.getMission();&#xD;
+     String msg = (m == null) ? Messages.message(&quot;none&quot;)&#xD;
+         : (m instanceof TransportMission) ? ((TransportMission)m).toFullString()&#xD;
+         : m.toString();&#xD;
+     freeColClient.getGUI().showInformationMessage(msg);&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs4jJVInEeibjuLm5_lcNQ" name="displayUnits" specification="_XsfhiVInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs4jJlInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs4jJ1InEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs4jKFInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>final Player player = freeColClient.getMyPlayer();&#xD;
+     List&lt;Unit> all = player.getUnits();&#xD;
+     LogBuilder lb = new LogBuilder(256);&#xD;
+     lb.add(&quot;\nActive units:\n&quot;);&#xD;
+&#xD;
+     Unit u, first = player.getNextActiveUnit();&#xD;
+     if (first != null) {&#xD;
+         lb.add(first.toString(), &quot;\nat &quot;, first.getLocation(), &quot;\n&quot;);&#xD;
+         all.remove(first);&#xD;
+         while (player.hasNextActiveUnit()&#xD;
+             &amp;&amp; (u = player.getNextActiveUnit()) != first) {&#xD;
+             lb.add(u, &quot;\nat &quot;, u.getLocation(), &quot;\n&quot;);&#xD;
+             all.remove(u);&#xD;
+         }&#xD;
+     }&#xD;
+     lb.add(&quot;Going-to units:\n&quot;);&#xD;
+     first = player.getNextGoingToUnit();&#xD;
+     if (first != null) {&#xD;
+         all.remove(first);&#xD;
+         lb.add(first, &quot;\nat &quot;, first.getLocation(), &quot;\n&quot;);&#xD;
+         while (player.hasNextGoingToUnit()&#xD;
+             &amp;&amp; (u = player.getNextGoingToUnit()) != first) {&#xD;
+             lb.add(u, &quot;\nat &quot;, u.getLocation(), &quot;\n&quot;);&#xD;
+             all.remove(u);&#xD;
+         }&#xD;
+     }&#xD;
+     lb.add(&quot;Remaining units:\n&quot;);&#xD;
+     while (!all.isEmpty()) {&#xD;
+         u = all.remove(0);&#xD;
+         lb.add(u, &quot;\nat &quot;, u.getLocation(), &quot;\n&quot;);&#xD;
+     }&#xD;
+&#xD;
+     freeColClient.getGUI().showInformationMessage(lb.toString());&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs4jKVInEeibjuLm5_lcNQ" name="dumpTile" specification="_XsgIklInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs4jKlInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs4jK1InEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs4jLFInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xs4jLVInEeibjuLm5_lcNQ" name="tile" type="_XsF441InEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs4jLlInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs4jL1InEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final Game sGame = server.getGame();&#xD;
+     final Player player = freeColClient.getMyPlayer();&#xD;
+&#xD;
+     System.err.println(&quot;\nClient (&quot; + player.getId() + &quot;):&quot;);&#xD;
+     tile.save(System.err, WriteScope.toClient(player), true);&#xD;
+     System.err.println(&quot;\n\nServer:&quot;);&#xD;
+     Tile sTile = sGame.getFreeColGameObject(tile.getId(), Tile.class);&#xD;
+     sTile.save(System.err, WriteScope.toServer(), true);&#xD;
+     System.err.println(&quot;\n\nSave:&quot;);&#xD;
+     sTile.save(System.err, WriteScope.toSave(), true);&#xD;
+     System.err.println(&quot;\n&quot;);&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs4jMFInEeibjuLm5_lcNQ" name="resetMoves" specification="_XsgvoFInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs4jMVInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs4jMlInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs4jM1InEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xs4jNFInEeibjuLm5_lcNQ" name="units" type="_Xr5EkVInEeibjuLm5_lcNQ"/>
+                  <language>java</language>
+                  <body>final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final Game sGame = server.getGame();&#xD;
+     final GUI gui = freeColClient.getGUI();&#xD;
+&#xD;
+     boolean first = true;&#xD;
+     for (Unit u : units) {&#xD;
+         Unit su = sGame.getFreeColGameObject(u.getId(), Unit.class);&#xD;
+         u.setMovesLeft(u.getInitialMovesLeft());&#xD;
+         su.setMovesLeft(su.getInitialMovesLeft());&#xD;
+         if (first) {&#xD;
+             gui.setActiveUnit(u);&#xD;
+             first = false;&#xD;
+         }&#xD;
+         for (Unit u2 : u.getUnitList()) {&#xD;
+             Unit su2 = sGame.getFreeColGameObject(u2.getId(), Unit.class);&#xD;
+             u2.setMovesLeft(u2.getInitialMovesLeft());&#xD;
+             su2.setMovesLeft(su2.getInitialMovesLeft());&#xD;
+         }&#xD;
+     }&#xD;
+     gui.refresh();&#xD;
+     gui.resetMenuBar();&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs4jNVInEeibjuLm5_lcNQ" name="revealMap" specification="_XshWsVInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs4jNlInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs4jN1InEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs4jOFInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xs4jOVInEeibjuLm5_lcNQ" name="reveal">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final Game game = freeColClient.getGame();&#xD;
+&#xD;
+     server.exploreMapForAllPlayers(reveal);&#xD;
+&#xD;
+     // Removes fog of war when revealing the whole map&#xD;
+     // Restores previous setting when hiding it back again&#xD;
+     BooleanOption fogOfWarSetting = game.getSpecification()&#xD;
+         .getBooleanOption(GameOptions.FOG_OF_WAR);&#xD;
+     if (reveal) {&#xD;
+         FreeColDebugger.setNormalGameFogOfWar(fogOfWarSetting.getValue());&#xD;
+         fogOfWarSetting.setValue(false);&#xD;
+     } else {&#xD;
+         fogOfWarSetting.setValue(FreeColDebugger.getNormalGameFogOfWar());&#xD;
+     }&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs5KIFInEeibjuLm5_lcNQ" name="setColonyGoods" specification="_XshWtlInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs5KIVInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs5KIlInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs5KI1InEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xs5KJFInEeibjuLm5_lcNQ" name="colony" type="_Xr99E1InEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs5KJVInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs5KJlInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>final Specification spec = colony.getSpecification();&#xD;
+     GoodsType goodsType = freeColClient.getGUI().getChoice(null,&#xD;
+         StringTemplate.template(&quot;prompt.selectGoodsType&quot;), &quot;cancel&quot;,&#xD;
+         spec.getGoodsTypeList().stream()&#xD;
+             .filter(gt -> !gt.isFoodType() || gt == spec.getPrimaryFoodType())&#xD;
+             .map(gt -> {&#xD;
+                     String msg = Messages.getName(gt);&#xD;
+                     return new ChoiceItem&lt;GoodsType>(msg, gt);&#xD;
+                 })&#xD;
+             .sorted().collect(Collectors.toList()));&#xD;
+     if (goodsType == null) return;&#xD;
+&#xD;
+     String response = freeColClient.getGUI().getInput(null,&#xD;
+             StringTemplate.template(&quot;prompt.selectGoodsAmount&quot;),&#xD;
+             Integer.toString(colony.getGoodsCount(goodsType)),&#xD;
+             &quot;ok&quot;, &quot;cancel&quot;);&#xD;
+     if (response == null || response.isEmpty()) return;&#xD;
+     int a;&#xD;
+     try {&#xD;
+         a = Integer.parseInt(response);&#xD;
+     } catch (NumberFormatException nfe) {&#xD;
+         return;&#xD;
+     }&#xD;
+&#xD;
+     final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final Game sGame = server.getGame();&#xD;
+     final Specification sSpec = server.getSpecification();&#xD;
+     final GoodsType sGoodsType = sSpec.getGoodsType(goodsType.getId());&#xD;
+     GoodsContainer cgc = colony.getGoodsContainer();&#xD;
+     GoodsContainer sgc = sGame.getFreeColGameObject(cgc.getId(),&#xD;
+                                                     GoodsContainer.class);&#xD;
+     cgc.setAmount(goodsType, a);&#xD;
+     sgc.setAmount(sGoodsType, a);&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs5KJ1InEeibjuLm5_lcNQ" name="setMonarchAction" specification="_Xsh9xlInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs5KKFInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs5KKVInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs5KKlInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xs5KK1InEeibjuLm5_lcNQ" name="monarchTitle">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final Game sGame = server.getGame();&#xD;
+     final Player player = freeColClient.getMyPlayer();&#xD;
+     final ServerPlayer sPlayer = sGame.getFreeColGameObject(player.getId(),&#xD;
+         ServerPlayer.class);&#xD;
+     final GUI gui = freeColClient.getGUI();&#xD;
+&#xD;
+     MonarchAction action = gui.getChoice(null, monarchTitle,&#xD;
+         &quot;cancel&quot;,&#xD;
+         Arrays.stream(MonarchAction.values())&#xD;
+             .map(a -> new ChoiceItem&lt;MonarchAction>(a))&#xD;
+             .sorted().collect(Collectors.toList()));&#xD;
+     if (action == null) return;&#xD;
+     &#xD;
+     server.getInGameController().setMonarchAction(sPlayer, action);&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs5KLFInEeibjuLm5_lcNQ" name="setRumourType" specification="_Xsik0FInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs5KLVInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs5KLlInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs5KL1InEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xs5KMFInEeibjuLm5_lcNQ" name="tile" type="_XsF441InEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs5KMVInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs5KMlInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final Game sGame = server.getGame();&#xD;
+     final Tile sTile = sGame.getFreeColGameObject(tile.getId(),&#xD;
+                                                   Tile.class);&#xD;
+&#xD;
+     RumourType rumourChoice = freeColClient.getGUI().getChoice(null,&#xD;
+         StringTemplate.template(&quot;prompt.selectLostCityRumour&quot;),&#xD;
+         &quot;cancel&quot;,&#xD;
+         Arrays.stream(RumourType.values())&#xD;
+             .filter(r -> r != RumourType.NO_SUCH_RUMOUR)&#xD;
+             .map(r -> new ChoiceItem&lt;RumourType>(r.toString(), r))&#xD;
+             .sorted().collect(Collectors.toList()));&#xD;
+     if (rumourChoice == null) return;&#xD;
+&#xD;
+     tile.getTileItemContainer().getLostCityRumour().setType(rumourChoice);&#xD;
+     sTile.getTileItemContainer().getLostCityRumour()&#xD;
+         .setType(rumourChoice);&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs5KM1InEeibjuLm5_lcNQ" name="skipTurns" specification="_Xsik11InEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs5KNFInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ"/>
+                  <language>java</language>
+                  <body>freeColClient.skipTurns(0); // Clear existing skipping&#xD;
+&#xD;
+     String response = freeColClient.getGUI().getInput(null,&#xD;
+         StringTemplate.key(&quot;prompt.selectTurnsToSkip&quot;),&#xD;
+         Integer.toString(10), &quot;ok&quot;, &quot;cancel&quot;);&#xD;
+     if (response == null || response.isEmpty()) return;&#xD;
+     int skip;&#xD;
+     try {&#xD;
+         skip = Integer.parseInt(response);&#xD;
+     } catch (NumberFormatException nfe) {&#xD;
+         skip = -1;&#xD;
+     }&#xD;
+     if (skip > 0) freeColClient.skipTurns(skip);&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs5KNVInEeibjuLm5_lcNQ" name="stepRNG" specification="_Xsik2VInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs5KNlInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ"/>
+                  <language>java</language>
+                  <body>final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final GUI gui = freeColClient.getGUI();&#xD;
+&#xD;
+     boolean more = true;&#xD;
+     while (more) {&#xD;
+         int val = server.getInGameController().stepRandom();&#xD;
+         more = gui.confirm(null, StringTemplate&#xD;
+             .template(&quot;prompt.stepRNG&quot;)&#xD;
+             .addAmount(&quot;%value%&quot;, val),&#xD;
+             &quot;more&quot;, &quot;cancel&quot;);&#xD;
+     }&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs5KN1InEeibjuLm5_lcNQ" name="summarizeSettlement" specification="_XsjL4VInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs5KOFInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs5KOVInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs5KOlInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xs5KO1InEeibjuLm5_lcNQ" name="is" type="_XsBnc1InEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs5KPFInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs5KPVInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final Game sGame = server.getGame();&#xD;
+     final AIMain aiMain = server.getAIMain();&#xD;
+     final Specification sSpec = sGame.getSpecification();&#xD;
+     final IndianSettlement sis = sGame.getFreeColGameObject(is.getId(),&#xD;
+         IndianSettlement.class);&#xD;
+&#xD;
+     LogBuilder lb = new LogBuilder(256);&#xD;
+     lb.add(sis.getName(), &quot;\n\nAlarm\n&quot;);&#xD;
+     Player mostHated = sis.getMostHated();&#xD;
+     for (Player p : sGame.getLiveEuropeanPlayers(null)) {&#xD;
+         Tension tension = sis.getAlarm(p);&#xD;
+         lb.add(Messages.message(p.getNationLabel()),&#xD;
+                &quot; &quot;, ((tension == null) ? &quot;(none)&quot;&#xD;
+                    : Integer.toString(tension.getValue())),&#xD;
+                ((mostHated == p) ? &quot; (most hated)&quot; : &quot;&quot;),&#xD;
+                &quot; &quot;, Messages.message(sis.getAlarmLevelKey(p)),&#xD;
+                &quot; &quot;, sis.getContactLevel(p), &quot;\n&quot;);&#xD;
+     }&#xD;
+&#xD;
+     lb.add(&quot;\nGoods Present\n&quot;);&#xD;
+     for (Goods goods : sis.getCompactGoods()) {&#xD;
+         lb.add(Messages.message(goods.getLabel(true)), &quot;\n&quot;);&#xD;
+     }&#xD;
+&#xD;
+     lb.add(&quot;\nGoods Production\n&quot;);&#xD;
+     for (GoodsType type : sSpec.getGoodsTypeList()) {&#xD;
+         int prod = sis.getTotalProductionOf(type);&#xD;
+         if (prod > 0) {&#xD;
+             lb.add(Messages.getName(type), &quot; &quot;, prod, &quot;\n&quot;);&#xD;
+         }&#xD;
+     }&#xD;
+&#xD;
+     lb.add(&quot;\nPrices (buy 1/100 / sell 1/100)\n&quot;);&#xD;
+     GoodsType[] wanted = sis.getWantedGoods();&#xD;
+     for (GoodsType type : sSpec.getStorableGoodsTypeList()) {&#xD;
+         int i;&#xD;
+         for (i = wanted.length - 1; i >= 0; i--) {&#xD;
+             if (type == wanted[i]) break;&#xD;
+         }&#xD;
+         lb.add(Messages.getName(type),&#xD;
+                &quot;: &quot;, sis.getPriceToBuy(type, 1),&#xD;
+                &quot;/&quot;, sis.getPriceToBuy(type, 100),&#xD;
+                &quot; / &quot;, sis.getPriceToSell(type, 1),&#xD;
+                &quot;/&quot;, sis.getPriceToSell(type, 100),&#xD;
+                ((i &lt; 0) ? &quot;&quot; : &quot; wanted[&quot; + Integer.toString(i) + &quot;]&quot;),&#xD;
+                &quot;\n&quot;);&#xD;
+     }&#xD;
+&#xD;
+     lb.add(&quot;\nUnits present\n&quot;);&#xD;
+     for (Unit u : sis.getUnitList()) {&#xD;
+         Mission m = aiMain.getAIUnit(u).getMission();&#xD;
+         lb.add(u, &quot; at &quot;, u.getLocation());&#xD;
+         if (m != null) {&#xD;
+             lb.add(&quot; &quot;, m.getClass(), &quot;.&quot;);&#xD;
+         }&#xD;
+         lb.add(&quot;\n&quot;);&#xD;
+     }&#xD;
+     lb.add(&quot;\nUnits owned\n&quot;);&#xD;
+     for (Unit u : sis.getOwnedUnits()) {&#xD;
+         Mission m = aiMain.getAIUnit(u).getMission();&#xD;
+         lb.add(u, &quot; at &quot;, u.getLocation());&#xD;
+         if (m != null) {&#xD;
+             lb.add(&quot; &quot;, m.getClass(), &quot;.&quot;);&#xD;
+         }&#xD;
+         lb.add(&quot;\n&quot;);&#xD;
+     }&#xD;
+&#xD;
+     lb.add(&quot;\nTiles\n&quot;);&#xD;
+     for (Tile t : sis.getOwnedTiles()) lb.add(t, &quot;\n&quot;);&#xD;
+&#xD;
+     lb.add(&quot;\nConvert Progress = &quot;, sis.getConvertProgress());&#xD;
+     lb.add(&quot;\nLast Tribute = &quot;, sis.getLastTribute());&#xD;
+&#xD;
+     freeColClient.getGUI().showInformationMessage(lb.toString());&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs5KPlInEeibjuLm5_lcNQ" name="useAI" specification="_Xss85FInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs5KP1InEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xs5KQFInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xs5KQVInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>final FreeColServer server = freeColClient.getFreeColServer();&#xD;
+     final Player player = freeColClient.getMyPlayer();&#xD;
+     final AIMain aiMain = server.getAIMain();&#xD;
+     final AIPlayer ap = aiMain.getAIPlayer(player);&#xD;
+&#xD;
+     ap.setDebuggingConnection(freeColClient.askServer().getConnection());&#xD;
+     ap.startWorking();&#xD;
+     freeColClient.getConnectController().reconnect();&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_XsZa4FInEeibjuLm5_lcNQ" name="addBuildings" isStatic="true" method="_Xs3U8FInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs7mYVInEeibjuLm5_lcNQ">
+                    <body>Debug action to add buildings to the user colonies.&#xD;
+     *&#xD;
+     * Called from the debug menu.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;
+     * @param buildingTitle A label for the choice dialog.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XsZa4VInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XsaB8FInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XsaB8VInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_XsZa4lInEeibjuLm5_lcNQ" name="buildingTitle">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XsaB8lInEeibjuLm5_lcNQ" name="addFathers" isStatic="true" method="_Xs3U9VInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs7mYlInEeibjuLm5_lcNQ">
+                    <body>Debug action to add a founding father.&#xD;
+     *&#xD;
+     * Called from the debug menu.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;
+     * @param fatherTitle A label for the choice dialog.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XsaB81InEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XsaB9VInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XsaB9lInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_XsaB9FInEeibjuLm5_lcNQ" name="fatherTitle">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XsapAFInEeibjuLm5_lcNQ" name="addGold" isStatic="true" method="_Xs3U-lInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs7mY1InEeibjuLm5_lcNQ">
+                    <body>Debug action to add gold.&#xD;
+     *&#xD;
+     * Called from the debug menu.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XsapAVInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XsapAlInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XsapA1InEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XsapBFInEeibjuLm5_lcNQ" name="addImmigration" isStatic="true" method="_Xs3U_lInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs7mZFInEeibjuLm5_lcNQ">
+                    <body>Debug action to add immigration.&#xD;
+     *&#xD;
+     * Called from the debug menu.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XsapBVInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XsapBlInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XsapB1InEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XsapCFInEeibjuLm5_lcNQ" name="addLiberty" isStatic="true" method="_Xs3VAlInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs7mZVInEeibjuLm5_lcNQ">
+                    <body>Debug action to add liberty to the player colonies.&#xD;
+     *&#xD;
+     * Called from the debug menu.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XsapCVInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XsbQEFInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XsbQEVInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XsbQElInEeibjuLm5_lcNQ" name="addSkipChangeListener" isStatic="true" method="_Xs3VBlInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs7mZlInEeibjuLm5_lcNQ">
+                    <body>Adds a change listener to a menu (the debug menu in fact),&#xD;
+     * that changes the label on a menu item when the skip status changes.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;
+     * @param menu The menu to add the change listener to.&#xD;
+     * @param item The menu item whose label should change.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XsbQE1InEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XsbQFlInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XsbQF1InEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_XsbQFFInEeibjuLm5_lcNQ" name="menu" type="_Xr6Ss1InEeibjuLm5_lcNQ"/>
+                  <ownedParameter xmi:id="_XsbQFVInEeibjuLm5_lcNQ" name="item" type="_Xr65wVInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XsbQGFInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XsbQGVInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Xsb3IFInEeibjuLm5_lcNQ" name="addNewUnitToTile" isStatic="true" method="_Xs38AFInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs7mZ1InEeibjuLm5_lcNQ">
+                    <body>Debug action to add a new unit to a tile.&#xD;
+     *&#xD;
+     * Called from tile popup menu.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;
+     * @param tile The &lt;code>Tile&lt;/code> to add to.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_Xsb3IVInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xsb3I1InEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xsb3JFInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xsb3IlInEeibjuLm5_lcNQ" name="tile" type="_XsF441InEeibjuLm5_lcNQ"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Xsb3JVInEeibjuLm5_lcNQ" name="addUnitGoods" isStatic="true" method="_Xs38BVInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs7maFInEeibjuLm5_lcNQ">
+                    <body>Debug action to add goods to a unit.&#xD;
+     *&#xD;
+     * Called from tile popup menu.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;
+     * @param unit The &lt;code>Unit&lt;/code> to add to.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_Xsb3JlInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xsb3KFInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xsb3KVInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xsb3J1InEeibjuLm5_lcNQ" name="unit" type="_XsGf8VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XsceMFInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XsceMVInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XsceMlInEeibjuLm5_lcNQ" name="applyDisaster" isStatic="true" method="_Xs38DFInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs7maVInEeibjuLm5_lcNQ">
+                    <body>Debug action to apply a disaster to a colony.&#xD;
+     *&#xD;
+     * Called from tile popup menu.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;
+     * @param colony The &lt;code>Colony&lt;/code> to apply a disaster to.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XsceM1InEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XsceNVInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XsceNlInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_XsceNFInEeibjuLm5_lcNQ" name="colony" type="_Xr99E1InEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XsceN1InEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XsceOFInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XsceOVInEeibjuLm5_lcNQ" name="changeOwnership" isStatic="true" method="_Xs38E1InEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs7malInEeibjuLm5_lcNQ">
+                    <body>Debug action to change ownership of a colony.&#xD;
+     *&#xD;
+     * Called from tile popup menu.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;
+     * @param colony The &lt;code>Colony&lt;/code> to take ownership of.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XsceOlInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XsdFQFInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XsdFQVInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_XsceO1InEeibjuLm5_lcNQ" name="colony" type="_Xr99E1InEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XsdFQlInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XsdFQ1InEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XsdFRFInEeibjuLm5_lcNQ" name="changeOwnership" isStatic="true" method="_Xs38GlInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs7ma1InEeibjuLm5_lcNQ">
+                    <body>Debug action to change ownership of a unit.&#xD;
+     *&#xD;
+     * Called from tile popup menu.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;
+     * @param unit The &lt;code>Unit&lt;/code> to take ownership of.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XsdFRVInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XsdsUFInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XsdsUVInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_XsdFRlInEeibjuLm5_lcNQ" name="unit" type="_XsGf8VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XsdsUlInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XsdsU1InEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XsdsVFInEeibjuLm5_lcNQ" name="changeRole" isStatic="true" method="_Xs38IVInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs7mbFInEeibjuLm5_lcNQ">
+                    <body>Debug action to change the roles of a unit.&#xD;
+     *&#xD;
+     * Called from tile popup menu.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;
+     * @param unit The &lt;code>Unit&lt;/code> to change the role of.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XsdsVVInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XsdsV1InEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XsdsWFInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_XsdsVlInEeibjuLm5_lcNQ" name="unit" type="_XsGf8VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XsdsWVInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XsdsWlInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XseTYFInEeibjuLm5_lcNQ" name="checkDesyncAction" isStatic="true" method="_Xs38KFInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs8NcFInEeibjuLm5_lcNQ">
+                    <body>Debug action to check for client-server desynchronization.&#xD;
+     *&#xD;
+     * Called from the debug menu and client controller.&#xD;
+     * TODO: This is still fairly new and messy.  Defer i18n for a while.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;
+     * @return True if desynchronization found.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XseTYVInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XseTY1InEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XseTZFInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_XseTYlInEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XseTZVInEeibjuLm5_lcNQ" name="displayColonyPlan" isStatic="true" method="_Xs4jEFInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs8NcVInEeibjuLm5_lcNQ">
+                    <body>Debug action to display an AI colony plan.&#xD;
+     *&#xD;
+     * Called from tile popup menu.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;
+     * @param colony The &lt;code>Colony&lt;/code> to summarize.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XseTZlInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XseTaFInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xse6cFInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_XseTZ1InEeibjuLm5_lcNQ" name="colony" type="_Xr99E1InEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xse6cVInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xse6clInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Xse6c1InEeibjuLm5_lcNQ" name="getColonyValue" isStatic="true" method="_Xs4jF1InEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs8NclInEeibjuLm5_lcNQ">
+                    <body>Debug action to create a string showing the colony value for&#xD;
+     * a given tile and player.&#xD;
+     *&#xD;
+     * Note: passing the freeColClient is redundant for now, but will&#xD;
+     * be needed if/when we move getColonyValue into the AI.&#xD;
+     *&#xD;
+     * @param tile The colony &lt;code>Tile&lt;/code> to evaluate.&#xD;
+     * @return A string describing the colony value of a tile.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_Xse6dFInEeibjuLm5_lcNQ" name="tile" type="_XsF441InEeibjuLm5_lcNQ"/>
+                  <ownedParameter xmi:id="_Xse6dVInEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Xse6dlInEeibjuLm5_lcNQ" name="displayEurope" isStatic="true" method="_Xs4jGlInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs8Nc1InEeibjuLm5_lcNQ">
+                    <body>Debug action to display Europe.&#xD;
+     *&#xD;
+     * Called from the debug popup menu.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_Xse6d1InEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XsfhgFInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XsfhgVInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XsfhglInEeibjuLm5_lcNQ" name="displayMission" isStatic="true" method="_Xs4jHlInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs8NdFInEeibjuLm5_lcNQ">
+                    <body>Debug action to display a mission.&#xD;
+     *&#xD;
+     * Called from tile popup menu.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;
+     * @param unit The &lt;code>Unit&lt;/code> to display.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_Xsfhg1InEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XsfhhVInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XsfhhlInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_XsfhhFInEeibjuLm5_lcNQ" name="unit" type="_XsGf8VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xsfhh1InEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XsfhiFInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XsfhiVInEeibjuLm5_lcNQ" name="displayUnits" isStatic="true" method="_Xs4jJVInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs8NdVInEeibjuLm5_lcNQ">
+                    <body>Debug action to dump a players units/iterators to stderr.&#xD;
+     *&#xD;
+     * Called from the debug menu.&#xD;
+     * TODO: missing i18n&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XsfhilInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XsgIkFInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XsgIkVInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XsgIklInEeibjuLm5_lcNQ" name="dumpTile" isStatic="true" method="_Xs4jKVInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs8NdlInEeibjuLm5_lcNQ">
+                    <body>Debug action to dump a tile to stderr.&#xD;
+     *&#xD;
+     * Called from tile popup menu.&#xD;
+     * Not concerned with i18n for stderr output.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;
+     * @param tile The &lt;code>Tile&lt;/code> to dump.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XsgIk1InEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XsgIlVInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XsgIllInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_XsgIlFInEeibjuLm5_lcNQ" name="tile" type="_XsF441InEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XsgIl1InEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XsgImFInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XsgvoFInEeibjuLm5_lcNQ" name="resetMoves" isStatic="true" method="_Xs4jMFInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs8Nd1InEeibjuLm5_lcNQ">
+                    <body>Debug action to reset the moves left of the units on a tile.&#xD;
+     *&#xD;
+     * Called from tile popup menu.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;
+     * @param units The &lt;code>Unit&lt;/code>s to reactivate.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XsgvoVInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xsgvo1InEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XsgvpFInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_XsgvolInEeibjuLm5_lcNQ" name="units" type="_Xr5EkVInEeibjuLm5_lcNQ"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XshWsVInEeibjuLm5_lcNQ" name="revealMap" isStatic="true" method="_Xs4jNVInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs8NeFInEeibjuLm5_lcNQ">
+                    <body>Debug action to reveal or hide the map.&#xD;
+     *&#xD;
+     * Called from the debug menu.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;
+     * @param reveal If true, reveal the map, else hide the map.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XshWslInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_XshWtFInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_XshWtVInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_XshWs1InEeibjuLm5_lcNQ" name="reveal">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XshWtlInEeibjuLm5_lcNQ" name="setColonyGoods" isStatic="true" method="_Xs5KIFInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs8NeVInEeibjuLm5_lcNQ">
+                    <body>Debug action to set the amount of goods in a colony.&#xD;
+     *&#xD;
+     * Called from the colony panel.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;
+     * @param colony The &lt;code>Colony&lt;/code> to set goods amounts in.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_Xsh9wFInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xsh9wlInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xsh9w1InEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xsh9wVInEeibjuLm5_lcNQ" name="colony" type="_Xr99E1InEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xsh9xFInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xsh9xVInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Xsh9xlInEeibjuLm5_lcNQ" name="setMonarchAction" isStatic="true" method="_Xs5KJ1InEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs8NelInEeibjuLm5_lcNQ">
+                    <body>Debug action to set the next monarch action.&#xD;
+     *&#xD;
+     * Called from the debug menu.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;
+     * @param monarchTitle A label for the choice dialog.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_Xsh9x1InEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xsh9yVInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xsh9ylInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xsh9yFInEeibjuLm5_lcNQ" name="monarchTitle">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Xsik0FInEeibjuLm5_lcNQ" name="setRumourType" isStatic="true" method="_Xs5KLFInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs8Ne1InEeibjuLm5_lcNQ">
+                    <body>Debug action to set the lost city rumour type on a tile.&#xD;
+     *&#xD;
+     * Called from tile popup menu.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;
+     * @param tile The &lt;code>Tile&lt;/code> to operate on.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_Xsik0VInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xsik01InEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xsik1FInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xsik0lInEeibjuLm5_lcNQ" name="tile" type="_XsF441InEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xsik1VInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xsik1lInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Xsik11InEeibjuLm5_lcNQ" name="skipTurns" isStatic="true" method="_Xs5KM1InEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs8NfFInEeibjuLm5_lcNQ">
+                    <body>Debug action to skip turns.&#xD;
+     *&#xD;
+     * Called from the debug menu.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_Xsik2FInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Xsik2VInEeibjuLm5_lcNQ" name="stepRNG" isStatic="true" method="_Xs5KNVInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs8NfVInEeibjuLm5_lcNQ">
+                    <body>Debug action to step the random number generator.&#xD;
+     *&#xD;
+     * Called from the debug menu.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XsjL4FInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XsjL4VInEeibjuLm5_lcNQ" name="summarizeSettlement" isStatic="true" method="_Xs5KN1InEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs8NflInEeibjuLm5_lcNQ">
+                    <body>Debug action to summarize information about a native settlement&#xD;
+     * that is normally hidden.&#xD;
+     *&#xD;
+     * Called from tile popup menu.&#xD;
+     * TODO: missing i18n&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;
+     * @param is The &lt;code>IndianSettlement&lt;/code> to summarize.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XsjL4lInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xss84FInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xss84VInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_XssV0FInEeibjuLm5_lcNQ" name="is" type="_XsBnc1InEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xss84lInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xss841InEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Xss85FInEeibjuLm5_lcNQ" name="useAI" isStatic="true" method="_Xs5KPlInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs8Nf1InEeibjuLm5_lcNQ">
+                    <body>Debug action to run the AI.&#xD;
+     *&#xD;
+     * Called from the debug menu.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_Xss85VInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Xstj8FInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Xstj8VInEeibjuLm5_lcNQ" key="final"/>
+                    </eAnnotations>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XhZr0FInEeibjuLm5_lcNQ" name="FreeColDebugger">
+                <ownedComment xmi:id="_Xs8NgFInEeibjuLm5_lcNQ">
+                  <body>High-level debug handling.</body>
+                </ownedComment>
+                <ownedAttribute xmi:id="_XsyccFInEeibjuLm5_lcNQ" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_Xr5ro1InEeibjuLm5_lcNQ" isReadOnly="true" association="_Xs_30VInEeibjuLm5_lcNQ">
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_XsyccVInEeibjuLm5_lcNQ" value="Logger.getLogger(FreeColDebugger.class.getName())"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_XsycclInEeibjuLm5_lcNQ" name="debugMode" visibility="private" isStatic="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_Xsycc1InEeibjuLm5_lcNQ" value="0"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_XszDgVInEeibjuLm5_lcNQ" name="debugRunTurns" isStatic="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_XszDglInEeibjuLm5_lcNQ" value="-1"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_XszDg1InEeibjuLm5_lcNQ" name="debugRunSave" isStatic="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_XszDhFInEeibjuLm5_lcNQ" value="null"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_XszqkFInEeibjuLm5_lcNQ" name="normalGameFogOfWar" isStatic="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_XszqklInEeibjuLm5_lcNQ" value="false"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_Xs0Ro1InEeibjuLm5_lcNQ" name="displayCoordinates" visibility="private" isStatic="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_Xs0RpFInEeibjuLm5_lcNQ" value="false"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_Xs04sVInEeibjuLm5_lcNQ" name="displayColonyValuePlayer" visibility="private" isStatic="true" type="_XsEDsFInEeibjuLm5_lcNQ" association="_Xs_31FInEeibjuLm5_lcNQ">
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_Xs04slInEeibjuLm5_lcNQ" value="null"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_Xs1fwFInEeibjuLm5_lcNQ" name="showMission" visibility="private" isStatic="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_Xs1fwVInEeibjuLm5_lcNQ" value="false"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_Xs1fw1InEeibjuLm5_lcNQ" name="showMissionInfo" visibility="private" isStatic="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_Xs1fxFInEeibjuLm5_lcNQ" value="false"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs5xNFInEeibjuLm5_lcNQ" name="isInDebugMode" specification="_XhfycFInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs5xNVInEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return FreeColDebugger.debugMode != 0;&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs5xNlInEeibjuLm5_lcNQ" name="isInDebugMode" specification="_XsVJcFInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs5xN1InEeibjuLm5_lcNQ" name="mode" type="_Xhd9QFInEeibjuLm5_lcNQ"/>
+                  <ownedParameter xmi:id="_Xs5xOFInEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return ((1 &lt;&lt; mode.ordinal()) &amp; FreeColDebugger.debugMode) != 0;&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs5xOVInEeibjuLm5_lcNQ" name="setDebugMode" specification="_XhfyclInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs5xOlInEeibjuLm5_lcNQ" name="mode">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>FreeColDebugger.debugMode = mode;&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs5xO1InEeibjuLm5_lcNQ" name="enableDebugMode" specification="_XsVJc1InEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs5xPFInEeibjuLm5_lcNQ" name="mode" type="_Xhd9QFInEeibjuLm5_lcNQ"/>
+                  <language>java</language>
+                  <body>FreeColDebugger.debugMode |= 1 &lt;&lt; mode.ordinal();&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs6YQFInEeibjuLm5_lcNQ" name="getDebugModes" specification="_XhfydFInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs6YQVInEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return Arrays.stream(DebugMode.values())&#xD;
+         .filter(m -> isInDebugMode(m))&#xD;
+         .map(m -> m.toString())&#xD;
+         .collect(Collectors.joining(&quot;,&quot;));&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs6YQlInEeibjuLm5_lcNQ" name="setDebugModes" specification="_XhgZgVInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs6YQ1InEeibjuLm5_lcNQ" name="optionValue">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xs6YRFInEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>if (optionValue == null) return false;&#xD;
+     if (optionValue.isEmpty()) return true;&#xD;
+     // @compat 0.10.x&#xD;
+     try {&#xD;
+         int i = Integer.parseInt(optionValue);&#xD;
+         switch (i) {&#xD;
+         case 3:&#xD;
+             enableDebugMode(DebugMode.COMMS);&#xD;
+             // Fall through&#xD;
+         case 2:&#xD;
+             enableDebugMode(DebugMode.INIT);&#xD;
+             // Fall through&#xD;
+         case 1:&#xD;
+             enableDebugMode(DebugMode.MENUS);&#xD;
+             return true;&#xD;
+         default:&#xD;
+             return false;&#xD;
+         }&#xD;
+     } catch (NumberFormatException nfe) {}&#xD;
+     // end @compat&#xD;
+&#xD;
+     for (String s : optionValue.split(&quot;,&quot;)) {&#xD;
+         try {&#xD;
+             DebugMode mode = Enum.valueOf(DebugMode.class,&#xD;
+                                           s.toUpperCase(Locale.US));&#xD;
+             enableDebugMode(mode);&#xD;
+         } catch (Exception e) {&#xD;
+             logger.warning(&quot;Unrecognized debug mode: &quot; + optionValue);&#xD;
+             return false;&#xD;
+         }&#xD;
+     }&#xD;
+     return true;&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs6YRVInEeibjuLm5_lcNQ" name="configureDebugRun" specification="_XhgZhFInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs6YRlInEeibjuLm5_lcNQ" name="option">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>int comma = option.indexOf(',');&#xD;
+     String turns = option.substring(0, (comma &lt; 0) ? option.length()&#xD;
+         : comma);&#xD;
+     try {&#xD;
+         setDebugRunTurns(Integer.parseInt(turns));&#xD;
+     } catch (NumberFormatException e) {&#xD;
+         setDebugRunTurns(-1);&#xD;
+     }&#xD;
+     if (comma > 0) setDebugRunSave(option.substring(comma + 1));&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs6YR1InEeibjuLm5_lcNQ" name="setDebugRunTurns" specification="_XhgZhlInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs6YSFInEeibjuLm5_lcNQ" name="debugRunTurns">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>FreeColDebugger.debugRunTurns = debugRunTurns;&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs6YSVInEeibjuLm5_lcNQ" name="setDebugRunSave" specification="_XhhAkFInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs6YSlInEeibjuLm5_lcNQ" name="debugRunSave">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>FreeColDebugger.debugRunSave = debugRunSave;&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs6YS1InEeibjuLm5_lcNQ" name="finishDebugRun" specification="_XsuyEFInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs6YTFInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ"/>
+                  <ownedParameter xmi:id="_Xs6YTVInEeibjuLm5_lcNQ" name="force">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Xs6YTlInEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>if (getDebugRunTurns() &lt; 0) return false; // Not a debug run&#xD;
+     if (getDebugRunTurns() > 0 &amp;&amp; !force) return false; // Still going&#xD;
+     // Zero => signalEndDebugRun was called&#xD;
+     setDebugRunTurns(-1);&#xD;
+&#xD;
+     if (getDebugRunSave() != null) {&#xD;
+         FreeColServer fcs = freeColClient.getFreeColServer();&#xD;
+         if (fcs != null) {&#xD;
+             try {&#xD;
+                 fcs.saveGame(new File(&quot;.&quot;, getDebugRunSave()),&#xD;
+                              freeColClient.getClientOptions());&#xD;
+             } catch (IOException e) {}&#xD;
+         }&#xD;
+         freeColClient.quit();&#xD;
+     }&#xD;
+     return true;&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs6YT1InEeibjuLm5_lcNQ" name="signalEndDebugRun" specification="_XhhAklInEeibjuLm5_lcNQ">
+                  <language>java</language>
+                  <body>if (debugRunTurns > 0) setDebugRunTurns(0);&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs6YUFInEeibjuLm5_lcNQ" name="debugDisplayCoordinates" specification="_XhhAk1InEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs6YUVInEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return displayCoordinates;&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs6YUlInEeibjuLm5_lcNQ" name="setDebugDisplayCoordinates" specification="_XhhAlVInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs6YU1InEeibjuLm5_lcNQ" name="display">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>displayCoordinates = display;&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs6YVFInEeibjuLm5_lcNQ" name="debugDisplayColonyValuePlayer" specification="_XhhnoFInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs6YVVInEeibjuLm5_lcNQ" type="_XsEDsFInEeibjuLm5_lcNQ" direction="return"/>
+                  <language>java</language>
+                  <body>return displayColonyValuePlayer;&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs6_UFInEeibjuLm5_lcNQ" name="setDebugDisplayColonyValuePlayer" specification="_XsuyFVInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs6_UVInEeibjuLm5_lcNQ" name="display" type="_XsEDsFInEeibjuLm5_lcNQ"/>
+                  <language>java</language>
+                  <body>displayColonyValuePlayer = display;&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs6_UlInEeibjuLm5_lcNQ" name="debugShowMission" specification="_XhhnoVInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs6_U1InEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return showMission;&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs6_VFInEeibjuLm5_lcNQ" name="setDebugShowMission" specification="_Xhhno1InEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs6_VVInEeibjuLm5_lcNQ" name="display">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>showMission = display;&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs6_VlInEeibjuLm5_lcNQ" name="debugShowMissionInfo" specification="_XhhnpVInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs6_V1InEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return showMissionInfo;&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs6_WFInEeibjuLm5_lcNQ" name="setDebugShowMissionInfo" specification="_Xhhnp1InEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs6_WVInEeibjuLm5_lcNQ" name="display">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>showMissionInfo = display;&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs6_WlInEeibjuLm5_lcNQ" name="handleCrash" specification="_XhiOsFInEeibjuLm5_lcNQ">
+                  <language>java</language>
+                  <body>if (debugRunSave != null) signalEndDebugRun();&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs6_W1InEeibjuLm5_lcNQ" name="debugLog" specification="_XhiOsVInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs6_XFInEeibjuLm5_lcNQ" name="msg">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>try (&#xD;
+         FileOutputStream fos = new FileOutputStream(&quot;/tmp/freecol.debug&quot;, true);&#xD;
+         PrintStream prs = new PrintStream(fos, true, &quot;UTF-8&quot;);&#xD;
+     ) {&#xD;
+         prs.println(msg);&#xD;
+     } catch (Exception e) {&#xD;
+         ; // Ignore&#xD;
+     }&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs6_XVInEeibjuLm5_lcNQ" name="stackTraceToString" specification="_XhiOs1InEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs6_XlInEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>LogBuilder lb = new LogBuilder(512);&#xD;
+     addStackTrace(lb);&#xD;
+     return lb.toString();&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Xs6_X1InEeibjuLm5_lcNQ" name="addStackTrace" specification="_XsvZIVInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_Xs6_YFInEeibjuLm5_lcNQ" name="lb" type="_XsHuEVInEeibjuLm5_lcNQ"/>
+                  <language>java</language>
+                  <body>for (StackTraceElement s : Thread.currentThread().getStackTrace()) {&#xD;
+         lb.add(s.toString(), &quot;\n&quot;);&#xD;
+     }&#xD;
+     lb.shrink(&quot;\n&quot;);&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_XhfycFInEeibjuLm5_lcNQ" name="isInDebugMode" isStatic="true" method="_Xs5xNFInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs8NglInEeibjuLm5_lcNQ">
+                    <body>Is a debug mode enabled in this game?&#xD;
+     *&#xD;
+     * @return True if any debug mode is enabled.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XhfycVInEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XhfyclInEeibjuLm5_lcNQ" name="setDebugMode" visibility="private" isStatic="true" method="_Xs5xOVInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs8NhFInEeibjuLm5_lcNQ">
+                    <body>Sets the debug mode&#xD;
+     *&#xD;
+     * @param mode The new debug mode.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_Xhfyc1InEeibjuLm5_lcNQ" name="mode">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XhfydFInEeibjuLm5_lcNQ" name="getDebugModes" isStatic="true" method="_Xs6YQFInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs8NhlInEeibjuLm5_lcNQ">
+                    <body>Gets the debug modes.&#xD;
+     *&#xD;
+     * @return A string containing the modes as csv.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XhgZgFInEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XhgZgVInEeibjuLm5_lcNQ" name="setDebugModes" isStatic="true" method="_Xs6YQlInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs80gFInEeibjuLm5_lcNQ">
+                    <body>Configures the debug modes.&#xD;
+     *&#xD;
+     * @param optionValue The command line option.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XhgZglInEeibjuLm5_lcNQ" name="optionValue">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_XhgZg1InEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XhgZhFInEeibjuLm5_lcNQ" name="configureDebugRun" isStatic="true" method="_Xs6YRVInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs80gVInEeibjuLm5_lcNQ">
+                    <body>Configures a debug run.&#xD;
+     *&#xD;
+     * @param option The command line option.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XhgZhVInEeibjuLm5_lcNQ" name="option">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XhgZhlInEeibjuLm5_lcNQ" name="setDebugRunTurns" isStatic="true" method="_Xs6YR1InEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs80glInEeibjuLm5_lcNQ">
+                    <body>Sets the number of turns to run in debug mode.&#xD;
+     *&#xD;
+     * @param debugRunTurns The new number of debug turns.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XhgZh1InEeibjuLm5_lcNQ" name="debugRunTurns">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XhhAkFInEeibjuLm5_lcNQ" name="setDebugRunSave" isStatic="true" method="_Xs6YSVInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs80g1InEeibjuLm5_lcNQ">
+                    <body>Sets the debug save file name.&#xD;
+     *&#xD;
+     * @param debugRunSave The new debug save file name.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XhhAkVInEeibjuLm5_lcNQ" name="debugRunSave">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XhhAklInEeibjuLm5_lcNQ" name="signalEndDebugRun" isStatic="true" method="_Xs6YT1InEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs80hVInEeibjuLm5_lcNQ">
+                    <body>Signal that a debug run should complete at the next suitable&#xD;
+     * opportunity.  Currently called from the server.</body>
+                  </ownedComment>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XhhAk1InEeibjuLm5_lcNQ" name="debugDisplayCoordinates" isStatic="true" method="_Xs6YUFInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs80hlInEeibjuLm5_lcNQ">
+                    <body>Should the map viewer display tile coordinates?&#xD;
+     *&#xD;
+     * @return True if the map viewer should display coordinates.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XhhAlFInEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XhhAlVInEeibjuLm5_lcNQ" name="setDebugDisplayCoordinates" isStatic="true" method="_Xs6YUlInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs80h1InEeibjuLm5_lcNQ">
+                    <body>Set the display tile coordinates state.&#xD;
+     *&#xD;
+     * @param display Whether to display or not.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XhhAllInEeibjuLm5_lcNQ" name="display">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XhhnoFInEeibjuLm5_lcNQ" name="debugDisplayColonyValuePlayer" isStatic="true" method="_Xs6YVFInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs80iFInEeibjuLm5_lcNQ">
+                    <body>Should the map viewer display colony values for a player?&#xD;
+     *&#xD;
+     * @return The &lt;code>Player&lt;/code> to display colony values for,&#xD;
+     *     or null if not to display.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XsuyFFInEeibjuLm5_lcNQ" type="_XsEDsFInEeibjuLm5_lcNQ" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XhhnoVInEeibjuLm5_lcNQ" name="debugShowMission" isStatic="true" method="_Xs6_UlInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs80ilInEeibjuLm5_lcNQ">
+                    <body>Should the map viewer show AI missions?&#xD;
+     *&#xD;
+     * @return True if the map viewer should show AI missions?</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XhhnolInEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Xhhno1InEeibjuLm5_lcNQ" name="setDebugShowMission" isStatic="true" method="_Xs6_VFInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs80i1InEeibjuLm5_lcNQ">
+                    <body>Set the display of AI missions state.&#xD;
+     *&#xD;
+     * @param display Whether to display or not.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XhhnpFInEeibjuLm5_lcNQ" name="display">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XhhnpVInEeibjuLm5_lcNQ" name="debugShowMissionInfo" isStatic="true" method="_Xs6_VlInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs80jFInEeibjuLm5_lcNQ">
+                    <body>Should the map viewer show full AI mission info?&#xD;
+     *&#xD;
+     * @return True if the map viewer should show full AI mission info.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XhhnplInEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Xhhnp1InEeibjuLm5_lcNQ" name="setDebugShowMissionInfo" isStatic="true" method="_Xs6_WFInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs80jVInEeibjuLm5_lcNQ">
+                    <body>Set the display of full AI mission info state.&#xD;
+     *&#xD;
+     * @param display Whether to display or not.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XhhnqFInEeibjuLm5_lcNQ" name="display">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XhiOsFInEeibjuLm5_lcNQ" name="handleCrash" isStatic="true" method="_Xs6_WlInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs80jlInEeibjuLm5_lcNQ">
+                    <body>Handler for log records that include a crash.</body>
+                  </ownedComment>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XhiOsVInEeibjuLm5_lcNQ" name="debugLog" isStatic="true" method="_Xs6_W1InEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs80j1InEeibjuLm5_lcNQ">
+                    <body>Emergency run time log to use when the normal logging is failing.&#xD;
+     * It might as well be here.&#xD;
+     *&#xD;
+     * @param msg The message to log.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XhiOslInEeibjuLm5_lcNQ" name="msg">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XhiOs1InEeibjuLm5_lcNQ" name="stackTraceToString" isStatic="true" method="_Xs6_XVInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs80kFInEeibjuLm5_lcNQ">
+                    <body>Miscellaneous debug helper to get a string representation of&#xD;
+     * the current call stack.&#xD;
+     *&#xD;
+     * @return A stack trace as a string.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XhiOtFInEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XsVJcFInEeibjuLm5_lcNQ" name="isInDebugMode" isStatic="true" method="_Xs5xNlInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs8Ng1InEeibjuLm5_lcNQ">
+                    <body>Is a particular debug mode enabled in this game?&#xD;
+     *&#xD;
+     * @param mode The &lt;code>DebugMode&lt;/code> to test.&#xD;
+     * @return True if the specified mode is enabled.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XsVJcVInEeibjuLm5_lcNQ" name="mode" type="_Xhd9QFInEeibjuLm5_lcNQ"/>
+                  <ownedParameter xmi:id="_XsVJclInEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XsVJc1InEeibjuLm5_lcNQ" name="enableDebugMode" isStatic="true" method="_Xs5xO1InEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs8NhVInEeibjuLm5_lcNQ">
+                    <body>Enables a particular debug mode.&#xD;
+     *&#xD;
+     * @param mode The &lt;code>DebugMode&lt;/code> to enable.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XsVJdFInEeibjuLm5_lcNQ" name="mode" type="_Xhd9QFInEeibjuLm5_lcNQ"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XsuyEFInEeibjuLm5_lcNQ" name="finishDebugRun" isStatic="true" method="_Xs6YS1InEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs80hFInEeibjuLm5_lcNQ">
+                    <body>Try to complete a debug run if one is happening.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;
+     * @param force Force early completion of a run.&#xD;
+     * @return True if a debug run was completed.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XsuyEVInEeibjuLm5_lcNQ" name="freeColClient" type="_Xr7g0VInEeibjuLm5_lcNQ"/>
+                  <ownedParameter xmi:id="_XsuyElInEeibjuLm5_lcNQ" name="force">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_XsuyE1InEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XsuyFVInEeibjuLm5_lcNQ" name="setDebugDisplayColonyValuePlayer" isStatic="true" method="_Xs6_UFInEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs80iVInEeibjuLm5_lcNQ">
+                    <body>Set the player to display colony values for.&#xD;
+     *&#xD;
+     * @param display The new &lt;code>Player&lt;/code> to display for.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XsvZIFInEeibjuLm5_lcNQ" name="display" type="_XsEDsFInEeibjuLm5_lcNQ"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_XsvZIVInEeibjuLm5_lcNQ" name="addStackTrace" isStatic="true" method="_Xs6_X1InEeibjuLm5_lcNQ">
+                  <ownedComment xmi:id="_Xs80kVInEeibjuLm5_lcNQ">
+                    <body>Helper that adds a stack trace to a log builder.&#xD;
+     *&#xD;
+     * @param lb The &lt;code>LogBuilder&lt;/code> to add to.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_XsvZIlInEeibjuLm5_lcNQ" name="lb" type="_XsHuEVInEeibjuLm5_lcNQ"/>
+                </ownedOperation>
+                <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_Xhd9QFInEeibjuLm5_lcNQ" name="DebugMode">
+                  <eAnnotations xmi:id="_Xhd9QVInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_Xhd9QlInEeibjuLm5_lcNQ" key="static"/>
+                  </eAnnotations>
+                  <ownedComment xmi:id="_Xs8NgVInEeibjuLm5_lcNQ">
+                    <body>The debug modes, any of which may be active.</body>
+                  </ownedComment>
+                  <ownedLiteral xmi:id="_XhekUVInEeibjuLm5_lcNQ" name="COMMS"/>
+                  <ownedLiteral xmi:id="_XhekUlInEeibjuLm5_lcNQ" name="DESYNC"/>
+                  <ownedLiteral xmi:id="_XhekU1InEeibjuLm5_lcNQ" name="MENUS"/>
+                  <ownedLiteral xmi:id="_XhekVFInEeibjuLm5_lcNQ" name="INIT"/>
+                  <ownedLiteral xmi:id="_XhfLYFInEeibjuLm5_lcNQ" name="PATHS"/>
+                </nestedClassifier>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_Xs_QwFInEeibjuLm5_lcNQ" name="" memberEnd="_Xs_QwVInEeibjuLm5_lcNQ _XsxOUFInEeibjuLm5_lcNQ">
+                <ownedEnd xmi:id="_Xs_QwVInEeibjuLm5_lcNQ" name="" type="_XhMQcFInEeibjuLm5_lcNQ" association="_Xs_QwFInEeibjuLm5_lcNQ"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_Xs_30VInEeibjuLm5_lcNQ" name="" memberEnd="_Xs_30lInEeibjuLm5_lcNQ _XsyccFInEeibjuLm5_lcNQ">
+                <ownedEnd xmi:id="_Xs_30lInEeibjuLm5_lcNQ" name="" type="_XhZr0FInEeibjuLm5_lcNQ" association="_Xs_30VInEeibjuLm5_lcNQ"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_Xs_31FInEeibjuLm5_lcNQ" name="" memberEnd="_Xs_31VInEeibjuLm5_lcNQ _Xs04sVInEeibjuLm5_lcNQ">
+                <ownedEnd xmi:id="_Xs_31VInEeibjuLm5_lcNQ" name="" type="_XhZr0FInEeibjuLm5_lcNQ" association="_Xs_31FInEeibjuLm5_lcNQ"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_Xg4ud1InEeibjuLm5_lcNQ" name="client">
+            <packagedElement xmi:type="uml:Package" xmi:id="_Xg4ueFInEeibjuLm5_lcNQ" name="gui">
+              <packagedElement xmi:type="uml:Class" xmi:id="_Xr8H4VInEeibjuLm5_lcNQ" name="GUI"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_Xr8H41InEeibjuLm5_lcNQ" name="ChoiceItem"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_Xr7g0VInEeibjuLm5_lcNQ" name="FreeColClient"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_Xg58klInEeibjuLm5_lcNQ" name="server">
+            <packagedElement xmi:type="uml:Package" xmi:id="_Xg58k1InEeibjuLm5_lcNQ" name="ai">
+              <packagedElement xmi:type="uml:Package" xmi:id="_Xg58lFInEeibjuLm5_lcNQ" name="mission">
+                <packagedElement xmi:type="uml:Class" xmi:id="_XsKxYlInEeibjuLm5_lcNQ" name="Mission"/>
+                <packagedElement xmi:type="uml:Class" xmi:id="_XsLYcVInEeibjuLm5_lcNQ" name="TransportMission"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsJjQVInEeibjuLm5_lcNQ" name="AIColony"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsJjQ1InEeibjuLm5_lcNQ" name="AIMain"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsKKUVInEeibjuLm5_lcNQ" name="AIPlayer"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsKxYFInEeibjuLm5_lcNQ" name="AIUnit"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Xg6joFInEeibjuLm5_lcNQ" name="model">
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsLYc1InEeibjuLm5_lcNQ" name="ServerBuilding"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsL_gVInEeibjuLm5_lcNQ" name="ServerColony"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsL_g1InEeibjuLm5_lcNQ" name="ServerPlayer"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XsMmkVInEeibjuLm5_lcNQ" name="ServerUnit"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_XsI8MVInEeibjuLm5_lcNQ" name="FreeColServer"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Xg4HZFInEeibjuLm5_lcNQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Xg4ucFInEeibjuLm5_lcNQ" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Xg4ucVInEeibjuLm5_lcNQ" name="Map">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_Xr5roVInEeibjuLm5_lcNQ" name="Entry"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Xg4uclInEeibjuLm5_lcNQ" name="logging">
+          <packagedElement xmi:type="uml:Class" xmi:id="_Xr5ro1InEeibjuLm5_lcNQ" name="Logger"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Xg4uc1InEeibjuLm5_lcNQ" name="stream">
+          <packagedElement xmi:type="uml:Class" xmi:id="_Xr6SsVInEeibjuLm5_lcNQ" name="Collectors"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Xr3PYFInEeibjuLm5_lcNQ" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Xr32cVInEeibjuLm5_lcNQ" name="Arrays"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Xr4dgVInEeibjuLm5_lcNQ" name="Collections"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Xr4dg1InEeibjuLm5_lcNQ" name="HashMap"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_Xr5EkVInEeibjuLm5_lcNQ" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XsT7UVInEeibjuLm5_lcNQ" name="Locale"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Xg8Y0VInEeibjuLm5_lcNQ" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_XsSGIFInEeibjuLm5_lcNQ" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XsStMVInEeibjuLm5_lcNQ" name="FileOutputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XsTUQVInEeibjuLm5_lcNQ" name="IOException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XsTUQ1InEeibjuLm5_lcNQ" name="PrintStream"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Xg4udFInEeibjuLm5_lcNQ" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Xg4udVInEeibjuLm5_lcNQ" name="swing">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Xg4udlInEeibjuLm5_lcNQ" name="event">
+          <packagedElement xmi:type="uml:Class" xmi:id="_Xr65w1InEeibjuLm5_lcNQ" name="ChangeEvent"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Xr6Ss1InEeibjuLm5_lcNQ" name="JMenu"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Xr65wVInEeibjuLm5_lcNQ" name="JMenuItem"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_XR3bAFInEeibjuLm5_lcNQ">
+      <eAnnotations xmi:id="_XR3bAVInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_XR4CEFInEeibjuLm5_lcNQ" base_Package="_WLKRoFInEeibjuLm5_lcNQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XhekUFInEeibjuLm5_lcNQ" base_Element="_Xhd9QFInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Xr32cFInEeibjuLm5_lcNQ" base_Element="_Xr3PYFInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Xr4dgFInEeibjuLm5_lcNQ" base_Element="_Xr32cVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Xr4dglInEeibjuLm5_lcNQ" base_Element="_Xr4dgVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Xr5EkFInEeibjuLm5_lcNQ" base_Element="_Xr4dg1InEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Xr5roFInEeibjuLm5_lcNQ" base_Element="_Xr5EkVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Xr5rolInEeibjuLm5_lcNQ" base_Element="_Xr5roVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Xr6SsFInEeibjuLm5_lcNQ" base_Element="_Xr5ro1InEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Xr6SslInEeibjuLm5_lcNQ" base_Element="_Xr6SsVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Xr65wFInEeibjuLm5_lcNQ" base_Element="_Xr6Ss1InEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Xr65wlInEeibjuLm5_lcNQ" base_Element="_Xr65wVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Xr7g0FInEeibjuLm5_lcNQ" base_Element="_Xr65w1InEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Xr8H4FInEeibjuLm5_lcNQ" base_Element="_Xr7g0VInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Xr8H4lInEeibjuLm5_lcNQ" base_Element="_Xr8H4VInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Xr8u8FInEeibjuLm5_lcNQ" base_Element="_Xr8H41InEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Xr8u8lInEeibjuLm5_lcNQ" base_Element="_Xr8u8VInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Xr9WAFInEeibjuLm5_lcNQ" base_Element="_Xr8u81InEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Xr99EFInEeibjuLm5_lcNQ" base_Element="_Xr9WAVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Xr99ElInEeibjuLm5_lcNQ" base_Element="_Xr99EVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Xr-kIFInEeibjuLm5_lcNQ" base_Element="_Xr99E1InEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Xr_LMFInEeibjuLm5_lcNQ" base_Element="_Xr-kIVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Xr_LMlInEeibjuLm5_lcNQ" base_Element="_Xr_LMVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Xr_yQVInEeibjuLm5_lcNQ" base_Element="_Xr_yQFInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsAZUFInEeibjuLm5_lcNQ" base_Element="_Xr_yQlInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsAZUlInEeibjuLm5_lcNQ" base_Element="_XsAZUVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsBAYVInEeibjuLm5_lcNQ" base_Element="_XsBAYFInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsBncFInEeibjuLm5_lcNQ" base_Element="_XsBAYlInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsBnclInEeibjuLm5_lcNQ" base_Element="_XsBncVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsCOgFInEeibjuLm5_lcNQ" base_Element="_XsBnc1InEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsC1kFInEeibjuLm5_lcNQ" base_Element="_XsCOgVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsC1klInEeibjuLm5_lcNQ" base_Element="_XsC1kVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsDcoFInEeibjuLm5_lcNQ" base_Element="_XsC1k1InEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsDcolInEeibjuLm5_lcNQ" base_Element="_XsDcoVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsEDsVInEeibjuLm5_lcNQ" base_Element="_XsEDsFInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsEqwFInEeibjuLm5_lcNQ" base_Element="_XsEDslInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsEqwlInEeibjuLm5_lcNQ" base_Element="_XsEqwVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsFR0FInEeibjuLm5_lcNQ" base_Element="_XsEqw1InEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsF44FInEeibjuLm5_lcNQ" base_Element="_XsFR0VInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsF44lInEeibjuLm5_lcNQ" base_Element="_XsF44VInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsGf8FInEeibjuLm5_lcNQ" base_Element="_XsF441InEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsGf8lInEeibjuLm5_lcNQ" base_Element="_XsGf8VInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsHHAVInEeibjuLm5_lcNQ" base_Element="_XsHHAFInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsHuEFInEeibjuLm5_lcNQ" base_Element="_XsHHAlInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsHuElInEeibjuLm5_lcNQ" base_Element="_XsHuEVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsIVIFInEeibjuLm5_lcNQ" base_Element="_XsHuE1InEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsIVIlInEeibjuLm5_lcNQ" base_Element="_XsIVIVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsI8MFInEeibjuLm5_lcNQ" base_Element="_XsIVI1InEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsJjQFInEeibjuLm5_lcNQ" base_Element="_XsI8MVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsJjQlInEeibjuLm5_lcNQ" base_Element="_XsJjQVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsKKUFInEeibjuLm5_lcNQ" base_Element="_XsJjQ1InEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsKKUlInEeibjuLm5_lcNQ" base_Element="_XsKKUVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsKxYVInEeibjuLm5_lcNQ" base_Element="_XsKxYFInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsLYcFInEeibjuLm5_lcNQ" base_Element="_XsKxYlInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsLYclInEeibjuLm5_lcNQ" base_Element="_XsLYcVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsL_gFInEeibjuLm5_lcNQ" base_Element="_XsLYc1InEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsL_glInEeibjuLm5_lcNQ" base_Element="_XsL_gVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsMmkFInEeibjuLm5_lcNQ" base_Element="_XsL_g1InEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsNNoFInEeibjuLm5_lcNQ" base_Element="_XsMmkVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsStMFInEeibjuLm5_lcNQ" base_Element="_XsSGIFInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsTUQFInEeibjuLm5_lcNQ" base_Element="_XsStMVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsTUQlInEeibjuLm5_lcNQ" base_Element="_XsTUQVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsT7UFInEeibjuLm5_lcNQ" base_Element="_XsTUQ1InEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XsT7UlInEeibjuLm5_lcNQ" base_Element="_XsT7UVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Generics xmi:id="_XshWsFInEeibjuLm5_lcNQ" genericsValue="Unit" base_Element="_XsgvolInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XszDgFInEeibjuLm5_lcNQ" base_Element="_XsycclInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XszqkVInEeibjuLm5_lcNQ" base_Element="_XszqkFInEeibjuLm5_lcNQ">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_Xszqk1InEeibjuLm5_lcNQ" name="getNormalGameFogOfWar" isStatic="true" method="_Xs5xMFInEeibjuLm5_lcNQ">
+      <ownedParameter xmi:id="_Xs0RolInEeibjuLm5_lcNQ" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_Xs0RoFInEeibjuLm5_lcNQ" name="setNormalGameFogOfWar" isStatic="true" method="_Xs5xMlInEeibjuLm5_lcNQ">
+      <ownedParameter xmi:id="_Xs0RoVInEeibjuLm5_lcNQ" name="normalGameFogOfWar">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Xs04sFInEeibjuLm5_lcNQ" base_Element="_Xs0Ro1InEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Xs04s1InEeibjuLm5_lcNQ" base_Element="_Xs04sVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Xs1fwlInEeibjuLm5_lcNQ" base_Element="_Xs1fwFInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Xs2G0FInEeibjuLm5_lcNQ" base_Element="_Xs1fw1InEeibjuLm5_lcNQ"/>
+  <uml:OpaqueBehavior xmi:id="_Xs5xMFInEeibjuLm5_lcNQ" name="getNormalGameFogOfWar" specification="_Xszqk1InEeibjuLm5_lcNQ">
+    <ownedParameter xmi:id="_Xs5xMVInEeibjuLm5_lcNQ" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return normalGameFogOfWar;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_Xs5xMlInEeibjuLm5_lcNQ" name="setNormalGameFogOfWar" specification="_Xs0RoFInEeibjuLm5_lcNQ">
+    <ownedParameter xmi:id="_Xs5xM1InEeibjuLm5_lcNQ" name="normalGameFogOfWar">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>FreeColDebugger.normalGameFogOfWar = normalGameFogOfWar;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_Xs_30FInEeibjuLm5_lcNQ" base_Element="_Xs_QwFInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Xs_301InEeibjuLm5_lcNQ" base_Element="_Xs_30VInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_XtAe4FInEeibjuLm5_lcNQ" base_Element="_Xs_31FInEeibjuLm5_lcNQ"/>
+</xmi:XMI>

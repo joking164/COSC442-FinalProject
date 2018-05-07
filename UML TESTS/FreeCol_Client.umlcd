@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_8Me7YFIhEeibjuLm5_lcNQ">
+  <modelElement href="FreeCol_Client.uml#_89jzAFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9VkqYVIhEeibjuLm5_lcNQ" targetItem="_9WG14FIhEeibjuLm5_lcNQ" sourceItem="_9VkqYFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9VlRcVIhEeibjuLm5_lcNQ" targetItem="_9WG2RFIhEeibjuLm5_lcNQ" sourceItem="_9VlRcFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9Vl4gVIhEeibjuLm5_lcNQ" targetItem="_9WG2SlIhEeibjuLm5_lcNQ" sourceItem="_9Vl4gFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9Vl4g1IhEeibjuLm5_lcNQ" targetItem="_9WG2T1IhEeibjuLm5_lcNQ" sourceItem="_9Vl4glIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9VmfkVIhEeibjuLm5_lcNQ" targetItem="_9WG2VFIhEeibjuLm5_lcNQ" sourceItem="_9VmfkFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9Vmfk1IhEeibjuLm5_lcNQ" targetItem="_9WG2WVIhEeibjuLm5_lcNQ" sourceItem="_9VmfklIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9VnGoVIhEeibjuLm5_lcNQ" targetItem="_9WG2XlIhEeibjuLm5_lcNQ" sourceItem="_9VnGoFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9VntsVIhEeibjuLm5_lcNQ" targetItem="_9WG2Y1IhEeibjuLm5_lcNQ" sourceItem="_9VntsFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9VoUwVIhEeibjuLm5_lcNQ" targetItem="_9WG2aFIhEeibjuLm5_lcNQ" sourceItem="_9VoUwFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9Vo70VIhEeibjuLm5_lcNQ" targetItem="_9WG2bVIhEeibjuLm5_lcNQ" sourceItem="_9Vo70FIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9Vo701IhEeibjuLm5_lcNQ" targetItem="_9WG2clIhEeibjuLm5_lcNQ" sourceItem="_9Vo70lIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9Vpi4VIhEeibjuLm5_lcNQ" targetItem="_9WG2eFIhEeibjuLm5_lcNQ" sourceItem="_9Vpi4FIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9Vpi41IhEeibjuLm5_lcNQ" targetItem="_9WG2fVIhEeibjuLm5_lcNQ" sourceItem="_9Vpi4lIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9VqJ8VIhEeibjuLm5_lcNQ" targetItem="_9WG2g1IhEeibjuLm5_lcNQ" sourceItem="_9VqJ8FIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9VqJ81IhEeibjuLm5_lcNQ" targetItem="_9WG2iFIhEeibjuLm5_lcNQ" sourceItem="_9VqJ8lIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9VqxAVIhEeibjuLm5_lcNQ" targetItem="_9WG2i1IhEeibjuLm5_lcNQ" sourceItem="_9VqxAFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9VrYEFIhEeibjuLm5_lcNQ" targetItem="_9WG2kFIhEeibjuLm5_lcNQ" sourceItem="_9VqxAlIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9VrYElIhEeibjuLm5_lcNQ" targetItem="_9WG2lVIhEeibjuLm5_lcNQ" sourceItem="_9VrYEVIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9Vr_IFIhEeibjuLm5_lcNQ" targetItem="_9WG2mlIhEeibjuLm5_lcNQ" sourceItem="_9VrYE1IhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9Vr_IlIhEeibjuLm5_lcNQ" targetItem="_9WG2n1IhEeibjuLm5_lcNQ" sourceItem="_9Vr_IVIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9VsmMVIhEeibjuLm5_lcNQ" targetItem="_9WG2pVIhEeibjuLm5_lcNQ" sourceItem="_9VsmMFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9VsmM1IhEeibjuLm5_lcNQ" targetItem="_9WG2qFIhEeibjuLm5_lcNQ" sourceItem="_9VsmMlIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9VtNQVIhEeibjuLm5_lcNQ" targetItem="_9WG2rlIhEeibjuLm5_lcNQ" sourceItem="_9VtNQFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9VtNQ1IhEeibjuLm5_lcNQ" targetItem="_9WG2sVIhEeibjuLm5_lcNQ" sourceItem="_9VtNQlIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9VtNRVIhEeibjuLm5_lcNQ" targetItem="_9WG2tFIhEeibjuLm5_lcNQ" sourceItem="_9VtNRFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9VubYVIhEeibjuLm5_lcNQ" targetItem="_9WG2xVIhEeibjuLm5_lcNQ" sourceItem="_9VubYFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9VvCcFIhEeibjuLm5_lcNQ" targetItem="_9WG22lIhEeibjuLm5_lcNQ" sourceItem="_9VubYlIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9VvCclIhEeibjuLm5_lcNQ" targetItem="_9WG29VIhEeibjuLm5_lcNQ" sourceItem="_9VvCcVIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9VvpgVIhEeibjuLm5_lcNQ" targetItem="_9WG2_VIhEeibjuLm5_lcNQ" sourceItem="_9VvpgFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9Vvpg1IhEeibjuLm5_lcNQ" targetItem="_9WHc8FIhEeibjuLm5_lcNQ" sourceItem="_9VvpglIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9VwQkVIhEeibjuLm5_lcNQ" targetItem="_9WHc9lIhEeibjuLm5_lcNQ" sourceItem="_9VwQkFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9Vw3oVIhEeibjuLm5_lcNQ" targetItem="_9WHc_lIhEeibjuLm5_lcNQ" sourceItem="_9Vw3oFIhEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9V6BkFIhEeibjuLm5_lcNQ" target="_9WG14FIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LFRoFIhEeibjuLm5_lcNQ"/>
+    <nameVisual xmi:id="_9V6BkVIhEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_9V6BklIhEeibjuLm5_lcNQ" aggregationKind="NONE" name="game" navigable="true">
+      <modelElement href="FreeCol_Client.uml#_9KxIkVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9V6ooFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9V6ooVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_9V6oolIhEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="FreeCol_Client.uml#_9LFRoVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9V6oo1IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9V6opFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9V7PsFIhEeibjuLm5_lcNQ" source="_9WG14FIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LKKIFIhEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_9V7PsVIhEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="FreeCol_Client.uml#_9LKxMFIhEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_9V7PslIhEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_9V7Ps1IhEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="FreeCol_Client.uml#_9LKKIVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9V7PtFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9V7PtVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_9V7PtlIhEeibjuLm5_lcNQ" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="FreeCol_Client.uml#_9Kqa4FIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9V7Pt1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_9V7PuFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9V8d0FIhEeibjuLm5_lcNQ" source="_9WG14FIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LLYQFIhEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_9V8d0VIhEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="FreeCol_Client.uml#_9LLYQlIhEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_9V8d0lIhEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_9V8d01IhEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="FreeCol_Client.uml#_9LLYQVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9V8d1FIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9V8d1VIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_9V8d1lIhEeibjuLm5_lcNQ" aggregationKind="NONE" name="connectController" navigable="true">
+      <modelElement href="FreeCol_Client.uml#_9KrB8VIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9V8d11IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9V8d2FIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9V9E4FIhEeibjuLm5_lcNQ" source="_9WG14FIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LL_UFIhEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_9V9E4VIhEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="FreeCol_Client.uml#_9LL_UlIhEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_9V9E4lIhEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_9V9E41IhEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="FreeCol_Client.uml#_9LL_UVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9V9E5FIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9V9E5VIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_9V9E5lIhEeibjuLm5_lcNQ" aggregationKind="NONE" name="preGameController" navigable="true">
+      <modelElement href="FreeCol_Client.uml#_9KsQEVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9V9E51IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9V9E6FIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9V-TAFIhEeibjuLm5_lcNQ" source="_9WG14FIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LL_U1IhEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_9V-TAVIhEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="FreeCol_Client.uml#_9LMmYFIhEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_9V-TAlIhEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_9V-TA1IhEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="FreeCol_Client.uml#_9LL_VFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9V-TBFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9V-TBVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_9V-TBlIhEeibjuLm5_lcNQ" aggregationKind="NONE" name="preGameInputHandler" navigable="true">
+      <modelElement href="FreeCol_Client.uml#_9KteMFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9V-TB1IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9V-TCFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9V-6EFIhEeibjuLm5_lcNQ" source="_9WG14FIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LMmYVIhEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_9V-6EVIhEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="FreeCol_Client.uml#_9LNNcFIhEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_9V-6ElIhEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_9V-6E1IhEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="FreeCol_Client.uml#_9LMmYlIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9V-6FFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9V-6FVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_9V-6FlIhEeibjuLm5_lcNQ" aggregationKind="NONE" name="inGameController" navigable="true">
+      <modelElement href="FreeCol_Client.uml#_9KuFQVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9V-6F1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_9V-6GFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9V_hIFIhEeibjuLm5_lcNQ" source="_9WG14FIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LNNcVIhEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_9V_hIVIhEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="FreeCol_Client.uml#_9LNNc1IhEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_9V_hIlIhEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_9V_hI1IhEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="FreeCol_Client.uml#_9LNNclIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9V_hJFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9V_hJVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_9V_hJlIhEeibjuLm5_lcNQ" aggregationKind="NONE" name="inGameInputHandler" navigable="true">
+      <modelElement href="FreeCol_Client.uml#_9KusUFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9V_hJ1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_9V_hKFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9WAIMFIhEeibjuLm5_lcNQ" source="_9WG14FIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LNNdFIhEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_9WAIMVIhEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="FreeCol_Client.uml#_9LN0gFIhEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_9WAIMlIhEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_9WAIM1IhEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="FreeCol_Client.uml#_9LNNdVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WAINFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WAINVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_9WAINlIhEeibjuLm5_lcNQ" aggregationKind="NONE" name="mapEditorController" navigable="true">
+      <modelElement href="FreeCol_Client.uml#_9KusUlIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WAIN1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_9WAIOFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9WAvQFIhEeibjuLm5_lcNQ" source="_9WG14FIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LN0gVIhEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_9WAvQVIhEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="FreeCol_Client.uml#_9LObkFIhEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_9WAvQlIhEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_9WAvQ1IhEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="FreeCol_Client.uml#_9LN0glIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WAvRFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WAvRVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_9WAvRlIhEeibjuLm5_lcNQ" aggregationKind="NONE" name="soundController" navigable="true">
+      <modelElement href="FreeCol_Client.uml#_9KvTYVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WAvR1IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WAvSFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9WBWUFIhEeibjuLm5_lcNQ" source="_9WG14FIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LObkVIhEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_9WBWUVIhEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="FreeCol_Client.uml#_9LPCoFIhEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_9WBWUlIhEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_9WBWU1IhEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="FreeCol_Client.uml#_9LObklIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WBWVFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WBWVVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_9WBWVlIhEeibjuLm5_lcNQ" aggregationKind="NONE" name="freeColServer" navigable="true">
+      <modelElement href="FreeCol_Client.uml#_9KvTYlIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WBWV1IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WBWWFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9WB9YFIhEeibjuLm5_lcNQ" source="_9WG14FIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LPCoVIhEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_9WB9YVIhEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="FreeCol_Client.uml#_9LPpsFIhEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_9WB9YlIhEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_9WB9Y1IhEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="FreeCol_Client.uml#_9LPColIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WB9ZFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WB9ZVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_9WB9ZlIhEeibjuLm5_lcNQ" aggregationKind="NONE" name="serverAPI" navigable="true">
+      <modelElement href="FreeCol_Client.uml#_9Kv6cFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WB9Z1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_9WB9aFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9WDLgFIhEeibjuLm5_lcNQ" source="_9WG14FIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LPpsVIhEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_9WDLgVIhEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="FreeCol_Client.uml#_9LQQwFIhEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_9WDLglIhEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_9WDLg1IhEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="FreeCol_Client.uml#_9LPpslIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WDLhFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WDLhVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_9WDLhlIhEeibjuLm5_lcNQ" aggregationKind="NONE" name="gui" navigable="true">
+      <modelElement href="FreeCol_Client.uml#_9KwhgFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WDLh1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_9WDLiFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9WDykFIhEeibjuLm5_lcNQ" source="_9WG14FIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LQQwVIhEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_9WDykVIhEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="FreeCol_Client.uml#_9LQ30FIhEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_9WDyklIhEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_9WDyk1IhEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="FreeCol_Client.uml#_9LQQwlIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WDylFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WDylVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_9WDyllIhEeibjuLm5_lcNQ" aggregationKind="NONE" name="actionManager" navigable="true">
+      <modelElement href="FreeCol_Client.uml#_9KwhglIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WDyl1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_9WDymFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9WEZoFIhEeibjuLm5_lcNQ" source="_9WG14FIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LQ30VIhEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_9WEZoVIhEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="FreeCol_Client.uml#_9LQ301IhEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_9WEZolIhEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_9WEZo1IhEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="FreeCol_Client.uml#_9LQ30lIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WEZpFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WEZpVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_9WEZplIhEeibjuLm5_lcNQ" aggregationKind="NONE" name="player" navigable="true">
+      <modelElement href="FreeCol_Client.uml#_9KxvoFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WEZp1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_9WEZqFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9WFAsFIhEeibjuLm5_lcNQ" source="_9WG14FIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LQ31FIhEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_9WFAsVIhEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="FreeCol_Client.uml#_9LRe4FIhEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_9WFAslIhEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_9WFAs1IhEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="FreeCol_Client.uml#_9LQ31VIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WFAtFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WFAtVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_9WFAtlIhEeibjuLm5_lcNQ" aggregationKind="NONE" name="clientOptions" navigable="true">
+      <modelElement href="FreeCol_Client.uml#_9KyWsFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WFAt1IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WFAuFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9WFnwFIhEeibjuLm5_lcNQ" source="_9WG14FIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LRe4VIhEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_9WFnwVIhEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="FreeCol_Client.uml#_9LSF8FIhEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_9WFnwlIhEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_9WFnw1IhEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="FreeCol_Client.uml#_9LRe4lIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WFnxFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WFnxVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_9WFnxlIhEeibjuLm5_lcNQ" aggregationKind="NONE" name="worker" navigable="true">
+      <modelElement href="FreeCol_Client.uml#_9KyWsVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WFnx1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_9WFnyFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VkqYFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9VkqYVIhEeibjuLm5_lcNQ" text="The main control class for the FreeCol client.  This class both&#xD;&#xA;starts and keeps references to the GUI and the control objects." item="_9WG14FIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LDccFIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VlRcFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9VlRcVIhEeibjuLm5_lcNQ" text="Quit and exit with an error.&#xD;&#xA;     *&#xD;&#xA;     * @param err The error message." item="_9WG2RFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LF4sVIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9Vl4gFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9Vl4gVIhEeibjuLm5_lcNQ" text="Gets the controller that will be used when the game has been started.&#xD;&#xA;     *&#xD;&#xA;     * @return The &lt;code>InGameController&lt;/code>." item="_9WG2SlIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LF4slIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9Vl4glIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9Vl4g1IhEeibjuLm5_lcNQ" text="Gets the input handler that will be used when the game has been started.&#xD;&#xA;     *&#xD;&#xA;     * @return The &lt;code>InGameInputHandler&lt;/code>." item="_9WG2T1IhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LF4s1IhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VmfkFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9VmfkVIhEeibjuLm5_lcNQ" text="Gets the controller for the map editor, if we are in the map editor.&#xD;&#xA;     *&#xD;&#xA;     * @return The map editor controller, if any." item="_9WG2VFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LF4tFIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VmfklIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9Vmfk1IhEeibjuLm5_lcNQ" text="Meaningfully named access to the ServerAPI.&#xD;&#xA;     *&#xD;&#xA;     * @return A ServerAPI." item="_9WG2WVIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LF4tVIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VnGoFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9VnGoVIhEeibjuLm5_lcNQ" text="Gets the GUI attached to this client.&#xD;&#xA;     *&#xD;&#xA;     * @return The current &lt;code>GUI&lt;/code>." item="_9WG2XlIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LF4tlIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VntsFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9VntsVIhEeibjuLm5_lcNQ" text="Gets the action manager.&#xD;&#xA;     *&#xD;&#xA;     * @return The action manager." item="_9WG2Y1IhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LF4t1IhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VoUwFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9VoUwVIhEeibjuLm5_lcNQ" text="Gets the &lt;code>Player&lt;/code> that uses this client.&#xD;&#xA;     *&#xD;&#xA;     * @return The &lt;code>Player&lt;/code> made to represent this clients user.&#xD;&#xA;     * @see #setMyPlayer(Player)" item="_9WG2aFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LF4uFIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9Vo70FIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9Vo70VIhEeibjuLm5_lcNQ" text="Convenience accessor for checking whether to display tutorial messages.&#xD;&#xA;     *&#xD;&#xA;     * @return True if tutorial messages should be displayed." item="_9WG2bVIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LF4ulIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9Vo70lIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9Vo701IhEeibjuLm5_lcNQ" text="Set the game start state.&#xD;&#xA;     *&#xD;&#xA;     * @param inGame Whether or not the game has started." item="_9WG2clIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LF4u1IhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9Vpi4FIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9Vpi4VIhEeibjuLm5_lcNQ" text="Is the user playing in single player mode?&#xD;&#xA;     *&#xD;&#xA;     * @return True if the user is playing in single player mode.&#xD;&#xA;     * @see #setSinglePlayer" item="_9WG2eFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LGfwFIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9Vpi4lIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9Vpi41IhEeibjuLm5_lcNQ" text="Sets whether or not this game is a single player game.&#xD;&#xA;     *&#xD;&#xA;     * @param singlePlayer Whether or not this game is a single player game.&#xD;&#xA;     * @see #isSinglePlayer" item="_9WG2fVIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LGfwVIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VqJ8FIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9VqJ8VIhEeibjuLm5_lcNQ" text="Is the game in headless mode?&#xD;&#xA;     *&#xD;&#xA;     * @return a &lt;code>boolean&lt;/code> value" item="_9WG2g1IhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LGfwlIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VqJ8lIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9VqJ81IhEeibjuLm5_lcNQ" text="Updates the game actions.  Generally useful when menu actions&#xD;&#xA;     * should change due to the current game context." item="_9WG2iFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LGfw1IhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VqxAFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9VqxAVIhEeibjuLm5_lcNQ" text="Checks if this client is the game admin.&#xD;&#xA;     *&#xD;&#xA;     * @return True if the client is the game admin and the game has begun." item="_9WG2i1IhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LGfxVIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VqxAlIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9VrYEFIhEeibjuLm5_lcNQ" text="Verifies if this client can save the current game&#xD;&#xA;     *&#xD;&#xA;     * Clients that do not have the server running, or that have not&#xD;&#xA;     * the required permissions cannot save and should have the menu&#xD;&#xA;     * entry disabled&#xD;&#xA;     *&#xD;&#xA;     * @return True if this client can save the game in progress." item="_9WG2kFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LGfxlIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VrYEVIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9VrYElIhEeibjuLm5_lcNQ" text="Is the current player the client owner player?&#xD;&#xA;     *&#xD;&#xA;     * @return True if the current player is owned by this client." item="_9WG2lVIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LGfx1IhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VrYE1IhEeibjuLm5_lcNQ" sourceConnectionVisual="_9Vr_IFIhEeibjuLm5_lcNQ" text="Get a list of the player colonies.&#xD;&#xA;     *&#xD;&#xA;     * @return The players colonies sorted according to the chosen comparator." item="_9WG2mlIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LGfyVIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9Vr_IVIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9Vr_IlIhEeibjuLm5_lcNQ" text="If currently in a game, displays a quit dialog and if desired,&#xD;&#xA;     * logs out of the current game.&#xD;&#xA;     *&#xD;&#xA;     * When the game is clear, show the new game panel.&#xD;&#xA;     *&#xD;&#xA;     * Called from the New action, often from the button on the MainPanel,&#xD;&#xA;     * and IGC.victory()&#xD;&#xA;     *&#xD;&#xA;     * @param prompt If true, prompt to confirm stopping the game." item="_9WG2n1IhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LGfy1IhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VsmMFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9VsmMVIhEeibjuLm5_lcNQ" text="Continue playing after winning the game." item="_9WG2pVIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LGfzFIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VsmMlIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9VsmM1IhEeibjuLm5_lcNQ" text="Start the game skipping turns.&#xD;&#xA;     *&#xD;&#xA;     * @param turns The number of turns to skip." item="_9WG2qFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LGfzVIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VtNQFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9VtNQVIhEeibjuLm5_lcNQ" text="Quits the application." item="_9WG2rlIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LHG0FIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VtNQlIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9VtNQ1IhEeibjuLm5_lcNQ" text="Retire from the game." item="_9WG2sVIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LHG0VIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VtNRFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9VtNRVIhEeibjuLm5_lcNQ" text="Quits the application without any questions." item="_9WG2tFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LHG0lIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VubYFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9VubYVIhEeibjuLm5_lcNQ" text="Creates a new &lt;code>FreeColClient&lt;/code>.  Creates the control&#xD;&#xA;     * objects.&#xD;&#xA;     *&#xD;&#xA;     * @param splashStream A stream to read the splash image from.&#xD;&#xA;     * @param fontName An optional override of the main font.&#xD;&#xA;     * @param scale The scale factor for gui elements.&#xD;&#xA;     * @param headless Run in headless mode." item="_9WG2xVIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LFRolIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VubYlIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9VvCcFIhEeibjuLm5_lcNQ" text="Starts the new &lt;code>FreeColClient&lt;/code>, including the GUI.&#xD;&#xA;     *&#xD;&#xA;     * @param size An optional window size.&#xD;&#xA;     * @param userMsg An optional message key to be displayed early.&#xD;&#xA;     * @param sound True if sounds should be played&#xD;&#xA;     * @param showOpeningVideo Display the opening video.&#xD;&#xA;     * @param savedGame An optional saved game.&#xD;&#xA;     * @param spec If non-null, a &lt;code>Specification&lt;/code> to use to start&#xD;&#xA;     *     a new game immediately." item="_9WG22lIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LFRo1IhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VvCcVIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9VvCclIhEeibjuLm5_lcNQ" text="Loads the client options.&#xD;&#xA;     * There are several sources:&#xD;&#xA;     *   1) Base options (data/base/client-options.xml)&#xD;&#xA;     *   2) Standard action manager actions&#xD;&#xA;     *   3) Saved game&#xD;&#xA;     *   4) User options&#xD;&#xA;     *&#xD;&#xA;     * The base and action manager options are definitive, so they can&#xD;&#xA;     * just be added/loaded.  The others are from sources that may be&#xD;&#xA;     * out of date (i.e. options can be in the wrong group, or no longer&#xD;&#xA;     * exist), so they must be merged cautiously.&#xD;&#xA;     *&#xD;&#xA;     * @param savedGameFile An optional saved game &lt;code>File&lt;/code>&#xD;&#xA;     *     to load options from.&#xD;&#xA;     * @return The loaded &lt;code>ClientOptions&lt;/code>." item="_9WG29VIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LF4sFIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VvpgFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9VvpgVIhEeibjuLm5_lcNQ" text="Sets the &lt;code>Player&lt;/code> that uses this client.&#xD;&#xA;     *&#xD;&#xA;     * @param player The &lt;code>Player&lt;/code> made to represent this clients&#xD;&#xA;     *            user.&#xD;&#xA;     * @see #getMyPlayer()" item="_9WG2_VIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LF4uVIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VvpglIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9Vvpg1IhEeibjuLm5_lcNQ" text="Sets the actions derived from the specification.&#xD;&#xA;     *&#xD;&#xA;     * @param specification The &lt;code>Specification&lt;/code> to use." item="_9WHc8FIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LGfxFIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9VwQkFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9VwQkVIhEeibjuLm5_lcNQ" text="Common utility routine to retrieve animation speed.&#xD;&#xA;     *&#xD;&#xA;     * @param player The &lt;code>Player&lt;/code> to be animated.&#xD;&#xA;     * @return The animation speed." item="_9WHc9lIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LGfyFIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9Vw3oFIhEeibjuLm5_lcNQ" sourceConnectionVisual="_9Vw3oVIhEeibjuLm5_lcNQ" text="Give the worker some work.&#xD;&#xA;     *&#xD;&#xA;     * @param runnable The &lt;code>Runnable&lt;/code> to do." item="_9WHc_lIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_9LGfylIhEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9WG14FIhEeibjuLm5_lcNQ" comments="_9VkqYFIhEeibjuLm5_lcNQ" targetConnectionVisual="_9VkqYVIhEeibjuLm5_lcNQ" name="FreeColClient" associationsIn="_9V6BkFIhEeibjuLm5_lcNQ" associationsOut="_9V7PsFIhEeibjuLm5_lcNQ _9V8d0FIhEeibjuLm5_lcNQ _9V9E4FIhEeibjuLm5_lcNQ _9V-TAFIhEeibjuLm5_lcNQ _9V-6EFIhEeibjuLm5_lcNQ _9V_hIFIhEeibjuLm5_lcNQ _9WAIMFIhEeibjuLm5_lcNQ _9WAvQFIhEeibjuLm5_lcNQ _9WBWUFIhEeibjuLm5_lcNQ _9WB9YFIhEeibjuLm5_lcNQ _9WDLgFIhEeibjuLm5_lcNQ _9WDykFIhEeibjuLm5_lcNQ _9WEZoFIhEeibjuLm5_lcNQ _9WFAsFIhEeibjuLm5_lcNQ _9WFnwFIhEeibjuLm5_lcNQ">
+    <modelElement href="FreeCol_Client.uml#_8-XEQFIhEeibjuLm5_lcNQ"/>
+    <visualProperties xmi:id="_9WG14VIhEeibjuLm5_lcNQ" position="30.0,30.0"/>
+    <visibility xmi:id="_9WG14lIhEeibjuLm5_lcNQ" label="+"/>
+    <attributes xmi:id="_9WG141IhEeibjuLm5_lcNQ" defaultValue="Logger.getLogger(FreeColClient.class.getName())" name="logger" staticAttribute="true">
+      <modelElement href="FreeCol_Client.uml#_9Kqa4FIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG15FIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_9WG15VIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9WG15lIhEeibjuLm5_lcNQ" name="Logger">
+        <modelElement href="FreeCol_Client.uml#_9JxDAVIhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9WG151IhEeibjuLm5_lcNQ" name="connectController">
+      <modelElement href="FreeCol_Client.uml#_9KrB8VIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_9WG16FIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_Client.uml#_9KrpAFIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9WG16VIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG16lIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9WG161IhEeibjuLm5_lcNQ" name="ConnectController">
+        <modelElement href="FreeCol_Client.uml#_9Jy4MFIhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9WG17FIhEeibjuLm5_lcNQ" name="preGameController">
+      <modelElement href="FreeCol_Client.uml#_9KsQEVIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_9WG17VIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_Client.uml#_9KsQElIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9WG17lIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG171IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9WG18FIhEeibjuLm5_lcNQ" name="PreGameController">
+        <modelElement href="FreeCol_Client.uml#_9J0tYVIhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9WG18VIhEeibjuLm5_lcNQ" name="preGameInputHandler">
+      <modelElement href="FreeCol_Client.uml#_9KteMFIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_9WG18lIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_Client.uml#_9KteMVIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9WG181IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG19FIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9WG19VIhEeibjuLm5_lcNQ" name="PreGameInputHandler">
+        <modelElement href="FreeCol_Client.uml#_9J1UcVIhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9WG19lIhEeibjuLm5_lcNQ" name="inGameController">
+      <modelElement href="FreeCol_Client.uml#_9KuFQVIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_9WG191IhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_Client.uml#_9KuFQlIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9WG1-FIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_9WG1-VIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9WG1-lIhEeibjuLm5_lcNQ" name="InGameController">
+        <modelElement href="FreeCol_Client.uml#_9Jy4MlIhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9WG1-1IhEeibjuLm5_lcNQ" name="inGameInputHandler">
+      <modelElement href="FreeCol_Client.uml#_9KusUFIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_9WG1_FIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_Client.uml#_9KusUVIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9WG1_VIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_9WG1_lIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9WG1_1IhEeibjuLm5_lcNQ" name="InGameInputHandler">
+        <modelElement href="FreeCol_Client.uml#_9J0GUVIhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9WG2AFIhEeibjuLm5_lcNQ" name="mapEditorController">
+      <modelElement href="FreeCol_Client.uml#_9KusUlIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_9WG2AVIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_Client.uml#_9KvTYFIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9WG2AlIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_9WG2A1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9WG2BFIhEeibjuLm5_lcNQ" name="MapEditorController">
+        <modelElement href="FreeCol_Client.uml#_9J0GU1IhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9WG2BVIhEeibjuLm5_lcNQ" name="soundController">
+      <modelElement href="FreeCol_Client.uml#_9KvTYVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2BlIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2B1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9WG2CFIhEeibjuLm5_lcNQ" name="SoundController">
+        <modelElement href="FreeCol_Client.uml#_9J1Uc1IhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9WG2CVIhEeibjuLm5_lcNQ" defaultValue="null" name="freeColServer">
+      <modelElement href="FreeCol_Client.uml#_9KvTYlIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2ClIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2C1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9WG2DFIhEeibjuLm5_lcNQ" name="FreeColServer">
+        <modelElement href="FreeCol_Client.uml#_9KDW4FIhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9WG2DVIhEeibjuLm5_lcNQ" name="serverAPI">
+      <modelElement href="FreeCol_Client.uml#_9Kv6cFIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_9WG2DlIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_Client.uml#_9Kv6cVIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9WG2D1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_9WG2EFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9WG2EVIhEeibjuLm5_lcNQ" name="ServerAPI">
+        <modelElement href="FreeCol_Client.uml#_9KA6oVIhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9WG2ElIhEeibjuLm5_lcNQ" name="gui">
+      <modelElement href="FreeCol_Client.uml#_9KwhgFIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_9WG2E1IhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_Client.uml#_9KwhgVIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9WG2FFIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_9WG2FVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9WG2FlIhEeibjuLm5_lcNQ" name="GUI">
+        <modelElement href="FreeCol_Client.uml#_9J17gVIhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9WG2F1IhEeibjuLm5_lcNQ" name="actionManager">
+      <modelElement href="FreeCol_Client.uml#_9KwhglIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_9WG2GFIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_Client.uml#_9KxIkFIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9WG2GVIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_9WG2GlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9WG2G1IhEeibjuLm5_lcNQ" name="ActionManager">
+        <modelElement href="FreeCol_Client.uml#_9J3wsVIhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9WG2HFIhEeibjuLm5_lcNQ" name="game">
+      <modelElement href="FreeCol_Client.uml#_9KxIkVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2HVIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2HlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9WG2H1IhEeibjuLm5_lcNQ" name="Game">
+        <modelElement href="FreeCol_Client.uml#_9J93U1IhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9WG2IFIhEeibjuLm5_lcNQ" name="player">
+      <modelElement href="FreeCol_Client.uml#_9KxvoFIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_9WG2IVIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_Client.uml#_9KxvoVIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9WG2IlIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_9WG2I1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9WG2JFIhEeibjuLm5_lcNQ" name="Player">
+        <modelElement href="FreeCol_Client.uml#_9J_FcFIhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9WG2JVIhEeibjuLm5_lcNQ" name="clientOptions">
+      <modelElement href="FreeCol_Client.uml#_9KyWsFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2JlIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2J1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9WG2KFIhEeibjuLm5_lcNQ" name="ClientOptions">
+        <modelElement href="FreeCol_Client.uml#_9KZVIFIhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9WG2KVIhEeibjuLm5_lcNQ" name="worker">
+      <modelElement href="FreeCol_Client.uml#_9KyWsVIhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_9WG2KlIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_Client.uml#_9KyWslIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9WG2K1IhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_9WG2LFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9WG2LVIhEeibjuLm5_lcNQ" name="Worker">
+        <modelElement href="FreeCol_Client.uml#_9KajQFIhEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9WG2LlIhEeibjuLm5_lcNQ" defaultValue="false" name="inGame">
+      <modelElement href="FreeCol_Client.uml#_9Ky9wFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2L1IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2MFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9WG2MVIhEeibjuLm5_lcNQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9WG2MlIhEeibjuLm5_lcNQ" name="mapEditor">
+      <modelElement href="FreeCol_Client.uml#_9Ky9wlIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2M1IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2NFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9WG2NVIhEeibjuLm5_lcNQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9WG2NlIhEeibjuLm5_lcNQ" name="singlePlayer">
+      <modelElement href="FreeCol_Client.uml#_9Ky9w1IhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_9WG2N1IhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_Client.uml#_9Kzk0FIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9WG2OFIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_9WG2OVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9WG2OlIhEeibjuLm5_lcNQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9WG2O1IhEeibjuLm5_lcNQ" defaultValue="false" name="loggedIn">
+      <modelElement href="FreeCol_Client.uml#_9Kzk0VIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2PFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2PVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9WG2PlIhEeibjuLm5_lcNQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9WG2P1IhEeibjuLm5_lcNQ" name="headless">
+      <modelElement href="FreeCol_Client.uml#_9Kzk01IhEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_9WG2QFIhEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="FreeCol_Client.uml#_9K0L4FIhEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9WG2QVIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_9WG2QlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9WG2Q1IhEeibjuLm5_lcNQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_9WG2RFIhEeibjuLm5_lcNQ" comments="_9VlRcFIhEeibjuLm5_lcNQ" targetConnectionVisual="_9VlRcVIhEeibjuLm5_lcNQ" name="fatal" staticOperation="true">
+      <modelElement href="FreeCol_Client.uml#_8-iDYFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2RVIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2RlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9WG2R1IhEeibjuLm5_lcNQ" name="err">
+        <modelElement href="FreeCol_Client.uml#_8-iDYVIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_9WG2SFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9WG2SVIhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9WG2SlIhEeibjuLm5_lcNQ" comments="_9Vl4gFIhEeibjuLm5_lcNQ" targetConnectionVisual="_9Vl4gVIhEeibjuLm5_lcNQ" name="getInGameController">
+      <modelElement href="FreeCol_Client.uml#_8-iqcFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2S1IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2TFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9WG2TVIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_Client.uml#_9KgC0VIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_9WG2TlIhEeibjuLm5_lcNQ" name="InGameController">
+          <modelElement href="FreeCol_Client.uml#_9Jy4MlIhEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9WG2T1IhEeibjuLm5_lcNQ" comments="_9Vl4glIhEeibjuLm5_lcNQ" targetConnectionVisual="_9Vl4g1IhEeibjuLm5_lcNQ" name="getInGameInputHandler">
+      <modelElement href="FreeCol_Client.uml#_8-iqcVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2UFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2UVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9WG2UlIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_Client.uml#_9Kgp4FIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_9WG2U1IhEeibjuLm5_lcNQ" name="InGameInputHandler">
+          <modelElement href="FreeCol_Client.uml#_9J0GUVIhEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9WG2VFIhEeibjuLm5_lcNQ" comments="_9VmfkFIhEeibjuLm5_lcNQ" targetConnectionVisual="_9VmfkVIhEeibjuLm5_lcNQ" name="getMapEditorController">
+      <modelElement href="FreeCol_Client.uml#_8-jRgFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2VVIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2VlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9WG2V1IhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_Client.uml#_9Kgp4VIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_9WG2WFIhEeibjuLm5_lcNQ" name="MapEditorController">
+          <modelElement href="FreeCol_Client.uml#_9J0GU1IhEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9WG2WVIhEeibjuLm5_lcNQ" comments="_9VmfklIhEeibjuLm5_lcNQ" targetConnectionVisual="_9Vmfk1IhEeibjuLm5_lcNQ" name="askServer">
+      <modelElement href="FreeCol_Client.uml#_8-jRgVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2WlIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2W1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9WG2XFIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_Client.uml#_9Kgp4lIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_9WG2XVIhEeibjuLm5_lcNQ" name="ServerAPI">
+          <modelElement href="FreeCol_Client.uml#_9KA6oVIhEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9WG2XlIhEeibjuLm5_lcNQ" comments="_9VnGoFIhEeibjuLm5_lcNQ" targetConnectionVisual="_9VnGoVIhEeibjuLm5_lcNQ" name="getGUI">
+      <modelElement href="FreeCol_Client.uml#_8-j4kFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2X1IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2YFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9WG2YVIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_Client.uml#_9Kgp41IhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_9WG2YlIhEeibjuLm5_lcNQ" name="GUI">
+          <modelElement href="FreeCol_Client.uml#_9J17gVIhEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9WG2Y1IhEeibjuLm5_lcNQ" comments="_9VntsFIhEeibjuLm5_lcNQ" targetConnectionVisual="_9VntsVIhEeibjuLm5_lcNQ" name="getActionManager">
+      <modelElement href="FreeCol_Client.uml#_8-kfoFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2ZFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2ZVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9WG2ZlIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_Client.uml#_9KhQ8FIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_9WG2Z1IhEeibjuLm5_lcNQ" name="ActionManager">
+          <modelElement href="FreeCol_Client.uml#_9J3wsVIhEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9WG2aFIhEeibjuLm5_lcNQ" comments="_9VoUwFIhEeibjuLm5_lcNQ" targetConnectionVisual="_9VoUwVIhEeibjuLm5_lcNQ" name="getMyPlayer">
+      <modelElement href="FreeCol_Client.uml#_8-kfoVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2aVIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2alIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9WG2a1IhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_Client.uml#_9KhQ8VIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_9WG2bFIhEeibjuLm5_lcNQ" name="Player">
+          <modelElement href="FreeCol_Client.uml#_9J_FcFIhEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9WG2bVIhEeibjuLm5_lcNQ" comments="_9Vo70FIhEeibjuLm5_lcNQ" targetConnectionVisual="_9Vo70VIhEeibjuLm5_lcNQ" name="tutorialMode">
+      <modelElement href="FreeCol_Client.uml#_8-lGsFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2blIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2b1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9WG2cFIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_Client.uml#_8-lGsVIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_9WG2cVIhEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9WG2clIhEeibjuLm5_lcNQ" comments="_9Vo70lIhEeibjuLm5_lcNQ" targetConnectionVisual="_9Vo701IhEeibjuLm5_lcNQ" name="setInGame">
+      <modelElement href="FreeCol_Client.uml#_8-lGslIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2c1IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2dFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9WG2dVIhEeibjuLm5_lcNQ" name="inGame">
+        <modelElement href="FreeCol_Client.uml#_8-ltwFIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_9WG2dlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9WG2d1IhEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9WG2eFIhEeibjuLm5_lcNQ" comments="_9Vpi4FIhEeibjuLm5_lcNQ" targetConnectionVisual="_9Vpi4VIhEeibjuLm5_lcNQ" name="isSinglePlayer">
+      <modelElement href="FreeCol_Client.uml#_8-ltwVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2eVIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2elIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9WG2e1IhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_Client.uml#_8-ltwlIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_9WG2fFIhEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9WG2fVIhEeibjuLm5_lcNQ" comments="_9Vpi4lIhEeibjuLm5_lcNQ" targetConnectionVisual="_9Vpi41IhEeibjuLm5_lcNQ" name="setSinglePlayer">
+      <modelElement href="FreeCol_Client.uml#_8-ltw1IhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2flIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2f1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9WG2gFIhEeibjuLm5_lcNQ" name="singlePlayer">
+        <modelElement href="FreeCol_Client.uml#_8-mU0FIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_9WG2gVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9WG2glIhEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9WG2g1IhEeibjuLm5_lcNQ" comments="_9VqJ8FIhEeibjuLm5_lcNQ" targetConnectionVisual="_9VqJ8VIhEeibjuLm5_lcNQ" name="isHeadless">
+      <modelElement href="FreeCol_Client.uml#_8-mU0VIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2hFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2hVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9WG2hlIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_Client.uml#_8-mU0lIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_9WG2h1IhEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9WG2iFIhEeibjuLm5_lcNQ" comments="_9VqJ8lIhEeibjuLm5_lcNQ" targetConnectionVisual="_9VqJ81IhEeibjuLm5_lcNQ" name="updateActions">
+      <modelElement href="FreeCol_Client.uml#_8-mU01IhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2iVIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2ilIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_9WG2i1IhEeibjuLm5_lcNQ" comments="_9VqxAFIhEeibjuLm5_lcNQ" targetConnectionVisual="_9VqxAVIhEeibjuLm5_lcNQ" name="isAdmin">
+      <modelElement href="FreeCol_Client.uml#_8-m74FIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2jFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2jVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9WG2jlIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_Client.uml#_8-m74VIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_9WG2j1IhEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9WG2kFIhEeibjuLm5_lcNQ" comments="_9VqxAlIhEeibjuLm5_lcNQ" targetConnectionVisual="_9VrYEFIhEeibjuLm5_lcNQ" name="canSaveCurrentGame">
+      <modelElement href="FreeCol_Client.uml#_8-m74lIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2kVIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2klIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9WG2k1IhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_Client.uml#_8-ni8FIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_9WG2lFIhEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9WG2lVIhEeibjuLm5_lcNQ" comments="_9VrYEVIhEeibjuLm5_lcNQ" targetConnectionVisual="_9VrYElIhEeibjuLm5_lcNQ" name="currentPlayerIsMyPlayer">
+      <modelElement href="FreeCol_Client.uml#_8-ni8VIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2llIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2l1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9WG2mFIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_Client.uml#_8-ni8lIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_9WG2mVIhEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9WG2mlIhEeibjuLm5_lcNQ" comments="_9VrYE1IhEeibjuLm5_lcNQ" targetConnectionVisual="_9Vr_IFIhEeibjuLm5_lcNQ" name="getMySortedColonies">
+      <modelElement href="FreeCol_Client.uml#_8-oKAFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2m1IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2nFIhEeibjuLm5_lcNQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_9WG2nVIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_Client.uml#_8-oKAVIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_9WG2nlIhEeibjuLm5_lcNQ" name="Colony">
+          <modelElement href="FreeCol_Client.uml#_9J93UVIhEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9WG2n1IhEeibjuLm5_lcNQ" comments="_9Vr_IVIhEeibjuLm5_lcNQ" targetConnectionVisual="_9Vr_IlIhEeibjuLm5_lcNQ" name="newGame">
+      <modelElement href="FreeCol_Client.uml#_8-oxEFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2oFIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2oVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9WG2olIhEeibjuLm5_lcNQ" name="prompt">
+        <modelElement href="FreeCol_Client.uml#_8-oxEVIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_9WG2o1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9WG2pFIhEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9WG2pVIhEeibjuLm5_lcNQ" comments="_9VsmMFIhEeibjuLm5_lcNQ" targetConnectionVisual="_9VsmMVIhEeibjuLm5_lcNQ" name="continuePlaying">
+      <modelElement href="FreeCol_Client.uml#_8-oxElIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2plIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2p1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_9WG2qFIhEeibjuLm5_lcNQ" comments="_9VsmMlIhEeibjuLm5_lcNQ" targetConnectionVisual="_9VsmM1IhEeibjuLm5_lcNQ" name="skipTurns">
+      <modelElement href="FreeCol_Client.uml#_8-pYIFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2qVIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2qlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9WG2q1IhEeibjuLm5_lcNQ" name="turns">
+        <modelElement href="FreeCol_Client.uml#_8-pYIVIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_9WG2rFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9WG2rVIhEeibjuLm5_lcNQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9WG2rlIhEeibjuLm5_lcNQ" comments="_9VtNQFIhEeibjuLm5_lcNQ" targetConnectionVisual="_9VtNQVIhEeibjuLm5_lcNQ" name="askToQuit">
+      <modelElement href="FreeCol_Client.uml#_8-pYIlIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2r1IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2sFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_9WG2sVIhEeibjuLm5_lcNQ" comments="_9VtNQlIhEeibjuLm5_lcNQ" targetConnectionVisual="_9VtNQ1IhEeibjuLm5_lcNQ" name="retire">
+      <modelElement href="FreeCol_Client.uml#_8-pYI1IhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2slIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2s1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_9WG2tFIhEeibjuLm5_lcNQ" comments="_9VtNRFIhEeibjuLm5_lcNQ" targetConnectionVisual="_9VtNRVIhEeibjuLm5_lcNQ" name="quit">
+      <modelElement href="FreeCol_Client.uml#_8-p_MFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2tVIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2tlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_9WG2t1IhEeibjuLm5_lcNQ" name="FreeColClient">
+      <modelElement href="FreeCol_Client.uml#_9KbxYFIhEeibjuLm5_lcNQ"/>
+      <keywords xmi:id="_9WG2uFIhEeibjuLm5_lcNQ" keyword="create"/>
+      <visibility xmi:id="_9WG2uVIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2ulIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9WG2u1IhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_Client.uml#_9KbxZVIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_9WG2vFIhEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="FreeCol_Client.uml#_8-XEQFIhEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_9WG2vVIhEeibjuLm5_lcNQ" name="splashStream">
+        <modelElement href="FreeCol_Client.uml#_9KbxYVIhEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_9WG2vlIhEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_9WG2v1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9WG2wFIhEeibjuLm5_lcNQ" name="InputStream">
+          <modelElement href="FreeCol_Client.uml#_9JumwVIhEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9WG2wVIhEeibjuLm5_lcNQ" name="fontName">
+        <modelElement href="FreeCol_Client.uml#_9KbxYlIhEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_9WG2wlIhEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_9WG2w1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9WG2xFIhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9WG2xVIhEeibjuLm5_lcNQ" comments="_9VubYFIhEeibjuLm5_lcNQ" targetConnectionVisual="_9VubYVIhEeibjuLm5_lcNQ" name="FreeColClient">
+      <modelElement href="FreeCol_Client.uml#_9Kc_gFIhEeibjuLm5_lcNQ"/>
+      <keywords xmi:id="_9WG2xlIhEeibjuLm5_lcNQ" keyword="create"/>
+      <visibility xmi:id="_9WG2x1IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2yFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9WG2yVIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_Client.uml#_9KdmklIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_9WG2ylIhEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="FreeCol_Client.uml#_8-XEQFIhEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_9WG2y1IhEeibjuLm5_lcNQ" name="splashStream">
+        <modelElement href="FreeCol_Client.uml#_9Kc_gVIhEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_9WG2zFIhEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_9WG2zVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9WG2zlIhEeibjuLm5_lcNQ" name="InputStream">
+          <modelElement href="FreeCol_Client.uml#_9JumwVIhEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9WG2z1IhEeibjuLm5_lcNQ" name="fontName">
+        <modelElement href="FreeCol_Client.uml#_9Kc_glIhEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_9WG20FIhEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_9WG20VIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9WG20lIhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9WG201IhEeibjuLm5_lcNQ" name="scale">
+        <modelElement href="FreeCol_Client.uml#_9Kc_g1IhEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_9WG21FIhEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_9WG21VIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9WG21lIhEeibjuLm5_lcNQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9WG211IhEeibjuLm5_lcNQ" name="headless">
+        <modelElement href="FreeCol_Client.uml#_9Kc_hFIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_9WG22FIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9WG22VIhEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9WG22lIhEeibjuLm5_lcNQ" comments="_9VubYlIhEeibjuLm5_lcNQ" targetConnectionVisual="_9VvCcFIhEeibjuLm5_lcNQ" name="startClient">
+      <modelElement href="FreeCol_Client.uml#_9KeNoFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG221IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG23FIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9WG23VIhEeibjuLm5_lcNQ" name="size">
+        <modelElement href="FreeCol_Client.uml#_9KeNoVIhEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_9WG23lIhEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_9WG231IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9WG24FIhEeibjuLm5_lcNQ" name="Dimension">
+          <modelElement href="FreeCol_Client.uml#_9JsKgFIhEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9WG24VIhEeibjuLm5_lcNQ" name="userMsg">
+        <modelElement href="FreeCol_Client.uml#_9KeNolIhEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_9WG24lIhEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_9WG241IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9WG25FIhEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9WG25VIhEeibjuLm5_lcNQ" name="sound">
+        <modelElement href="FreeCol_Client.uml#_9KeNo1IhEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_9WG25lIhEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_9WG251IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9WG26FIhEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9WG26VIhEeibjuLm5_lcNQ" name="showOpeningVideo">
+        <modelElement href="FreeCol_Client.uml#_9KeNpFIhEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_9WG26lIhEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_9WG261IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9WG27FIhEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9WG27VIhEeibjuLm5_lcNQ" name="savedGame">
+        <modelElement href="FreeCol_Client.uml#_9KeNpVIhEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_9WG27lIhEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_9WG271IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9WG28FIhEeibjuLm5_lcNQ" name="File">
+          <modelElement href="FreeCol_Client.uml#_9JtYoFIhEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9WG28VIhEeibjuLm5_lcNQ" name="spec">
+        <modelElement href="FreeCol_Client.uml#_9Ke0sFIhEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_9WG28lIhEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_9WG281IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9WG29FIhEeibjuLm5_lcNQ" name="Specification">
+          <modelElement href="FreeCol_Client.uml#_9J_sgVIhEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9WG29VIhEeibjuLm5_lcNQ" comments="_9VvCcVIhEeibjuLm5_lcNQ" targetConnectionVisual="_9VvCclIhEeibjuLm5_lcNQ" name="loadClientOptions">
+      <modelElement href="FreeCol_Client.uml#_9KfbwVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG29lIhEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_9WG291IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9WG2-FIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_Client.uml#_9KgC0FIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_9WG2-VIhEeibjuLm5_lcNQ" name="ClientOptions">
+          <modelElement href="FreeCol_Client.uml#_9KZVIFIhEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_9WG2-lIhEeibjuLm5_lcNQ" name="savedGameFile">
+        <modelElement href="FreeCol_Client.uml#_9KfbwlIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_9WG2-1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9WG2_FIhEeibjuLm5_lcNQ" name="File">
+          <modelElement href="FreeCol_Client.uml#_9JtYoFIhEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9WG2_VIhEeibjuLm5_lcNQ" comments="_9VvpgFIhEeibjuLm5_lcNQ" targetConnectionVisual="_9VvpgVIhEeibjuLm5_lcNQ" name="setMyPlayer">
+      <modelElement href="FreeCol_Client.uml#_9KhQ8lIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WG2_lIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WG2_1IhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9WG3AFIhEeibjuLm5_lcNQ" name="player">
+        <modelElement href="FreeCol_Client.uml#_9Kh4AFIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_9WG3AVIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9WG3AlIhEeibjuLm5_lcNQ" name="Player">
+          <modelElement href="FreeCol_Client.uml#_9J_FcFIhEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9WHc8FIhEeibjuLm5_lcNQ" comments="_9VvpglIhEeibjuLm5_lcNQ" targetConnectionVisual="_9Vvpg1IhEeibjuLm5_lcNQ" name="addSpecificationActions">
+      <modelElement href="FreeCol_Client.uml#_9Kh4AVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WHc8VIhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WHc8lIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9WHc81IhEeibjuLm5_lcNQ" name="specification">
+        <modelElement href="FreeCol_Client.uml#_9Kh4AlIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_9WHc9FIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9WHc9VIhEeibjuLm5_lcNQ" name="Specification">
+          <modelElement href="FreeCol_Client.uml#_9J_sgVIhEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9WHc9lIhEeibjuLm5_lcNQ" comments="_9VwQkFIhEeibjuLm5_lcNQ" targetConnectionVisual="_9VwQkVIhEeibjuLm5_lcNQ" name="getAnimationSpeed">
+      <modelElement href="FreeCol_Client.uml#_9KifEFIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WHc91IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WHc-FIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9WHc-VIhEeibjuLm5_lcNQ">
+        <modelElement href="FreeCol_Client.uml#_9KifElIhEeibjuLm5_lcNQ"/>
+        <type xmi:id="_9WHc-lIhEeibjuLm5_lcNQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_9WHc-1IhEeibjuLm5_lcNQ" name="player">
+        <modelElement href="FreeCol_Client.uml#_9KifEVIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_9WHc_FIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9WHc_VIhEeibjuLm5_lcNQ" name="Player">
+          <modelElement href="FreeCol_Client.uml#_9J_FcFIhEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9WHc_lIhEeibjuLm5_lcNQ" comments="_9Vw3oFIhEeibjuLm5_lcNQ" targetConnectionVisual="_9Vw3oVIhEeibjuLm5_lcNQ" name="setWork">
+      <modelElement href="FreeCol_Client.uml#_9KjtMVIhEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_9WHc_1IhEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_9WHdAFIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9WHdAVIhEeibjuLm5_lcNQ" name="runnable">
+        <modelElement href="FreeCol_Client.uml#_9KjtMlIhEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_9WHdAlIhEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9WHdA1IhEeibjuLm5_lcNQ" name="Runnable">
+          <modelElement href="FreeCol_Client.uml#_9KjGIVIhEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

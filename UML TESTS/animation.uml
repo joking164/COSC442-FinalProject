@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_NmQ_wFIkEeibjuLm5_lcNQ" name="animation">
+    <eAnnotations xmi:id="_OMddEFIkEeibjuLm5_lcNQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_OMddEVIkEeibjuLm5_lcNQ" source="codegen">
+        <details xmi:id="_OMddElIkEeibjuLm5_lcNQ" key="codegenDirectory" value="/COSC442-FinalProject/src"/>
+        <details xmi:id="_OmUukFIkEeibjuLm5_lcNQ" key="AssociatedSourceCode" value="/COSC442-FinalProject/src/net/sf/freecol/client/gui/animation/Animations.java;655799484/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/animation/UnitAttackAnimation.java;266618935/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/animation/UnitImageAnimation.java;2258622773/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/animation/UnitMoveAnimation.java;805292135/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_OSho0FIkEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_OSho0VIkEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_OSho0lIkEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_OSiP4FIkEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_OSiP4VIkEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_OSiP4lIkEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_OSiP41IkEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_OSiP5FIkEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_OSiP5VIkEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_OSU0gFIkEeibjuLm5_lcNQ" name="net">
+      <packagedElement xmi:type="uml:Package" xmi:id="_OSU0gVIkEeibjuLm5_lcNQ" name="sf">
+        <packagedElement xmi:type="uml:Package" xmi:id="_OSU0glIkEeibjuLm5_lcNQ" name="freecol">
+          <packagedElement xmi:type="uml:Package" xmi:id="_OSU0g1IkEeibjuLm5_lcNQ" name="client">
+            <packagedElement xmi:type="uml:Package" xmi:id="_OSU0hFIkEeibjuLm5_lcNQ" name="gui">
+              <packagedElement xmi:type="uml:Package" xmi:id="_OSVbkFIkEeibjuLm5_lcNQ" name="animation">
+                <packagedElement xmi:type="uml:Class" xmi:id="_OScJQFIkEeibjuLm5_lcNQ" name="Animations">
+                  <ownedComment xmi:id="_OVEmgFIkEeibjuLm5_lcNQ">
+                    <body>A facade for animations.</body>
+                  </ownedComment>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OU6OkFIkEeibjuLm5_lcNQ" name="unitMove" specification="_OUv2YFIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_OU6OkVIkEeibjuLm5_lcNQ" name="freeColClient" type="_OUc7cFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OU6OklIkEeibjuLm5_lcNQ" name="unit" type="_OUc7dFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OU6Ok1IkEeibjuLm5_lcNQ" name="source" type="_OUc7clIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OU6OlFIkEeibjuLm5_lcNQ" name="destination" type="_OUc7clIkEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>new UnitMoveAnimation(freeColClient, unit, source, destination)&#xD;
+         .animate();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OU6OlVIkEeibjuLm5_lcNQ" name="unitAttack" specification="_OUv2ZVIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_OU6OllIkEeibjuLm5_lcNQ" name="freeColClient" type="_OUc7cFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OU6Ol1IkEeibjuLm5_lcNQ" name="attacker" type="_OUc7dFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OU6OmFIkEeibjuLm5_lcNQ" name="defender" type="_OUc7dFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OU6OmVIkEeibjuLm5_lcNQ" name="attackerTile" type="_OUc7clIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OU6OmlIkEeibjuLm5_lcNQ" name="defenderTile" type="_OUc7clIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OU6Om1IkEeibjuLm5_lcNQ" name="success">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>new UnitAttackAnimation(freeColClient, attacker, defender,&#xD;
+                             attackerTile, defenderTile, success)&#xD;
+         .animate();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_OUv2YFIkEeibjuLm5_lcNQ" name="unitMove" isStatic="true" method="_OU6OkFIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_OUv2YVIkEeibjuLm5_lcNQ" name="freeColClient" type="_OUc7cFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2YlIkEeibjuLm5_lcNQ" name="unit" type="_OUc7dFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2Y1IkEeibjuLm5_lcNQ" name="source" type="_OUc7clIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2ZFIkEeibjuLm5_lcNQ" name="destination" type="_OUc7clIkEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_OUv2ZVIkEeibjuLm5_lcNQ" name="unitAttack" isStatic="true" method="_OU6OlVIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_OUv2ZlIkEeibjuLm5_lcNQ" name="freeColClient" type="_OUc7cFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2Z1IkEeibjuLm5_lcNQ" name="attacker" type="_OUc7dFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2aFIkEeibjuLm5_lcNQ" name="defender" type="_OUc7dFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2aVIkEeibjuLm5_lcNQ" name="attackerTile" type="_OUc7clIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2alIkEeibjuLm5_lcNQ" name="defenderTile" type="_OUc7clIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2a1IkEeibjuLm5_lcNQ" name="success">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_OSjeAFIkEeibjuLm5_lcNQ" name="UnitAttackAnimation" visibility="package" isLeaf="true">
+                  <ownedComment xmi:id="_OVEmgVIkEeibjuLm5_lcNQ">
+                    <body>Class for the animation of units attacks.</body>
+                  </ownedComment>
+                  <ownedAttribute xmi:id="_OUv2kVIkEeibjuLm5_lcNQ" name="freeColClient" visibility="private" isLeaf="true" type="_OUc7cFIkEeibjuLm5_lcNQ" isReadOnly="true" association="_OVHCwFIkEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_OU5nYVIkEeibjuLm5_lcNQ" name="attacker" visibility="private" isLeaf="true" type="_OUc7dFIkEeibjuLm5_lcNQ" isReadOnly="true" association="_OVHp0VIkEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_OU6OcVIkEeibjuLm5_lcNQ" name="defender" visibility="private" isLeaf="true" type="_OUc7dFIkEeibjuLm5_lcNQ" isReadOnly="true" association="_OVIQ4FIkEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_OU6Oc1IkEeibjuLm5_lcNQ" name="attackerTile" visibility="private" isLeaf="true" type="_OUc7clIkEeibjuLm5_lcNQ" isReadOnly="true" association="_OVIQ41IkEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_OU6OdVIkEeibjuLm5_lcNQ" name="defenderTile" visibility="private" isLeaf="true" type="_OUc7clIkEeibjuLm5_lcNQ" isReadOnly="true" association="_OVI38VIkEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_OU6Od1IkEeibjuLm5_lcNQ" name="success" visibility="private" isLeaf="true" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_OU6OeVIkEeibjuLm5_lcNQ" name="mirror" visibility="private">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_OU6OelIkEeibjuLm5_lcNQ" value="false"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OU6OnFIkEeibjuLm5_lcNQ" name="UnitAttackAnimation" specification="_OUv2bFIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_OU6OnVIkEeibjuLm5_lcNQ" name="freeColClient" type="_OUc7cFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OU6OnlIkEeibjuLm5_lcNQ" name="attacker" type="_OUc7dFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OU6On1IkEeibjuLm5_lcNQ" name="defender" type="_OUc7dFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OU6OoFIkEeibjuLm5_lcNQ" name="attackerTile" type="_OUc7clIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OU6OoVIkEeibjuLm5_lcNQ" name="defenderTile" type="_OUc7clIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OU6OolIkEeibjuLm5_lcNQ" name="success">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_OU6Oo1IkEeibjuLm5_lcNQ" type="_OSjeAFIkEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>this.freeColClient = freeColClient;&#xD;
+     this.attacker = attacker;&#xD;
+     this.defender = defender;&#xD;
+     this.attackerTile = attackerTile;&#xD;
+     this.defenderTile = defenderTile;&#xD;
+     this.success = success;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OU6OpFIkEeibjuLm5_lcNQ" name="getAnimation" specification="_OUv2dlIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_OU6OpVIkEeibjuLm5_lcNQ" name="startStr">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_OU6OplIkEeibjuLm5_lcNQ" name="scale">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_OU6Op1IkEeibjuLm5_lcNQ" name="direction" type="_OUc7elIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OU6OqFIkEeibjuLm5_lcNQ" type="_OUc7eFIkEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>SimpleZippedAnimation sza;&#xD;
+     String specialId = startStr + direction.toString().toLowerCase();&#xD;
+     sza = ResourceManager.getSimpleZippedAnimation(specialId, scale);&#xD;
+     if(sza != null) {&#xD;
+         mirror = false;&#xD;
+         return sza;&#xD;
+     }&#xD;
+&#xD;
+     specialId = startStr + direction.getEWMirroredDirection().toString().toLowerCase();&#xD;
+     sza = ResourceManager.getSimpleZippedAnimation(specialId, scale);&#xD;
+     if(sza != null) {&#xD;
+         mirror = true;&#xD;
+         return sza;&#xD;
+     }&#xD;
+     return null;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OU6OqVIkEeibjuLm5_lcNQ" name="getAnimation" specification="_OUv2e1IkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_OU6OqlIkEeibjuLm5_lcNQ" name="unit" type="_OUc7dFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OU6Oq1IkEeibjuLm5_lcNQ" name="direction" type="_OUc7elIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OU6OrFIkEeibjuLm5_lcNQ" type="_OUc7eFIkEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>float scale = ((SwingGUI)freeColClient.getGUI()).getMapScale();&#xD;
+     String roleStr = (unit.hasDefaultRole()) ? &quot;&quot;&#xD;
+         : &quot;.&quot; + unit.getRoleSuffix();&#xD;
+     String startStr = &quot;animation.unit.&quot; + unit.getType().getId() + roleStr&#xD;
+                     + &quot;.attack.&quot;;&#xD;
+&#xD;
+     SimpleZippedAnimation sza;&#xD;
+     sza = getAnimation(startStr, scale, direction);&#xD;
+     if(sza != null) return sza;&#xD;
+&#xD;
+     sza = getAnimation(startStr, scale, direction.getNextDirection());&#xD;
+     if(sza != null) return sza;&#xD;
+     sza = getAnimation(startStr, scale, direction.getPreviousDirection());&#xD;
+     if(sza != null) return sza;&#xD;
+&#xD;
+     sza = getAnimation(startStr, scale, direction.getNextDirection()&#xD;
+                                                  .getNextDirection());&#xD;
+     if(sza != null) return sza;&#xD;
+     sza = getAnimation(startStr, scale, direction.getPreviousDirection()&#xD;
+                                                  .getPreviousDirection());&#xD;
+     if(sza != null) return sza;&#xD;
+&#xD;
+     sza = getAnimation(startStr, scale, direction.getNextDirection()&#xD;
+                                                  .getNextDirection()&#xD;
+                                                  .getNextDirection());&#xD;
+     if(sza != null) return sza;&#xD;
+     sza = getAnimation(startStr, scale, direction.getPreviousDirection()&#xD;
+                                                  .getPreviousDirection()&#xD;
+                                                  .getPreviousDirection());&#xD;
+     if(sza != null) return sza;&#xD;
+&#xD;
+     sza = getAnimation(startStr, scale, direction.getReverseDirection());&#xD;
+     return sza;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OU6OrVIkEeibjuLm5_lcNQ" name="animate" specification="_OSksIFIkEeibjuLm5_lcNQ">
+                    <language>java</language>
+                    <body>final SwingGUI gui = (SwingGUI)freeColClient.getGUI();&#xD;
+     Direction direction = attackerTile.getDirection(defenderTile);&#xD;
+     SimpleZippedAnimation sza;&#xD;
+&#xD;
+     if (freeColClient.getAnimationSpeed(attacker.getOwner()) > 0) {&#xD;
+         if ((sza = getAnimation(attacker, direction)) != null) {&#xD;
+             new UnitImageAnimation(gui, attacker, attackerTile, sza, mirror)&#xD;
+                 .animate();&#xD;
+         }&#xD;
+     }&#xD;
+&#xD;
+     if (!success&#xD;
+         &amp;&amp; freeColClient.getAnimationSpeed(defender.getOwner()) > 0) {&#xD;
+         direction = direction.getReverseDirection();&#xD;
+         if ((sza = getAnimation(defender, direction)) != null) {&#xD;
+             new UnitImageAnimation(gui, defender, defenderTile, sza, mirror)&#xD;
+                 .animate();&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_OSksIFIkEeibjuLm5_lcNQ" name="animate" method="_OU6OrVIkEeibjuLm5_lcNQ">
+                    <ownedComment xmi:id="_OVEmhFIkEeibjuLm5_lcNQ">
+                      <body>Do the animation.</body>
+                    </ownedComment>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_OUv2bFIkEeibjuLm5_lcNQ" name="UnitAttackAnimation" method="_OU6OnFIkEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_OUv2c1IkEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_OUv2dFIkEeibjuLm5_lcNQ" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_OVEmglIkEeibjuLm5_lcNQ">
+                      <body>Build a new attack animation.&#xD;
+     *&#xD;
+     * @param freeColClient The enclosing &lt;code>FreeColClient&lt;/code>.&#xD;
+     * @param attacker The &lt;code>Unit&lt;/code> that is attacking.&#xD;
+     * @param defender The &lt;code>Unit&lt;/code> that is defending.&#xD;
+     * @param attackerTile The &lt;code>Tile&lt;/code> the attack comes from.&#xD;
+     * @param defenderTile The &lt;code>Tile&lt;/code> the attack goes to.&#xD;
+     * @param success Does the attack succeed?</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_OUv2bVIkEeibjuLm5_lcNQ" name="freeColClient" type="_OUc7cFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2blIkEeibjuLm5_lcNQ" name="attacker" type="_OUc7dFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2b1IkEeibjuLm5_lcNQ" name="defender" type="_OUc7dFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2cFIkEeibjuLm5_lcNQ" name="attackerTile" type="_OUc7clIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2cVIkEeibjuLm5_lcNQ" name="defenderTile" type="_OUc7clIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2clIkEeibjuLm5_lcNQ" name="success">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_OUv2dVIkEeibjuLm5_lcNQ" type="_OSjeAFIkEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_OUv2dlIkEeibjuLm5_lcNQ" name="getAnimation" visibility="private" method="_OU6OpFIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_OUv2d1IkEeibjuLm5_lcNQ" name="startStr">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_OUv2eFIkEeibjuLm5_lcNQ" name="scale">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_OUv2eVIkEeibjuLm5_lcNQ" name="direction" type="_OUc7elIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2elIkEeibjuLm5_lcNQ" type="_OUc7eFIkEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_OUv2e1IkEeibjuLm5_lcNQ" name="getAnimation" visibility="private" method="_OU6OqVIkEeibjuLm5_lcNQ">
+                    <ownedComment xmi:id="_OVEmg1IkEeibjuLm5_lcNQ">
+                      <body>Find the animation for a unit attack.&#xD;
+     *&#xD;
+     * @param unit The &lt;code>Unit&lt;/code> to animate.&#xD;
+     * @param direction The &lt;code>Direction&lt;/code> of the attack.&#xD;
+     * @return An animation, if available.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_OUv2fFIkEeibjuLm5_lcNQ" name="unit" type="_OUc7dFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2fVIkEeibjuLm5_lcNQ" name="direction" type="_OUc7elIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2flIkEeibjuLm5_lcNQ" type="_OUc7eFIkEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_OSl6QFIkEeibjuLm5_lcNQ" name="UnitImageAnimation" isLeaf="true">
+                  <ownedComment xmi:id="_OVEmhVIkEeibjuLm5_lcNQ">
+                    <body>Class for in-place animation of units.</body>
+                  </ownedComment>
+                  <ownedAttribute xmi:id="_OU6OfFIkEeibjuLm5_lcNQ" name="gui" visibility="private" isLeaf="true" type="_OUc7dlIkEeibjuLm5_lcNQ" isReadOnly="true" association="_OVJfAFIkEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_OU6OflIkEeibjuLm5_lcNQ" name="unit" visibility="private" isLeaf="true" type="_OUc7dFIkEeibjuLm5_lcNQ" isReadOnly="true" association="_OVJfA1IkEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_OU6OgFIkEeibjuLm5_lcNQ" name="tile" visibility="private" isLeaf="true" type="_OUc7clIkEeibjuLm5_lcNQ" isReadOnly="true" association="_OVKGEVIkEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_OU6OglIkEeibjuLm5_lcNQ" name="animation" visibility="private" isLeaf="true" type="_OUc7eFIkEeibjuLm5_lcNQ" isReadOnly="true" association="_OVKtIFIkEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_OU6OhFIkEeibjuLm5_lcNQ" name="mirror" visibility="private" isLeaf="true" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OU6OrlIkEeibjuLm5_lcNQ" name="UnitImageAnimation" specification="_OUv2f1IkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_OU6Or1IkEeibjuLm5_lcNQ" name="gui" type="_OUc7dlIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OU6OsFIkEeibjuLm5_lcNQ" name="unit" type="_OUc7dFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OU6OsVIkEeibjuLm5_lcNQ" name="tile" type="_OUc7clIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OU6OslIkEeibjuLm5_lcNQ" name="animation" type="_OUc7eFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OU6Os1IkEeibjuLm5_lcNQ" name="mirror">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_OU6OtFIkEeibjuLm5_lcNQ" type="_OSl6QFIkEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>this.gui = gui;&#xD;
+     this.unit = unit;&#xD;
+     this.tile = tile;&#xD;
+     this.animation = animation;&#xD;
+     this.mirror = mirror;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OVD_cFIkEeibjuLm5_lcNQ" name="animate" specification="_OSnvcFIkEeibjuLm5_lcNQ">
+                    <language>java</language>
+                    <body>if (gui.getTilePosition(tile) == null) return;&#xD;
+&#xD;
+     // Painting the whole screen once to get rid of disposed dialog-boxes.&#xD;
+     gui.paintImmediatelyCanvasInItsBounds();&#xD;
+     gui.executeWithUnitOutForAnimation(unit, tile, (JLabel unitLabel) -> {&#xD;
+             for (AnimationEvent event : animation) {&#xD;
+                 long time = System.nanoTime();&#xD;
+                 if (event instanceof ImageAnimationEvent) {&#xD;
+                     final ImageAnimationEvent ievent = (ImageAnimationEvent) event;&#xD;
+                     final ImageIcon icon = (ImageIcon)unitLabel.getIcon();&#xD;
+                     Image image = ievent.getImage();&#xD;
+                     if(mirror) {&#xD;
+                         // FIXME: Add mirroring functionality to SimpleZippedAnimation&#xD;
+                         image = ImageLibrary.createMirroredImage(image);&#xD;
+                     }&#xD;
+                     icon.setImage(image);&#xD;
+                     gui.paintImmediatelyCanvasIn(getDirtyAnimationArea());&#xD;
+                     &#xD;
+                     time = ievent.getDurationInMs()&#xD;
+                         - (System.nanoTime() - time) / 1000000;&#xD;
+                     if (time > 0) {&#xD;
+                         try {&#xD;
+                             Thread.sleep(time);&#xD;
+                         } catch (InterruptedException ex) {&#xD;
+                             //ignore&#xD;
+                         }&#xD;
+                     }&#xD;
+                 }&#xD;
+             }&#xD;
+         });&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OVD_cVIkEeibjuLm5_lcNQ" name="getDirtyAnimationArea" specification="_OSoWgFIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_OVD_clIkEeibjuLm5_lcNQ" type="_OUmsclIkEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>return gui.getTileBounds(tile);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_OSnvcFIkEeibjuLm5_lcNQ" name="animate" method="_OVD_cFIkEeibjuLm5_lcNQ">
+                    <ownedComment xmi:id="_OVFNkVIkEeibjuLm5_lcNQ">
+                      <body>Do the animation.</body>
+                    </ownedComment>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_OSoWgFIkEeibjuLm5_lcNQ" name="getDirtyAnimationArea" visibility="protected" method="_OVD_cVIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_OUv2iFIkEeibjuLm5_lcNQ" type="_OUmsclIkEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_OUv2f1IkEeibjuLm5_lcNQ" name="UnitImageAnimation" method="_OU6OrlIkEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_OUv2hVIkEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_OUv2hlIkEeibjuLm5_lcNQ" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_OVFNkFIkEeibjuLm5_lcNQ">
+                      <body>Constructor&#xD;
+     *&#xD;
+     * @param gui The gui.&#xD;
+     * @param unit The &lt;code>Unit&lt;/code> to be animated. &#xD;
+     * @param tile The &lt;code>Tile&lt;/code> where the animation occurs.&#xD;
+     * @param animation The animation to show.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_OUv2gFIkEeibjuLm5_lcNQ" name="gui" type="_OUc7dlIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2gVIkEeibjuLm5_lcNQ" name="unit" type="_OUc7dFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2glIkEeibjuLm5_lcNQ" name="tile" type="_OUc7clIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2g1IkEeibjuLm5_lcNQ" name="animation" type="_OUc7eFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2hFIkEeibjuLm5_lcNQ" name="mirror">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_OUv2h1IkEeibjuLm5_lcNQ" type="_OSl6QFIkEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_OSo9kFIkEeibjuLm5_lcNQ" name="UnitMoveAnimation" visibility="package" isLeaf="true">
+                  <ownedComment xmi:id="_OVFNklIkEeibjuLm5_lcNQ">
+                    <body>Class for the animation of units movement.</body>
+                  </ownedComment>
+                  <ownedAttribute xmi:id="_OU6OhlIkEeibjuLm5_lcNQ" name="ANIMATION_DELAY" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_OU6Oh1IkEeibjuLm5_lcNQ" value="33"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_OU6OiFIkEeibjuLm5_lcNQ" name="freeColClient" visibility="private" isLeaf="true" type="_OUc7cFIkEeibjuLm5_lcNQ" isReadOnly="true" association="_OVKtI1IkEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_OU6OilIkEeibjuLm5_lcNQ" name="unit" visibility="private" isLeaf="true" type="_OUc7dFIkEeibjuLm5_lcNQ" isReadOnly="true" association="_OVLUMVIkEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_OU6OjFIkEeibjuLm5_lcNQ" name="sourceTile" visibility="private" isLeaf="true" type="_OUc7clIkEeibjuLm5_lcNQ" isReadOnly="true" association="_OVL7QVIkEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_OU6OjlIkEeibjuLm5_lcNQ" name="destinationTile" visibility="private" isLeaf="true" type="_OUc7clIkEeibjuLm5_lcNQ" isReadOnly="true" association="_OVL7RFIkEeibjuLm5_lcNQ"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OVD_c1IkEeibjuLm5_lcNQ" name="UnitMoveAnimation" specification="_OUv2iVIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_OVD_dFIkEeibjuLm5_lcNQ" name="freeColClient" type="_OUc7cFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OVD_dVIkEeibjuLm5_lcNQ" name="unit" type="_OUc7dFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OVD_dlIkEeibjuLm5_lcNQ" name="sourceTile" type="_OUc7clIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OVD_d1IkEeibjuLm5_lcNQ" name="destinationTile" type="_OUc7clIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OVD_eFIkEeibjuLm5_lcNQ" type="_OSo9kFIkEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>this.freeColClient = freeColClient;&#xD;
+     this.unit = unit;&#xD;
+     this.sourceTile = sourceTile;&#xD;
+     this.destinationTile = destinationTile;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OVD_eVIkEeibjuLm5_lcNQ" name="animate" specification="_OSqLsFIkEeibjuLm5_lcNQ">
+                    <language>java</language>
+                    <body>final int movementSpeed&#xD;
+         = freeColClient.getAnimationSpeed(unit.getOwner());&#xD;
+     final SwingGUI gui = (SwingGUI)freeColClient.getGUI();&#xD;
+     final Point srcP = gui.getTilePosition(sourceTile);&#xD;
+     final Point dstP = gui.getTilePosition(destinationTile);&#xD;
+     &#xD;
+     if (srcP == null || dstP == null || movementSpeed &lt;= 0) return;&#xD;
+&#xD;
+     float scale = gui.getMapScale();&#xD;
+     final int movementRatio = (int)(Math.pow(2, movementSpeed + 1) * scale);&#xD;
+     final Rectangle r1 = gui.getTileBounds(sourceTile);&#xD;
+     final Rectangle r2 = gui.getTileBounds(destinationTile);&#xD;
+     final Rectangle bounds = r1.union(r2);&#xD;
+&#xD;
+     gui.executeWithUnitOutForAnimation(unit, sourceTile,&#xD;
+         (JLabel unitLabel) -> {&#xD;
+             final int labelWidth = unitLabel.getWidth();&#xD;
+             final int labelHeight = unitLabel.getHeight();&#xD;
+             final Point srcPoint = gui.calculateUnitLabelPositionInTile(labelWidth, labelHeight, srcP);&#xD;
+             final Point dstPoint = gui.calculateUnitLabelPositionInTile(labelWidth, labelHeight, dstP);&#xD;
+             final double xratio = ImageLibrary.TILE_SIZE.width&#xD;
+                 / (double)ImageLibrary.TILE_SIZE.height;&#xD;
+             final int stepX = (srcPoint.getX() == dstPoint.getX()) ? 0&#xD;
+                 : (srcPoint.getX() > dstPoint.getX()) ? -1 : 1;&#xD;
+             final int stepY = (srcPoint.getY() == dstPoint.getY()) ? 0&#xD;
+                 : (srcPoint.getY() > dstPoint.getY()) ? -1 : 1;&#xD;
+&#xD;
+             // Painting the whole screen once to get rid of&#xD;
+             // disposed dialog-boxes.&#xD;
+             gui.paintImmediatelyCanvasInItsBounds();&#xD;
+&#xD;
+             int dropFrames = 0;&#xD;
+             Point point = srcPoint;&#xD;
+             while (!point.equals(dstPoint)) {&#xD;
+                 long time = System.currentTimeMillis();&#xD;
+&#xD;
+                 point.x += stepX * xratio * movementRatio;&#xD;
+                 point.y += stepY * movementRatio;&#xD;
+                 if ((stepX &lt; 0 &amp;&amp; point.x &lt; dstPoint.x)&#xD;
+                     || (stepX > 0 &amp;&amp; point.x > dstPoint.x)) {&#xD;
+                     point.x = dstPoint.x;&#xD;
+                 }&#xD;
+                 if ((stepY &lt; 0 &amp;&amp; point.y &lt; dstPoint.y)&#xD;
+                     || (stepY > 0 &amp;&amp; point.y > dstPoint.y)) {&#xD;
+                     point.y = dstPoint.y;&#xD;
+                 }&#xD;
+                 if (dropFrames &lt;= 0) {&#xD;
+                     unitLabel.setLocation(point);&#xD;
+                     gui.paintImmediatelyCanvasIn(bounds);&#xD;
+                         &#xD;
+                     int timeTaken = (int)(System.currentTimeMillis() - time);&#xD;
+                     final int waitTime = ANIMATION_DELAY - timeTaken;&#xD;
+                     if (waitTime > 0) {&#xD;
+                         try {&#xD;
+                             Thread.sleep(waitTime);&#xD;
+                         } catch (InterruptedException ex) {&#xD;
+                             //ignore&#xD;
+                         }&#xD;
+                         dropFrames = 0;&#xD;
+                     } else {&#xD;
+                         dropFrames = timeTaken / ANIMATION_DELAY - 1;&#xD;
+                     }&#xD;
+                 } else {&#xD;
+                         dropFrames--;&#xD;
+                 }&#xD;
+             }&#xD;
+         });&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_OSqLsFIkEeibjuLm5_lcNQ" name="animate" method="_OVD_eVIkEeibjuLm5_lcNQ">
+                    <ownedComment xmi:id="_OVFNlFIkEeibjuLm5_lcNQ">
+                      <body>Do the animation.</body>
+                    </ownedComment>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_OUv2iVIkEeibjuLm5_lcNQ" name="UnitMoveAnimation" method="_OVD_c1IkEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_OUv2jlIkEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_OUv2j1IkEeibjuLm5_lcNQ" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_OVFNk1IkEeibjuLm5_lcNQ">
+                      <body>Constructor&#xD;
+     *&#xD;
+     * @param freeColClient The enclosing &lt;code>FreeColClient&lt;/code>.&#xD;
+     * @param unit The &lt;code>Unit&lt;/code> to be animated.&#xD;
+     * @param sourceTile The &lt;code>Tile&lt;/code> the unit is moving from.&#xD;
+     * @param destinationTile The &lt;code>Tile&lt;/code> the unit is moving to.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_OUv2ilIkEeibjuLm5_lcNQ" name="freeColClient" type="_OUc7cFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2i1IkEeibjuLm5_lcNQ" name="unit" type="_OUc7dFIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2jFIkEeibjuLm5_lcNQ" name="sourceTile" type="_OUc7clIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2jVIkEeibjuLm5_lcNQ" name="destinationTile" type="_OUc7clIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_OUv2kFIkEeibjuLm5_lcNQ" type="_OSo9kFIkEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_OVHCwFIkEeibjuLm5_lcNQ" name="" memberEnd="_OVHCwVIkEeibjuLm5_lcNQ _OUv2kVIkEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_OVHCwVIkEeibjuLm5_lcNQ" name="" type="_OSjeAFIkEeibjuLm5_lcNQ" association="_OVHCwFIkEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_OVHp0VIkEeibjuLm5_lcNQ" name="" memberEnd="_OVHp0lIkEeibjuLm5_lcNQ _OU5nYVIkEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_OVHp0lIkEeibjuLm5_lcNQ" name="" type="_OSjeAFIkEeibjuLm5_lcNQ" association="_OVHp0VIkEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_OVIQ4FIkEeibjuLm5_lcNQ" name="" memberEnd="_OVIQ4VIkEeibjuLm5_lcNQ _OU6OcVIkEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_OVIQ4VIkEeibjuLm5_lcNQ" name="" type="_OSjeAFIkEeibjuLm5_lcNQ" association="_OVIQ4FIkEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_OVIQ41IkEeibjuLm5_lcNQ" name="" memberEnd="_OVIQ5FIkEeibjuLm5_lcNQ _OU6Oc1IkEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_OVIQ5FIkEeibjuLm5_lcNQ" name="" type="_OSjeAFIkEeibjuLm5_lcNQ" association="_OVIQ41IkEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_OVI38VIkEeibjuLm5_lcNQ" name="" memberEnd="_OVI38lIkEeibjuLm5_lcNQ _OU6OdVIkEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_OVI38lIkEeibjuLm5_lcNQ" name="" type="_OSjeAFIkEeibjuLm5_lcNQ" association="_OVI38VIkEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_OVJfAFIkEeibjuLm5_lcNQ" name="" memberEnd="_OVJfAVIkEeibjuLm5_lcNQ _OU6OfFIkEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_OVJfAVIkEeibjuLm5_lcNQ" name="" type="_OSl6QFIkEeibjuLm5_lcNQ" association="_OVJfAFIkEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_OVJfA1IkEeibjuLm5_lcNQ" name="" memberEnd="_OVJfBFIkEeibjuLm5_lcNQ _OU6OflIkEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_OVJfBFIkEeibjuLm5_lcNQ" name="" type="_OSl6QFIkEeibjuLm5_lcNQ" association="_OVJfA1IkEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_OVKGEVIkEeibjuLm5_lcNQ" name="" memberEnd="_OVKGElIkEeibjuLm5_lcNQ _OU6OgFIkEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_OVKGElIkEeibjuLm5_lcNQ" name="" type="_OSl6QFIkEeibjuLm5_lcNQ" association="_OVKGEVIkEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_OVKtIFIkEeibjuLm5_lcNQ" name="" memberEnd="_OVKtIVIkEeibjuLm5_lcNQ _OU6OglIkEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_OVKtIVIkEeibjuLm5_lcNQ" name="" type="_OSl6QFIkEeibjuLm5_lcNQ" association="_OVKtIFIkEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_OVKtI1IkEeibjuLm5_lcNQ" name="" memberEnd="_OVKtJFIkEeibjuLm5_lcNQ _OU6OiFIkEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_OVKtJFIkEeibjuLm5_lcNQ" name="" type="_OSo9kFIkEeibjuLm5_lcNQ" association="_OVKtI1IkEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_OVLUMVIkEeibjuLm5_lcNQ" name="" memberEnd="_OVLUMlIkEeibjuLm5_lcNQ _OU6OilIkEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_OVLUMlIkEeibjuLm5_lcNQ" name="" type="_OSo9kFIkEeibjuLm5_lcNQ" association="_OVLUMVIkEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_OVL7QVIkEeibjuLm5_lcNQ" name="" memberEnd="_OVL7QlIkEeibjuLm5_lcNQ _OU6OjFIkEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_OVL7QlIkEeibjuLm5_lcNQ" name="" type="_OSo9kFIkEeibjuLm5_lcNQ" association="_OVL7QVIkEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_OVL7RFIkEeibjuLm5_lcNQ" name="" memberEnd="_OVL7RVIkEeibjuLm5_lcNQ _OU6OjlIkEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_OVL7RVIkEeibjuLm5_lcNQ" name="" type="_OSo9kFIkEeibjuLm5_lcNQ" association="_OVL7RFIkEeibjuLm5_lcNQ"/>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_OUc7dlIkEeibjuLm5_lcNQ" name="SwingGUI"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_OUmseFIkEeibjuLm5_lcNQ" name="ImageLibrary"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_OUc7cFIkEeibjuLm5_lcNQ" name="FreeColClient"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_OSU0hVIkEeibjuLm5_lcNQ" name="common">
+            <packagedElement xmi:type="uml:Package" xmi:id="_OSU0hlIkEeibjuLm5_lcNQ" name="model">
+              <packagedElement xmi:type="uml:Class" xmi:id="_OUc7clIkEeibjuLm5_lcNQ" name="Tile"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_OUc7dFIkEeibjuLm5_lcNQ" name="Unit"/>
+              <packagedElement xmi:type="uml:Enumeration" xmi:id="_OUc7elIkEeibjuLm5_lcNQ" name="Direction"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_OSWCoFIkEeibjuLm5_lcNQ" name="io">
+              <packagedElement xmi:type="uml:Package" xmi:id="_OSWpsFIkEeibjuLm5_lcNQ" name="sza">
+                <packagedElement xmi:type="uml:Class" xmi:id="_OUc7eFIkEeibjuLm5_lcNQ" name="SimpleZippedAnimation"/>
+                <packagedElement xmi:type="uml:Interface" xmi:id="_OUmselIkEeibjuLm5_lcNQ" name="AnimationEvent"/>
+                <packagedElement xmi:type="uml:Interface" xmi:id="_OUmsfFIkEeibjuLm5_lcNQ" name="ImageAnimationEvent"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_OSWpsVIkEeibjuLm5_lcNQ" name="resources">
+              <packagedElement xmi:type="uml:Class" xmi:id="_OUc7fFIkEeibjuLm5_lcNQ" name="ResourceManager"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_OSX30FIkEeibjuLm5_lcNQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_OSZtAFIkEeibjuLm5_lcNQ" name="awt">
+        <packagedElement xmi:type="uml:Class" xmi:id="_OUmscFIkEeibjuLm5_lcNQ" name="Image"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OUmsclIkEeibjuLm5_lcNQ" name="Rectangle"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OUmsflIkEeibjuLm5_lcNQ" name="Point"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_OSZtAVIkEeibjuLm5_lcNQ" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_OSZtAlIkEeibjuLm5_lcNQ" name="swing">
+        <packagedElement xmi:type="uml:Class" xmi:id="_OUmsdFIkEeibjuLm5_lcNQ" name="ImageIcon"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OUmsdlIkEeibjuLm5_lcNQ" name="JLabel"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_OMeEIFIkEeibjuLm5_lcNQ">
+      <eAnnotations xmi:id="_OMeEIVIkEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_OMerMFIkEeibjuLm5_lcNQ" base_Package="_NmQ_wFIkEeibjuLm5_lcNQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_OUc7cVIkEeibjuLm5_lcNQ" base_Element="_OUc7cFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OUc7c1IkEeibjuLm5_lcNQ" base_Element="_OUc7clIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OUc7dVIkEeibjuLm5_lcNQ" base_Element="_OUc7dFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OUc7d1IkEeibjuLm5_lcNQ" base_Element="_OUc7dlIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OUc7eVIkEeibjuLm5_lcNQ" base_Element="_OUc7eFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OUc7e1IkEeibjuLm5_lcNQ" base_Element="_OUc7elIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OUc7fVIkEeibjuLm5_lcNQ" base_Element="_OUc7fFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OUmscVIkEeibjuLm5_lcNQ" base_Element="_OUmscFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OUmsc1IkEeibjuLm5_lcNQ" base_Element="_OUmsclIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OUmsdVIkEeibjuLm5_lcNQ" base_Element="_OUmsdFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OUmsd1IkEeibjuLm5_lcNQ" base_Element="_OUmsdlIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OUmseVIkEeibjuLm5_lcNQ" base_Element="_OUmseFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OUmse1IkEeibjuLm5_lcNQ" base_Element="_OUmselIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OUmsfVIkEeibjuLm5_lcNQ" base_Element="_OUmsfFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OUmsf1IkEeibjuLm5_lcNQ" base_Element="_OUmsflIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OU5nYFIkEeibjuLm5_lcNQ" base_Element="_OUv2kVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OU6OcFIkEeibjuLm5_lcNQ" base_Element="_OU5nYVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OU6OclIkEeibjuLm5_lcNQ" base_Element="_OU6OcVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OU6OdFIkEeibjuLm5_lcNQ" base_Element="_OU6Oc1IkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OU6OdlIkEeibjuLm5_lcNQ" base_Element="_OU6OdVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OU6OeFIkEeibjuLm5_lcNQ" base_Element="_OU6Od1IkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OU6Oe1IkEeibjuLm5_lcNQ" base_Element="_OU6OeVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OU6OfVIkEeibjuLm5_lcNQ" base_Element="_OU6OfFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OU6Of1IkEeibjuLm5_lcNQ" base_Element="_OU6OflIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OU6OgVIkEeibjuLm5_lcNQ" base_Element="_OU6OgFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OU6Og1IkEeibjuLm5_lcNQ" base_Element="_OU6OglIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OU6OhVIkEeibjuLm5_lcNQ" base_Element="_OU6OhFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OU6OiVIkEeibjuLm5_lcNQ" base_Element="_OU6OiFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OU6Oi1IkEeibjuLm5_lcNQ" base_Element="_OU6OilIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OU6OjVIkEeibjuLm5_lcNQ" base_Element="_OU6OjFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OU6Oj1IkEeibjuLm5_lcNQ" base_Element="_OU6OjlIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OVHp0FIkEeibjuLm5_lcNQ" base_Element="_OVHCwFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OVHp01IkEeibjuLm5_lcNQ" base_Element="_OVHp0VIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OVIQ4lIkEeibjuLm5_lcNQ" base_Element="_OVIQ4FIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OVI38FIkEeibjuLm5_lcNQ" base_Element="_OVIQ41IkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OVI381IkEeibjuLm5_lcNQ" base_Element="_OVI38VIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OVJfAlIkEeibjuLm5_lcNQ" base_Element="_OVJfAFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OVKGEFIkEeibjuLm5_lcNQ" base_Element="_OVJfA1IkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OVKGE1IkEeibjuLm5_lcNQ" base_Element="_OVKGEVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OVKtIlIkEeibjuLm5_lcNQ" base_Element="_OVKtIFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OVLUMFIkEeibjuLm5_lcNQ" base_Element="_OVKtI1IkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OVL7QFIkEeibjuLm5_lcNQ" base_Element="_OVLUMVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OVL7Q1IkEeibjuLm5_lcNQ" base_Element="_OVL7QVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_OVMiUFIkEeibjuLm5_lcNQ" base_Element="_OVL7RFIkEeibjuLm5_lcNQ"/>
+</xmi:XMI>

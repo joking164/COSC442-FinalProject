@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_jpu9gFJREeiyW7NaN4qWdw">
+  <modelElement href="server_networking.uml#_j9QWcFJREeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kBxDAFJREeiyW7NaN4qWdw" sourceAnchor="375.0,0.0" targetAnchor="0.0,132.0" target="_kB0GWVJREeiyW7NaN4qWdw" source="_kB0GWVJREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j-PN4VJREeiyW7NaN4qWdw"/>
+    <bendpoints xmi:id="_kUOE8FJREeiyW7NaN4qWdw" sourceY="-128" targetX="375" targetY="-260"/>
+    <bendpoints xmi:id="_kUOsAFJREeiyW7NaN4qWdw" sourceX="-533" sourceY="-128" targetX="-158" targetY="-260"/>
+    <bendpoints xmi:id="_kUOsAVJREeiyW7NaN4qWdw" sourceX="-533" sourceY="132" targetX="-158"/>
+    <stereotypes xmi:id="_kBzfQVJREeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="server_networking.uml#_j-P08FJREeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kBy4MFJREeiyW7NaN4qWdw" text="">
+      <visualProperties xmi:id="_kUPTEFJREeiyW7NaN4qWdw" position="470.0,-11.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_kBy4MVJREeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="server_networking.uml#_j-PN4lJREeiyW7NaN4qWdw"/>
+      <visualProperties xmi:id="_kUOsAlJREeiyW7NaN4qWdw" position="-21.0,-62.00000000000001"/>
+      <visibility xmi:id="_kBzfQ1JREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kBzfQlJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kBzfQFJREeiyW7NaN4qWdw" aggregationKind="NONE" name="otherConnection" navigable="true">
+      <modelElement href="server_networking.uml#_j-H5IVJREeiyW7NaN4qWdw"/>
+      <visualProperties xmi:id="_kUPTEVJREeiyW7NaN4qWdw" position="-133.00000000000006,10.499999999999886"/>
+      <visibility xmi:id="_kBzfRVJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kBzfRFJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kBxqEVJREeiyW7NaN4qWdw" targetItem="_kB0GWVJREeiyW7NaN4qWdw" sourceItem="_kBxqEFJREeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kByRIVJREeiyW7NaN4qWdw" targetItem="_kB0GcVJREeiyW7NaN4qWdw" sourceItem="_kByRIFJREeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kByRI1JREeiyW7NaN4qWdw" targetItem="_kB0Gd1JREeiyW7NaN4qWdw" sourceItem="_kByRIlJREeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kByRJVJREeiyW7NaN4qWdw" targetItem="_kB0Gg1JREeiyW7NaN4qWdw" sourceItem="_kByRJFJREeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kB0GUFJREeiyW7NaN4qWdw" source="_kB0GWVJREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j-Om0FJREeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_kB0GUVJREeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="server_networking.uml#_j-PN4FJREeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kB0GUlJREeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_kB0GU1JREeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="server_networking.uml#_j-Om0VJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB0GVFJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB0GVVJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kB0GVlJREeiyW7NaN4qWdw" aggregationKind="NONE" name="outgoingMessageHandler" navigable="true">
+      <modelElement href="server_networking.uml#_j-HSEFJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB0GV1JREeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kB0GWFJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kB60AVJREeiyW7NaN4qWdw" targetItem="_kB_FglJREeiyW7NaN4qWdw" sourceItem="_kB60AFJREeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kB7bEVJREeiyW7NaN4qWdw" targetItem="_kB_FsVJREeiyW7NaN4qWdw" sourceItem="_kB7bEFJREeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kB7bE1JREeiyW7NaN4qWdw" targetItem="_kB_Fu1JREeiyW7NaN4qWdw" sourceItem="_kB7bElJREeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kB7bFVJREeiyW7NaN4qWdw" targetItem="_kB_FvlJREeiyW7NaN4qWdw" sourceItem="_kB7bFFJREeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kB7bF1JREeiyW7NaN4qWdw" targetItem="_kB_FzVJREeiyW7NaN4qWdw" sourceItem="_kB7bFlJREeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kB8CIFJREeiyW7NaN4qWdw" targetItem="_kB_F1VJREeiyW7NaN4qWdw" sourceItem="_kB7bGFJREeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kB8CIlJREeiyW7NaN4qWdw" targetItem="_kB_F21JREeiyW7NaN4qWdw" sourceItem="_kB8CIVJREeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kB8CJFJREeiyW7NaN4qWdw" targetItem="_kB_F4VJREeiyW7NaN4qWdw" sourceItem="_kB8CI1JREeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kB8CJlJREeiyW7NaN4qWdw" targetItem="_kB_F51JREeiyW7NaN4qWdw" sourceItem="_kB8CJVJREeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kB8pMFJREeiyW7NaN4qWdw" targetItem="_kB_F7VJREeiyW7NaN4qWdw" sourceItem="_kB8CJ1JREeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kB8pMlJREeiyW7NaN4qWdw" targetItem="_kB_F9lJREeiyW7NaN4qWdw" sourceItem="_kB8pMVJREeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kB93UFJREeiyW7NaN4qWdw" source="_kB_FglJREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j-P08VJREeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_kB93UVJREeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="server_networking.uml#_j-QcAFJREeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kB93UlJREeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_kB93U1JREeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="server_networking.uml#_j-P08lJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB93VFJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB93VVJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kB93VlJREeiyW7NaN4qWdw" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="server_networking.uml#_j-H5IlJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB93V1JREeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kB93WFJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kB93WVJREeiyW7NaN4qWdw" source="_kB_FglJREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j-QcAVJREeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_kB93WlJREeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="server_networking.uml#_j-RDEFJREeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kB93W1JREeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_kB93XFJREeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="server_networking.uml#_j-QcAlJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB93XVJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB93XlJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kB93X1JREeiyW7NaN4qWdw" aggregationKind="NONE" name="serverSocket" navigable="true">
+      <modelElement href="server_networking.uml#_j-IgMlJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB93YFJREeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kB93YVJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kB-eYFJREeiyW7NaN4qWdw" source="_kB_FglJREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j-RDEVJREeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_kB-eYVJREeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="server_networking.uml#_j-RDE1JREeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kB-eYlJREeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_kB-eY1JREeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="server_networking.uml#_j-RDElJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB-eZFJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB-eZVJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kB-eZlJREeiyW7NaN4qWdw" aggregationKind="NONE" name="connections" navigable="true">
+      <modelElement href="server_networking.uml#_j-IgNFJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB-eZ1JREeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kB-eaFJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kB_FcFJREeiyW7NaN4qWdw" source="_kB_FglJREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j-RDFFJREeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_kB_FcVJREeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="server_networking.uml#_j-RqIFJREeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kB_FclJREeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_kB_Fc1JREeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="server_networking.uml#_j-RDFVJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB_FdFJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB_FdVJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kB_FdlJREeiyW7NaN4qWdw" aggregationKind="NONE" name="freeColServer" navigable="true">
+      <modelElement href="server_networking.uml#_j-JuVFJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB_Fd1JREeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kB_FeFJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kB_FeVJREeiyW7NaN4qWdw" source="_kB_FglJREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j-RqIVJREeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_kB_FelJREeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="server_networking.uml#_j-SRMFJREeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kB_Fe1JREeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_kB_FfFJREeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="server_networking.uml#_j-RqIlJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB_FfVJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB_FflJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kB_Ff1JREeiyW7NaN4qWdw" aggregationKind="NONE" name="shutdownLock" navigable="true">
+      <modelElement href="server_networking.uml#_j-K8c1JREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB_FgFJREeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kB_FgVJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kBxqEFJREeiyW7NaN4qWdw" sourceConnectionVisual="_kBxqEVJREeiyW7NaN4qWdw" text="A dummy connection, used for AI players." item="_kB0GWVJREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j-N_wFJREeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kByRIFJREeiyW7NaN4qWdw" sourceConnectionVisual="_kByRIVJREeiyW7NaN4qWdw" text="Sets the other connection for this dummy connection.&#xD;&#xA;     *&#xD;&#xA;     * @param dc The &lt;code>DummyConnection&lt;/code> to connect to." item="_kB0GcVJREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j-N_w1JREeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kByRIlJREeiyW7NaN4qWdw" sourceConnectionVisual="_kByRI1JREeiyW7NaN4qWdw" text="Sets up a dummy connection using the specified {@link MessageHandler}s.&#xD;&#xA;     *&#xD;&#xA;     * @param incomingMessageHandler The &lt;code>MessageHandler&lt;/code>&#xD;&#xA;     *     to call for each message received." item="_kB0Gd1JREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j-N_wVJREeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kByRJFJREeiyW7NaN4qWdw" sourceConnectionVisual="_kByRJVJREeiyW7NaN4qWdw" text="Sets the outgoing MessageHandler for this Connection.&#xD;&#xA;     *&#xD;&#xA;     * @param mh The new MessageHandler for this Connection." item="_kB0Gg1JREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j-N_wlJREeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kB60AFJREeiyW7NaN4qWdw" sourceConnectionVisual="_kB60AVJREeiyW7NaN4qWdw" text="The networking server in which new clients can connect and methods&#xD;&#xA;like &lt;code>sendToAll&lt;/code> are kept.&#xD;&#xA; *&#xD;&#xA;&lt;br>&lt;br>&#xD;&#xA; *&#xD;&#xA;When a new client connects to the server a new {@link Connection}&#xD;&#xA;is made, with {@link net.sf.freecol.server.control.UserConnectionHandler}&#xD;&#xA;as the control object.&#xD;&#xA; *&#xD;&#xA;@see net.sf.freecol.common.networking" item="_kB_FglJREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j-N_xFJREeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kB7bEFJREeiyW7NaN4qWdw" sourceConnectionVisual="_kB7bEVJREeiyW7NaN4qWdw" text="Gets the host that is being used for the public socket.&#xD;&#xA;     *&#xD;&#xA;     * @return The name of the host." item="_kB_FsVJREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j-N_xlJREeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kB7bElJREeiyW7NaN4qWdw" sourceConnectionVisual="_kB7bE1JREeiyW7NaN4qWdw" text="Shuts down the server thread." item="_kB_Fu1JREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j-N_zlJREeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kB7bFFJREeiyW7NaN4qWdw" sourceConnectionVisual="_kB7bFVJREeiyW7NaN4qWdw" text="Creates a new network server. Use {@link #run server.start()} to start&#xD;&#xA;     * listening for new connections.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColServer The owner of this &lt;code>Server&lt;/code>.&#xD;&#xA;     * @param host The name of the host for the public socket.&#xD;&#xA;     * @param port The TCP port to use for the public socket.&#xD;&#xA;     * @throws IOException if the public socket cannot be created." item="_kB_FvlJREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j-N_xVJREeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kB7bFlJREeiyW7NaN4qWdw" sourceConnectionVisual="_kB7bF1JREeiyW7NaN4qWdw" text="Gets a &lt;code>Connection&lt;/code> identified by a &lt;code>Socket&lt;/code>.&#xD;&#xA;     *&#xD;&#xA;     * @param socket The &lt;code>Socket&lt;/code> that identifies the&#xD;&#xA;     *               &lt;code>Connection&lt;/code>&#xD;&#xA;     * @return The &lt;code>Connection&lt;/code>." item="_kB_FzVJREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j-N_x1JREeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kB7bGFJREeiyW7NaN4qWdw" sourceConnectionVisual="_kB8CIFJREeiyW7NaN4qWdw" text="Adds a (usually Dummy)Connection into the hashmap.&#xD;&#xA;     *&#xD;&#xA;     * @param connection The connection to add." item="_kB_F1VJREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j-N_yFJREeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kB8CIVJREeiyW7NaN4qWdw" sourceConnectionVisual="_kB8CIlJREeiyW7NaN4qWdw" text="Adds a Connection into the hashmap.&#xD;&#xA;     *&#xD;&#xA;     * @param connection The connection to add." item="_kB_F21JREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j-N_yVJREeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kB8CI1JREeiyW7NaN4qWdw" sourceConnectionVisual="_kB8CJFJREeiyW7NaN4qWdw" text="Removes the given connection.&#xD;&#xA;     *&#xD;&#xA;     * @param connection The connection that should be removed." item="_kB_F4VJREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j-N_ylJREeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kB8CJVJREeiyW7NaN4qWdw" sourceConnectionVisual="_kB8CJlJREeiyW7NaN4qWdw" text="Sets the specified &lt;code>MessageHandler&lt;/code> to all connections.&#xD;&#xA;     *&#xD;&#xA;     * @param mh The &lt;code>MessageHandler&lt;/code> to use." item="_kB_F51JREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j-N_y1JREeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kB8CJ1JREeiyW7NaN4qWdw" sourceConnectionVisual="_kB8pMFJREeiyW7NaN4qWdw" text="Sends a network message to all connections with an optional exception.&#xD;&#xA;     *&#xD;&#xA;     * @param element The root &lt;code>Element&lt;/code> of the message to send.&#xD;&#xA;     * @param exceptConnection An optional &lt;code>Connection&lt;/code> not&#xD;&#xA;     *     to send to." item="_kB_F7VJREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j-N_zFJREeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kB8pMVJREeiyW7NaN4qWdw" sourceConnectionVisual="_kB8pMlJREeiyW7NaN4qWdw" text="Sends a network message to all connections.&#xD;&#xA;     *&#xD;&#xA;     * @param element The root element of the message to send." item="_kB_F9lJREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j-N_zVJREeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kB0GWVJREeiyW7NaN4qWdw" comments="_kBxqEFJREeiyW7NaN4qWdw" targetConnectionVisual="_kBxqEVJREeiyW7NaN4qWdw" name="DummyConnection" associationsIn="_kBxDAFJREeiyW7NaN4qWdw" associationsOut="_kBxDAFJREeiyW7NaN4qWdw _kB0GUFJREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j9YSQFJREeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_kB0GWlJREeiyW7NaN4qWdw" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_kB0GW1JREeiyW7NaN4qWdw" label="+"/>
+    <attributes xmi:id="_kB0GXFJREeiyW7NaN4qWdw" name="outgoingMessageHandler">
+      <modelElement href="server_networking.uml#_j-HSEFJREeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kB0GXVJREeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="server_networking.uml#_j-H5IFJREeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kB0GXlJREeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kB0GX1JREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kB0GYFJREeiyW7NaN4qWdw" name="MessageHandler">
+        <modelElement href="server_networking.uml#_j92zYFJREeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kB0GYVJREeiyW7NaN4qWdw" name="otherConnection">
+      <modelElement href="server_networking.uml#_j-H5IVJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB0GYlJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB0GY1JREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kB0GZFJREeiyW7NaN4qWdw" name="DummyConnection">
+        <modelElement href="server_networking.uml#_j9YSQFJREeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kB0GZVJREeiyW7NaN4qWdw" name="close">
+      <modelElement href="server_networking.uml#_j9ZgYFJREeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kB0GZlJREeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="server_networking.uml#_j9ZgYVJREeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kB0GZ1JREeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="server_networking.uml#_j9ZgYlJREeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kB0GaFJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB0GaVJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kB0GalJREeiyW7NaN4qWdw" name="toString">
+      <modelElement href="server_networking.uml#_j9aHcFJREeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kB0Ga1JREeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="server_networking.uml#_j9aHclJREeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kB0GbFJREeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="server_networking.uml#_j9aHc1JREeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kB0GbVJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB0GblJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kB0Gb1JREeiyW7NaN4qWdw">
+        <modelElement href="server_networking.uml#_j9aHcVJREeiyW7NaN4qWdw"/>
+        <type xmi:id="_kB0GcFJREeiyW7NaN4qWdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kB0GcVJREeiyW7NaN4qWdw" comments="_kByRIFJREeiyW7NaN4qWdw" targetConnectionVisual="_kByRIVJREeiyW7NaN4qWdw" name="setConnection">
+      <modelElement href="server_networking.uml#_j93acVJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB0GclJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB0Gc1JREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kB0GdFJREeiyW7NaN4qWdw" name="dc">
+        <modelElement href="server_networking.uml#_j93aclJREeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kB0GdVJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kB0GdlJREeiyW7NaN4qWdw" name="DummyConnection">
+          <modelElement href="server_networking.uml#_j9YSQFJREeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kB0Gd1JREeiyW7NaN4qWdw" comments="_kByRIlJREeiyW7NaN4qWdw" targetConnectionVisual="_kByRI1JREeiyW7NaN4qWdw" name="DummyConnection">
+      <modelElement href="server_networking.uml#_j-AkYFJREeiyW7NaN4qWdw"/>
+      <keywords xmi:id="_kB0GeFJREeiyW7NaN4qWdw" keyword="create"/>
+      <visibility xmi:id="_kB0GeVJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB0GelJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kB0Ge1JREeiyW7NaN4qWdw">
+        <modelElement href="server_networking.uml#_j-AkZVJREeiyW7NaN4qWdw"/>
+        <type xmi:id="_kB0GfFJREeiyW7NaN4qWdw" name="DummyConnection">
+          <modelElement href="server_networking.uml#_j9YSQFJREeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kB0GfVJREeiyW7NaN4qWdw" name="name">
+        <modelElement href="server_networking.uml#_j-AkYVJREeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kB0GflJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kB0Gf1JREeiyW7NaN4qWdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kB0GgFJREeiyW7NaN4qWdw" name="incomingMessageHandler">
+        <modelElement href="server_networking.uml#_j-AkYlJREeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kB0GgVJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kB0GglJREeiyW7NaN4qWdw" name="MessageHandler">
+          <modelElement href="server_networking.uml#_j92zYFJREeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kB0Gg1JREeiyW7NaN4qWdw" comments="_kByRJFJREeiyW7NaN4qWdw" targetConnectionVisual="_kByRJVJREeiyW7NaN4qWdw" name="setOutgoingMessageHandler">
+      <modelElement href="server_networking.uml#_j-AkZlJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB0GhFJREeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kB0GhVJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kB0GhlJREeiyW7NaN4qWdw" name="mh">
+        <modelElement href="server_networking.uml#_j-AkZ1JREeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kB0Gh1JREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kB0GiFJREeiyW7NaN4qWdw" name="MessageHandler">
+          <modelElement href="server_networking.uml#_j92zYFJREeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kB0GiVJREeiyW7NaN4qWdw" name="send">
+      <modelElement href="server_networking.uml#_j-BLcFJREeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kB0GilJREeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="server_networking.uml#_j-BLclJREeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kB0Gi1JREeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="server_networking.uml#_j-BLc1JREeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kB0GjFJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB0GjVJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kB0GjlJREeiyW7NaN4qWdw" name="element">
+        <modelElement href="server_networking.uml#_j-BLcVJREeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kB0Gj1JREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kB0GkFJREeiyW7NaN4qWdw" name="Element">
+          <modelElement href="server_networking.uml#_j92zYlJREeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kB0GkVJREeiyW7NaN4qWdw" name="sendAndWait">
+      <modelElement href="server_networking.uml#_j-BygFJREeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kB0GklJREeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="server_networking.uml#_j-ByglJREeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kB0Gk1JREeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="server_networking.uml#_j-Byg1JREeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kB0GlFJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB0GlVJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kB0GllJREeiyW7NaN4qWdw" name="element">
+        <modelElement href="server_networking.uml#_j-BygVJREeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kB0Gl1JREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kB0GmFJREeiyW7NaN4qWdw" name="Element">
+          <modelElement href="server_networking.uml#_j92zYlJREeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kB0GmVJREeiyW7NaN4qWdw" name="ask">
+      <modelElement href="server_networking.uml#_j-CZkFJREeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kB0GmlJREeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="server_networking.uml#_j-CZk1JREeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kB0Gm1JREeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="server_networking.uml#_j-CZlFJREeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kB0GnFJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB0GnVJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kB0GnlJREeiyW7NaN4qWdw">
+        <modelElement href="server_networking.uml#_j-CZklJREeiyW7NaN4qWdw"/>
+        <type xmi:id="_kB0Gn1JREeiyW7NaN4qWdw" name="Element">
+          <modelElement href="server_networking.uml#_j92zYlJREeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kB0GoFJREeiyW7NaN4qWdw" name="request">
+        <modelElement href="server_networking.uml#_j-CZkVJREeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kB0GoVJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kB0GolJREeiyW7NaN4qWdw" name="Element">
+          <modelElement href="server_networking.uml#_j92zYlJREeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kB5l4FJREeiyW7NaN4qWdw" name="IOException">
+    <modelElement href="server_networking.uml#_j90-MFJREeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_kB5l4VJREeiyW7NaN4qWdw" position="749.0,356.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_kB5l4lJREeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="server_networking.uml#_j91lQFJREeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <visibility xmi:id="_kB5l41JREeiyW7NaN4qWdw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kB_FglJREeiyW7NaN4qWdw" comments="_kB60AFJREeiyW7NaN4qWdw" targetConnectionVisual="_kB60AVJREeiyW7NaN4qWdw" name="Server" associationsOut="_kB93UFJREeiyW7NaN4qWdw _kB93WVJREeiyW7NaN4qWdw _kB-eYFJREeiyW7NaN4qWdw _kB_FcFJREeiyW7NaN4qWdw _kB_FeVJREeiyW7NaN4qWdw">
+    <modelElement href="server_networking.uml#_j9b8oFJREeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_kB_Fg1JREeiyW7NaN4qWdw" position="951.0,-116.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_kB_FhFJREeiyW7NaN4qWdw" label="+"/>
+    <attributes xmi:id="_kB_FhVJREeiyW7NaN4qWdw" defaultValue="Logger.getLogger(Server.class.getName())" name="logger" staticAttribute="true">
+      <modelElement href="server_networking.uml#_j-H5IlJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB_FhlJREeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kB_Fh1JREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kB_FiFJREeiyW7NaN4qWdw" name="Logger">
+        <modelElement href="server_networking.uml#_j97r4VJREeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kB_FiVJREeiyW7NaN4qWdw" defaultValue="10" name="BACKLOG_DEFAULT" staticAttribute="true">
+      <modelElement href="server_networking.uml#_j-IgMFJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB_FilJREeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kB_Fi1JREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kB_FjFJREeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kB_FjVJREeiyW7NaN4qWdw" name="serverSocket">
+      <modelElement href="server_networking.uml#_j-IgMlJREeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kB_FjlJREeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="server_networking.uml#_j-IgM1JREeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kB_Fj1JREeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kB_FkFJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kB_FkVJREeiyW7NaN4qWdw" name="ServerSocket">
+        <modelElement href="server_networking.uml#_j952sVJREeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kB_FklJREeiyW7NaN4qWdw" defaultValue="new HashMap&lt;>()" name="connections">
+      <modelElement href="server_networking.uml#_j-IgNFJREeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kB_Fk1JREeiyW7NaN4qWdw" name="Generics">
+        <modelElement href="server_networking.uml#_j-JHQFJREeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kB_FlFJREeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="server_networking.uml#_j-JuUFJREeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kB_FlVJREeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kB_FllJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kB_Fl1JREeiyW7NaN4qWdw" name="HashMap">
+        <modelElement href="server_networking.uml#_j97E0VJREeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kB_FmFJREeiyW7NaN4qWdw" defaultValue="true" name="running">
+      <modelElement href="server_networking.uml#_j-JuUVJREeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kB_FmVJREeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="server_networking.uml#_j-JuU1JREeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kB_FmlJREeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kB_Fm1JREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kB_FnFJREeiyW7NaN4qWdw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kB_FnVJREeiyW7NaN4qWdw" name="freeColServer">
+      <modelElement href="server_networking.uml#_j-JuVFJREeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kB_FnlJREeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="server_networking.uml#_j-KVYFJREeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kB_Fn1JREeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kB_FoFJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kB_FoVJREeiyW7NaN4qWdw" name="FreeColServer">
+        <modelElement href="server_networking.uml#_j98S8VJREeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kB_FolJREeiyW7NaN4qWdw" name="host">
+      <modelElement href="server_networking.uml#_j-KVYVJREeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kB_Fo1JREeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="server_networking.uml#_j-KVYlJREeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kB_FpFJREeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kB_FpVJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kB_FplJREeiyW7NaN4qWdw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kB_Fp1JREeiyW7NaN4qWdw" name="port">
+      <modelElement href="server_networking.uml#_j-KVY1JREeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kB_FqFJREeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="server_networking.uml#_j-K8cFJREeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kB_FqVJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB_FqlJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kB_Fq1JREeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kB_FrFJREeiyW7NaN4qWdw" defaultValue="new Object()" name="shutdownLock">
+      <modelElement href="server_networking.uml#_j-K8c1JREeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kB_FrVJREeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="server_networking.uml#_j-LjgFJREeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kB_FrlJREeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kB_Fr1JREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kB_FsFJREeiyW7NaN4qWdw" name="Object">
+        <modelElement href="server_networking.uml#_j-DnsFJREeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kB_FsVJREeiyW7NaN4qWdw" comments="_kB7bEFJREeiyW7NaN4qWdw" targetConnectionVisual="_kB7bEVJREeiyW7NaN4qWdw" name="getHost">
+      <modelElement href="server_networking.uml#_j9dx0FJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB_FslJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB_Fs1JREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kB_FtFJREeiyW7NaN4qWdw">
+        <modelElement href="server_networking.uml#_j9dx0VJREeiyW7NaN4qWdw"/>
+        <type xmi:id="_kB_FtVJREeiyW7NaN4qWdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kB_FtlJREeiyW7NaN4qWdw" name="run">
+      <modelElement href="server_networking.uml#_j9eY4FJREeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kB_Ft1JREeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="server_networking.uml#_j9eY4VJREeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kB_FuFJREeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="server_networking.uml#_j9eY4lJREeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kB_FuVJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB_FulJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kB_Fu1JREeiyW7NaN4qWdw" comments="_kB7bElJREeiyW7NaN4qWdw" targetConnectionVisual="_kB7bE1JREeiyW7NaN4qWdw" name="shutdown">
+      <modelElement href="server_networking.uml#_j9eY5FJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB_FvFJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB_FvVJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kB_FvlJREeiyW7NaN4qWdw" comments="_kB7bFFJREeiyW7NaN4qWdw" targetConnectionVisual="_kB7bFVJREeiyW7NaN4qWdw" name="Server">
+      <modelElement href="server_networking.uml#_j-EOwVJREeiyW7NaN4qWdw"/>
+      <keywords xmi:id="_kB_Fv1JREeiyW7NaN4qWdw" keyword="create"/>
+      <visibility xmi:id="_kB_FwFJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB_FwVJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kB_FwlJREeiyW7NaN4qWdw">
+        <modelElement href="server_networking.uml#_j-E10FJREeiyW7NaN4qWdw"/>
+        <type xmi:id="_kB_Fw1JREeiyW7NaN4qWdw" name="Server">
+          <modelElement href="server_networking.uml#_j9b8oFJREeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kB_FxFJREeiyW7NaN4qWdw" name="freeColServer">
+        <modelElement href="server_networking.uml#_j-EOwlJREeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kB_FxVJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kB_FxlJREeiyW7NaN4qWdw" name="FreeColServer">
+          <modelElement href="server_networking.uml#_j98S8VJREeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kB_Fx1JREeiyW7NaN4qWdw" name="host">
+        <modelElement href="server_networking.uml#_j-EOw1JREeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kB_FyFJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kB_FyVJREeiyW7NaN4qWdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kB_FylJREeiyW7NaN4qWdw" name="port">
+        <modelElement href="server_networking.uml#_j-EOxFJREeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kB_Fy1JREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kB_FzFJREeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kB_FzVJREeiyW7NaN4qWdw" comments="_kB7bFlJREeiyW7NaN4qWdw" targetConnectionVisual="_kB7bF1JREeiyW7NaN4qWdw" name="getConnection">
+      <modelElement href="server_networking.uml#_j-E10VJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB_FzlJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB_Fz1JREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kB_F0FJREeiyW7NaN4qWdw">
+        <modelElement href="server_networking.uml#_j-E101JREeiyW7NaN4qWdw"/>
+        <type xmi:id="_kB_F0VJREeiyW7NaN4qWdw" name="Connection">
+          <modelElement href="server_networking.uml#_j92MUVJREeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kB_F0lJREeiyW7NaN4qWdw" name="socket">
+        <modelElement href="server_networking.uml#_j-E10lJREeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kB_F01JREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kB_F1FJREeiyW7NaN4qWdw" name="Socket">
+          <modelElement href="server_networking.uml#_j96dwVJREeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kB_F1VJREeiyW7NaN4qWdw" comments="_kB7bGFJREeiyW7NaN4qWdw" targetConnectionVisual="_kB8CIFJREeiyW7NaN4qWdw" name="addDummyConnection">
+      <modelElement href="server_networking.uml#_j-E11FJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB_F1lJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB_F11JREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kB_F2FJREeiyW7NaN4qWdw" name="connection">
+        <modelElement href="server_networking.uml#_j-E11VJREeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kB_F2VJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kB_F2lJREeiyW7NaN4qWdw" name="Connection">
+          <modelElement href="server_networking.uml#_j92MUVJREeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kB_F21JREeiyW7NaN4qWdw" comments="_kB8CIVJREeiyW7NaN4qWdw" targetConnectionVisual="_kB8CIlJREeiyW7NaN4qWdw" name="addConnection">
+      <modelElement href="server_networking.uml#_j-Fc4FJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB_F3FJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB_F3VJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kB_F3lJREeiyW7NaN4qWdw" name="connection">
+        <modelElement href="server_networking.uml#_j-Fc4VJREeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kB_F31JREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kB_F4FJREeiyW7NaN4qWdw" name="Connection">
+          <modelElement href="server_networking.uml#_j92MUVJREeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kB_F4VJREeiyW7NaN4qWdw" comments="_kB8CI1JREeiyW7NaN4qWdw" targetConnectionVisual="_kB8CJFJREeiyW7NaN4qWdw" name="removeConnection">
+      <modelElement href="server_networking.uml#_j-Fc4lJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB_F4lJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB_F41JREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kB_F5FJREeiyW7NaN4qWdw" name="connection">
+        <modelElement href="server_networking.uml#_j-Fc41JREeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kB_F5VJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kB_F5lJREeiyW7NaN4qWdw" name="Connection">
+          <modelElement href="server_networking.uml#_j92MUVJREeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kB_F51JREeiyW7NaN4qWdw" comments="_kB8CJVJREeiyW7NaN4qWdw" targetConnectionVisual="_kB8CJlJREeiyW7NaN4qWdw" name="setMessageHandlerToAllConnections">
+      <modelElement href="server_networking.uml#_j-GD8FJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB_F6FJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB_F6VJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kB_F6lJREeiyW7NaN4qWdw" name="mh">
+        <modelElement href="server_networking.uml#_j-GD8VJREeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kB_F61JREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kB_F7FJREeiyW7NaN4qWdw" name="MessageHandler">
+          <modelElement href="server_networking.uml#_j92zYFJREeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kB_F7VJREeiyW7NaN4qWdw" comments="_kB8CJ1JREeiyW7NaN4qWdw" targetConnectionVisual="_kB8pMFJREeiyW7NaN4qWdw" name="sendToAll">
+      <modelElement href="server_networking.uml#_j-GD8lJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB_F7lJREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB_F71JREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kB_F8FJREeiyW7NaN4qWdw" name="element">
+        <modelElement href="server_networking.uml#_j-GD81JREeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kB_F8VJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kB_F8lJREeiyW7NaN4qWdw" name="Element">
+          <modelElement href="server_networking.uml#_j92zYlJREeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kB_F81JREeiyW7NaN4qWdw" name="exceptConnection">
+        <modelElement href="server_networking.uml#_j-GD9FJREeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kB_F9FJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kB_F9VJREeiyW7NaN4qWdw" name="Connection">
+          <modelElement href="server_networking.uml#_j92MUVJREeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kB_F9lJREeiyW7NaN4qWdw" comments="_kB8pMVJREeiyW7NaN4qWdw" targetConnectionVisual="_kB8pMlJREeiyW7NaN4qWdw" name="sendToAll">
+      <modelElement href="server_networking.uml#_j-GrAFJREeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kB_F91JREeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kB_F-FJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kB_F-VJREeiyW7NaN4qWdw" name="element">
+        <modelElement href="server_networking.uml#_j-GrAVJREeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kB_F-lJREeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kB_F-1JREeiyW7NaN4qWdw" name="Element">
+          <modelElement href="server_networking.uml#_j92zYlJREeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

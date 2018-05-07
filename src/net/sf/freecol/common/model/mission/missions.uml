@@ -1,0 +1,1338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_UWeEEFIrEei4BuDhG3OUdg" name="missions">
+    <eAnnotations xmi:id="_U95QcFIrEei4BuDhG3OUdg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_U953gFIrEei4BuDhG3OUdg" source="codegen">
+        <details xmi:id="_U953gVIrEei4BuDhG3OUdg" key="codegenDirectory" value="/COSC442-FinalProject/src"/>
+        <details xmi:id="_WtoIsFIrEei4BuDhG3OUdg" key="AssociatedSourceCode" value="/COSC442-FinalProject/src/net/sf/freecol/common/model/mission/ImprovementMission.java;3948031757/1;/COSC442-FinalProject/src/net/sf/freecol/common/model/mission/GoToMission.java;1702750214/1;/COSC442-FinalProject/src/net/sf/freecol/common/model/mission/CompoundMission.java;2919247991/1;/COSC442-FinalProject/src/net/sf/freecol/common/model/mission/AbstractMission.java;3221763997/1;/COSC442-FinalProject/src/net/sf/freecol/common/model/mission/Mission.java;3843658126/1;/COSC442-FinalProject/src/net/sf/freecol/common/model/mission/MissionManager.java;1407301862/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_VmoEYFIrEei4BuDhG3OUdg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_VmorcFIrEei4BuDhG3OUdg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_VmorcVIrEei4BuDhG3OUdg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_VmorclIrEei4BuDhG3OUdg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_Vmorc1IrEei4BuDhG3OUdg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_VmordFIrEei4BuDhG3OUdg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_VmordVIrEei4BuDhG3OUdg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_VmordlIrEei4BuDhG3OUdg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_VmpSgFIrEei4BuDhG3OUdg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Vj_nIFIrEei4BuDhG3OUdg" name="net">
+      <packagedElement xmi:type="uml:Package" xmi:id="_VkAOMFIrEei4BuDhG3OUdg" name="sf">
+        <packagedElement xmi:type="uml:Package" xmi:id="_VkAOMVIrEei4BuDhG3OUdg" name="freecol">
+          <packagedElement xmi:type="uml:Package" xmi:id="_VkAOMlIrEei4BuDhG3OUdg" name="common">
+            <packagedElement xmi:type="uml:Package" xmi:id="_VkAOM1IrEei4BuDhG3OUdg" name="model">
+              <packagedElement xmi:type="uml:Package" xmi:id="_Vk6NIFIrEei4BuDhG3OUdg" name="mission">
+                <packagedElement xmi:type="uml:Class" xmi:id="_Vmjy8FIrEei4BuDhG3OUdg" name="ImprovementMission">
+                  <ownedComment xmi:id="_Vt6_MFIrEei4BuDhG3OUdg">
+                    <body>The ImprovementMission causes a Unit to add a TileImprovement to a&#xD;
+particular Tile.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_VsYuIFIrEei4BuDhG3OUdg" general="_VoBykFIrEei4BuDhG3OUdg"/>
+                  <ownedAttribute xmi:id="_VtgIcFIrEei4BuDhG3OUdg" name="improvement" isLeaf="true" type="_VsUcsVIrEei4BuDhG3OUdg" association="_VvTfQVIrEei4BuDhG3OUdg"/>
+                  <ownedAttribute xmi:id="_VtgvgFIrEei4BuDhG3OUdg" name="IMPROVEMENT_TAG" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_VtgvgVIrEei4BuDhG3OUdg" value="&quot;improvement&quot;"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vttj0FIrEei4BuDhG3OUdg" name="ImprovementMission" specification="_Vs9V4FIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vttj0VIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vttj0lIrEei4BuDhG3OUdg" type="_Vmjy8FIrEei4BuDhG3OUdg" direction="return"/>
+                    <language>java</language>
+                    <body>super(game);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VtuK4FIrEei4BuDhG3OUdg" name="ImprovementMission" specification="_Vs-kAFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtuK4VIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtuK4lIrEei4BuDhG3OUdg" name="xr" type="_VsPkMVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtuK41IrEei4BuDhG3OUdg" type="_Vmjy8FIrEei4BuDhG3OUdg" direction="return"/>
+                    <language>java</language>
+                    <body>super(game, xr);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vtux8FIrEei4BuDhG3OUdg" name="ImprovementMission" specification="_Vs_LEFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vtux8VIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vtux8lIrEei4BuDhG3OUdg" name="e" type="_VsW48VIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vtux81IrEei4BuDhG3OUdg" type="_Vmjy8FIrEei4BuDhG3OUdg" direction="return"/>
+                    <language>java</language>
+                    <body>super(game, e);&#xD;
+     readFromXMLElement(e);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vtux9FIrEei4BuDhG3OUdg" name="ImprovementMission" specification="_Vs_yJVIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vtux9VIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vtux9lIrEei4BuDhG3OUdg" name="id">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Vtux91IrEei4BuDhG3OUdg" type="_Vmjy8FIrEei4BuDhG3OUdg" direction="return"/>
+                    <language>java</language>
+                    <body>super(game, id);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VtvZAFIrEei4BuDhG3OUdg" name="doMission" specification="_Vmtj8FIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtvZAVIrEei4BuDhG3OUdg" type="_VtBAQFIrEei4BuDhG3OUdg" direction="return"/>
+                    <language>java</language>
+                    <body>int work = getUnit().hasAbility(Ability.EXPERT_PIONEER) ? 2 : 1;&#xD;
+     setTurnCount(getTurnCount() - work);&#xD;
+     getUnit().setMovesLeft(0);&#xD;
+     return (getTurnCount() &lt;= 0)&#xD;
+         ? MissionState.COMPLETED : MissionState.OK;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VtvZAlIrEei4BuDhG3OUdg" name="isValid" specification="_VmxOUFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtvZA1IrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return super.isValid()&#xD;
+         &amp;&amp; improvement != null&#xD;
+         &amp;&amp; improvement.isWorkerAllowed(getUnit());&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VtvZBFIrEei4BuDhG3OUdg" name="isValidFor" specification="_VtBnUlIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtvZBVIrEei4BuDhG3OUdg" name="unit" type="_VsVDwVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtvZBlIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>final Specification spec = unit.getGame().getSpecification();&#xD;
+     return any(spec.getTileImprovementTypeList(),&#xD;
+         ti -> ti.isWorkerAllowed(unit));&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VtwAEFIrEei4BuDhG3OUdg" name="writeAttributes" specification="_VtCOYVIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtwAEVIrEei4BuDhG3OUdg" name="xw" type="_VsQyUVIrEei4BuDhG3OUdg"/>
+                    <language>java</language>
+                    <body>super.writeAttributes(xw);&#xD;
+&#xD;
+     xw.writeAttribute(IMPROVEMENT_TAG, improvement);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VtwnIFIrEei4BuDhG3OUdg" name="readAttributes" specification="_VtDcglIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtwnIVIrEei4BuDhG3OUdg" name="xr" type="_VsPkMVIrEei4BuDhG3OUdg"/>
+                    <language>java</language>
+                    <body>super.readAttributes(xr);&#xD;
+&#xD;
+     improvement = xr.makeFreeColGameObject(getGame(), IMPROVEMENT_TAG,&#xD;
+                                            TileImprovement.class, true);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VtwnIlIrEei4BuDhG3OUdg" name="getXMLTagName" specification="_Vm04sFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtwnI1IrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return getXMLElementTagName(); </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VtwnJFIrEei4BuDhG3OUdg" name="getXMLElementTagName" specification="_Vm2G0VIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtxOMFIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return &quot;improvementMission&quot;;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_Vmtj8FIrEei4BuDhG3OUdg" name="doMission" method="_VtvZAFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtBnUVIrEei4BuDhG3OUdg" type="_VtBAQFIrEei4BuDhG3OUdg" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VmxOUFIrEei4BuDhG3OUdg" name="isValid" method="_VtvZAlIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vmx1YFIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_Vm04sFIrEei4BuDhG3OUdg" name="getXMLTagName" method="_VtwnIlIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vm04sVIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_Vm2G0VIrEei4BuDhG3OUdg" name="getXMLElementTagName" isStatic="true" method="_VtwnJFIrEei4BuDhG3OUdg">
+                    <ownedComment xmi:id="_Vt7mRVIrEei4BuDhG3OUdg">
+                      <body>Gets the tag name of the root element representing this object.&#xD;
+     *&#xD;
+     * @return &quot;improvementMission&quot;</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_Vm2G0lIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_Vs9V4FIrEei4BuDhG3OUdg" name="ImprovementMission" method="_Vttj0FIrEei4BuDhG3OUdg">
+                    <eAnnotations xmi:id="_Vs988FIrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Vs988VIrEei4BuDhG3OUdg" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_Vt7mQFIrEei4BuDhG3OUdg">
+                      <body>Creates a new &lt;code>ImprovementMission&lt;/code> instance.&#xD;
+     *&#xD;
+     * @param game a &lt;code>Game&lt;/code> value</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_Vs9V4VIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vs988lIrEei4BuDhG3OUdg" type="_Vmjy8FIrEei4BuDhG3OUdg" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_Vs-kAFIrEei4BuDhG3OUdg" name="ImprovementMission" method="_VtuK4FIrEei4BuDhG3OUdg" raisedException="_VsOWEFIrEei4BuDhG3OUdg">
+                    <eAnnotations xmi:id="_Vs-kA1IrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Vs-kBFIrEei4BuDhG3OUdg" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_Vt7mQVIrEei4BuDhG3OUdg">
+                      <body>Creates a new &lt;code>ImprovementMission&lt;/code> instance.&#xD;
+     *&#xD;
+     * @param game a &lt;code>Game&lt;/code> value&#xD;
+     * @param xr a &lt;code>FreeColXMLReader&lt;/code> value&#xD;
+     * @exception XMLStreamException if an error occurs</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_Vs-kAVIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vs-kAlIrEei4BuDhG3OUdg" name="xr" type="_VsPkMVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vs-kBVIrEei4BuDhG3OUdg" type="_Vmjy8FIrEei4BuDhG3OUdg" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_Vs_LEFIrEei4BuDhG3OUdg" name="ImprovementMission" method="_Vtux8FIrEei4BuDhG3OUdg">
+                    <eAnnotations xmi:id="_Vs_yIlIrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Vs_yI1IrEei4BuDhG3OUdg" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_Vt7mQlIrEei4BuDhG3OUdg">
+                      <body>Creates a new &lt;code>ImprovementMission&lt;/code> instance.&#xD;
+     *&#xD;
+     * @param game a &lt;code>Game&lt;/code> value&#xD;
+     * @param e an &lt;code>Element&lt;/code> value</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_Vs_yIFIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vs_yIVIrEei4BuDhG3OUdg" name="e" type="_VsW48VIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vs_yJFIrEei4BuDhG3OUdg" type="_Vmjy8FIrEei4BuDhG3OUdg" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_Vs_yJVIrEei4BuDhG3OUdg" name="ImprovementMission" method="_Vtux9FIrEei4BuDhG3OUdg">
+                    <eAnnotations xmi:id="_VtAZMlIrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_VtAZM1IrEei4BuDhG3OUdg" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_Vt7mQ1IrEei4BuDhG3OUdg">
+                      <body>Creates a new &lt;code>ImprovementMission&lt;/code> instance.&#xD;
+     *&#xD;
+     * @param game a &lt;code>Game&lt;/code> value&#xD;
+     * @param id The object identifier.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_VtAZMFIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtAZMVIrEei4BuDhG3OUdg" name="id">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_VtAZNFIrEei4BuDhG3OUdg" type="_Vmjy8FIrEei4BuDhG3OUdg" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtBnUlIrEei4BuDhG3OUdg" name="isValidFor" isStatic="true" method="_VtvZBFIrEei4BuDhG3OUdg">
+                    <ownedComment xmi:id="_Vt7mRFIrEei4BuDhG3OUdg">
+                      <body>Returns true if the given Unit is allowed to build at least one&#xD;
+     * TileImprovementType.&#xD;
+     *&#xD;
+     * @param unit an &lt;code>Unit&lt;/code> value&#xD;
+     * @return false</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_VtBnU1IrEei4BuDhG3OUdg" name="unit" type="_VsVDwVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtCOYFIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtCOYVIrEei4BuDhG3OUdg" name="writeAttributes" visibility="protected" method="_VtwAEFIrEei4BuDhG3OUdg" raisedException="_VsOWEFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtCOYlIrEei4BuDhG3OUdg" name="xw" type="_VsQyUVIrEei4BuDhG3OUdg"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtDcglIrEei4BuDhG3OUdg" name="readAttributes" visibility="protected" method="_VtwnIFIrEei4BuDhG3OUdg" raisedException="_VsOWEFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtEDkFIrEei4BuDhG3OUdg" name="xr" type="_VsPkMVIrEei4BuDhG3OUdg"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Vm9bkFIrEei4BuDhG3OUdg" name="GoToMission">
+                  <ownedComment xmi:id="_Vt7mRlIrEei4BuDhG3OUdg">
+                    <body>The GoToMission causes a Unit to move towards its destination.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_Vse0wFIrEei4BuDhG3OUdg" general="_VoBykFIrEei4BuDhG3OUdg"/>
+                  <ownedAttribute xmi:id="_Vth9oFIrEei4BuDhG3OUdg" name="blockedCount" visibility="private">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_Vth9olIrEei4BuDhG3OUdg" name="destination" isLeaf="true" type="_VscYgFIrEei4BuDhG3OUdg" association="_VvUGUVIrEei4BuDhG3OUdg"/>
+                  <ownedAttribute xmi:id="_VtiksFIrEei4BuDhG3OUdg" name="BLOCKED_COUNT_TAG" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_VtiksVIrEei4BuDhG3OUdg" value="&quot;blockedCount&quot;"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_VtikslIrEei4BuDhG3OUdg" name="DESTINATION_TAG" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_VtjLwFIrEei4BuDhG3OUdg" value="&quot;destination&quot;"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VtxOMVIrEei4BuDhG3OUdg" name="GoToMission" specification="_VtFRsFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtxOMlIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtxOM1IrEei4BuDhG3OUdg" type="_Vm9bkFIrEei4BuDhG3OUdg" direction="return"/>
+                    <language>java</language>
+                    <body>super(game);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vtx1QFIrEei4BuDhG3OUdg" name="GoToMission" specification="_VtGf0FIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vtx1QVIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vtx1QlIrEei4BuDhG3OUdg" name="xr" type="_VsPkMVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vtx1Q1IrEei4BuDhG3OUdg" type="_Vm9bkFIrEei4BuDhG3OUdg" direction="return"/>
+                    <language>java</language>
+                    <body>super(game, xr);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vtx1RFIrEei4BuDhG3OUdg" name="GoToMission" specification="_VtHG4FIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vtx1RVIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vtx1RlIrEei4BuDhG3OUdg" name="e" type="_VsW48VIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vtx1R1IrEei4BuDhG3OUdg" type="_Vm9bkFIrEei4BuDhG3OUdg" direction="return"/>
+                    <language>java</language>
+                    <body>super(game, e);&#xD;
+     readFromXMLElement(e);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vtx1SFIrEei4BuDhG3OUdg" name="GoToMission" specification="_VtHt8FIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vtx1SVIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vtx1SlIrEei4BuDhG3OUdg" name="id">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Vtx1S1IrEei4BuDhG3OUdg" type="_Vm9bkFIrEei4BuDhG3OUdg" direction="return"/>
+                    <language>java</language>
+                    <body>super(game, id);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VtycUFIrEei4BuDhG3OUdg" name="getBlockedCount" specification="_VnBtAFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtycUVIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return blockedCount;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VtycUlIrEei4BuDhG3OUdg" name="setBlockedCount" specification="_VnC7IFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtycU1IrEei4BuDhG3OUdg" name="newBlockedCount">
+                      <eAnnotations xmi:id="_VtycVFIrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_VtycVVIrEei4BuDhG3OUdg" key="final"/>
+                      </eAnnotations>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>this.blockedCount = newBlockedCount;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VtzDYFIrEei4BuDhG3OUdg" name="doMission" specification="_VnDiMlIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtzDYVIrEei4BuDhG3OUdg" type="_VtBAQFIrEei4BuDhG3OUdg" direction="return"/>
+                    <language>java</language>
+                    <body>return MissionState.OK;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VtzDYlIrEei4BuDhG3OUdg" name="isValid" specification="_VnEwUFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtzDY1IrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return super.isValid()&#xD;
+         &amp;&amp; destination != null&#xD;
+         // FIXME: check for disposed destinations&#xD;
+         &amp;&amp; destination.canAdd(getUnit());&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VtzqcFIrEei4BuDhG3OUdg" name="isValidFor" specification="_VtIVAVIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtzqcVIrEei4BuDhG3OUdg" name="unit" type="_VsVDwVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtzqclIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return unit.getInitialMovesLeft() > 0;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vtzqc1IrEei4BuDhG3OUdg" name="writeAttributes" specification="_VtI8EFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtzqdFIrEei4BuDhG3OUdg" name="xw" type="_VsQyUVIrEei4BuDhG3OUdg"/>
+                    <language>java</language>
+                    <body>super.writeAttributes(xw);&#xD;
+&#xD;
+     xw.writeAttribute(DESTINATION_TAG, destination);&#xD;
+&#xD;
+     xw.writeAttribute(BLOCKED_COUNT_TAG, blockedCount);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt0RgFIrEei4BuDhG3OUdg" name="readAttributes" specification="_VtKKMFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt0RgVIrEei4BuDhG3OUdg" name="xr" type="_VsPkMVIrEei4BuDhG3OUdg"/>
+                    <language>java</language>
+                    <body>super.readAttributes(xr);&#xD;
+&#xD;
+     destination = xr.getLocationAttribute(getGame(), DESTINATION_TAG,&#xD;
+                                           false);&#xD;
+&#xD;
+     blockedCount = xr.getAttribute(BLOCKED_COUNT_TAG, 0);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt0RglIrEei4BuDhG3OUdg" name="getXMLTagName" specification="_VnGlgFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt0Rg1IrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return getXMLElementTagName(); </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt0RhFIrEei4BuDhG3OUdg" name="getXMLElementTagName" specification="_VnHzoFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt0RhVIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return &quot;goToMission&quot;;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_VnBtAFIrEei4BuDhG3OUdg" name="getBlockedCount" isLeaf="true" method="_VtycUFIrEei4BuDhG3OUdg">
+                    <ownedComment xmi:id="_Vt7mS1IrEei4BuDhG3OUdg">
+                      <body>Get the &lt;code>BlockedCount&lt;/code> value.&#xD;
+     *&#xD;
+     * @return an &lt;code>int&lt;/code> value</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_VnCUEFIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VnC7IFIrEei4BuDhG3OUdg" name="setBlockedCount" isLeaf="true" method="_VtycUlIrEei4BuDhG3OUdg">
+                    <ownedComment xmi:id="_Vt8NUFIrEei4BuDhG3OUdg">
+                      <body>Set the &lt;code>BlockedCount&lt;/code> value.&#xD;
+     *&#xD;
+     * @param newBlockedCount The new BlockedCount value.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_VnC7IVIrEei4BuDhG3OUdg" name="newBlockedCount">
+                      <eAnnotations xmi:id="_VnDiMFIrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_VnDiMVIrEei4BuDhG3OUdg" key="final"/>
+                      </eAnnotations>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VnDiMlIrEei4BuDhG3OUdg" name="doMission" method="_VtzDYFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtIVAFIrEei4BuDhG3OUdg" type="_VtBAQFIrEei4BuDhG3OUdg" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VnEwUFIrEei4BuDhG3OUdg" name="isValid" method="_VtzDYlIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VnEwUVIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VnGlgFIrEei4BuDhG3OUdg" name="getXMLTagName" method="_Vt0RglIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VnGlgVIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VnHzoFIrEei4BuDhG3OUdg" name="getXMLElementTagName" isStatic="true" method="_Vt0RhFIrEei4BuDhG3OUdg">
+                    <ownedComment xmi:id="_Vt8NUlIrEei4BuDhG3OUdg">
+                      <body>Gets the tag name of the root element representing this object.&#xD;
+     *&#xD;
+     * @return &quot;goToMission&quot;</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_VnHzoVIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtFRsFIrEei4BuDhG3OUdg" name="GoToMission" method="_VtxOMVIrEei4BuDhG3OUdg">
+                    <eAnnotations xmi:id="_VtF4wFIrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_VtF4wVIrEei4BuDhG3OUdg" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_Vt7mR1IrEei4BuDhG3OUdg">
+                      <body>Creates a new &lt;code>GoToMission&lt;/code> instance.&#xD;
+     *&#xD;
+     * @param game a &lt;code>Game&lt;/code> value</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_VtFRsVIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtF4wlIrEei4BuDhG3OUdg" type="_Vm9bkFIrEei4BuDhG3OUdg" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtGf0FIrEei4BuDhG3OUdg" name="GoToMission" method="_Vtx1QFIrEei4BuDhG3OUdg" raisedException="_VsOWEFIrEei4BuDhG3OUdg">
+                    <eAnnotations xmi:id="_VtGf01IrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_VtGf1FIrEei4BuDhG3OUdg" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_Vt7mSFIrEei4BuDhG3OUdg">
+                      <body>Creates a new &lt;code>GoToMission&lt;/code> instance.&#xD;
+     *&#xD;
+     * @param game a &lt;code>Game&lt;/code> value&#xD;
+     * @param xr a &lt;code>FreeColXMLReader&lt;/code> value&#xD;
+     * @exception XMLStreamException if an error occurs</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_VtGf0VIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtGf0lIrEei4BuDhG3OUdg" name="xr" type="_VsPkMVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtGf1VIrEei4BuDhG3OUdg" type="_Vm9bkFIrEei4BuDhG3OUdg" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtHG4FIrEei4BuDhG3OUdg" name="GoToMission" method="_Vtx1RFIrEei4BuDhG3OUdg">
+                    <eAnnotations xmi:id="_VtHG41IrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_VtHG5FIrEei4BuDhG3OUdg" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_Vt7mSVIrEei4BuDhG3OUdg">
+                      <body>Creates a new &lt;code>GoToMission&lt;/code> instance.&#xD;
+     *&#xD;
+     * @param game a &lt;code>Game&lt;/code> value&#xD;
+     * @param e an &lt;code>Element&lt;/code> value</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_VtHG4VIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtHG4lIrEei4BuDhG3OUdg" name="e" type="_VsW48VIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtHG5VIrEei4BuDhG3OUdg" type="_Vm9bkFIrEei4BuDhG3OUdg" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtHt8FIrEei4BuDhG3OUdg" name="GoToMission" method="_Vtx1SFIrEei4BuDhG3OUdg">
+                    <eAnnotations xmi:id="_VtHt81IrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_VtHt9FIrEei4BuDhG3OUdg" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_Vt7mSlIrEei4BuDhG3OUdg">
+                      <body>Creates a new &lt;code>GoToMission&lt;/code> instance.&#xD;
+     *&#xD;
+     * @param game a &lt;code>Game&lt;/code> value&#xD;
+     * @param id The object identifier.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_VtHt8VIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtHt8lIrEei4BuDhG3OUdg" name="id">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_VtHt9VIrEei4BuDhG3OUdg" type="_Vm9bkFIrEei4BuDhG3OUdg" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtIVAVIrEei4BuDhG3OUdg" name="isValidFor" isStatic="true" method="_VtzqcFIrEei4BuDhG3OUdg">
+                    <ownedComment xmi:id="_Vt8NUVIrEei4BuDhG3OUdg">
+                      <body>Returns true if the given Unit has movement points. At the&#xD;
+     * moment, this is true for all units.&#xD;
+     *&#xD;
+     * @param unit an &lt;code>Unit&lt;/code> value&#xD;
+     * @return false</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_VtIVAlIrEei4BuDhG3OUdg" name="unit" type="_VsVDwVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtIVA1IrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtI8EFIrEei4BuDhG3OUdg" name="writeAttributes" visibility="protected" method="_Vtzqc1IrEei4BuDhG3OUdg" raisedException="_VsOWEFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtI8EVIrEei4BuDhG3OUdg" name="xw" type="_VsQyUVIrEei4BuDhG3OUdg"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtKKMFIrEei4BuDhG3OUdg" name="readAttributes" visibility="protected" method="_Vt0RgFIrEei4BuDhG3OUdg" raisedException="_VsOWEFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtKKMVIrEei4BuDhG3OUdg" name="xr" type="_VsPkMVIrEei4BuDhG3OUdg"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_VnsbYFIrEei4BuDhG3OUdg" name="CompoundMission">
+                  <ownedComment xmi:id="_Vt8NU1IrEei4BuDhG3OUdg">
+                    <body>The CompoundMission provides a wrapper for several more basic&#xD;
+Missions that will be carried out in order.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_VslicFIrEei4BuDhG3OUdg" general="_VoBykFIrEei4BuDhG3OUdg"/>
+                  <ownedAttribute xmi:id="_Vtjy0FIrEei4BuDhG3OUdg" name="missions" isLeaf="true" type="_VoOm4FIrEei4BuDhG3OUdg" isOrdered="true" association="_VvUtYVIrEei4BuDhG3OUdg">
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vtjy0VIrEei4BuDhG3OUdg" value="*"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_VtkZ4FIrEei4BuDhG3OUdg" name="index" visibility="private">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_VtlA8FIrEei4BuDhG3OUdg" name="INDEX_TAG" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_VtlA8VIrEei4BuDhG3OUdg" value="&quot;index&quot;"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt04kFIrEei4BuDhG3OUdg" name="CompoundMission" specification="_VtL_YFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt04kVIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vt04klIrEei4BuDhG3OUdg" type="_VnsbYFIrEei4BuDhG3OUdg" direction="return"/>
+                    <language>java</language>
+                    <body>super(game);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt1foFIrEei4BuDhG3OUdg" name="CompoundMission" specification="_VtNNgFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt1foVIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vt1folIrEei4BuDhG3OUdg" name="xr" type="_VsPkMVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vt1fo1IrEei4BuDhG3OUdg" type="_VnsbYFIrEei4BuDhG3OUdg" direction="return"/>
+                    <language>java</language>
+                    <body>super(game, xr);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt1fpFIrEei4BuDhG3OUdg" name="CompoundMission" specification="_VtN0kFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt1fpVIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vt1fplIrEei4BuDhG3OUdg" name="e" type="_VsW48VIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vt1fp1IrEei4BuDhG3OUdg" type="_VnsbYFIrEei4BuDhG3OUdg" direction="return"/>
+                    <language>java</language>
+                    <body>super(game, e);&#xD;
+     readFromXMLElement(e);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt1fqFIrEei4BuDhG3OUdg" name="CompoundMission" specification="_VtObo1IrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt1fqVIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vt1fqlIrEei4BuDhG3OUdg" name="id">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Vt1fq1IrEei4BuDhG3OUdg" type="_VnsbYFIrEei4BuDhG3OUdg" direction="return"/>
+                    <language>java</language>
+                    <body>super(game, id);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt2GsFIrEei4BuDhG3OUdg" name="getIndex" specification="_VnwFwFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt2GsVIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return index;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt2GslIrEei4BuDhG3OUdg" name="setIndex" specification="_Vnws0FIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt2Gs1IrEei4BuDhG3OUdg" name="newIndex">
+                      <eAnnotations xmi:id="_Vt2GtFIrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_Vt2GtVIrEei4BuDhG3OUdg" key="final"/>
+                      </eAnnotations>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>this.index = newIndex;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt2twFIrEei4BuDhG3OUdg" name="isValid" specification="_Vnx68FIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt2twVIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return (super.isValid() &amp;&amp; !missions.isEmpty())&#xD;
+         ? all(missions, Mission::isValid)&#xD;
+         : false;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt2twlIrEei4BuDhG3OUdg" name="doMission" specification="_VnyiA1IrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt2tw1IrEei4BuDhG3OUdg" type="_VtBAQFIrEei4BuDhG3OUdg" direction="return"/>
+                    <language>java</language>
+                    <body>MissionState state = missions.get(index).doMission();&#xD;
+     if (state == MissionState.COMPLETED) {&#xD;
+         index++;&#xD;
+         if (index == missions.size()) {&#xD;
+             setRepeatCount(getRepeatCount() - 1);&#xD;
+             if (getRepeatCount() > 0) {&#xD;
+                 index = 0;&#xD;
+             } else {&#xD;
+                 return MissionState.COMPLETED;&#xD;
+             }&#xD;
+         }&#xD;
+         if (getUnit().getMovesLeft() > 0) {&#xD;
+             return doMission();&#xD;
+         }&#xD;
+     }&#xD;
+     return state;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt2txFIrEei4BuDhG3OUdg" name="writeAttributes" specification="_VtPpwFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt2txVIrEei4BuDhG3OUdg" name="xw" type="_VsQyUVIrEei4BuDhG3OUdg"/>
+                    <language>java</language>
+                    <body>super.writeAttributes(xw);&#xD;
+&#xD;
+     xw.writeAttribute(INDEX_TAG, index);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt2txlIrEei4BuDhG3OUdg" name="writeChildren" specification="_VtQ34FIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt2tx1IrEei4BuDhG3OUdg" name="xw" type="_VsQyUVIrEei4BuDhG3OUdg"/>
+                    <language>java</language>
+                    <body>super.writeChildren(xw);&#xD;
+&#xD;
+     for (Mission mission : missions) {&#xD;
+         mission.toXML(xw);&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt3U0FIrEei4BuDhG3OUdg" name="readAttributes" specification="_VtRe8lIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt3U0VIrEei4BuDhG3OUdg" name="xr" type="_VsPkMVIrEei4BuDhG3OUdg"/>
+                    <language>java</language>
+                    <body>super.readAttributes(xr);&#xD;
+&#xD;
+     index = xr.getAttribute(INDEX_TAG, 0);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt3U0lIrEei4BuDhG3OUdg" name="readChildren" specification="_VtStEFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt3U01IrEei4BuDhG3OUdg" name="xr" type="_VsPkMVIrEei4BuDhG3OUdg"/>
+                    <language>java</language>
+                    <body>missions.clear();&#xD;
+&#xD;
+     while (xr.nextTag() != XMLStreamConstants.END_ELEMENT) {&#xD;
+         Mission mission = MissionManager.getMission(getGame(), xr);&#xD;
+         if (mission != null) missions.add(mission);&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt374FIrEei4BuDhG3OUdg" name="getXMLTagName" specification="_Vn0-QFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt374VIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return &quot;TODO!&quot;; </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_VnwFwFIrEei4BuDhG3OUdg" name="getIndex" isLeaf="true" method="_Vt2GsFIrEei4BuDhG3OUdg">
+                    <ownedComment xmi:id="_Vt80YFIrEei4BuDhG3OUdg">
+                      <body>Get the &lt;code>Index&lt;/code> value.&#xD;
+     *&#xD;
+     * @return an &lt;code>int&lt;/code> value</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_VnwFwVIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_Vnws0FIrEei4BuDhG3OUdg" name="setIndex" isLeaf="true" method="_Vt2GslIrEei4BuDhG3OUdg">
+                    <ownedComment xmi:id="_Vt80YVIrEei4BuDhG3OUdg">
+                      <body>Set the &lt;code>Index&lt;/code> value.&#xD;
+     *&#xD;
+     * @param newIndex The new Index value.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_Vnws0VIrEei4BuDhG3OUdg" name="newIndex">
+                      <eAnnotations xmi:id="_VnxT4FIrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_VnxT4VIrEei4BuDhG3OUdg" key="final"/>
+                      </eAnnotations>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_Vnx68FIrEei4BuDhG3OUdg" name="isValid" method="_Vt2twFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vnx68VIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VnyiA1IrEei4BuDhG3OUdg" name="doMission" method="_Vt2twlIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtPCtFIrEei4BuDhG3OUdg" type="_VtBAQFIrEei4BuDhG3OUdg" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_Vn0-QFIrEei4BuDhG3OUdg" name="getXMLTagName" method="_Vt374FIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vn0-QVIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtL_YFIrEei4BuDhG3OUdg" name="CompoundMission" method="_Vt04kFIrEei4BuDhG3OUdg">
+                    <eAnnotations xmi:id="_VtMmcVIrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_VtMmclIrEei4BuDhG3OUdg" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_Vt8NVFIrEei4BuDhG3OUdg">
+                      <body>Creates a new &lt;code>CompoundMission&lt;/code> instance.&#xD;
+     *&#xD;
+     * @param game a &lt;code>Game&lt;/code> value</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_VtMmcFIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtMmc1IrEei4BuDhG3OUdg" type="_VnsbYFIrEei4BuDhG3OUdg" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtNNgFIrEei4BuDhG3OUdg" name="CompoundMission" method="_Vt1foFIrEei4BuDhG3OUdg" raisedException="_VsOWEFIrEei4BuDhG3OUdg">
+                    <eAnnotations xmi:id="_VtNNg1IrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_VtNNhFIrEei4BuDhG3OUdg" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_Vt8NVVIrEei4BuDhG3OUdg">
+                      <body>Creates a new &lt;code>CompoundMission&lt;/code> instance.&#xD;
+     *&#xD;
+     * @param game a &lt;code>Game&lt;/code> value&#xD;
+     * @param xr a &lt;code>FreeColXMLReader&lt;/code> value&#xD;
+     * @exception XMLStreamException if an error occurs</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_VtNNgVIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtNNglIrEei4BuDhG3OUdg" name="xr" type="_VsPkMVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtNNhVIrEei4BuDhG3OUdg" type="_VnsbYFIrEei4BuDhG3OUdg" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtN0kFIrEei4BuDhG3OUdg" name="CompoundMission" method="_Vt1fpFIrEei4BuDhG3OUdg">
+                    <eAnnotations xmi:id="_VtOboFIrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_VtOboVIrEei4BuDhG3OUdg" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_Vt8NVlIrEei4BuDhG3OUdg">
+                      <body>Creates a new &lt;code>CompoundMission&lt;/code> instance.&#xD;
+     *&#xD;
+     * @param game a &lt;code>Game&lt;/code> value&#xD;
+     * @param e an &lt;code>Element&lt;/code> value</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_VtN0kVIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtN0klIrEei4BuDhG3OUdg" name="e" type="_VsW48VIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtObolIrEei4BuDhG3OUdg" type="_VnsbYFIrEei4BuDhG3OUdg" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtObo1IrEei4BuDhG3OUdg" name="CompoundMission" method="_Vt1fqFIrEei4BuDhG3OUdg">
+                    <eAnnotations xmi:id="_VtPCsVIrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_VtPCslIrEei4BuDhG3OUdg" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_Vt8NV1IrEei4BuDhG3OUdg">
+                      <body>Creates a new &lt;code>CompoundMission&lt;/code> instance.&#xD;
+     *&#xD;
+     * @param game a &lt;code>Game&lt;/code> value&#xD;
+     * @param id The object identifier.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_VtObpFIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtPCsFIrEei4BuDhG3OUdg" name="id">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_VtPCs1IrEei4BuDhG3OUdg" type="_VnsbYFIrEei4BuDhG3OUdg" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtPpwFIrEei4BuDhG3OUdg" name="writeAttributes" visibility="protected" method="_Vt2txFIrEei4BuDhG3OUdg" raisedException="_VsOWEFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtPpwVIrEei4BuDhG3OUdg" name="xw" type="_VsQyUVIrEei4BuDhG3OUdg"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtQ34FIrEei4BuDhG3OUdg" name="writeChildren" visibility="protected" method="_Vt2txlIrEei4BuDhG3OUdg" raisedException="_VsOWEFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtQ34VIrEei4BuDhG3OUdg" name="xw" type="_VsQyUVIrEei4BuDhG3OUdg"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtRe8lIrEei4BuDhG3OUdg" name="readAttributes" visibility="protected" method="_Vt3U0FIrEei4BuDhG3OUdg" raisedException="_VsOWEFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtRe81IrEei4BuDhG3OUdg" name="xr" type="_VsPkMVIrEei4BuDhG3OUdg"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtStEFIrEei4BuDhG3OUdg" name="readChildren" visibility="protected" method="_Vt3U0lIrEei4BuDhG3OUdg" raisedException="_VsOWEFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtStEVIrEei4BuDhG3OUdg" name="xr" type="_VsPkMVIrEei4BuDhG3OUdg"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_VoBykFIrEei4BuDhG3OUdg" name="AbstractMission" isAbstract="true">
+                  <ownedComment xmi:id="_Vt80YlIrEei4BuDhG3OUdg">
+                    <body>The AbstractMission provides basic methods for building Missions.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_Vtao4VIrEei4BuDhG3OUdg" general="_Vspz4FIrEei4BuDhG3OUdg"/>
+                  <ownedAttribute xmi:id="_VtmPEFIrEei4BuDhG3OUdg" name="unit" type="_VsVDwVIrEei4BuDhG3OUdg" association="_VvVUcVIrEei4BuDhG3OUdg"/>
+                  <ownedAttribute xmi:id="_VtoEQlIrEei4BuDhG3OUdg" name="repeatCount" isLeaf="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_VtoEQ1IrEei4BuDhG3OUdg" value="1"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_VtoERFIrEei4BuDhG3OUdg" name="turnCount" visibility="private">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_VtorUVIrEei4BuDhG3OUdg" name="REPEAT_COUNT_TAG" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_VtpSYFIrEei4BuDhG3OUdg" value="&quot;repeatCount&quot;"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_VtpSYVIrEei4BuDhG3OUdg" name="TURN_COUNT_TAG" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_VtpSYlIrEei4BuDhG3OUdg" value="&quot;turnCount&quot;"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_VtpSY1IrEei4BuDhG3OUdg" name="UNIT_TAG" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_VtpSZFIrEei4BuDhG3OUdg" value="&quot;unit&quot;"/>
+                  </ownedAttribute>
+                  <interfaceRealization xmi:id="_Vsqa8VIrEei4BuDhG3OUdg" client="_VoBykFIrEei4BuDhG3OUdg" supplier="_VoOm4FIrEei4BuDhG3OUdg" contract="_VoOm4FIrEei4BuDhG3OUdg"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt4i9VIrEei4BuDhG3OUdg" name="AbstractMission" specification="_VtUiQFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt4i9lIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vt4i91IrEei4BuDhG3OUdg" type="_VoBykFIrEei4BuDhG3OUdg" direction="return"/>
+                    <language>java</language>
+                    <body>super(game);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt4i-FIrEei4BuDhG3OUdg" name="AbstractMission" specification="_VtVJUFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt4i-VIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vt4i-lIrEei4BuDhG3OUdg" name="xr" type="_VsPkMVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vt4i-1IrEei4BuDhG3OUdg" type="_VoBykFIrEei4BuDhG3OUdg" direction="return"/>
+                    <language>java</language>
+                    <body>super(game, null);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt5KAFIrEei4BuDhG3OUdg" name="AbstractMission" specification="_VtVwYFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt5KAVIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vt5KAlIrEei4BuDhG3OUdg" name="e" type="_VsW48VIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vt5KA1IrEei4BuDhG3OUdg" type="_VoBykFIrEei4BuDhG3OUdg" direction="return"/>
+                    <language>java</language>
+                    <body>super(game, null);&#xD;
+&#xD;
+     readFromXMLElement(e);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt5KBFIrEei4BuDhG3OUdg" name="AbstractMission" specification="_VtWXcFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt5KBVIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vt5KBlIrEei4BuDhG3OUdg" name="id">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Vt5KB1IrEei4BuDhG3OUdg" type="_VoBykFIrEei4BuDhG3OUdg" direction="return"/>
+                    <language>java</language>
+                    <body>super(game, id);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt5KCFIrEei4BuDhG3OUdg" name="getTurnCount" specification="_VoFc8FIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt5KCVIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return turnCount;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt5KClIrEei4BuDhG3OUdg" name="setTurnCount" specification="_VoGEAFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt5KC1IrEei4BuDhG3OUdg" name="newTurnCount">
+                      <eAnnotations xmi:id="_Vt5KDFIrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_Vt5KDVIrEei4BuDhG3OUdg" key="final"/>
+                      </eAnnotations>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>this.turnCount = newTurnCount;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt5KDlIrEei4BuDhG3OUdg" name="isValid" specification="_VoGEBFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt5KD1IrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return unit != null&#xD;
+         &amp;&amp; !unit.isDisposed()&#xD;
+         &amp;&amp; repeatCount > 0;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt5xEFIrEei4BuDhG3OUdg" name="isValidFor" specification="_VtW-gFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt5xEVIrEei4BuDhG3OUdg" name="unit" type="_VsVDwVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vt5xElIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return false;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt5xE1IrEei4BuDhG3OUdg" name="writeAttributes" specification="_VtYzsFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt5xFFIrEei4BuDhG3OUdg" name="xw" type="_VsQyUVIrEei4BuDhG3OUdg"/>
+                    <language>java</language>
+                    <body>super.writeAttributes(xw);&#xD;
+&#xD;
+     xw.writeAttribute(UNIT_TAG, unit);&#xD;
+&#xD;
+     xw.writeAttribute(TURN_COUNT_TAG, turnCount);&#xD;
+&#xD;
+     xw.writeAttribute(REPEAT_COUNT_TAG, repeatCount);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt5xFVIrEei4BuDhG3OUdg" name="readAttributes" specification="_VtaB0FIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt5xFlIrEei4BuDhG3OUdg" name="xr" type="_VsPkMVIrEei4BuDhG3OUdg"/>
+                    <language>java</language>
+                    <body>super.readAttributes(xr);&#xD;
+&#xD;
+     unit = xr.makeFreeColGameObject(getGame(), UNIT_TAG, Unit.class, true);&#xD;
+&#xD;
+     turnCount = xr.getAttribute(TURN_COUNT_TAG, 0);&#xD;
+&#xD;
+     repeatCount = xr.getAttribute(REPEAT_COUNT_TAG, 1);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_VoFc8FIrEei4BuDhG3OUdg" name="getTurnCount" isLeaf="true" method="_Vt5KCFIrEei4BuDhG3OUdg">
+                    <ownedComment xmi:id="_Vt9bc1IrEei4BuDhG3OUdg">
+                      <body>Get the &lt;code>TurnCount&lt;/code> value.&#xD;
+     *&#xD;
+     * @return an &lt;code>int&lt;/code> value</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_VoFc8VIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VoGEAFIrEei4BuDhG3OUdg" name="setTurnCount" isLeaf="true" method="_Vt5KClIrEei4BuDhG3OUdg">
+                    <ownedComment xmi:id="_Vt9bdFIrEei4BuDhG3OUdg">
+                      <body>Set the &lt;code>TurnCount&lt;/code> value.&#xD;
+     *&#xD;
+     * @param newTurnCount The new TurnCount value.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_VoGEAVIrEei4BuDhG3OUdg" name="newTurnCount">
+                      <eAnnotations xmi:id="_VoGEAlIrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_VoGEA1IrEei4BuDhG3OUdg" key="final"/>
+                      </eAnnotations>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VoGEBFIrEei4BuDhG3OUdg" name="isValid" method="_Vt5KDlIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VoGrEFIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtUiQFIrEei4BuDhG3OUdg" name="AbstractMission" method="_Vt4i9VIrEei4BuDhG3OUdg">
+                    <eAnnotations xmi:id="_VtUiQlIrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_VtUiQ1IrEei4BuDhG3OUdg" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_Vt80Y1IrEei4BuDhG3OUdg">
+                      <body>Creates a new &lt;code>AbstractMission&lt;/code> instance.&#xD;
+     *&#xD;
+     * @param game a &lt;code>Game&lt;/code> value</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_VtUiQVIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtUiRFIrEei4BuDhG3OUdg" type="_VoBykFIrEei4BuDhG3OUdg" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtVJUFIrEei4BuDhG3OUdg" name="AbstractMission" method="_Vt4i-FIrEei4BuDhG3OUdg" raisedException="_VsOWEFIrEei4BuDhG3OUdg">
+                    <eAnnotations xmi:id="_VtVJU1IrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_VtVJVFIrEei4BuDhG3OUdg" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_Vt9bcFIrEei4BuDhG3OUdg">
+                      <body>Creates a new &lt;code>AbstractMission&lt;/code> instance.&#xD;
+     *&#xD;
+     * @param game a &lt;code>Game&lt;/code> value&#xD;
+     * @param xr a &lt;code>FreeColXMLReader&lt;/code> value&#xD;
+     * @exception XMLStreamException if an error occurs</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_VtVJUVIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtVJUlIrEei4BuDhG3OUdg" name="xr" type="_VsPkMVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtVJVVIrEei4BuDhG3OUdg" type="_VoBykFIrEei4BuDhG3OUdg" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtVwYFIrEei4BuDhG3OUdg" name="AbstractMission" method="_Vt5KAFIrEei4BuDhG3OUdg">
+                    <eAnnotations xmi:id="_VtVwY1IrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_VtVwZFIrEei4BuDhG3OUdg" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_Vt9bcVIrEei4BuDhG3OUdg">
+                      <body>Creates a new &lt;code>AbstractMission&lt;/code> instance.&#xD;
+     *&#xD;
+     * @param game a &lt;code>Game&lt;/code> value&#xD;
+     * @param e an &lt;code>Element&lt;/code> value</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_VtVwYVIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtVwYlIrEei4BuDhG3OUdg" name="e" type="_VsW48VIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtVwZVIrEei4BuDhG3OUdg" type="_VoBykFIrEei4BuDhG3OUdg" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtWXcFIrEei4BuDhG3OUdg" name="AbstractMission" method="_Vt5KBFIrEei4BuDhG3OUdg">
+                    <eAnnotations xmi:id="_VtWXc1IrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_VtWXdFIrEei4BuDhG3OUdg" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_Vt9bclIrEei4BuDhG3OUdg">
+                      <body>Creates a new &lt;code>AbstractMission&lt;/code> instance.&#xD;
+     *&#xD;
+     * @param game a &lt;code>Game&lt;/code> value&#xD;
+     * @param id The object identifier.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_VtWXcVIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtWXclIrEei4BuDhG3OUdg" name="id">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_VtWXdVIrEei4BuDhG3OUdg" type="_VoBykFIrEei4BuDhG3OUdg" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtW-gFIrEei4BuDhG3OUdg" name="isValidFor" isStatic="true" method="_Vt5xEFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtXlkFIrEei4BuDhG3OUdg" name="unit" type="_VsVDwVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtXlkVIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtYzsFIrEei4BuDhG3OUdg" name="writeAttributes" visibility="protected" method="_Vt5xE1IrEei4BuDhG3OUdg" raisedException="_VsOWEFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtYzsVIrEei4BuDhG3OUdg" name="xw" type="_VsQyUVIrEei4BuDhG3OUdg"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtaB0FIrEei4BuDhG3OUdg" name="readAttributes" visibility="protected" method="_Vt5xFVIrEei4BuDhG3OUdg" raisedException="_VsOWEFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtaB0VIrEei4BuDhG3OUdg" name="xr" type="_VsPkMVIrEei4BuDhG3OUdg"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Interface" xmi:id="_VoOm4FIrEei4BuDhG3OUdg" name="Mission">
+                  <ownedComment xmi:id="_Vt-CgFIrEei4BuDhG3OUdg">
+                    <body>The Mission interface describes some kind of order that can be&#xD;
+given to a {@link Unit}, such as the order to move to a certain&#xD;
+Tile, attack a certain Unit, or build a TileImprovement, for&#xD;
+example. Missions can be atomic, or combine a number of simpler&#xD;
+Missions.</body>
+                  </ownedComment>
+                  <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_VoP1AFIrEei4BuDhG3OUdg" name="MissionState">
+                    <eAnnotations xmi:id="_VoP1AVIrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_VoP1AlIrEei4BuDhG3OUdg" key="static"/>
+                    </eAnnotations>
+                    <ownedLiteral xmi:id="_VoRDIVIrEei4BuDhG3OUdg" name="OK"/>
+                    <ownedLiteral xmi:id="_VoRDIlIrEei4BuDhG3OUdg" name="COMPLETED"/>
+                    <ownedLiteral xmi:id="_VoRDI1IrEei4BuDhG3OUdg" name="BLOCKED"/>
+                    <ownedLiteral xmi:id="_VoRqMFIrEei4BuDhG3OUdg" name="ABORTED"/>
+                  </nestedClassifier>
+                  <ownedAttribute xmi:id="_VoSRQFIrEei4BuDhG3OUdg" name="valid" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_VoS4UFIrEei4BuDhG3OUdg" name="unit" type="_VsVDwVIrEei4BuDhG3OUdg" isReadOnly="true" association="_VvSRIFIrEei4BuDhG3OUdg"/>
+                  <ownedOperation xmi:id="_VoRqMVIrEei4BuDhG3OUdg" name="doMission">
+                    <ownedComment xmi:id="_Vt-CgVIrEei4BuDhG3OUdg">
+                      <body>Attempts to carry out the mission and returns an appropriate&#xD;
+     * MissionState.&#xD;
+     *&#xD;
+     * @return a &lt;code>MissionState&lt;/code> value</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_VsxIoFIrEei4BuDhG3OUdg" type="_VoP1AFIrEei4BuDhG3OUdg" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtceEFIrEei4BuDhG3OUdg" name="toXML" raisedException="_VsOWEFIrEei4BuDhG3OUdg">
+                    <ownedComment xmi:id="_Vt-pkFIrEei4BuDhG3OUdg">
+                      <body>This method writes an XML-representation of this object to&#xD;
+     * the given stream.&#xD;
+     *&#xD;
+     * @param xw The &lt;code>FreeColXMLWriter&lt;/code> to write to.&#xD;
+     * @throws XMLStreamException if there are any problems writing&#xD;
+     *      to the stream.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_VtdFIFIrEei4BuDhG3OUdg" name="xw" type="_VsQyUVIrEei4BuDhG3OUdg"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_VoUtgFIrEei4BuDhG3OUdg" name="MissionManager">
+                  <ownedComment xmi:id="_Vt-pkVIrEei4BuDhG3OUdg">
+                    <body>The MissionManager keeps track of all missions defined.&#xD;
+ *&#xD;
+@see net.sf.freecol.client.gui.action.ActionManager</body>
+                  </ownedComment>
+                  <ownedAttribute xmi:id="_VtqggFIrEei4BuDhG3OUdg" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_Vs0zAVIrEei4BuDhG3OUdg" isReadOnly="true" association="_VvV7gVIrEei4BuDhG3OUdg">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_VtqggVIrEei4BuDhG3OUdg" value="Logger.getLogger(MissionManager.class.getName())"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_VtqgglIrEei4BuDhG3OUdg" name="missionMap" visibility="private" isLeaf="true" isStatic="true" type="_VsxvsFIrEei4BuDhG3OUdg" isReadOnly="true" association="_VvWikVIrEei4BuDhG3OUdg">
+                    <qualifier xmi:id="_VtruolIrEei4BuDhG3OUdg">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </qualifier>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_VtruoVIrEei4BuDhG3OUdg" value="new HashMap&lt;>()"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt6YIFIrEei4BuDhG3OUdg" name="_initializer1" specification="_VoV7oFIrEei4BuDhG3OUdg">
+                    <language>java</language>
+                    <body>try {&#xD;
+         missionMap.put(CompoundMission.getXMLElementTagName(),&#xD;
+                        CompoundMission.class.getConstructor(Game.class, FreeColXMLReader.class));&#xD;
+         missionMap.put(GoToMission.getXMLElementTagName(),&#xD;
+                        GoToMission.class.getConstructor(Game.class, FreeColXMLReader.class));&#xD;
+         missionMap.put(ImprovementMission.getXMLElementTagName(),&#xD;
+                        ImprovementMission.class.getConstructor(Game.class, FreeColXMLReader.class));&#xD;
+&#xD;
+     } catch (NoSuchMethodException e) {&#xD;
+         logger.log(Level.WARNING, &quot;Missing constructor&quot;, e);&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt6YIVIrEei4BuDhG3OUdg" name="isMissionTag" specification="_VoWisFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt6YIlIrEei4BuDhG3OUdg" name="tag">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Vt6YI1IrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return missionMap.containsKey(tag);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Vt6YJFIrEei4BuDhG3OUdg" name="getMission" specification="_VtdsMFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_Vt6YJVIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vt6YJlIrEei4BuDhG3OUdg" name="xr" type="_VsPkMVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_Vt6YJ1IrEei4BuDhG3OUdg" type="_VoOm4FIrEei4BuDhG3OUdg" direction="return"/>
+                    <language>java</language>
+                    <body>String tag = xr.getLocalName();&#xD;
+     Constructor&lt;? extends Mission> c = missionMap.get(tag);&#xD;
+     if (c == null) {&#xD;
+         logger.warning(&quot;Unknown type of mission: '&quot; + tag + &quot;'.&quot;);&#xD;
+         xr.nextTag();&#xD;
+         return null;&#xD;
+     } else {&#xD;
+         try {&#xD;
+             return c.newInstance(game, xr);&#xD;
+         } catch (Exception e) {&#xD;
+             logger.log(Level.WARNING, &quot;Failed to instatiate mission with tag: &quot;&#xD;
+                 + tag, e);&#xD;
+             return null;&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_VoV7oFIrEei4BuDhG3OUdg" name="_initializer1" isStatic="true" method="_Vt6YIFIrEei4BuDhG3OUdg">
+                    <eAnnotations xmi:id="_VoV7oVIrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_VoV7olIrEei4BuDhG3OUdg" key="init"/>
+                    </eAnnotations>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VoWisFIrEei4BuDhG3OUdg" name="isMissionTag" isStatic="true" method="_Vt6YIVIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VoWisVIrEei4BuDhG3OUdg" name="tag">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_VoWislIrEei4BuDhG3OUdg" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_VtdsMFIrEei4BuDhG3OUdg" name="getMission" isStatic="true" method="_Vt6YJFIrEei4BuDhG3OUdg" raisedException="_VsOWEFIrEei4BuDhG3OUdg">
+                    <ownedParameter xmi:id="_VtdsMVIrEei4BuDhG3OUdg" name="game" type="_VsSngVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtdsMlIrEei4BuDhG3OUdg" name="xr" type="_VsPkMVIrEei4BuDhG3OUdg"/>
+                    <ownedParameter xmi:id="_VtdsM1IrEei4BuDhG3OUdg" type="_VoOm4FIrEei4BuDhG3OUdg" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_VtBAQFIrEei4BuDhG3OUdg" name="MissionState"/>
+                <packagedElement xmi:type="uml:Association" xmi:id="_VvSRIFIrEei4BuDhG3OUdg" name="" memberEnd="_VvSRIVIrEei4BuDhG3OUdg _VoS4UFIrEei4BuDhG3OUdg">
+                  <ownedEnd xmi:id="_VvSRIVIrEei4BuDhG3OUdg" name="" type="_VoOm4FIrEei4BuDhG3OUdg" association="_VvSRIFIrEei4BuDhG3OUdg"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_VvTfQVIrEei4BuDhG3OUdg" name="" memberEnd="_VvTfQlIrEei4BuDhG3OUdg _VtgIcFIrEei4BuDhG3OUdg">
+                  <ownedEnd xmi:id="_VvTfQlIrEei4BuDhG3OUdg" name="" type="_Vmjy8FIrEei4BuDhG3OUdg" association="_VvTfQVIrEei4BuDhG3OUdg"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_VvUGUVIrEei4BuDhG3OUdg" name="" memberEnd="_VvUGUlIrEei4BuDhG3OUdg _Vth9olIrEei4BuDhG3OUdg">
+                  <ownedEnd xmi:id="_VvUGUlIrEei4BuDhG3OUdg" name="" type="_Vm9bkFIrEei4BuDhG3OUdg" association="_VvUGUVIrEei4BuDhG3OUdg"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_VvUtYVIrEei4BuDhG3OUdg" name="" memberEnd="_VvUtYlIrEei4BuDhG3OUdg _Vtjy0FIrEei4BuDhG3OUdg">
+                  <ownedEnd xmi:id="_VvUtYlIrEei4BuDhG3OUdg" name="" type="_VnsbYFIrEei4BuDhG3OUdg" association="_VvUtYVIrEei4BuDhG3OUdg"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_VvVUcVIrEei4BuDhG3OUdg" name="" memberEnd="_VvVUclIrEei4BuDhG3OUdg _VtmPEFIrEei4BuDhG3OUdg">
+                  <ownedEnd xmi:id="_VvVUclIrEei4BuDhG3OUdg" name="" type="_VoBykFIrEei4BuDhG3OUdg" association="_VvVUcVIrEei4BuDhG3OUdg"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_VvV7gVIrEei4BuDhG3OUdg" name="" memberEnd="_VvV7glIrEei4BuDhG3OUdg _VtqggFIrEei4BuDhG3OUdg">
+                  <ownedEnd xmi:id="_VvV7glIrEei4BuDhG3OUdg" name="" type="_VoUtgFIrEei4BuDhG3OUdg" association="_VvV7gVIrEei4BuDhG3OUdg"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_VvWikVIrEei4BuDhG3OUdg" name="" memberEnd="_VvWiklIrEei4BuDhG3OUdg _VtqgglIrEei4BuDhG3OUdg">
+                  <ownedEnd xmi:id="_VvWiklIrEei4BuDhG3OUdg" name="" type="_VoUtgFIrEei4BuDhG3OUdg" association="_VvWikVIrEei4BuDhG3OUdg"/>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_VsSAcFIrEei4BuDhG3OUdg" name="Ability"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_VsSngVIrEei4BuDhG3OUdg" name="Game"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_VsTOkVIrEei4BuDhG3OUdg" name="Specification"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_VsUcsVIrEei4BuDhG3OUdg" name="TileImprovement"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_VsVDwVIrEei4BuDhG3OUdg" name="Unit"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_VscYgFIrEei4BuDhG3OUdg" name="Location"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_Vspz4FIrEei4BuDhG3OUdg" name="FreeColGameObject"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_VkGU0VIrEei4BuDhG3OUdg" name="io">
+              <packagedElement xmi:type="uml:Class" xmi:id="_VsPkMVIrEei4BuDhG3OUdg" name="FreeColXMLReader"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_VsQyUVIrEei4BuDhG3OUdg" name="FreeColXMLWriter"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_VkHi8FIrEei4BuDhG3OUdg" name="util">
+              <packagedElement xmi:type="uml:Class" xmi:id="_VsWR4FIrEei4BuDhG3OUdg" name="CollectionUtils"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_VkFtwFIrEei4BuDhG3OUdg" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_VkFtwVIrEei4BuDhG3OUdg" name="xml">
+        <packagedElement xmi:type="uml:Package" xmi:id="_VkGU0FIrEei4BuDhG3OUdg" name="stream">
+          <packagedElement xmi:type="uml:Class" xmi:id="_VsOWEFIrEei4BuDhG3OUdg" name="XMLStreamException"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_VsjGMVIrEei4BuDhG3OUdg" name="XMLStreamConstants"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_VkIKAFIrEei4BuDhG3OUdg" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_VkIKAVIrEei4BuDhG3OUdg" name="w3c">
+        <packagedElement xmi:type="uml:Package" xmi:id="_VkIKAlIrEei4BuDhG3OUdg" name="dom">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_VsW48VIrEei4BuDhG3OUdg" name="Element"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_VlNIEFIrEei4BuDhG3OUdg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_VlNvIFIrEei4BuDhG3OUdg" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_VlnXwlIrEei4BuDhG3OUdg" name="logging">
+          <packagedElement xmi:type="uml:Class" xmi:id="_Vs0L8VIrEei4BuDhG3OUdg" name="Level"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Vs0zAVIrEei4BuDhG3OUdg" name="Logger"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_VsifIFIrEei4BuDhG3OUdg" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Vsy90VIrEei4BuDhG3OUdg" name="HashMap"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_Vszk4VIrEei4BuDhG3OUdg" name="Map"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_VlnXwFIrEei4BuDhG3OUdg" name="lang">
+        <packagedElement xmi:type="uml:Package" xmi:id="_VlnXwVIrEei4BuDhG3OUdg" name="reflect">
+          <packagedElement xmi:type="uml:Class" xmi:id="_VsxvsFIrEei4BuDhG3OUdg" name="Constructor"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_U9_-IFIrEei4BuDhG3OUdg">
+      <eAnnotations xmi:id="_U-FdsFIrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_U-JvIFIrEei4BuDhG3OUdg" base_Package="_UWeEEFIrEei4BuDhG3OUdg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VmuLAFIrEei4BuDhG3OUdg" base_Element="_Vmtj8FIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Annotations xmi:id="_VmwnQFIrEei4BuDhG3OUdg" base_Element="_Vmtj8FIrEei4BuDhG3OUdg">
+    <annotations xmi:id="_VmwnQVIrEei4BuDhG3OUdg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VmyccFIrEei4BuDhG3OUdg" base_Element="_VmxOUFIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Annotations xmi:id="_VmzDgFIrEei4BuDhG3OUdg" base_Element="_VmxOUFIrEei4BuDhG3OUdg">
+    <annotations xmi:id="_VmzDgVIrEei4BuDhG3OUdg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Vm1fwFIrEei4BuDhG3OUdg" base_Element="_Vm04sFIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Annotations xmi:id="_Vm1fwVIrEei4BuDhG3OUdg" base_Element="_Vm04sFIrEei4BuDhG3OUdg">
+    <annotations xmi:id="_Vm2G0FIrEei4BuDhG3OUdg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VnEJQFIrEei4BuDhG3OUdg" base_Element="_VnDiMlIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Annotations xmi:id="_VnEJQVIrEei4BuDhG3OUdg" base_Element="_VnDiMlIrEei4BuDhG3OUdg">
+    <annotations xmi:id="_VnEJQlIrEei4BuDhG3OUdg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VnFXYFIrEei4BuDhG3OUdg" base_Element="_VnEwUFIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Annotations xmi:id="_VnFXYVIrEei4BuDhG3OUdg" base_Element="_VnEwUFIrEei4BuDhG3OUdg">
+    <annotations xmi:id="_VnFXYlIrEei4BuDhG3OUdg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VnHMkFIrEei4BuDhG3OUdg" base_Element="_VnGlgFIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Annotations xmi:id="_VnHMkVIrEei4BuDhG3OUdg" base_Element="_VnGlgFIrEei4BuDhG3OUdg">
+    <annotations xmi:id="_VnHMklIrEei4BuDhG3OUdg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VnyiAFIrEei4BuDhG3OUdg" base_Element="_Vnx68FIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Annotations xmi:id="_VnyiAVIrEei4BuDhG3OUdg" base_Element="_Vnx68FIrEei4BuDhG3OUdg">
+    <annotations xmi:id="_VnyiAlIrEei4BuDhG3OUdg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VnzJEFIrEei4BuDhG3OUdg" base_Element="_VnyiA1IrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Annotations xmi:id="_VnzwIFIrEei4BuDhG3OUdg" base_Element="_VnyiA1IrEei4BuDhG3OUdg">
+    <annotations xmi:id="_VnzwIVIrEei4BuDhG3OUdg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Vn1lUFIrEei4BuDhG3OUdg" base_Element="_Vn0-QFIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Annotations xmi:id="_Vn1lUVIrEei4BuDhG3OUdg" base_Element="_Vn0-QFIrEei4BuDhG3OUdg">
+    <annotations xmi:id="_Vn1lUlIrEei4BuDhG3OUdg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VoGrEVIrEei4BuDhG3OUdg" base_Element="_VoGEBFIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Annotations xmi:id="_VoHSIFIrEei4BuDhG3OUdg" base_Element="_VoGEBFIrEei4BuDhG3OUdg">
+    <annotations xmi:id="_VoHSIVIrEei4BuDhG3OUdg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VoRDIFIrEei4BuDhG3OUdg" base_Element="_VoP1AFIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VoV7o1IrEei4BuDhG3OUdg" base_Element="_VoV7oFIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_VsPkMFIrEei4BuDhG3OUdg" base_Element="_VsOWEFIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_VsQyUFIrEei4BuDhG3OUdg" base_Element="_VsPkMVIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_VsRZYFIrEei4BuDhG3OUdg" base_Element="_VsQyUVIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_VsSngFIrEei4BuDhG3OUdg" base_Element="_VsSAcFIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_VsTOkFIrEei4BuDhG3OUdg" base_Element="_VsSngVIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_VsUcsFIrEei4BuDhG3OUdg" base_Element="_VsTOkVIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_VsVDwFIrEei4BuDhG3OUdg" base_Element="_VsUcsVIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_VsVq0FIrEei4BuDhG3OUdg" base_Element="_VsVDwVIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_VsW48FIrEei4BuDhG3OUdg" base_Element="_VsWR4FIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_VsXgAFIrEei4BuDhG3OUdg" base_Element="_VsW48VIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_VsdmoFIrEei4BuDhG3OUdg" base_Element="_VscYgFIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_VsjGMFIrEei4BuDhG3OUdg" base_Element="_VsifIFIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_VsjtQFIrEei4BuDhG3OUdg" base_Element="_VsjGMVIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_Vsqa8FIrEei4BuDhG3OUdg" base_Element="_Vspz4FIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_Vsy90FIrEei4BuDhG3OUdg" base_Element="_VsxvsFIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_Vszk4FIrEei4BuDhG3OUdg" base_Element="_Vsy90VIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_Vs0L8FIrEei4BuDhG3OUdg" base_Element="_Vszk4VIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_Vs0zAFIrEei4BuDhG3OUdg" base_Element="_Vs0L8VIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_Vs1aEFIrEei4BuDhG3OUdg" base_Element="_Vs0zAVIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_VtBnUFIrEei4BuDhG3OUdg" base_Element="_VtBAQFIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VtC1cFIrEei4BuDhG3OUdg" base_Element="_VtCOYVIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Annotations xmi:id="_VtDcgFIrEei4BuDhG3OUdg" base_Element="_VtCOYVIrEei4BuDhG3OUdg">
+    <annotations xmi:id="_VtDcgVIrEei4BuDhG3OUdg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VtEDkVIrEei4BuDhG3OUdg" base_Element="_VtDcglIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Annotations xmi:id="_VtEDklIrEei4BuDhG3OUdg" base_Element="_VtDcglIrEei4BuDhG3OUdg">
+    <annotations xmi:id="_VtEDk1IrEei4BuDhG3OUdg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VtJjIFIrEei4BuDhG3OUdg" base_Element="_VtI8EFIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Annotations xmi:id="_VtJjIVIrEei4BuDhG3OUdg" base_Element="_VtI8EFIrEei4BuDhG3OUdg">
+    <annotations xmi:id="_VtJjIlIrEei4BuDhG3OUdg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VtKKMlIrEei4BuDhG3OUdg" base_Element="_VtKKMFIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Annotations xmi:id="_VtKxQFIrEei4BuDhG3OUdg" base_Element="_VtKKMFIrEei4BuDhG3OUdg">
+    <annotations xmi:id="_VtKxQVIrEei4BuDhG3OUdg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VtQQ0FIrEei4BuDhG3OUdg" base_Element="_VtPpwFIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Annotations xmi:id="_VtQQ0VIrEei4BuDhG3OUdg" base_Element="_VtPpwFIrEei4BuDhG3OUdg">
+    <annotations xmi:id="_VtQQ0lIrEei4BuDhG3OUdg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VtQ34lIrEei4BuDhG3OUdg" base_Element="_VtQ34FIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Annotations xmi:id="_VtRe8FIrEei4BuDhG3OUdg" base_Element="_VtQ34FIrEei4BuDhG3OUdg">
+    <annotations xmi:id="_VtRe8VIrEei4BuDhG3OUdg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VtSGAFIrEei4BuDhG3OUdg" base_Element="_VtRe8lIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Annotations xmi:id="_VtSGAVIrEei4BuDhG3OUdg" base_Element="_VtRe8lIrEei4BuDhG3OUdg">
+    <annotations xmi:id="_VtSGAlIrEei4BuDhG3OUdg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VtTUIFIrEei4BuDhG3OUdg" base_Element="_VtStEFIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Annotations xmi:id="_VtTUIVIrEei4BuDhG3OUdg" base_Element="_VtStEFIrEei4BuDhG3OUdg">
+    <annotations xmi:id="_VtTUIlIrEei4BuDhG3OUdg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VtXlklIrEei4BuDhG3OUdg" base_Element="_VtW-gFIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Annotations xmi:id="_VtYMoFIrEei4BuDhG3OUdg" base_Element="_VtXlkFIrEei4BuDhG3OUdg">
+    <annotations xmi:id="_VtYMoVIrEei4BuDhG3OUdg" name="SuppressWarnings">
+      <annotationParameters xmi:id="_VtYMolIrEei4BuDhG3OUdg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Vt9bdVIrEei4BuDhG3OUdg" value="&quot;unusued&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VtZawFIrEei4BuDhG3OUdg" base_Element="_VtYzsFIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Annotations xmi:id="_VtZawVIrEei4BuDhG3OUdg" base_Element="_VtYzsFIrEei4BuDhG3OUdg">
+    <annotations xmi:id="_VtZawlIrEei4BuDhG3OUdg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VtaB0lIrEei4BuDhG3OUdg" base_Element="_VtaB0FIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Annotations xmi:id="_VtaB01IrEei4BuDhG3OUdg" base_Element="_VtaB0FIrEei4BuDhG3OUdg">
+    <annotations xmi:id="_Vtao4FIrEei4BuDhG3OUdg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Vth9oVIrEei4BuDhG3OUdg" base_Element="_Vth9oFIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VtkZ4VIrEei4BuDhG3OUdg" base_Element="_VtkZ4FIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VtloAFIrEei4BuDhG3OUdg" base_Element="_VtlA8FIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VtmPEVIrEei4BuDhG3OUdg" base_Element="_VtmPEFIrEei4BuDhG3OUdg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_Vtm2IFIrEei4BuDhG3OUdg" name="setUnit" isLeaf="true" method="_Vt374lIrEei4BuDhG3OUdg">
+      <ownedParameter xmi:id="_Vtm2IVIrEei4BuDhG3OUdg" name="newUnit" type="_VsVDwVIrEei4BuDhG3OUdg">
+        <eAnnotations xmi:id="_VtndMlIrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_VtndM1IrEei4BuDhG3OUdg" key="final"/>
+        </eAnnotations>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_VtndMFIrEei4BuDhG3OUdg" name="getUnit" isLeaf="true" method="_Vt4i81IrEei4BuDhG3OUdg">
+      <ownedParameter xmi:id="_VtndMVIrEei4BuDhG3OUdg" type="_VsVDwVIrEei4BuDhG3OUdg" direction="return"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_VtoEQFIrEei4BuDhG3OUdg" base_Element="_VtndMFIrEei4BuDhG3OUdg">
+    <annotations xmi:id="_VtoEQVIrEei4BuDhG3OUdg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VtorUFIrEei4BuDhG3OUdg" base_Element="_VtoERFIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Generics xmi:id="_VtruoFIrEei4BuDhG3OUdg" genericsValue="? extends Mission" base_Element="_VtqgglIrEei4BuDhG3OUdg"/>
+  <uml:OpaqueBehavior xmi:id="_Vt374lIrEei4BuDhG3OUdg" name="setUnit" specification="_Vtm2IFIrEei4BuDhG3OUdg">
+    <ownedParameter xmi:id="_Vt4i8FIrEei4BuDhG3OUdg" name="newUnit" type="_VsVDwVIrEei4BuDhG3OUdg">
+      <eAnnotations xmi:id="_Vt4i8VIrEei4BuDhG3OUdg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_Vt4i8lIrEei4BuDhG3OUdg" key="final"/>
+      </eAnnotations>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.unit = newUnit;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_Vt4i81IrEei4BuDhG3OUdg" name="getUnit" specification="_VtndMFIrEei4BuDhG3OUdg">
+    <ownedParameter xmi:id="_Vt4i9FIrEei4BuDhG3OUdg" type="_VsVDwVIrEei4BuDhG3OUdg" direction="return"/>
+    <language>java</language>
+    <body>return unit;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_VvTfQFIrEei4BuDhG3OUdg" base_Element="_VvSRIFIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_VvUGUFIrEei4BuDhG3OUdg" base_Element="_VvTfQVIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_VvUtYFIrEei4BuDhG3OUdg" base_Element="_VvUGUVIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_VvVUcFIrEei4BuDhG3OUdg" base_Element="_VvUtYVIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_VvV7gFIrEei4BuDhG3OUdg" base_Element="_VvVUcVIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_VvWikFIrEei4BuDhG3OUdg" base_Element="_VvV7gVIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Reference xmi:id="_VvXJoFIrEei4BuDhG3OUdg" base_Element="_VvWikVIrEei4BuDhG3OUdg"/>
+  <UMLLabProfile:Patch xmi:id="_WtlscFIrEei4BuDhG3OUdg" base_Element="_VoOm4FIrEei4BuDhG3OUdg" patchText="@@ -1726,16 +1726,19 @@&#xA; D%0D%0A    %7D&#xA;+;%0D%0A&#xA; %0D%0A%0D%0A    &#xA;" conflicting="false"/>
+</xmi:XMI>

@@ -1,0 +1,1544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_V-3CYFIkEeibjuLm5_lcNQ" name="menu">
+    <eAnnotations xmi:id="_WjkR8FIkEeibjuLm5_lcNQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_WjkR8VIkEeibjuLm5_lcNQ" source="codegen">
+        <details xmi:id="_WjkR8lIkEeibjuLm5_lcNQ" key="codegenDirectory" value="/COSC442-FinalProject/src"/>
+        <details xmi:id="_W_rmMFIkEeibjuLm5_lcNQ" key="AssociatedSourceCode" value="/COSC442-FinalProject/src/net/sf/freecol/client/gui/menu/DebugMenu.java;1654499682/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/menu/FreeColMenuBar.java;2249535820/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/menu/FreeColMenuTest.java;2526112932/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/menu/InGameMenuBar.java;2779593910/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/menu/MapEditorMenuBar.java;3851495832/1;/COSC442-FinalProject/src/net/sf/freecol/client/gui/menu/MenuMouseMotionListener.java;2190967805/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_WpTtkFIkEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_WpTtkVIkEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_WpTtklIkEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_WpTtk1IkEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_WpTtlFIkEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_WpTtlVIkEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_WpTtllIkEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_WpTtl1IkEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_WpTtmFIkEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Wo5d4FIkEeibjuLm5_lcNQ" name="net">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Wo5d4VIkEeibjuLm5_lcNQ" name="sf">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Wo5d4lIkEeibjuLm5_lcNQ" name="freecol">
+          <packagedElement xmi:type="uml:Package" xmi:id="_Wo5d41IkEeibjuLm5_lcNQ" name="client">
+            <packagedElement xmi:type="uml:Package" xmi:id="_Wo5d5FIkEeibjuLm5_lcNQ" name="gui">
+              <packagedElement xmi:type="uml:Package" xmi:id="_Wo7TEFIkEeibjuLm5_lcNQ" name="panel">
+                <packagedElement xmi:type="uml:Class" xmi:id="_Wt2PUVIkEeibjuLm5_lcNQ" name="Utility"/>
+                <packagedElement xmi:type="uml:Class" xmi:id="_WuAnY1IkEeibjuLm5_lcNQ" name="FreeColImageBorder"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_Wo7TF1IkEeibjuLm5_lcNQ" name="menu">
+                <packagedElement xmi:type="uml:Class" xmi:id="_WpSfcFIkEeibjuLm5_lcNQ" name="DebugMenu">
+                  <ownedComment xmi:id="_Wu-QsFIkEeibjuLm5_lcNQ">
+                    <body>The menu that appears in debug mode.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_WugWo1IkEeibjuLm5_lcNQ" general="_WtzMAVIkEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_WuxcYFIkEeibjuLm5_lcNQ" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_WtxW0VIkEeibjuLm5_lcNQ" isReadOnly="true" association="_WvB7EFIkEeibjuLm5_lcNQ">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_WuyDcFIkEeibjuLm5_lcNQ" value="Logger.getLogger(DebugMenu.class.getName())"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_Wuyqg1IkEeibjuLm5_lcNQ" name="ERROR_MESSAGE" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_WuyqhFIkEeibjuLm5_lcNQ" value="&quot;This is a long error message, indicating that some error has occurred. &quot; +&#xD;&#xA;        &quot;This is a long error message, indicating that some error has occurred. &quot; +&#xD;&#xA;        &quot;This is a long error message, indicating that some error has occurred.&quot;"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_WuyqhVIkEeibjuLm5_lcNQ" name="freeColClient" visibility="private" isLeaf="true" type="_Wt1BMVIkEeibjuLm5_lcNQ" isReadOnly="true" association="_WvCiIVIkEeibjuLm5_lcNQ"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu4xIFIkEeibjuLm5_lcNQ" name="DebugMenu" specification="_WufvkFIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_Wu4xIVIkEeibjuLm5_lcNQ" name="freeColClient" type="_Wt1BMVIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_Wu4xIlIkEeibjuLm5_lcNQ" type="_WpSfcFIkEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>super(Messages.message(&quot;menuBar.debug&quot;));&#xD;
+&#xD;
+     this.freeColClient = freeColClient;&#xD;
+     buildDebugMenu();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu4xI1IkEeibjuLm5_lcNQ" name="buildDebugMenu" specification="_WpU7sFIkEeibjuLm5_lcNQ">
+                    <language>java</language>
+                    <body>final Game game = freeColClient.getGame();&#xD;
+     final GUI gui = freeColClient.getGUI();&#xD;
+     final boolean hasServer = freeColClient.getFreeColServer() != null;&#xD;
+     final Player player = freeColClient.getMyPlayer();&#xD;
+&#xD;
+     this.setOpaque(false);&#xD;
+     this.setMnemonic(KeyEvent.VK_D);&#xD;
+     add(this);&#xD;
+&#xD;
+     final JCheckBoxMenuItem sc&#xD;
+         = Utility.localizedCheckBoxMenuItem(&quot;menuBar.debug.showCoordinates&quot;,&#xD;
+             FreeColDebugger.debugDisplayCoordinates());&#xD;
+     sc.setOpaque(false);&#xD;
+     sc.setMnemonic(KeyEvent.VK_S);&#xD;
+     this.add(sc);&#xD;
+     sc.addActionListener((ActionEvent ae) -> {&#xD;
+             boolean val = ((JCheckBoxMenuItem)ae.getSource()).isSelected();&#xD;
+             FreeColDebugger.setDebugDisplayCoordinates(val);&#xD;
+             gui.refresh();&#xD;
+         });&#xD;
+     sc.setEnabled(true);&#xD;
+&#xD;
+     final JMenuItem reveal&#xD;
+         = Utility.localizedCheckBoxMenuItem(&quot;menuBar.debug.revealEntireMap&quot;,&#xD;
+                                             false);&#xD;
+     reveal.setOpaque(false);&#xD;
+     reveal.setMnemonic(KeyEvent.VK_R);&#xD;
+     this.add(reveal);&#xD;
+     reveal.addActionListener((ActionEvent ae) -> {&#xD;
+             DebugUtils.revealMap(freeColClient, true);&#xD;
+             reveal.setEnabled(false);&#xD;
+         });&#xD;
+     reveal.setEnabled(hasServer);&#xD;
+&#xD;
+     final JMenuItem hide&#xD;
+         = Utility.localizedCheckBoxMenuItem(&quot;menuBar.debug.hideEntireMap&quot;,&#xD;
+                                             false);&#xD;
+     hide.setOpaque(false);&#xD;
+     //hide.setMnemonic(KeyEvent.VK_R);&#xD;
+     this.add(hide);&#xD;
+     hide.addActionListener((ActionEvent ae) -> {&#xD;
+             DebugUtils.revealMap(freeColClient, false);&#xD;
+             hide.setEnabled(false);&#xD;
+         });&#xD;
+     hide.setEnabled(hasServer);&#xD;
+&#xD;
+     // Search tracing&#xD;
+     final JCheckBoxMenuItem searchTrace&#xD;
+         = Utility.localizedCheckBoxMenuItem(&quot;menuBar.debug.searchTrace&quot;,&#xD;
+             game.getMap().getSearchTrace());&#xD;
+     searchTrace.setOpaque(false);&#xD;
+     this.add(searchTrace);&#xD;
+     searchTrace.addActionListener((ActionEvent ae) -> {&#xD;
+             boolean val = ((JCheckBoxMenuItem)ae.getSource()).isSelected();&#xD;
+             game.getMap().setSearchTrace(val);&#xD;
+         });&#xD;
+&#xD;
+     final JMenu cvpMenu&#xD;
+         = Utility.localizedMenu(&quot;menuBar.debug.showColonyValue&quot;);&#xD;
+     cvpMenu.setOpaque(false);&#xD;
+     ButtonGroup bg = new ButtonGroup();&#xD;
+     final JRadioButtonMenuItem cv1&#xD;
+         = Utility.localizedRadioButtonMenuItem(StringTemplate.template(&quot;none&quot;),&#xD;
+             FreeColDebugger.debugDisplayColonyValuePlayer() == null);&#xD;
+     cv1.setOpaque(false);&#xD;
+     cv1.setMnemonic(KeyEvent.VK_C);&#xD;
+     cvpMenu.add(cv1);&#xD;
+     bg.add(cv1);&#xD;
+     cv1.addActionListener((ActionEvent ae) -> {&#xD;
+             FreeColDebugger.setDebugDisplayColonyValuePlayer(null);&#xD;
+             gui.refresh();&#xD;
+         });&#xD;
+     this.add(cvpMenu);&#xD;
+     cvpMenu.addSeparator();&#xD;
+     for (Player p : game.getLiveEuropeanPlayers(null)) {&#xD;
+         final JRadioButtonMenuItem cv2&#xD;
+             = Utility.localizedRadioButtonMenuItem(p.getCountryLabel(),&#xD;
+                 FreeColDebugger.debugDisplayColonyValuePlayer() == p);&#xD;
+         cv2.setOpaque(false);&#xD;
+         //cv2.setMnemonic(KeyEvent.VK_C);&#xD;
+         cvpMenu.add(cv2);&#xD;
+         bg.add(cv2);&#xD;
+         final Player fp = p;&#xD;
+         cv2.addActionListener((ActionEvent ae) -> {&#xD;
+                 FreeColDebugger.setDebugDisplayColonyValuePlayer(fp);&#xD;
+                 gui.refresh();&#xD;
+             });&#xD;
+     }&#xD;
+&#xD;
+     this.addSeparator();&#xD;
+&#xD;
+     final JMenuItem skipTurns = Utility.localizedMenuItem(&quot;menuBar.debug.skipTurns&quot;);&#xD;
+     skipTurns.setOpaque(false);&#xD;
+     skipTurns.setMnemonic(KeyEvent.VK_T);&#xD;
+     this.add(skipTurns);&#xD;
+     skipTurns.addActionListener((ActionEvent ae) -> {&#xD;
+             DebugUtils.skipTurns(freeColClient);&#xD;
+         });&#xD;
+     DebugUtils.addSkipChangeListener(freeColClient, this, skipTurns);&#xD;
+     skipTurns.setEnabled(hasServer);&#xD;
+&#xD;
+     final JMenuItem addBuilding = Utility.localizedMenuItem(&quot;menuBar.debug.addBuilding&quot;);&#xD;
+     addBuilding.setOpaque(false);&#xD;
+     addBuilding.setMnemonic(KeyEvent.VK_B);&#xD;
+     this.add(addBuilding);&#xD;
+     addBuilding.addActionListener((ActionEvent ae) -> {&#xD;
+             DebugUtils.addBuildings(freeColClient, addBuilding.getText());&#xD;
+         });&#xD;
+     addBuilding.setEnabled(hasServer);&#xD;
+&#xD;
+     final JMenuItem addFather = Utility.localizedMenuItem(&quot;menuBar.debug.addFoundingFather&quot;);&#xD;
+     addFather.setOpaque(false);&#xD;
+     addFather.setMnemonic(KeyEvent.VK_F);&#xD;
+     this.add(addFather);&#xD;
+     addFather.addActionListener((ActionEvent ae) -> {&#xD;
+             DebugUtils.addFathers(freeColClient, addFather.getText());&#xD;
+         });&#xD;
+     addFather.setEnabled(hasServer);&#xD;
+&#xD;
+     final JMenuItem runMonarch = Utility.localizedMenuItem(&quot;menuBar.debug.runMonarch&quot;);&#xD;
+     runMonarch.setOpaque(false);&#xD;
+     runMonarch.setMnemonic(KeyEvent.VK_M);&#xD;
+     this.add(runMonarch);&#xD;
+     runMonarch.addActionListener((ActionEvent ae) -> {&#xD;
+             DebugUtils.setMonarchAction(freeColClient, runMonarch.getText());&#xD;
+         });&#xD;
+     runMonarch.setEnabled(hasServer);&#xD;
+&#xD;
+     final JMenuItem addGold = Utility.localizedMenuItem(&quot;menuBar.debug.addGold&quot;);&#xD;
+     addGold.setOpaque(false);&#xD;
+     addGold.setMnemonic(KeyEvent.VK_G);&#xD;
+     this.add(addGold);&#xD;
+     addGold.addActionListener((ActionEvent ae) -> {&#xD;
+             DebugUtils.addGold(freeColClient);&#xD;
+         });&#xD;
+     addGold.setEnabled(hasServer);&#xD;
+&#xD;
+     final JMenuItem addCrosses = Utility.localizedMenuItem(&quot;menuBar.debug.addImmigration&quot;);&#xD;
+     addCrosses.setOpaque(false);&#xD;
+     addCrosses.setMnemonic(KeyEvent.VK_I);&#xD;
+     this.add(addCrosses);&#xD;
+     addCrosses.addActionListener((ActionEvent ae) -> {&#xD;
+             DebugUtils.addImmigration(freeColClient);&#xD;
+         });&#xD;
+     addCrosses.setEnabled(hasServer);&#xD;
+&#xD;
+     final JMenuItem giveBells = Utility.localizedMenuItem(&quot;menuBar.debug.addLiberty&quot;);&#xD;
+     giveBells.setOpaque(false);&#xD;
+     giveBells.setMnemonic(KeyEvent.VK_L);&#xD;
+     this.add(giveBells);&#xD;
+     giveBells.addActionListener((ActionEvent ae) -> {&#xD;
+             DebugUtils.addLiberty(freeColClient);&#xD;
+         });&#xD;
+     giveBells.setEnabled(hasServer);&#xD;
+&#xD;
+     // random number generator&#xD;
+     final JMenuItem rng = Utility.localizedMenuItem(&quot;menuBar.debug.stepRandomNumberGenerator&quot;);&#xD;
+     rng.setOpaque(false);&#xD;
+     rng.setMnemonic(KeyEvent.VK_X);&#xD;
+     this.add(rng);&#xD;
+     rng.addActionListener((ActionEvent ae) -> {&#xD;
+             DebugUtils.stepRNG(freeColClient);&#xD;
+         });&#xD;
+     rng.setEnabled(hasServer);&#xD;
+&#xD;
+     // Unit display&#xD;
+     final JMenuItem du = Utility.localizedMenuItem(&quot;menuBar.debug.displayUnits&quot;);&#xD;
+     du.setOpaque(false);&#xD;
+     this.add(du);&#xD;
+     du.addActionListener((ActionEvent ae) -> {&#xD;
+             DebugUtils.displayUnits(freeColClient);&#xD;
+         });&#xD;
+     du.setEnabled(true);&#xD;
+&#xD;
+     this.addSeparator();&#xD;
+&#xD;
+     final JMenu panelMenu = Utility.localizedMenu(&quot;menuBar.debug.displayPanels&quot;);&#xD;
+     panelMenu.setOpaque(false);&#xD;
+&#xD;
+     final JMenuItem monarchDialog = Utility.localizedMenuItem(&quot;menuBar.debug.displayMonarchPanel&quot;);&#xD;
+     monarchDialog.addActionListener((ActionEvent ae) -> {&#xD;
+             gui.showMonarchDialog(&#xD;
+                 Monarch.MonarchAction.RAISE_TAX_WAR, null, player.getMonarchKey(),&#xD;
+                 (Boolean b) ->&#xD;
+                     freeColClient.getInGameController().monarchAction(Monarch.MonarchAction.RAISE_TAX_WAR, b));&#xD;
+         });&#xD;
+     panelMenu.add(monarchDialog);&#xD;
+&#xD;
+     final JMenuItem errorMessage = Utility.localizedMenuItem(&quot;menuBar.debug.displayErrorMessage&quot;);&#xD;
+     errorMessage.addActionListener((ActionEvent ae) -> {&#xD;
+             gui.showErrorMessage(ERROR_MESSAGE);&#xD;
+         });&#xD;
+     panelMenu.add(errorMessage);&#xD;
+&#xD;
+     this.add(panelMenu);&#xD;
+&#xD;
+     final JMenuItem europeStatus = Utility.localizedMenuItem(&quot;menuBar.debug.displayEuropeStatus&quot;);&#xD;
+     europeStatus.setOpaque(false);&#xD;
+     europeStatus.setMnemonic(KeyEvent.VK_E);&#xD;
+     this.add(europeStatus);&#xD;
+     europeStatus.addActionListener((ActionEvent ae) -> {&#xD;
+             DebugUtils.displayEurope(freeColClient);&#xD;
+         });&#xD;
+     europeStatus.setEnabled(hasServer);&#xD;
+&#xD;
+     final JCheckBoxMenuItem dam&#xD;
+         = Utility.localizedCheckBoxMenuItem(&quot;menuBar.debug.displayAIMissions&quot;,&#xD;
+             FreeColDebugger.debugShowMission());&#xD;
+     final JCheckBoxMenuItem dami&#xD;
+         = Utility.localizedCheckBoxMenuItem(&quot;menuBar.debug.displayAdditionalAIMissionInfo&quot;,&#xD;
+             FreeColDebugger.debugShowMissionInfo());&#xD;
+     dam.setOpaque(false);&#xD;
+     dam.setMnemonic(KeyEvent.VK_A);&#xD;
+     this.add(dam);&#xD;
+     dam.addActionListener((ActionEvent ae) -> {&#xD;
+             boolean val = ((JCheckBoxMenuItem)ae.getSource()).isSelected();&#xD;
+             FreeColDebugger.setDebugShowMission(val);&#xD;
+             dami.setEnabled(val);&#xD;
+             gui.refresh();&#xD;
+         });&#xD;
+     dam.setEnabled(true);&#xD;
+&#xD;
+     final JMenuItem useAI = Utility.localizedMenuItem(&quot;menuBar.debug.useAI&quot;);&#xD;
+     useAI.setOpaque(false);&#xD;
+     useAI.setMnemonic(KeyEvent.VK_A);&#xD;
+     useAI.setAccelerator(KeyStroke.getKeyStroke('A',&#xD;
+         Toolkit.getDefaultToolkit().getMenuShortcutKeyMask()&#xD;
+             | InputEvent.ALT_MASK));&#xD;
+     this.add(useAI);&#xD;
+     useAI.addActionListener((ActionEvent ae) -> {&#xD;
+             DebugUtils.useAI(freeColClient);&#xD;
+         });&#xD;
+     useAI.setEnabled(hasServer);&#xD;
+&#xD;
+     dami.setOpaque(false);&#xD;
+     dami.setMnemonic(KeyEvent.VK_I);&#xD;
+     this.add(dami);&#xD;
+     dami.addActionListener((ActionEvent ae) -> {&#xD;
+             boolean val = ((JCheckBoxMenuItem)ae.getSource()).isSelected();&#xD;
+             FreeColDebugger.setDebugShowMissionInfo(val);&#xD;
+             dami.setEnabled(val);&#xD;
+             gui.refresh();&#xD;
+         });&#xD;
+     dami.setEnabled(FreeColDebugger.debugShowMissionInfo());&#xD;
+&#xD;
+     this.addSeparator();&#xD;
+&#xD;
+     final JMenuItem compareMaps = Utility.localizedMenuItem(&quot;menuBar.debug.compareMaps&quot;);&#xD;
+     compareMaps.setOpaque(false);&#xD;
+     //compareMaps.setMnemonic(KeyEvent.VK_C);&#xD;
+     compareMaps.setAccelerator(KeyStroke.getKeyStroke('C',&#xD;
+         Toolkit.getDefaultToolkit().getMenuShortcutKeyMask()&#xD;
+             | InputEvent.ALT_MASK));&#xD;
+     this.add(compareMaps);&#xD;
+     compareMaps.addActionListener((ActionEvent ae) -> {&#xD;
+             DebugUtils.checkDesyncAction(freeColClient);&#xD;
+         });&#xD;
+     compareMaps.setEnabled(hasServer);&#xD;
+&#xD;
+     final JMenuItem showResourceKeys = Utility.localizedMenuItem(&quot;menuBar.debug.showResourceKeys&quot;);&#xD;
+     showResourceKeys.setOpaque(false);&#xD;
+     //showResourceKeys.setMnemonic(KeyEvent.VK_R);&#xD;
+     this.add(showResourceKeys);&#xD;
+     showResourceKeys.addActionListener((ActionEvent ae) -> {&#xD;
+             StringBuilder builder = new StringBuilder();&#xD;
+             Map&lt;String, ImageResource> resources&#xD;
+                 = ResourceManager.getImageResources();&#xD;
+             for (Entry&lt;String, ImageResource> en&#xD;
+                      : mapEntriesByKey(resources)) {&#xD;
+                 builder.append(en.getKey());&#xD;
+                 builder.append(&quot; (&quot;);&#xD;
+                 builder.append(en.getValue().getCount());&#xD;
+                 builder.append(&quot;)&quot;);&#xD;
+                 builder.append(&quot;\n&quot;);&#xD;
+             }&#xD;
+             gui.showInformationMessage(builder.toString());&#xD;
+         });&#xD;
+     showResourceKeys.setEnabled(true);&#xD;
+&#xD;
+     // statistics&#xD;
+     final JMenuItem statistics = Utility.localizedMenuItem(&quot;statistics&quot;);&#xD;
+     statistics.setOpaque(false);&#xD;
+     //statistics.setMnemonic(KeyEvent.VK_I);&#xD;
+     this.add(statistics);&#xD;
+     statistics.addActionListener((ActionEvent ae) -> {&#xD;
+             gui.showStatisticsPanel();&#xD;
+         });&#xD;
+     statistics.setEnabled(true);&#xD;
+&#xD;
+     // garbage collector&#xD;
+     final JMenuItem gc = Utility.localizedMenuItem(&quot;menuBar.debug.memoryManager.gc&quot;);&#xD;
+     gc.setOpaque(false);&#xD;
+     //gc.setMnemonic(KeyEvent.VK_G);&#xD;
+     this.add(gc);&#xD;
+     gc.addActionListener((ActionEvent ae) -> {&#xD;
+             System.gc();&#xD;
+         });&#xD;
+     gc.setEnabled(true);&#xD;
+&#xD;
+     this.addSeparator();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_WpU7sFIkEeibjuLm5_lcNQ" name="buildDebugMenu" visibility="private" method="_Wu4xI1IkEeibjuLm5_lcNQ">
+                    <ownedComment xmi:id="_Wu-3wFIkEeibjuLm5_lcNQ">
+                      <body>Builds the debug menu.</body>
+                    </ownedComment>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_WufvkFIkEeibjuLm5_lcNQ" name="DebugMenu" method="_Wu4xIFIkEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_WugWoFIkEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_WugWoVIkEeibjuLm5_lcNQ" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_Wu-QslIkEeibjuLm5_lcNQ">
+                      <body>Create the debug menu.&#xD;
+     *&#xD;
+     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_WufvkVIkEeibjuLm5_lcNQ" name="freeColClient" type="_Wt1BMVIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_WugWolIkEeibjuLm5_lcNQ" type="_WpSfcFIkEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_WpViwFIkEeibjuLm5_lcNQ" name="FreeColMenuBar" isAbstract="true">
+                  <ownedComment xmi:id="_Wu-3wVIkEeibjuLm5_lcNQ">
+                    <body>The menu bar that is displayed on the top left corner of the&#xD;
+&lt;code>Canvas&lt;/code>.</body>
+                  </ownedComment>
+                  <generalization xmi:id="_WukoElIkEeibjuLm5_lcNQ" general="_Wt89AVIkEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_WuzRkVIkEeibjuLm5_lcNQ" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_WtxW0VIkEeibjuLm5_lcNQ" isReadOnly="true" association="_WvDJMVIkEeibjuLm5_lcNQ">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_WuzRklIkEeibjuLm5_lcNQ" value="Logger.getLogger(FreeColMenuBar.class.getName())"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_Wuz4oFIkEeibjuLm5_lcNQ" name="freeColClient" visibility="protected" isLeaf="true" type="_Wt1BMVIkEeibjuLm5_lcNQ" isReadOnly="true" association="_WvDwQVIkEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_Wuz4olIkEeibjuLm5_lcNQ" name="am" visibility="protected" isLeaf="true" type="_Wt-yMVIkEeibjuLm5_lcNQ" isReadOnly="true" association="_WvEXUVIkEeibjuLm5_lcNQ"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu4xJFIkEeibjuLm5_lcNQ" name="FreeColMenuBar" specification="_WuhkwFIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_Wu4xJVIkEeibjuLm5_lcNQ" name="f" type="_Wt1BMVIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_Wu4xJlIkEeibjuLm5_lcNQ" type="_WpViwFIkEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>// FIXME: FreeColClient should not have to be passed in to&#xD;
+     // this class.  This is only a menu bar, it doesn't need a&#xD;
+     // reference to the main controller. The only reason it has&#xD;
+     // one now is because DebugMenu needs it. And DebugMenu needs&#xD;
+     // it because it is using inner classes for ActionListeners&#xD;
+     // and those inner classes use the reference.  If those inner&#xD;
+     // classes were in seperate classes, when they were created,&#xD;
+     // they could use the FreeColClient reference of the&#xD;
+     // ActionManger. So DebugMenu needs to be refactored to remove&#xD;
+     // inner classes so that this MenuBar can lose its unnecessary&#xD;
+     // reference to the main controller.  See FreeColMenuTest.&#xD;
+     //&#xD;
+     // Okay, I lied.. the update() and paintComponent() methods in&#xD;
+     // this MenuBar use freeColClient, too. But so what.  Move&#xD;
+     // those to another class too. :)&#xD;
+     super();&#xD;
+&#xD;
+     setOpaque(false);&#xD;
+&#xD;
+     this.freeColClient = f;&#xD;
+     &#xD;
+     this.am = f.getActionManager();&#xD;
+&#xD;
+     setBorder(FreeColImageBorder.imageBorder);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu5YMFIkEeibjuLm5_lcNQ" name="getMenuItem" specification="_WpWw4VIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_Wu5YMVIkEeibjuLm5_lcNQ" name="actionId">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Wu5YMlIkEeibjuLm5_lcNQ" type="_WtzzEVIkEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>JMenuItem rtn = null;&#xD;
+     FreeColAction action = am.getFreeColAction(actionId);&#xD;
+&#xD;
+     if (action != null) {&#xD;
+         rtn = new JMenuItem();&#xD;
+         rtn.setAction(action);&#xD;
+         rtn.setOpaque(false);&#xD;
+&#xD;
+         if (action.getMnemonic() != null) {&#xD;
+             rtn.addMenuKeyListener(action.getMenuKeyListener());&#xD;
+         }&#xD;
+     } else {&#xD;
+         logger.finest(&quot;Could not create menu item. [&quot; + actionId&#xD;
+             + &quot;] not found.&quot;);&#xD;
+     }&#xD;
+     return rtn;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu5YM1IkEeibjuLm5_lcNQ" name="getMenuItem" specification="_WuiL0VIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_Wu5YNFIkEeibjuLm5_lcNQ" name="actionId">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Wu5YNVIkEeibjuLm5_lcNQ" name="actionListener" type="_Wt8V8VIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_Wu5YNlIkEeibjuLm5_lcNQ" type="_WtzzEVIkEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>JMenuItem rtn = getMenuItem(actionId);&#xD;
+&#xD;
+     rtn.addActionListener(actionListener);&#xD;
+&#xD;
+     return rtn;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu5YN1IkEeibjuLm5_lcNQ" name="getCheckBoxMenuItem" specification="_WpXX8FIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_Wu5YOFIkEeibjuLm5_lcNQ" name="actionId">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Wu5YOVIkEeibjuLm5_lcNQ" type="_Wtyk8lIkEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>JCheckBoxMenuItem rtn = null;&#xD;
+     FreeColAction action = am.getFreeColAction(actionId);&#xD;
+&#xD;
+     if (action != null) {&#xD;
+         rtn = new JCheckBoxMenuItem();&#xD;
+         rtn.setAction(action);&#xD;
+         rtn.setOpaque(false);&#xD;
+&#xD;
+         rtn.setSelected(((SelectableAction)am.getFreeColAction(actionId)).isSelected());&#xD;
+     } else&#xD;
+         logger.finest(&quot;Could not create menu item. [&quot; + actionId&#xD;
+             + &quot;] not found.&quot;);&#xD;
+&#xD;
+     return rtn;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu5YOlIkEeibjuLm5_lcNQ" name="getRadioButtonMenuItem" specification="_WujZ8FIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_Wu5YO1IkEeibjuLm5_lcNQ" name="actionId">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Wu5YPFIkEeibjuLm5_lcNQ" name="group" type="_Wtyk8FIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_Wu5YPVIkEeibjuLm5_lcNQ" type="_WtzzE1IkEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>JRadioButtonMenuItem rtn = null;&#xD;
+     FreeColAction action = am.getFreeColAction(actionId);&#xD;
+&#xD;
+     if (action != null) {&#xD;
+         rtn = new JRadioButtonMenuItem();&#xD;
+         rtn.setAction(action);&#xD;
+         rtn.setOpaque(false);&#xD;
+&#xD;
+         rtn.setSelected(((SelectableAction) am.getFreeColAction(actionId)).isSelected());&#xD;
+         group.add(rtn);&#xD;
+     } else {&#xD;
+         logger.finest(&quot;Could not create menu item. [&quot; + actionId&#xD;
+             + &quot;] not found.&quot;);&#xD;
+     }&#xD;
+     return rtn;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu5YPlIkEeibjuLm5_lcNQ" name="update" specification="_WpX_AFIkEeibjuLm5_lcNQ">
+                    <language>java</language>
+                    <body>repaint();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu5YP1IkEeibjuLm5_lcNQ" name="setEnabled" specification="_WpYmEFIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_Wu5YQFIkEeibjuLm5_lcNQ" name="enabled">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>update();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu5_QFIkEeibjuLm5_lcNQ" name="buildColopediaMenu" specification="_WpZ0MVIkEeibjuLm5_lcNQ">
+                    <language>java</language>
+                    <body>// --> Colopedia&#xD;
+&#xD;
+     JMenu menu = Utility.localizedMenu(&quot;menuBar.colopedia&quot;);&#xD;
+     menu.setOpaque(false);&#xD;
+     menu.setMnemonic(KeyEvent.VK_C);&#xD;
+&#xD;
+     for (PanelType type : PanelType.values()) {&#xD;
+         menu.add(getMenuItem(ColopediaAction.id + type.getKey()));&#xD;
+     }&#xD;
+     menu.addSeparator();&#xD;
+     menu.add(getMenuItem(AboutAction.id));&#xD;
+&#xD;
+     add(menu);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu5_QVIkEeibjuLm5_lcNQ" name="paintComponent" specification="_WujZ9FIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_Wu5_QlIkEeibjuLm5_lcNQ" name="g" type="_Wt7u4FIkEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>if (isOpaque()) {&#xD;
+         super.paintComponent(g);&#xD;
+     } else {&#xD;
+         ImageLibrary.drawTiledImage(&quot;image.background.FreeColMenuBar&quot;, g, this, getInsets());&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_WpWw4FIkEeibjuLm5_lcNQ" name="reset" isAbstract="true">
+                    <ownedComment xmi:id="_Wu-3w1IkEeibjuLm5_lcNQ">
+                      <body>Resets this menu bar.&#xD;
+     *&#xD;
+     * &lt;br>&lt;br>&#xD;
+     * &lt;b>For subclasses:&lt;/b>&#xD;
+     * This method should reset both the texts and&#xD;
+     * the accelerator keys used by the menu items.</body>
+                    </ownedComment>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_WpWw4VIkEeibjuLm5_lcNQ" name="getMenuItem" visibility="protected" method="_Wu5YMFIkEeibjuLm5_lcNQ">
+                    <ownedComment xmi:id="_Wu-3xFIkEeibjuLm5_lcNQ">
+                      <body>Creates a default FreeCol JMenuItem.&#xD;
+     *&#xD;
+     * @param actionId The identifier given to the&#xD;
+     *      {@link ActionManager#getFreeColAction(String) action manager}.&#xD;
+     * @return The menu item.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_WpWw4lIkEeibjuLm5_lcNQ" name="actionId">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_WuiL0FIkEeibjuLm5_lcNQ" type="_WtzzEVIkEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_WpXX8FIkEeibjuLm5_lcNQ" name="getCheckBoxMenuItem" visibility="protected" method="_Wu5YN1IkEeibjuLm5_lcNQ">
+                    <ownedComment xmi:id="_Wu-3xlIkEeibjuLm5_lcNQ">
+                      <body>Creates a default FreeCol &lt;code>JCheckBoxMenuItem&lt;/code>.&#xD;
+     *&#xD;
+     * @param actionId The identifier given to the&#xD;
+     *      {@link ActionManager#getFreeColAction(String) action manager}.&#xD;
+     * @return The menu item.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_WpXX8VIkEeibjuLm5_lcNQ" name="actionId">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Wuiy4lIkEeibjuLm5_lcNQ" type="_Wtyk8lIkEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_WpX_AFIkEeibjuLm5_lcNQ" name="update" method="_Wu5YPlIkEeibjuLm5_lcNQ">
+                    <ownedComment xmi:id="_Wu-3yFIkEeibjuLm5_lcNQ">
+                      <body>Updates this &lt;code>FreeColMenuBar&lt;/code>.</body>
+                    </ownedComment>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_WpYmEFIkEeibjuLm5_lcNQ" name="setEnabled" method="_Wu5YP1IkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_WpYmEVIkEeibjuLm5_lcNQ" name="enabled">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_WpZ0MVIkEeibjuLm5_lcNQ" name="buildColopediaMenu" visibility="protected" method="_Wu5_QFIkEeibjuLm5_lcNQ"/>
+                  <ownedOperation xmi:id="_WuhkwFIkEeibjuLm5_lcNQ" name="FreeColMenuBar" visibility="protected" method="_Wu4xJFIkEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_WuhkwlIkEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Wuhkw1IkEeibjuLm5_lcNQ" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_Wu-3wlIkEeibjuLm5_lcNQ">
+                      <body>Creates a new &lt;code>FreeColMenuBar&lt;/code>. This menu bar will include&#xD;
+     * all of the submenus and items.&#xD;
+     *&#xD;
+     * @param f The main controller.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_WuhkwVIkEeibjuLm5_lcNQ" name="f" type="_Wt1BMVIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_WuhkxFIkEeibjuLm5_lcNQ" type="_WpViwFIkEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_WuiL0VIkEeibjuLm5_lcNQ" name="getMenuItem" visibility="protected" method="_Wu5YM1IkEeibjuLm5_lcNQ">
+                    <ownedComment xmi:id="_Wu-3xVIkEeibjuLm5_lcNQ">
+                      <body>Creates a default FreeCol JMenuItem.&#xD;
+     *&#xD;
+     * @param actionId The identifier given to the&#xD;
+     *      {@link ActionManager#getFreeColAction(String) action manager}.&#xD;
+     * @param actionListener An &lt;code>ActionListener&lt;/code> that will be&#xD;
+     *      added to the menu item.&#xD;
+     * @return The menu item with the &lt;code>ActionListener&lt;/code> added.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_WuiL0lIkEeibjuLm5_lcNQ" name="actionId">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Wuiy4FIkEeibjuLm5_lcNQ" name="actionListener" type="_Wt8V8VIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_Wuiy4VIkEeibjuLm5_lcNQ" type="_WtzzEVIkEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_WujZ8FIkEeibjuLm5_lcNQ" name="getRadioButtonMenuItem" visibility="protected" method="_Wu5YOlIkEeibjuLm5_lcNQ">
+                    <ownedComment xmi:id="_Wu-3x1IkEeibjuLm5_lcNQ">
+                      <body>Creates a default FreeCol &lt;code>JRadioButtonMenuItem&lt;/code>.&#xD;
+     *&#xD;
+     * @param actionId The identifier given to the&#xD;
+     *      {@link ActionManager#getFreeColAction(String) action manager}.&#xD;
+     * @param group The &lt;code>ButtonGroup&lt;/code> to add this item to&#xD;
+     * @return The menu item.</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_WujZ8VIkEeibjuLm5_lcNQ" name="actionId">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_WujZ8lIkEeibjuLm5_lcNQ" name="group" type="_Wtyk8FIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_WujZ81IkEeibjuLm5_lcNQ" type="_WtzzE1IkEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_WujZ9FIkEeibjuLm5_lcNQ" name="paintComponent" method="_Wu5_QVIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_WukBAFIkEeibjuLm5_lcNQ" name="g" type="_Wt7u4FIkEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_WpbpYFIkEeibjuLm5_lcNQ" name="FreeColMenuTest">
+                  <ownedComment xmi:id="_Wu-3yVIkEeibjuLm5_lcNQ">
+                    <body>Test the menus.</body>
+                  </ownedComment>
+                  <ownedAttribute xmi:id="_Wu0fsVIkEeibjuLm5_lcNQ" name="output" visibility="package" type="_WuK_cVIkEeibjuLm5_lcNQ" association="_WvE-YFIkEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_Wu1GwVIkEeibjuLm5_lcNQ" name="scrollPane" visibility="package" type="_WuKYYFIkEeibjuLm5_lcNQ" association="_WvFlcFIkEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_Wu1t0FIkEeibjuLm5_lcNQ" name="newline" visibility="package" isLeaf="true" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_Wu1t0VIkEeibjuLm5_lcNQ" value="&quot;\n&quot;"/>
+                  </ownedAttribute>
+                  <interfaceRealization xmi:id="_WulPIFIkEeibjuLm5_lcNQ" client="_WpbpYFIkEeibjuLm5_lcNQ" supplier="_Wt8V8VIkEeibjuLm5_lcNQ" contract="_Wt8V8VIkEeibjuLm5_lcNQ"/>
+                  <interfaceRealization xmi:id="_Wul2MFIkEeibjuLm5_lcNQ" client="_WpbpYFIkEeibjuLm5_lcNQ" supplier="_WuHVEVIkEeibjuLm5_lcNQ" contract="_WuHVEVIkEeibjuLm5_lcNQ"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu5_Q1IkEeibjuLm5_lcNQ" name="createMenuBar" specification="_WpcQcFIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_Wu5_RFIkEeibjuLm5_lcNQ" type="_Wt89AVIkEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>JMenuBar menuBar = null;&#xD;
+&#xD;
+     FreeColClient client = new FreeColClient(null, null);&#xD;
+     client.startClient(null, null, true, true, null, null);&#xD;
+&#xD;
+     //Create the menu bar.&#xD;
+     menuBar = new InGameMenuBar(client, null);&#xD;
+     client.updateActions();&#xD;
+     ((FreeColMenuBar)menuBar).update();&#xD;
+&#xD;
+     return menuBar;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu6mUFIkEeibjuLm5_lcNQ" name="createContentPane" specification="_WpcQcVIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_Wu6mUVIkEeibjuLm5_lcNQ" type="_WuERwVIkEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>//Create the content-pane-to-be.&#xD;
+     JPanel contentPane = new JPanel(new BorderLayout());&#xD;
+     contentPane.setOpaque(true);&#xD;
+&#xD;
+     //Create a scrolled text area.&#xD;
+     output = new JTextArea(5, 30);&#xD;
+     output.setEditable(false);&#xD;
+     scrollPane = new JScrollPane(output);&#xD;
+&#xD;
+     //Add the text area to the content pane.&#xD;
+     contentPane.add(scrollPane, BorderLayout.CENTER);&#xD;
+&#xD;
+     return contentPane;&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu6mUlIkEeibjuLm5_lcNQ" name="actionPerformed" specification="_WunEUFIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_Wu6mU1IkEeibjuLm5_lcNQ" name="ae" type="_Wtu6kVIkEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>JMenuItem source = (JMenuItem)ae.getSource();&#xD;
+     String s = &quot;Action event detected.&quot;&#xD;
+                + newline&#xD;
+                + &quot;    Event source: &quot; + source.getText()&#xD;
+                + &quot; (an instance of &quot; + getClassName(source) + &quot;)&quot;;&#xD;
+     output.append(s + newline);&#xD;
+     output.setCaretPosition(output.getDocument().getLength());&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu6mVFIkEeibjuLm5_lcNQ" name="itemStateChanged" specification="_WunrYlIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_Wu6mVVIkEeibjuLm5_lcNQ" name="e" type="_WuFf4VIkEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>JMenuItem source = (JMenuItem)(e.getSource());&#xD;
+     String s = &quot;Item event detected.&quot;&#xD;
+                + newline&#xD;
+                + &quot;    Event source: &quot; + source.getText()&#xD;
+                + &quot; (an instance of &quot; + getClassName(source) + &quot;)&quot;&#xD;
+                + newline&#xD;
+                + &quot;    New state: &quot;&#xD;
+                + ((e.getStateChange() == ItemEvent.SELECTED) ?&#xD;
+                  &quot;selected&quot;:&quot;unselected&quot;);&#xD;
+     output.append(s + newline);&#xD;
+     output.setCaretPosition(output.getDocument().getLength());&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu6mVlIkEeibjuLm5_lcNQ" name="getClassName" specification="_WupgkFIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_Wu6mV1IkEeibjuLm5_lcNQ" name="o" type="_Wuo5gVIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_Wu6mWFIkEeibjuLm5_lcNQ" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>String classString = o.getClass().getName();&#xD;
+     int dotIndex = classString.lastIndexOf('.');&#xD;
+     return classString.substring(dotIndex+1);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu7NYFIkEeibjuLm5_lcNQ" name="createImageIcon" specification="_Wpc3gFIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_Wu7NYVIkEeibjuLm5_lcNQ" name="path">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Wu7NYlIkEeibjuLm5_lcNQ" type="_WuIjMFIkEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>java.net.URL imgURL = FreeColMenuTest.class.getResource(path);&#xD;
+     if (imgURL != null) {&#xD;
+         return new ImageIcon(imgURL);&#xD;
+     } else {&#xD;
+         System.err.println(&quot;Couldn't find file: &quot; + path);&#xD;
+         return null;&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu7NY1IkEeibjuLm5_lcNQ" name="createAndShowGUI" specification="_Wpc3glIkEeibjuLm5_lcNQ">
+                    <language>java</language>
+                    <body>//Create and set up the window.&#xD;
+     //JFrame frame = new JFrame(&quot;MenuDemo&quot;);&#xD;
+     FreeColClient client = new FreeColClient(null, null);&#xD;
+     client.startClient(null, null, true, true, null, null);&#xD;
+     FreeColFrame frame = new FreeColFrame(client,&#xD;
+         GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice(),&#xD;
+         null, null, true, null);&#xD;
+     frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);&#xD;
+&#xD;
+     //Create and set up the content pane.&#xD;
+     FreeColMenuTest demo = new FreeColMenuTest();&#xD;
+     frame.setJMenuBar(demo.createMenuBar());&#xD;
+     frame.setContentPane(demo.createContentPane());&#xD;
+&#xD;
+     //Display the window.&#xD;
+     frame.setPreferredSize(new Dimension(450, 260));&#xD;
+     frame.setVisible(true);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu70cFIkEeibjuLm5_lcNQ" name="main" specification="_Wpc3g1IkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_Wu70cVIkEeibjuLm5_lcNQ" name="args">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Wu70clIkEeibjuLm5_lcNQ" value="*"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>//Schedule a job for the event-dispatching thread:&#xD;
+     //creating and showing this application's GUI.&#xD;
+     javax.swing.SwingUtilities.invokeLater(() -> { createAndShowGUI(); });&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_WpcQcFIkEeibjuLm5_lcNQ" name="createMenuBar" method="_Wu5_Q1IkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_WumdQFIkEeibjuLm5_lcNQ" type="_Wt89AVIkEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_WpcQcVIkEeibjuLm5_lcNQ" name="createContentPane" method="_Wu6mUFIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_WumdQVIkEeibjuLm5_lcNQ" type="_WuERwVIkEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_Wpc3gFIkEeibjuLm5_lcNQ" name="createImageIcon" visibility="protected" isStatic="true" method="_Wu7NYFIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_Wpc3gVIkEeibjuLm5_lcNQ" name="path">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Wupgk1IkEeibjuLm5_lcNQ" type="_WuIjMFIkEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_Wpc3glIkEeibjuLm5_lcNQ" name="createAndShowGUI" visibility="private" isStatic="true" method="_Wu7NY1IkEeibjuLm5_lcNQ"/>
+                  <ownedOperation xmi:id="_Wpc3g1IkEeibjuLm5_lcNQ" name="main" isStatic="true" method="_Wu70cFIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_Wpc3hFIkEeibjuLm5_lcNQ" name="args">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WpdekFIkEeibjuLm5_lcNQ" value="*"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_WunEUFIkEeibjuLm5_lcNQ" name="actionPerformed" method="_Wu6mUlIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_WunEUVIkEeibjuLm5_lcNQ" name="ae" type="_Wtu6kVIkEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_WunrYlIkEeibjuLm5_lcNQ" name="itemStateChanged" method="_Wu6mVFIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_WunrY1IkEeibjuLm5_lcNQ" name="e" type="_WuFf4VIkEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_WupgkFIkEeibjuLm5_lcNQ" name="getClassName" visibility="protected" method="_Wu6mVlIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_WupgkVIkEeibjuLm5_lcNQ" name="o" type="_Wuo5gVIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_WupgklIkEeibjuLm5_lcNQ" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_WpessFIkEeibjuLm5_lcNQ" name="InGameMenuBar">
+                  <ownedComment xmi:id="_Wu_e0FIkEeibjuLm5_lcNQ">
+                    <body>This is the menu bar used in-game.&#xD;
+ *&#xD;
+&lt;br>&lt;br>&#xD;
+ *&#xD;
+The menu bar that is displayed on the top left corner of the&#xD;
+&lt;code>Canvas&lt;/code>.&#xD;
+ *&#xD;
+@see MapEditorMenuBar</body>
+                  </ownedComment>
+                  <generalization xmi:id="_WuS7QFIkEeibjuLm5_lcNQ" general="_WpViwFIkEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_Wu2U4FIkEeibjuLm5_lcNQ" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_WtxW0VIkEeibjuLm5_lcNQ" isReadOnly="true" association="_WvIBsVIkEeibjuLm5_lcNQ">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_Wu2U4VIkEeibjuLm5_lcNQ" value="Logger.getLogger(InGameMenuBar.class.getName())"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu8bgFIkEeibjuLm5_lcNQ" name="InGameMenuBar" specification="_WuqusFIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_Wu8bgVIkEeibjuLm5_lcNQ" name="freeColClient" type="_Wt1BMVIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_Wu8bglIkEeibjuLm5_lcNQ" name="listener" type="_WuP38VIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_Wu8bg1IkEeibjuLm5_lcNQ" type="_WpessFIkEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>// FIXME: FreeColClient should not have to be passed in to&#xD;
+     // this class.  This is only a menu bar, it doesn't need a&#xD;
+     // reference to the main controller.  The only reason it has&#xD;
+     // one now is because DebugMenu needs it.  And DebugMenu needs&#xD;
+     // it because it is using inner classes for ActionListeners&#xD;
+     // and those inner classes use the reference.  If those inner&#xD;
+     // classes were in seperate classes, when they were created,&#xD;
+     // they could use the FreeColClient reference of the&#xD;
+     // ActionManger.  So DebugMenu needs to be refactored to remove&#xD;
+     // inner classes so that this MenuBar can lose its unnecessary&#xD;
+     // reference to the main controller.  See FreeColMenuTest.&#xD;
+     //&#xD;
+     // Okay, I lied.. the update() and paintComponent() methods in&#xD;
+     // this MenuBar use freeColClient, too. But so what.  Move&#xD;
+     // those to another class too. :)&#xD;
+     super(freeColClient);&#xD;
+&#xD;
+     // Add a mouse listener so that autoscrolling can happen in&#xD;
+     // this menubar&#xD;
+     this.addMouseMotionListener(listener);&#xD;
+     &#xD;
+     reset();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu8bhFIkEeibjuLm5_lcNQ" name="reset" specification="_WpessVIkEeibjuLm5_lcNQ">
+                    <language>java</language>
+                    <body>removeAll();&#xD;
+&#xD;
+     buildGameMenu();&#xD;
+     buildViewMenu();&#xD;
+     buildOrdersMenu();&#xD;
+     buildReportMenu();&#xD;
+     buildColopediaMenu();&#xD;
+&#xD;
+     if (FreeColDebugger.isInDebugMode(FreeColDebugger.DebugMode.MENUS)) {&#xD;
+         add(new DebugMenu(freeColClient));&#xD;
+     }&#xD;
+&#xD;
+     update();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu8bhVIkEeibjuLm5_lcNQ" name="buildGameMenu" specification="_WpfTw1IkEeibjuLm5_lcNQ">
+                    <language>java</language>
+                    <body>// --> Game&#xD;
+     JMenu menu = Utility.localizedMenu(&quot;menuBar.game&quot;);&#xD;
+     menu.setOpaque(false);&#xD;
+     menu.setMnemonic(KeyEvent.VK_G);&#xD;
+&#xD;
+     menu.add(getMenuItem(NewAction.id));&#xD;
+     menu.add(getMenuItem(OpenAction.id));&#xD;
+     menu.add(getMenuItem(SaveAction.id));&#xD;
+&#xD;
+     menu.addSeparator();&#xD;
+&#xD;
+     menu.add(getMenuItem(PreferencesAction.id));&#xD;
+     menu.add(getMenuItem(ReconnectAction.id));&#xD;
+&#xD;
+     menu.addSeparator();&#xD;
+&#xD;
+     menu.add(getMenuItem(ChatAction.id));&#xD;
+     menu.add(getMenuItem(DeclareIndependenceAction.id));&#xD;
+     menu.add(getMenuItem(EndTurnAction.id));&#xD;
+&#xD;
+     menu.addSeparator();&#xD;
+&#xD;
+     menu.add(getMenuItem(ShowMainAction.id));&#xD;
+     menu.add(getMenuItem(ReportHighScoresAction.id));&#xD;
+     menu.add(getMenuItem(RetireAction.id));&#xD;
+     menu.add(getMenuItem(SaveAndQuitAction.id));&#xD;
+     menu.add(getMenuItem(QuitAction.id));&#xD;
+&#xD;
+     add(menu);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu8bhlIkEeibjuLm5_lcNQ" name="buildViewMenu" specification="_WpfTxFIkEeibjuLm5_lcNQ">
+                    <language>java</language>
+                    <body>// --> View&#xD;
+     JMenu menu = Utility.localizedMenu(&quot;menuBar.view&quot;);&#xD;
+     menu.setOpaque(false);&#xD;
+     menu.setMnemonic(KeyEvent.VK_V);&#xD;
+&#xD;
+     menu.add(getCheckBoxMenuItem(MapControlsAction.id));&#xD;
+     menu.add(getCheckBoxMenuItem(DisplayGridAction.id));&#xD;
+     menu.add(getCheckBoxMenuItem(DisplayBordersAction.id));&#xD;
+     menu.add(getMenuItem(ToggleViewModeAction.id));&#xD;
+     menu.add(getCheckBoxMenuItem(ChangeWindowedModeAction.id));&#xD;
+&#xD;
+     menu.addSeparator();&#xD;
+     ButtonGroup group = new ButtonGroup();&#xD;
+     for (DisplayText type : DisplayText.values()) {&#xD;
+         menu.add(getRadioButtonMenuItem(DisplayTileTextAction.id&#xD;
+                 + type.getKey(), group));&#xD;
+     }&#xD;
+&#xD;
+     menu.addSeparator();&#xD;
+     menu.add(getMenuItem(ZoomInAction.id));&#xD;
+     menu.add(getMenuItem(ZoomOutAction.id));&#xD;
+     menu.add(getMenuItem(CenterAction.id));&#xD;
+     menu.add(getMenuItem(TilePopupAction.id));&#xD;
+&#xD;
+     menu.addSeparator();&#xD;
+&#xD;
+     menu.add(getMenuItem(EuropeAction.id));&#xD;
+     menu.add(getMenuItem(TradeRouteAction.id));&#xD;
+     menu.add(getMenuItem(FindSettlementAction.id));&#xD;
+&#xD;
+     add(menu);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu8bh1IkEeibjuLm5_lcNQ" name="buildOrdersMenu" specification="_WpfTxVIkEeibjuLm5_lcNQ">
+                    <language>java</language>
+                    <body>// --> Orders&#xD;
+     JMenu menu = Utility.localizedMenu(&quot;menuBar.orders&quot;);&#xD;
+     menu.setOpaque(false);&#xD;
+     menu.setMnemonic(KeyEvent.VK_O);&#xD;
+&#xD;
+     menu.add(getMenuItem(SentryAction.id));&#xD;
+     menu.add(getMenuItem(FortifyAction.id));&#xD;
+&#xD;
+     menu.addSeparator();&#xD;
+&#xD;
+     menu.add(getMenuItem(GotoAction.id));&#xD;
+     menu.add(getMenuItem(GotoTileAction.id));&#xD;
+     menu.add(getMenuItem(ExecuteGotoOrdersAction.id));&#xD;
+     menu.add(getMenuItem(AssignTradeRouteAction.id));&#xD;
+&#xD;
+     menu.addSeparator();&#xD;
+&#xD;
+     menu.add(getMenuItem(BuildColonyAction.id));&#xD;
+     // Insert all Improvements here:&#xD;
+     for (TileImprovementType type : freeColClient.getGame().getSpecification()&#xD;
+              .getTileImprovementTypeList()) {&#xD;
+         if (!type.isNatural()) {&#xD;
+             menu.add(getMenuItem(type.getSuffix() + &quot;Action&quot;));&#xD;
+         }&#xD;
+     }&#xD;
+     menu.addSeparator();&#xD;
+&#xD;
+     menu.add(getMenuItem(LoadAction.id));&#xD;
+     menu.add(getMenuItem(UnloadAction.id));&#xD;
+&#xD;
+     menu.addSeparator();&#xD;
+&#xD;
+     menu.add(getMenuItem(WaitAction.id));&#xD;
+     menu.add(getMenuItem(SkipUnitAction.id));&#xD;
+     menu.add(getMenuItem(ChangeAction.id));&#xD;
+&#xD;
+     menu.addSeparator();&#xD;
+&#xD;
+     menu.add(getMenuItem(ClearOrdersAction.id));&#xD;
+     menu.add(getMenuItem(RenameAction.id));&#xD;
+     menu.add(getMenuItem(DisbandUnitAction.id));&#xD;
+&#xD;
+     add(menu);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu8biFIkEeibjuLm5_lcNQ" name="buildReportMenu" specification="_Wpf60FIkEeibjuLm5_lcNQ">
+                    <language>java</language>
+                    <body>// --> Report&#xD;
+&#xD;
+     JMenu menu = Utility.localizedMenu(&quot;menuBar.report&quot;);&#xD;
+     menu.setOpaque(false);&#xD;
+     menu.setMnemonic(KeyEvent.VK_R);&#xD;
+&#xD;
+     menu.add(getMenuItem(ReportReligionAction.id));&#xD;
+     menu.add(getMenuItem(ReportLabourAction.id));&#xD;
+     menu.add(getMenuItem(ReportColonyAction.id));&#xD;
+     menu.add(getMenuItem(ReportForeignAction.id));&#xD;
+     menu.add(getMenuItem(ReportIndianAction.id));&#xD;
+     menu.add(getMenuItem(ReportContinentalCongressAction.id));&#xD;
+     menu.add(getMenuItem(ReportMilitaryAction.id));&#xD;
+     menu.add(getMenuItem(ReportNavalAction.id));&#xD;
+     menu.add(getMenuItem(ReportTradeAction.id));&#xD;
+     menu.add(getMenuItem(ReportTurnAction.id));&#xD;
+     menu.add(getMenuItem(ReportRequirementsAction.id));&#xD;
+     menu.add(getMenuItem(ReportCargoAction.id));&#xD;
+     menu.add(getMenuItem(ReportExplorationAction.id));&#xD;
+     menu.add(getMenuItem(ReportHistoryAction.id));&#xD;
+     menu.add(getMenuItem(ReportProductionAction.id));&#xD;
+     menu.add(getMenuItem(ReportEducationAction.id));&#xD;
+     menu.add(getMenuItem(ShowDifficultyAction.id));&#xD;
+     menu.add(getMenuItem(ShowGameOptionsAction.id));&#xD;
+     menu.add(getMenuItem(ShowMapGeneratorOptionsAction.id));&#xD;
+&#xD;
+     add(menu);&#xD;
+&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu9CkFIkEeibjuLm5_lcNQ" name="paintComponent" specification="_WurVwFIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_Wu9CkVIkEeibjuLm5_lcNQ" name="g" type="_Wt7u4FIkEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>super.paintComponent(g);&#xD;
+&#xD;
+     if (freeColClient != null &amp;&amp; freeColClient.getMyPlayer() != null) {&#xD;
+         Graphics2D g2d = (Graphics2D) g;&#xD;
+         g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING,&#xD;
+                              RenderingHints.VALUE_ANTIALIAS_ON);&#xD;
+         g2d.setRenderingHint(RenderingHints.KEY_RENDERING,&#xD;
+                              RenderingHints.VALUE_RENDER_QUALITY);&#xD;
+         final int gold = freeColClient.getMyPlayer().getGold();&#xD;
+         String displayString =&#xD;
+             Messages.message(StringTemplate.template(&quot;menuBar.statusLine&quot;)&#xD;
+                 .addAmount(&quot;%gold%&quot;, gold)&#xD;
+                 .addAmount(&quot;%tax%&quot;, freeColClient.getMyPlayer().getTax())&#xD;
+                 .addAmount(&quot;%score%&quot;,&#xD;
+                     freeColClient.getMyPlayer().getScore())&#xD;
+                 .addStringTemplate(&quot;%year%&quot;,&#xD;
+                     freeColClient.getGame().getTurn().getLabel()));&#xD;
+         Rectangle2D displayStringBounds&#xD;
+             = g2d.getFontMetrics().getStringBounds(displayString, g);&#xD;
+         int y = Math.round(12f*freeColClient.getGUI().getImageLibrary().getScaleFactor())&#xD;
+               + 3 + getInsets().top;&#xD;
+         g2d.drawString(displayString, getWidth() - 10 - (int) displayStringBounds.getWidth(), y);&#xD;
+     }&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_WpessVIkEeibjuLm5_lcNQ" name="reset" isLeaf="true" method="_Wu8bhFIkEeibjuLm5_lcNQ"/>
+                  <ownedOperation xmi:id="_WpfTw1IkEeibjuLm5_lcNQ" name="buildGameMenu" visibility="private" method="_Wu8bhVIkEeibjuLm5_lcNQ"/>
+                  <ownedOperation xmi:id="_WpfTxFIkEeibjuLm5_lcNQ" name="buildViewMenu" visibility="private" method="_Wu8bhlIkEeibjuLm5_lcNQ"/>
+                  <ownedOperation xmi:id="_WpfTxVIkEeibjuLm5_lcNQ" name="buildOrdersMenu" visibility="private" method="_Wu8bh1IkEeibjuLm5_lcNQ"/>
+                  <ownedOperation xmi:id="_Wpf60FIkEeibjuLm5_lcNQ" name="buildReportMenu" visibility="private" method="_Wu8biFIkEeibjuLm5_lcNQ"/>
+                  <ownedOperation xmi:id="_WuqusFIkEeibjuLm5_lcNQ" name="InGameMenuBar" method="_Wu8bgFIkEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_Wuqus1IkEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_WuqutFIkEeibjuLm5_lcNQ" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_WuqusVIkEeibjuLm5_lcNQ" name="freeColClient" type="_Wt1BMVIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_WuquslIkEeibjuLm5_lcNQ" name="listener" type="_WuP38VIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_WuqutVIkEeibjuLm5_lcNQ" type="_WpessFIkEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_WurVwFIkEeibjuLm5_lcNQ" name="paintComponent" method="_Wu9CkFIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_WurVwVIkEeibjuLm5_lcNQ" name="g" type="_Wt7u4FIkEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Wpgh4FIkEeibjuLm5_lcNQ" name="MapEditorMenuBar">
+                  <ownedComment xmi:id="_Wu_e0lIkEeibjuLm5_lcNQ">
+                    <body>The menu bar used when running in editor mode.&#xD;
+ *&#xD;
+&lt;br>&lt;br>&#xD;
+ *&#xD;
+The menu bar that is displayed on the top left corner of the&#xD;
+&lt;code>Canvas&lt;/code>.&#xD;
+ *&#xD;
+@see InGameMenuBar</body>
+                  </ownedComment>
+                  <generalization xmi:id="_WuZB4VIkEeibjuLm5_lcNQ" general="_WpViwFIkEeibjuLm5_lcNQ"/>
+                  <ownedAttribute xmi:id="_Wu2781IkEeibjuLm5_lcNQ" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_WtxW0VIkEeibjuLm5_lcNQ" isReadOnly="true" association="_WvIowVIkEeibjuLm5_lcNQ">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_Wu3jAFIkEeibjuLm5_lcNQ" value="Logger.getLogger(MapEditorMenuBar.class.getName())"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu9CklIkEeibjuLm5_lcNQ" name="MapEditorMenuBar" specification="_Wusj4FIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_Wu9Ck1IkEeibjuLm5_lcNQ" name="freeColClient" type="_Wt1BMVIkEeibjuLm5_lcNQ">
+                      <eAnnotations xmi:id="_Wu9ClFIkEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_Wu9ClVIkEeibjuLm5_lcNQ" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Wu9CllIkEeibjuLm5_lcNQ" name="listener" type="_WuP38VIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_Wu9Cl1IkEeibjuLm5_lcNQ" type="_Wpgh4FIkEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>super(freeColClient);&#xD;
+&#xD;
+     // Add a mouse listener so that autoscrolling can happen in this menubar&#xD;
+     this.addMouseMotionListener(listener);&#xD;
+     reset();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu9CmFIkEeibjuLm5_lcNQ" name="reset" specification="_WphI8FIkEeibjuLm5_lcNQ">
+                    <language>java</language>
+                    <body>removeAll();&#xD;
+&#xD;
+     buildGameMenu();&#xD;
+     buildViewMenu();&#xD;
+     buildToolsMenu();&#xD;
+     buildColopediaMenu();&#xD;
+&#xD;
+     update();&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu9CmVIkEeibjuLm5_lcNQ" name="buildGameMenu" specification="_WphwA1IkEeibjuLm5_lcNQ">
+                    <language>java</language>
+                    <body>// --> Game&#xD;
+     JMenu menu = Utility.localizedMenu(&quot;menuBar.game&quot;);&#xD;
+     menu.setOpaque(false);&#xD;
+     menu.setMnemonic(KeyEvent.VK_G);&#xD;
+&#xD;
+     menu.add(getMenuItem(NewAction.id));&#xD;
+     menu.add(getMenuItem(NewEmptyMapAction.id));&#xD;
+&#xD;
+     menu.addSeparator();&#xD;
+&#xD;
+     menu.add(getMenuItem(OpenAction.id));&#xD;
+     menu.add(getMenuItem(SaveAction.id));&#xD;
+     JMenuItem playItem = Utility.localizedMenuItem(&quot;startGame&quot;);&#xD;
+     playItem.addActionListener((ActionEvent ae) -> {&#xD;
+             File startFile = FreeColDirectories.getStartMapFile();&#xD;
+             freeColClient.getMapEditorController().saveGame(startFile);&#xD;
+             OptionGroup options = freeColClient.getGame()&#xD;
+                 .getMapGeneratorOptions();&#xD;
+             FileOption fileOption = (FileOption)options&#xD;
+                 .getOption(MapGeneratorOptions.IMPORT_FILE);&#xD;
+             fileOption.setValue(startFile);&#xD;
+             File mapOptionsFile = FreeColDirectories&#xD;
+                 .getOptionsFile(FreeColDirectories.MAP_GENERATOR_OPTIONS_FILE_NAME);&#xD;
+             try {&#xD;
+                 options.save(mapOptionsFile);&#xD;
+             } catch (FileNotFoundException fnfe) {}&#xD;
+             freeColClient.newGame(true);&#xD;
+         });&#xD;
+     menu.add(playItem);&#xD;
+     menu.addSeparator();&#xD;
+&#xD;
+     menu.add(getMenuItem(PreferencesAction.id));&#xD;
+&#xD;
+     menu.addSeparator();&#xD;
+&#xD;
+     menu.add(getMenuItem(ShowMainAction.id));&#xD;
+     menu.add(getMenuItem(QuitAction.id));&#xD;
+&#xD;
+     add(menu);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu9poFIkEeibjuLm5_lcNQ" name="buildViewMenu" specification="_WphwBFIkEeibjuLm5_lcNQ">
+                    <language>java</language>
+                    <body>// --> View&#xD;
+     JMenu menu = Utility.localizedMenu(&quot;menuBar.view&quot;);&#xD;
+     menu.setOpaque(false);&#xD;
+     menu.setMnemonic(KeyEvent.VK_V);&#xD;
+&#xD;
+     menu.add(getCheckBoxMenuItem(MapControlsAction.id));&#xD;
+     menu.add(getCheckBoxMenuItem(DisplayGridAction.id));&#xD;
+     menu.add(getCheckBoxMenuItem(ChangeWindowedModeAction.id));&#xD;
+&#xD;
+     menu.addSeparator();&#xD;
+     ButtonGroup tileTextGroup = new ButtonGroup();&#xD;
+     for (DisplayText type : DisplayText.values()) {&#xD;
+         menu.add(getRadioButtonMenuItem(DisplayTileTextAction.id + type.getKey(),&#xD;
+                                         tileTextGroup));&#xD;
+     }&#xD;
+&#xD;
+     menu.addSeparator();&#xD;
+     menu.add(getMenuItem(ZoomInAction.id));&#xD;
+     menu.add(getMenuItem(ZoomOutAction.id));&#xD;
+&#xD;
+     add(menu);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu9poVIkEeibjuLm5_lcNQ" name="buildToolsMenu" specification="_WpiXEFIkEeibjuLm5_lcNQ">
+                    <language>java</language>
+                    <body>// --> Tools&#xD;
+     JMenu menu = Utility.localizedMenu(&quot;menuBar.tools&quot;);&#xD;
+     menu.setOpaque(false);&#xD;
+     menu.setMnemonic(KeyEvent.VK_T);&#xD;
+&#xD;
+     menu.add(getMenuItem(ScaleMapAction.id));&#xD;
+     menu.add(getMenuItem(DetermineHighSeasAction.id));&#xD;
+&#xD;
+     add(menu);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_WphI8FIkEeibjuLm5_lcNQ" name="reset" isLeaf="true" method="_Wu9CmFIkEeibjuLm5_lcNQ"/>
+                  <ownedOperation xmi:id="_WphwA1IkEeibjuLm5_lcNQ" name="buildGameMenu" visibility="private" method="_Wu9CmVIkEeibjuLm5_lcNQ"/>
+                  <ownedOperation xmi:id="_WphwBFIkEeibjuLm5_lcNQ" name="buildViewMenu" visibility="private" method="_Wu9poFIkEeibjuLm5_lcNQ"/>
+                  <ownedOperation xmi:id="_WpiXEFIkEeibjuLm5_lcNQ" name="buildToolsMenu" visibility="private" method="_Wu9poVIkEeibjuLm5_lcNQ"/>
+                  <ownedOperation xmi:id="_Wusj4FIkEeibjuLm5_lcNQ" name="MapEditorMenuBar" method="_Wu9CklIkEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_WutK8FIkEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_WutK8VIkEeibjuLm5_lcNQ" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_Wusj4VIkEeibjuLm5_lcNQ" name="freeColClient" type="_Wt1BMVIkEeibjuLm5_lcNQ">
+                      <eAnnotations xmi:id="_WutK81IkEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                        <details xmi:id="_WutK9FIkEeibjuLm5_lcNQ" key="final"/>
+                      </eAnnotations>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Wusj4lIkEeibjuLm5_lcNQ" name="listener" type="_WuP38VIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_WutK8lIkEeibjuLm5_lcNQ" type="_Wpgh4FIkEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Wpi-IFIkEeibjuLm5_lcNQ" name="MenuMouseMotionListener">
+                  <ownedComment xmi:id="_Wu_e1FIkEeibjuLm5_lcNQ">
+                    <body>This class is meant to make the autoscrolling work better, so that&#xD;
+you don't have to hover the mouse exactly one pixel below the menu&#xD;
+bar to make it scroll up.  This is the MouseMotionListener added to&#xD;
+the menu bar, allowing you to scroll by just moving the mouse all&#xD;
+the way to the top of the screen.&#xD;
+&#xD;
+Note: This doesn't cause it to scroll down when you reach the&#xD;
+bottom of the menu bar, because the performAutoScrollIfActive will&#xD;
+compare the Y coordinate to the size of the entire canvas (which&#xD;
+should always be bigger).</body>
+                  </ownedComment>
+                  <generalization xmi:id="_WuwOQlIkEeibjuLm5_lcNQ" general="_Wua3EVIkEeibjuLm5_lcNQ"/>
+                  <interfaceRealization xmi:id="_WutyAFIkEeibjuLm5_lcNQ" client="_Wpi-IFIkEeibjuLm5_lcNQ" supplier="_WuP38VIkEeibjuLm5_lcNQ" contract="_WuP38VIkEeibjuLm5_lcNQ"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu9polIkEeibjuLm5_lcNQ" name="MenuMouseMotionListener" specification="_WuuZEFIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_Wu9po1IkEeibjuLm5_lcNQ" name="freeColClient" type="_Wt1BMVIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_Wu9ppFIkEeibjuLm5_lcNQ" name="canvas" type="_WubeIVIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_Wu9ppVIkEeibjuLm5_lcNQ" type="_Wpi-IFIkEeibjuLm5_lcNQ" direction="return"/>
+                    <language>java</language>
+                    <body>super(freeColClient, canvas);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wu9pplIkEeibjuLm5_lcNQ" name="mouseMoved" specification="_WuvnMFIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_Wu9pp1IkEeibjuLm5_lcNQ" name="e" type="_WuaQAFIkEeibjuLm5_lcNQ"/>
+                    <language>java</language>
+                    <body>performAutoScrollIfActive(e);&#xD;
+ </body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_WuuZEFIkEeibjuLm5_lcNQ" name="MenuMouseMotionListener" method="_Wu9polIkEeibjuLm5_lcNQ">
+                    <eAnnotations xmi:id="_WuuZE1IkEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_WuuZFFIkEeibjuLm5_lcNQ" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_WuuZEVIkEeibjuLm5_lcNQ" name="freeColClient" type="_Wt1BMVIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_WuuZElIkEeibjuLm5_lcNQ" name="canvas" type="_WubeIVIkEeibjuLm5_lcNQ"/>
+                    <ownedParameter xmi:id="_WuuZFVIkEeibjuLm5_lcNQ" type="_Wpi-IFIkEeibjuLm5_lcNQ" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_WuuZFlIkEeibjuLm5_lcNQ" name="mouseDragged">
+                    <ownedParameter xmi:id="_WuvAIFIkEeibjuLm5_lcNQ" name="e" type="_WuaQAFIkEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_WuvnMFIkEeibjuLm5_lcNQ" name="mouseMoved" method="_Wu9pplIkEeibjuLm5_lcNQ">
+                    <ownedParameter xmi:id="_WuvnMVIkEeibjuLm5_lcNQ" name="e" type="_WuaQAFIkEeibjuLm5_lcNQ"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_WvB7EFIkEeibjuLm5_lcNQ" name="" memberEnd="_WvB7EVIkEeibjuLm5_lcNQ _WuxcYFIkEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_WvB7EVIkEeibjuLm5_lcNQ" name="" type="_WpSfcFIkEeibjuLm5_lcNQ" association="_WvB7EFIkEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_WvCiIVIkEeibjuLm5_lcNQ" name="" memberEnd="_WvCiIlIkEeibjuLm5_lcNQ _WuyqhVIkEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_WvCiIlIkEeibjuLm5_lcNQ" name="" type="_WpSfcFIkEeibjuLm5_lcNQ" association="_WvCiIVIkEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_WvDJMVIkEeibjuLm5_lcNQ" name="" memberEnd="_WvDJMlIkEeibjuLm5_lcNQ _WuzRkVIkEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_WvDJMlIkEeibjuLm5_lcNQ" name="" type="_WpViwFIkEeibjuLm5_lcNQ" association="_WvDJMVIkEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_WvDwQVIkEeibjuLm5_lcNQ" name="" memberEnd="_WvDwQlIkEeibjuLm5_lcNQ _Wuz4oFIkEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_WvDwQlIkEeibjuLm5_lcNQ" name="" type="_WpViwFIkEeibjuLm5_lcNQ" association="_WvDwQVIkEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_WvEXUVIkEeibjuLm5_lcNQ" name="" memberEnd="_WvEXUlIkEeibjuLm5_lcNQ _Wuz4olIkEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_WvEXUlIkEeibjuLm5_lcNQ" name="" type="_WpViwFIkEeibjuLm5_lcNQ" association="_WvEXUVIkEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_WvE-YFIkEeibjuLm5_lcNQ" name="" memberEnd="_WvE-YVIkEeibjuLm5_lcNQ _Wu0fsVIkEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_WvE-YVIkEeibjuLm5_lcNQ" name="" type="_WpbpYFIkEeibjuLm5_lcNQ" association="_WvE-YFIkEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_WvFlcFIkEeibjuLm5_lcNQ" name="" memberEnd="_WvFlcVIkEeibjuLm5_lcNQ _Wu1GwVIkEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_WvFlcVIkEeibjuLm5_lcNQ" name="" type="_WpbpYFIkEeibjuLm5_lcNQ" association="_WvFlcFIkEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_WvIBsVIkEeibjuLm5_lcNQ" name="" memberEnd="_WvIBslIkEeibjuLm5_lcNQ _Wu2U4FIkEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_WvIBslIkEeibjuLm5_lcNQ" name="" type="_WpessFIkEeibjuLm5_lcNQ" association="_WvIBsVIkEeibjuLm5_lcNQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_WvIowVIkEeibjuLm5_lcNQ" name="" memberEnd="_WvIowlIkEeibjuLm5_lcNQ _Wu2781IkEeibjuLm5_lcNQ">
+                  <ownedEnd xmi:id="_WvIowlIkEeibjuLm5_lcNQ" name="" type="_Wpgh4FIkEeibjuLm5_lcNQ" association="_WvIowVIkEeibjuLm5_lcNQ"/>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_Wo9IQFIkEeibjuLm5_lcNQ" name="action">
+                <packagedElement xmi:type="uml:Package" xmi:id="_Wo9vUFIkEeibjuLm5_lcNQ" name="ColopediaAction">
+                  <packagedElement xmi:type="uml:Enumeration" xmi:id="_Wt_ZQVIkEeibjuLm5_lcNQ" name="PanelType"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Package" xmi:id="_WpD18FIkEeibjuLm5_lcNQ" name="DisplayTileTextAction">
+                  <packagedElement xmi:type="uml:Enumeration" xmi:id="_WuRGEVIkEeibjuLm5_lcNQ" name="DisplayText"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Wt-LIVIkEeibjuLm5_lcNQ" name="AboutAction"/>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Wt-yMVIkEeibjuLm5_lcNQ" name="ActionManager"/>
+                <packagedElement xmi:type="uml:Class" xmi:id="_Wt-yM1IkEeibjuLm5_lcNQ" name="ColopediaAction"/>
+                <packagedElement xmi:type="uml:Class" xmi:id="_WuAAUVIkEeibjuLm5_lcNQ" name="FreeColAction"/>
+                <packagedElement xmi:type="uml:Class" xmi:id="_WuAnYVIkEeibjuLm5_lcNQ" name="SelectableAction"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_Wt1oQVIkEeibjuLm5_lcNQ" name="GUI"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_Wt9kEVIkEeibjuLm5_lcNQ" name="ImageLibrary"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_WuLmgVIkEeibjuLm5_lcNQ" name="FreeColFrame"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_Wua3EVIkEeibjuLm5_lcNQ" name="AbstractCanvasListener"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_WubeIVIkEeibjuLm5_lcNQ" name="Canvas"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_Wt1BMVIkEeibjuLm5_lcNQ" name="FreeColClient"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_Wo7TEVIkEeibjuLm5_lcNQ" name="common">
+            <packagedElement xmi:type="uml:Package" xmi:id="_Wo7TElIkEeibjuLm5_lcNQ" name="debug">
+              <packagedElement xmi:type="uml:Class" xmi:id="_Wt22YVIkEeibjuLm5_lcNQ" name="DebugUtils"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_Wt3dcFIkEeibjuLm5_lcNQ" name="FreeColDebugger"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Wo7TE1IkEeibjuLm5_lcNQ" name="i18n">
+              <packagedElement xmi:type="uml:Class" xmi:id="_Wt3dclIkEeibjuLm5_lcNQ" name="Messages"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Wo7TFFIkEeibjuLm5_lcNQ" name="model">
+              <packagedElement xmi:type="uml:Class" xmi:id="_Wt4EgVIkEeibjuLm5_lcNQ" name="Game"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_Wt4rkVIkEeibjuLm5_lcNQ" name="Monarch"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_Wt4rk1IkEeibjuLm5_lcNQ" name="Player"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_Wt5SoVIkEeibjuLm5_lcNQ" name="StringTemplate"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_WuRtIVIkEeibjuLm5_lcNQ" name="TileImprovementType"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Wo7TFVIkEeibjuLm5_lcNQ" name="resources">
+              <packagedElement xmi:type="uml:Class" xmi:id="_Wt55sFIkEeibjuLm5_lcNQ" name="ImageResource"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_Wt55slIkEeibjuLm5_lcNQ" name="ResourceManager"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Wo7TFlIkEeibjuLm5_lcNQ" name="util">
+              <packagedElement xmi:type="uml:Class" xmi:id="_Wt6gwVIkEeibjuLm5_lcNQ" name="CollectionUtils"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_WpEdAVIkEeibjuLm5_lcNQ" name="io">
+              <packagedElement xmi:type="uml:Class" xmi:id="_WuWloFIkEeibjuLm5_lcNQ" name="FreeColDirectories"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_WpG5QFIkEeibjuLm5_lcNQ" name="option">
+              <packagedElement xmi:type="uml:Class" xmi:id="_WuXMsFIkEeibjuLm5_lcNQ" name="FileOption"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_WuXzwVIkEeibjuLm5_lcNQ" name="MapGeneratorOptions"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_WuYa0VIkEeibjuLm5_lcNQ" name="OptionGroup"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Wo6E8FIkEeibjuLm5_lcNQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Wo6sAFIkEeibjuLm5_lcNQ" name="awt">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Wo6sAVIkEeibjuLm5_lcNQ" name="event">
+          <packagedElement xmi:type="uml:Class" xmi:id="_Wtu6kVIkEeibjuLm5_lcNQ" name="ActionEvent"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_WtvhoVIkEeibjuLm5_lcNQ" name="InputEvent"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_WtwIsVIkEeibjuLm5_lcNQ" name="KeyEvent"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_Wt8V8VIkEeibjuLm5_lcNQ" name="ActionListener"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_WuFf4VIkEeibjuLm5_lcNQ" name="ItemEvent"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_WuHVEVIkEeibjuLm5_lcNQ" name="ItemListener"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_WuP38VIkEeibjuLm5_lcNQ" name="MouseMotionListener"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_WuaQAFIkEeibjuLm5_lcNQ" name="MouseEvent"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_WpALkFIkEeibjuLm5_lcNQ" name="geom">
+          <packagedElement xmi:type="uml:Class" xmi:id="_WuQfAVIkEeibjuLm5_lcNQ" name="Rectangle2D"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WtuTgFIkEeibjuLm5_lcNQ" name="Toolkit"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Wt7u4FIkEeibjuLm5_lcNQ" name="Graphics"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WuDqsFIkEeibjuLm5_lcNQ" name="BorderLayout"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WuERwVIkEeibjuLm5_lcNQ" name="Container"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WuE40FIkEeibjuLm5_lcNQ" name="Dimension"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WuE40lIkEeibjuLm5_lcNQ" name="GraphicsEnvironment"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WuOCwFIkEeibjuLm5_lcNQ" name="Graphics2D"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WuPQ4FIkEeibjuLm5_lcNQ" name="RenderingHints"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Wo6sAlIkEeibjuLm5_lcNQ" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Wo6sA1IkEeibjuLm5_lcNQ" name="Map">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_WtwvwlIkEeibjuLm5_lcNQ" name="Entry"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Wo6sBFIkEeibjuLm5_lcNQ" name="logging">
+          <packagedElement xmi:type="uml:Class" xmi:id="_WtxW0VIkEeibjuLm5_lcNQ" name="Logger"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_WtwvwFIkEeibjuLm5_lcNQ" name="Map"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_WpEdAFIkEeibjuLm5_lcNQ" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_WuUwcFIkEeibjuLm5_lcNQ" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WuV-kFIkEeibjuLm5_lcNQ" name="FileNotFoundException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Wuo5gFIkEeibjuLm5_lcNQ" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_Wuo5gVIkEeibjuLm5_lcNQ" name="Object"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Wo6sBVIkEeibjuLm5_lcNQ" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Wo6sBlIkEeibjuLm5_lcNQ" name="swing">
+        <packagedElement xmi:type="uml:Class" xmi:id="_Wtyk8FIkEeibjuLm5_lcNQ" name="ButtonGroup"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Wtyk8lIkEeibjuLm5_lcNQ" name="JCheckBoxMenuItem"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WtzMAVIkEeibjuLm5_lcNQ" name="JMenu"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WtzzEVIkEeibjuLm5_lcNQ" name="JMenuItem"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WtzzE1IkEeibjuLm5_lcNQ" name="JRadioButtonMenuItem"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Wt0aIVIkEeibjuLm5_lcNQ" name="KeyStroke"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Wt89AVIkEeibjuLm5_lcNQ" name="JMenuBar"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WuIjMFIkEeibjuLm5_lcNQ" name="ImageIcon"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WuJKQVIkEeibjuLm5_lcNQ" name="JFrame"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WuJxUFIkEeibjuLm5_lcNQ" name="JPanel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WuKYYFIkEeibjuLm5_lcNQ" name="JScrollPane"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WuK_cVIkEeibjuLm5_lcNQ" name="JTextArea"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_WjkR81IkEeibjuLm5_lcNQ">
+      <eAnnotations xmi:id="_Wjk5AFIkEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_Wjk5AVIkEeibjuLm5_lcNQ" base_Package="_V-3CYFIkEeibjuLm5_lcNQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WpYmElIkEeibjuLm5_lcNQ" base_Element="_WpYmEFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_WpZNIFIkEeibjuLm5_lcNQ" base_Element="_WpYmEFIkEeibjuLm5_lcNQ">
+    <annotations xmi:id="_WpZ0MFIkEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WpfTwFIkEeibjuLm5_lcNQ" base_Element="_WpessVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_WpfTwVIkEeibjuLm5_lcNQ" base_Element="_WpessVIkEeibjuLm5_lcNQ">
+    <annotations xmi:id="_WpfTwlIkEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WphwAFIkEeibjuLm5_lcNQ" base_Element="_WphI8FIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_WphwAVIkEeibjuLm5_lcNQ" base_Element="_WphI8FIkEeibjuLm5_lcNQ">
+    <annotations xmi:id="_WphwAlIkEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_Wtu6kFIkEeibjuLm5_lcNQ" base_Element="_WtuTgFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WtvhoFIkEeibjuLm5_lcNQ" base_Element="_Wtu6kVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WtwIsFIkEeibjuLm5_lcNQ" base_Element="_WtvhoVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WtwIslIkEeibjuLm5_lcNQ" base_Element="_WtwIsVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WtwvwVIkEeibjuLm5_lcNQ" base_Element="_WtwvwFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WtxW0FIkEeibjuLm5_lcNQ" base_Element="_WtwvwlIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wtx94FIkEeibjuLm5_lcNQ" base_Element="_WtxW0VIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wtyk8VIkEeibjuLm5_lcNQ" base_Element="_Wtyk8FIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WtzMAFIkEeibjuLm5_lcNQ" base_Element="_Wtyk8lIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WtzzEFIkEeibjuLm5_lcNQ" base_Element="_WtzMAVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WtzzElIkEeibjuLm5_lcNQ" base_Element="_WtzzEVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wt0aIFIkEeibjuLm5_lcNQ" base_Element="_WtzzE1IkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wt1BMFIkEeibjuLm5_lcNQ" base_Element="_Wt0aIVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wt1oQFIkEeibjuLm5_lcNQ" base_Element="_Wt1BMVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wt2PUFIkEeibjuLm5_lcNQ" base_Element="_Wt1oQVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wt22YFIkEeibjuLm5_lcNQ" base_Element="_Wt2PUVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wt22YlIkEeibjuLm5_lcNQ" base_Element="_Wt22YVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wt3dcVIkEeibjuLm5_lcNQ" base_Element="_Wt3dcFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wt4EgFIkEeibjuLm5_lcNQ" base_Element="_Wt3dclIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wt4rkFIkEeibjuLm5_lcNQ" base_Element="_Wt4EgVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wt4rklIkEeibjuLm5_lcNQ" base_Element="_Wt4rkVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wt5SoFIkEeibjuLm5_lcNQ" base_Element="_Wt4rk1IkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wt5SolIkEeibjuLm5_lcNQ" base_Element="_Wt5SoVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wt55sVIkEeibjuLm5_lcNQ" base_Element="_Wt55sFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wt6gwFIkEeibjuLm5_lcNQ" base_Element="_Wt55slIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wt6gwlIkEeibjuLm5_lcNQ" base_Element="_Wt6gwVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wt8V8FIkEeibjuLm5_lcNQ" base_Element="_Wt7u4FIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wt89AFIkEeibjuLm5_lcNQ" base_Element="_Wt8V8VIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wt9kEFIkEeibjuLm5_lcNQ" base_Element="_Wt89AVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wt-LIFIkEeibjuLm5_lcNQ" base_Element="_Wt9kEVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wt-yMFIkEeibjuLm5_lcNQ" base_Element="_Wt-LIVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wt-yMlIkEeibjuLm5_lcNQ" base_Element="_Wt-yMVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wt_ZQFIkEeibjuLm5_lcNQ" base_Element="_Wt-yM1IkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuAAUFIkEeibjuLm5_lcNQ" base_Element="_Wt_ZQVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuAnYFIkEeibjuLm5_lcNQ" base_Element="_WuAAUVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuAnYlIkEeibjuLm5_lcNQ" base_Element="_WuAnYVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuBOcFIkEeibjuLm5_lcNQ" base_Element="_WuAnY1IkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuERwFIkEeibjuLm5_lcNQ" base_Element="_WuDqsFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuERwlIkEeibjuLm5_lcNQ" base_Element="_WuERwVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuE40VIkEeibjuLm5_lcNQ" base_Element="_WuE40FIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuFf4FIkEeibjuLm5_lcNQ" base_Element="_WuE40lIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuHVEFIkEeibjuLm5_lcNQ" base_Element="_WuFf4VIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuHVElIkEeibjuLm5_lcNQ" base_Element="_WuHVEVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuJKQFIkEeibjuLm5_lcNQ" base_Element="_WuIjMFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuJKQlIkEeibjuLm5_lcNQ" base_Element="_WuJKQVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuJxUVIkEeibjuLm5_lcNQ" base_Element="_WuJxUFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuK_cFIkEeibjuLm5_lcNQ" base_Element="_WuKYYFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuLmgFIkEeibjuLm5_lcNQ" base_Element="_WuK_cVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuLmglIkEeibjuLm5_lcNQ" base_Element="_WuLmgVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuOp0FIkEeibjuLm5_lcNQ" base_Element="_WuOCwFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuP38FIkEeibjuLm5_lcNQ" base_Element="_WuPQ4FIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuQfAFIkEeibjuLm5_lcNQ" base_Element="_WuP38VIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuRGEFIkEeibjuLm5_lcNQ" base_Element="_WuQfAVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuRtIFIkEeibjuLm5_lcNQ" base_Element="_WuRGEVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuSUMFIkEeibjuLm5_lcNQ" base_Element="_WuRtIVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuVXgFIkEeibjuLm5_lcNQ" base_Element="_WuUwcFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuV-kVIkEeibjuLm5_lcNQ" base_Element="_WuV-kFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuWloVIkEeibjuLm5_lcNQ" base_Element="_WuWloFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuXzwFIkEeibjuLm5_lcNQ" base_Element="_WuXMsFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuYa0FIkEeibjuLm5_lcNQ" base_Element="_WuXzwVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WuZB4FIkEeibjuLm5_lcNQ" base_Element="_WuYa0VIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Wua3EFIkEeibjuLm5_lcNQ" base_Element="_WuaQAFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WubeIFIkEeibjuLm5_lcNQ" base_Element="_Wua3EVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WucFMFIkEeibjuLm5_lcNQ" base_Element="_WubeIVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WukBAVIkEeibjuLm5_lcNQ" base_Element="_WujZ9FIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_WukoEFIkEeibjuLm5_lcNQ" base_Element="_WujZ9FIkEeibjuLm5_lcNQ">
+    <annotations xmi:id="_WukoEVIkEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WunEUlIkEeibjuLm5_lcNQ" base_Element="_WunEUFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_WunrYFIkEeibjuLm5_lcNQ" base_Element="_WunEUFIkEeibjuLm5_lcNQ">
+    <annotations xmi:id="_WunrYVIkEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WuoScFIkEeibjuLm5_lcNQ" base_Element="_WunrYlIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_WuoScVIkEeibjuLm5_lcNQ" base_Element="_WunrYlIkEeibjuLm5_lcNQ">
+    <annotations xmi:id="_WuoSclIkEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_Wuo5glIkEeibjuLm5_lcNQ" base_Element="_Wuo5gVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Wur80FIkEeibjuLm5_lcNQ" base_Element="_WurVwFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_Wur80VIkEeibjuLm5_lcNQ" base_Element="_WurVwFIkEeibjuLm5_lcNQ">
+    <annotations xmi:id="_Wur80lIkEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WuvAIVIkEeibjuLm5_lcNQ" base_Element="_WuuZFlIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_WuvAIlIkEeibjuLm5_lcNQ" base_Element="_WuuZFlIkEeibjuLm5_lcNQ">
+    <annotations xmi:id="_WuvAI1IkEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WuvnMlIkEeibjuLm5_lcNQ" base_Element="_WuvnMFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_WuwOQFIkEeibjuLm5_lcNQ" base_Element="_WuvnMFIkEeibjuLm5_lcNQ">
+    <annotations xmi:id="_WuwOQVIkEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WuyDcVIkEeibjuLm5_lcNQ" base_Element="_WuxcYFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_WuyqgFIkEeibjuLm5_lcNQ" base_Element="_WuxcYFIkEeibjuLm5_lcNQ">
+    <annotations xmi:id="_WuyqgVIkEeibjuLm5_lcNQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_WuyqglIkEeibjuLm5_lcNQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Wu-QsVIkEeibjuLm5_lcNQ" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WuzRkFIkEeibjuLm5_lcNQ" base_Element="_WuyqhVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Wuz4oVIkEeibjuLm5_lcNQ" base_Element="_Wuz4oFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Wu0fsFIkEeibjuLm5_lcNQ" base_Element="_Wuz4olIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Wu1GwFIkEeibjuLm5_lcNQ" base_Element="_Wu0fsVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Wu1GwlIkEeibjuLm5_lcNQ" base_Element="_Wu1GwVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Wu1t0lIkEeibjuLm5_lcNQ" base_Element="_Wu1t0FIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Wu2U4lIkEeibjuLm5_lcNQ" base_Element="_Wu2U4FIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_Wu278FIkEeibjuLm5_lcNQ" base_Element="_Wu2U4FIkEeibjuLm5_lcNQ">
+    <annotations xmi:id="_Wu278VIkEeibjuLm5_lcNQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_Wu278lIkEeibjuLm5_lcNQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Wu_e0VIkEeibjuLm5_lcNQ" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Wu3jAVIkEeibjuLm5_lcNQ" base_Element="_Wu2781IkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_Wu3jAlIkEeibjuLm5_lcNQ" base_Element="_Wu2781IkEeibjuLm5_lcNQ">
+    <annotations xmi:id="_Wu3jA1IkEeibjuLm5_lcNQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_Wu4KEFIkEeibjuLm5_lcNQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Wu_e01IkEeibjuLm5_lcNQ" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_WvCiIFIkEeibjuLm5_lcNQ" base_Element="_WvB7EFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WvDJMFIkEeibjuLm5_lcNQ" base_Element="_WvCiIVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WvDwQFIkEeibjuLm5_lcNQ" base_Element="_WvDJMVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WvEXUFIkEeibjuLm5_lcNQ" base_Element="_WvDwQVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WvEXU1IkEeibjuLm5_lcNQ" base_Element="_WvEXUVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WvE-YlIkEeibjuLm5_lcNQ" base_Element="_WvE-YFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WvIBsFIkEeibjuLm5_lcNQ" base_Element="_WvFlcFIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WvIowFIkEeibjuLm5_lcNQ" base_Element="_WvIBsVIkEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_WvIow1IkEeibjuLm5_lcNQ" base_Element="_WvIowVIkEeibjuLm5_lcNQ"/>
+</xmi:XMI>

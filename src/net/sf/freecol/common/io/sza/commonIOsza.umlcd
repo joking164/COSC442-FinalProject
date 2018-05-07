@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_Gh8roFIoEeibjuLm5_lcNQ">
+  <modelElement href="commonIOsza.uml#_HJJ1k1IoEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Ho5FkVIoEeibjuLm5_lcNQ" targetItem="_Ho8I4FIoEeibjuLm5_lcNQ" sourceItem="_Ho5FkFIoEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Ho8v8FIoEeibjuLm5_lcNQ" sourceAnchor="68.0,0.0" targetAnchor="70.0,56.0" superClass="_Ho8I4FIoEeibjuLm5_lcNQ" subClass="_Ho9XCVIoEeibjuLm5_lcNQ">
+    <modelElement href="commonIOsza.uml#_HJz84lIoEeibjuLm5_lcNQ"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Ho8v8lIoEeibjuLm5_lcNQ" targetItem="_Ho9XCVIoEeibjuLm5_lcNQ" sourceItem="_Ho8v8VIoEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Ho9XAFIoEeibjuLm5_lcNQ" source="_Ho9XCVIoEeibjuLm5_lcNQ">
+    <modelElement href="commonIOsza.uml#_HKmAAFIoEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_Ho9XAVIoEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="commonIOsza.uml#_HKmnEFIoEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Ho9XAlIoEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_Ho9XA1IoEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="commonIOsza.uml#_HKmAAVIoEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_Ho9XBFIoEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_Ho9XBVIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Ho9XBlIoEeibjuLm5_lcNQ" aggregationKind="NONE" name="image" navigable="true">
+      <modelElement href="commonIOsza.uml#_HJS_gVIoEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_Ho9XB1IoEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_Ho9XCFIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Ho-lIFIoEeibjuLm5_lcNQ" sourceAnchor="733.0,156.0" targetAnchor="40.0,56.0" target="_Ho8I4FIoEeibjuLm5_lcNQ" source="_HpBocFIoEeibjuLm5_lcNQ">
+    <modelElement href="commonIOsza.uml#_HKmnEVIoEeibjuLm5_lcNQ"/>
+    <bendpoints xmi:id="_Nx8ugFIoEeibjuLm5_lcNQ" sourceX="107" targetY="211"/>
+    <stereotypes xmi:id="_Ho_zQFIoEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="commonIOsza.uml#_HKnOIFIoEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Ho-lI1IoEeibjuLm5_lcNQ" text="">
+      <visualProperties xmi:id="_Nx8ug1IoEeibjuLm5_lcNQ" position="-120.72654848325078,-7.251470842750393"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Ho-lJFIoEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="commonIOsza.uml#_HKmnElIoEeibjuLm5_lcNQ"/>
+      <visualProperties xmi:id="_Nx8uglIoEeibjuLm5_lcNQ" position="34.20889837024598,-19.108514494500866"/>
+      <visibility xmi:id="_HpBBYVIoEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_HpBBYFIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Ho-lJVIoEeibjuLm5_lcNQ" aggregationKind="NONE" name="events" navigable="true">
+      <modelElement href="commonIOsza.uml#_HKX9kFIoEeibjuLm5_lcNQ"/>
+      <visualProperties xmi:id="_Nx8uhFIoEeibjuLm5_lcNQ" position="-158.68985938174797,191.66787870774914"/>
+      <visibility xmi:id="_HpBBY1IoEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_HpBBYlIoEeibjuLm5_lcNQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Ho-lIlIoEeibjuLm5_lcNQ" targetItem="_HpBocFIoEeibjuLm5_lcNQ" sourceItem="_Ho-lIVIoEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Ho_zQlIoEeibjuLm5_lcNQ" targetItem="_HpBohlIoEeibjuLm5_lcNQ" sourceItem="_Ho_zQVIoEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Ho_zRFIoEeibjuLm5_lcNQ" targetItem="_HpBoi1IoEeibjuLm5_lcNQ" sourceItem="_Ho_zQ1IoEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Ho_zRlIoEeibjuLm5_lcNQ" targetItem="_HpBomFIoEeibjuLm5_lcNQ" sourceItem="_Ho_zRVIoEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_HpAaUVIoEeibjuLm5_lcNQ" targetItem="_HpBooFIoEeibjuLm5_lcNQ" sourceItem="_HpAaUFIoEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_HpAaU1IoEeibjuLm5_lcNQ" targetItem="_HpBoqlIoEeibjuLm5_lcNQ" sourceItem="_HpAaUlIoEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_HpI9MFIoEeibjuLm5_lcNQ" sourceAnchor="721.0,119.0" targetAnchor="92.0,112.0" dashed="true" superClass="_Ho9XCVIoEeibjuLm5_lcNQ" subClass="_HpMnkFIoEeibjuLm5_lcNQ">
+    <modelElement href="commonIOsza.uml#_HJ9uBFIoEeibjuLm5_lcNQ"/>
+    <bendpoints xmi:id="_Nx8ugVIoEeibjuLm5_lcNQ" sourceX="164" targetY="174"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_HpKLUFIoEeibjuLm5_lcNQ" source="_HpMnkFIoEeibjuLm5_lcNQ">
+    <modelElement href="commonIOsza.uml#_HKnOJFIoEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_HpLZc1IoEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="commonIOsza.uml#_HKn1MFIoEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_HpLZcFIoEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_HpLZcVIoEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="commonIOsza.uml#_HKnOJVIoEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_HpLZdVIoEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_HpLZdFIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_HpLZclIoEeibjuLm5_lcNQ" aggregationKind="NONE" name="image" navigable="true">
+      <modelElement href="commonIOsza.uml#_HKZywlIoEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_HpMAgVIoEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_HpMAgFIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_HpMAg1IoEeibjuLm5_lcNQ" source="_HpMnkFIoEeibjuLm5_lcNQ">
+    <modelElement href="commonIOsza.uml#_HKnOIVIoEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_HpMAhFIoEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="commonIOsza.uml#_HKnOI1IoEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_HpMAhVIoEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_HpMAhlIoEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="commonIOsza.uml#_HKnOIlIoEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_HpMAh1IoEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_HpMAiFIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_HpMAiVIoEeibjuLm5_lcNQ" aggregationKind="NONE" name="_c" navigable="true">
+      <modelElement href="commonIOsza.uml#_HKZywFIoEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_HpMAilIoEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_HpMAi1IoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Ho5FkFIoEeibjuLm5_lcNQ" sourceConnectionVisual="_Ho5FkVIoEeibjuLm5_lcNQ" text="An event created by an animation." item="_Ho8I4FIoEeibjuLm5_lcNQ">
+    <modelElement href="commonIOsza.uml#_HKkK01IoEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Ho8v8VIoEeibjuLm5_lcNQ" sourceConnectionVisual="_Ho8v8lIoEeibjuLm5_lcNQ" text="An event describing that the given image should&#xD;&#xA;be displayed." item="_Ho9XCVIoEeibjuLm5_lcNQ">
+    <modelElement href="commonIOsza.uml#_HKkK1FIoEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Ho-lIVIoEeibjuLm5_lcNQ" sourceConnectionVisual="_Ho-lIlIoEeibjuLm5_lcNQ" text="An animation made from images stored in a zip-file." item="_HpBocFIoEeibjuLm5_lcNQ">
+    <modelElement href="commonIOsza.uml#_HKkx4FIoEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Ho_zQVIoEeibjuLm5_lcNQ" sourceConnectionVisual="_Ho_zQlIoEeibjuLm5_lcNQ" text="Gets the width of the animation.&#xD;&#xA;     * @return The largest width of all the frames in&#xD;&#xA;     *      this animation." item="_HpBohlIoEeibjuLm5_lcNQ">
+    <modelElement href="commonIOsza.uml#_HKkx41IoEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Ho_zQ1IoEeibjuLm5_lcNQ" sourceConnectionVisual="_Ho_zRFIoEeibjuLm5_lcNQ" text="Gets the height of the animation.&#xD;&#xA;     * @return The largest height of all the frames in&#xD;&#xA;     *      this animation." item="_HpBoi1IoEeibjuLm5_lcNQ">
+    <modelElement href="commonIOsza.uml#_HKkx5FIoEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Ho_zRVIoEeibjuLm5_lcNQ" sourceConnectionVisual="_Ho_zRlIoEeibjuLm5_lcNQ" text="Creates a scaled animation based on this object.&#xD;&#xA;     * &#xD;&#xA;     * @param scale The scaling factor (with 1 being normal size,&#xD;&#xA;     *      2 twice the size, 0.5 half the size etc).&#xD;&#xA;     * @return The scaled animation." item="_HpBomFIoEeibjuLm5_lcNQ">
+    <modelElement href="commonIOsza.uml#_HKkx5VIoEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_HpAaUFIoEeibjuLm5_lcNQ" sourceConnectionVisual="_HpAaUVIoEeibjuLm5_lcNQ" text="Creates a new animation from a stream generated by the&#xD;&#xA;     * provided URL.&#xD;&#xA;     * &#xD;&#xA;     * @param url The URL to read a zip-file from. &#xD;&#xA;     * @throws IOException if the file cannot be opened, or&#xD;&#xA;     *      is invalid." item="_HpBooFIoEeibjuLm5_lcNQ">
+    <modelElement href="commonIOsza.uml#_HKkx4VIoEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_HpAaUlIoEeibjuLm5_lcNQ" sourceConnectionVisual="_HpAaU1IoEeibjuLm5_lcNQ" text="Creates a new animation from a stream.&#xD;&#xA;     * &#xD;&#xA;     * @param zipStream An &lt;code>InputStream&lt;/code> to a zip-file. &#xD;&#xA;     * @throws IOException if the file cannot be opened, or&#xD;&#xA;     *      is invalid." item="_HpBoqlIoEeibjuLm5_lcNQ">
+    <modelElement href="commonIOsza.uml#_HKkx4lIoEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Ho8I4FIoEeibjuLm5_lcNQ" comments="_Ho5FkFIoEeibjuLm5_lcNQ" targetConnectionVisual="_Ho5FkVIoEeibjuLm5_lcNQ" name="AnimationEvent" associationsIn="_Ho-lIFIoEeibjuLm5_lcNQ" subclassedBy="_Ho8v8FIoEeibjuLm5_lcNQ">
+    <modelElement href="commonIOsza.uml#_HJRKUFIoEeibjuLm5_lcNQ"/>
+    <visualProperties xmi:id="_Ho8I4VIoEeibjuLm5_lcNQ" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Ho8I4lIoEeibjuLm5_lcNQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Ho9XCVIoEeibjuLm5_lcNQ" comments="_Ho8v8VIoEeibjuLm5_lcNQ" targetConnectionVisual="_Ho8v8lIoEeibjuLm5_lcNQ" name="ImageAnimationEvent" associationsOut="_Ho9XAFIoEeibjuLm5_lcNQ" generalizations="_Ho8v8FIoEeibjuLm5_lcNQ" subclassedBy="_HpI9MFIoEeibjuLm5_lcNQ">
+    <modelElement href="commonIOsza.uml#_HJRxYFIoEeibjuLm5_lcNQ"/>
+    <visualProperties xmi:id="_Ho9XClIoEeibjuLm5_lcNQ" position="32.0,497.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Ho9XC1IoEeibjuLm5_lcNQ" label="+"/>
+    <attributes xmi:id="_Ho9XDFIoEeibjuLm5_lcNQ" name="image">
+      <modelElement href="commonIOsza.uml#_HJS_gVIoEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_Ho9XDVIoEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_Ho9XDlIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Ho9XD1IoEeibjuLm5_lcNQ" name="Image">
+        <modelElement href="commonIOsza.uml#_HJz84FIoEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ho9XEFIoEeibjuLm5_lcNQ" name="durationInMs">
+      <modelElement href="commonIOsza.uml#_HJS_glIoEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_Ho9XEVIoEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_Ho9XElIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Ho9XE1IoEeibjuLm5_lcNQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HpBocFIoEeibjuLm5_lcNQ" comments="_Ho-lIVIoEeibjuLm5_lcNQ" targetConnectionVisual="_Ho-lIlIoEeibjuLm5_lcNQ" name="SimpleZippedAnimation" associationsOut="_Ho-lIFIoEeibjuLm5_lcNQ">
+    <modelElement href="commonIOsza.uml#_HJTmkFIoEeibjuLm5_lcNQ"/>
+    <visualProperties xmi:id="_HpBocVIoEeibjuLm5_lcNQ" position="-770.0,141.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_HpBoclIoEeibjuLm5_lcNQ" label="+"/>
+    <attributes xmi:id="_HpBoc1IoEeibjuLm5_lcNQ" defaultValue="&quot;animation.txt&quot;" name="ANIMATION_DESCRIPTOR_FILE" staticAttribute="true">
+      <modelElement href="commonIOsza.uml#_HKXWgFIoEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_HpBodFIoEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_HpBodVIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_HpBodlIoEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HpBod1IoEeibjuLm5_lcNQ" name="events">
+      <modelElement href="commonIOsza.uml#_HKX9kFIoEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_HpBoeFIoEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="commonIOsza.uml#_HKX9klIoEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_HpBoeVIoEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_HpBoelIoEeibjuLm5_lcNQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_HpBoe1IoEeibjuLm5_lcNQ" name="AnimationEvent">
+        <modelElement href="commonIOsza.uml#_HJRKUFIoEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HpBofFIoEeibjuLm5_lcNQ" name="width">
+      <modelElement href="commonIOsza.uml#_HKYkoFIoEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_HpBofVIoEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="commonIOsza.uml#_HKYkoVIoEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_HpBoflIoEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_HpBof1IoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_HpBogFIoEeibjuLm5_lcNQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HpBogVIoEeibjuLm5_lcNQ" name="height">
+      <modelElement href="commonIOsza.uml#_HKZLsFIoEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_HpBoglIoEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="commonIOsza.uml#_HKZLsVIoEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_HpBog1IoEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_HpBohFIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_HpBohVIoEeibjuLm5_lcNQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_HpBohlIoEeibjuLm5_lcNQ" comments="_Ho_zQVIoEeibjuLm5_lcNQ" targetConnectionVisual="_Ho_zQlIoEeibjuLm5_lcNQ" name="getWidth">
+      <modelElement href="commonIOsza.uml#_HJUNoFIoEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_HpBoh1IoEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_HpBoiFIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HpBoiVIoEeibjuLm5_lcNQ">
+        <modelElement href="commonIOsza.uml#_HJU0sFIoEeibjuLm5_lcNQ"/>
+        <type xmi:id="_HpBoilIoEeibjuLm5_lcNQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_HpBoi1IoEeibjuLm5_lcNQ" comments="_Ho_zQ1IoEeibjuLm5_lcNQ" targetConnectionVisual="_Ho_zRFIoEeibjuLm5_lcNQ" name="getHeight">
+      <modelElement href="commonIOsza.uml#_HJU0sVIoEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_HpBojFIoEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_HpBojVIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HpBojlIoEeibjuLm5_lcNQ">
+        <modelElement href="commonIOsza.uml#_HJU0slIoEeibjuLm5_lcNQ"/>
+        <type xmi:id="_HpBoj1IoEeibjuLm5_lcNQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_HpBokFIoEeibjuLm5_lcNQ" name="iterator">
+      <modelElement href="commonIOsza.uml#_HJU0s1IoEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_HpBokVIoEeibjuLm5_lcNQ" name="Generics">
+        <modelElement href="commonIOsza.uml#_HJVbwFIoEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_HpBoklIoEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="commonIOsza.uml#_HJVbwVIoEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_HpBok1IoEeibjuLm5_lcNQ" name="Annotations">
+        <modelElement href="commonIOsza.uml#_HJVbwlIoEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_HpBolFIoEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_HpBolVIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HpBollIoEeibjuLm5_lcNQ">
+        <modelElement href="commonIOsza.uml#_HKUTMlIoEeibjuLm5_lcNQ"/>
+        <type xmi:id="_HpBol1IoEeibjuLm5_lcNQ" name="Iterator">
+          <modelElement href="commonIOsza.uml#_HJ9t9VIoEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_HpBomFIoEeibjuLm5_lcNQ" comments="_Ho_zRVIoEeibjuLm5_lcNQ" targetConnectionVisual="_Ho_zRlIoEeibjuLm5_lcNQ" name="createScaledVersion">
+      <modelElement href="commonIOsza.uml#_HJVbxFIoEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_HpBomVIoEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_HpBomlIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HpBom1IoEeibjuLm5_lcNQ">
+        <modelElement href="commonIOsza.uml#_HJ9uA1IoEeibjuLm5_lcNQ"/>
+        <type xmi:id="_HpBonFIoEeibjuLm5_lcNQ" name="SimpleZippedAnimation">
+          <modelElement href="commonIOsza.uml#_HJTmkFIoEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HpBonVIoEeibjuLm5_lcNQ" name="scale">
+        <modelElement href="commonIOsza.uml#_HJVbxVIoEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_HpBonlIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_HpBon1IoEeibjuLm5_lcNQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HpBooFIoEeibjuLm5_lcNQ" comments="_HpAaUFIoEeibjuLm5_lcNQ" targetConnectionVisual="_HpAaUVIoEeibjuLm5_lcNQ" name="SimpleZippedAnimation">
+      <modelElement href="commonIOsza.uml#_HKRP4FIoEeibjuLm5_lcNQ"/>
+      <keywords xmi:id="_HpBooVIoEeibjuLm5_lcNQ" keyword="create"/>
+      <visibility xmi:id="_HpBoolIoEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_HpBoo1IoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HpBopFIoEeibjuLm5_lcNQ">
+        <modelElement href="commonIOsza.uml#_HKRP5FIoEeibjuLm5_lcNQ"/>
+        <type xmi:id="_HpBopVIoEeibjuLm5_lcNQ" name="SimpleZippedAnimation">
+          <modelElement href="commonIOsza.uml#_HJTmkFIoEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HpBoplIoEeibjuLm5_lcNQ" name="url">
+        <modelElement href="commonIOsza.uml#_HKRP4VIoEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_HpBop1IoEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_HpBoqFIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_HpBoqVIoEeibjuLm5_lcNQ" name="URL">
+          <modelElement href="commonIOsza.uml#_HJ9t7VIoEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HpBoqlIoEeibjuLm5_lcNQ" comments="_HpAaUlIoEeibjuLm5_lcNQ" targetConnectionVisual="_HpAaU1IoEeibjuLm5_lcNQ" name="SimpleZippedAnimation">
+      <modelElement href="commonIOsza.uml#_HKR28VIoEeibjuLm5_lcNQ"/>
+      <keywords xmi:id="_HpBoq1IoEeibjuLm5_lcNQ" keyword="create"/>
+      <visibility xmi:id="_HpBorFIoEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_HpBorVIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HpBorlIoEeibjuLm5_lcNQ">
+        <modelElement href="commonIOsza.uml#_HKR29VIoEeibjuLm5_lcNQ"/>
+        <type xmi:id="_HpBor1IoEeibjuLm5_lcNQ" name="SimpleZippedAnimation">
+          <modelElement href="commonIOsza.uml#_HJTmkFIoEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HpBosFIoEeibjuLm5_lcNQ" name="zipStream">
+        <modelElement href="commonIOsza.uml#_HKR28lIoEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_HpBosVIoEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_HpBoslIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_HpBos1IoEeibjuLm5_lcNQ" name="InputStream">
+          <modelElement href="commonIOsza.uml#_HJ9t6VIoEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HpBotFIoEeibjuLm5_lcNQ" name="SimpleZippedAnimation">
+      <modelElement href="commonIOsza.uml#_HKSeAFIoEeibjuLm5_lcNQ"/>
+      <keywords xmi:id="_HpBotVIoEeibjuLm5_lcNQ" keyword="create"/>
+      <visibility xmi:id="_HpBotlIoEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_HpBot1IoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HpBouFIoEeibjuLm5_lcNQ">
+        <modelElement href="commonIOsza.uml#_HKSeBlIoEeibjuLm5_lcNQ"/>
+        <type xmi:id="_HpBouVIoEeibjuLm5_lcNQ" name="SimpleZippedAnimation">
+          <modelElement href="commonIOsza.uml#_HJTmkFIoEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HpBoulIoEeibjuLm5_lcNQ" name="events">
+        <modelElement href="commonIOsza.uml#_HKSeAVIoEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_HpBou1IoEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_HpBovFIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_HpBovVIoEeibjuLm5_lcNQ" name="List">
+          <modelElement href="commonIOsza.uml#_HJ9t-VIoEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HpBovlIoEeibjuLm5_lcNQ" name="width">
+        <modelElement href="commonIOsza.uml#_HKSeAlIoEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_HpBov1IoEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_HpBowFIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_HpBowVIoEeibjuLm5_lcNQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HpBowlIoEeibjuLm5_lcNQ" name="height">
+        <modelElement href="commonIOsza.uml#_HKSeA1IoEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_HpBow1IoEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_HpBoxFIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_HpBoxVIoEeibjuLm5_lcNQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HpBoxlIoEeibjuLm5_lcNQ" name="SimpleZippedAnimation">
+      <modelElement href="commonIOsza.uml#_HKTsIlIoEeibjuLm5_lcNQ"/>
+      <keywords xmi:id="_HpBox1IoEeibjuLm5_lcNQ" keyword="create"/>
+      <visibility xmi:id="_HpBoyFIoEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_HpBoyVIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HpBoylIoEeibjuLm5_lcNQ">
+        <modelElement href="commonIOsza.uml#_HKTsJlIoEeibjuLm5_lcNQ"/>
+        <type xmi:id="_HpBoy1IoEeibjuLm5_lcNQ" name="SimpleZippedAnimation">
+          <modelElement href="commonIOsza.uml#_HJTmkFIoEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HpBozFIoEeibjuLm5_lcNQ" name="zipStream">
+        <modelElement href="commonIOsza.uml#_HKTsI1IoEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_HpBozVIoEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_HpBozlIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_HpBoz1IoEeibjuLm5_lcNQ" name="ZipInputStream">
+          <modelElement href="commonIOsza.uml#_HJ9t_1IoEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HpIWIFIoEeibjuLm5_lcNQ" name="IOException">
+    <modelElement href="commonIOsza.uml#_HJ9t51IoEeibjuLm5_lcNQ"/>
+    <visualProperties xmi:id="_HpIWIVIoEeibjuLm5_lcNQ" position="-406.0,541.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_HpIWIlIoEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="commonIOsza.uml#_HJ9t6FIoEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <visibility xmi:id="_HpIWI1IoEeibjuLm5_lcNQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HpMnkFIoEeibjuLm5_lcNQ" name="ImageAnimationEventImpl" associationsOut="_HpKLUFIoEeibjuLm5_lcNQ _HpMAg1IoEeibjuLm5_lcNQ" generalizations="_HpI9MFIoEeibjuLm5_lcNQ">
+    <modelElement href="commonIOsza.uml#_HJWC0FIoEeibjuLm5_lcNQ"/>
+    <visualProperties xmi:id="_HpMnkVIoEeibjuLm5_lcNQ" position="-761.0,664.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_HpMnklIoEeibjuLm5_lcNQ" keyword="static"/>
+    <visibility xmi:id="_HpMnk1IoEeibjuLm5_lcNQ" label="-"/>
+    <attributes xmi:id="_HpMnlFIoEeibjuLm5_lcNQ" defaultValue="new Component() {}" name="_c" staticAttribute="true">
+      <modelElement href="commonIOsza.uml#_HKZywFIoEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_HpMnlVIoEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_HpMnllIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_HpMnl1IoEeibjuLm5_lcNQ" name="Component">
+        <modelElement href="commonIOsza.uml#_HJz841IoEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HpMnmFIoEeibjuLm5_lcNQ" name="image">
+      <modelElement href="commonIOsza.uml#_HKZywlIoEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_HpMnmVIoEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="commonIOsza.uml#_HKaZ0FIoEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_HpMnmlIoEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_HpMnm1IoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_HpMnnFIoEeibjuLm5_lcNQ" name="Image">
+        <modelElement href="commonIOsza.uml#_HJz84FIoEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HpMnnVIoEeibjuLm5_lcNQ" name="durationInMs">
+      <modelElement href="commonIOsza.uml#_HKeEMFIoEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_HpMnnlIoEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="commonIOsza.uml#_HKfSUFIoEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_HpMnn1IoEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_HpMnoFIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_HpMnoVIoEeibjuLm5_lcNQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_HpMnolIoEeibjuLm5_lcNQ" name="getImage">
+      <modelElement href="commonIOsza.uml#_HJWp4lIoEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_HpMno1IoEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="commonIOsza.uml#_HJXQ8FIoEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_HpMnpFIoEeibjuLm5_lcNQ" name="Annotations">
+        <modelElement href="commonIOsza.uml#_HJXQ8VIoEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_HpMnpVIoEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_HpMnplIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HpMnp1IoEeibjuLm5_lcNQ">
+        <modelElement href="commonIOsza.uml#_HKVhUFIoEeibjuLm5_lcNQ"/>
+        <type xmi:id="_HpMnqFIoEeibjuLm5_lcNQ" name="Image">
+          <modelElement href="commonIOsza.uml#_HJz84FIoEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_HpMnqVIoEeibjuLm5_lcNQ" name="getDurationInMs">
+      <modelElement href="commonIOsza.uml#_HJXQ81IoEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_HpMnqlIoEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="commonIOsza.uml#_HJXQ9VIoEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_HpMnq1IoEeibjuLm5_lcNQ" name="Annotations">
+        <modelElement href="commonIOsza.uml#_HJXQ9lIoEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_HpMnrFIoEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_HpMnrVIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HpMnrlIoEeibjuLm5_lcNQ">
+        <modelElement href="commonIOsza.uml#_HJXQ9FIoEeibjuLm5_lcNQ"/>
+        <type xmi:id="_HpMnr1IoEeibjuLm5_lcNQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_HpMnsFIoEeibjuLm5_lcNQ" name="createScaledVersion">
+      <modelElement href="commonIOsza.uml#_HJX4AVIoEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_HpMnsVIoEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_HpMnslIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HpMns1IoEeibjuLm5_lcNQ">
+        <modelElement href="commonIOsza.uml#_HJ9uBVIoEeibjuLm5_lcNQ"/>
+        <type xmi:id="_HpMntFIoEeibjuLm5_lcNQ" name="ImageAnimationEvent">
+          <modelElement href="commonIOsza.uml#_HJRxYFIoEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HpMntVIoEeibjuLm5_lcNQ" name="scale">
+        <modelElement href="commonIOsza.uml#_HJX4AlIoEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_HpMntlIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_HpMnt1IoEeibjuLm5_lcNQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HpMnuFIoEeibjuLm5_lcNQ" name="ImageAnimationEventImpl">
+      <modelElement href="commonIOsza.uml#_HKU6QFIoEeibjuLm5_lcNQ"/>
+      <keywords xmi:id="_HpMnuVIoEeibjuLm5_lcNQ" keyword="create"/>
+      <visibility xmi:id="_HpMnulIoEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_HpMnu1IoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HpMnvFIoEeibjuLm5_lcNQ">
+        <modelElement href="commonIOsza.uml#_HKU6RVIoEeibjuLm5_lcNQ"/>
+        <type xmi:id="_HpMnvVIoEeibjuLm5_lcNQ" name="ImageAnimationEventImpl">
+          <modelElement href="commonIOsza.uml#_HJWC0FIoEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HpMnvlIoEeibjuLm5_lcNQ" name="image">
+        <modelElement href="commonIOsza.uml#_HKU6QVIoEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_HpMnv1IoEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_HpMnwFIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_HpMnwVIoEeibjuLm5_lcNQ" name="Image">
+          <modelElement href="commonIOsza.uml#_HJz84FIoEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HpMnwlIoEeibjuLm5_lcNQ" name="durationInMs">
+        <modelElement href="commonIOsza.uml#_HKU6QlIoEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_HpMnw1IoEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_HpMnxFIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_HpMnxVIoEeibjuLm5_lcNQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

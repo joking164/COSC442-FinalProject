@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_BTppgFIiEeibjuLm5_lcNQ">
+  <modelElement href="Worker.uml#_Bi8CsFIiEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Bqh4cVIiEeibjuLm5_lcNQ" targetItem="_Bqk7yVIiEeibjuLm5_lcNQ" sourceItem="_Bqh4cFIiEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BqifgVIiEeibjuLm5_lcNQ" targetItem="_Bqli6lIiEeibjuLm5_lcNQ" sourceItem="_BqifgFIiEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BqjGkVIiEeibjuLm5_lcNQ" targetItem="_Bqli7VIiEeibjuLm5_lcNQ" sourceItem="_BqjGkFIiEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_BqkUsFIiEeibjuLm5_lcNQ" source="_Bqk7yVIiEeibjuLm5_lcNQ">
+    <modelElement href="Worker.uml#_BkVw4FIiEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_BqkUsVIiEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="Worker.uml#_BkWX8FIiEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_BqkUslIiEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_BqkUs1IiEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="Worker.uml#_BkVw4VIiEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_BqkUtFIiEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_BqkUtVIiEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_BqkUtlIiEeibjuLm5_lcNQ" aggregationKind="NONE" name="jobList" navigable="true">
+      <modelElement href="Worker.uml#_BkQ4YFIiEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_BqkUt1IiEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_BqkUuFIiEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Bqk7wFIiEeibjuLm5_lcNQ" source="_Bqk7yVIiEeibjuLm5_lcNQ">
+    <modelElement href="Worker.uml#_BkWX8VIiEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_Bqk7wVIiEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="Worker.uml#_BkW_AFIiEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Bqk7wlIiEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_Bqk7w1IiEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="Worker.uml#_BkWX8lIiEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_Bqk7xFIiEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_Bqk7xVIiEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Bqk7xlIiEeibjuLm5_lcNQ" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="Worker.uml#_BkStk1IiEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_Bqk7x1IiEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_Bqk7yFIiEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Bqh4cFIiEeibjuLm5_lcNQ" sourceConnectionVisual="_Bqh4cVIiEeibjuLm5_lcNQ" text="The Worker Thread executes jobs one after another.  The thread&#xD;&#xA;manages a queue where new jobs can be enqueued.  The jobs are&#xD;&#xA;processed synchronously by the worker." item="_Bqk7yVIiEeibjuLm5_lcNQ">
+    <modelElement href="Worker.uml#_BkUiwlIiEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BqifgFIiEeibjuLm5_lcNQ" sourceConnectionVisual="_BqifgVIiEeibjuLm5_lcNQ" text="Makes the worker thread stop running." item="_Bqli6lIiEeibjuLm5_lcNQ">
+    <modelElement href="Worker.uml#_BkVJ0VIiEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BqjGkFIiEeibjuLm5_lcNQ" sourceConnectionVisual="_BqjGkVIiEeibjuLm5_lcNQ" text="Adds a new job to the queue&#xD;&#xA;     * &#xD;&#xA;     * @param job the job to add to the queue." item="_Bqli7VIiEeibjuLm5_lcNQ">
+    <modelElement href="Worker.uml#_BkVJ0FIiEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Bqk7yVIiEeibjuLm5_lcNQ" comments="_Bqh4cFIiEeibjuLm5_lcNQ" targetConnectionVisual="_Bqh4cVIiEeibjuLm5_lcNQ" name="Worker" associationsOut="_BqkUsFIiEeibjuLm5_lcNQ _Bqk7wFIiEeibjuLm5_lcNQ">
+    <modelElement href="Worker.uml#_BjCwYFIiEeibjuLm5_lcNQ"/>
+    <visualProperties xmi:id="_Bqk7ylIiEeibjuLm5_lcNQ" position="30.0,30.0"/>
+    <visibility xmi:id="_Bqk7y1IiEeibjuLm5_lcNQ" label="+"/>
+    <attributes xmi:id="_Bqli0FIiEeibjuLm5_lcNQ" name="jobList">
+      <modelElement href="Worker.uml#_BkQ4YFIiEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_Bqli0VIiEeibjuLm5_lcNQ" name="Generics">
+        <modelElement href="Worker.uml#_BkRfcFIiEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Bqli0lIiEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="Worker.uml#_BkSGgFIiEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Bqli01IiEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_Bqli1FIiEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Bqli1VIiEeibjuLm5_lcNQ" name="LinkedBlockingQueue">
+        <modelElement href="Worker.uml#_BkI8kFIiEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Bqli1lIiEeibjuLm5_lcNQ" name="stopRunning">
+      <modelElement href="Worker.uml#_BkSGgVIiEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_Bqli11IiEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="Worker.uml#_BkStklIiEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Bqli2FIiEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_Bqli2VIiEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Bqli2lIiEeibjuLm5_lcNQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Bqli21IiEeibjuLm5_lcNQ" defaultValue="Logger.getLogger(Worker.class.getName())" name="logger" staticAttribute="true">
+      <modelElement href="Worker.uml#_BkStk1IiEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_Bqli3FIiEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_Bqli3VIiEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Bqli3lIiEeibjuLm5_lcNQ" name="Logger">
+        <modelElement href="Worker.uml#_BkKKsVIiEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Bqli31IiEeibjuLm5_lcNQ" name="Worker">
+      <modelElement href="Worker.uml#_BjI3AFIiEeibjuLm5_lcNQ"/>
+      <keywords xmi:id="_Bqli4FIiEeibjuLm5_lcNQ" keyword="create"/>
+      <visibility xmi:id="_Bqli4VIiEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_Bqli4lIiEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Bqli41IiEeibjuLm5_lcNQ">
+        <modelElement href="Worker.uml#_BjJeEVIiEeibjuLm5_lcNQ"/>
+        <type xmi:id="_Bqli5FIiEeibjuLm5_lcNQ" name="Worker">
+          <modelElement href="Worker.uml#_BjCwYFIiEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Bqli5VIiEeibjuLm5_lcNQ" name="run">
+      <modelElement href="Worker.uml#_BjKFIFIiEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_Bqli5lIiEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="Worker.uml#_BjLTQFIiEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Bqli51IiEeibjuLm5_lcNQ" name="Annotations">
+        <modelElement href="Worker.uml#_BjMhYFIiEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Bqli6FIiEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_Bqli6VIiEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Bqli6lIiEeibjuLm5_lcNQ" comments="_BqifgFIiEeibjuLm5_lcNQ" targetConnectionVisual="_BqifgVIiEeibjuLm5_lcNQ" name="askToStop">
+      <modelElement href="Worker.uml#_BjNvgFIiEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_Bqli61IiEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_Bqli7FIiEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Bqli7VIiEeibjuLm5_lcNQ" comments="_BqjGkFIiEeibjuLm5_lcNQ" targetConnectionVisual="_BqjGkVIiEeibjuLm5_lcNQ" name="schedule">
+      <modelElement href="Worker.uml#_BkPqQVIiEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_Bqli7lIiEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_Bqli71IiEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Bqli8FIiEeibjuLm5_lcNQ" name="job">
+        <modelElement href="Worker.uml#_BkPqQlIiEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_Bqli8VIiEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_Bqli8lIiEeibjuLm5_lcNQ" name="Runnable">
+          <modelElement href="Worker.uml#_BkPDMFIiEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

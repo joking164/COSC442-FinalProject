@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_BOcZYFIiEeibjuLm5_lcNQ" name="Worker">
+    <eAnnotations xmi:id="_BcdnQFIiEeibjuLm5_lcNQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_BcdnQVIiEeibjuLm5_lcNQ" source="codegen">
+        <details xmi:id="_BcdnQlIiEeibjuLm5_lcNQ" key="codegenDirectory" value="/COSC442-FinalProject/src"/>
+        <details xmi:id="_BnytgFIiEeibjuLm5_lcNQ" key="AssociatedSourceCode" value="/COSC442-FinalProject/src/net/sf/freecol/client/Worker.java;4146478506/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_BjFMoFIiEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_BjFzsFIiEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_BjFzsVIiEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_BjFzslIiEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_BjFzs1IiEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_BjGawFIiEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_BjGawVIiEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_BjGawlIiEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_BjHB0FIiEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Bizf0FIiEeibjuLm5_lcNQ" name="net">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Bi0t8FIiEeibjuLm5_lcNQ" name="sf">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Bi0t8VIiEeibjuLm5_lcNQ" name="freecol">
+          <packagedElement xmi:type="uml:Package" xmi:id="_Bi8CsFIiEeibjuLm5_lcNQ" name="client">
+            <packagedElement xmi:type="uml:Class" xmi:id="_BjCwYFIiEeibjuLm5_lcNQ" name="Worker" isLeaf="true">
+              <ownedComment xmi:id="_BkUiwlIiEeibjuLm5_lcNQ">
+                <body>The Worker Thread executes jobs one after another.  The thread&#xD;
+manages a queue where new jobs can be enqueued.  The jobs are&#xD;
+processed synchronously by the worker.</body>
+              </ownedComment>
+              <generalization xmi:id="_BkQRUFIiEeibjuLm5_lcNQ" general="_BkN1EVIiEeibjuLm5_lcNQ"/>
+              <ownedAttribute xmi:id="_BkQ4YFIiEeibjuLm5_lcNQ" name="jobList" visibility="private" isLeaf="true" type="_BkI8kFIiEeibjuLm5_lcNQ" isReadOnly="true" association="_BkVw4FIiEeibjuLm5_lcNQ"/>
+              <ownedAttribute xmi:id="_BkSGgVIiEeibjuLm5_lcNQ" name="stopRunning" visibility="private">
+                <eAnnotations xmi:id="_BkStkFIiEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_BkStkVIiEeibjuLm5_lcNQ" key="volatile"/>
+                </eAnnotations>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_BkStk1IiEeibjuLm5_lcNQ" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_BkKKsVIiEeibjuLm5_lcNQ" isReadOnly="true" association="_BkWX8VIiEeibjuLm5_lcNQ">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_BkTUoFIiEeibjuLm5_lcNQ" value="Logger.getLogger(Worker.class.getName())"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BkT7sFIiEeibjuLm5_lcNQ" name="Worker" specification="_BjI3AFIiEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_BkT7sVIiEeibjuLm5_lcNQ" type="_BjCwYFIiEeibjuLm5_lcNQ" direction="return"/>
+                <language>java</language>
+                <body>super(FreeCol.CLIENT_THREAD+&quot;Worker&quot;);&#xD;
+     jobList = new LinkedBlockingQueue&lt;>();&#xD;
+     stopRunning = false;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BkT7slIiEeibjuLm5_lcNQ" name="run" specification="_BjKFIFIiEeibjuLm5_lcNQ">
+                <language>java</language>
+                <body>while (!stopRunning) {&#xD;
+         try {&#xD;
+             // run the next waiting job&#xD;
+             Runnable job = jobList.take();&#xD;
+             try {&#xD;
+                 job.run();&#xD;
+             } catch (Exception e) {&#xD;
+                 logger.log(Level.SEVERE, &quot;Worker task failed!&quot;, e);&#xD;
+             }&#xD;
+         } catch (InterruptedException e) {&#xD;
+             logger.log(Level.INFO, &quot;Worker interrupted, aborting!&quot;, e);&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BkT7s1IiEeibjuLm5_lcNQ" name="schedule" specification="_BkPqQVIiEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_BkUiwFIiEeibjuLm5_lcNQ" name="job" type="_BkPDMFIiEeibjuLm5_lcNQ"/>
+                <language>java</language>
+                <body>jobList.add(job);&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BkUiwVIiEeibjuLm5_lcNQ" name="askToStop" specification="_BjNvgFIiEeibjuLm5_lcNQ">
+                <language>java</language>
+                <body>stopRunning = true;&#xD;
+     this.interrupt();&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_BjI3AFIiEeibjuLm5_lcNQ" name="Worker" method="_BkT7sFIiEeibjuLm5_lcNQ">
+                <eAnnotations xmi:id="_BjI3AVIiEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_BjJeEFIiEeibjuLm5_lcNQ" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_BjJeEVIiEeibjuLm5_lcNQ" type="_BjCwYFIiEeibjuLm5_lcNQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_BjKFIFIiEeibjuLm5_lcNQ" name="run" method="_BkT7slIiEeibjuLm5_lcNQ"/>
+              <ownedOperation xmi:id="_BjNvgFIiEeibjuLm5_lcNQ" name="askToStop" method="_BkUiwVIiEeibjuLm5_lcNQ">
+                <ownedComment xmi:id="_BkVJ0VIiEeibjuLm5_lcNQ">
+                  <body>Makes the worker thread stop running.</body>
+                </ownedComment>
+              </ownedOperation>
+              <ownedOperation xmi:id="_BkPqQVIiEeibjuLm5_lcNQ" name="schedule" method="_BkT7s1IiEeibjuLm5_lcNQ">
+                <ownedComment xmi:id="_BkVJ0FIiEeibjuLm5_lcNQ">
+                  <body>Adds a new job to the queue&#xD;
+     * &#xD;
+     * @param job the job to add to the queue.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_BkPqQlIiEeibjuLm5_lcNQ" name="job" type="_BkPDMFIiEeibjuLm5_lcNQ"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_BkVw4FIiEeibjuLm5_lcNQ" name="" memberEnd="_BkVw4VIiEeibjuLm5_lcNQ _BkQ4YFIiEeibjuLm5_lcNQ">
+              <ownedEnd xmi:id="_BkVw4VIiEeibjuLm5_lcNQ" name="" type="_BjCwYFIiEeibjuLm5_lcNQ" association="_BkVw4FIiEeibjuLm5_lcNQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_BkWX8VIiEeibjuLm5_lcNQ" name="" memberEnd="_BkWX8lIiEeibjuLm5_lcNQ _BkStk1IiEeibjuLm5_lcNQ">
+              <ownedEnd xmi:id="_BkWX8lIiEeibjuLm5_lcNQ" name="" type="_BjCwYFIiEeibjuLm5_lcNQ" association="_BkWX8VIiEeibjuLm5_lcNQ"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_BkKxwVIiEeibjuLm5_lcNQ" name="FreeCol"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Bi2jIFIiEeibjuLm5_lcNQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Bi2jIVIiEeibjuLm5_lcNQ" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Bi2jIlIiEeibjuLm5_lcNQ" name="concurrent">
+          <packagedElement xmi:type="uml:Class" xmi:id="_BkI8kFIiEeibjuLm5_lcNQ" name="LinkedBlockingQueue"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Bi3KMFIiEeibjuLm5_lcNQ" name="logging">
+          <packagedElement xmi:type="uml:Class" xmi:id="_BkJjoVIiEeibjuLm5_lcNQ" name="Level"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_BkKKsVIiEeibjuLm5_lcNQ" name="Logger"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_BkN1EFIiEeibjuLm5_lcNQ" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_BkN1EVIiEeibjuLm5_lcNQ" name="Thread"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_BkPDMFIiEeibjuLm5_lcNQ" name="Runnable"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_BceOUFIiEeibjuLm5_lcNQ">
+      <eAnnotations xmi:id="_BceOUVIiEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_Bce1YFIiEeibjuLm5_lcNQ" base_Package="_BOcZYFIiEeibjuLm5_lcNQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BjLTQFIiEeibjuLm5_lcNQ" base_Element="_BjKFIFIiEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_BjMhYFIiEeibjuLm5_lcNQ" base_Element="_BjKFIFIiEeibjuLm5_lcNQ">
+    <annotations xmi:id="_BjMhYVIiEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_BkJjoFIiEeibjuLm5_lcNQ" base_Element="_BkI8kFIiEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_BkKKsFIiEeibjuLm5_lcNQ" base_Element="_BkJjoVIiEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_BkKxwFIiEeibjuLm5_lcNQ" base_Element="_BkKKsVIiEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_BkLY0FIiEeibjuLm5_lcNQ" base_Element="_BkKxwVIiEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_BkOcIFIiEeibjuLm5_lcNQ" base_Element="_BkN1EVIiEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_BkPqQFIiEeibjuLm5_lcNQ" base_Element="_BkPDMFIiEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Generics xmi:id="_BkRfcFIiEeibjuLm5_lcNQ" genericsValue="Runnable" base_Element="_BkQ4YFIiEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BkSGgFIiEeibjuLm5_lcNQ" base_Element="_BkQ4YFIiEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BkStklIiEeibjuLm5_lcNQ" base_Element="_BkSGgVIiEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_BkWX8FIiEeibjuLm5_lcNQ" base_Element="_BkVw4FIiEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_BkW_AFIiEeibjuLm5_lcNQ" base_Element="_BkWX8VIiEeibjuLm5_lcNQ"/>
+</xmi:XMI>

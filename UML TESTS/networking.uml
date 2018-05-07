@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_EC8vEFInEeibjuLm5_lcNQ" name="networking">
+    <eAnnotations xmi:id="_EtaBUFInEeibjuLm5_lcNQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_EtaBUVInEeibjuLm5_lcNQ" source="codegen">
+        <details xmi:id="_EtaBUlInEeibjuLm5_lcNQ" key="codegenDirectory" value="/COSC442-FinalProject/src"/>
+        <details xmi:id="_FjlbYFInEeibjuLm5_lcNQ" key="AssociatedSourceCode" value="/COSC442-FinalProject/src/net/sf/freecol/client/networking/UserServerAPI.java;1789442211/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_FIL40FInEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_FIL40VInEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_FIL40lInEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_FIL401InEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_FIMf4FInEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_FIMf4VInEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_FIMf4lInEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_FIMf41InEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_FIMf5FInEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_FIJckFInEeibjuLm5_lcNQ" name="net">
+      <packagedElement xmi:type="uml:Package" xmi:id="_FIJckVInEeibjuLm5_lcNQ" name="sf">
+        <packagedElement xmi:type="uml:Package" xmi:id="_FIJcklInEeibjuLm5_lcNQ" name="freecol">
+          <packagedElement xmi:type="uml:Package" xmi:id="_FIJck1InEeibjuLm5_lcNQ" name="client">
+            <packagedElement xmi:type="uml:Package" xmi:id="_FIJcl1InEeibjuLm5_lcNQ" name="gui">
+              <packagedElement xmi:type="uml:Class" xmi:id="_FPTNcVInEeibjuLm5_lcNQ" name="GUI"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_FIKqsFInEeibjuLm5_lcNQ" name="networking">
+              <packagedElement xmi:type="uml:Class" xmi:id="_FILRwFInEeibjuLm5_lcNQ" name="UserServerAPI">
+                <ownedComment xmi:id="_FPXe51InEeibjuLm5_lcNQ">
+                  <body>Implementation of the ServerAPI.</body>
+                </ownedComment>
+                <generalization xmi:id="_FPWQxFInEeibjuLm5_lcNQ" general="_FPUbkVInEeibjuLm5_lcNQ"/>
+                <ownedAttribute xmi:id="_FPW30FInEeibjuLm5_lcNQ" name="gui" visibility="private" isLeaf="true" type="_FPTNcVInEeibjuLm5_lcNQ" isReadOnly="true" association="_FPYF8FInEeibjuLm5_lcNQ"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_FPXe4FInEeibjuLm5_lcNQ" name="UserServerAPI" specification="_FPVpsFInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_FPXe4VInEeibjuLm5_lcNQ" name="gui" type="_FPTNcVInEeibjuLm5_lcNQ"/>
+                  <ownedParameter xmi:id="_FPXe4lInEeibjuLm5_lcNQ" type="_FILRwFInEeibjuLm5_lcNQ" direction="return"/>
+                  <language>java</language>
+                  <body>super();&#xD;
+     this.gui = gui;&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_FPXe41InEeibjuLm5_lcNQ" name="doRaiseErrorMessage" specification="_FING8FInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_FPXe5FInEeibjuLm5_lcNQ" name="complaint">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>if (FreeColDebugger.isInDebugMode(FreeColDebugger.DebugMode.COMMS)) {&#xD;
+         gui.showErrorMessage(null, complaint);&#xD;
+     }&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_FPXe5VInEeibjuLm5_lcNQ" name="doClientProcessingFor" specification="_FPVptVInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_FPXe5lInEeibjuLm5_lcNQ" name="reply" type="_FPSmYFInEeibjuLm5_lcNQ"/>
+                  <language>java</language>
+                  <body>String sound = reply.getAttribute(&quot;sound&quot;);&#xD;
+     if (sound != null &amp;&amp; !sound.isEmpty()) {&#xD;
+         gui.playSound(sound);&#xD;
+     }&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_FING8FInEeibjuLm5_lcNQ" name="doRaiseErrorMessage" visibility="protected" method="_FPXe41InEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_FING8VInEeibjuLm5_lcNQ" name="complaint">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_FPVpsFInEeibjuLm5_lcNQ" name="UserServerAPI" method="_FPXe4FInEeibjuLm5_lcNQ">
+                  <eAnnotations xmi:id="_FPVpslInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_FPVps1InEeibjuLm5_lcNQ" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_FPVpsVInEeibjuLm5_lcNQ" name="gui" type="_FPTNcVInEeibjuLm5_lcNQ"/>
+                  <ownedParameter xmi:id="_FPVptFInEeibjuLm5_lcNQ" type="_FILRwFInEeibjuLm5_lcNQ" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_FPVptVInEeibjuLm5_lcNQ" name="doClientProcessingFor" visibility="protected" method="_FPXe5VInEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_FPWQwFInEeibjuLm5_lcNQ" name="reply" type="_FPSmYFInEeibjuLm5_lcNQ"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_FPYF8FInEeibjuLm5_lcNQ" name="" memberEnd="_FPYF8VInEeibjuLm5_lcNQ _FPW30FInEeibjuLm5_lcNQ">
+                <ownedEnd xmi:id="_FPYF8VInEeibjuLm5_lcNQ" name="" type="_FILRwFInEeibjuLm5_lcNQ" association="_FPYF8FInEeibjuLm5_lcNQ"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_FIKDoFInEeibjuLm5_lcNQ" name="common">
+            <packagedElement xmi:type="uml:Package" xmi:id="_FIKDoVInEeibjuLm5_lcNQ" name="debug">
+              <packagedElement xmi:type="uml:Class" xmi:id="_FPT0gVInEeibjuLm5_lcNQ" name="FreeColDebugger"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_FIKDolInEeibjuLm5_lcNQ" name="networking">
+              <packagedElement xmi:type="uml:Class" xmi:id="_FPUbkVInEeibjuLm5_lcNQ" name="ServerAPI"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_FIJclFInEeibjuLm5_lcNQ" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_FIJclVInEeibjuLm5_lcNQ" name="w3c">
+        <packagedElement xmi:type="uml:Package" xmi:id="_FIJcllInEeibjuLm5_lcNQ" name="dom">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_FPSmYFInEeibjuLm5_lcNQ" name="Element"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_FCoDYFInEeibjuLm5_lcNQ">
+      <eAnnotations xmi:id="_FCqfoFInEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_FCqfoVInEeibjuLm5_lcNQ" base_Package="_EC8vEFInEeibjuLm5_lcNQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FING8lInEeibjuLm5_lcNQ" base_Element="_FING8FInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_FING81InEeibjuLm5_lcNQ" base_Element="_FING8FInEeibjuLm5_lcNQ">
+    <annotations xmi:id="_FING9FInEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_FPTNcFInEeibjuLm5_lcNQ" base_Element="_FPSmYFInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_FPT0gFInEeibjuLm5_lcNQ" base_Element="_FPTNcVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_FPUbkFInEeibjuLm5_lcNQ" base_Element="_FPT0gVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_FPUbklInEeibjuLm5_lcNQ" base_Element="_FPUbkVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FPWQwVInEeibjuLm5_lcNQ" base_Element="_FPVptVInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_FPWQwlInEeibjuLm5_lcNQ" base_Element="_FPVptVInEeibjuLm5_lcNQ">
+    <annotations xmi:id="_FPWQw1InEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_FPW30VInEeibjuLm5_lcNQ" base_Element="_FPW30FInEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_FPYF8lInEeibjuLm5_lcNQ" base_Element="_FPYF8FInEeibjuLm5_lcNQ"/>
+</xmi:XMI>

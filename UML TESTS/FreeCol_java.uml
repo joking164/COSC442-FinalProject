@@ -1,0 +1,2074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_P0Sd4FIhEeibjuLm5_lcNQ" name="FreeCol_java">
+    <eAnnotations xmi:id="_P9T3AFIhEeibjuLm5_lcNQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_P9UeEFIhEeibjuLm5_lcNQ" source="codegen">
+        <details xmi:id="_P9UeEVIhEeibjuLm5_lcNQ" key="codegenDirectory" value="/COSC442-FinalProject/src"/>
+        <details xmi:id="_R8NMoFIhEeibjuLm5_lcNQ" key="AssociatedSourceCode" value="/COSC442-FinalProject/src/net/sf/freecol/FreeCol.java;4040327016/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_RAyGMFIhEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_RAyGMVIhEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_RAytQFIhEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_RAytQVIhEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_RAytQlIhEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_RAytQ1IhEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_RAytRFIhEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_RAytRVIhEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_RAzUUFIhEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Q-yiIFIhEeibjuLm5_lcNQ" name="net">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Q-zJMFIhEeibjuLm5_lcNQ" name="sf">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Q_Dn4FIhEeibjuLm5_lcNQ" name="freecol">
+          <packagedElement xmi:type="uml:Package" xmi:id="_Q_Dn4VIhEeibjuLm5_lcNQ" name="client">
+            <packagedElement xmi:type="uml:Class" xmi:id="_RXvNoVIhEeibjuLm5_lcNQ" name="ClientOptions"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_RXwbwVIhEeibjuLm5_lcNQ" name="FreeColClient"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_Q_Dn4lIhEeibjuLm5_lcNQ" name="common">
+            <packagedElement xmi:type="uml:Package" xmi:id="_Q_EO8FIhEeibjuLm5_lcNQ" name="debug">
+              <packagedElement xmi:type="uml:Class" xmi:id="_RX0tMVIhEeibjuLm5_lcNQ" name="FreeColDebugger"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Q_E2AFIhEeibjuLm5_lcNQ" name="i18n">
+              <packagedElement xmi:type="uml:Class" xmi:id="_RX17UVIhEeibjuLm5_lcNQ" name="Messages"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Q_E2AVIhEeibjuLm5_lcNQ" name="io">
+              <packagedElement xmi:type="uml:Class" xmi:id="_RX2iYVIhEeibjuLm5_lcNQ" name="FreeColDirectories"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_RX3wgVIhEeibjuLm5_lcNQ" name="FreeColSavegameFile"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_RX4-oVIhEeibjuLm5_lcNQ" name="FreeColTcFile"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_RX6MwVIhEeibjuLm5_lcNQ" name="Mods"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Q_FdEFIhEeibjuLm5_lcNQ" name="logging">
+              <packagedElement xmi:type="uml:Class" xmi:id="_RX6z0VIhEeibjuLm5_lcNQ" name="DefaultHandler"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Q_FdEVIhEeibjuLm5_lcNQ" name="model">
+              <packagedElement xmi:type="uml:Package" xmi:id="_Q_GEIFIhEeibjuLm5_lcNQ" name="NationOptions">
+                <packagedElement xmi:type="uml:Enumeration" xmi:id="_RX8B8VIhEeibjuLm5_lcNQ" name="Advantages"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_RX93IFIhEeibjuLm5_lcNQ" name="Specification"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_RX93IlIhEeibjuLm5_lcNQ" name="StringTemplate"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Q_GrMFIhEeibjuLm5_lcNQ" name="option">
+              <packagedElement xmi:type="uml:Class" xmi:id="_RX_FQVIhEeibjuLm5_lcNQ" name="OptionGroup"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Q_GrMVIhEeibjuLm5_lcNQ" name="util">
+              <packagedElement xmi:type="uml:Class" xmi:id="_RX_sUVIhEeibjuLm5_lcNQ" name="CollectionUtils"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_RXyQ8FIhEeibjuLm5_lcNQ" name="FreeColException"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_RXzfEVIhEeibjuLm5_lcNQ" name="FreeColSeed"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_Q_GrMlIhEeibjuLm5_lcNQ" name="server">
+            <packagedElement xmi:type="uml:Class" xmi:id="_RYA6cFIhEeibjuLm5_lcNQ" name="FreeColServer"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_RAl48FIhEeibjuLm5_lcNQ" name="FreeCol" isLeaf="true">
+            <ownedComment xmi:id="_RafmsFIhEeibjuLm5_lcNQ">
+              <body>This class is responsible for handling the command-line arguments&#xD;
+and starting either the stand-alone server or the client-GUI.&#xD;
+ *&#xD;
+@see net.sf.freecol.client.FreeColClient FreeColClient&#xD;
+@see net.sf.freecol.server.FreeColServer FreeColServer</body>
+            </ownedComment>
+            <ownedAttribute xmi:id="_RZNNQFIhEeibjuLm5_lcNQ" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_RXsKUVIhEeibjuLm5_lcNQ" isReadOnly="true" association="_Rax6kFIhEeibjuLm5_lcNQ">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZN0UFIhEeibjuLm5_lcNQ" value="Logger.getLogger(FreeCol.class.getName())"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZObYFIhEeibjuLm5_lcNQ" name="FREECOL_VERSION" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZObYVIhEeibjuLm5_lcNQ" value="&quot;0.11.6&quot;"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZObYlIhEeibjuLm5_lcNQ" name="DIFFICULTIES" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RZObY1IhEeibjuLm5_lcNQ" value="*"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZPCcVIhEeibjuLm5_lcNQ" value="{&#xD;&#xA;        &quot;veryEasy&quot;, &quot;easy&quot;, &quot;medium&quot;, &quot;hard&quot;, &quot;veryHard&quot;&#xD;&#xA;    }"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZPpgFIhEeibjuLm5_lcNQ" name="FREECOL_SAVE_EXTENSION" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZPpgVIhEeibjuLm5_lcNQ" value="&quot;fsg&quot;"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZPpglIhEeibjuLm5_lcNQ" name="JAVA_VERSION" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZPpg1IhEeibjuLm5_lcNQ" value="System.getProperty(&quot;java.version&quot;)"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZPphFIhEeibjuLm5_lcNQ" name="MEMORY_MAX" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZQQkFIhEeibjuLm5_lcNQ" value="Runtime.getRuntime().maxMemory()"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZQQkVIhEeibjuLm5_lcNQ" name="CLIENT_THREAD" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZQQklIhEeibjuLm5_lcNQ" value="&quot;FreeColClient:&quot;"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZQ3oFIhEeibjuLm5_lcNQ" name="SERVER_THREAD" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZQ3oVIhEeibjuLm5_lcNQ" value="&quot;FreeColServer:&quot;"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZQ3olIhEeibjuLm5_lcNQ" name="METASERVER_THREAD" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZQ3o1IhEeibjuLm5_lcNQ" value="&quot;FreeColMetaServer:&quot;"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZResFIhEeibjuLm5_lcNQ" name="META_SERVER_ADDRESS" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZResVIhEeibjuLm5_lcNQ" value="&quot;meta.freecol.org&quot;"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZReslIhEeibjuLm5_lcNQ" name="META_SERVER_PORT" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZRes1IhEeibjuLm5_lcNQ" value="3540"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZSFwFIhEeibjuLm5_lcNQ" name="freeColRevision" visibility="private" isStatic="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZSFwVIhEeibjuLm5_lcNQ" value="null"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZSs0VIhEeibjuLm5_lcNQ" name="locale" isStatic="true" type="_RXlcoFIhEeibjuLm5_lcNQ" isReadOnly="true" association="_RazIsVIhEeibjuLm5_lcNQ">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZTT4FIhEeibjuLm5_lcNQ" value="null"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZTT4VIhEeibjuLm5_lcNQ" name="ADVANTAGES_DEFAULT" visibility="private" isLeaf="true" isStatic="true" type="_RX8B8VIhEeibjuLm5_lcNQ" isReadOnly="true">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZTT4lIhEeibjuLm5_lcNQ" value="Advantages.SELECTABLE"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZT68FIhEeibjuLm5_lcNQ" name="DIFFICULTY_DEFAULT" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZT68VIhEeibjuLm5_lcNQ" value="&quot;model.difficulty.medium&quot;"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZT68lIhEeibjuLm5_lcNQ" name="EUROPEANS_DEFAULT" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZUiAFIhEeibjuLm5_lcNQ" value="4"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZUiAVIhEeibjuLm5_lcNQ" name="EUROPEANS_MIN" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZUiAlIhEeibjuLm5_lcNQ" value="1"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZVJEFIhEeibjuLm5_lcNQ" name="LOGLEVEL_DEFAULT" visibility="private" isLeaf="true" isStatic="true" type="_RXq8MVIhEeibjuLm5_lcNQ" isReadOnly="true" association="_Ra0W0VIhEeibjuLm5_lcNQ">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZVJEVIhEeibjuLm5_lcNQ" value="Level.INFO"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZuxsFIhEeibjuLm5_lcNQ" name="JAVA_VERSION_MIN" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZuxsVIhEeibjuLm5_lcNQ" value="&quot;1.8&quot;"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZvYwFIhEeibjuLm5_lcNQ" name="MEMORY_MIN" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZvYwVIhEeibjuLm5_lcNQ" value="128"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZv_0FIhEeibjuLm5_lcNQ" name="PORT_DEFAULT" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZv_0VIhEeibjuLm5_lcNQ" value="3541"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZwm4FIhEeibjuLm5_lcNQ" name="SPLASH_DEFAULT" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZwm4VIhEeibjuLm5_lcNQ" value="&quot;splash.jpg&quot;"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZwm4lIhEeibjuLm5_lcNQ" name="TC_DEFAULT" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZwm41IhEeibjuLm5_lcNQ" value="&quot;freecol&quot;"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZxN8FIhEeibjuLm5_lcNQ" name="TIMEOUT_DEFAULT" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZxN8VIhEeibjuLm5_lcNQ" value="60"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZx1AFIhEeibjuLm5_lcNQ" name="TIMEOUT_MIN" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZx1AVIhEeibjuLm5_lcNQ" value="10"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZycEFIhEeibjuLm5_lcNQ" name="GUI_SCALE_MIN_PCT" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZycEVIhEeibjuLm5_lcNQ" value="100"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZycElIhEeibjuLm5_lcNQ" name="GUI_SCALE_MAX_PCT" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZzDIFIhEeibjuLm5_lcNQ" value="200"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZzDIVIhEeibjuLm5_lcNQ" name="GUI_SCALE_STEP_PCT" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZzDIlIhEeibjuLm5_lcNQ" value="25"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZzDI1IhEeibjuLm5_lcNQ" name="GUI_SCALE_MIN" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZzqMFIhEeibjuLm5_lcNQ" value="GUI_SCALE_MIN_PCT / 100.0f"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZzqMVIhEeibjuLm5_lcNQ" name="GUI_SCALE_MAX" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZzqMlIhEeibjuLm5_lcNQ" value="GUI_SCALE_MAX_PCT / 100.0f"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZzqM1IhEeibjuLm5_lcNQ" name="GUI_SCALE_STEP" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZ0RQFIhEeibjuLm5_lcNQ" value="GUI_SCALE_STEP_PCT / 100.0f"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZ0RQVIhEeibjuLm5_lcNQ" name="GUI_SCALE_DEFAULT" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZ0RQlIhEeibjuLm5_lcNQ" value="1.0f"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZ0RQ1IhEeibjuLm5_lcNQ" name="checkIntegrity" visibility="private" isStatic="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZ04UFIhEeibjuLm5_lcNQ" value="false"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZ3UkFIhEeibjuLm5_lcNQ" name="advantages" isStatic="true" type="_RX8B8VIhEeibjuLm5_lcNQ">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZ37oVIhEeibjuLm5_lcNQ" value="null"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZ5w0FIhEeibjuLm5_lcNQ" name="difficulty" isStatic="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZ5w0lIhEeibjuLm5_lcNQ" value="null"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZ7mAFIhEeibjuLm5_lcNQ" name="europeanCount" isStatic="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZ7mAlIhEeibjuLm5_lcNQ" value="EUROPEANS_DEFAULT"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZ80IFIhEeibjuLm5_lcNQ" name="fontName" visibility="private" isStatic="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZ80IVIhEeibjuLm5_lcNQ" value="null"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZ9bMVIhEeibjuLm5_lcNQ" name="logLevel" visibility="private" isStatic="true" type="_RXq8MVIhEeibjuLm5_lcNQ" association="_Ra094VIhEeibjuLm5_lcNQ">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZ9bMlIhEeibjuLm5_lcNQ" value="LOGLEVEL_DEFAULT"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZ-CQVIhEeibjuLm5_lcNQ" name="name" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZ-pUFIhEeibjuLm5_lcNQ" value="null"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RZ_QYVIhEeibjuLm5_lcNQ" name="serverPort" isStatic="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RZ_3cFIhEeibjuLm5_lcNQ" value="-1"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RaBsoVIhEeibjuLm5_lcNQ" name="serverName" visibility="private" isStatic="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RaBsolIhEeibjuLm5_lcNQ" value="null"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RaCTsVIhEeibjuLm5_lcNQ" name="splashStream" visibility="private" isStatic="true" type="_RXdg0VIhEeibjuLm5_lcNQ" association="_Ra1k8VIhEeibjuLm5_lcNQ"/>
+            <ownedAttribute xmi:id="_RaC6wVIhEeibjuLm5_lcNQ" name="tc" visibility="private" isStatic="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RaC6wlIhEeibjuLm5_lcNQ" value="null"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RaDh0FIhEeibjuLm5_lcNQ" name="timeout" visibility="private" isStatic="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RaDh0VIhEeibjuLm5_lcNQ" value="-1"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RaDh01IhEeibjuLm5_lcNQ" name="windowSize" visibility="private" isStatic="true" type="_RXWzIFIhEeibjuLm5_lcNQ" association="_Ra2MAVIhEeibjuLm5_lcNQ">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RaDh1FIhEeibjuLm5_lcNQ" value="new Dimension(-1, -1)"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RaEI4VIhEeibjuLm5_lcNQ" name="guiScale" visibility="private" isStatic="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RaEI4lIhEeibjuLm5_lcNQ" value="GUI_SCALE_DEFAULT"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RafmsVIhEeibjuLm5_lcNQ" name="consoleLogging" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RagNwlIhEeibjuLm5_lcNQ" value="false"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RagNw1IhEeibjuLm5_lcNQ" name="debugStart" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_Rag00lIhEeibjuLm5_lcNQ" value="false"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_Rag001IhEeibjuLm5_lcNQ" name="fastStart" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_Rahb4lIhEeibjuLm5_lcNQ" value="false"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RaiC8FIhEeibjuLm5_lcNQ" name="headless" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RaiC81IhEeibjuLm5_lcNQ" value="false"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RaiqAFIhEeibjuLm5_lcNQ" name="introVideo" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RaiqA1IhEeibjuLm5_lcNQ" value="true"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RajREFIhEeibjuLm5_lcNQ" name="javaCheck" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RajRE1IhEeibjuLm5_lcNQ" value="true"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_Raj4IFIhEeibjuLm5_lcNQ" name="memoryCheck" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_Raj4I1IhEeibjuLm5_lcNQ" value="true"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RakfMFIhEeibjuLm5_lcNQ" name="publicServer" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RakfM1IhEeibjuLm5_lcNQ" value="true"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RalGQFIhEeibjuLm5_lcNQ" name="sound" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RalGQ1IhEeibjuLm5_lcNQ" value="true"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_RaltUFIhEeibjuLm5_lcNQ" name="standAloneServer" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_RaltU1IhEeibjuLm5_lcNQ" value="false"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaV1sFIhEeibjuLm5_lcNQ" name="main" specification="_RBDL8FIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaV1sVIhEeibjuLm5_lcNQ" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RaV1slIhEeibjuLm5_lcNQ" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>freeColRevision = FREECOL_VERSION;&#xD;
+     JarURLConnection juc;&#xD;
+     try {&#xD;
+         juc = getJarURLConnection(FreeCol.class);&#xD;
+     } catch (IOException ioe) {&#xD;
+         juc = null;&#xD;
+         System.err.println(&quot;Unable to open class jar: &quot;&#xD;
+             + ioe.getMessage());&#xD;
+     }&#xD;
+     if (juc != null) {&#xD;
+         try {&#xD;
+             String revision = readVersion(juc);&#xD;
+             if (revision != null) {&#xD;
+                 freeColRevision += &quot; (Revision: &quot; + revision + &quot;)&quot;;&#xD;
+             }&#xD;
+         } catch (Exception e) {&#xD;
+             System.err.println(&quot;Unable to load Manifest: &quot;&#xD;
+                 + e.getMessage());&#xD;
+         }&#xD;
+         try {&#xD;
+             splashStream = getDefaultSplashStream(juc);&#xD;
+         } catch (Exception e) {&#xD;
+             System.err.println(&quot;Unable to open default splash: &quot;&#xD;
+                 + e.getMessage());&#xD;
+         }&#xD;
+     }&#xD;
+&#xD;
+     // Java bug #7075600 causes BR#2554.  The workaround is to set&#xD;
+     // the following property.  Remove if/when they fix Java.&#xD;
+     System.setProperty(&quot;java.util.Arrays.useLegacyMergeSort&quot;, &quot;true&quot;);&#xD;
+&#xD;
+     // We can not even emit localized error messages until we find&#xD;
+     // the data directory, which might have been specified on the&#xD;
+     // command line.&#xD;
+     String dataDirectoryArg = findArg(&quot;--freecol-data&quot;, args);&#xD;
+     String err = FreeColDirectories.setDataDirectory(dataDirectoryArg);&#xD;
+     if (err != null) fatal(err); // This must not fail.&#xD;
+&#xD;
+     // Now we have the data directory, establish the base locale.&#xD;
+     // Beware, the locale may change!&#xD;
+     String localeArg = findArg(&quot;--default-locale&quot;, args);&#xD;
+     if (localeArg == null) {&#xD;
+         locale = Locale.getDefault();&#xD;
+     } else {&#xD;
+         int index = localeArg.indexOf('.'); // Strip encoding if present&#xD;
+         if (index > 0) localeArg = localeArg.substring(0, index);&#xD;
+         locale = Messages.getLocale(localeArg);&#xD;
+     }&#xD;
+     Messages.loadMessageBundle(locale);&#xD;
+&#xD;
+     // Now that we can emit error messages, parse the other&#xD;
+     // command line arguments.&#xD;
+     handleArgs(args);&#xD;
+&#xD;
+     // Do the potentially fatal system checks as early as possible.&#xD;
+     if (javaCheck &amp;&amp; JAVA_VERSION_MIN.compareTo(JAVA_VERSION) > 0) {&#xD;
+         fatal(StringTemplate.template(&quot;main.javaVersion&quot;)&#xD;
+             .addName(&quot;%version%&quot;, JAVA_VERSION)&#xD;
+             .addName(&quot;%minVersion%&quot;, JAVA_VERSION_MIN));&#xD;
+     }&#xD;
+     if (memoryCheck &amp;&amp; MEMORY_MAX &lt; MEMORY_MIN * 1000000) {&#xD;
+         fatal(StringTemplate.template(&quot;main.memory&quot;)&#xD;
+             .addAmount(&quot;%memory%&quot;, MEMORY_MAX)&#xD;
+             .addAmount(&quot;%minMemory%&quot;, MEMORY_MIN));&#xD;
+     }&#xD;
+&#xD;
+     // Having parsed the command line args, we know where the user&#xD;
+     // directories should be, so we can set up the rest of the&#xD;
+     // file/directory structure.&#xD;
+     String userMsg = FreeColDirectories.setUserDirectories();&#xD;
+&#xD;
+     // Now we have the log file path, start logging.&#xD;
+     final Logger baseLogger = Logger.getLogger(&quot;&quot;);&#xD;
+     final Handler[] handlers = baseLogger.getHandlers();&#xD;
+     for (Handler handler : handlers) {&#xD;
+         baseLogger.removeHandler(handler);&#xD;
+     }&#xD;
+     String logFile = FreeColDirectories.getLogFilePath();&#xD;
+     try {&#xD;
+         baseLogger.addHandler(new DefaultHandler(consoleLogging, logFile));&#xD;
+         Logger freecolLogger = Logger.getLogger(&quot;net.sf.freecol&quot;);&#xD;
+         freecolLogger.setLevel(logLevel);&#xD;
+     } catch (FreeColException e) {&#xD;
+         System.err.println(&quot;Logging initialization failure: &quot;&#xD;
+             + e.getMessage());&#xD;
+         e.printStackTrace();&#xD;
+     }&#xD;
+     Thread.setDefaultUncaughtExceptionHandler((Thread thread, Throwable e) -> {&#xD;
+             baseLogger.log(Level.WARNING, &quot;Uncaught exception from thread: &quot; + thread, e);&#xD;
+         });&#xD;
+&#xD;
+     // Now we can find the client options, allow the options&#xD;
+     // setting to override the locale, if no command line option&#xD;
+     // had been specified.&#xD;
+     // We have users whose machines default to Finnish but play&#xD;
+     // FreeCol in English.&#xD;
+     // If the user has selected automatic language selection, do&#xD;
+     // nothing, since we have already set up the default locale.&#xD;
+     if (localeArg == null) {&#xD;
+         String clientLanguage = ClientOptions.getLanguageOption();&#xD;
+         Locale clientLocale;&#xD;
+         if (clientLanguage != null&#xD;
+             &amp;&amp; !Messages.AUTOMATIC.equalsIgnoreCase(clientLanguage)&#xD;
+             &amp;&amp; (clientLocale = Messages.getLocale(clientLanguage)) != locale) {&#xD;
+             locale = clientLocale;&#xD;
+             Messages.loadMessageBundle(locale);&#xD;
+             logger.info(&quot;Loaded messages for &quot; + locale);&#xD;
+         }&#xD;
+     }&#xD;
+&#xD;
+     // Now we have the user mods directory and the locale is now&#xD;
+     // stable, load the mods and their messages.&#xD;
+     Mods.loadMods();&#xD;
+     Messages.loadModMessageBundle(locale);&#xD;
+&#xD;
+     // Report on where we are.&#xD;
+     if (userMsg != null) logger.info(Messages.message(userMsg));&#xD;
+     logger.info(getConfiguration().toString());&#xD;
+&#xD;
+     // Ready to specialize into client or server.&#xD;
+     if (standAloneServer) {&#xD;
+         startServer();&#xD;
+     } else {&#xD;
+         startClient(userMsg);&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaV1s1IhEeibjuLm5_lcNQ" name="getJarURLConnection" specification="_RYzkoVIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaV1tFIhEeibjuLm5_lcNQ" name="c" type="_RYy9kFIhEeibjuLm5_lcNQ"/>
+              <ownedParameter xmi:id="_RaV1tVIhEeibjuLm5_lcNQ" type="_RXiZUVIhEeibjuLm5_lcNQ" direction="return"/>
+              <language>java</language>
+              <body>String resourceName = &quot;/&quot; + c.getName().replace('.', '/') + &quot;.class&quot;;&#xD;
+     URL url = c.getResource(resourceName);&#xD;
+     return (JarURLConnection)url.openConnection();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaWcwFIhEeibjuLm5_lcNQ" name="readVersion" specification="_RY2A4FIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaWcwVIhEeibjuLm5_lcNQ" name="juc" type="_RXiZUVIhEeibjuLm5_lcNQ"/>
+              <ownedParameter xmi:id="_RaWcwlIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>Manifest mf = juc.getManifest();&#xD;
+     return (mf == null) ? null&#xD;
+         : mf.getMainAttributes().getValue(&quot;Package-Version&quot;);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaWcw1IhEeibjuLm5_lcNQ" name="getDefaultSplashStream" specification="_RY2n8FIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaWcxFIhEeibjuLm5_lcNQ" name="juc" type="_RXiZUVIhEeibjuLm5_lcNQ"/>
+              <ownedParameter xmi:id="_RaWcxVIhEeibjuLm5_lcNQ" type="_RXdg0VIhEeibjuLm5_lcNQ" direction="return"/>
+              <language>java</language>
+              <body>JarFile jf = juc.getJarFile();&#xD;
+     ZipEntry ze = jf.getEntry(SPLASH_DEFAULT);&#xD;
+     return jf.getInputStream(ze);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaWcxlIhEeibjuLm5_lcNQ" name="fatal" specification="_RY32EFIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaWcx1IhEeibjuLm5_lcNQ" name="template" type="_RX93IlIhEeibjuLm5_lcNQ"/>
+              <language>java</language>
+              <body>fatal(Messages.message(template));&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaXD0FIhEeibjuLm5_lcNQ" name="fatal" specification="_RBLu0FIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaXD0VIhEeibjuLm5_lcNQ" name="err">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>if (err == null || err.isEmpty()) {&#xD;
+         err = &quot;Bogus null fatal error message&quot;;&#xD;
+         Thread.dumpStack();&#xD;
+     }&#xD;
+     System.err.println(err);&#xD;
+     System.exit(1);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaXD0lIhEeibjuLm5_lcNQ" name="gripe" specification="_RY4dIFIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaXD01IhEeibjuLm5_lcNQ" name="template" type="_RX93IlIhEeibjuLm5_lcNQ"/>
+              <language>java</language>
+              <body>System.err.println(Messages.message(template));&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaXD1FIhEeibjuLm5_lcNQ" name="gripe" specification="_RBNkAFIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaXD1VIhEeibjuLm5_lcNQ" name="key">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>System.err.println(Messages.message(key));&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaXq4FIhEeibjuLm5_lcNQ" name="findArg" specification="_RBOLEFIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaXq4VIhEeibjuLm5_lcNQ" name="option">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_RaXq4lIhEeibjuLm5_lcNQ" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RaXq41IhEeibjuLm5_lcNQ" value="*"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_RaXq5FIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>for (int i = args.length - 2; i >= 0; i--) {&#xD;
+         if (option.equals(args[i])) {&#xD;
+             return args[i+1];&#xD;
+         }&#xD;
+     }&#xD;
+     return null;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaXq5VIhEeibjuLm5_lcNQ" name="handleArgs" specification="_RBQAQFIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaXq5lIhEeibjuLm5_lcNQ" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RaXq51IhEeibjuLm5_lcNQ" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>Options options = new Options();&#xD;
+     final String help = Messages.message(&quot;cli.help&quot;);&#xD;
+     final File dummy = new File(&quot;dummy&quot;);&#xD;
+     final String argDirectory = Messages.message(&quot;cli.arg.directory&quot;);&#xD;
+&#xD;
+     // Help options.&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;usage&quot;)&#xD;
+                       .withDescription(help)&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;help&quot;)&#xD;
+                       .withDescription(help)&#xD;
+                       .create());&#xD;
+&#xD;
+     // Special options handled early.&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;freecol-data&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.freecol-data&quot;))&#xD;
+                       .withArgName(argDirectory)&#xD;
+                       .hasArg()&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;default-locale&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.default-locale&quot;))&#xD;
+                       .withArgName(Messages.message(&quot;cli.arg.locale&quot;))&#xD;
+                       .hasArg()&#xD;
+                       .create());&#xD;
+&#xD;
+     // Ordinary options, handled here.&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;advantages&quot;)&#xD;
+                       .withDescription(Messages.message(StringTemplate&#xD;
+                               .template(&quot;cli.advantages&quot;)&#xD;
+                               .addName(&quot;%advantages%&quot;, getValidAdvantages())))&#xD;
+                       .withArgName(Messages.message(&quot;cli.arg.advantages&quot;))&#xD;
+                       .hasArg()&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;check-savegame&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.check-savegame&quot;))&#xD;
+                       .withArgName(Messages.message(&quot;cli.arg.file&quot;))&#xD;
+                       .hasArg()&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;clientOptions&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.clientOptions&quot;))&#xD;
+                       .withArgName(Messages.message(&quot;cli.arg.clientOptions&quot;))&#xD;
+                       .hasArg()&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;debug&quot;)&#xD;
+                       .withDescription(Messages.message(StringTemplate&#xD;
+                               .template(&quot;cli.debug&quot;)&#xD;
+                               .addName(&quot;%modes%&quot;, FreeColDebugger.getDebugModes())))&#xD;
+                       .withArgName(Messages.message(&quot;cli.arg.debug&quot;))&#xD;
+                       .hasOptionalArg()&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;debug-run&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.debug-run&quot;))&#xD;
+                       .withArgName(Messages.message(&quot;cli.arg.debugRun&quot;))&#xD;
+                       .hasOptionalArg()&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;debug-start&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.debug-start&quot;))&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;difficulty&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.difficulty&quot;))&#xD;
+                       .withArgName(Messages.message(&quot;cli.arg.difficulty&quot;))&#xD;
+                       .hasArg()&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;europeans&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.european-count&quot;))&#xD;
+                       .withArgName(Messages.message(&quot;cli.arg.europeans&quot;))&#xD;
+                       .hasArg()&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;fast&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.fast&quot;))&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;font&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.font&quot;))&#xD;
+                       .withArgName(Messages.message(&quot;cli.arg.font&quot;))&#xD;
+                       .hasArg()&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;full-screen&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.full-screen&quot;))&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;gui-scale&quot;)&#xD;
+                       .withDescription(Messages.message(StringTemplate&#xD;
+                               .template(&quot;cli.gui-scale&quot;)&#xD;
+                               .addName(&quot;%scales%&quot;, getValidGUIScales())))&#xD;
+                       .withArgName(Messages.message(&quot;cli.arg.gui-scale&quot;))&#xD;
+                       .hasOptionalArg()&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;headless&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.headless&quot;))&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;load-savegame&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.load-savegame&quot;))&#xD;
+                       .withArgName(Messages.message(&quot;cli.arg.file&quot;))&#xD;
+                       .hasArg()&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;log-console&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.log-console&quot;))&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;log-file&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.log-file&quot;))&#xD;
+                       .withArgName(Messages.message(&quot;cli.arg.name&quot;))&#xD;
+                       .hasArg()&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;log-level&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.log-level&quot;))&#xD;
+                       .withArgName(Messages.message(&quot;cli.arg.loglevel&quot;))&#xD;
+                       .hasArg()&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;name&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.name&quot;))&#xD;
+                       .withArgName(Messages.message(&quot;cli.arg.name&quot;))&#xD;
+                       .hasArg()&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;no-intro&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.no-intro&quot;))&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;no-java-check&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.no-java-check&quot;))&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;no-memory-check&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.no-memory-check&quot;))&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;no-sound&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.no-sound&quot;))&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;no-splash&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.no-splash&quot;))&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;private&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.private&quot;))&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;seed&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.seed&quot;))&#xD;
+                       .withArgName(Messages.message(&quot;cli.arg.seed&quot;))&#xD;
+                       .hasArg()&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;server&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.server&quot;))&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;server-name&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.server-name&quot;))&#xD;
+                       .withArgName(Messages.message(&quot;cli.arg.name&quot;))&#xD;
+                       .hasArg()&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;server-port&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.server-port&quot;))&#xD;
+                       .withArgName(Messages.message(&quot;cli.arg.port&quot;))&#xD;
+                       .hasArg()&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;splash&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.splash&quot;))&#xD;
+                       .withArgName(Messages.message(&quot;cli.arg.file&quot;))&#xD;
+                       .hasOptionalArg()&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;tc&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.tc&quot;))&#xD;
+                       .withArgName(Messages.message(&quot;cli.arg.name&quot;))&#xD;
+                       .hasArg()&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;timeout&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.timeout&quot;))&#xD;
+                       .withArgName(Messages.message(&quot;cli.arg.timeout&quot;))&#xD;
+                       .hasArg()&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;user-cache-directory&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.user-cache-directory&quot;))&#xD;
+                       .withArgName(argDirectory)&#xD;
+                       .withType(dummy)&#xD;
+                       .hasArg()&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;user-config-directory&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.user-config-directory&quot;))&#xD;
+                       .withArgName(argDirectory)&#xD;
+                       .withType(dummy)&#xD;
+                       .hasArg()&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;user-data-directory&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.user-data-directory&quot;))&#xD;
+                       .withArgName(argDirectory)&#xD;
+                       .withType(dummy)&#xD;
+                       .hasArg()&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;version&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.version&quot;))&#xD;
+                       .create());&#xD;
+     options.addOption(OptionBuilder.withLongOpt(&quot;windowed&quot;)&#xD;
+                       .withDescription(Messages.message(&quot;cli.windowed&quot;))&#xD;
+                       .withArgName(Messages.message(&quot;cli.arg.dimensions&quot;))&#xD;
+                       .hasOptionalArg()&#xD;
+                       .create());&#xD;
+&#xD;
+     CommandLineParser parser = new PosixParser();&#xD;
+     boolean usageError = false;&#xD;
+     try {&#xD;
+         CommandLine line = parser.parse(options, args);&#xD;
+         if (line.hasOption(&quot;help&quot;) || line.hasOption(&quot;usage&quot;)) {&#xD;
+             printUsage(options, 0);&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;default-locale&quot;)) {&#xD;
+             ; // Do nothing, already handled in main().&#xD;
+         }&#xD;
+         if (line.hasOption(&quot;freecol-data&quot;)) {&#xD;
+             ; // Do nothing, already handled in main().&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;advantages&quot;)) {&#xD;
+             String arg = line.getOptionValue(&quot;advantages&quot;);&#xD;
+             Advantages a = selectAdvantages(arg);&#xD;
+             if (a == null) {&#xD;
+                 fatal(StringTemplate.template(&quot;cli.error.advantages&quot;)&#xD;
+                     .addName(&quot;%advantages%&quot;, getValidAdvantages())&#xD;
+                     .addName(&quot;%arg%&quot;, arg));&#xD;
+             }&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;check-savegame&quot;)) {&#xD;
+             String arg = line.getOptionValue(&quot;check-savegame&quot;);&#xD;
+             if (!FreeColDirectories.setSavegameFile(arg)) {&#xD;
+                 fatal(StringTemplate.template(&quot;cli.err.save&quot;)&#xD;
+                     .addName(&quot;%string%&quot;, arg));&#xD;
+             }&#xD;
+             checkIntegrity = true;&#xD;
+             standAloneServer = true;&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;clientOptions&quot;)) {&#xD;
+             String fileName = line.getOptionValue(&quot;clientOptions&quot;);&#xD;
+             if (!FreeColDirectories.setClientOptionsFile(fileName)) {&#xD;
+                 // Not fatal.&#xD;
+                 gripe(StringTemplate.template(&quot;cli.error.clientOptions&quot;)&#xD;
+                     .addName(&quot;%string%&quot;, fileName));&#xD;
+             }&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;debug&quot;)) {&#xD;
+             // If the optional argument is supplied use limited mode.&#xD;
+             String arg = line.getOptionValue(&quot;debug&quot;);&#xD;
+             if (arg == null || arg.isEmpty()) {&#xD;
+                 // Let empty argument default to menus functionality.&#xD;
+                 arg = FreeColDebugger.DebugMode.MENUS.toString();&#xD;
+             }&#xD;
+             if (!FreeColDebugger.setDebugModes(arg)) { // Not fatal.&#xD;
+                 gripe(StringTemplate.template(&quot;cli.error.debug&quot;)&#xD;
+                     .addName(&quot;%modes%&quot;, FreeColDebugger.getDebugModes()));&#xD;
+             }&#xD;
+             // user set log level has precedence&#xD;
+             if (!line.hasOption(&quot;log-level&quot;)) logLevel = Level.FINEST;&#xD;
+         }&#xD;
+         if (line.hasOption(&quot;debug-run&quot;)) {&#xD;
+             FreeColDebugger.enableDebugMode(FreeColDebugger.DebugMode.MENUS);&#xD;
+             FreeColDebugger.configureDebugRun(line.getOptionValue(&quot;debug-run&quot;));&#xD;
+         }&#xD;
+         if (line.hasOption(&quot;debug-start&quot;)) {&#xD;
+             debugStart = true;&#xD;
+             FreeColDebugger.enableDebugMode(FreeColDebugger.DebugMode.MENUS);&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;difficulty&quot;)) {&#xD;
+             String arg = line.getOptionValue(&quot;difficulty&quot;);&#xD;
+             String difficulty = selectDifficulty(arg);&#xD;
+             if (difficulty == null) {&#xD;
+                 fatal(StringTemplate.template(&quot;cli.error.difficulties&quot;)&#xD;
+                     .addName(&quot;%difficulties%&quot;, getValidDifficulties())&#xD;
+                     .addName(&quot;%arg%&quot;, arg));&#xD;
+             }&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;europeans&quot;)) {&#xD;
+             int e = selectEuropeanCount(line.getOptionValue(&quot;europeans&quot;));&#xD;
+             if (e &lt; 0) {&#xD;
+                 gripe(StringTemplate.template(&quot;cli.error.europeans&quot;)&#xD;
+                     .addAmount(&quot;%min%&quot;, EUROPEANS_MIN));&#xD;
+             }&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;fast&quot;)) {&#xD;
+             fastStart = true;&#xD;
+             introVideo = false;&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;font&quot;)) {&#xD;
+             fontName = line.getOptionValue(&quot;font&quot;);&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;full-screen&quot;)) {&#xD;
+             windowSize = null;&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;gui-scale&quot;)) {&#xD;
+             String arg = line.getOptionValue(&quot;gui-scale&quot;);&#xD;
+             if(!setGUIScale(arg)) {&#xD;
+                 gripe(StringTemplate.template(&quot;cli.error.gui-scale&quot;)&#xD;
+                     .addName(&quot;%scales%&quot;, getValidGUIScales())&#xD;
+                     .addName(&quot;%arg%&quot;, arg));&#xD;
+             }&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;headless&quot;)) {&#xD;
+             headless = true;&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;load-savegame&quot;)) {&#xD;
+             String arg = line.getOptionValue(&quot;load-savegame&quot;);&#xD;
+             if (!FreeColDirectories.setSavegameFile(arg)) {&#xD;
+                 fatal(StringTemplate.template(&quot;cli.error.save&quot;)&#xD;
+                     .addName(&quot;%string%&quot;, arg));&#xD;
+             }&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;log-console&quot;)) {&#xD;
+             consoleLogging = true;&#xD;
+         }&#xD;
+         if (line.hasOption(&quot;log-file&quot;)) {&#xD;
+             FreeColDirectories.setLogFilePath(line.getOptionValue(&quot;log-file&quot;));&#xD;
+         }&#xD;
+         if (line.hasOption(&quot;log-level&quot;)) {&#xD;
+             setLogLevel(line.getOptionValue(&quot;log-level&quot;));&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;name&quot;)) {&#xD;
+             setName(line.getOptionValue(&quot;name&quot;));&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;no-intro&quot;)) {&#xD;
+             introVideo = false;&#xD;
+         }&#xD;
+         if (line.hasOption(&quot;no-java-check&quot;)) {&#xD;
+             javaCheck = false;&#xD;
+         }&#xD;
+         if (line.hasOption(&quot;no-memory-check&quot;)) {&#xD;
+             memoryCheck = false;&#xD;
+         }&#xD;
+         if (line.hasOption(&quot;no-sound&quot;)) {&#xD;
+             sound = false;&#xD;
+         }&#xD;
+         if (line.hasOption(&quot;no-splash&quot;)) {&#xD;
+             splashStream = null;&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;private&quot;)) {&#xD;
+             publicServer = false;&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;server&quot;)) {&#xD;
+             standAloneServer = true;&#xD;
+         }&#xD;
+         if (line.hasOption(&quot;server-name&quot;)) {&#xD;
+             serverName = line.getOptionValue(&quot;server-name&quot;);&#xD;
+         }&#xD;
+         if (line.hasOption(&quot;server-port&quot;)) {&#xD;
+             String arg = line.getOptionValue(&quot;server-port&quot;);&#xD;
+             if (!setServerPort(arg)) {&#xD;
+                 fatal(StringTemplate.template(&quot;cli.error.serverPort&quot;)&#xD;
+                     .addName(&quot;%string%&quot;, arg));&#xD;
+             }&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;seed&quot;)) {&#xD;
+             FreeColSeed.setFreeColSeed(line.getOptionValue(&quot;seed&quot;));&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;splash&quot;)) {&#xD;
+             String splash = line.getOptionValue(&quot;splash&quot;);&#xD;
+             try {&#xD;
+                 FileInputStream fis = new FileInputStream(splash);&#xD;
+                 splashStream = fis;&#xD;
+             } catch (FileNotFoundException fnfe) {&#xD;
+                 gripe(StringTemplate.template(&quot;cli.error.splash&quot;)&#xD;
+                     .addName(&quot;%name%&quot;, splash));&#xD;
+             }&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;tc&quot;)) {&#xD;
+             setTC(line.getOptionValue(&quot;tc&quot;)); // Failure is deferred.&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;timeout&quot;)) {&#xD;
+             String arg = line.getOptionValue(&quot;timeout&quot;);&#xD;
+             if (!setTimeout(arg)) { // Not fatal&#xD;
+                 gripe(StringTemplate.template(&quot;cli.error.timeout&quot;)&#xD;
+                     .addName(&quot;%string%&quot;, arg)&#xD;
+                     .addName(&quot;%minimum%&quot;, Integer.toString(TIMEOUT_MIN)));&#xD;
+             }&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;user-cache-directory&quot;)) {&#xD;
+             String arg = line.getOptionValue(&quot;user-cache-directory&quot;);&#xD;
+             String errMsg = FreeColDirectories.setUserCacheDirectory(arg);&#xD;
+             if (errMsg != null) { // Not fatal.&#xD;
+                 gripe(StringTemplate.template(errMsg)&#xD;
+                     .addName(&quot;%string%&quot;, arg));&#xD;
+             }&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;user-config-directory&quot;)) {&#xD;
+             String arg = line.getOptionValue(&quot;user-config-directory&quot;);&#xD;
+             String errMsg = FreeColDirectories.setUserConfigDirectory(arg);&#xD;
+             if (errMsg != null) { // Not fatal.&#xD;
+                 gripe(StringTemplate.template(errMsg)&#xD;
+                     .addName(&quot;%string%&quot;, arg));&#xD;
+             }&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;user-data-directory&quot;)) {&#xD;
+             String arg = line.getOptionValue(&quot;user-data-directory&quot;);&#xD;
+             String errMsg = FreeColDirectories.setUserDataDirectory(arg);&#xD;
+             if (errMsg != null) { // Fatal, unable to save.&#xD;
+                 fatal(StringTemplate.template(errMsg)&#xD;
+                     .addName(&quot;%string%&quot;, arg));&#xD;
+             }&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;version&quot;)) {&#xD;
+             System.out.println(&quot;FreeCol &quot; + getVersion());&#xD;
+             System.exit(0);&#xD;
+         }&#xD;
+&#xD;
+         if (line.hasOption(&quot;windowed&quot;)) {&#xD;
+             String arg = line.getOptionValue(&quot;windowed&quot;);&#xD;
+             setWindowSize(arg); // Does not fail&#xD;
+         }&#xD;
+&#xD;
+     } catch (ParseException e) {&#xD;
+         System.err.println(&quot;\n&quot; + e.getMessage() + &quot;\n&quot;);&#xD;
+         usageError = true;&#xD;
+     }&#xD;
+     if (usageError) printUsage(options, 1);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaXq6FIhEeibjuLm5_lcNQ" name="printUsage" specification="_RY5rQFIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaXq6VIhEeibjuLm5_lcNQ" name="options" type="_RYFL4VIhEeibjuLm5_lcNQ"/>
+              <ownedParameter xmi:id="_RaXq6lIhEeibjuLm5_lcNQ" name="status">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>HelpFormatter formatter = new HelpFormatter();&#xD;
+     formatter.printHelp(&quot;java -Xmx 256M -jar freecol.jar [OPTIONS]&quot;,&#xD;
+                         options);&#xD;
+     System.exit(status);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaXq61IhEeibjuLm5_lcNQ" name="loadSpecification" specification="_RY6SUFIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaXq7FIhEeibjuLm5_lcNQ" name="tcf" type="_RX4-oVIhEeibjuLm5_lcNQ"/>
+              <ownedParameter xmi:id="_RaXq7VIhEeibjuLm5_lcNQ" name="advantages" type="_RX8B8VIhEeibjuLm5_lcNQ"/>
+              <ownedParameter xmi:id="_RaXq7lIhEeibjuLm5_lcNQ" name="difficulty">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_RaXq71IhEeibjuLm5_lcNQ" type="_RX93IFIhEeibjuLm5_lcNQ" direction="return"/>
+              <language>java</language>
+              <body>Specification spec = null;&#xD;
+     try {&#xD;
+         if (tcf != null) spec = tcf.getSpecification();&#xD;
+     } catch (IOException ioe) {&#xD;
+         System.err.println(&quot;Spec read failed in &quot; + tcf.getId()&#xD;
+             + &quot;: &quot; + ioe.getMessage() + &quot;\n&quot;);&#xD;
+     }&#xD;
+     if (spec != null) spec.prepare(advantages, difficulty);&#xD;
+     return spec;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaYR8FIhEeibjuLm5_lcNQ" name="getTCSpecification" specification="_RBScgFIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaYR8VIhEeibjuLm5_lcNQ" type="_RX93IFIhEeibjuLm5_lcNQ" direction="return"/>
+              <language>java</language>
+              <body>Specification spec = loadSpecification(getTCFile(), getAdvantages(),&#xD;
+                                            getDifficulty());&#xD;
+     if (spec == null) {&#xD;
+         fatal(StringTemplate.template(&quot;cli.error.badTC&quot;)&#xD;
+             .addName(&quot;%tc%&quot;, getTC()));&#xD;
+     }&#xD;
+     return spec;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaYR8lIhEeibjuLm5_lcNQ" name="selectAdvantages" specification="_RBTqoFIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaYR81IhEeibjuLm5_lcNQ" name="advantages">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_RaYR9FIhEeibjuLm5_lcNQ" type="_RX8B8VIhEeibjuLm5_lcNQ" direction="return"/>
+              <language>java</language>
+              <body>Advantages adv = find(Advantages.values(),&#xD;
+         a -> Messages.getName(a).equals(advantages), null);&#xD;
+     if (adv != null) setAdvantages(adv);&#xD;
+     return adv;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaYR9VIhEeibjuLm5_lcNQ" name="getValidAdvantages" specification="_RBVf0FIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaYR9lIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return Arrays.stream(Advantages.values())&#xD;
+         .map(a -> Messages.getName(a)).collect(Collectors.joining(&quot;,&quot;));&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaY5AFIhEeibjuLm5_lcNQ" name="selectDifficulty" specification="_RBWt8FIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaY5AVIhEeibjuLm5_lcNQ" name="arg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_RaY5AlIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>String difficulty = find(map(DIFFICULTIES, d -> &quot;model.difficulty.&quot;+d),&#xD;
+         k -> Messages.getName(k).equals(arg), null);&#xD;
+     if (difficulty != null) setDifficulty(difficulty);&#xD;
+     return difficulty;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaY5A1IhEeibjuLm5_lcNQ" name="setDifficulty" specification="_RY98sVIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaY5BFIhEeibjuLm5_lcNQ" name="difficulty" type="_RX_FQVIhEeibjuLm5_lcNQ"/>
+              <language>java</language>
+              <body>setDifficulty(difficulty.getId());&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaY5BVIhEeibjuLm5_lcNQ" name="getValidDifficulties" specification="_RBX8EFIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaY5BlIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return Arrays.stream(DIFFICULTIES)&#xD;
+         .map(d -> Messages.getName(&quot;model.difficulty.&quot; + d))&#xD;
+         .collect(Collectors.joining(&quot;,&quot;));&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaY5B1IhEeibjuLm5_lcNQ" name="setGUIScale" specification="_RBZKMFIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaY5CFIhEeibjuLm5_lcNQ" name="arg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_RaY5CVIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>boolean valid = true;&#xD;
+     if(arg == null) {&#xD;
+         guiScale = GUI_SCALE_MAX;&#xD;
+     } else {&#xD;
+         try {&#xD;
+             int n = Integer.parseInt(arg);&#xD;
+             if (n &lt; GUI_SCALE_MIN_PCT) {&#xD;
+                 valid = false;&#xD;
+                 n = GUI_SCALE_MIN_PCT;&#xD;
+             } else if(n > GUI_SCALE_MAX_PCT) {&#xD;
+                 valid = false;&#xD;
+                 n = GUI_SCALE_MAX_PCT;&#xD;
+             } else if(n % GUI_SCALE_STEP_PCT != 0) {&#xD;
+                 valid = false;&#xD;
+             }&#xD;
+             guiScale = ((float)(n / GUI_SCALE_STEP_PCT)) * GUI_SCALE_STEP;&#xD;
+         } catch (NumberFormatException nfe) {&#xD;
+             valid = false;&#xD;
+             guiScale = GUI_SCALE_MAX;&#xD;
+         }&#xD;
+     }&#xD;
+     return valid;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaZgEFIhEeibjuLm5_lcNQ" name="getValidGUIScales" specification="_RBZxQVIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaZgEVIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>String result = &quot;&quot;;&#xD;
+     for(int i=GUI_SCALE_MIN_PCT; i&lt;GUI_SCALE_MAX_PCT; i+=GUI_SCALE_STEP_PCT)&#xD;
+         result += i + &quot;,&quot;;&#xD;
+     result += GUI_SCALE_MAX_PCT;&#xD;
+     return result;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaZgElIhEeibjuLm5_lcNQ" name="selectEuropeanCount" specification="_RBa_YFIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaZgE1IhEeibjuLm5_lcNQ" name="arg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_RaZgFFIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>try {&#xD;
+         int n = Integer.parseInt(arg);&#xD;
+         if (n >= EUROPEANS_MIN) {&#xD;
+             setEuropeanCount(n);&#xD;
+             return n;&#xD;
+         }&#xD;
+     } catch (NumberFormatException nfe) {}&#xD;
+     return -1;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaZgFVIhEeibjuLm5_lcNQ" name="setLogLevel" specification="_RBbmcFIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaZgFlIhEeibjuLm5_lcNQ" name="arg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>logLevel = Level.parse(arg.toUpperCase());&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaZgF1IhEeibjuLm5_lcNQ" name="setName" specification="_RBc0kFIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaZgGFIhEeibjuLm5_lcNQ" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>FreeCol.name = name;&#xD;
+     logger.info(&quot;Set FreeCol.name = &quot; + name);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaaHIFIhEeibjuLm5_lcNQ" name="getRevision" specification="_RBdboFIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaaHIVIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return freeColRevision;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaaHIlIhEeibjuLm5_lcNQ" name="getServerHost" specification="_RBeCsFIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaaHI1IhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return InetAddress.getLoopbackAddress().getHostAddress();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaaHJFIhEeibjuLm5_lcNQ" name="getTC" specification="_RBepwVIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaaHJVIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return (tc == null) ? TC_DEFAULT : tc;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaaHJlIhEeibjuLm5_lcNQ" name="setTC" specification="_RBf34FIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaaHJ1IhEeibjuLm5_lcNQ" name="tc">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>FreeCol.tc = tc;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaauMFIhEeibjuLm5_lcNQ" name="getTCFile" specification="_RBf34lIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaauMVIhEeibjuLm5_lcNQ" type="_RX4-oVIhEeibjuLm5_lcNQ" direction="return"/>
+              <language>java</language>
+              <body>try {&#xD;
+         return new FreeColTcFile(getTC());&#xD;
+     } catch (IOException ioe) {}&#xD;
+     return null;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaauMlIhEeibjuLm5_lcNQ" name="getTimeout" specification="_RBhGAFIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaauM1IhEeibjuLm5_lcNQ" name="singlePlayer">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_RaauNFIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return (timeout >= TIMEOUT_MIN) ? timeout&#xD;
+         : (singlePlayer) ? Integer.MAX_VALUE&#xD;
+         : TIMEOUT_DEFAULT;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaauNVIhEeibjuLm5_lcNQ" name="setTimeout" specification="_RBiUIFIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaauNlIhEeibjuLm5_lcNQ" name="timeout">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_RaauN1IhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>try {&#xD;
+         int result = Integer.parseInt(timeout);&#xD;
+         if (result >= TIMEOUT_MIN) {&#xD;
+             FreeCol.timeout = result;&#xD;
+             return true;&#xD;
+         }&#xD;
+     } catch (NumberFormatException nfe) {}&#xD;
+     return false;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RaauOFIhEeibjuLm5_lcNQ" name="getVersion" specification="_RBi7MFIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RaauOVIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return FREECOL_VERSION;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RabVQFIhEeibjuLm5_lcNQ" name="setWindowSize" specification="_RBjiQFIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RabVQVIhEeibjuLm5_lcNQ" name="arg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>String[] xy;&#xD;
+     if (arg != null&#xD;
+         &amp;&amp; (xy = arg.split(&quot;[^0-9]&quot;)) != null&#xD;
+         &amp;&amp; xy.length == 2) {&#xD;
+         try {&#xD;
+             windowSize = new Dimension(Integer.parseInt(xy[0]),&#xD;
+                                        Integer.parseInt(xy[1]));&#xD;
+         } catch (NumberFormatException nfe) {}&#xD;
+     }&#xD;
+     if (windowSize == null) windowSize = new Dimension(-1, -1);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RabVQlIhEeibjuLm5_lcNQ" name="badLoad" specification="_RY_K0FIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RabVQ1IhEeibjuLm5_lcNQ" name="file" type="_RXZ2cFIhEeibjuLm5_lcNQ"/>
+              <ownedParameter xmi:id="_RabVRFIhEeibjuLm5_lcNQ" type="_RX93IlIhEeibjuLm5_lcNQ" direction="return"/>
+              <language>java</language>
+              <body>return StringTemplate.template(&quot;error.couldNotLoad&quot;)&#xD;
+         .addName(&quot;%name%&quot;, file.getPath());&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RabVRVIhEeibjuLm5_lcNQ" name="badSave" specification="_RZAY8FIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RabVRlIhEeibjuLm5_lcNQ" name="file" type="_RXZ2cFIhEeibjuLm5_lcNQ"/>
+              <ownedParameter xmi:id="_RabVR1IhEeibjuLm5_lcNQ" type="_RX93IlIhEeibjuLm5_lcNQ" direction="return"/>
+              <language>java</language>
+              <body>return StringTemplate.template(&quot;error.couldNotSave&quot;)&#xD;
+         .addName(&quot;%name%&quot;, file.getPath());&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RabVSFIhEeibjuLm5_lcNQ" name="getConfiguration" specification="_RBlXcFIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_RabVSVIhEeibjuLm5_lcNQ" type="_RZBAAFIhEeibjuLm5_lcNQ" direction="return"/>
+              <language>java</language>
+              <body>File autosave = FreeColDirectories.getAutosaveDirectory();&#xD;
+     File clientOptionsFile = FreeColDirectories.getClientOptionsFile();&#xD;
+     File save = FreeColDirectories.getSaveDirectory();&#xD;
+     File userConfig = FreeColDirectories.getUserConfigDirectory();&#xD;
+     File userData = FreeColDirectories.getUserDataDirectory();&#xD;
+     File userMods = FreeColDirectories.getUserModsDirectory();&#xD;
+     StringBuilder sb = new StringBuilder(256);&#xD;
+     sb.append(&quot;Configuration:&quot;)&#xD;
+         .append(&quot;\n  version     &quot;).append(getRevision())&#xD;
+         .append(&quot;\n  java:       &quot;).append(JAVA_VERSION)&#xD;
+         .append(&quot;\n  memory:     &quot;).append(MEMORY_MAX)&#xD;
+         .append(&quot;\n  locale:     &quot;).append(locale)&#xD;
+         .append(&quot;\n  data:       &quot;)&#xD;
+         .append(FreeColDirectories.getDataDirectory().getPath())&#xD;
+         .append(&quot;\n  userConfig: &quot;)&#xD;
+         .append((userConfig == null) ? &quot;NONE&quot; : userConfig.getPath())&#xD;
+         .append(&quot;\n  userData:   &quot;)&#xD;
+         .append((userData == null) ? &quot;NONE&quot; : userData.getPath())&#xD;
+         .append(&quot;\n  autosave:   &quot;)&#xD;
+         .append((autosave == null) ? &quot;NONE&quot; : autosave.getPath())&#xD;
+         .append(&quot;\n  logFile:    &quot;)&#xD;
+         .append(FreeColDirectories.getLogFilePath())&#xD;
+         .append(&quot;\n  options:    &quot;)&#xD;
+         .append((clientOptionsFile == null) ? &quot;NONE&quot;&#xD;
+             : clientOptionsFile.getPath())&#xD;
+         .append(&quot;\n  save:       &quot;)&#xD;
+         .append((save == null) ? &quot;NONE&quot; : save.getPath())&#xD;
+         .append(&quot;\n  userMods:   &quot;)&#xD;
+         .append((userMods == null) ? &quot;NONE&quot; : userMods.getPath());&#xD;
+     return sb;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rab8UFIhEeibjuLm5_lcNQ" name="startClient" specification="_RBmlkFIhEeibjuLm5_lcNQ">
+              <ownedParameter xmi:id="_Rab8UVIhEeibjuLm5_lcNQ" name="userMsg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>Specification spec = null;&#xD;
+     File savegame = FreeColDirectories.getSavegameFile();&#xD;
+     if (debugStart) {&#xD;
+         spec = FreeCol.getTCSpecification();&#xD;
+     } else if (fastStart) {&#xD;
+         if (savegame == null) {&#xD;
+             // continue last saved game if possible,&#xD;
+             // otherwise start a new one&#xD;
+             savegame = FreeColDirectories.getLastSaveGameFile();&#xD;
+             if (savegame == null) {&#xD;
+                 spec = FreeCol.getTCSpecification();&#xD;
+             }&#xD;
+         }&#xD;
+         // savegame was specified on command line&#xD;
+     }&#xD;
+     final FreeColClient freeColClient&#xD;
+         = new FreeColClient(splashStream, fontName, guiScale, headless);&#xD;
+     freeColClient.startClient(windowSize, userMsg, sound, introVideo,&#xD;
+                               savegame, spec);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rab8UlIhEeibjuLm5_lcNQ" name="startServer" specification="_RBnMoFIhEeibjuLm5_lcNQ">
+              <language>java</language>
+              <body>logger.info(&quot;Starting stand-alone server.&quot;);&#xD;
+     final FreeColServer freeColServer;&#xD;
+     File saveGame = FreeColDirectories.getSavegameFile();&#xD;
+     if (saveGame != null) {&#xD;
+         try {&#xD;
+             final FreeColSavegameFile fis&#xD;
+                 = new FreeColSavegameFile(saveGame);&#xD;
+             freeColServer = new FreeColServer(fis, (Specification)null,&#xD;
+                                               serverPort, serverName);&#xD;
+             if (checkIntegrity) {&#xD;
+                 boolean integrityOK = freeColServer.getIntegrity() > 0;&#xD;
+                 gripe((integrityOK)&#xD;
+                     ? &quot;cli.check-savegame.success&quot;&#xD;
+                     : &quot;cli.check-savegame.failure&quot;);&#xD;
+                 System.exit((integrityOK) ? 0 : 2);&#xD;
+             }&#xD;
+         } catch (Exception e) {&#xD;
+             if (checkIntegrity) gripe(&quot;cli.check-savegame.failure&quot;);&#xD;
+             fatal(Messages.message(badLoad(saveGame))&#xD;
+                 + &quot;: &quot; + e.getMessage());&#xD;
+             return;&#xD;
+         }&#xD;
+     } else {&#xD;
+         Specification spec = FreeCol.getTCSpecification();&#xD;
+         try {&#xD;
+             freeColServer = new FreeColServer(publicServer, false, spec,&#xD;
+                                               serverPort, serverName);&#xD;
+         } catch (Exception e) {&#xD;
+             fatal(Messages.message(&quot;server.initialize&quot;)&#xD;
+                 + &quot;: &quot; + e.getMessage());&#xD;
+             return;&#xD;
+         }&#xD;
+         if (publicServer &amp;&amp; freeColServer != null&#xD;
+             &amp;&amp; !freeColServer.getPublicServer()) {&#xD;
+             gripe(Messages.message(&quot;server.noRouteToServer&quot;));&#xD;
+         }&#xD;
+     }&#xD;
+&#xD;
+     String quit = FreeCol.SERVER_THREAD + &quot;Quit Game&quot;;&#xD;
+     Runtime.getRuntime().addShutdownHook(new Thread(quit) {&#xD;
+             @Override&#xD;
+             public void run() {&#xD;
+                 freeColServer.getController().shutdown();&#xD;
+             }&#xD;
+         });&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_RA-6gFIhEeibjuLm5_lcNQ" name="FreeCol" visibility="private">
+              <eAnnotations xmi:id="_RA_hkFIhEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_RBAIoFIhEeibjuLm5_lcNQ" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_RBB90FIhEeibjuLm5_lcNQ" type="_RAl48FIhEeibjuLm5_lcNQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBDL8FIhEeibjuLm5_lcNQ" name="main" isStatic="true" method="_RaV1sFIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_Ram7cFIhEeibjuLm5_lcNQ">
+                <body>The entrypoint.&#xD;
+     *&#xD;
+     * @param args The command-line arguments.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RBDL8VIhEeibjuLm5_lcNQ" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RBIEcFIhEeibjuLm5_lcNQ" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBLu0FIhEeibjuLm5_lcNQ" name="fatal" isStatic="true" method="_RaXD0FIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_Ram7dVIhEeibjuLm5_lcNQ">
+                <body>Exit printing fatal error message.&#xD;
+     *&#xD;
+     * @param err The error message to print.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RBMV4FIhEeibjuLm5_lcNQ" name="err">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBNkAFIhEeibjuLm5_lcNQ" name="gripe" isStatic="true" method="_RaXD1FIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_Ram7d1IhEeibjuLm5_lcNQ">
+                <body>Just gripe to System.err.&#xD;
+     *&#xD;
+     * @param key A message key.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RBNkAVIhEeibjuLm5_lcNQ" name="key">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBOLEFIhEeibjuLm5_lcNQ" name="findArg" visibility="private" isStatic="true" method="_RaXq4FIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_Ram7eFIhEeibjuLm5_lcNQ">
+                <body>Find an option before the real option handling can get started.&#xD;
+     * Takes care to use the *last* instance.&#xD;
+     *&#xD;
+     * @param option The option to find.&#xD;
+     * @param args The  command-line arguments.&#xD;
+     * @return The option's parameter.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RBOyIFIhEeibjuLm5_lcNQ" name="option">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_RBOyIVIhEeibjuLm5_lcNQ" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RBPZMFIhEeibjuLm5_lcNQ" value="*"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_RBOyIlIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBQAQFIhEeibjuLm5_lcNQ" name="handleArgs" visibility="private" isStatic="true" method="_RaXq5VIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_RanigFIhEeibjuLm5_lcNQ">
+                <body>Processes the command-line arguments and takes appropriate&#xD;
+     * actions for each of them.&#xD;
+     *&#xD;
+     * @param args The command-line arguments.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RBQAQVIhEeibjuLm5_lcNQ" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RBQnUFIhEeibjuLm5_lcNQ" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBScgFIhEeibjuLm5_lcNQ" name="getTCSpecification" visibility="private" isStatic="true" method="_RaYR8FIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_Ranig1IhEeibjuLm5_lcNQ">
+                <body>Get the specification from the specified TC.&#xD;
+     *&#xD;
+     * @return A &lt;code>Specification&lt;/code>, quits on error.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RY9VoFIhEeibjuLm5_lcNQ" type="_RX93IFIhEeibjuLm5_lcNQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBTqoFIhEeibjuLm5_lcNQ" name="selectAdvantages" visibility="private" isStatic="true" method="_RaYR8lIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_RanihFIhEeibjuLm5_lcNQ">
+                <body>Sets the advantages type.&#xD;
+     *&#xD;
+     * Called from NewPanel when a selection is made.&#xD;
+     *&#xD;
+     * @param advantages The name of the new advantages type.&#xD;
+     * @return The type of advantages set, or null if none.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RBURsFIhEeibjuLm5_lcNQ" name="advantages">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_RY98sFIhEeibjuLm5_lcNQ" type="_RX8B8VIhEeibjuLm5_lcNQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBVf0FIhEeibjuLm5_lcNQ" name="getValidAdvantages" visibility="private" isStatic="true" method="_RaYR9VIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_RanihVIhEeibjuLm5_lcNQ">
+                <body>Gets a comma separated list of localized advantage type names.&#xD;
+     *&#xD;
+     * @return A list of advantage types.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RBWG4FIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBWt8FIhEeibjuLm5_lcNQ" name="selectDifficulty" isStatic="true" method="_RaY5AFIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_RanihlIhEeibjuLm5_lcNQ">
+                <body>Selects a difficulty level.&#xD;
+     *&#xD;
+     * @param arg The supplied difficulty argument.&#xD;
+     * @return The name of the selected difficulty, or null if none.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RBWt8VIhEeibjuLm5_lcNQ" name="arg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_RBXVAFIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBX8EFIhEeibjuLm5_lcNQ" name="getValidDifficulties" isStatic="true" method="_RaY5BVIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_RaniiFIhEeibjuLm5_lcNQ">
+                <body>Gets the names of the valid difficulty levels.&#xD;
+     *&#xD;
+     * @return The valid difficulty levels, comma separated.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RBYjIFIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBZKMFIhEeibjuLm5_lcNQ" name="setGUIScale" isStatic="true" method="_RaY5B1IhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_RaniiVIhEeibjuLm5_lcNQ">
+                <body>Sets the scale for GUI elements.&#xD;
+     * &#xD;
+     * @param arg The optional command line argument to be parsed.&#xD;
+     * @return If the argument was correctly formatted.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RBZKMVIhEeibjuLm5_lcNQ" name="arg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_RBZxQFIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBZxQVIhEeibjuLm5_lcNQ" name="getValidGUIScales" isStatic="true" method="_RaZgEFIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_RaniilIhEeibjuLm5_lcNQ">
+                <body>Gets the valid scale factors for the GUI.&#xD;
+     * &#xD;
+     * @return A string containing these.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RBaYUFIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBa_YFIhEeibjuLm5_lcNQ" name="selectEuropeanCount" isStatic="true" method="_RaZgElIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_Ranii1IhEeibjuLm5_lcNQ">
+                <body>Selects a European nation count.&#xD;
+     *&#xD;
+     * @param arg The supplied count argument.&#xD;
+     * @return A valid nation number, or negative on error.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RBa_YVIhEeibjuLm5_lcNQ" name="arg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_RBa_YlIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBbmcFIhEeibjuLm5_lcNQ" name="setLogLevel" visibility="private" isStatic="true" method="_RaZgFVIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_RanijFIhEeibjuLm5_lcNQ">
+                <body>Sets the log level.&#xD;
+     *&#xD;
+     * @param arg The log level to set.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RBcNgFIhEeibjuLm5_lcNQ" name="arg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBc0kFIhEeibjuLm5_lcNQ" name="setName" isStatic="true" method="_RaZgF1IhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_RaoJkFIhEeibjuLm5_lcNQ">
+                <body>Sets the user name.&#xD;
+     *&#xD;
+     * @param name The new user name.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RBc0kVIhEeibjuLm5_lcNQ" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBdboFIhEeibjuLm5_lcNQ" name="getRevision" isStatic="true" method="_RaaHIFIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_RaoJkVIhEeibjuLm5_lcNQ">
+                <body>Gets the current revision of game.&#xD;
+     *&#xD;
+     * @return The current version and SVN Revision of the game.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RBdboVIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBeCsFIhEeibjuLm5_lcNQ" name="getServerHost" isStatic="true" method="_RaaHIlIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_RaoJklIhEeibjuLm5_lcNQ">
+                <body>Get the default server host name.&#xD;
+     *&#xD;
+     * @return The host name.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RBepwFIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBepwVIhEeibjuLm5_lcNQ" name="getTC" isStatic="true" method="_RaaHJFIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_RaoJk1IhEeibjuLm5_lcNQ">
+                <body>Gets the current Total-Conversion.&#xD;
+     *&#xD;
+     * @return Usually TC_DEFAULT, but can be overridden at the command line.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RBfQ0FIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBf34FIhEeibjuLm5_lcNQ" name="setTC" isStatic="true" method="_RaaHJlIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_RaoJlFIhEeibjuLm5_lcNQ">
+                <body>Sets the Total-Conversion.&#xD;
+     *&#xD;
+     * Called from NewPanel when a selection is made.&#xD;
+     *&#xD;
+     * @param tc The name of the new total conversion.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RBf34VIhEeibjuLm5_lcNQ" name="tc">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBf34lIhEeibjuLm5_lcNQ" name="getTCFile" isStatic="true" method="_RaauMFIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_RaoJlVIhEeibjuLm5_lcNQ">
+                <body>Gets the FreeColTcFile for the current TC.&#xD;
+     *&#xD;
+     * @return The &lt;code>FreeColTcFile&lt;/code>.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RY-jwFIhEeibjuLm5_lcNQ" type="_RX4-oVIhEeibjuLm5_lcNQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBhGAFIhEeibjuLm5_lcNQ" name="getTimeout" isStatic="true" method="_RaauMlIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_RaoJllIhEeibjuLm5_lcNQ">
+                <body>Gets the timeout.&#xD;
+     * Use the command line specified one if any, otherwise default&#xD;
+     * to `infinite' in single player and the TIMEOUT_DEFAULT for&#xD;
+     * multiplayer.&#xD;
+     *&#xD;
+     * @param singlePlayer True if this is a single player game.&#xD;
+     * @return A suitable timeout value.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RBhGAVIhEeibjuLm5_lcNQ" name="singlePlayer">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_RBhtEFIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBiUIFIhEeibjuLm5_lcNQ" name="setTimeout" isStatic="true" method="_RaauNVIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_RapXsFIhEeibjuLm5_lcNQ">
+                <body>Sets the timeout.&#xD;
+     *&#xD;
+     * @param timeout A string containing the new timeout.&#xD;
+     * @return True if the timeout was set.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RBiUIVIhEeibjuLm5_lcNQ" name="timeout">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_RBiUIlIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBi7MFIhEeibjuLm5_lcNQ" name="getVersion" isStatic="true" method="_RaauOFIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_Rap-wFIhEeibjuLm5_lcNQ">
+                <body>Gets the current version of game.&#xD;
+     *&#xD;
+     * @return The current version of the game using the format &quot;x.y.z&quot;,&#xD;
+     *         where &quot;x&quot; is major, &quot;y&quot; is minor and &quot;z&quot; is revision.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RBi7MVIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBjiQFIhEeibjuLm5_lcNQ" name="setWindowSize" visibility="private" isStatic="true" method="_RabVQFIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_Rap-wVIhEeibjuLm5_lcNQ">
+                <body>Sets the window size.&#xD;
+     *&#xD;
+     * Does not fail because any empty or invalid value is interpreted as&#xD;
+     * `windowed but use as much screen as possible'.&#xD;
+     *&#xD;
+     * @param arg The window size specification.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RBkJUFIhEeibjuLm5_lcNQ" name="arg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBlXcFIhEeibjuLm5_lcNQ" name="getConfiguration" isStatic="true" method="_RabVSFIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_Rap-xFIhEeibjuLm5_lcNQ">
+                <body>We get a lot of lame bug reports with insufficient configuration&#xD;
+     * information.  Get a buffer containing as much information as we can&#xD;
+     * to embed in the log file and saved games.&#xD;
+     *&#xD;
+     * @return A &lt;code>StringBuilder&lt;/code> full of configuration information.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RZBnEVIhEeibjuLm5_lcNQ" type="_RZBAAFIhEeibjuLm5_lcNQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBmlkFIhEeibjuLm5_lcNQ" name="startClient" visibility="private" isStatic="true" method="_Rab8UFIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_Raql0FIhEeibjuLm5_lcNQ">
+                <body>Start a client.&#xD;
+     *&#xD;
+     * @param userMsg An optional user message key.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RBmlkVIhEeibjuLm5_lcNQ" name="userMsg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RBnMoFIhEeibjuLm5_lcNQ" name="startServer" visibility="private" isStatic="true" method="_Rab8UlIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_Raql0VIhEeibjuLm5_lcNQ">
+                <body>Start the server.</body>
+              </ownedComment>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RYzkoVIhEeibjuLm5_lcNQ" name="getJarURLConnection" visibility="private" isStatic="true" method="_RaV1s1IhEeibjuLm5_lcNQ" raisedException="_RXeu8VIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_Ram7cVIhEeibjuLm5_lcNQ">
+                <body>Get the JarURLConnection from a class.&#xD;
+     *&#xD;
+     * @return The &lt;code>JarURLConnection&lt;/code>.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RYzkolIhEeibjuLm5_lcNQ" name="c" type="_RYy9kFIhEeibjuLm5_lcNQ"/>
+              <ownedParameter xmi:id="_RY0LsFIhEeibjuLm5_lcNQ" type="_RXiZUVIhEeibjuLm5_lcNQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RY2A4FIhEeibjuLm5_lcNQ" name="readVersion" visibility="private" isStatic="true" method="_RaWcwFIhEeibjuLm5_lcNQ" raisedException="_RXeu8VIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_Ram7clIhEeibjuLm5_lcNQ">
+                <body>Extract the package version from the class.&#xD;
+     *&#xD;
+     * @param juc The &lt;code>JarURLConnection&lt;/code> to extract from.&#xD;
+     * @return A value of the package version attribute.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RY2A4VIhEeibjuLm5_lcNQ" name="juc" type="_RXiZUVIhEeibjuLm5_lcNQ"/>
+              <ownedParameter xmi:id="_RY2A4lIhEeibjuLm5_lcNQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RY2n8FIhEeibjuLm5_lcNQ" name="getDefaultSplashStream" visibility="private" isStatic="true" method="_RaWcw1IhEeibjuLm5_lcNQ" raisedException="_RXeu8VIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_Ram7c1IhEeibjuLm5_lcNQ">
+                <body>Get a stream for the default splash file.&#xD;
+     *&#xD;
+     * Note: Not bothering to check for nulls as this is called in try&#xD;
+     * block that ignores all exceptions.&#xD;
+     *&#xD;
+     * @param juc The &lt;code>JarURLConnection&lt;/code> to extract from.&#xD;
+     * @return A suitable &lt;code>InputStream&lt;/code>, or null on error.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RY2n8VIhEeibjuLm5_lcNQ" name="juc" type="_RXiZUVIhEeibjuLm5_lcNQ"/>
+              <ownedParameter xmi:id="_RY3PAFIhEeibjuLm5_lcNQ" type="_RXdg0VIhEeibjuLm5_lcNQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RY32EFIhEeibjuLm5_lcNQ" name="fatal" isStatic="true" method="_RaWcxlIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_Ram7dFIhEeibjuLm5_lcNQ">
+                <body>Exit printing fatal error message.&#xD;
+     *&#xD;
+     * @param template A &lt;code>StringTemplate&lt;/code> to print.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RY32EVIhEeibjuLm5_lcNQ" name="template" type="_RX93IlIhEeibjuLm5_lcNQ"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RY4dIFIhEeibjuLm5_lcNQ" name="gripe" isStatic="true" method="_RaXD0lIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_Ram7dlIhEeibjuLm5_lcNQ">
+                <body>Just gripe to System.err.&#xD;
+     *&#xD;
+     * @param template A &lt;code>StringTemplate&lt;/code> to print.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RY4dIVIhEeibjuLm5_lcNQ" name="template" type="_RX93IlIhEeibjuLm5_lcNQ"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RY5rQFIhEeibjuLm5_lcNQ" name="printUsage" visibility="private" isStatic="true" method="_RaXq6FIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_RanigVIhEeibjuLm5_lcNQ">
+                <body>Prints the usage message and exits.&#xD;
+     *&#xD;
+     * @param options The command line &lt;code>Options&lt;/code>.&#xD;
+     * @param status The status to exit with.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RY5rQVIhEeibjuLm5_lcNQ" name="options" type="_RYFL4VIhEeibjuLm5_lcNQ"/>
+              <ownedParameter xmi:id="_RY5rQlIhEeibjuLm5_lcNQ" name="status">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RY6SUFIhEeibjuLm5_lcNQ" name="loadSpecification" isStatic="true" method="_RaXq61IhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_RaniglIhEeibjuLm5_lcNQ">
+                <body>Get the specification from a given TC file.&#xD;
+     *&#xD;
+     * @param tcf The &lt;code>FreeColTcFile&lt;/code> to load.&#xD;
+     * @param advantages An optional &lt;code>Advantages&lt;/code> setting.&#xD;
+     * @param difficulty An optional difficulty level.&#xD;
+     * @return A &lt;code>Specification&lt;/code>.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RY65YFIhEeibjuLm5_lcNQ" name="tcf" type="_RX4-oVIhEeibjuLm5_lcNQ"/>
+              <ownedParameter xmi:id="_RY65YVIhEeibjuLm5_lcNQ" name="advantages" type="_RX8B8VIhEeibjuLm5_lcNQ"/>
+              <ownedParameter xmi:id="_RY65YlIhEeibjuLm5_lcNQ" name="difficulty">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_RY8ukFIhEeibjuLm5_lcNQ" type="_RX93IFIhEeibjuLm5_lcNQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RY98sVIhEeibjuLm5_lcNQ" name="setDifficulty" isStatic="true" method="_RaY5A1IhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_Ranih1IhEeibjuLm5_lcNQ">
+                <body>Sets the difficulty level.&#xD;
+     *&#xD;
+     * @param difficulty The actual &lt;code>OptionGroup&lt;/code>&#xD;
+     *     containing the difficulty level.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RY98slIhEeibjuLm5_lcNQ" name="difficulty" type="_RX_FQVIhEeibjuLm5_lcNQ"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RY_K0FIhEeibjuLm5_lcNQ" name="badLoad" isStatic="true" method="_RabVQlIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_Rap-wlIhEeibjuLm5_lcNQ">
+                <body>Utility to make a load failure message.&#xD;
+     *&#xD;
+     * @param file The &lt;code>File&lt;/code> that failed to load.&#xD;
+     * @return A &lt;code>StringTemplate&lt;/code> with the error message.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RY_K0VIhEeibjuLm5_lcNQ" name="file" type="_RXZ2cFIhEeibjuLm5_lcNQ"/>
+              <ownedParameter xmi:id="_RY_K0lIhEeibjuLm5_lcNQ" type="_RX93IlIhEeibjuLm5_lcNQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RZAY8FIhEeibjuLm5_lcNQ" name="badSave" isStatic="true" method="_RabVRVIhEeibjuLm5_lcNQ">
+              <ownedComment xmi:id="_Rap-w1IhEeibjuLm5_lcNQ">
+                <body>Utility to make a save failure message.&#xD;
+     *&#xD;
+     * @param file The &lt;code>File&lt;/code> that failed to save.&#xD;
+     * @return A &lt;code>StringTemplate&lt;/code> with the error message.</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_RZAY8VIhEeibjuLm5_lcNQ" name="file" type="_RXZ2cFIhEeibjuLm5_lcNQ"/>
+              <ownedParameter xmi:id="_RZAY8lIhEeibjuLm5_lcNQ" type="_RX93IlIhEeibjuLm5_lcNQ" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Rax6kFIhEeibjuLm5_lcNQ" name="" memberEnd="_Rax6kVIhEeibjuLm5_lcNQ _RZNNQFIhEeibjuLm5_lcNQ">
+            <ownedEnd xmi:id="_Rax6kVIhEeibjuLm5_lcNQ" name="" type="_RAl48FIhEeibjuLm5_lcNQ" association="_Rax6kFIhEeibjuLm5_lcNQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_RazIsVIhEeibjuLm5_lcNQ" name="" memberEnd="_RazIslIhEeibjuLm5_lcNQ _RZSs0VIhEeibjuLm5_lcNQ">
+            <ownedEnd xmi:id="_RazIslIhEeibjuLm5_lcNQ" name="" type="_RAl48FIhEeibjuLm5_lcNQ" association="_RazIsVIhEeibjuLm5_lcNQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Ra0W0VIhEeibjuLm5_lcNQ" name="" memberEnd="_Ra0W0lIhEeibjuLm5_lcNQ _RZVJEFIhEeibjuLm5_lcNQ">
+            <ownedEnd xmi:id="_Ra0W0lIhEeibjuLm5_lcNQ" name="" type="_RAl48FIhEeibjuLm5_lcNQ" association="_Ra0W0VIhEeibjuLm5_lcNQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Ra094VIhEeibjuLm5_lcNQ" name="" memberEnd="_Ra094lIhEeibjuLm5_lcNQ _RZ9bMVIhEeibjuLm5_lcNQ">
+            <ownedEnd xmi:id="_Ra094lIhEeibjuLm5_lcNQ" name="" type="_RAl48FIhEeibjuLm5_lcNQ" association="_Ra094VIhEeibjuLm5_lcNQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Ra1k8VIhEeibjuLm5_lcNQ" name="" memberEnd="_Ra1k8lIhEeibjuLm5_lcNQ _RaCTsVIhEeibjuLm5_lcNQ">
+            <ownedEnd xmi:id="_Ra1k8lIhEeibjuLm5_lcNQ" name="" type="_RAl48FIhEeibjuLm5_lcNQ" association="_Ra1k8VIhEeibjuLm5_lcNQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Ra2MAVIhEeibjuLm5_lcNQ" name="" memberEnd="_Ra2MAlIhEeibjuLm5_lcNQ _RaDh01IhEeibjuLm5_lcNQ">
+            <ownedEnd xmi:id="_Ra2MAlIhEeibjuLm5_lcNQ" name="" type="_RAl48FIhEeibjuLm5_lcNQ" association="_Ra2MAVIhEeibjuLm5_lcNQ"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Q-6d8FIhEeibjuLm5_lcNQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Q-6d8VIhEeibjuLm5_lcNQ" name="awt">
+        <packagedElement xmi:type="uml:Class" xmi:id="_RXWzIFIhEeibjuLm5_lcNQ" name="Dimension"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Q_AkkFIhEeibjuLm5_lcNQ" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_RXZ2cFIhEeibjuLm5_lcNQ" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RXbEkVIhEeibjuLm5_lcNQ" name="FileInputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RXcSsVIhEeibjuLm5_lcNQ" name="FileNotFoundException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RXdg0VIhEeibjuLm5_lcNQ" name="InputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RXeu8VIhEeibjuLm5_lcNQ" name="IOException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Q_BLoFIhEeibjuLm5_lcNQ" name="net">
+        <packagedElement xmi:type="uml:Class" xmi:id="_RXf9EVIhEeibjuLm5_lcNQ" name="InetAddress"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RXhLMVIhEeibjuLm5_lcNQ" name="URL"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RXiZUVIhEeibjuLm5_lcNQ" name="JarURLConnection"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Q_BLoVIhEeibjuLm5_lcNQ" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Q_BysFIhEeibjuLm5_lcNQ" name="jar">
+          <packagedElement xmi:type="uml:Class" xmi:id="_RXmqwVIhEeibjuLm5_lcNQ" name="JarFile"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_RXn44VIhEeibjuLm5_lcNQ" name="Manifest"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Q_CZwFIhEeibjuLm5_lcNQ" name="logging">
+          <packagedElement xmi:type="uml:Class" xmi:id="_RXpHAVIhEeibjuLm5_lcNQ" name="Handler"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_RXq8MVIhEeibjuLm5_lcNQ" name="Level"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_RXsKUVIhEeibjuLm5_lcNQ" name="Logger"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Q_DA0FIhEeibjuLm5_lcNQ" name="stream">
+          <packagedElement xmi:type="uml:Class" xmi:id="_RXtYcVIhEeibjuLm5_lcNQ" name="Collectors"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Q_DA0VIhEeibjuLm5_lcNQ" name="zip">
+          <packagedElement xmi:type="uml:Class" xmi:id="_RXumkVIhEeibjuLm5_lcNQ" name="ZipEntry"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RXjncVIhEeibjuLm5_lcNQ" name="Arrays"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RXlcoFIhEeibjuLm5_lcNQ" name="Locale"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_RYyWgFIhEeibjuLm5_lcNQ" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_RYy9kFIhEeibjuLm5_lcNQ" name="Class"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RZBAAFIhEeibjuLm5_lcNQ" name="StringBuilder"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Q_HSQFIhEeibjuLm5_lcNQ" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Q_HSQVIhEeibjuLm5_lcNQ" name="apache">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Q_HSQlIhEeibjuLm5_lcNQ" name="commons">
+          <packagedElement xmi:type="uml:Package" xmi:id="_Q_HSQ1IhEeibjuLm5_lcNQ" name="cli">
+            <packagedElement xmi:type="uml:Class" xmi:id="_RYBhgVIhEeibjuLm5_lcNQ" name="CommandLine"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_RYCvoFIhEeibjuLm5_lcNQ" name="CommandLineParser"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_RYDWsVIhEeibjuLm5_lcNQ" name="HelpFormatter"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_RYEk0FIhEeibjuLm5_lcNQ" name="OptionBuilder"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_RYFL4VIhEeibjuLm5_lcNQ" name="Options"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_RYGaAFIhEeibjuLm5_lcNQ" name="ParseException"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_RYHBEVIhEeibjuLm5_lcNQ" name="PosixParser"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_P9WTQFIhEeibjuLm5_lcNQ">
+      <eAnnotations xmi:id="_P9WTQVIhEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_P9W6UFIhEeibjuLm5_lcNQ" base_Package="_P0Sd4FIhEeibjuLm5_lcNQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RBAvsFIhEeibjuLm5_lcNQ" base_Element="_RA-6gFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Array xmi:id="_RBPZMVIhEeibjuLm5_lcNQ" base_Element="_RBOyIVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Array xmi:id="_RBQnUVIhEeibjuLm5_lcNQ" base_Element="_RBQAQVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RXYoUFIhEeibjuLm5_lcNQ" base_Element="_RXWzIFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RXbEkFIhEeibjuLm5_lcNQ" base_Element="_RXZ2cFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RXcSsFIhEeibjuLm5_lcNQ" base_Element="_RXbEkVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RXdg0FIhEeibjuLm5_lcNQ" base_Element="_RXcSsVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RXeu8FIhEeibjuLm5_lcNQ" base_Element="_RXdg0VIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RXf9EFIhEeibjuLm5_lcNQ" base_Element="_RXeu8VIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RXhLMFIhEeibjuLm5_lcNQ" base_Element="_RXf9EVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RXiZUFIhEeibjuLm5_lcNQ" base_Element="_RXhLMVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RXjncFIhEeibjuLm5_lcNQ" base_Element="_RXiZUVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RXk1kFIhEeibjuLm5_lcNQ" base_Element="_RXjncVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RXmqwFIhEeibjuLm5_lcNQ" base_Element="_RXlcoFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RXn44FIhEeibjuLm5_lcNQ" base_Element="_RXmqwVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RXpHAFIhEeibjuLm5_lcNQ" base_Element="_RXn44VIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RXq8MFIhEeibjuLm5_lcNQ" base_Element="_RXpHAVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RXsKUFIhEeibjuLm5_lcNQ" base_Element="_RXq8MVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RXtYcFIhEeibjuLm5_lcNQ" base_Element="_RXsKUVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RXumkFIhEeibjuLm5_lcNQ" base_Element="_RXtYcVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RXvNoFIhEeibjuLm5_lcNQ" base_Element="_RXumkVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RXwbwFIhEeibjuLm5_lcNQ" base_Element="_RXvNoVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RXxp4FIhEeibjuLm5_lcNQ" base_Element="_RXwbwVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RXzfEFIhEeibjuLm5_lcNQ" base_Element="_RXyQ8FIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RX0tMFIhEeibjuLm5_lcNQ" base_Element="_RXzfEVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RX17UFIhEeibjuLm5_lcNQ" base_Element="_RX0tMVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RX2iYFIhEeibjuLm5_lcNQ" base_Element="_RX17UVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RX3wgFIhEeibjuLm5_lcNQ" base_Element="_RX2iYVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RX4-oFIhEeibjuLm5_lcNQ" base_Element="_RX3wgVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RX6MwFIhEeibjuLm5_lcNQ" base_Element="_RX4-oVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RX6z0FIhEeibjuLm5_lcNQ" base_Element="_RX6MwVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RX8B8FIhEeibjuLm5_lcNQ" base_Element="_RX6z0VIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RX9QEFIhEeibjuLm5_lcNQ" base_Element="_RX8B8VIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RX93IVIhEeibjuLm5_lcNQ" base_Element="_RX93IFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RX_FQFIhEeibjuLm5_lcNQ" base_Element="_RX93IlIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RX_sUFIhEeibjuLm5_lcNQ" base_Element="_RX_FQVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RYATYFIhEeibjuLm5_lcNQ" base_Element="_RX_sUVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RYBhgFIhEeibjuLm5_lcNQ" base_Element="_RYA6cFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RYCIkFIhEeibjuLm5_lcNQ" base_Element="_RYBhgVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RYDWsFIhEeibjuLm5_lcNQ" base_Element="_RYCvoFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RYD9wFIhEeibjuLm5_lcNQ" base_Element="_RYDWsVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RYFL4FIhEeibjuLm5_lcNQ" base_Element="_RYEk0FIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RYFy8FIhEeibjuLm5_lcNQ" base_Element="_RYFL4VIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RYHBEFIhEeibjuLm5_lcNQ" base_Element="_RYGaAFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RYHoIFIhEeibjuLm5_lcNQ" base_Element="_RYHBEVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RYzkoFIhEeibjuLm5_lcNQ" base_Element="_RYy9kFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RZBnEFIhEeibjuLm5_lcNQ" base_Element="_RZBAAFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Array xmi:id="_RZPCcFIhEeibjuLm5_lcNQ" base_Element="_RZObYlIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RZSs0FIhEeibjuLm5_lcNQ" base_Element="_RZSFwFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_RZ04UVIhEeibjuLm5_lcNQ" base_Property="_RZ0RQ1IhEeibjuLm5_lcNQ" siblings="_RafmsVIhEeibjuLm5_lcNQ _RagNw1IhEeibjuLm5_lcNQ _Rag001IhEeibjuLm5_lcNQ _RaiC8FIhEeibjuLm5_lcNQ _RaiqAFIhEeibjuLm5_lcNQ _RajREFIhEeibjuLm5_lcNQ _Raj4IFIhEeibjuLm5_lcNQ _RakfMFIhEeibjuLm5_lcNQ _RalGQFIhEeibjuLm5_lcNQ _RaltUFIhEeibjuLm5_lcNQ" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RZ1fYFIhEeibjuLm5_lcNQ" base_Element="_RZ0RQ1IhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RZ37oFIhEeibjuLm5_lcNQ" base_Element="_RZ3UkFIhEeibjuLm5_lcNQ">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_RZ4isFIhEeibjuLm5_lcNQ" name="getAdvantages" isStatic="true" method="_RaPIAFIhEeibjuLm5_lcNQ">
+      <ownedParameter xmi:id="_RZ5JwFIhEeibjuLm5_lcNQ" type="_RX8B8VIhEeibjuLm5_lcNQ" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_RZ4isVIhEeibjuLm5_lcNQ" name="setAdvantages" isStatic="true" method="_RaSLUVIhEeibjuLm5_lcNQ">
+      <ownedParameter xmi:id="_RZ4islIhEeibjuLm5_lcNQ" name="advantages" type="_RX8B8VIhEeibjuLm5_lcNQ"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RZ5w0VIhEeibjuLm5_lcNQ" base_Element="_RZ5w0FIhEeibjuLm5_lcNQ">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_RZ6X4FIhEeibjuLm5_lcNQ" name="getDifficulty" isStatic="true" method="_RaSyYFIhEeibjuLm5_lcNQ">
+      <ownedParameter xmi:id="_RZ6-8FIhEeibjuLm5_lcNQ" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_RZ6X4VIhEeibjuLm5_lcNQ" name="setDifficulty" isStatic="true" method="_RaSyYlIhEeibjuLm5_lcNQ">
+      <ownedParameter xmi:id="_RZ6X4lIhEeibjuLm5_lcNQ" name="difficulty">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RZ7mAVIhEeibjuLm5_lcNQ" base_Element="_RZ7mAFIhEeibjuLm5_lcNQ">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_RZ8NEFIhEeibjuLm5_lcNQ" name="getEuropeanCount" isStatic="true" method="_RaSyZFIhEeibjuLm5_lcNQ">
+      <ownedParameter xmi:id="_RZ8NE1IhEeibjuLm5_lcNQ" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_RZ8NEVIhEeibjuLm5_lcNQ" name="setEuropeanCount" isStatic="true" method="_RaSyZlIhEeibjuLm5_lcNQ">
+      <ownedParameter xmi:id="_RZ8NElIhEeibjuLm5_lcNQ" name="n">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RZ9bMFIhEeibjuLm5_lcNQ" base_Element="_RZ80IFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RZ-CQFIhEeibjuLm5_lcNQ" base_Element="_RZ9bMVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RZ-CQlIhEeibjuLm5_lcNQ" base_Element="_RZ-CQVIhEeibjuLm5_lcNQ">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_RZ-pUVIhEeibjuLm5_lcNQ" name="getName" isStatic="true" method="_RaSyaFIhEeibjuLm5_lcNQ">
+      <ownedParameter xmi:id="_RZ_QYFIhEeibjuLm5_lcNQ" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RZ_QYlIhEeibjuLm5_lcNQ" base_Element="_RZ_QYVIhEeibjuLm5_lcNQ">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_RZ_3cVIhEeibjuLm5_lcNQ" name="getServerPort" isStatic="true" method="_RaTZcVIhEeibjuLm5_lcNQ">
+      <ownedParameter xmi:id="_RaBFkFIhEeibjuLm5_lcNQ" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_RZ_3clIhEeibjuLm5_lcNQ" name="setServerPort" isStatic="true" method="_RaTZc1IhEeibjuLm5_lcNQ">
+      <ownedParameter xmi:id="_RaAegFIhEeibjuLm5_lcNQ" name="arg">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_RaBsoFIhEeibjuLm5_lcNQ" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RaCTsFIhEeibjuLm5_lcNQ" base_Element="_RaBsoVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RaC6wFIhEeibjuLm5_lcNQ" base_Element="_RaCTsVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RaC6w1IhEeibjuLm5_lcNQ" base_Element="_RaC6wVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RaDh0lIhEeibjuLm5_lcNQ" base_Element="_RaDh0FIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RaEI4FIhEeibjuLm5_lcNQ" base_Element="_RaDh01IhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RaEI41IhEeibjuLm5_lcNQ" base_Element="_RaEI4VIhEeibjuLm5_lcNQ"/>
+  <uml:OpaqueBehavior xmi:id="_RaPIAFIhEeibjuLm5_lcNQ" name="getAdvantages" specification="_RZ4isFIhEeibjuLm5_lcNQ">
+    <ownedParameter xmi:id="_RaSLUFIhEeibjuLm5_lcNQ" type="_RX8B8VIhEeibjuLm5_lcNQ" direction="return"/>
+    <language>java</language>
+    <body>return (advantages == null) ? ADVANTAGES_DEFAULT&#xD;
+         : advantages;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_RaSLUVIhEeibjuLm5_lcNQ" name="setAdvantages" specification="_RZ4isVIhEeibjuLm5_lcNQ">
+    <ownedParameter xmi:id="_RaSLUlIhEeibjuLm5_lcNQ" name="advantages" type="_RX8B8VIhEeibjuLm5_lcNQ"/>
+    <language>java</language>
+    <body>FreeCol.advantages = advantages;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_RaSyYFIhEeibjuLm5_lcNQ" name="getDifficulty" specification="_RZ6X4FIhEeibjuLm5_lcNQ">
+    <ownedParameter xmi:id="_RaSyYVIhEeibjuLm5_lcNQ" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return (difficulty == null) ? DIFFICULTY_DEFAULT : difficulty;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_RaSyYlIhEeibjuLm5_lcNQ" name="setDifficulty" specification="_RZ6X4VIhEeibjuLm5_lcNQ">
+    <ownedParameter xmi:id="_RaSyY1IhEeibjuLm5_lcNQ" name="difficulty">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>FreeCol.difficulty = difficulty;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_RaSyZFIhEeibjuLm5_lcNQ" name="getEuropeanCount" specification="_RZ8NEFIhEeibjuLm5_lcNQ">
+    <ownedParameter xmi:id="_RaSyZVIhEeibjuLm5_lcNQ" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return europeanCount;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_RaSyZlIhEeibjuLm5_lcNQ" name="setEuropeanCount" specification="_RZ8NEVIhEeibjuLm5_lcNQ">
+    <ownedParameter xmi:id="_RaSyZ1IhEeibjuLm5_lcNQ" name="n">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>europeanCount = n;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_RaSyaFIhEeibjuLm5_lcNQ" name="getName" specification="_RZ-pUVIhEeibjuLm5_lcNQ">
+    <ownedParameter xmi:id="_RaTZcFIhEeibjuLm5_lcNQ" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return (name != null) ? name&#xD;
+         : System.getProperty(&quot;user.name&quot;,&#xD;
+                              Messages.message(&quot;main.defaultPlayerName&quot;));&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_RaTZcVIhEeibjuLm5_lcNQ" name="getServerPort" specification="_RZ_3cVIhEeibjuLm5_lcNQ">
+    <ownedParameter xmi:id="_RaTZclIhEeibjuLm5_lcNQ" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return (serverPort &lt; 0) ? PORT_DEFAULT : serverPort;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_RaTZc1IhEeibjuLm5_lcNQ" name="setServerPort" specification="_RZ_3clIhEeibjuLm5_lcNQ">
+    <ownedParameter xmi:id="_RaTZdFIhEeibjuLm5_lcNQ" name="arg">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <ownedParameter xmi:id="_RaTZdVIhEeibjuLm5_lcNQ" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>if (arg == null) return false;&#xD;
+     try {&#xD;
+         serverPort = Integer.parseInt(arg);&#xD;
+     } catch (NumberFormatException nfe) {&#xD;
+         return false;&#xD;
+     }&#xD;
+     return true;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:MultiDeclaration xmi:id="_RagNwFIhEeibjuLm5_lcNQ" base_Property="_RafmsVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RagNwVIhEeibjuLm5_lcNQ" base_Element="_RafmsVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_Rag00FIhEeibjuLm5_lcNQ" base_Property="_RagNw1IhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Rag00VIhEeibjuLm5_lcNQ" base_Element="_RagNw1IhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_Rahb4FIhEeibjuLm5_lcNQ" base_Property="_Rag001IhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Rahb4VIhEeibjuLm5_lcNQ" base_Element="_Rag001IhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_RaiC8VIhEeibjuLm5_lcNQ" base_Property="_RaiC8FIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RaiC8lIhEeibjuLm5_lcNQ" base_Element="_RaiC8FIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_RaiqAVIhEeibjuLm5_lcNQ" base_Property="_RaiqAFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RaiqAlIhEeibjuLm5_lcNQ" base_Element="_RaiqAFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_RajREVIhEeibjuLm5_lcNQ" base_Property="_RajREFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RajRElIhEeibjuLm5_lcNQ" base_Element="_RajREFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_Raj4IVIhEeibjuLm5_lcNQ" base_Property="_Raj4IFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Raj4IlIhEeibjuLm5_lcNQ" base_Element="_Raj4IFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_RakfMVIhEeibjuLm5_lcNQ" base_Property="_RakfMFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RakfMlIhEeibjuLm5_lcNQ" base_Element="_RakfMFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_RalGQVIhEeibjuLm5_lcNQ" base_Property="_RalGQFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RalGQlIhEeibjuLm5_lcNQ" base_Element="_RalGQFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_RaltUVIhEeibjuLm5_lcNQ" base_Property="_RaltUFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RaltUlIhEeibjuLm5_lcNQ" base_Element="_RaltUFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_RazIsFIhEeibjuLm5_lcNQ" base_Element="_Rax6kFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Ra0W0FIhEeibjuLm5_lcNQ" base_Element="_RazIsVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Ra094FIhEeibjuLm5_lcNQ" base_Element="_Ra0W0VIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Ra1k8FIhEeibjuLm5_lcNQ" base_Element="_Ra094VIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Ra2MAFIhEeibjuLm5_lcNQ" base_Element="_Ra1k8VIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_Ra2zEFIhEeibjuLm5_lcNQ" base_Element="_Ra2MAVIhEeibjuLm5_lcNQ"/>
+</xmi:XMI>

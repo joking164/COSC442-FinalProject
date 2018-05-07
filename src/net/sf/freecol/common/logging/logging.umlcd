@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_SBMWIFIoEeibjuLm5_lcNQ">
+  <modelElement href="logging.uml#_Sr11oFIoEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_TbkCYVIoEeibjuLm5_lcNQ" targetItem="_TbkpeVIoEeibjuLm5_lcNQ" sourceItem="_TbkCYFIoEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_TbkCY1IoEeibjuLm5_lcNQ" targetItem="_TbkphlIoEeibjuLm5_lcNQ" sourceItem="_TbkCYlIoEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TbkpcFIoEeibjuLm5_lcNQ" source="_TbkpeVIoEeibjuLm5_lcNQ">
+    <modelElement href="logging.uml#_SsXaEFIoEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_TbkpcVIoEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="logging.uml#_SsXaElIoEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TbkpclIoEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_Tbkpc1IoEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="logging.uml#_SsXaEVIoEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_TbkpdFIoEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_TbkpdVIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TbkpdlIoEeibjuLm5_lcNQ" aggregationKind="NONE" name="writer" navigable="true">
+      <modelElement href="logging.uml#_SsU91FIoEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_Tbkpd1IoEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_TbkpeFIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Tbph8VIoEeibjuLm5_lcNQ" targetItem="_TbqJAFIoEeibjuLm5_lcNQ" sourceItem="_Tbph8FIoEeibjuLm5_lcNQ"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_TbkCYFIoEeibjuLm5_lcNQ" sourceConnectionVisual="_TbkCYVIoEeibjuLm5_lcNQ" text="The default handler for FreeCol's log records. It currently only&#xD;&#xA;logs to a file in the format offered by TextFormatter." item="_TbkpeVIoEeibjuLm5_lcNQ">
+    <modelElement href="logging.uml#_SsWzAlIoEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_TbkCYlIoEeibjuLm5_lcNQ" sourceConnectionVisual="_TbkCY1IoEeibjuLm5_lcNQ" text="The constructor to use.&#xD;&#xA;     * &#xD;&#xA;     * @param consoleLogging The flag to log to the console as well.&#xD;&#xA;     * @exception FreeColException In case the log file could not be&#xD;&#xA;     *     created/written to." item="_TbkphlIoEeibjuLm5_lcNQ">
+    <modelElement href="logging.uml#_SsWzA1IoEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Tbph8FIoEeibjuLm5_lcNQ" sourceConnectionVisual="_Tbph8VIoEeibjuLm5_lcNQ" text="Formats a log record's data into human-readable text." item="_TbqJAFIoEeibjuLm5_lcNQ">
+    <modelElement href="logging.uml#_SsWzBFIoEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TbkpeVIoEeibjuLm5_lcNQ" comments="_TbkCYFIoEeibjuLm5_lcNQ" targetConnectionVisual="_TbkCYVIoEeibjuLm5_lcNQ" name="DefaultHandler" associationsOut="_TbkpcFIoEeibjuLm5_lcNQ">
+    <modelElement href="logging.uml#_Sr3DwFIoEeibjuLm5_lcNQ"/>
+    <visualProperties xmi:id="_TbkpelIoEeibjuLm5_lcNQ" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Tbkpe1IoEeibjuLm5_lcNQ" label="+"/>
+    <attributes xmi:id="_TbkpfFIoEeibjuLm5_lcNQ" name="writer">
+      <modelElement href="logging.uml#_SsU91FIoEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_TbkpfVIoEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="logging.uml#_SsVk4FIoEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_TbkpflIoEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_Tbkpf1IoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_TbkpgFIoEeibjuLm5_lcNQ" name="Writer">
+        <modelElement href="logging.uml#_SsLz41IoEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TbkpgVIoEeibjuLm5_lcNQ" name="consoleLogging">
+      <modelElement href="logging.uml#_SsVk4VIoEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_TbkpglIoEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="logging.uml#_SsVk4lIoEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Tbkpg1IoEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_TbkphFIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_TbkphVIoEeibjuLm5_lcNQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_TbkphlIoEeibjuLm5_lcNQ" comments="_TbkCYlIoEeibjuLm5_lcNQ" targetConnectionVisual="_TbkCY1IoEeibjuLm5_lcNQ" name="DefaultHandler">
+      <modelElement href="logging.uml#_Sr6HFFIoEeibjuLm5_lcNQ"/>
+      <keywords xmi:id="_Tbkph1IoEeibjuLm5_lcNQ" keyword="create"/>
+      <visibility xmi:id="_TbkpiFIoEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_TbkpiVIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TbkpilIoEeibjuLm5_lcNQ">
+        <modelElement href="logging.uml#_Sr6uI1IoEeibjuLm5_lcNQ"/>
+        <type xmi:id="_Tbkpi1IoEeibjuLm5_lcNQ" name="DefaultHandler">
+          <modelElement href="logging.uml#_Sr3DwFIoEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_TbkpjFIoEeibjuLm5_lcNQ" name="consoleLogging">
+        <modelElement href="logging.uml#_Sr6HFVIoEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_TbkpjVIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_TbkpjlIoEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Tbkpj1IoEeibjuLm5_lcNQ" name="fileName">
+        <modelElement href="logging.uml#_Sr6uIFIoEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_TbkpkFIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_TbkpkVIoEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TbkpklIoEeibjuLm5_lcNQ" name="close">
+      <modelElement href="logging.uml#_Sr6uJFIoEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_Tbkpk1IoEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="logging.uml#_Sr6uJVIoEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TbkplFIoEeibjuLm5_lcNQ" name="Annotations">
+        <modelElement href="logging.uml#_Sr7VMFIoEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_TbkplVIoEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_TbkpllIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Tbkpl1IoEeibjuLm5_lcNQ" name="flush">
+      <modelElement href="logging.uml#_Sr7VMlIoEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_TbkpmFIoEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="logging.uml#_Sr7VM1IoEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TbkpmVIoEeibjuLm5_lcNQ" name="Annotations">
+        <modelElement href="logging.uml#_Sr7VNFIoEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_TbkpmlIoEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_Tbkpm1IoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_TbkpnFIoEeibjuLm5_lcNQ" name="publish">
+      <modelElement href="logging.uml#_SsTIoFIoEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_TbkpnVIoEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="logging.uml#_SsTvsFIoEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TbkpnlIoEeibjuLm5_lcNQ" name="Annotations">
+        <modelElement href="logging.uml#_SsTvsVIoEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Tbkpn1IoEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_TbkpoFIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_TbkpoVIoEeibjuLm5_lcNQ" name="record">
+        <modelElement href="logging.uml#_SsTIoVIoEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_TbkpolIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_Tbkpo1IoEeibjuLm5_lcNQ" name="LogRecord">
+          <modelElement href="logging.uml#_SsNCAVIoEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Tbo64FIoEeibjuLm5_lcNQ" name="FreeColException">
+    <modelElement href="logging.uml#_SsNpElIoEeibjuLm5_lcNQ"/>
+    <visualProperties xmi:id="_Tbo64VIoEeibjuLm5_lcNQ" position="675.0,166.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Tbo64lIoEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="logging.uml#_SsOQIFIoEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <visibility xmi:id="_Tbo641IoEeibjuLm5_lcNQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TbqJAFIoEeibjuLm5_lcNQ" comments="_Tbph8FIoEeibjuLm5_lcNQ" targetConnectionVisual="_Tbph8VIoEeibjuLm5_lcNQ" name="TextFormatter">
+    <modelElement href="logging.uml#_Sr8jUFIoEeibjuLm5_lcNQ"/>
+    <visualProperties xmi:id="_TbqJAVIoEeibjuLm5_lcNQ" position="-365.0,133.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_TbqJAlIoEeibjuLm5_lcNQ" label="~"/>
+    <operations xmi:id="_TbqJA1IoEeibjuLm5_lcNQ" name="TextFormatter">
+      <modelElement href="logging.uml#_Sr8jUVIoEeibjuLm5_lcNQ"/>
+      <keywords xmi:id="_TbqJBFIoEeibjuLm5_lcNQ" keyword="create"/>
+      <stereotypes xmi:id="_TbqJBVIoEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="logging.uml#_Sr8jVFIoEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_TbqJBlIoEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_TbqJB1IoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TbqJCFIoEeibjuLm5_lcNQ">
+        <modelElement href="logging.uml#_Sr8jVVIoEeibjuLm5_lcNQ"/>
+        <type xmi:id="_TbqJCVIoEeibjuLm5_lcNQ" name="TextFormatter">
+          <modelElement href="logging.uml#_Sr8jUFIoEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TbqJClIoEeibjuLm5_lcNQ" name="format">
+      <modelElement href="logging.uml#_SsUWwFIoEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_TbqJC1IoEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="logging.uml#_SsU90FIoEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TbqJDFIoEeibjuLm5_lcNQ" name="Annotations">
+        <modelElement href="logging.uml#_SsU90VIoEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_TbqJDVIoEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_TbqJDlIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TbqJD1IoEeibjuLm5_lcNQ">
+        <modelElement href="logging.uml#_SsUWwlIoEeibjuLm5_lcNQ"/>
+        <type xmi:id="_TbqJEFIoEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_TbqJEVIoEeibjuLm5_lcNQ" name="record">
+        <modelElement href="logging.uml#_SsUWwVIoEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_TbqJElIoEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_TbqJE1IoEeibjuLm5_lcNQ" name="LogRecord">
+          <modelElement href="logging.uml#_SsNCAVIoEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

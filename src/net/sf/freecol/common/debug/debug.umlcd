@@ -1,0 +1,1201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_WvxakFInEeibjuLm5_lcNQ">
+  <modelElement href="debug.uml#_Xg8Y0FInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ4BEVInEeibjuLm5_lcNQ" targetItem="_YJ8SiVInEeibjuLm5_lcNQ" sourceItem="_YJ4BEFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ4BE1InEeibjuLm5_lcNQ" targetItem="_YJ8SkFInEeibjuLm5_lcNQ" sourceItem="_YJ4BElInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ4BFVInEeibjuLm5_lcNQ" targetItem="_YJ8SmlInEeibjuLm5_lcNQ" sourceItem="_YJ4BFFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ4BF1InEeibjuLm5_lcNQ" targetItem="_YJ8SpFInEeibjuLm5_lcNQ" sourceItem="_YJ4BFlInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ4oIVInEeibjuLm5_lcNQ" targetItem="_YJ8Sq1InEeibjuLm5_lcNQ" sourceItem="_YJ4oIFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ4oI1InEeibjuLm5_lcNQ" targetItem="_YJ8SslInEeibjuLm5_lcNQ" sourceItem="_YJ4oIlInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ4oJVInEeibjuLm5_lcNQ" targetItem="_YJ8SuVInEeibjuLm5_lcNQ" sourceItem="_YJ4oJFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ4oJ1InEeibjuLm5_lcNQ" targetItem="_YJ8Sx1InEeibjuLm5_lcNQ" sourceItem="_YJ4oJlInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ5PMVInEeibjuLm5_lcNQ" targetItem="_YJ8S0VInEeibjuLm5_lcNQ" sourceItem="_YJ5PMFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ5PM1InEeibjuLm5_lcNQ" targetItem="_YJ8S3FInEeibjuLm5_lcNQ" sourceItem="_YJ5PMlInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ5PNVInEeibjuLm5_lcNQ" targetItem="_YJ8S51InEeibjuLm5_lcNQ" sourceItem="_YJ5PNFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ5PN1InEeibjuLm5_lcNQ" targetItem="_YJ8S8lInEeibjuLm5_lcNQ" sourceItem="_YJ5PNlInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ52QVInEeibjuLm5_lcNQ" targetItem="_YJ8S_VInEeibjuLm5_lcNQ" sourceItem="_YJ52QFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ52Q1InEeibjuLm5_lcNQ" targetItem="_YJ8TCFInEeibjuLm5_lcNQ" sourceItem="_YJ52QlInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ52RVInEeibjuLm5_lcNQ" targetItem="_YJ8TEVInEeibjuLm5_lcNQ" sourceItem="_YJ52RFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ52R1InEeibjuLm5_lcNQ" targetItem="_YJ8THFInEeibjuLm5_lcNQ" sourceItem="_YJ52RlInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ52SVInEeibjuLm5_lcNQ" targetItem="_YJ8TJFInEeibjuLm5_lcNQ" sourceItem="_YJ52SFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ6dUVInEeibjuLm5_lcNQ" targetItem="_YJ85llInEeibjuLm5_lcNQ" sourceItem="_YJ6dUFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ6dU1InEeibjuLm5_lcNQ" targetItem="_YJ85oVInEeibjuLm5_lcNQ" sourceItem="_YJ6dUlInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ6dVVInEeibjuLm5_lcNQ" targetItem="_YJ85qFInEeibjuLm5_lcNQ" sourceItem="_YJ6dVFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ6dV1InEeibjuLm5_lcNQ" targetItem="_YJ85s1InEeibjuLm5_lcNQ" sourceItem="_YJ6dVlInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ6dWVInEeibjuLm5_lcNQ" targetItem="_YJ85vVInEeibjuLm5_lcNQ" sourceItem="_YJ6dWFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ7EYVInEeibjuLm5_lcNQ" targetItem="_YJ85x1InEeibjuLm5_lcNQ" sourceItem="_YJ7EYFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ7EY1InEeibjuLm5_lcNQ" targetItem="_YJ850lInEeibjuLm5_lcNQ" sourceItem="_YJ7EYlInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ7EZVInEeibjuLm5_lcNQ" targetItem="_YJ853FInEeibjuLm5_lcNQ" sourceItem="_YJ7EZFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ7EZ1InEeibjuLm5_lcNQ" targetItem="_YJ8551InEeibjuLm5_lcNQ" sourceItem="_YJ7EZlInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ7EaVInEeibjuLm5_lcNQ" targetItem="_YJ857VInEeibjuLm5_lcNQ" sourceItem="_YJ7EaFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ7rcVInEeibjuLm5_lcNQ" targetItem="_YJ8581InEeibjuLm5_lcNQ" sourceItem="_YJ7rcFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YJ7rc1InEeibjuLm5_lcNQ" targetItem="_YJ85_lInEeibjuLm5_lcNQ" sourceItem="_YJ7rclInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YJ8SgFInEeibjuLm5_lcNQ" source="_YJ8SiVInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs_QwFInEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_YJ8SgVInEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="debug.uml#_Xs_30FInEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YJ8SglInEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_YJ8Sg1InEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="debug.uml#_Xs_QwVInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ8ShFInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ8ShVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YJ8ShlInEeibjuLm5_lcNQ" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="debug.uml#_XsxOUFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ8Sh1InEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_YJ8SiFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKMxMVInEeibjuLm5_lcNQ" targetItem="_YKazqVInEeibjuLm5_lcNQ" sourceItem="_YKMxMFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YKWiMFInEeibjuLm5_lcNQ" source="_YKazqVInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs_30VInEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_YKaMkFInEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="debug.uml#_Xs_301InEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YKZlgFInEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_YKZlgVInEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="debug.uml#_Xs_30lInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKaMklInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKaMkVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YKZlglInEeibjuLm5_lcNQ" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="debug.uml#_XsyccFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKaMlFInEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_YKaMk1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKWiMlInEeibjuLm5_lcNQ" targetItem="_YKaz1lInEeibjuLm5_lcNQ" sourceItem="_YKWiMVInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKWiNFInEeibjuLm5_lcNQ" targetItem="_YKaz21InEeibjuLm5_lcNQ" sourceItem="_YKWiM1InEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKWiNlInEeibjuLm5_lcNQ" targetItem="_YKaz4VInEeibjuLm5_lcNQ" sourceItem="_YKWiNVInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKWiOFInEeibjuLm5_lcNQ" targetItem="_YKaz5lInEeibjuLm5_lcNQ" sourceItem="_YKWiN1InEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKXJQVInEeibjuLm5_lcNQ" targetItem="_YKaz7lInEeibjuLm5_lcNQ" sourceItem="_YKXJQFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKXJQ1InEeibjuLm5_lcNQ" targetItem="_YKaz9FInEeibjuLm5_lcNQ" sourceItem="_YKXJQlInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKXJRVInEeibjuLm5_lcNQ" targetItem="_YKaz-lInEeibjuLm5_lcNQ" sourceItem="_YKXJRFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKXJR1InEeibjuLm5_lcNQ" targetItem="_YKa0AFInEeibjuLm5_lcNQ" sourceItem="_YKXJRlInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKXJSVInEeibjuLm5_lcNQ" targetItem="_YKa0A1InEeibjuLm5_lcNQ" sourceItem="_YKXJSFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKXwUVInEeibjuLm5_lcNQ" targetItem="_YKa0CFInEeibjuLm5_lcNQ" sourceItem="_YKXwUFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKXwU1InEeibjuLm5_lcNQ" targetItem="_YKa0DlInEeibjuLm5_lcNQ" sourceItem="_YKXwUlInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKXwVVInEeibjuLm5_lcNQ" targetItem="_YKa0E1InEeibjuLm5_lcNQ" sourceItem="_YKXwVFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKXwV1InEeibjuLm5_lcNQ" targetItem="_YKa0GFInEeibjuLm5_lcNQ" sourceItem="_YKXwVlInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKXwWVInEeibjuLm5_lcNQ" targetItem="_YKa0HlInEeibjuLm5_lcNQ" sourceItem="_YKXwWFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKXwW1InEeibjuLm5_lcNQ" targetItem="_YKa0I1InEeibjuLm5_lcNQ" sourceItem="_YKXwWlInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKYXYVInEeibjuLm5_lcNQ" targetItem="_YKa0KVInEeibjuLm5_lcNQ" sourceItem="_YKYXYFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKYXY1InEeibjuLm5_lcNQ" targetItem="_YKa0LFInEeibjuLm5_lcNQ" sourceItem="_YKYXYlInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKYXZVInEeibjuLm5_lcNQ" targetItem="_YKa0MlInEeibjuLm5_lcNQ" sourceItem="_YKYXZFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKYXZ1InEeibjuLm5_lcNQ" targetItem="_YKa0N1InEeibjuLm5_lcNQ" sourceItem="_YKYXZlInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKYXaVInEeibjuLm5_lcNQ" targetItem="_YKa0P1InEeibjuLm5_lcNQ" sourceItem="_YKYXaFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKY-cVInEeibjuLm5_lcNQ" targetItem="_YKa0RVInEeibjuLm5_lcNQ" sourceItem="_YKY-cFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKY-c1InEeibjuLm5_lcNQ" targetItem="_YKa0UFInEeibjuLm5_lcNQ" sourceItem="_YKY-clInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YKY-dVInEeibjuLm5_lcNQ" targetItem="_YKa0VlInEeibjuLm5_lcNQ" sourceItem="_YKY-dFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YKazoFInEeibjuLm5_lcNQ" source="_YKazqVInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs_31FInEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_YKazoVInEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="debug.uml#_XtAe4FInEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YKazolInEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_YKazo1InEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="debug.uml#_Xs_31VInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKazpFInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKazpVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YKazplInEeibjuLm5_lcNQ" aggregationKind="NONE" name="displayColonyValuePlayer" navigable="true">
+      <modelElement href="debug.uml#_Xs04sVInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKazp1InEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_YKazqFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_YK2RcVInEeibjuLm5_lcNQ" targetItem="_YK24gFInEeibjuLm5_lcNQ" sourceItem="_YK2RcFInEeibjuLm5_lcNQ"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ4BEFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ4BEVInEeibjuLm5_lcNQ" text="Utilities for in game debug support.&#xD;&#xA; *&#xD;&#xA;Several client GUI features have optional debug routines.  These&#xD;&#xA;routines are typically quite special in that they need to intrusive&#xD;&#xA;things with the server, and do not have much in common with the&#xD;&#xA;client code while still sometimes needing user interaction.  They&#xD;&#xA;also have considerable similarity amongst themselves.  So they have&#xD;&#xA;been collected here.&#xD;&#xA; *&#xD;&#xA;The client GUI features that are the source of these routines are:&#xD;&#xA;  - The colony panel&#xD;&#xA;  - The debug menu&#xD;&#xA;  - The tile popup menu" item="_YJ8SiVInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs7mYFInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ4BElInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ4BE1InEeibjuLm5_lcNQ" text="Debug action to add buildings to the user colonies.&#xD;&#xA;     *&#xD;&#xA;     * Called from the debug menu.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;&#xA;     * @param buildingTitle A label for the choice dialog." item="_YJ8SkFInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs7mYVInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ4BFFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ4BFVInEeibjuLm5_lcNQ" text="Debug action to add a founding father.&#xD;&#xA;     *&#xD;&#xA;     * Called from the debug menu.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;&#xA;     * @param fatherTitle A label for the choice dialog." item="_YJ8SmlInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs7mYlInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ4BFlInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ4BF1InEeibjuLm5_lcNQ" text="Debug action to add gold.&#xD;&#xA;     *&#xD;&#xA;     * Called from the debug menu.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game." item="_YJ8SpFInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs7mY1InEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ4oIFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ4oIVInEeibjuLm5_lcNQ" text="Debug action to add immigration.&#xD;&#xA;     *&#xD;&#xA;     * Called from the debug menu.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game." item="_YJ8Sq1InEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs7mZFInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ4oIlInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ4oI1InEeibjuLm5_lcNQ" text="Debug action to add liberty to the player colonies.&#xD;&#xA;     *&#xD;&#xA;     * Called from the debug menu.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game." item="_YJ8SslInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs7mZVInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ4oJFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ4oJVInEeibjuLm5_lcNQ" text="Adds a change listener to a menu (the debug menu in fact),&#xD;&#xA;     * that changes the label on a menu item when the skip status changes.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;&#xA;     * @param menu The menu to add the change listener to.&#xD;&#xA;     * @param item The menu item whose label should change." item="_YJ8SuVInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs7mZlInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ4oJlInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ4oJ1InEeibjuLm5_lcNQ" text="Debug action to add a new unit to a tile.&#xD;&#xA;     *&#xD;&#xA;     * Called from tile popup menu.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;&#xA;     * @param tile The &lt;code>Tile&lt;/code> to add to." item="_YJ8Sx1InEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs7mZ1InEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ5PMFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ5PMVInEeibjuLm5_lcNQ" text="Debug action to add goods to a unit.&#xD;&#xA;     *&#xD;&#xA;     * Called from tile popup menu.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;&#xA;     * @param unit The &lt;code>Unit&lt;/code> to add to." item="_YJ8S0VInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs7maFInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ5PMlInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ5PM1InEeibjuLm5_lcNQ" text="Debug action to apply a disaster to a colony.&#xD;&#xA;     *&#xD;&#xA;     * Called from tile popup menu.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;&#xA;     * @param colony The &lt;code>Colony&lt;/code> to apply a disaster to." item="_YJ8S3FInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs7maVInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ5PNFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ5PNVInEeibjuLm5_lcNQ" text="Debug action to change ownership of a colony.&#xD;&#xA;     *&#xD;&#xA;     * Called from tile popup menu.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;&#xA;     * @param colony The &lt;code>Colony&lt;/code> to take ownership of." item="_YJ8S51InEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs7malInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ5PNlInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ5PN1InEeibjuLm5_lcNQ" text="Debug action to change ownership of a unit.&#xD;&#xA;     *&#xD;&#xA;     * Called from tile popup menu.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;&#xA;     * @param unit The &lt;code>Unit&lt;/code> to take ownership of." item="_YJ8S8lInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs7ma1InEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ52QFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ52QVInEeibjuLm5_lcNQ" text="Debug action to change the roles of a unit.&#xD;&#xA;     *&#xD;&#xA;     * Called from tile popup menu.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;&#xA;     * @param unit The &lt;code>Unit&lt;/code> to change the role of." item="_YJ8S_VInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs7mbFInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ52QlInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ52Q1InEeibjuLm5_lcNQ" text="Debug action to check for client-server desynchronization.&#xD;&#xA;     *&#xD;&#xA;     * Called from the debug menu and client controller.&#xD;&#xA;     * TODO: This is still fairly new and messy.  Defer i18n for a while.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;&#xA;     * @return True if desynchronization found." item="_YJ8TCFInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs8NcFInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ52RFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ52RVInEeibjuLm5_lcNQ" text="Debug action to display an AI colony plan.&#xD;&#xA;     *&#xD;&#xA;     * Called from tile popup menu.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;&#xA;     * @param colony The &lt;code>Colony&lt;/code> to summarize." item="_YJ8TEVInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs8NcVInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ52RlInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ52R1InEeibjuLm5_lcNQ" text="Debug action to create a string showing the colony value for&#xD;&#xA;     * a given tile and player.&#xD;&#xA;     *&#xD;&#xA;     * Note: passing the freeColClient is redundant for now, but will&#xD;&#xA;     * be needed if/when we move getColonyValue into the AI.&#xD;&#xA;     *&#xD;&#xA;     * @param tile The colony &lt;code>Tile&lt;/code> to evaluate.&#xD;&#xA;     * @return A string describing the colony value of a tile." item="_YJ8THFInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs8NclInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ52SFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ52SVInEeibjuLm5_lcNQ" text="Debug action to display Europe.&#xD;&#xA;     *&#xD;&#xA;     * Called from the debug popup menu.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game." item="_YJ8TJFInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs8Nc1InEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ6dUFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ6dUVInEeibjuLm5_lcNQ" text="Debug action to display a mission.&#xD;&#xA;     *&#xD;&#xA;     * Called from tile popup menu.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;&#xA;     * @param unit The &lt;code>Unit&lt;/code> to display." item="_YJ85llInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs8NdFInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ6dUlInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ6dU1InEeibjuLm5_lcNQ" text="Debug action to dump a players units/iterators to stderr.&#xD;&#xA;     *&#xD;&#xA;     * Called from the debug menu.&#xD;&#xA;     * TODO: missing i18n&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game." item="_YJ85oVInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs8NdVInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ6dVFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ6dVVInEeibjuLm5_lcNQ" text="Debug action to dump a tile to stderr.&#xD;&#xA;     *&#xD;&#xA;     * Called from tile popup menu.&#xD;&#xA;     * Not concerned with i18n for stderr output.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;&#xA;     * @param tile The &lt;code>Tile&lt;/code> to dump." item="_YJ85qFInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs8NdlInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ6dVlInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ6dV1InEeibjuLm5_lcNQ" text="Debug action to reset the moves left of the units on a tile.&#xD;&#xA;     *&#xD;&#xA;     * Called from tile popup menu.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;&#xA;     * @param units The &lt;code>Unit&lt;/code>s to reactivate." item="_YJ85s1InEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs8Nd1InEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ6dWFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ6dWVInEeibjuLm5_lcNQ" text="Debug action to reveal or hide the map.&#xD;&#xA;     *&#xD;&#xA;     * Called from the debug menu.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;&#xA;     * @param reveal If true, reveal the map, else hide the map." item="_YJ85vVInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs8NeFInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ7EYFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ7EYVInEeibjuLm5_lcNQ" text="Debug action to set the amount of goods in a colony.&#xD;&#xA;     *&#xD;&#xA;     * Called from the colony panel.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;&#xA;     * @param colony The &lt;code>Colony&lt;/code> to set goods amounts in." item="_YJ85x1InEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs8NeVInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ7EYlInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ7EY1InEeibjuLm5_lcNQ" text="Debug action to set the next monarch action.&#xD;&#xA;     *&#xD;&#xA;     * Called from the debug menu.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;&#xA;     * @param monarchTitle A label for the choice dialog." item="_YJ850lInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs8NelInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ7EZFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ7EZVInEeibjuLm5_lcNQ" text="Debug action to set the lost city rumour type on a tile.&#xD;&#xA;     *&#xD;&#xA;     * Called from tile popup menu.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;&#xA;     * @param tile The &lt;code>Tile&lt;/code> to operate on." item="_YJ853FInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs8Ne1InEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ7EZlInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ7EZ1InEeibjuLm5_lcNQ" text="Debug action to skip turns.&#xD;&#xA;     *&#xD;&#xA;     * Called from the debug menu.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game." item="_YJ8551InEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs8NfFInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ7EaFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ7EaVInEeibjuLm5_lcNQ" text="Debug action to step the random number generator.&#xD;&#xA;     *&#xD;&#xA;     * Called from the debug menu.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game." item="_YJ857VInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs8NfVInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ7rcFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ7rcVInEeibjuLm5_lcNQ" text="Debug action to summarize information about a native settlement&#xD;&#xA;     * that is normally hidden.&#xD;&#xA;     *&#xD;&#xA;     * Called from tile popup menu.&#xD;&#xA;     * TODO: missing i18n&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;&#xA;     * @param is The &lt;code>IndianSettlement&lt;/code> to summarize." item="_YJ8581InEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs8NflInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YJ7rclInEeibjuLm5_lcNQ" sourceConnectionVisual="_YJ7rc1InEeibjuLm5_lcNQ" text="Debug action to run the AI.&#xD;&#xA;     *&#xD;&#xA;     * Called from the debug menu.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game." item="_YJ85_lInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs8Nf1InEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKMxMFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YKMxMVInEeibjuLm5_lcNQ" text="High-level debug handling." item="_YKazqVInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs8NgFInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKWiMVInEeibjuLm5_lcNQ" sourceConnectionVisual="_YKWiMlInEeibjuLm5_lcNQ" text="Is a debug mode enabled in this game?&#xD;&#xA;     *&#xD;&#xA;     * @return True if any debug mode is enabled." item="_YKaz1lInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs8NglInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKWiM1InEeibjuLm5_lcNQ" sourceConnectionVisual="_YKWiNFInEeibjuLm5_lcNQ" text="Sets the debug mode&#xD;&#xA;     *&#xD;&#xA;     * @param mode The new debug mode." item="_YKaz21InEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs8NhFInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKWiNVInEeibjuLm5_lcNQ" sourceConnectionVisual="_YKWiNlInEeibjuLm5_lcNQ" text="Gets the debug modes.&#xD;&#xA;     *&#xD;&#xA;     * @return A string containing the modes as csv." item="_YKaz4VInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs8NhlInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKWiN1InEeibjuLm5_lcNQ" sourceConnectionVisual="_YKWiOFInEeibjuLm5_lcNQ" text="Configures the debug modes.&#xD;&#xA;     *&#xD;&#xA;     * @param optionValue The command line option." item="_YKaz5lInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs80gFInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKXJQFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YKXJQVInEeibjuLm5_lcNQ" text="Configures a debug run.&#xD;&#xA;     *&#xD;&#xA;     * @param option The command line option." item="_YKaz7lInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs80gVInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKXJQlInEeibjuLm5_lcNQ" sourceConnectionVisual="_YKXJQ1InEeibjuLm5_lcNQ" text="Sets the number of turns to run in debug mode.&#xD;&#xA;     *&#xD;&#xA;     * @param debugRunTurns The new number of debug turns." item="_YKaz9FInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs80glInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKXJRFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YKXJRVInEeibjuLm5_lcNQ" text="Sets the debug save file name.&#xD;&#xA;     *&#xD;&#xA;     * @param debugRunSave The new debug save file name." item="_YKaz-lInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs80g1InEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKXJRlInEeibjuLm5_lcNQ" sourceConnectionVisual="_YKXJR1InEeibjuLm5_lcNQ" text="Signal that a debug run should complete at the next suitable&#xD;&#xA;     * opportunity.  Currently called from the server." item="_YKa0AFInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs80hVInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKXJSFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YKXJSVInEeibjuLm5_lcNQ" text="Should the map viewer display tile coordinates?&#xD;&#xA;     *&#xD;&#xA;     * @return True if the map viewer should display coordinates." item="_YKa0A1InEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs80hlInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKXwUFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YKXwUVInEeibjuLm5_lcNQ" text="Set the display tile coordinates state.&#xD;&#xA;     *&#xD;&#xA;     * @param display Whether to display or not." item="_YKa0CFInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs80h1InEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKXwUlInEeibjuLm5_lcNQ" sourceConnectionVisual="_YKXwU1InEeibjuLm5_lcNQ" text="Should the map viewer display colony values for a player?&#xD;&#xA;     *&#xD;&#xA;     * @return The &lt;code>Player&lt;/code> to display colony values for,&#xD;&#xA;     *     or null if not to display." item="_YKa0DlInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs80iFInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKXwVFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YKXwVVInEeibjuLm5_lcNQ" text="Should the map viewer show AI missions?&#xD;&#xA;     *&#xD;&#xA;     * @return True if the map viewer should show AI missions?" item="_YKa0E1InEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs80ilInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKXwVlInEeibjuLm5_lcNQ" sourceConnectionVisual="_YKXwV1InEeibjuLm5_lcNQ" text="Set the display of AI missions state.&#xD;&#xA;     *&#xD;&#xA;     * @param display Whether to display or not." item="_YKa0GFInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs80i1InEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKXwWFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YKXwWVInEeibjuLm5_lcNQ" text="Should the map viewer show full AI mission info?&#xD;&#xA;     *&#xD;&#xA;     * @return True if the map viewer should show full AI mission info." item="_YKa0HlInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs80jFInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKXwWlInEeibjuLm5_lcNQ" sourceConnectionVisual="_YKXwW1InEeibjuLm5_lcNQ" text="Set the display of full AI mission info state.&#xD;&#xA;     *&#xD;&#xA;     * @param display Whether to display or not." item="_YKa0I1InEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs80jVInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKYXYFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YKYXYVInEeibjuLm5_lcNQ" text="Handler for log records that include a crash." item="_YKa0KVInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs80jlInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKYXYlInEeibjuLm5_lcNQ" sourceConnectionVisual="_YKYXY1InEeibjuLm5_lcNQ" text="Emergency run time log to use when the normal logging is failing.&#xD;&#xA;     * It might as well be here.&#xD;&#xA;     *&#xD;&#xA;     * @param msg The message to log." item="_YKa0LFInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs80j1InEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKYXZFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YKYXZVInEeibjuLm5_lcNQ" text="Miscellaneous debug helper to get a string representation of&#xD;&#xA;     * the current call stack.&#xD;&#xA;     *&#xD;&#xA;     * @return A stack trace as a string." item="_YKa0MlInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs80kFInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKYXZlInEeibjuLm5_lcNQ" sourceConnectionVisual="_YKYXZ1InEeibjuLm5_lcNQ" text="Is a particular debug mode enabled in this game?&#xD;&#xA;     *&#xD;&#xA;     * @param mode The &lt;code>DebugMode&lt;/code> to test.&#xD;&#xA;     * @return True if the specified mode is enabled." item="_YKa0N1InEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs8Ng1InEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKYXaFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YKYXaVInEeibjuLm5_lcNQ" text="Enables a particular debug mode.&#xD;&#xA;     *&#xD;&#xA;     * @param mode The &lt;code>DebugMode&lt;/code> to enable." item="_YKa0P1InEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs8NhVInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKY-cFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YKY-cVInEeibjuLm5_lcNQ" text="Try to complete a debug run if one is happening.&#xD;&#xA;     *&#xD;&#xA;     * @param freeColClient The &lt;code>FreeColClient&lt;/code> for the game.&#xD;&#xA;     * @param force Force early completion of a run.&#xD;&#xA;     * @return True if a debug run was completed." item="_YKa0RVInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs80hFInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKY-clInEeibjuLm5_lcNQ" sourceConnectionVisual="_YKY-c1InEeibjuLm5_lcNQ" text="Set the player to display colony values for.&#xD;&#xA;     *&#xD;&#xA;     * @param display The new &lt;code>Player&lt;/code> to display for." item="_YKa0UFInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs80iVInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YKY-dFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YKY-dVInEeibjuLm5_lcNQ" text="Helper that adds a stack trace to a log builder.&#xD;&#xA;     *&#xD;&#xA;     * @param lb The &lt;code>LogBuilder&lt;/code> to add to." item="_YKa0VlInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs80kVInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_YK2RcFInEeibjuLm5_lcNQ" sourceConnectionVisual="_YK2RcVInEeibjuLm5_lcNQ" text="The debug modes, any of which may be active." item="_YK24gFInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_Xs8NgVInEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YJ8SiVInEeibjuLm5_lcNQ" comments="_YJ4BEFInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ4BEVInEeibjuLm5_lcNQ" name="DebugUtils" associationsOut="_YJ8SgFInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_XhMQcFInEeibjuLm5_lcNQ"/>
+    <visualProperties xmi:id="_YJ8SilInEeibjuLm5_lcNQ" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YJ8Si1InEeibjuLm5_lcNQ" label="+"/>
+    <attributes xmi:id="_YJ8SjFInEeibjuLm5_lcNQ" defaultValue="Logger.getLogger(DebugUtils.class.getName())" name="logger" staticAttribute="true">
+      <modelElement href="debug.uml#_XsxOUFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ8SjVInEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_YJ8SjlInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YJ8Sj1InEeibjuLm5_lcNQ" name="Logger">
+        <modelElement href="debug.uml#_Xr5ro1InEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YJ8SkFInEeibjuLm5_lcNQ" comments="_YJ4BElInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ4BE1InEeibjuLm5_lcNQ" name="addBuildings" staticOperation="true">
+      <modelElement href="debug.uml#_XsZa4FInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ8SkVInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ8SklInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ8Sk1InEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_XsZa4VInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ8SlFInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ8SlVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8SllInEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJ8Sl1InEeibjuLm5_lcNQ" name="buildingTitle">
+        <modelElement href="debug.uml#_XsZa4lInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YJ8SmFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8SmVInEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ8SmlInEeibjuLm5_lcNQ" comments="_YJ4BFFInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ4BFVInEeibjuLm5_lcNQ" name="addFathers" staticOperation="true">
+      <modelElement href="debug.uml#_XsaB8lInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ8Sm1InEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ8SnFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ8SnVInEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_XsaB81InEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ8SnlInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ8Sn1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8SoFInEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJ8SoVInEeibjuLm5_lcNQ" name="fatherTitle">
+        <modelElement href="debug.uml#_XsaB9FInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YJ8SolInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8So1InEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ8SpFInEeibjuLm5_lcNQ" comments="_YJ4BFlInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ4BF1InEeibjuLm5_lcNQ" name="addGold" staticOperation="true">
+      <modelElement href="debug.uml#_XsapAFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ8SpVInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ8SplInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ8Sp1InEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_XsapAVInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ8SqFInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ8SqVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8SqlInEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ8Sq1InEeibjuLm5_lcNQ" comments="_YJ4oIFInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ4oIVInEeibjuLm5_lcNQ" name="addImmigration" staticOperation="true">
+      <modelElement href="debug.uml#_XsapBFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ8SrFInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ8SrVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ8SrlInEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_XsapBVInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ8Sr1InEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ8SsFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8SsVInEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ8SslInEeibjuLm5_lcNQ" comments="_YJ4oIlInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ4oI1InEeibjuLm5_lcNQ" name="addLiberty" staticOperation="true">
+      <modelElement href="debug.uml#_XsapCFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ8Ss1InEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ8StFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ8StVInEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_XsapCVInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ8StlInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ8St1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8SuFInEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ8SuVInEeibjuLm5_lcNQ" comments="_YJ4oJFInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ4oJVInEeibjuLm5_lcNQ" name="addSkipChangeListener" staticOperation="true">
+      <modelElement href="debug.uml#_XsbQElInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ8SulInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ8Su1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ8SvFInEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_XsbQE1InEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ8SvVInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ8SvlInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8Sv1InEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJ8SwFInEeibjuLm5_lcNQ" name="menu">
+        <modelElement href="debug.uml#_XsbQFFInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YJ8SwVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8SwlInEeibjuLm5_lcNQ" name="JMenu">
+          <modelElement href="debug.uml#_Xr6Ss1InEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJ8Sw1InEeibjuLm5_lcNQ" name="item">
+        <modelElement href="debug.uml#_XsbQFVInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ8SxFInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ8SxVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8SxlInEeibjuLm5_lcNQ" name="JMenuItem">
+          <modelElement href="debug.uml#_Xr65wVInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ8Sx1InEeibjuLm5_lcNQ" comments="_YJ4oJlInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ4oJ1InEeibjuLm5_lcNQ" name="addNewUnitToTile" staticOperation="true">
+      <modelElement href="debug.uml#_Xsb3IFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ8SyFInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ8SyVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ8SylInEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_Xsb3IVInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ8Sy1InEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ8SzFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8SzVInEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJ8SzlInEeibjuLm5_lcNQ" name="tile">
+        <modelElement href="debug.uml#_Xsb3IlInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YJ8Sz1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8S0FInEeibjuLm5_lcNQ" name="Tile">
+          <modelElement href="debug.uml#_XsF441InEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ8S0VInEeibjuLm5_lcNQ" comments="_YJ5PMFInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ5PMVInEeibjuLm5_lcNQ" name="addUnitGoods" staticOperation="true">
+      <modelElement href="debug.uml#_Xsb3JVInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ8S0lInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ8S01InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ8S1FInEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_Xsb3JlInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ8S1VInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ8S1lInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8S11InEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJ8S2FInEeibjuLm5_lcNQ" name="unit">
+        <modelElement href="debug.uml#_Xsb3J1InEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ8S2VInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ8S2lInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8S21InEeibjuLm5_lcNQ" name="Unit">
+          <modelElement href="debug.uml#_XsGf8VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ8S3FInEeibjuLm5_lcNQ" comments="_YJ5PMlInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ5PM1InEeibjuLm5_lcNQ" name="applyDisaster" staticOperation="true">
+      <modelElement href="debug.uml#_XsceMlInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ8S3VInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ8S3lInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ8S31InEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_XsceM1InEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ8S4FInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ8S4VInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8S4lInEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJ8S41InEeibjuLm5_lcNQ" name="colony">
+        <modelElement href="debug.uml#_XsceNFInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ8S5FInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ8S5VInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8S5lInEeibjuLm5_lcNQ" name="Colony">
+          <modelElement href="debug.uml#_Xr99E1InEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ8S51InEeibjuLm5_lcNQ" comments="_YJ5PNFInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ5PNVInEeibjuLm5_lcNQ" name="changeOwnership" staticOperation="true">
+      <modelElement href="debug.uml#_XsceOVInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ8S6FInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ8S6VInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ8S6lInEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_XsceOlInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ8S61InEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ8S7FInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8S7VInEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJ8S7lInEeibjuLm5_lcNQ" name="colony">
+        <modelElement href="debug.uml#_XsceO1InEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ8S71InEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ8S8FInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8S8VInEeibjuLm5_lcNQ" name="Colony">
+          <modelElement href="debug.uml#_Xr99E1InEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ8S8lInEeibjuLm5_lcNQ" comments="_YJ5PNlInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ5PN1InEeibjuLm5_lcNQ" name="changeOwnership" staticOperation="true">
+      <modelElement href="debug.uml#_XsdFRFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ8S81InEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ8S9FInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ8S9VInEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_XsdFRVInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ8S9lInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ8S91InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8S-FInEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJ8S-VInEeibjuLm5_lcNQ" name="unit">
+        <modelElement href="debug.uml#_XsdFRlInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ8S-lInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ8S-1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8S_FInEeibjuLm5_lcNQ" name="Unit">
+          <modelElement href="debug.uml#_XsGf8VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ8S_VInEeibjuLm5_lcNQ" comments="_YJ52QFInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ52QVInEeibjuLm5_lcNQ" name="changeRole" staticOperation="true">
+      <modelElement href="debug.uml#_XsdsVFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ8S_lInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ8S_1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ8TAFInEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_XsdsVVInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ8TAVInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ8TAlInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8TA1InEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJ8TBFInEeibjuLm5_lcNQ" name="unit">
+        <modelElement href="debug.uml#_XsdsVlInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ8TBVInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ8TBlInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8TB1InEeibjuLm5_lcNQ" name="Unit">
+          <modelElement href="debug.uml#_XsGf8VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ8TCFInEeibjuLm5_lcNQ" comments="_YJ52QlInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ52Q1InEeibjuLm5_lcNQ" name="checkDesyncAction" staticOperation="true">
+      <modelElement href="debug.uml#_XseTYFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ8TCVInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ8TClInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YJ8TC1InEeibjuLm5_lcNQ">
+        <modelElement href="debug.uml#_XseTYlInEeibjuLm5_lcNQ"/>
+        <type xmi:id="_YJ8TDFInEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YJ8TDVInEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_XseTYVInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ8TDlInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ8TD1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8TEFInEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ8TEVInEeibjuLm5_lcNQ" comments="_YJ52RFInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ52RVInEeibjuLm5_lcNQ" name="displayColonyPlan" staticOperation="true">
+      <modelElement href="debug.uml#_XseTZVInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ8TElInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ8TE1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ8TFFInEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_XseTZlInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ8TFVInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ8TFlInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8TF1InEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJ8TGFInEeibjuLm5_lcNQ" name="colony">
+        <modelElement href="debug.uml#_XseTZ1InEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ8TGVInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ8TGlInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8TG1InEeibjuLm5_lcNQ" name="Colony">
+          <modelElement href="debug.uml#_Xr99E1InEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ8THFInEeibjuLm5_lcNQ" comments="_YJ52RlInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ52R1InEeibjuLm5_lcNQ" name="getColonyValue" staticOperation="true">
+      <modelElement href="debug.uml#_Xse6c1InEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ8THVInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ8THlInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YJ8TH1InEeibjuLm5_lcNQ">
+        <modelElement href="debug.uml#_Xse6dVInEeibjuLm5_lcNQ"/>
+        <type xmi:id="_YJ8TIFInEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YJ8TIVInEeibjuLm5_lcNQ" name="tile">
+        <modelElement href="debug.uml#_Xse6dFInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YJ8TIlInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8TI1InEeibjuLm5_lcNQ" name="Tile">
+          <modelElement href="debug.uml#_XsF441InEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ8TJFInEeibjuLm5_lcNQ" comments="_YJ52SFInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ52SVInEeibjuLm5_lcNQ" name="displayEurope" staticOperation="true">
+      <modelElement href="debug.uml#_Xse6dlInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ85kFInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ85kVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ85klInEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_Xse6d1InEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ85k1InEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ85lFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ85lVInEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ85llInEeibjuLm5_lcNQ" comments="_YJ6dUFInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ6dUVInEeibjuLm5_lcNQ" name="displayMission" staticOperation="true">
+      <modelElement href="debug.uml#_XsfhglInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ85l1InEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ85mFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ85mVInEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_Xsfhg1InEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ85mlInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ85m1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ85nFInEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJ85nVInEeibjuLm5_lcNQ" name="unit">
+        <modelElement href="debug.uml#_XsfhhFInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ85nlInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ85n1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ85oFInEeibjuLm5_lcNQ" name="Unit">
+          <modelElement href="debug.uml#_XsGf8VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ85oVInEeibjuLm5_lcNQ" comments="_YJ6dUlInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ6dU1InEeibjuLm5_lcNQ" name="displayUnits" staticOperation="true">
+      <modelElement href="debug.uml#_XsfhiVInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ85olInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ85o1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ85pFInEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_XsfhilInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ85pVInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ85plInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ85p1InEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ85qFInEeibjuLm5_lcNQ" comments="_YJ6dVFInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ6dVVInEeibjuLm5_lcNQ" name="dumpTile" staticOperation="true">
+      <modelElement href="debug.uml#_XsgIklInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ85qVInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ85qlInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ85q1InEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_XsgIk1InEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ85rFInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ85rVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ85rlInEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJ85r1InEeibjuLm5_lcNQ" name="tile">
+        <modelElement href="debug.uml#_XsgIlFInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ85sFInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ85sVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ85slInEeibjuLm5_lcNQ" name="Tile">
+          <modelElement href="debug.uml#_XsF441InEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ85s1InEeibjuLm5_lcNQ" comments="_YJ6dVlInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ6dV1InEeibjuLm5_lcNQ" name="resetMoves" staticOperation="true">
+      <modelElement href="debug.uml#_XsgvoFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ85tFInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ85tVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ85tlInEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_XsgvoVInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ85t1InEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ85uFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ85uVInEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJ85ulInEeibjuLm5_lcNQ" name="units">
+        <modelElement href="debug.uml#_XsgvolInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YJ85u1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ85vFInEeibjuLm5_lcNQ" name="List">
+          <modelElement href="debug.uml#_Xr5EkVInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ85vVInEeibjuLm5_lcNQ" comments="_YJ6dWFInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ6dWVInEeibjuLm5_lcNQ" name="revealMap" staticOperation="true">
+      <modelElement href="debug.uml#_XshWsVInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ85vlInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ85v1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ85wFInEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_XshWslInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ85wVInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ85wlInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ85w1InEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJ85xFInEeibjuLm5_lcNQ" name="reveal">
+        <modelElement href="debug.uml#_XshWs1InEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YJ85xVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ85xlInEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ85x1InEeibjuLm5_lcNQ" comments="_YJ7EYFInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ7EYVInEeibjuLm5_lcNQ" name="setColonyGoods" staticOperation="true">
+      <modelElement href="debug.uml#_XshWtlInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ85yFInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ85yVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ85ylInEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_Xsh9wFInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ85y1InEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ85zFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ85zVInEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJ85zlInEeibjuLm5_lcNQ" name="colony">
+        <modelElement href="debug.uml#_Xsh9wVInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ85z1InEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ850FInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ850VInEeibjuLm5_lcNQ" name="Colony">
+          <modelElement href="debug.uml#_Xr99E1InEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ850lInEeibjuLm5_lcNQ" comments="_YJ7EYlInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ7EY1InEeibjuLm5_lcNQ" name="setMonarchAction" staticOperation="true">
+      <modelElement href="debug.uml#_Xsh9xlInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ8501InEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ851FInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ851VInEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_Xsh9x1InEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ851lInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ8511InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ852FInEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJ852VInEeibjuLm5_lcNQ" name="monarchTitle">
+        <modelElement href="debug.uml#_Xsh9yFInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YJ852lInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ8521InEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ853FInEeibjuLm5_lcNQ" comments="_YJ7EZFInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ7EZVInEeibjuLm5_lcNQ" name="setRumourType" staticOperation="true">
+      <modelElement href="debug.uml#_Xsik0FInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ853VInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ853lInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ8531InEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_Xsik0VInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ854FInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ854VInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ854lInEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJ8541InEeibjuLm5_lcNQ" name="tile">
+        <modelElement href="debug.uml#_Xsik0lInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ855FInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ855VInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ855lInEeibjuLm5_lcNQ" name="Tile">
+          <modelElement href="debug.uml#_XsF441InEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ8551InEeibjuLm5_lcNQ" comments="_YJ7EZlInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ7EZ1InEeibjuLm5_lcNQ" name="skipTurns" staticOperation="true">
+      <modelElement href="debug.uml#_Xsik11InEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ856FInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ856VInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ856lInEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_Xsik2FInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YJ8561InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ857FInEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ857VInEeibjuLm5_lcNQ" comments="_YJ7EaFInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ7EaVInEeibjuLm5_lcNQ" name="stepRNG" staticOperation="true">
+      <modelElement href="debug.uml#_Xsik2VInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ857lInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ8571InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ858FInEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_XsjL4FInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YJ858VInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ858lInEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ8581InEeibjuLm5_lcNQ" comments="_YJ7rcFInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ7rcVInEeibjuLm5_lcNQ" name="summarizeSettlement" staticOperation="true">
+      <modelElement href="debug.uml#_XsjL4VInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ859FInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ859VInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ859lInEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_XsjL4lInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ8591InEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ85-FInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ85-VInEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJ85-lInEeibjuLm5_lcNQ" name="is">
+        <modelElement href="debug.uml#_XssV0FInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ85-1InEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ85_FInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ85_VInEeibjuLm5_lcNQ" name="IndianSettlement">
+          <modelElement href="debug.uml#_XsBnc1InEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ85_lInEeibjuLm5_lcNQ" comments="_YJ7rclInEeibjuLm5_lcNQ" targetConnectionVisual="_YJ7rc1InEeibjuLm5_lcNQ" name="useAI" staticOperation="true">
+      <modelElement href="debug.uml#_Xss85FInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YJ85_1InEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YJ86AFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJ86AVInEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_Xss85VInEeibjuLm5_lcNQ"/>
+        <keywords xmi:id="_YJ86AlInEeibjuLm5_lcNQ" keyword="final"/>
+        <cardinality xmi:id="_YJ86A1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJ86BFInEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YKazqVInEeibjuLm5_lcNQ" comments="_YKMxMFInEeibjuLm5_lcNQ" targetConnectionVisual="_YKMxMVInEeibjuLm5_lcNQ" name="FreeColDebugger" associationsOut="_YKWiMFInEeibjuLm5_lcNQ _YKazoFInEeibjuLm5_lcNQ">
+    <modelElement href="debug.uml#_XhZr0FInEeibjuLm5_lcNQ"/>
+    <visualProperties xmi:id="_YKazqlInEeibjuLm5_lcNQ" position="816.0,-42.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YKazq1InEeibjuLm5_lcNQ" label="+"/>
+    <attributes xmi:id="_YKazrFInEeibjuLm5_lcNQ" defaultValue="Logger.getLogger(FreeColDebugger.class.getName())" name="logger" staticAttribute="true">
+      <modelElement href="debug.uml#_XsyccFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKazrVInEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_YKazrlInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YKazr1InEeibjuLm5_lcNQ" name="Logger">
+        <modelElement href="debug.uml#_Xr5ro1InEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YKazsFInEeibjuLm5_lcNQ" defaultValue="0" name="debugMode" staticAttribute="true">
+      <modelElement href="debug.uml#_XsycclInEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_YKazsVInEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="debug.uml#_XszDgFInEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YKazslInEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_YKazs1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YKaztFInEeibjuLm5_lcNQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YKaztVInEeibjuLm5_lcNQ" defaultValue="-1" name="debugRunTurns" staticAttribute="true">
+      <modelElement href="debug.uml#_XszDgVInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKaztlInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKazt1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YKazuFInEeibjuLm5_lcNQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YKazuVInEeibjuLm5_lcNQ" defaultValue="null" name="debugRunSave" staticAttribute="true">
+      <modelElement href="debug.uml#_XszDg1InEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKazulInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKazu1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YKazvFInEeibjuLm5_lcNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YKazvVInEeibjuLm5_lcNQ" defaultValue="false" name="normalGameFogOfWar" staticAttribute="true">
+      <modelElement href="debug.uml#_XszqkFInEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_YKazvlInEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="debug.uml#_XszqkVInEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YKazv1InEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKazwFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YKazwVInEeibjuLm5_lcNQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YKazwlInEeibjuLm5_lcNQ" defaultValue="false" name="displayCoordinates" staticAttribute="true">
+      <modelElement href="debug.uml#_Xs0Ro1InEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_YKazw1InEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="debug.uml#_Xs04sFInEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YKazxFInEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_YKazxVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YKazxlInEeibjuLm5_lcNQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YKazx1InEeibjuLm5_lcNQ" defaultValue="null" name="displayColonyValuePlayer" staticAttribute="true">
+      <modelElement href="debug.uml#_Xs04sVInEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_YKazyFInEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="debug.uml#_Xs04s1InEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YKazyVInEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_YKazylInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YKazy1InEeibjuLm5_lcNQ" name="Player">
+        <modelElement href="debug.uml#_XsEDsFInEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YKazzFInEeibjuLm5_lcNQ" defaultValue="false" name="showMission" staticAttribute="true">
+      <modelElement href="debug.uml#_Xs1fwFInEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_YKazzVInEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="debug.uml#_Xs1fwlInEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YKazzlInEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_YKazz1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YKaz0FInEeibjuLm5_lcNQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YKaz0VInEeibjuLm5_lcNQ" defaultValue="false" name="showMissionInfo" staticAttribute="true">
+      <modelElement href="debug.uml#_Xs1fw1InEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_YKaz0lInEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="debug.uml#_Xs2G0FInEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YKaz01InEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_YKaz1FInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YKaz1VInEeibjuLm5_lcNQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YKaz1lInEeibjuLm5_lcNQ" comments="_YKWiMVInEeibjuLm5_lcNQ" targetConnectionVisual="_YKWiMlInEeibjuLm5_lcNQ" name="isInDebugMode" staticOperation="true">
+      <modelElement href="debug.uml#_XhfycFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKaz11InEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKaz2FInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YKaz2VInEeibjuLm5_lcNQ">
+        <modelElement href="debug.uml#_XhfycVInEeibjuLm5_lcNQ"/>
+        <type xmi:id="_YKaz2lInEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YKaz21InEeibjuLm5_lcNQ" comments="_YKWiM1InEeibjuLm5_lcNQ" targetConnectionVisual="_YKWiNFInEeibjuLm5_lcNQ" name="setDebugMode" staticOperation="true">
+      <modelElement href="debug.uml#_XhfyclInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKaz3FInEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_YKaz3VInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YKaz3lInEeibjuLm5_lcNQ" name="mode">
+        <modelElement href="debug.uml#_Xhfyc1InEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YKaz31InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YKaz4FInEeibjuLm5_lcNQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YKaz4VInEeibjuLm5_lcNQ" comments="_YKWiNVInEeibjuLm5_lcNQ" targetConnectionVisual="_YKWiNlInEeibjuLm5_lcNQ" name="getDebugModes" staticOperation="true">
+      <modelElement href="debug.uml#_XhfydFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKaz4lInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKaz41InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YKaz5FInEeibjuLm5_lcNQ">
+        <modelElement href="debug.uml#_XhgZgFInEeibjuLm5_lcNQ"/>
+        <type xmi:id="_YKaz5VInEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YKaz5lInEeibjuLm5_lcNQ" comments="_YKWiN1InEeibjuLm5_lcNQ" targetConnectionVisual="_YKWiOFInEeibjuLm5_lcNQ" name="setDebugModes" staticOperation="true">
+      <modelElement href="debug.uml#_XhgZgVInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKaz51InEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKaz6FInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YKaz6VInEeibjuLm5_lcNQ">
+        <modelElement href="debug.uml#_XhgZg1InEeibjuLm5_lcNQ"/>
+        <type xmi:id="_YKaz6lInEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YKaz61InEeibjuLm5_lcNQ" name="optionValue">
+        <modelElement href="debug.uml#_XhgZglInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YKaz7FInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YKaz7VInEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YKaz7lInEeibjuLm5_lcNQ" comments="_YKXJQFInEeibjuLm5_lcNQ" targetConnectionVisual="_YKXJQVInEeibjuLm5_lcNQ" name="configureDebugRun" staticOperation="true">
+      <modelElement href="debug.uml#_XhgZhFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKaz71InEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKaz8FInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YKaz8VInEeibjuLm5_lcNQ" name="option">
+        <modelElement href="debug.uml#_XhgZhVInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YKaz8lInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YKaz81InEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YKaz9FInEeibjuLm5_lcNQ" comments="_YKXJQlInEeibjuLm5_lcNQ" targetConnectionVisual="_YKXJQ1InEeibjuLm5_lcNQ" name="setDebugRunTurns" staticOperation="true">
+      <modelElement href="debug.uml#_XhgZhlInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKaz9VInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKaz9lInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YKaz91InEeibjuLm5_lcNQ" name="debugRunTurns">
+        <modelElement href="debug.uml#_XhgZh1InEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YKaz-FInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YKaz-VInEeibjuLm5_lcNQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YKaz-lInEeibjuLm5_lcNQ" comments="_YKXJRFInEeibjuLm5_lcNQ" targetConnectionVisual="_YKXJRVInEeibjuLm5_lcNQ" name="setDebugRunSave" staticOperation="true">
+      <modelElement href="debug.uml#_XhhAkFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKaz-1InEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKaz_FInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YKaz_VInEeibjuLm5_lcNQ" name="debugRunSave">
+        <modelElement href="debug.uml#_XhhAkVInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YKaz_lInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YKaz_1InEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YKa0AFInEeibjuLm5_lcNQ" comments="_YKXJRlInEeibjuLm5_lcNQ" targetConnectionVisual="_YKXJR1InEeibjuLm5_lcNQ" name="signalEndDebugRun" staticOperation="true">
+      <modelElement href="debug.uml#_XhhAklInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKa0AVInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKa0AlInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YKa0A1InEeibjuLm5_lcNQ" comments="_YKXJSFInEeibjuLm5_lcNQ" targetConnectionVisual="_YKXJSVInEeibjuLm5_lcNQ" name="debugDisplayCoordinates" staticOperation="true">
+      <modelElement href="debug.uml#_XhhAk1InEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKa0BFInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKa0BVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YKa0BlInEeibjuLm5_lcNQ">
+        <modelElement href="debug.uml#_XhhAlFInEeibjuLm5_lcNQ"/>
+        <type xmi:id="_YKa0B1InEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YKa0CFInEeibjuLm5_lcNQ" comments="_YKXwUFInEeibjuLm5_lcNQ" targetConnectionVisual="_YKXwUVInEeibjuLm5_lcNQ" name="setDebugDisplayCoordinates" staticOperation="true">
+      <modelElement href="debug.uml#_XhhAlVInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKa0CVInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKa0ClInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YKa0C1InEeibjuLm5_lcNQ" name="display">
+        <modelElement href="debug.uml#_XhhAllInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YKa0DFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YKa0DVInEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YKa0DlInEeibjuLm5_lcNQ" comments="_YKXwUlInEeibjuLm5_lcNQ" targetConnectionVisual="_YKXwU1InEeibjuLm5_lcNQ" name="debugDisplayColonyValuePlayer" staticOperation="true">
+      <modelElement href="debug.uml#_XhhnoFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKa0D1InEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKa0EFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YKa0EVInEeibjuLm5_lcNQ">
+        <modelElement href="debug.uml#_XsuyFFInEeibjuLm5_lcNQ"/>
+        <type xmi:id="_YKa0ElInEeibjuLm5_lcNQ" name="Player">
+          <modelElement href="debug.uml#_XsEDsFInEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YKa0E1InEeibjuLm5_lcNQ" comments="_YKXwVFInEeibjuLm5_lcNQ" targetConnectionVisual="_YKXwVVInEeibjuLm5_lcNQ" name="debugShowMission" staticOperation="true">
+      <modelElement href="debug.uml#_XhhnoVInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKa0FFInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKa0FVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YKa0FlInEeibjuLm5_lcNQ">
+        <modelElement href="debug.uml#_XhhnolInEeibjuLm5_lcNQ"/>
+        <type xmi:id="_YKa0F1InEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YKa0GFInEeibjuLm5_lcNQ" comments="_YKXwVlInEeibjuLm5_lcNQ" targetConnectionVisual="_YKXwV1InEeibjuLm5_lcNQ" name="setDebugShowMission" staticOperation="true">
+      <modelElement href="debug.uml#_Xhhno1InEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKa0GVInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKa0GlInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YKa0G1InEeibjuLm5_lcNQ" name="display">
+        <modelElement href="debug.uml#_XhhnpFInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YKa0HFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YKa0HVInEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YKa0HlInEeibjuLm5_lcNQ" comments="_YKXwWFInEeibjuLm5_lcNQ" targetConnectionVisual="_YKXwWVInEeibjuLm5_lcNQ" name="debugShowMissionInfo" staticOperation="true">
+      <modelElement href="debug.uml#_XhhnpVInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKa0H1InEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKa0IFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YKa0IVInEeibjuLm5_lcNQ">
+        <modelElement href="debug.uml#_XhhnplInEeibjuLm5_lcNQ"/>
+        <type xmi:id="_YKa0IlInEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YKa0I1InEeibjuLm5_lcNQ" comments="_YKXwWlInEeibjuLm5_lcNQ" targetConnectionVisual="_YKXwW1InEeibjuLm5_lcNQ" name="setDebugShowMissionInfo" staticOperation="true">
+      <modelElement href="debug.uml#_Xhhnp1InEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKa0JFInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKa0JVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YKa0JlInEeibjuLm5_lcNQ" name="display">
+        <modelElement href="debug.uml#_XhhnqFInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YKa0J1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YKa0KFInEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YKa0KVInEeibjuLm5_lcNQ" comments="_YKYXYFInEeibjuLm5_lcNQ" targetConnectionVisual="_YKYXYVInEeibjuLm5_lcNQ" name="handleCrash" staticOperation="true">
+      <modelElement href="debug.uml#_XhiOsFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKa0KlInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKa0K1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YKa0LFInEeibjuLm5_lcNQ" comments="_YKYXYlInEeibjuLm5_lcNQ" targetConnectionVisual="_YKYXY1InEeibjuLm5_lcNQ" name="debugLog" staticOperation="true">
+      <modelElement href="debug.uml#_XhiOsVInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKa0LVInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKa0LlInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YKa0L1InEeibjuLm5_lcNQ" name="msg">
+        <modelElement href="debug.uml#_XhiOslInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YKa0MFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YKa0MVInEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YKa0MlInEeibjuLm5_lcNQ" comments="_YKYXZFInEeibjuLm5_lcNQ" targetConnectionVisual="_YKYXZVInEeibjuLm5_lcNQ" name="stackTraceToString" staticOperation="true">
+      <modelElement href="debug.uml#_XhiOs1InEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKa0M1InEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKa0NFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YKa0NVInEeibjuLm5_lcNQ">
+        <modelElement href="debug.uml#_XhiOtFInEeibjuLm5_lcNQ"/>
+        <type xmi:id="_YKa0NlInEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YKa0N1InEeibjuLm5_lcNQ" comments="_YKYXZlInEeibjuLm5_lcNQ" targetConnectionVisual="_YKYXZ1InEeibjuLm5_lcNQ" name="isInDebugMode" staticOperation="true">
+      <modelElement href="debug.uml#_XsVJcFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKa0OFInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKa0OVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YKa0OlInEeibjuLm5_lcNQ">
+        <modelElement href="debug.uml#_XsVJclInEeibjuLm5_lcNQ"/>
+        <type xmi:id="_YKa0O1InEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YKa0PFInEeibjuLm5_lcNQ" name="mode">
+        <modelElement href="debug.uml#_XsVJcVInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YKa0PVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YKa0PlInEeibjuLm5_lcNQ" name="DebugMode">
+          <modelElement href="debug.uml#_Xhd9QFInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YKa0P1InEeibjuLm5_lcNQ" comments="_YKYXaFInEeibjuLm5_lcNQ" targetConnectionVisual="_YKYXaVInEeibjuLm5_lcNQ" name="enableDebugMode" staticOperation="true">
+      <modelElement href="debug.uml#_XsVJc1InEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKa0QFInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKa0QVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YKa0QlInEeibjuLm5_lcNQ" name="mode">
+        <modelElement href="debug.uml#_XsVJdFInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YKa0Q1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YKa0RFInEeibjuLm5_lcNQ" name="DebugMode">
+          <modelElement href="debug.uml#_Xhd9QFInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YKa0RVInEeibjuLm5_lcNQ" comments="_YKY-cFInEeibjuLm5_lcNQ" targetConnectionVisual="_YKY-cVInEeibjuLm5_lcNQ" name="finishDebugRun" staticOperation="true">
+      <modelElement href="debug.uml#_XsuyEFInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKa0RlInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKa0R1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YKa0SFInEeibjuLm5_lcNQ">
+        <modelElement href="debug.uml#_XsuyE1InEeibjuLm5_lcNQ"/>
+        <type xmi:id="_YKa0SVInEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YKa0SlInEeibjuLm5_lcNQ" name="freeColClient">
+        <modelElement href="debug.uml#_XsuyEVInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YKa0S1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YKa0TFInEeibjuLm5_lcNQ" name="FreeColClient">
+          <modelElement href="debug.uml#_Xr7g0VInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YKa0TVInEeibjuLm5_lcNQ" name="force">
+        <modelElement href="debug.uml#_XsuyElInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YKa0TlInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YKa0T1InEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YKa0UFInEeibjuLm5_lcNQ" comments="_YKY-clInEeibjuLm5_lcNQ" targetConnectionVisual="_YKY-c1InEeibjuLm5_lcNQ" name="setDebugDisplayColonyValuePlayer" staticOperation="true">
+      <modelElement href="debug.uml#_XsuyFVInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKa0UVInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKa0UlInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YKa0U1InEeibjuLm5_lcNQ" name="display">
+        <modelElement href="debug.uml#_XsvZIFInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YKa0VFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YKa0VVInEeibjuLm5_lcNQ" name="Player">
+          <modelElement href="debug.uml#_XsEDsFInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YKa0VlInEeibjuLm5_lcNQ" comments="_YKY-dFInEeibjuLm5_lcNQ" targetConnectionVisual="_YKY-dVInEeibjuLm5_lcNQ" name="addStackTrace" staticOperation="true">
+      <modelElement href="debug.uml#_XsvZIVInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_YKa0V1InEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_YKa0WFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YKa0WVInEeibjuLm5_lcNQ" name="lb">
+        <modelElement href="debug.uml#_XsvZIlInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_YKa0WlInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YKa0W1InEeibjuLm5_lcNQ" name="LogBuilder">
+          <modelElement href="debug.uml#_XsHuEVInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_YK24gFInEeibjuLm5_lcNQ" comments="_YK2RcFInEeibjuLm5_lcNQ" targetConnectionVisual="_YK2RcVInEeibjuLm5_lcNQ" name="DebugMode">
+    <modelElement href="debug.uml#_Xhd9QFInEeibjuLm5_lcNQ"/>
+    <visualProperties xmi:id="_YK24gVInEeibjuLm5_lcNQ" position="-156.0,570.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_YK24glInEeibjuLm5_lcNQ" keyword="static"/>
+    <stereotypes xmi:id="_YK24g1InEeibjuLm5_lcNQ" name="LegacyStyledElement">
+      <modelElement href="debug.uml#_XhekUFInEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <visibility xmi:id="_YK24hFInEeibjuLm5_lcNQ" label="+"/>
+    <literals xmi:id="_YK24hVInEeibjuLm5_lcNQ" name="COMMS">
+      <modelElement href="debug.uml#_XhekUVInEeibjuLm5_lcNQ"/>
+    </literals>
+    <literals xmi:id="_YK24hlInEeibjuLm5_lcNQ" name="DESYNC">
+      <modelElement href="debug.uml#_XhekUlInEeibjuLm5_lcNQ"/>
+    </literals>
+    <literals xmi:id="_YK24h1InEeibjuLm5_lcNQ" name="MENUS">
+      <modelElement href="debug.uml#_XhekU1InEeibjuLm5_lcNQ"/>
+    </literals>
+    <literals xmi:id="_YK24iFInEeibjuLm5_lcNQ" name="INIT">
+      <modelElement href="debug.uml#_XhekVFInEeibjuLm5_lcNQ"/>
+    </literals>
+    <literals xmi:id="_YK24iVInEeibjuLm5_lcNQ" name="PATHS">
+      <modelElement href="debug.uml#_XhfLYFInEeibjuLm5_lcNQ"/>
+    </literals>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

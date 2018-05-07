@@ -1,0 +1,1472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_s8WDQFJPEeiyW7NaN4qWdw">
+  <modelElement href="serverAIGoal.uml#_t86IZFJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uouskVJPEeiyW7NaN4qWdw" targetItem="_uo8vAFJPEeiyW7NaN4qWdw" sourceItem="_uouskFJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_uowhwFJPEeiyW7NaN4qWdw" source="_uo8vAFJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uCCgAVJPEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_uowhwVJPEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="serverAIGoal.uml#_uCDHEFJPEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_uowhwlJPEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_uowhw1JPEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="serverAIGoal.uml#_uCCgAlJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_uowhxFJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_uowhxVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_uowhxlJPEeiyW7NaN4qWdw" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="serverAIGoal.uml#_uBz2gFJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_uowhx1JPEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_uowhyFJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_uoxI0FJPEeiyW7NaN4qWdw" source="_uo8vAFJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uCDHEVJPEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_uoxI0VJPEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="serverAIGoal.uml#_uCDuIFJPEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_uoxI0lJPEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_uoxI01JPEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="serverAIGoal.uml#_uCDHElJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_uoxI1FJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_uoxI1VJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_uoxI1lJPEeiyW7NaN4qWdw" aggregationKind="NONE" name="target" navigable="true">
+      <modelElement href="serverAIGoal.uml#_uBz2glJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_uoxI11JPEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_uoxI2FJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_uoxv4FJPEeiyW7NaN4qWdw" sourceAnchor="458.0,312.0" targetAnchor="421.0,312.0" target="_up_Q2VJPEeiyW7NaN4qWdw" source="_uo8vAFJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uCDuIVJPEeiyW7NaN4qWdw"/>
+    <bendpoints xmi:id="_xEchEFJPEeiyW7NaN4qWdw" sourceY="52" targetX="-1372" targetY="419"/>
+    <bendpoints xmi:id="_xEchEVJPEeiyW7NaN4qWdw" sourceX="1372" sourceY="52" targetY="419"/>
+    <stereotypes xmi:id="_uoxv4VJPEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="serverAIGoal.uml#_uCEVMFJPEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_uoxv4lJPEeiyW7NaN4qWdw" text="">
+      <visualProperties xmi:id="_xEdvMVJPEeiyW7NaN4qWdw" position="-716.0620861807175,81.75560464310479"/>
+    </nameVisual>
+    <sourceRole xmi:id="_uoxv41JPEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="serverAIGoal.uml#_uCDuIlJPEeiyW7NaN4qWdw"/>
+      <visualProperties xmi:id="_xEdvMFJPEeiyW7NaN4qWdw" position="-19.014516118659117,23.02601706586489"/>
+      <visibility xmi:id="_uoxv5FJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_uoxv5VJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_uoxv5lJPEeiyW7NaN4qWdw" aggregationKind="NONE" name="gotoSubGoal" navigable="true">
+      <modelElement href="serverAIGoal.uml#_uBz2hFJPEeiyW7NaN4qWdw"/>
+      <visualProperties xmi:id="_xEeWQFJPEeiyW7NaN4qWdw" position="-1434.3255510851473,569.471065276125"/>
+      <visibility xmi:id="_uoxv51JPEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_uoxv6FJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_uoyW8FJPEeiyW7NaN4qWdw" sourceAnchor="224.0,0.0" targetAnchor="0.0,408.0" target="_upHHEVJPEeiyW7NaN4qWdw" source="_upHHEVJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uCB48VJPEeiyW7NaN4qWdw"/>
+    <bendpoints xmi:id="_xEdIIFJPEeiyW7NaN4qWdw" sourceY="-125" targetX="224" targetY="-533"/>
+    <bendpoints xmi:id="_xEdIIVJPEeiyW7NaN4qWdw" sourceX="-364" sourceY="-125" targetX="-140" targetY="-533"/>
+    <bendpoints xmi:id="_xEdIIlJPEeiyW7NaN4qWdw" sourceX="-364" sourceY="408" targetX="-140"/>
+    <stereotypes xmi:id="_uo3Pc1JPEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="serverAIGoal.uml#_uCCgAFJPEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_uo3PcFJPEeiyW7NaN4qWdw" text="">
+      <visualProperties xmi:id="_xEe9UFJPEeiyW7NaN4qWdw" position="301.625,-12.25"/>
+    </nameVisual>
+    <sourceRole xmi:id="_uo3PcVJPEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="serverAIGoal.uml#_uCB48lJPEeiyW7NaN4qWdw"/>
+      <visualProperties xmi:id="_xEeWQVJPEeiyW7NaN4qWdw" position="-20.375,-62.75"/>
+      <visibility xmi:id="_uo4dkVJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_uo4dkFJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_uo3PclJPEeiyW7NaN4qWdw" aggregationKind="NONE" name="parentGoal" navigable="true">
+      <modelElement href="serverAIGoal.uml#_uByoY1JPEeiyW7NaN4qWdw"/>
+      <visualProperties xmi:id="_xEe9UVJPEeiyW7NaN4qWdw" position="-94.875,9.75"/>
+      <visibility xmi:id="_uo4dk1JPEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_uo4dklJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uoyW8lJPEeiyW7NaN4qWdw" targetItem="_upHHEVJPEeiyW7NaN4qWdw" sourceItem="_uoyW8VJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_uoyW81JPEeiyW7NaN4qWdw" sourceAnchor="458.0,0.0" targetAnchor="224.0,816.0" superClass="_upHHEVJPEeiyW7NaN4qWdw" subClass="_uo8vAFJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uBZm0FJPEeiyW7NaN4qWdw"/>
+    <bendpoints xmi:id="_xEchElJPEeiyW7NaN4qWdw" sourceY="-397" targetX="-661" targetY="361"/>
+    <bendpoints xmi:id="_xEchE1JPEeiyW7NaN4qWdw" sourceX="661" sourceY="-397" targetY="361"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_uoyW9FJPEeiyW7NaN4qWdw" sourceAnchor="324.0,0.0" targetAnchor="224.0,816.0" superClass="_upHHEVJPEeiyW7NaN4qWdw" subClass="_up_Q2VJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uBcqIFJPEeiyW7NaN4qWdw"/>
+    <bendpoints xmi:id="_xEdII1JPEeiyW7NaN4qWdw" sourceY="-30" targetX="614" targetY="361"/>
+    <bendpoints xmi:id="_xEdIJFJPEeiyW7NaN4qWdw" sourceX="-614" sourceY="-30" targetY="361"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_uoyW9VJPEeiyW7NaN4qWdw" source="_upHHEVJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB9ngFJPEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_uo32gVJPEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="serverAIGoal.uml#_uB-OkFJPEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_uo3PdFJPEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_uo3PdVJPEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="serverAIGoal.uml#_uB9ngVJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_uo5rslJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_uo5rsVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_uo32gFJPEeiyW7NaN4qWdw" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="serverAIGoal.uml#_uBwzMFJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_uo5rtFJPEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_uo5rs1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_uoyW9lJPEeiyW7NaN4qWdw" source="_upHHEVJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB-OkVJPEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_uo32hVJPEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="serverAIGoal.uml#_uB-1oFJPEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_uo32glJPEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_uo32g1JPEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="serverAIGoal.uml#_uB-OklJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_uo5rtlJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_uo5rtVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_uo32hFJPEeiyW7NaN4qWdw" aggregationKind="NONE" name="availableUnitsList" navigable="true">
+      <modelElement href="serverAIGoal.uml#_uByBUlJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_uo5ruFJPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_uo5rt1JPEeiyW7NaN4qWdw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_uoyW91JPEeiyW7NaN4qWdw" source="_upHHEVJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB-1oVJPEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_uo32iVJPEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="serverAIGoal.uml#_uCB48FJPEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_uo32hlJPEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_uo32h1JPEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="serverAIGoal.uml#_uB-1olJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_uo5ru1JPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_uo5rulJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_uo32iFJPEeiyW7NaN4qWdw" aggregationKind="NONE" name="player" navigable="true">
+      <modelElement href="serverAIGoal.uml#_uByoYVJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_uo6SwVJPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_uo6SwFJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uoy-AVJPEeiyW7NaN4qWdw" targetItem="_upHHNlJPEeiyW7NaN4qWdw" sourceItem="_uoy-AFJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uoy-A1JPEeiyW7NaN4qWdw" targetItem="_upHHO1JPEeiyW7NaN4qWdw" sourceItem="_uoy-AlJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uoy-BVJPEeiyW7NaN4qWdw" targetItem="_upHHQFJPEeiyW7NaN4qWdw" sourceItem="_uoy-BFJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uoy-B1JPEeiyW7NaN4qWdw" targetItem="_upHHQ1JPEeiyW7NaN4qWdw" sourceItem="_uoy-BlJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uozlEVJPEeiyW7NaN4qWdw" targetItem="_upHHSFJPEeiyW7NaN4qWdw" sourceItem="_uozlEFJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uozlE1JPEeiyW7NaN4qWdw" targetItem="_upHHTlJPEeiyW7NaN4qWdw" sourceItem="_uozlElJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uozlFVJPEeiyW7NaN4qWdw" targetItem="_upHHU1JPEeiyW7NaN4qWdw" sourceItem="_uozlFFJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uozlF1JPEeiyW7NaN4qWdw" targetItem="_upHHWFJPEeiyW7NaN4qWdw" sourceItem="_uozlFlJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uo0MIVJPEeiyW7NaN4qWdw" targetItem="_upHHXVJPEeiyW7NaN4qWdw" sourceItem="_uo0MIFJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uo0MI1JPEeiyW7NaN4qWdw" targetItem="_upHHY1JPEeiyW7NaN4qWdw" sourceItem="_uo0MIlJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uo0MJVJPEeiyW7NaN4qWdw" targetItem="_upHHZlJPEeiyW7NaN4qWdw" sourceItem="_uo0MJFJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uo0MJ1JPEeiyW7NaN4qWdw" targetItem="_upHHaVJPEeiyW7NaN4qWdw" sourceItem="_uo0MJlJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uo0MKVJPEeiyW7NaN4qWdw" targetItem="_upHHblJPEeiyW7NaN4qWdw" sourceItem="_uo0MKFJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uo0zMFJPEeiyW7NaN4qWdw" targetItem="_upHHc1JPEeiyW7NaN4qWdw" sourceItem="_uo0MKlJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uo0zMlJPEeiyW7NaN4qWdw" targetItem="_upHHeFJPEeiyW7NaN4qWdw" sourceItem="_uo0zMVJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uo0zNFJPEeiyW7NaN4qWdw" targetItem="_upHHflJPEeiyW7NaN4qWdw" sourceItem="_uo0zM1JPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uo0zNlJPEeiyW7NaN4qWdw" targetItem="_upHHhFJPEeiyW7NaN4qWdw" sourceItem="_uo0zNVJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uo1aQFJPEeiyW7NaN4qWdw" targetItem="_upHHh1JPEeiyW7NaN4qWdw" sourceItem="_uo0zN1JPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uo1aQlJPEeiyW7NaN4qWdw" targetItem="_upHHllJPEeiyW7NaN4qWdw" sourceItem="_uo1aQVJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uo1aRFJPEeiyW7NaN4qWdw" targetItem="_upHHqFJPEeiyW7NaN4qWdw" sourceItem="_uo1aQ1JPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uo1aRlJPEeiyW7NaN4qWdw" targetItem="_upHHsVJPEeiyW7NaN4qWdw" sourceItem="_uo1aRVJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uo2BUVJPEeiyW7NaN4qWdw" targetItem="_upHHt1JPEeiyW7NaN4qWdw" sourceItem="_uo2BUFJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uo2BU1JPEeiyW7NaN4qWdw" targetItem="_upHHvVJPEeiyW7NaN4qWdw" sourceItem="_uo2BUlJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uo2BVVJPEeiyW7NaN4qWdw" targetItem="_upHHyFJPEeiyW7NaN4qWdw" sourceItem="_uo2BVFJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uo2oYVJPEeiyW7NaN4qWdw" targetItem="_upHH01JPEeiyW7NaN4qWdw" sourceItem="_uo2oYFJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uo2oY1JPEeiyW7NaN4qWdw" targetItem="_upHH3lJPEeiyW7NaN4qWdw" sourceItem="_uo2oYlJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uo5EolJPEeiyW7NaN4qWdw" targetItem="_up_Q2VJPEeiyW7NaN4qWdw" sourceItem="_uo5EoVJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_uo5rsFJPEeiyW7NaN4qWdw" source="_up_Q2VJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uCEVMVJPEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_uo7g41JPEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="serverAIGoal.uml#_uCGKYFJPEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_uo7g4FJPEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_uo7g4VJPEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="serverAIGoal.uml#_uCEVMlJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_uo8H8VJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_uo8H8FJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_uo7g4lJPEeiyW7NaN4qWdw" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="serverAIGoal.uml#_uB0dkFJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_uo8H81JPEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_uo8H8lJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_upHHEFJPEeiyW7NaN4qWdw" subClass="_upHHEVJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uBl0FlJPEeiyW7NaN4qWdw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_up80kVJPEeiyW7NaN4qWdw" targetItem="_up9boFJPEeiyW7NaN4qWdw" sourceItem="_up80kFJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_up80klJPEeiyW7NaN4qWdw" sourceAnchor="401.0,0.0" targetAnchor="127.0,88.0" dashed="true" superClass="_up9boFJPEeiyW7NaN4qWdw" subClass="_upHHEVJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uBSSE1JPEeiyW7NaN4qWdw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_up_Q0FJPEeiyW7NaN4qWdw" source="_up_Q2VJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uCGKYVJPEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_up_Q0VJPEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="serverAIGoal.uml#_uCGxcFJPEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_up_Q0lJPEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_up_Q01JPEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="serverAIGoal.uml#_uCGKYlJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_up_Q1FJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_up_Q1VJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_up_Q1lJPEeiyW7NaN4qWdw" aggregationKind="NONE" name="target" navigable="true">
+      <modelElement href="serverAIGoal.uml#_uB0dklJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_up_Q11JPEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_up_Q2FJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_uqGlkFJPEeiyW7NaN4qWdw" sourceAnchor="174.0,0.0" targetAnchor="254.0,816.0" target="_upHHEVJPEeiyW7NaN4qWdw" source="_uqKP9FJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uCH_kFJPEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_uqHMp1JPEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="serverAIGoal.uml#_uCImoFJPEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_uqHMpFJPEeiyW7NaN4qWdw" text="">
+      <visualProperties xmi:id="_xEgLcFJPEeiyW7NaN4qWdw" position="-12.174999999999955,215.6"/>
+    </nameVisual>
+    <sourceRole xmi:id="_uqHMpVJPEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="serverAIGoal.uml#_uCH_kVJPEeiyW7NaN4qWdw"/>
+      <visualProperties xmi:id="_xEfkYFJPEeiyW7NaN4qWdw" position="3.9249999999999545,-80.1"/>
+      <visibility xmi:id="_uqJo4FJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_uqJB0lJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_uqHMplJPEeiyW7NaN4qWdw" aggregationKind="NONE" name="subGoalList" navigable="true">
+      <modelElement href="serverAIGoal.uml#_uB1EolJPEeiyW7NaN4qWdw"/>
+      <visualProperties xmi:id="_xEgLcVJPEeiyW7NaN4qWdw" position="-34.174999999999955,484.6"/>
+      <visibility xmi:id="_uqJo4lJPEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_uqJo4VJPEeiyW7NaN4qWdw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_uqHMoFJPEeiyW7NaN4qWdw" sourceAnchor="308.0,0.0" targetAnchor="224.0,816.0" superClass="_upHHEVJPEeiyW7NaN4qWdw" subClass="_uqKP9FJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uBfGYFJPEeiyW7NaN4qWdw"/>
+    <bendpoints xmi:id="_xEdIJVJPEeiyW7NaN4qWdw" sourceY="-434" targetX="164" targetY="361"/>
+    <bendpoints xmi:id="_xEdIJlJPEeiyW7NaN4qWdw" sourceX="-164" sourceY="-434" targetY="361"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_uqHMolJPEeiyW7NaN4qWdw" targetItem="_uqKP9FJPEeiyW7NaN4qWdw" sourceItem="_uqHMoVJPEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_uqHMo1JPEeiyW7NaN4qWdw" source="_uqKP9FJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uCGxcVJPEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_uqJB0VJPEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="serverAIGoal.uml#_uCHYgFJPEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_uqIawFJPEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_uqIawVJPEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="serverAIGoal.uml#_uCGxclJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_uqKP8VJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_uqKP8FJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_uqJB0FJPEeiyW7NaN4qWdw" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="serverAIGoal.uml#_uB1EoFJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_uqKP81JPEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_uqKP8lJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uouskFJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uouskVJPEeiyW7NaN4qWdw" text="This {@link Goal} deals with one missionary unit.&#xD;&#xA;&lt;/p>&lt;p>&#xD;&#xA;On construction, an {@link AIUnit} and an {@link IndianSettlement}&#xD;&#xA;are given to this.&#xD;&#xA;The Goal will try to create a mission at that settlement,&#xD;&#xA;eventually by bringing the missionary unit there first using a&#xD;&#xA;{@link GotoAdjacentGoal}.&#xD;&#xA;Should the target become invalid, the missionary will be given back&#xD;&#xA;to the parent of this goal ({@link ManageMissionariesGoal}, in most cases).&#xD;&#xA;Excess units will be given back to the parent, or the {@link AIPlayer} directly." item="_uo8vAFJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7yVlJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uoyW8VJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uoyW8lJPEeiyW7NaN4qWdw" text="A Goal is used to encapsulate a specific part of the&#xD;&#xA;decision-making process of an AI.&#xD;&#xA;&lt;/p>&lt;p>&#xD;&#xA;Using a top-down approach, every {@link AIPlayer} has a set of Goals which,&#xD;&#xA;in turn, may have further subgoals. In combination, this tree of goals&#xD;&#xA;and subgoals reflects the current strategy of the AIPlayer.&#xD;&#xA;&lt;/p>&lt;p>&#xD;&#xA;Units (each one wrapped in an {@link AIUnit} object) will be moved between&#xD;&#xA;existing Goal objects.&#xD;&#xA;FIXME: Turn {@link AIUnit} into a simple wrapper for individual units.&#xD;&#xA;&lt;/p>&lt;p>&#xD;&#xA;Specific AI goals are created by extending this class; some of&#xD;&#xA;these could also be used to assist the human player (i.e. GoTo,&#xD;&#xA;Scouting, Trade, Piracy)." item="_upHHEVJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7LQFJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uoy-AFJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uoy-AVJPEeiyW7NaN4qWdw" text="Determines whether this goal is finished.&#xD;&#xA;     * If it is, this means it can be cancelled by its parent.&#xD;&#xA;     *&#xD;&#xA;     * @return true, if the goal is finished, false otherwise" item="_upHHNlJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7LQ1JPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uoy-AlJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uoy-A1JPEeiyW7NaN4qWdw" text="Cancels a goal and all of its subgoals.&#xD;&#xA;     * If a goal is cancelled, it will recursively cancelGoal() its subgoals first,&#xD;&#xA;     * and return all units to the object calling this.&#xD;&#xA;     * After this method has been called, it should be safe for the parent&#xD;&#xA;     * to remove this goal from its list of subgoals.&#xD;&#xA;     * &lt;/p>&lt;p>&#xD;&#xA;     * NOTE: Preferably, only the direct parent should call this.&#xD;&#xA;     *&#xD;&#xA;     * @return A list of all {@link AIUnit} being freed up by this action" item="_upHHO1JPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7LRFJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uoy-BFJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uoy-BVJPEeiyW7NaN4qWdw" text="Recursively calls {@link #doPlanning} in subgoals that {@link #needsPlanning()},&#xD;&#xA;     * then calls its own planning method." item="_upHHQFJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7LRVJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uoy-BlJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uoy-B1JPEeiyW7NaN4qWdw" text="Determines whether this or a subgoal {@link #needsPlanning}.&#xD;&#xA;     *&#xD;&#xA;     * @return true if this Goal or at least one subgoal needs planning, false otherwise" item="_upHHQ1JPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7LRlJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uozlEFJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uozlEVJPEeiyW7NaN4qWdw" text="Sets the {@link #needsPlanning} status of this Goal and all its subgoals.&#xD;&#xA;     * Should be called by the {@link AIPlayer} once for each of its subgoals&#xD;&#xA;     * at the start of a turn. The Goal will handle all other instances of this&#xD;&#xA;     * flag needing to be reset internally.&#xD;&#xA;     *&#xD;&#xA;     * @param p Boolean determining whether to set needsPlanning =true or =false" item="_upHHSFJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7LR1JPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uozlElJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uozlE1JPEeiyW7NaN4qWdw" text="Returns the relativeWeight this goal has been weighted with by its parent.&#xD;&#xA;     * &lt;/p>&lt;p>&#xD;&#xA;     * NOTE: In many cases, you will want to use {@link #getAbsoluteWeight()} instead.&#xD;&#xA;     *&#xD;&#xA;     * @return The relative weight {@link #relativeWeight} of this goal" item="_upHHTlJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7LSFJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uozlFFJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uozlFVJPEeiyW7NaN4qWdw" text="Gets the weight of the parent goal, or 1 if there is no parent goal.&#xD;&#xA;     *&#xD;&#xA;     * @return The absolute weight [0;1] of the parent goal, or 1 if a parent goal does not exist" item="_upHHU1JPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7LSVJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uozlFlJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uozlF1JPEeiyW7NaN4qWdw" text="Returns the absolute weight of this goal.&#xD;&#xA;     * &lt;/p>&lt;p>&#xD;&#xA;     * The absolute weight is the weight of this goal in relation to the {@link AIPlayer}.&#xD;&#xA;     * This is used when making requests, to allow the AIPlayer to find the&#xD;&#xA;     * &quot;most important&quot; request.&#xD;&#xA;     *&#xD;&#xA;     * @return The absolute weight [0;1] of this goal" item="_upHHWFJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7LSlJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uo0MIFJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uo0MIVJPEeiyW7NaN4qWdw" text="Sets a relative weight for this goal.&#xD;&#xA;     * Each Goal is weighted by its parent goal.&#xD;&#xA;     * The parent should assure that the sum of weights given to its subgoals is =1&#xD;&#xA;     *&#xD;&#xA;     * @param w A relative weight, should be in range [0;1]" item="_upHHXVJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7LS1JPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uo0MIlJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uo0MI1JPEeiyW7NaN4qWdw" text="Calling this ensures that the relative weights given to&#xD;&#xA;     * subgoals add up to 1.&#xD;&#xA;     * &lt;/p>&lt;p>&#xD;&#xA;     * NOTE: This allows for a small margin of error (+/- 0.05),&#xD;&#xA;     * to avoid recalculating too often." item="_upHHY1JPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7LTFJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uo0MJFJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uo0MJVJPEeiyW7NaN4qWdw" text="Checks all owned AIUnits for validity, and removes invalid ones.&#xD;&#xA;     * An AIUnit is supposed to be invalid if it no longer contains a valid Unit.&#xD;&#xA;     * This may be the case if the Unit has been removed from the game between turns.&#xD;&#xA;     * &lt;/p>&lt;p>&#xD;&#xA;     * NOTE: The assumption here is that AIUnit#isValid() will return true&#xD;&#xA;     * as long as the {@link net.sf.freecol.common.model.Unit} wrapped in it exists." item="_upHHZlJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7LU1JPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uo0MJlJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uo0MJ1JPEeiyW7NaN4qWdw" text="Returns a string describing just this goal.  An implementing&#xD;&#xA;     * class may override this method to add specialized information.&#xD;&#xA;     * Used by {@link #getDebugDescription()}.&#xD;&#xA;     *&#xD;&#xA;     * @return a string describing this goal" item="_upHHaVJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7LVFJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uo0MKFJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uo0MKVJPEeiyW7NaN4qWdw" text="Build and return a string describing this goal including its parent goal.&#xD;&#xA;     * Used by &quot;Display AI-missions&quot; in debug mode.&#xD;&#xA;     *&#xD;&#xA;     * @return a string describing this goal" item="_upHHblJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7yUFJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uo0MKlJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uo0zMFJPEeiyW7NaN4qWdw" text="Returns the tag name of the root element representing this object.&#xD;&#xA;     *&#xD;&#xA;     * @return &quot;aiGoal&quot;" item="_upHHc1JPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7yUVJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uo0zMVJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uo0zMlJPEeiyW7NaN4qWdw" text="Since internal implementation details may vary,&#xD;&#xA;     * each Goal will define an iterator over all of its units.&#xD;&#xA;     *&#xD;&#xA;     * @return An Iterator over all {@link AIUnit} currently managed by this goal." item="_upHHeFJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7yUlJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uo0zM1JPEeiyW7NaN4qWdw" sourceConnectionVisual="_uo0zNFJPEeiyW7NaN4qWdw" text="Since internal implementation details may vary,&#xD;&#xA;     * each Goal will define an iterator over all of its subgoals.&#xD;&#xA;     *&#xD;&#xA;     * @return An Iterator over all currently existing subgoals." item="_upHHflJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7yU1JPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uo0zNVJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uo0zNlJPEeiyW7NaN4qWdw" text="This is the method that actually does the planning for this goal.&#xD;&#xA;     *&#xD;&#xA;     * It should contain:&#xD;&#xA;     * &lt;ul>&#xD;&#xA;     * &lt;li>calling {@link #validateOwnedUnits()} to remove AIUnits no longer&#xD;&#xA;     * containing a valid unit&lt;/li>&#xD;&#xA;     * &lt;li>putting units on the {@link #availableUnitsList} to work&#xD;&#xA;     *   &lt;ul>&lt;li>eventually by adding it to one of the subgoals, or&lt;/li>&#xD;&#xA;     *   &lt;li>by adding it back to the {@link AIPlayer}, or&lt;/li>&#xD;&#xA;     *   &lt;li>last but not least, by spending their movement points for some internal mission&lt;/li>&lt;/ul>&lt;/li>&#xD;&#xA;     * &lt;li>requesting new units (via a method like {@link #requestWorker(GoodsType,int)})&lt;/li>&#xD;&#xA;     * &lt;li>managing direct subgoals, including:&#xD;&#xA;     *   &lt;ul>&lt;li>creating new ones, if necessary&lt;/li>&#xD;&#xA;     *   &lt;li>cancelling those with isFinished()==true&lt;/li>&#xD;&#xA;     *   &lt;li>setting new weights using {@link #setWeight(float)}&lt;/li>&lt;/ul>&lt;/li>&#xD;&#xA;     * &lt;li>setting our own isFinished status&lt;/li>&#xD;&#xA;     * &lt;/ul>" item="_upHHhFJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7yVVJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uo0zN1JPEeiyW7NaN4qWdw" sourceConnectionVisual="_uo1aQFJPEeiyW7NaN4qWdw" text="Standard constructor&#xD;&#xA;     *&#xD;&#xA;     * @param p The {@link AIPlayer} this goal belongs to&#xD;&#xA;     * @param g The parent goal; may be null if we're a direct goal of the AIPlayer&#xD;&#xA;     * @param w The relativeWeight of this goal" item="_upHHh1JPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7LQVJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uo1aQVJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uo1aQlJPEeiyW7NaN4qWdw" text="Alternate constructor - directly add a unit to this Goal.&#xD;&#xA;     * The calling object ensures that this unit is not currently part of another Goal.&#xD;&#xA;     *&#xD;&#xA;     * @param p The {@link AIPlayer} this goal belongs to&#xD;&#xA;     * @param g The parent goal; may be null if we're a direct goal of the AIPlayer&#xD;&#xA;     * @param w The relativeWeight of this goal&#xD;&#xA;     * @param u An initial {@link AIUnit} given to this goal" item="_upHHllJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7LQlJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uo1aQ1JPEeiyW7NaN4qWdw" sourceConnectionVisual="_uo1aRFJPEeiyW7NaN4qWdw" text="Wrapper method for a worker request sent to the {@link AIPlayer}.&#xD;&#xA;     * &lt;/p>&lt;p>&#xD;&#xA;     * Each Goal can request necessary units from the AIPlayer.&#xD;&#xA;     * Here, such a request is wrapped in a private method for convenience.&#xD;&#xA;     * Each request contains a weight, which is {@link #getAbsoluteWeight()}&#xD;&#xA;     * of this goal, and the number of turns since a unit request has last been granted.&#xD;&#xA;     * The latter should be taken into account as a &quot;bonus weight&quot; by the AIPlayer.&#xD;&#xA;     * &lt;/p>&lt;p>&#xD;&#xA;     * FIXME: AIPlayer#addUnitWish(Goal,GoodsType,int,float,int); should add&#xD;&#xA;     * requests to a set-like structure, so that there's only one active request&#xD;&#xA;     * per Goal at any time. Since fulfilling a request using {@link #addUnit(AIUnit)}&#xD;&#xA;     * means that {@link #plan()} will be called again during the turn,&#xD;&#xA;     * the Goal will be able to request again.&#xD;&#xA;     *&#xD;&#xA;     * @param gt The {@link GoodsType} we're requesting a worker for.&#xD;&#xA;     * @param minProduction The minimum a unit needs to produce to be considered." item="_upHHqFJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7LTVJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uo1aRVJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uo1aRlJPEeiyW7NaN4qWdw" text="Adds a unit to this goal.&#xD;&#xA;     * This may be from {@link AIPlayer} fulfilling a unit request,&#xD;&#xA;     * by the parent goal, or by a subgoal that no longer needs the unit.&#xD;&#xA;     * &lt;/p>&lt;p>&#xD;&#xA;     * Possible FIXME: If the unit we're requesting is a high-interest one,&#xD;&#xA;     * such as a Galleon, AIUnit#setLoaningGoal() may be used to&#xD;&#xA;     * signal that this unit may _only_ be moved to subgoals, or back to&#xD;&#xA;     * {@link AIPlayer}, but not further up the hierarchy or to any other requesting Goal.&#xD;&#xA;     *&#xD;&#xA;     * @param u The {@link AIUnit} being added to this goal" item="_upHHsVJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7LTlJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uo2BUFJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uo2BUVJPEeiyW7NaN4qWdw" text="Adds a unit to the parent goal.&#xD;&#xA;     * If this goal doesn't have a parent goal,&#xD;&#xA;     * the unit will be added to {@link AIPlayer} instead.&#xD;&#xA;     *&#xD;&#xA;     * @param u The {@link AIUnit} to be added to the parent" item="_upHHt1JPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7LT1JPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uo2BUlJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uo2BU1JPEeiyW7NaN4qWdw" text="Used by a parent goal to check whether this goal, including subgoals,&#xD;&#xA;     * can yield a specific unit.&#xD;&#xA;     * &lt;/p>&lt;p>&#xD;&#xA;     * This recursively checks its subgoals, if there's no match among the own units.&#xD;&#xA;     * &lt;/p>&lt;p>&#xD;&#xA;     * Possible FIXME: Check whether AIUnit#isOnLoan() - in which case, we mustn't&#xD;&#xA;     * yield a unit unless it's the {@link AIPlayer} that requests.&#xD;&#xA;     *&#xD;&#xA;     * @param ut The {@link UnitType} wanted by the parent&#xD;&#xA;     * @param o The {@link AIObject} (should be AIPlayer or another Goal) calling this&#xD;&#xA;     * @return true if this goal or one of its subgoals can yield the specified {@link UnitType}, false otherwise" item="_upHHvVJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7LUFJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uo2BVFJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uo2BVVJPEeiyW7NaN4qWdw" text="Returns the absolute weight of the unit which would be yielded by {@link #yieldUnit(UnitType,AIObject)}.&#xD;&#xA;     * This is the same as {@link #getAbsoluteWeight()} of the yielding goal.&#xD;&#xA;     *&#xD;&#xA;     * @param ut The {@link UnitType} wanted by the parent&#xD;&#xA;     * @param o The {@link AIObject} (should be AIPlayer or another Goal) calling this&#xD;&#xA;     * @return The absolute weight ([0;1]) of the goal currently owning&#xD;&#xA;     * the unit that would be yielded.&#xD;&#xA;     * Note that the returned value might be 99f if there is no unit to yield.&#xD;&#xA;     * The calling function should use {@link #canYieldUnit(UnitType,AIObject)} first,&#xD;&#xA;     * or is responsible to sanitize this result itself before trying&#xD;&#xA;     * to {@link #yieldUnit(UnitType,AIObject)} based on it." item="_upHHyFJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7LUVJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uo2oYFJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uo2oYVJPEeiyW7NaN4qWdw" text="Removes a unit from the goal, potentially from a subgoal,&#xD;&#xA;     * and yields it to the caller.&#xD;&#xA;     * &lt;/p>&lt;p>&#xD;&#xA;     * Returned unit should be the one with minimum absolute weight,&#xD;&#xA;     * see {@link #getYieldedUnitWeight(UnitType,AIObject)}.&#xD;&#xA;     *&#xD;&#xA;     * @param ut The {@link UnitType} wanted by the parent&#xD;&#xA;     * @param o The {@link AIObject} (should be AIPlayer or another Goal) calling this&#xD;&#xA;     * @return The {@link AIUnit} with minimal absolute weight.&#xD;&#xA;     * Note that this may be null if no matching unit is found!" item="_upHH01JPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7LUlJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uo2oYlJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uo2oY1JPEeiyW7NaN4qWdw" text="Ensures that a unit moved to another Goal is properly removed from this.&#xD;&#xA;     * If a unit is removed from this goal via {@link #yieldUnit(UnitType,AIObject)},&#xD;&#xA;     * or if the Unit contained in the {@link AIUnit} no longer is valid,&#xD;&#xA;     * this method is called to clean up any remaining references to the unit.&#xD;&#xA;     * &lt;/p>&lt;p>&#xD;&#xA;     * Any implementation of this will need to iterate over all AIUnit object&#xD;&#xA;     * references used by this goal, and remove those that equal the given parameter.&#xD;&#xA;     *&#xD;&#xA;     * @param u The AIUnit supposed to be removed from this goal." item="_upHH3lJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7yVFJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uo5EoVJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uo5EolJPEeiyW7NaN4qWdw" text="A goal to make a move to a tile adjacent to a target tile." item="_up_Q2VJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7yV1JPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_up80kFJPEeiyW7NaN4qWdw" sourceConnectionVisual="_up80kVJPEeiyW7NaN4qWdw" text="Contains constants used by the Goal classes.&#xD;&#xA;* These constants are affecting AI behaviour." item="_up9boFJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB6kNVJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_uqHMoVJPEeiyW7NaN4qWdw" sourceConnectionVisual="_uqHMolJPEeiyW7NaN4qWdw" text="This {@link Goal} deals with all missionaries of one {@link AIPlayer}.&#xD;&#xA;&lt;/p>&lt;p>&#xD;&#xA;For each missionary unit that is being added, this goal will try to find&#xD;&#xA;an {@link IndianSettlement} needing a visit.&#xD;&#xA;Distance and reachability from the current position of the unit are&#xD;&#xA;taken into account, with the implicit assumption that the current&#xD;&#xA;location of the unit is sensible in that a nearby settlement is&#xD;&#xA;even worth visiting.&#xD;&#xA;Since missionary units are either created in a player-owned colony,&#xD;&#xA;or brought there from Europe, this assumption will most often be valid.&#xD;&#xA;&lt;/p>&lt;p>&#xD;&#xA;If a settlement has been found, a {@link CreateMissionAtSettlementGoal}&#xD;&#xA;will be created, and the unit be moved there." item="_uqKP9FJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_uB7yWFJPEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_uo8vAFJPEeiyW7NaN4qWdw" comments="_uouskFJPEeiyW7NaN4qWdw" targetConnectionVisual="_uouskVJPEeiyW7NaN4qWdw" name="CreateMissionAtSettlementGoal" associationsOut="_uowhwFJPEeiyW7NaN4qWdw _uoxI0FJPEeiyW7NaN4qWdw _uoxv4FJPEeiyW7NaN4qWdw" generalizations="_uoyW81JPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_t9eJEFJPEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_uo8vAVJPEeiyW7NaN4qWdw" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_uo8vAlJPEeiyW7NaN4qWdw" label="+"/>
+    <attributes xmi:id="_uo8vA1JPEeiyW7NaN4qWdw" defaultValue="Logger.getLogger(CreateMissionAtSettlementGoal.class.getName())" name="logger" staticAttribute="true">
+      <modelElement href="serverAIGoal.uml#_uBz2gFJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_uo8vBFJPEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_uo8vBVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_uo8vBlJPEeiyW7NaN4qWdw" name="Logger">
+        <modelElement href="serverAIGoal.uml#_uBP10VJPEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uo8vB1JPEeiyW7NaN4qWdw" name="target">
+      <modelElement href="serverAIGoal.uml#_uBz2glJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_uo8vCFJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_uBz2g1JPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_uo8vCVJPEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_uo8vClJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_uo8vC1JPEeiyW7NaN4qWdw" name="IndianSettlement">
+        <modelElement href="serverAIGoal.uml#_uBYYsFJPEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uo8vDFJPEeiyW7NaN4qWdw" name="gotoSubGoal">
+      <modelElement href="serverAIGoal.uml#_uBz2hFJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_uo8vDVJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_uBz2hVJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_uo8vDlJPEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_uo8vD1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_uo8vEFJPEeiyW7NaN4qWdw" name="GotoAdjacentGoal">
+        <modelElement href="serverAIGoal.uml#_t9k2wFJPEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_uo8vEVJPEeiyW7NaN4qWdw" name="getOwnedAIUnitsIterator">
+      <modelElement href="serverAIGoal.uml#_t9ewIFJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_uo8vElJPEeiyW7NaN4qWdw" name="Generics">
+        <modelElement href="serverAIGoal.uml#_t9fXMFJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_uo8vE1JPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_t9fXMVJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_uo8vFFJPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_t9fXMlJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_uo8vFVJPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_uo8vFlJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uo8vF1JPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_uBnpSVJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_uo8vGFJPEeiyW7NaN4qWdw" name="Iterator">
+          <modelElement href="serverAIGoal.uml#_uBOAoFJPEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_uo8vGVJPEeiyW7NaN4qWdw" name="getSubGoalIterator">
+      <modelElement href="serverAIGoal.uml#_t9f-QVJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_uo8vGlJPEeiyW7NaN4qWdw" name="Generics">
+        <modelElement href="serverAIGoal.uml#_t9f-QlJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_uo8vG1JPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_t9glUFJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_uo8vHFJPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_t9glUVJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_uo8vHVJPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_uo8vHlJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uo8vH1JPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_uBoQUFJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_uo8vIFJPEeiyW7NaN4qWdw" name="Iterator">
+          <modelElement href="serverAIGoal.uml#_uBOAoFJPEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_uo8vIVJPEeiyW7NaN4qWdw" name="plan">
+      <modelElement href="serverAIGoal.uml#_t9glU1JPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_uo8vIlJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_t9glVFJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_uo8vI1JPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_t9hMYFJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_uo8vJFJPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_uo8vJVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_uo8vJlJPEeiyW7NaN4qWdw" name="getGoalDescription">
+      <modelElement href="serverAIGoal.uml#_t9hMYlJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_uo8vJ1JPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_t9hMZFJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_uo8vKFJPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_t9hzcFJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_uo8vKVJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_uo8vKlJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uo8vK1JPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_t9hMY1JPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_uo8vLFJPEeiyW7NaN4qWdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_uo8vLVJPEeiyW7NaN4qWdw" name="getXMLTagName">
+      <modelElement href="serverAIGoal.uml#_t9hzclJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_uo8vLlJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_t9hzdFJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_uo8vL1JPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_t9iagFJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_uo8vMFJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_uo8vMVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uo8vMlJPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_t9hzc1JPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_uo8vM1JPEeiyW7NaN4qWdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_uo8vNFJPEeiyW7NaN4qWdw" name="CreateMissionAtSettlementGoal">
+      <modelElement href="serverAIGoal.uml#_uBnpQFJPEeiyW7NaN4qWdw"/>
+      <keywords xmi:id="_uo8vNVJPEeiyW7NaN4qWdw" keyword="create"/>
+      <visibility xmi:id="_uo8vNlJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_uo8vN1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uo8vOFJPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_uBnpSFJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_uo8vOVJPEeiyW7NaN4qWdw" name="CreateMissionAtSettlementGoal">
+          <modelElement href="serverAIGoal.uml#_t9eJEFJPEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_uo8vOlJPEeiyW7NaN4qWdw" name="p">
+        <modelElement href="serverAIGoal.uml#_uBnpQVJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_uo8vO1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_uo8vPFJPEeiyW7NaN4qWdw" name="AIPlayer">
+          <modelElement href="serverAIGoal.uml#_uBRrAVJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_uo8vPVJPEeiyW7NaN4qWdw" name="g">
+        <modelElement href="serverAIGoal.uml#_uBnpQlJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_uo8vPlJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_uo8vP1JPEeiyW7NaN4qWdw" name="Goal">
+          <modelElement href="serverAIGoal.uml#_t9TJ8FJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_uo8vQFJPEeiyW7NaN4qWdw" name="w">
+        <modelElement href="serverAIGoal.uml#_uBnpQ1JPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_uo8vQVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_uo8vQlJPEeiyW7NaN4qWdw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_uo8vQ1JPEeiyW7NaN4qWdw" name="u">
+        <modelElement href="serverAIGoal.uml#_uBnpRFJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_uo8vRFJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_uo8vRVJPEeiyW7NaN4qWdw" name="AIUnit">
+          <modelElement href="serverAIGoal.uml#_uBSSEVJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_uo8vRlJPEeiyW7NaN4qWdw" name="i">
+        <modelElement href="serverAIGoal.uml#_uBnpRVJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_uo8vR1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_uo8vSFJPEeiyW7NaN4qWdw" name="IndianSettlement">
+          <modelElement href="serverAIGoal.uml#_uBYYsFJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_uo8vSVJPEeiyW7NaN4qWdw" name="removeUnit">
+      <modelElement href="serverAIGoal.uml#_uBoQUVJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_uo8vSlJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_uBoQU1JPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_uo8vS1JPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_uBoQVFJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_uo8vTFJPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_uo8vTVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_uo8vTlJPEeiyW7NaN4qWdw" name="u">
+        <modelElement href="serverAIGoal.uml#_uBoQUlJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_uo8vT1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_uo8vUFJPEeiyW7NaN4qWdw" name="AIUnit">
+          <modelElement href="serverAIGoal.uml#_uBSSEVJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_uo8vUVJPEeiyW7NaN4qWdw" name="toXML">
+      <modelElement href="serverAIGoal.uml#_uBo3YFJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_uo8vUlJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_uBo3YlJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_uo8vU1JPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_uBo3Y1JPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_uo8vVFJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_uo8vVVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_uo8vVlJPEeiyW7NaN4qWdw" name="xw">
+        <modelElement href="serverAIGoal.uml#_uBo3YVJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_uo8vV1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_uo8vWFJPEeiyW7NaN4qWdw" name="FreeColXMLWriter">
+          <modelElement href="serverAIGoal.uml#_uBXxoVJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_uo8vWVJPEeiyW7NaN4qWdw" name="readFromXML">
+      <modelElement href="serverAIGoal.uml#_uBpecFJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_uo8vWlJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_uBpeclJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_uo8vW1JPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_uBpec1JPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_uo8vXFJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_uo8vXVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_uo8vXlJPEeiyW7NaN4qWdw" name="xr">
+        <modelElement href="serverAIGoal.uml#_uBpecVJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_uo8vX1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_uo8vYFJPEeiyW7NaN4qWdw" name="FreeColXMLReader">
+          <modelElement href="serverAIGoal.uml#_uBXKkVJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_upEq0FJPEeiyW7NaN4qWdw" name="XMLStreamException">
+    <modelElement href="serverAIGoal.uml#_uBWjgFJPEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_upEq0VJPEeiyW7NaN4qWdw" position="1682.0,252.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_upEq0lJPEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="serverAIGoal.uml#_uBXKkFJPEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <visibility xmi:id="_upEq01JPEeiyW7NaN4qWdw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_upHHEVJPEeiyW7NaN4qWdw" comments="_uoyW8VJPEeiyW7NaN4qWdw" targetConnectionVisual="_uoyW8lJPEeiyW7NaN4qWdw" name="Goal" abstractClass="true" associationsIn="_uoyW8FJPEeiyW7NaN4qWdw _uqGlkFJPEeiyW7NaN4qWdw" associationsOut="_uoyW8FJPEeiyW7NaN4qWdw _uoyW9VJPEeiyW7NaN4qWdw _uoyW9lJPEeiyW7NaN4qWdw _uoyW91JPEeiyW7NaN4qWdw" generalizations="_upHHEFJPEeiyW7NaN4qWdw _up80klJPEeiyW7NaN4qWdw" subclassedBy="_uoyW81JPEeiyW7NaN4qWdw _uoyW9FJPEeiyW7NaN4qWdw _uqHMoFJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_t9TJ8FJPEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_upHHElJPEeiyW7NaN4qWdw" position="925.0,-1544.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_upHHE1JPEeiyW7NaN4qWdw" label="+"/>
+    <attributes xmi:id="_upHHFFJPEeiyW7NaN4qWdw" defaultValue="Logger.getLogger(Goal.class.getName())" name="logger" staticAttribute="true">
+      <modelElement href="serverAIGoal.uml#_uBwzMFJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_upHHFVJPEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_upHHFlJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_upHHF1JPEeiyW7NaN4qWdw" name="Logger">
+        <modelElement href="serverAIGoal.uml#_uBP10VJPEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_upHHGFJPEeiyW7NaN4qWdw" name="relativeWeight">
+      <modelElement href="serverAIGoal.uml#_uBxaQVJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_upHHGVJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_uBxaQlJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_upHHGlJPEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_upHHG1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_upHHHFJPEeiyW7NaN4qWdw" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_upHHHVJPEeiyW7NaN4qWdw" name="needsPlanning">
+      <modelElement href="serverAIGoal.uml#_uBxaQ1JPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_upHHHlJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_uBxaRFJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_upHHH1JPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_upHHIFJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_upHHIVJPEeiyW7NaN4qWdw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_upHHIlJPEeiyW7NaN4qWdw" name="isFinished">
+      <modelElement href="serverAIGoal.uml#_uByBUFJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_upHHI1JPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_uByBUVJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_upHHJFJPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_upHHJVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_upHHJlJPEeiyW7NaN4qWdw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_upHHJ1JPEeiyW7NaN4qWdw" name="availableUnitsList">
+      <modelElement href="serverAIGoal.uml#_uByBUlJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_upHHKFJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_uByoYFJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_upHHKVJPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_upHHKlJPEeiyW7NaN4qWdw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_upHHK1JPEeiyW7NaN4qWdw" name="AIUnit">
+        <modelElement href="serverAIGoal.uml#_uBSSEVJPEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_upHHLFJPEeiyW7NaN4qWdw" name="player">
+      <modelElement href="serverAIGoal.uml#_uByoYVJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_upHHLVJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_uByoYlJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_upHHLlJPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_upHHL1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_upHHMFJPEeiyW7NaN4qWdw" name="AIPlayer">
+        <modelElement href="serverAIGoal.uml#_uBRrAVJPEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_upHHMVJPEeiyW7NaN4qWdw" name="parentGoal">
+      <modelElement href="serverAIGoal.uml#_uByoY1JPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_upHHMlJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_uByoZFJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_upHHM1JPEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_upHHNFJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_upHHNVJPEeiyW7NaN4qWdw" name="Goal">
+        <modelElement href="serverAIGoal.uml#_t9TJ8FJPEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_upHHNlJPEeiyW7NaN4qWdw" comments="_uoy-AFJPEeiyW7NaN4qWdw" targetConnectionVisual="_uoy-AVJPEeiyW7NaN4qWdw" name="isFinished">
+      <modelElement href="serverAIGoal.uml#_t9UYEFJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_upHHN1JPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_upHHOFJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_upHHOVJPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_t9U_IFJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_upHHOlJPEeiyW7NaN4qWdw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_upHHO1JPEeiyW7NaN4qWdw" comments="_uoy-AlJPEeiyW7NaN4qWdw" targetConnectionVisual="_uoy-A1JPEeiyW7NaN4qWdw" name="cancelGoal">
+      <modelElement href="serverAIGoal.uml#_t9U_IVJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_upHHPFJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_upHHPVJPEeiyW7NaN4qWdw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_upHHPlJPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_t9U_IlJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_upHHP1JPEeiyW7NaN4qWdw" name="AIUnit">
+          <modelElement href="serverAIGoal.uml#_uBSSEVJPEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_upHHQFJPEeiyW7NaN4qWdw" comments="_uoy-BFJPEeiyW7NaN4qWdw" targetConnectionVisual="_uoy-BVJPEeiyW7NaN4qWdw" name="doPlanning">
+      <modelElement href="serverAIGoal.uml#_t9U_JFJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_upHHQVJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_upHHQlJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_upHHQ1JPEeiyW7NaN4qWdw" comments="_uoy-BlJPEeiyW7NaN4qWdw" targetConnectionVisual="_uoy-B1JPEeiyW7NaN4qWdw" name="needsPlanning">
+      <modelElement href="serverAIGoal.uml#_t9VmMFJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_upHHRFJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_upHHRVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_upHHRlJPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_t9VmMVJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_upHHR1JPEeiyW7NaN4qWdw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_upHHSFJPEeiyW7NaN4qWdw" comments="_uozlEFJPEeiyW7NaN4qWdw" targetConnectionVisual="_uozlEVJPEeiyW7NaN4qWdw" name="setNeedsPlanningRecursive">
+      <modelElement href="serverAIGoal.uml#_t9VmMlJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_upHHSVJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_upHHSlJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_upHHS1JPEeiyW7NaN4qWdw" name="p">
+        <modelElement href="serverAIGoal.uml#_t9VmM1JPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_upHHTFJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_upHHTVJPEeiyW7NaN4qWdw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_upHHTlJPEeiyW7NaN4qWdw" comments="_uozlElJPEeiyW7NaN4qWdw" targetConnectionVisual="_uozlE1JPEeiyW7NaN4qWdw" name="getWeight">
+      <modelElement href="serverAIGoal.uml#_t9VmNFJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_upHHT1JPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_upHHUFJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_upHHUVJPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_t9VmNVJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_upHHUlJPEeiyW7NaN4qWdw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_upHHU1JPEeiyW7NaN4qWdw" comments="_uozlFFJPEeiyW7NaN4qWdw" targetConnectionVisual="_uozlFVJPEeiyW7NaN4qWdw" name="getParentWeight">
+      <modelElement href="serverAIGoal.uml#_t9WNQFJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_upHHVFJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_upHHVVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_upHHVlJPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_t9WNQVJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_upHHV1JPEeiyW7NaN4qWdw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_upHHWFJPEeiyW7NaN4qWdw" comments="_uozlFlJPEeiyW7NaN4qWdw" targetConnectionVisual="_uozlF1JPEeiyW7NaN4qWdw" name="getAbsoluteWeight">
+      <modelElement href="serverAIGoal.uml#_t9WNQlJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_upHHWVJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_upHHWlJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_upHHW1JPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_t9WNQ1JPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_upHHXFJPEeiyW7NaN4qWdw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_upHHXVJPEeiyW7NaN4qWdw" comments="_uo0MIFJPEeiyW7NaN4qWdw" targetConnectionVisual="_uo0MIVJPEeiyW7NaN4qWdw" name="setWeight">
+      <modelElement href="serverAIGoal.uml#_t9WNRFJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_upHHXlJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_upHHX1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_upHHYFJPEeiyW7NaN4qWdw" name="w">
+        <modelElement href="serverAIGoal.uml#_t9WNRVJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_upHHYVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_upHHYlJPEeiyW7NaN4qWdw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_upHHY1JPEeiyW7NaN4qWdw" comments="_uo0MIlJPEeiyW7NaN4qWdw" targetConnectionVisual="_uo0MI1JPEeiyW7NaN4qWdw" name="normalizeSubGoalWeights">
+      <modelElement href="serverAIGoal.uml#_t9W0UFJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_upHHZFJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_upHHZVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_upHHZlJPEeiyW7NaN4qWdw" comments="_uo0MJFJPEeiyW7NaN4qWdw" targetConnectionVisual="_uo0MJVJPEeiyW7NaN4qWdw" name="validateOwnedUnits">
+      <modelElement href="serverAIGoal.uml#_t9XbYFJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_upHHZ1JPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_upHHaFJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_upHHaVJPEeiyW7NaN4qWdw" comments="_uo0MJlJPEeiyW7NaN4qWdw" targetConnectionVisual="_uo0MJ1JPEeiyW7NaN4qWdw" name="getGoalDescription">
+      <modelElement href="serverAIGoal.uml#_t9XbYVJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_upHHalJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_upHHa1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_upHHbFJPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_t9XbYlJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_upHHbVJPEeiyW7NaN4qWdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_upHHblJPEeiyW7NaN4qWdw" comments="_uo0MKFJPEeiyW7NaN4qWdw" targetConnectionVisual="_uo0MKVJPEeiyW7NaN4qWdw" name="getDebugDescription">
+      <modelElement href="serverAIGoal.uml#_t9YCcFJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_upHHb1JPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_upHHcFJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_upHHcVJPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_t9YCcVJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_upHHclJPEeiyW7NaN4qWdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_upHHc1JPEeiyW7NaN4qWdw" comments="_uo0MKlJPEeiyW7NaN4qWdw" targetConnectionVisual="_uo0zMFJPEeiyW7NaN4qWdw" name="getXMLElementTagName" staticOperation="true">
+      <modelElement href="serverAIGoal.uml#_t9YCclJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_upHHdFJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_upHHdVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_upHHdlJPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_t9YCc1JPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_upHHd1JPEeiyW7NaN4qWdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_upHHeFJPEeiyW7NaN4qWdw" comments="_uo0zMVJPEeiyW7NaN4qWdw" targetConnectionVisual="_uo0zMlJPEeiyW7NaN4qWdw" abstractOperation="true" name="getOwnedAIUnitsIterator">
+      <modelElement href="serverAIGoal.uml#_t9YCdFJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_upHHeVJPEeiyW7NaN4qWdw" name="Generics">
+        <modelElement href="serverAIGoal.uml#_t9YpgFJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_upHHelJPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_upHHe1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_upHHfFJPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_uBl0ElJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_upHHfVJPEeiyW7NaN4qWdw" name="Iterator">
+          <modelElement href="serverAIGoal.uml#_uBOAoFJPEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_upHHflJPEeiyW7NaN4qWdw" comments="_uo0zM1JPEeiyW7NaN4qWdw" targetConnectionVisual="_uo0zNFJPEeiyW7NaN4qWdw" abstractOperation="true" name="getSubGoalIterator">
+      <modelElement href="serverAIGoal.uml#_t9YpgVJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_upHHf1JPEeiyW7NaN4qWdw" name="Generics">
+        <modelElement href="serverAIGoal.uml#_t9ZQkFJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_upHHgFJPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_upHHgVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_upHHglJPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_uBl0E1JPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_upHHg1JPEeiyW7NaN4qWdw" name="Iterator">
+          <modelElement href="serverAIGoal.uml#_uBOAoFJPEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_upHHhFJPEeiyW7NaN4qWdw" comments="_uo0zNVJPEeiyW7NaN4qWdw" targetConnectionVisual="_uo0zNlJPEeiyW7NaN4qWdw" abstractOperation="true" name="plan">
+      <modelElement href="serverAIGoal.uml#_t9Z3oFJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_upHHhVJPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_upHHhlJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_upHHh1JPEeiyW7NaN4qWdw" comments="_uo0zN1JPEeiyW7NaN4qWdw" targetConnectionVisual="_uo1aQFJPEeiyW7NaN4qWdw" name="Goal">
+      <modelElement href="serverAIGoal.uml#_uBiwwFJPEeiyW7NaN4qWdw"/>
+      <keywords xmi:id="_upHHiFJPEeiyW7NaN4qWdw" keyword="create"/>
+      <visibility xmi:id="_upHHiVJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_upHHilJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_upHHi1JPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_uBjX0lJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_upHHjFJPEeiyW7NaN4qWdw" name="Goal">
+          <modelElement href="serverAIGoal.uml#_t9TJ8FJPEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_upHHjVJPEeiyW7NaN4qWdw" name="p">
+        <modelElement href="serverAIGoal.uml#_uBiwwVJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_upHHjlJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_upHHj1JPEeiyW7NaN4qWdw" name="AIPlayer">
+          <modelElement href="serverAIGoal.uml#_uBRrAVJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_upHHkFJPEeiyW7NaN4qWdw" name="g">
+        <modelElement href="serverAIGoal.uml#_uBiwwlJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_upHHkVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_upHHklJPEeiyW7NaN4qWdw" name="Goal">
+          <modelElement href="serverAIGoal.uml#_t9TJ8FJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_upHHk1JPEeiyW7NaN4qWdw" name="w">
+        <modelElement href="serverAIGoal.uml#_uBiww1JPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_upHHlFJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_upHHlVJPEeiyW7NaN4qWdw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_upHHllJPEeiyW7NaN4qWdw" comments="_uo1aQVJPEeiyW7NaN4qWdw" targetConnectionVisual="_uo1aQlJPEeiyW7NaN4qWdw" name="Goal">
+      <modelElement href="serverAIGoal.uml#_uBjX01JPEeiyW7NaN4qWdw"/>
+      <keywords xmi:id="_upHHl1JPEeiyW7NaN4qWdw" keyword="create"/>
+      <visibility xmi:id="_upHHmFJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_upHHmVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_upHHmlJPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_uBjX2lJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_upHHm1JPEeiyW7NaN4qWdw" name="Goal">
+          <modelElement href="serverAIGoal.uml#_t9TJ8FJPEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_upHHnFJPEeiyW7NaN4qWdw" name="p">
+        <modelElement href="serverAIGoal.uml#_uBjX1FJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_upHHnVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_upHHnlJPEeiyW7NaN4qWdw" name="AIPlayer">
+          <modelElement href="serverAIGoal.uml#_uBRrAVJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_upHHn1JPEeiyW7NaN4qWdw" name="g">
+        <modelElement href="serverAIGoal.uml#_uBjX1VJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_upHHoFJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_upHHoVJPEeiyW7NaN4qWdw" name="Goal">
+          <modelElement href="serverAIGoal.uml#_t9TJ8FJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_upHHolJPEeiyW7NaN4qWdw" name="w">
+        <modelElement href="serverAIGoal.uml#_uBjX1lJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_upHHo1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_upHHpFJPEeiyW7NaN4qWdw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_upHHpVJPEeiyW7NaN4qWdw" name="u">
+        <modelElement href="serverAIGoal.uml#_uBjX11JPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_upHHplJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_upHHp1JPEeiyW7NaN4qWdw" name="AIUnit">
+          <modelElement href="serverAIGoal.uml#_uBSSEVJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_upHHqFJPEeiyW7NaN4qWdw" comments="_uo1aQ1JPEeiyW7NaN4qWdw" targetConnectionVisual="_uo1aRFJPEeiyW7NaN4qWdw" name="requestWorker">
+      <modelElement href="serverAIGoal.uml#_uBj-4FJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_upHHqVJPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_upHHqlJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_upHHq1JPEeiyW7NaN4qWdw" name="gt">
+        <modelElement href="serverAIGoal.uml#_uBj-4VJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_upHHrFJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_upHHrVJPEeiyW7NaN4qWdw" name="GoodsType">
+          <modelElement href="serverAIGoal.uml#_uBP101JPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_upHHrlJPEeiyW7NaN4qWdw" name="minProduction">
+        <modelElement href="serverAIGoal.uml#_uBj-4lJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_upHHr1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_upHHsFJPEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_upHHsVJPEeiyW7NaN4qWdw" comments="_uo1aRVJPEeiyW7NaN4qWdw" targetConnectionVisual="_uo1aRlJPEeiyW7NaN4qWdw" name="addUnit">
+      <modelElement href="serverAIGoal.uml#_uBj-41JPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_upHHslJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_upHHs1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_upHHtFJPEeiyW7NaN4qWdw" name="u">
+        <modelElement href="serverAIGoal.uml#_uBj-5FJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_upHHtVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_upHHtlJPEeiyW7NaN4qWdw" name="AIUnit">
+          <modelElement href="serverAIGoal.uml#_uBSSEVJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_upHHt1JPEeiyW7NaN4qWdw" comments="_uo2BUFJPEeiyW7NaN4qWdw" targetConnectionVisual="_uo2BUVJPEeiyW7NaN4qWdw" name="addUnitToParent">
+      <modelElement href="serverAIGoal.uml#_uBkl8FJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_upHHuFJPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_upHHuVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_upHHulJPEeiyW7NaN4qWdw" name="u">
+        <modelElement href="serverAIGoal.uml#_uBkl8VJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_upHHu1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_upHHvFJPEeiyW7NaN4qWdw" name="AIUnit">
+          <modelElement href="serverAIGoal.uml#_uBSSEVJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_upHHvVJPEeiyW7NaN4qWdw" comments="_uo2BUlJPEeiyW7NaN4qWdw" targetConnectionVisual="_uo2BU1JPEeiyW7NaN4qWdw" name="canYieldUnit">
+      <modelElement href="serverAIGoal.uml#_uBkl8lJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_upHHvlJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_upHHv1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_upHHwFJPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_uBkl9VJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_upHHwVJPEeiyW7NaN4qWdw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_upHHwlJPEeiyW7NaN4qWdw" name="ut">
+        <modelElement href="serverAIGoal.uml#_uBkl81JPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_upHHw1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_upHHxFJPEeiyW7NaN4qWdw" name="UnitType">
+          <modelElement href="serverAIGoal.uml#_uBQc4VJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_upHHxVJPEeiyW7NaN4qWdw" name="o">
+        <modelElement href="serverAIGoal.uml#_uBkl9FJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_upHHxlJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_upHHx1JPEeiyW7NaN4qWdw" name="AIObject">
+          <modelElement href="serverAIGoal.uml#_uBRD81JPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_upHHyFJPEeiyW7NaN4qWdw" comments="_uo2BVFJPEeiyW7NaN4qWdw" targetConnectionVisual="_uo2BVVJPEeiyW7NaN4qWdw" name="getYieldedUnitWeight">
+      <modelElement href="serverAIGoal.uml#_uBlNAFJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_upHHyVJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_upHHylJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_upHHy1JPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_uBlNA1JPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_upHHzFJPEeiyW7NaN4qWdw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_upHHzVJPEeiyW7NaN4qWdw" name="ut">
+        <modelElement href="serverAIGoal.uml#_uBlNAVJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_upHHzlJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_upHHz1JPEeiyW7NaN4qWdw" name="UnitType">
+          <modelElement href="serverAIGoal.uml#_uBQc4VJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_upHH0FJPEeiyW7NaN4qWdw" name="o">
+        <modelElement href="serverAIGoal.uml#_uBlNAlJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_upHH0VJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_upHH0lJPEeiyW7NaN4qWdw" name="AIObject">
+          <modelElement href="serverAIGoal.uml#_uBRD81JPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_upHH01JPEeiyW7NaN4qWdw" comments="_uo2oYFJPEeiyW7NaN4qWdw" targetConnectionVisual="_uo2oYVJPEeiyW7NaN4qWdw" name="yieldUnit">
+      <modelElement href="serverAIGoal.uml#_uBlNBFJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_upHH1FJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_upHH1VJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_upHH1lJPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_uBl0EVJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_upHH11JPEeiyW7NaN4qWdw" name="AIUnit">
+          <modelElement href="serverAIGoal.uml#_uBSSEVJPEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_upHH2FJPEeiyW7NaN4qWdw" name="ut">
+        <modelElement href="serverAIGoal.uml#_uBlNBVJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_upHH2VJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_upHH2lJPEeiyW7NaN4qWdw" name="UnitType">
+          <modelElement href="serverAIGoal.uml#_uBQc4VJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_upHH21JPEeiyW7NaN4qWdw" name="o">
+        <modelElement href="serverAIGoal.uml#_uBl0EFJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_upHH3FJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_upHH3VJPEeiyW7NaN4qWdw" name="AIObject">
+          <modelElement href="serverAIGoal.uml#_uBRD81JPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_upHH3lJPEeiyW7NaN4qWdw" comments="_uo2oYlJPEeiyW7NaN4qWdw" targetConnectionVisual="_uo2oY1JPEeiyW7NaN4qWdw" abstractOperation="true" name="removeUnit">
+      <modelElement href="serverAIGoal.uml#_uBl0FFJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_upHH31JPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_upHH4FJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_upHH4VJPEeiyW7NaN4qWdw" name="u">
+        <modelElement href="serverAIGoal.uml#_uBl0FVJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_upHH4lJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_upHH41JPEeiyW7NaN4qWdw" name="AIUnit">
+          <modelElement href="serverAIGoal.uml#_uBSSEVJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_up9boFJPEeiyW7NaN4qWdw" comments="_up80kFJPEeiyW7NaN4qWdw" targetConnectionVisual="_up80kVJPEeiyW7NaN4qWdw" name="GoalConstants" subclassedBy="_up80klJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_t9R70FJPEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_up9boVJPEeiyW7NaN4qWdw" position="1199.0,-1756.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_up9bolJPEeiyW7NaN4qWdw" label="+"/>
+    <attributes xmi:id="_up9bo1JPEeiyW7NaN4qWdw" defaultValue="8" name="MAX_SEARCH_RADIUS" staticAttribute="true">
+      <modelElement href="serverAIGoal.uml#_t9R70VJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_up9bpFJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_up9bpVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_up9bplJPEeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_up_Q2VJPEeiyW7NaN4qWdw" comments="_uo5EoVJPEeiyW7NaN4qWdw" targetConnectionVisual="_uo5EolJPEeiyW7NaN4qWdw" name="GotoAdjacentGoal" associationsIn="_uoxv4FJPEeiyW7NaN4qWdw" associationsOut="_uo5rsFJPEeiyW7NaN4qWdw _up_Q0FJPEeiyW7NaN4qWdw" generalizations="_uoyW9FJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_t9k2wFJPEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_up_Q2lJPEeiyW7NaN4qWdw" position="1439.0,-337.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_up_Q21JPEeiyW7NaN4qWdw" label="+"/>
+    <attributes xmi:id="_up_Q3FJPEeiyW7NaN4qWdw" defaultValue="Logger.getLogger(GotoAdjacentGoal.class.getName())" name="logger" staticAttribute="true">
+      <modelElement href="serverAIGoal.uml#_uB0dkFJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_up_Q3VJPEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_up_Q3lJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_up_Q31JPEeiyW7NaN4qWdw" name="Logger">
+        <modelElement href="serverAIGoal.uml#_uBP10VJPEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_up_Q4FJPEeiyW7NaN4qWdw" name="target">
+      <modelElement href="serverAIGoal.uml#_uB0dklJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_up_Q4VJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_uB0dk1JPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_up_Q4lJPEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_up_Q41JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_up_Q5FJPEeiyW7NaN4qWdw" name="Tile">
+        <modelElement href="serverAIGoal.uml#_uBbcAFJPEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_up_Q5VJPEeiyW7NaN4qWdw" name="getOwnedAIUnitsIterator">
+      <modelElement href="serverAIGoal.uml#_t9ld0FJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_up_Q5lJPEeiyW7NaN4qWdw" name="Generics">
+        <modelElement href="serverAIGoal.uml#_t9mE4FJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_up_Q51JPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_t9mE4VJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_up_Q6FJPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_t9mE4lJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_up_Q6VJPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_up_Q6lJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_up_Q61JPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_uBqsmFJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_up_Q7FJPEeiyW7NaN4qWdw" name="Iterator">
+          <modelElement href="serverAIGoal.uml#_uBOAoFJPEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_up_Q7VJPEeiyW7NaN4qWdw" name="getSubGoalIterator">
+      <modelElement href="serverAIGoal.uml#_t9mr8FJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_up_Q7lJPEeiyW7NaN4qWdw" name="Generics">
+        <modelElement href="serverAIGoal.uml#_t9mr8VJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_up_Q71JPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_t9nTAFJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_up_Q8FJPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_t9nTAVJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_up_Q8VJPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_up_Q8lJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_up_Q81JPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_uBqsmVJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_up_Q9FJPEeiyW7NaN4qWdw" name="Iterator">
+          <modelElement href="serverAIGoal.uml#_uBOAoFJPEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_up_Q9VJPEeiyW7NaN4qWdw" name="plan">
+      <modelElement href="serverAIGoal.uml#_t9nTA1JPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_up_Q9lJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_t9n6EFJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_up_Q91JPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_t9n6EVJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_up_Q-FJPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_up_Q-VJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_up_Q-lJPEeiyW7NaN4qWdw" name="getGoalDescription">
+      <modelElement href="serverAIGoal.uml#_t9n6E1JPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_up_Q-1JPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_t9ohIFJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_up_Q_FJPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_t9ohIVJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_up_Q_VJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_up_Q_lJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_up_Q_1JPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_t9n6FFJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_up_RAFJPEeiyW7NaN4qWdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_up_RAVJPEeiyW7NaN4qWdw" name="getXMLTagName">
+      <modelElement href="serverAIGoal.uml#_t9ohI1JPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_up_RAlJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_t9pIMFJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_up_RA1JPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_t9pIMVJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_up_RBFJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_up_RBVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_up_RBlJPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_t9ohJFJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_up_RB1JPEeiyW7NaN4qWdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_up_RCFJPEeiyW7NaN4qWdw" name="GotoAdjacentGoal">
+      <modelElement href="serverAIGoal.uml#_uBqFgFJPEeiyW7NaN4qWdw"/>
+      <keywords xmi:id="_up_RCVJPEeiyW7NaN4qWdw" keyword="create"/>
+      <visibility xmi:id="_up_RClJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_up_RC1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_up_RDFJPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_uBqsl1JPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_up_RDVJPEeiyW7NaN4qWdw" name="GotoAdjacentGoal">
+          <modelElement href="serverAIGoal.uml#_t9k2wFJPEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_up_RDlJPEeiyW7NaN4qWdw" name="p">
+        <modelElement href="serverAIGoal.uml#_uBqskFJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_up_RD1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_up_REFJPEeiyW7NaN4qWdw" name="AIPlayer">
+          <modelElement href="serverAIGoal.uml#_uBRrAVJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_up_REVJPEeiyW7NaN4qWdw" name="g">
+        <modelElement href="serverAIGoal.uml#_uBqskVJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_up_RElJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_up_RE1JPEeiyW7NaN4qWdw" name="Goal">
+          <modelElement href="serverAIGoal.uml#_t9TJ8FJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_up_RFFJPEeiyW7NaN4qWdw" name="w">
+        <modelElement href="serverAIGoal.uml#_uBqsklJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_up_RFVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_up_RFlJPEeiyW7NaN4qWdw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_up_RF1JPEeiyW7NaN4qWdw" name="u">
+        <modelElement href="serverAIGoal.uml#_uBqsk1JPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_up_RGFJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_up_RGVJPEeiyW7NaN4qWdw" name="AIUnit">
+          <modelElement href="serverAIGoal.uml#_uBSSEVJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_up_RGlJPEeiyW7NaN4qWdw" name="t">
+        <modelElement href="serverAIGoal.uml#_uBqslFJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_up_RG1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_up_RHFJPEeiyW7NaN4qWdw" name="Tile">
+          <modelElement href="serverAIGoal.uml#_uBbcAFJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_up_RHVJPEeiyW7NaN4qWdw" name="removeUnit">
+      <modelElement href="serverAIGoal.uml#_uBrToFJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_up_RHlJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_uBrTolJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_up_RH1JPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_uBrTo1JPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_up_RIFJPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_up_RIVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_up_RIlJPEeiyW7NaN4qWdw" name="u">
+        <modelElement href="serverAIGoal.uml#_uBrToVJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_up_RI1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_up_RJFJPEeiyW7NaN4qWdw" name="AIUnit">
+          <modelElement href="serverAIGoal.uml#_uBSSEVJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_up_RJVJPEeiyW7NaN4qWdw" name="toXML">
+      <modelElement href="serverAIGoal.uml#_uBrTpVJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_up_RJlJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_uBr6sVJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_up_RJ1JPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_uBr6slJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_up_RKFJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_up_RKVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_up_RKlJPEeiyW7NaN4qWdw" name="xw">
+        <modelElement href="serverAIGoal.uml#_uBr6sFJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_up_RK1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_up_RLFJPEeiyW7NaN4qWdw" name="FreeColXMLWriter">
+          <modelElement href="serverAIGoal.uml#_uBXxoVJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_up_RLVJPEeiyW7NaN4qWdw" name="readFromXML">
+      <modelElement href="serverAIGoal.uml#_uBr6tFJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_up_RLlJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_uBshwFJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_up_RL1JPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_uBshwVJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_up_RMFJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_up_RMVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_up_RMlJPEeiyW7NaN4qWdw" name="xr">
+        <modelElement href="serverAIGoal.uml#_uBr6tVJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_up_RM1JPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_up_RNFJPEeiyW7NaN4qWdw" name="FreeColXMLReader">
+          <modelElement href="serverAIGoal.uml#_uBXKkVJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_uqKP9FJPEeiyW7NaN4qWdw" comments="_uqHMoVJPEeiyW7NaN4qWdw" targetConnectionVisual="_uqHMolJPEeiyW7NaN4qWdw" name="ManageMissionariesGoal" associationsOut="_uqGlkFJPEeiyW7NaN4qWdw _uqHMo1JPEeiyW7NaN4qWdw" generalizations="_uqHMoFJPEeiyW7NaN4qWdw">
+    <modelElement href="serverAIGoal.uml#_t9rkcFJPEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_uqKP9VJPEeiyW7NaN4qWdw" position="1005.0,67.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_uqKP9lJPEeiyW7NaN4qWdw" label="+"/>
+    <attributes xmi:id="_uqKP91JPEeiyW7NaN4qWdw" defaultValue="Logger.getLogger(ManageMissionariesGoal.class.getName())" name="logger" staticAttribute="true">
+      <modelElement href="serverAIGoal.uml#_uB1EoFJPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_uqKP-FJPEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_uqKP-VJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_uqKP-lJPEeiyW7NaN4qWdw" name="Logger">
+        <modelElement href="serverAIGoal.uml#_uBP10VJPEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uqKP-1JPEeiyW7NaN4qWdw" name="subGoalList">
+      <modelElement href="serverAIGoal.uml#_uB1EolJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_uqKP_FJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_uB1rsFJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_uqKP_VJPEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_uqKP_lJPEeiyW7NaN4qWdw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_uqKP_1JPEeiyW7NaN4qWdw" name="Goal">
+        <modelElement href="serverAIGoal.uml#_t9TJ8FJPEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_uqKQAFJPEeiyW7NaN4qWdw" name="getOwnedAIUnitsIterator">
+      <modelElement href="serverAIGoal.uml#_t9sLgFJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_uqKQAVJPEeiyW7NaN4qWdw" name="Generics">
+        <modelElement href="serverAIGoal.uml#_t9sykFJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_uqKQAlJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_t9sykVJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_uqKQA1JPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_t9syklJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_uqKQBFJPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_uqKQBVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uqKQBlJPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_uBtv4FJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_uqKQB1JPEeiyW7NaN4qWdw" name="Iterator">
+          <modelElement href="serverAIGoal.uml#_uBOAoFJPEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_uqKQCFJPEeiyW7NaN4qWdw" name="getSubGoalIterator">
+      <modelElement href="serverAIGoal.uml#_t9tZoFJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_uqKQCVJPEeiyW7NaN4qWdw" name="Generics">
+        <modelElement href="serverAIGoal.uml#_t9tZoVJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_uqKQClJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_t9uAsFJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_uqKQC1JPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_t9uAsVJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_uqKQDFJPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_uqKQDVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uqKQDlJPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_uBtv4VJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_uqKQD1JPEeiyW7NaN4qWdw" name="Iterator">
+          <modelElement href="serverAIGoal.uml#_uBOAoFJPEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_uqKQEFJPEeiyW7NaN4qWdw" name="plan">
+      <modelElement href="serverAIGoal.uml#_t9uAs1JPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_uqKQEVJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_t9unwFJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_uqKQElJPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_t9unwVJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_uqKQE1JPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_uqKQFFJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_uqKQFVJPEeiyW7NaN4qWdw" name="getGoalDescription">
+      <modelElement href="serverAIGoal.uml#_t9unw1JPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_uqKQFlJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_t9vO0FJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_uqKQF1JPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_t9vO0VJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_uqKQGFJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_uqKQGVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uqKQGlJPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_t9unxFJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_uqKQG1JPEeiyW7NaN4qWdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_uqKQHFJPEeiyW7NaN4qWdw" name="getXMLTagName">
+      <modelElement href="serverAIGoal.uml#_t9vO01JPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_uqKQHVJPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_t9v14VJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_uqKQHlJPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_t9v14lJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_uqKQH1JPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_uqKQIFJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uqKQIVJPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_t9v14FJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_uqKQIlJPEeiyW7NaN4qWdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_uqKQI1JPEeiyW7NaN4qWdw" name="ManageMissionariesGoal">
+      <modelElement href="serverAIGoal.uml#_uBtI0FJPEeiyW7NaN4qWdw"/>
+      <keywords xmi:id="_uqKQJFJPEeiyW7NaN4qWdw" keyword="create"/>
+      <visibility xmi:id="_uqKQJVJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_uqKQJlJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uqKQJ1JPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_uBtI1lJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_uqKQKFJPEeiyW7NaN4qWdw" name="ManageMissionariesGoal">
+          <modelElement href="serverAIGoal.uml#_t9rkcFJPEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_uqKQKVJPEeiyW7NaN4qWdw" name="p">
+        <modelElement href="serverAIGoal.uml#_uBtI0VJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_uqKQKlJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_uqKQK1JPEeiyW7NaN4qWdw" name="AIPlayer">
+          <modelElement href="serverAIGoal.uml#_uBRrAVJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_uqKQLFJPEeiyW7NaN4qWdw" name="g">
+        <modelElement href="serverAIGoal.uml#_uBtI0lJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_uqKQLVJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_uqKQLlJPEeiyW7NaN4qWdw" name="Goal">
+          <modelElement href="serverAIGoal.uml#_t9TJ8FJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_uqKQL1JPEeiyW7NaN4qWdw" name="w">
+        <modelElement href="serverAIGoal.uml#_uBtI01JPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_uqKQMFJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_uqKQMVJPEeiyW7NaN4qWdw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_uqKQMlJPEeiyW7NaN4qWdw" name="removeUnit">
+      <modelElement href="serverAIGoal.uml#_uBtv4lJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_uqKQM1JPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_uBuW8FJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_uqKQNFJPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_uBuW8VJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_uqKQNVJPEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_uqKQNlJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_uqKQN1JPEeiyW7NaN4qWdw" name="u">
+        <modelElement href="serverAIGoal.uml#_uBtv41JPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_uqKQOFJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_uqKQOVJPEeiyW7NaN4qWdw" name="AIUnit">
+          <modelElement href="serverAIGoal.uml#_uBSSEVJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_uqKQOlJPEeiyW7NaN4qWdw" name="findSettlement">
+      <modelElement href="serverAIGoal.uml#_uBuW81JPEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_uqKQO1JPEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_uqKQPFJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uqKQPVJPEeiyW7NaN4qWdw">
+        <modelElement href="serverAIGoal.uml#_uBuW9VJPEeiyW7NaN4qWdw"/>
+        <type xmi:id="_uqKQPlJPEeiyW7NaN4qWdw" name="IndianSettlement">
+          <modelElement href="serverAIGoal.uml#_uBYYsFJPEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_uqKQP1JPEeiyW7NaN4qWdw" name="tile">
+        <modelElement href="serverAIGoal.uml#_uBuW9FJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_uqKQQFJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_uqKQQVJPEeiyW7NaN4qWdw" name="Tile">
+          <modelElement href="serverAIGoal.uml#_uBbcAFJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_uqKQQlJPEeiyW7NaN4qWdw" name="toXML">
+      <modelElement href="serverAIGoal.uml#_uBu-AFJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_uqKQQ1JPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_uBu-AlJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_uqKQRFJPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_uBu-A1JPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_uqKQRVJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_uqKQRlJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_uqKQR1JPEeiyW7NaN4qWdw" name="xw">
+        <modelElement href="serverAIGoal.uml#_uBu-AVJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_uqKQSFJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_uqKQSVJPEeiyW7NaN4qWdw" name="FreeColXMLWriter">
+          <modelElement href="serverAIGoal.uml#_uBXxoVJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_uqKQSlJPEeiyW7NaN4qWdw" name="readFromXML">
+      <modelElement href="serverAIGoal.uml#_uBvlEFJPEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_uqKQS1JPEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="serverAIGoal.uml#_uBvlElJPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_uqKQTFJPEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="serverAIGoal.uml#_uBvlE1JPEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_uqKQTVJPEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_uqKQTlJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_uqKQT1JPEeiyW7NaN4qWdw" name="xr">
+        <modelElement href="serverAIGoal.uml#_uBvlEVJPEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_uqKQUFJPEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_uqKQUVJPEeiyW7NaN4qWdw" name="FreeColXMLReader">
+          <modelElement href="serverAIGoal.uml#_uBXKkVJPEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

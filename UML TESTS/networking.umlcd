@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_EFrS8FInEeibjuLm5_lcNQ">
+  <modelElement href="networking.uml#_FIKqsFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Fn2QUVInEeibjuLm5_lcNQ" targetItem="_Fn3eeVInEeibjuLm5_lcNQ" sourceItem="_Fn2QUFInEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Fn3ecFInEeibjuLm5_lcNQ" source="_Fn3eeVInEeibjuLm5_lcNQ">
+    <modelElement href="networking.uml#_FPYF8FInEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_Fn3ecVInEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="networking.uml#_FPYF8lInEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Fn3eclInEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_Fn3ec1InEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="networking.uml#_FPYF8VInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_Fn3edFInEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_Fn3edVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Fn3edlInEeibjuLm5_lcNQ" aggregationKind="NONE" name="gui" navigable="true">
+      <modelElement href="networking.uml#_FPW30FInEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_Fn3ed1InEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_Fn3eeFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Fn2QUFInEeibjuLm5_lcNQ" sourceConnectionVisual="_Fn2QUVInEeibjuLm5_lcNQ" text="Implementation of the ServerAPI." item="_Fn3eeVInEeibjuLm5_lcNQ">
+    <modelElement href="networking.uml#_FPXe51InEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Fn3eeVInEeibjuLm5_lcNQ" comments="_Fn2QUFInEeibjuLm5_lcNQ" targetConnectionVisual="_Fn2QUVInEeibjuLm5_lcNQ" name="UserServerAPI" associationsOut="_Fn3ecFInEeibjuLm5_lcNQ">
+    <modelElement href="networking.uml#_FILRwFInEeibjuLm5_lcNQ"/>
+    <visualProperties xmi:id="_Fn3eelInEeibjuLm5_lcNQ" position="30.0,30.0"/>
+    <visibility xmi:id="_Fn3ee1InEeibjuLm5_lcNQ" label="+"/>
+    <attributes xmi:id="_Fn3efFInEeibjuLm5_lcNQ" name="gui">
+      <modelElement href="networking.uml#_FPW30FInEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_Fn3efVInEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="networking.uml#_FPW30VInEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Fn3eflInEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_Fn3ef1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Fn3egFInEeibjuLm5_lcNQ" name="GUI">
+        <modelElement href="networking.uml#_FPTNcVInEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Fn3egVInEeibjuLm5_lcNQ" name="doRaiseErrorMessage">
+      <modelElement href="networking.uml#_FING8FInEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_Fn3eglInEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="networking.uml#_FING8lInEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Fn3eg1InEeibjuLm5_lcNQ" name="Annotations">
+        <modelElement href="networking.uml#_FING81InEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Fn3ehFInEeibjuLm5_lcNQ" label="#"/>
+      <cardinality xmi:id="_Fn3ehVInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Fn3ehlInEeibjuLm5_lcNQ" name="complaint">
+        <modelElement href="networking.uml#_FING8VInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_Fn3eh1InEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_Fn3eiFInEeibjuLm5_lcNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Fn3eiVInEeibjuLm5_lcNQ" name="UserServerAPI">
+      <modelElement href="networking.uml#_FPVpsFInEeibjuLm5_lcNQ"/>
+      <keywords xmi:id="_Fn3eilInEeibjuLm5_lcNQ" keyword="create"/>
+      <visibility xmi:id="_Fn3ei1InEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_Fn3ejFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Fn3ejVInEeibjuLm5_lcNQ">
+        <modelElement href="networking.uml#_FPVptFInEeibjuLm5_lcNQ"/>
+        <type xmi:id="_Fn3ejlInEeibjuLm5_lcNQ" name="UserServerAPI">
+          <modelElement href="networking.uml#_FILRwFInEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Fn3ej1InEeibjuLm5_lcNQ" name="gui">
+        <modelElement href="networking.uml#_FPVpsVInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_Fn3ekFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_Fn3ekVInEeibjuLm5_lcNQ" name="GUI">
+          <modelElement href="networking.uml#_FPTNcVInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Fn3eklInEeibjuLm5_lcNQ" name="doClientProcessingFor">
+      <modelElement href="networking.uml#_FPVptVInEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_Fn3ek1InEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="networking.uml#_FPWQwVInEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Fn3elFInEeibjuLm5_lcNQ" name="Annotations">
+        <modelElement href="networking.uml#_FPWQwlInEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Fn3elVInEeibjuLm5_lcNQ" label="#"/>
+      <cardinality xmi:id="_Fn3ellInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Fn3el1InEeibjuLm5_lcNQ" name="reply">
+        <modelElement href="networking.uml#_FPWQwFInEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_Fn3emFInEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_Fn3emVInEeibjuLm5_lcNQ" name="Element">
+          <modelElement href="networking.uml#_FPSmYFInEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

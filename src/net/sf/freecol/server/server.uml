@@ -1,0 +1,1845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_CyMKoFJPEeiyW7NaN4qWdw" name="server">
+    <eAnnotations xmi:id="_DWNdsFJPEeiyW7NaN4qWdw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_DWNdsVJPEeiyW7NaN4qWdw" source="codegen">
+        <details xmi:id="_DWNdslJPEeiyW7NaN4qWdw" key="codegenDirectory" value="/COSC442-FinalProject/src"/>
+        <details xmi:id="_EMb7EFJPEeiyW7NaN4qWdw" key="AssociatedSourceCode" value="/COSC442-FinalProject/src/net/sf/freecol/server/FreeColServer.java;4227802173/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_D0hxYFJPEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_D0hxYVJPEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_D0hxYlJPEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_D0hxY1JPEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_D0hxZFJPEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_D0hxZVJPEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_D0hxZlJPEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_D0hxZ1JPEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_D0iYcFJPEeiyW7NaN4qWdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_D0FFcFJPEeiyW7NaN4qWdw" name="net">
+      <packagedElement xmi:type="uml:Package" xmi:id="_D0FsgFJPEeiyW7NaN4qWdw" name="sf">
+        <packagedElement xmi:type="uml:Package" xmi:id="_D0FsgVJPEeiyW7NaN4qWdw" name="freecol">
+          <packagedElement xmi:type="uml:Package" xmi:id="_D0GTllJPEeiyW7NaN4qWdw" name="common">
+            <packagedElement xmi:type="uml:Package" xmi:id="_D0GTl1JPEeiyW7NaN4qWdw" name="debug">
+              <packagedElement xmi:type="uml:Class" xmi:id="_D63p8FJPEeiyW7NaN4qWdw" name="FreeColDebugger"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_D0G6oFJPEeiyW7NaN4qWdw" name="io">
+              <packagedElement xmi:type="uml:Class" xmi:id="_D64RAVJPEeiyW7NaN4qWdw" name="FreeColDirectories"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D644EFJPEeiyW7NaN4qWdw" name="FreeColSavegameFile"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D644ElJPEeiyW7NaN4qWdw" name="FreeColXMLReader"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D65fIVJPEeiyW7NaN4qWdw" name="FreeColXMLWriter"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_D0G6oVJPEeiyW7NaN4qWdw" name="model">
+              <packagedElement xmi:type="uml:Package" xmi:id="_D0G6olJPEeiyW7NaN4qWdw" name="NationOptions">
+                <packagedElement xmi:type="uml:Enumeration" xmi:id="_D69wkVJPEeiyW7NaN4qWdw" name="NationState"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D66GMVJPEeiyW7NaN4qWdw" name="FreeColObject"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D66tQVJPEeiyW7NaN4qWdw" name="Game"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D67UUVJPEeiyW7NaN4qWdw" name="GameOptions"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D67UU1JPEeiyW7NaN4qWdw" name="IndianSettlement"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D677YVJPEeiyW7NaN4qWdw" name="Map"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D68icVJPEeiyW7NaN4qWdw" name="Nation"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D69JgVJPEeiyW7NaN4qWdw" name="NationOptions"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D6-XoFJPEeiyW7NaN4qWdw" name="Player"/>
+              <packagedElement xmi:type="uml:Enumeration" xmi:id="_D6-XolJPEeiyW7NaN4qWdw" name="Stance"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D6--sVJPEeiyW7NaN4qWdw" name="Specification"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D6_lwVJPEeiyW7NaN4qWdw" name="Tension"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7AM0VJPEeiyW7NaN4qWdw" name="Tile"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7Az4VJPEeiyW7NaN4qWdw" name="Unit"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_D0G6o1JPEeiyW7NaN4qWdw" name="networking">
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7Ba8VJPEeiyW7NaN4qWdw" name="Connection"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7CCAVJPEeiyW7NaN4qWdw" name="DOMMessage"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_D0HhsFJPEeiyW7NaN4qWdw" name="option">
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7CpEVJPEeiyW7NaN4qWdw" name="BooleanOption"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7DQIVJPEeiyW7NaN4qWdw" name="OptionGroup"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_D0HhsVJPEeiyW7NaN4qWdw" name="util">
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7D3MFJPEeiyW7NaN4qWdw" name="CollectionUtils"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7EeQFJPEeiyW7NaN4qWdw" name="LogBuilder"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7EeQlJPEeiyW7NaN4qWdw" name="Utils"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_D62b0VJPEeiyW7NaN4qWdw" name="FreeColException"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_D63C4VJPEeiyW7NaN4qWdw" name="FreeColSeed"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_D0HhslJPEeiyW7NaN4qWdw" name="server">
+            <packagedElement xmi:type="uml:Package" xmi:id="_D0Hhs1JPEeiyW7NaN4qWdw" name="ai">
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7FsYFJPEeiyW7NaN4qWdw" name="AIInGameInputHandler"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7GTcVJPEeiyW7NaN4qWdw" name="AIMain"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7G6gFJPEeiyW7NaN4qWdw" name="AIPlayer"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_D0HhtFJPEeiyW7NaN4qWdw" name="control">
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7G6glJPEeiyW7NaN4qWdw" name="Controller"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7HhkVJPEeiyW7NaN4qWdw" name="InGameController"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7IIoFJPEeiyW7NaN4qWdw" name="InGameInputHandler"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7IIolJPEeiyW7NaN4qWdw" name="PreGameController"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7IvsVJPEeiyW7NaN4qWdw" name="PreGameInputHandler"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7JWwVJPEeiyW7NaN4qWdw" name="UserConnectionHandler"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_D0IIwFJPEeiyW7NaN4qWdw" name="generator">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_D7J90VJPEeiyW7NaN4qWdw" name="MapGenerator"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7Kk4VJPEeiyW7NaN4qWdw" name="SimpleMapGenerator"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7LL8VJPEeiyW7NaN4qWdw" name="TerrainGenerator"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_D0IIwVJPEeiyW7NaN4qWdw" name="model">
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7LzAVJPEeiyW7NaN4qWdw" name="ServerGame"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7MaEVJPEeiyW7NaN4qWdw" name="ServerIndianSettlement"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_D7NBIFJPEeiyW7NaN4qWdw" name="ServerModelObject"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7NoMVJPEeiyW7NaN4qWdw" name="ServerPlayer"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7NoM1JPEeiyW7NaN4qWdw" name="TransactionSession"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_D0IIwlJPEeiyW7NaN4qWdw" name="networking">
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7OPQVJPEeiyW7NaN4qWdw" name="DummyConnection"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_D7O2UVJPEeiyW7NaN4qWdw" name="Server"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_D0fVIFJPEeiyW7NaN4qWdw" name="FreeColServer" isLeaf="true">
+              <ownedComment xmi:id="_D8NtwFJPEeiyW7NaN4qWdw">
+                <body>The main control class for the FreeCol server.  This class both&#xD;
+starts and keeps references to all of the server objects and the&#xD;
+game model objects.&#xD;
+ *&#xD;
+If you would like to start a new server you just create a new&#xD;
+object of this class.</body>
+              </ownedComment>
+              <ownedAttribute xmi:id="_D78A8FJPEeiyW7NaN4qWdw" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_D6z_kVJPEeiyW7NaN4qWdw" isReadOnly="true" association="_D8R_MFJPEeiyW7NaN4qWdw">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_D78A8VJPEeiyW7NaN4qWdw" value="Logger.getLogger(FreeColServer.class.getName())"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_D78A8lJPEeiyW7NaN4qWdw" name="ACTIVE_UNIT_TAG" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_D78oAFJPEeiyW7NaN4qWdw" value="&quot;activeUnit&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_D78oAVJPEeiyW7NaN4qWdw" name="DEBUG_TAG" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_D78oAlJPEeiyW7NaN4qWdw" value="&quot;debug&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_D78oA1JPEeiyW7NaN4qWdw" name="RANDOM_STATE_TAG" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_D78oBFJPEeiyW7NaN4qWdw" value="&quot;randomState&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_D78oBVJPEeiyW7NaN4qWdw" name="OWNER_TAG" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_D79PEFJPEeiyW7NaN4qWdw" value="&quot;owner&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_D79PEVJPEeiyW7NaN4qWdw" name="PUBLIC_SERVER_TAG" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_D79PElJPEeiyW7NaN4qWdw" value="&quot;publicServer&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_D79PE1JPEeiyW7NaN4qWdw" name="SAVED_GAME_TAG" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_D79PFFJPEeiyW7NaN4qWdw" value="&quot;savedGame&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_D79PFVJPEeiyW7NaN4qWdw" name="SERVER_OBJECTS_TAG" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_D79PFlJPEeiyW7NaN4qWdw" value="&quot;serverObjects&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_D792IFJPEeiyW7NaN4qWdw" name="SINGLE_PLAYER_TAG" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_D792IVJPEeiyW7NaN4qWdw" value="&quot;singleplayer&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_D792IlJPEeiyW7NaN4qWdw" name="META_SERVER_UPDATE_INTERVAL" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_D792I1JPEeiyW7NaN4qWdw" value="60000"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_D7-dMFJPEeiyW7NaN4qWdw" name="SAVEGAME_VERSION" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_D7-dMVJPEeiyW7NaN4qWdw" value="13"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_D7-dMlJPEeiyW7NaN4qWdw" name="MINIMUM_SAVEGAME_VERSION" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_D7-dM1JPEeiyW7NaN4qWdw" value="11"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_D7-dNFJPEeiyW7NaN4qWdw" name="DEFAULT_SPEC" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_D7-dNVJPEeiyW7NaN4qWdw" value="&quot;freecol&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_D7-dNlJPEeiyW7NaN4qWdw" name="singlePlayer">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_D8ASYFJPEeiyW7NaN4qWdw" name="publicServer" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_D8ASYVJPEeiyW7NaN4qWdw" value="false"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_D8A5cFJPEeiyW7NaN4qWdw" name="name" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_D8A5cVJPEeiyW7NaN4qWdw" name="gameState" type="_D0i_gFJPEeiyW7NaN4qWdw" isReadOnly="true">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_D8A5clJPEeiyW7NaN4qWdw" value="GameState.STARTING_GAME"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_D8A5c1JPEeiyW7NaN4qWdw" name="server" type="_D7O2UVJPEeiyW7NaN4qWdw" isReadOnly="true" association="_D8SmQVJPEeiyW7NaN4qWdw"/>
+              <ownedAttribute xmi:id="_D8BggFJPEeiyW7NaN4qWdw" name="userConnectionHandler" visibility="private" isLeaf="true" type="_D7JWwVJPEeiyW7NaN4qWdw" isReadOnly="true" association="_D8TNUVJPEeiyW7NaN4qWdw"/>
+              <ownedAttribute xmi:id="_D8BgglJPEeiyW7NaN4qWdw" name="preGameController" visibility="private" isLeaf="true" type="_D7IIolJPEeiyW7NaN4qWdw" isReadOnly="true" association="_D8TNVFJPEeiyW7NaN4qWdw"/>
+              <ownedAttribute xmi:id="_D8CHkVJPEeiyW7NaN4qWdw" name="preGameInputHandler" visibility="private" isLeaf="true" type="_D7IvsVJPEeiyW7NaN4qWdw" isReadOnly="true" association="_D8T0YVJPEeiyW7NaN4qWdw"/>
+              <ownedAttribute xmi:id="_D8CuoFJPEeiyW7NaN4qWdw" name="inGameInputHandler" visibility="private" isLeaf="true" type="_D7IIoFJPEeiyW7NaN4qWdw" isReadOnly="true" association="_D8UbcVJPEeiyW7NaN4qWdw"/>
+              <ownedAttribute xmi:id="_D8CuolJPEeiyW7NaN4qWdw" name="inGameController" visibility="private" isLeaf="true" type="_D7HhkVJPEeiyW7NaN4qWdw" isReadOnly="true" association="_D8UbdFJPEeiyW7NaN4qWdw"/>
+              <ownedAttribute xmi:id="_D8DVsVJPEeiyW7NaN4qWdw" name="aiMain" visibility="private" type="_D7GTcVJPEeiyW7NaN4qWdw" association="_D8VCgVJPEeiyW7NaN4qWdw"/>
+              <ownedAttribute xmi:id="_D8DVs1JPEeiyW7NaN4qWdw" name="game" type="_D7LzAVJPEeiyW7NaN4qWdw" association="_D8OU0FJPEeiyW7NaN4qWdw"/>
+              <ownedAttribute xmi:id="_D8D8wFJPEeiyW7NaN4qWdw" name="mapGenerator" type="_D7J90VJPEeiyW7NaN4qWdw" isReadOnly="true" association="_D8VpkFJPEeiyW7NaN4qWdw">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_D8D8wVJPEeiyW7NaN4qWdw" value="null"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_D8D8wlJPEeiyW7NaN4qWdw" name="random" visibility="private" type="_D6w8QVJPEeiyW7NaN4qWdw" association="_D8Vpk1JPEeiyW7NaN4qWdw">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_D8D8w1JPEeiyW7NaN4qWdw" value="null"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_D8Ej0VJPEeiyW7NaN4qWdw" name="integrity" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_D8Ej0lJPEeiyW7NaN4qWdw" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_D8FK4FJPEeiyW7NaN4qWdw" name="activeUnit" type="_D7Az4VJPEeiyW7NaN4qWdw" isReadOnly="true" association="_D8WQoVJPEeiyW7NaN4qWdw">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_D8FK4VJPEeiyW7NaN4qWdw" value="null"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8HnI1JPEeiyW7NaN4qWdw" name="FreeColServer" specification="_D7n34FJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8HnJFJPEeiyW7NaN4qWdw" name="publicServer">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D8HnJVJPEeiyW7NaN4qWdw" name="singlePlayer">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D8HnJlJPEeiyW7NaN4qWdw" name="specification" type="_D6--sVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D8HnJ1JPEeiyW7NaN4qWdw" name="port">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D8HnKFJPEeiyW7NaN4qWdw" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D8HnKVJPEeiyW7NaN4qWdw" type="_D0fVIFJPEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>this.publicServer = publicServer;&#xD;
+     this.singlePlayer = singlePlayer;&#xD;
+     this.name = name;&#xD;
+&#xD;
+     this.server = serverStart(port); // Throws IOException&#xD;
+&#xD;
+     this.userConnectionHandler = new UserConnectionHandler(this);&#xD;
+     this.preGameController = new PreGameController(this);&#xD;
+     this.preGameInputHandler = new PreGameInputHandler(this);&#xD;
+     this.inGameInputHandler = new InGameInputHandler(this);&#xD;
+&#xD;
+     this.random = new Random(FreeColSeed.getFreeColSeed(true));&#xD;
+     this.game = new ServerGame(specification);&#xD;
+     this.game.setNationOptions(new NationOptions(specification));&#xD;
+     this.game.randomize(random);&#xD;
+     &#xD;
+     this.inGameController = new InGameController(this, random);&#xD;
+     this.mapGenerator = new SimpleMapGenerator(game, random);&#xD;
+&#xD;
+     this.publicServer = updateMetaServer(true);&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8IOMFJPEeiyW7NaN4qWdw" name="FreeColServer" specification="_D7pGAFJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8IOMVJPEeiyW7NaN4qWdw" name="savegame" type="_D644EFJPEeiyW7NaN4qWdw">
+                  <eAnnotations xmi:id="_D8IOMlJPEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_D8IOM1JPEeiyW7NaN4qWdw" key="final"/>
+                  </eAnnotations>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D8IONFJPEeiyW7NaN4qWdw" name="specification" type="_D6--sVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D8IONVJPEeiyW7NaN4qWdw" name="port">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D8IONlJPEeiyW7NaN4qWdw" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D8ION1JPEeiyW7NaN4qWdw" type="_D0fVIFJPEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>// publicServer will be read from the saved game&#xD;
+     // singlePlayer will be read from the saved game&#xD;
+     this.name = name;&#xD;
+&#xD;
+     this.server = serverStart(port); // Throws IOException&#xD;
+&#xD;
+     this.userConnectionHandler = new UserConnectionHandler(this);&#xD;
+     this.preGameController = new PreGameController(this);&#xD;
+     this.preGameInputHandler = new PreGameInputHandler(this);&#xD;
+     this.inGameInputHandler = new InGameInputHandler(this);&#xD;
+&#xD;
+     this.game = loadGame(savegame, specification, server);&#xD;
+     // NationOptions will be read from the saved game.&#xD;
+     TransactionSession.clearAll();&#xD;
+&#xD;
+     // Replace the PRNG in the game if it is missing or a command line&#xD;
+     // option was present.&#xD;
+     long seed = FreeColSeed.getFreeColSeed(this.random == null);&#xD;
+     if (seed != FreeColSeed.DEFAULT_SEED) {&#xD;
+         this.random = new Random(seed);&#xD;
+     }&#xD;
+     this.inGameController = new InGameController(this, random);&#xD;
+     this.mapGenerator = null;&#xD;
+&#xD;
+     this.publicServer = updateMetaServer(true);&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8IOOFJPEeiyW7NaN4qWdw" name="getPublicServer" specification="_D0mC0FJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8IOOVJPEeiyW7NaN4qWdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return this.publicServer;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8IOOlJPEeiyW7NaN4qWdw" name="setPublicServer" specification="_D0mC0lJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8IOO1JPEeiyW7NaN4qWdw" name="publicServer">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>this.publicServer = publicServer;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8I1QFJPEeiyW7NaN4qWdw" name="setName" specification="_D0mp4FJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8I1QVJPEeiyW7NaN4qWdw" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>this.name = name;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8I1QlJPEeiyW7NaN4qWdw" name="getHost" specification="_D0mp4lJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8I1Q1JPEeiyW7NaN4qWdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return (this.server == null) ? null : this.server.getHost();&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8I1RFJPEeiyW7NaN4qWdw" name="getPort" specification="_D0nQ8FJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8I1RVJPEeiyW7NaN4qWdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return (this.server == null) ? -1 : this.server.getPort();&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8I1RlJPEeiyW7NaN4qWdw" name="serverStart" specification="_D0nQ8lJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8I1R1JPEeiyW7NaN4qWdw" name="firstPort">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D8I1SFJPEeiyW7NaN4qWdw" type="_D7O2UVJPEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>String host = (this.publicServer) ? &quot;0.0.0.0&quot;&#xD;
+         : InetAddress.getLoopbackAddress().getHostAddress();&#xD;
+     int port, tries;&#xD;
+     if (firstPort &lt; 0) {&#xD;
+         port = FreeCol.getServerPort();&#xD;
+         tries = 10;&#xD;
+     } else {&#xD;
+         port = firstPort;&#xD;
+         tries = 1;&#xD;
+     }&#xD;
+     logger.finest(&quot;serverStart(&quot; + firstPort + &quot;) => &quot; + port&#xD;
+         + &quot; x &quot; + tries);&#xD;
+     for (int i = tries; i > 0; i--) {&#xD;
+         try {&#xD;
+             server = new Server(this, host, port);&#xD;
+             server.start();&#xD;
+             break;&#xD;
+         } catch (BindException be) {&#xD;
+             if (i == 1) {&#xD;
+                 throw new IOException(&quot;Bind exception starting server at: &quot;&#xD;
+                     + host + &quot;:&quot; + port, be);&#xD;
+             }&#xD;
+         } catch (IOException ie) {&#xD;
+             if (i == 1) throw ie;&#xD;
+         }&#xD;
+         port++;&#xD;
+     }&#xD;
+     return server;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8I1SVJPEeiyW7NaN4qWdw" name="getSpecification" specification="_D0n4AFJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8I1SlJPEeiyW7NaN4qWdw" type="_D6--sVJPEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>return game.getSpecification();&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8I1S1JPEeiyW7NaN4qWdw" name="getUserConnectionHandler" specification="_D0n4AVJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8I1TFJPEeiyW7NaN4qWdw" type="_D7JWwVJPEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>return userConnectionHandler;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8I1TVJPEeiyW7NaN4qWdw" name="getController" specification="_D0ofEFJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8JcUFJPEeiyW7NaN4qWdw" type="_D7G6glJPEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>if (getGameState() == GameState.IN_GAME) {&#xD;
+         return inGameController;&#xD;
+     } else {&#xD;
+         return preGameController;&#xD;
+     }&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8JcUVJPEeiyW7NaN4qWdw" name="getPreGameInputHandler" specification="_D0ofEVJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8JcUlJPEeiyW7NaN4qWdw" type="_D7IvsVJPEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>return preGameInputHandler;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8JcU1JPEeiyW7NaN4qWdw" name="getInGameInputHandler" specification="_D0ofElJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8JcVFJPEeiyW7NaN4qWdw" type="_D7IIoFJPEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>return inGameInputHandler;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8JcVVJPEeiyW7NaN4qWdw" name="getInGameController" specification="_D0pGIFJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8JcVlJPEeiyW7NaN4qWdw" type="_D7HhkVJPEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>return inGameController;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8JcV1JPEeiyW7NaN4qWdw" name="setAIMain" specification="_D7riQFJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8JcWFJPEeiyW7NaN4qWdw" name="aiMain" type="_D7GTcVJPEeiyW7NaN4qWdw"/>
+                <language>java</language>
+                <body>this.aiMain = aiMain;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8JcWVJPEeiyW7NaN4qWdw" name="getAIMain" specification="_D0pGIVJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8JcWlJPEeiyW7NaN4qWdw" type="_D7GTcVJPEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>return aiMain;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8JcW1JPEeiyW7NaN4qWdw" name="setGameState" specification="_D7R5oFJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8JcXFJPEeiyW7NaN4qWdw" name="state" type="_D0i_gFJPEeiyW7NaN4qWdw"/>
+                <language>java</language>
+                <body>gameState = state;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8JcXVJPEeiyW7NaN4qWdw" name="getIntegrity" specification="_D0ptMFJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8JcXlJPEeiyW7NaN4qWdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return integrity;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8KDYFJPEeiyW7NaN4qWdw" name="setMapGenerator" specification="_D7riQ1JPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8KDYVJPEeiyW7NaN4qWdw" name="mapGenerator" type="_D7J90VJPEeiyW7NaN4qWdw"/>
+                <language>java</language>
+                <body>this.mapGenerator = mapGenerator;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8KDYlJPEeiyW7NaN4qWdw" name="getServerRandom" specification="_D0ptMlJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8KDY1JPEeiyW7NaN4qWdw" type="_D6w8QVJPEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>return random;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8KDZFJPEeiyW7NaN4qWdw" name="setServerRandom" specification="_D7swYFJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8KDZVJPEeiyW7NaN4qWdw" name="random" type="_D6w8QVJPEeiyW7NaN4qWdw"/>
+                <language>java</language>
+                <body>this.random = random;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8KDZlJPEeiyW7NaN4qWdw" name="setActiveUnit" specification="_D7tXcFJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8KDZ1JPEeiyW7NaN4qWdw" name="unit" type="_D7Az4VJPEeiyW7NaN4qWdw"/>
+                <language>java</language>
+                <body>activeUnit = unit;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8KDaFJPEeiyW7NaN4qWdw" name="updateMetaServer" specification="_D0qUQFJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8KDaVJPEeiyW7NaN4qWdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return updateMetaServer(false);&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8KDalJPEeiyW7NaN4qWdw" name="updateMetaServer" specification="_D0qUQlJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8KDa1JPEeiyW7NaN4qWdw" name="firstTime">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D8KDbFJPEeiyW7NaN4qWdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>if (!this.publicServer) return false;&#xD;
+&#xD;
+     Connection mc;&#xD;
+     try {&#xD;
+         mc = new Connection(FreeCol.META_SERVER_ADDRESS,&#xD;
+                             FreeCol.META_SERVER_PORT, null,&#xD;
+                             FreeCol.SERVER_THREAD);&#xD;
+     } catch (IOException e) {&#xD;
+         logger.log(Level.WARNING, &quot;Could not connect to meta-server: &quot;,&#xD;
+             FreeCol.META_SERVER_ADDRESS + &quot;:&quot; + FreeCol.META_SERVER_PORT);&#xD;
+         this.publicServer = false;&#xD;
+         return false;&#xD;
+     }&#xD;
+&#xD;
+     String tag = (firstTime) ? &quot;register&quot; : &quot;update&quot;;&#xD;
+     int port = mc.getSocket().getPort();&#xD;
+     String addr = (name != null) ? name&#xD;
+         : (mc.getSocket().getLocalAddress().getHostAddress() + &quot;:&quot; + port);&#xD;
+     int nPlayers = getNumberOfLivingHumanPlayers();&#xD;
+     boolean started = gameState != GameState.STARTING_GAME;&#xD;
+     try {&#xD;
+         Element reply = mc.ask(DOMMessage.createMessage(tag,&#xD;
+                 &quot;name&quot;, addr,&#xD;
+                 &quot;port&quot;, Integer.toString(port),&#xD;
+                 &quot;slotsAvailable&quot;, Integer.toString(getSlotsAvailable()),&#xD;
+                 &quot;currentlyPlaying&quot;, Integer.toString(nPlayers),&#xD;
+                 &quot;isGameStarted&quot;, Boolean.toString(started),&#xD;
+                 &quot;version&quot;, FreeCol.getVersion(),&#xD;
+                 &quot;gameState&quot;, Integer.toString(getGameState().ordinal())));&#xD;
+         if (reply != null&#xD;
+             &amp;&amp; &quot;noRouteToServer&quot;.equals(reply.getTagName())) {&#xD;
+             this.publicServer = false;&#xD;
+             return false;&#xD;
+         }&#xD;
+     } catch (IOException ioe) {&#xD;
+         logger.log(Level.WARNING, &quot;Network error with meta-server:&quot; + addr,&#xD;
+             ioe);&#xD;
+         this.publicServer = false;&#xD;
+         return false;&#xD;
+     } finally {&#xD;
+         mc.close();&#xD;
+     }&#xD;
+     if (firstTime) {&#xD;
+         // Starts the metaserver update thread.&#xD;
+         //&#xD;
+         // This update is really a &quot;Hi! I am still here!&quot;-message,&#xD;
+         // since an additional update should be sent when a new&#xD;
+         // player is added to/removed from this server etc.&#xD;
+         Timer t = new Timer(true);&#xD;
+         t.scheduleAtFixedRate(new TimerTask() {&#xD;
+                 @Override&#xD;
+                 public void run() {&#xD;
+                     if (!updateMetaServer()) cancel();&#xD;
+                 }&#xD;
+             }, META_SERVER_UPDATE_INTERVAL, META_SERVER_UPDATE_INTERVAL);&#xD;
+     }&#xD;
+     return true;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8KqcFJPEeiyW7NaN4qWdw" name="removeFromMetaServer" specification="_D0q7UVJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8KqcVJPEeiyW7NaN4qWdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>if (!this.publicServer) return false;&#xD;
+&#xD;
+     try (&#xD;
+         Connection mc = new Connection(FreeCol.META_SERVER_ADDRESS,&#xD;
+             FreeCol.META_SERVER_PORT,&#xD;
+             null, FreeCol.SERVER_THREAD);&#xD;
+     ) {&#xD;
+         mc.send(DOMMessage.createMessage(&quot;remove&quot;,&#xD;
+                 &quot;port&quot;, Integer.toString(mc.getSocket().getPort())));&#xD;
+     } catch (IOException ioe) {&#xD;
+         logger.log(Level.WARNING, &quot;Network error leaving meta-server: &quot;&#xD;
+             + FreeCol.META_SERVER_ADDRESS + &quot;:&quot; + FreeCol.META_SERVER_PORT,&#xD;
+             ioe);&#xD;
+         this.publicServer = false;&#xD;
+         return false;&#xD;
+     }&#xD;
+     return true;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8KqclJPEeiyW7NaN4qWdw" name="getSlotsAvailable" specification="_D0q7U1JPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8Kqc1JPEeiyW7NaN4qWdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>int n = 0;&#xD;
+     for (Player player : game.getLiveEuropeanPlayers(null)) {&#xD;
+         ServerPlayer sp = (ServerPlayer)player;&#xD;
+         if (!sp.isREF() &amp;&amp; sp.isAI() &amp;&amp; !sp.isConnected()) n++;&#xD;
+     }&#xD;
+     return n;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8KqdFJPEeiyW7NaN4qWdw" name="getNumberOfLivingHumanPlayers" specification="_D0riYFJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8KqdVJPEeiyW7NaN4qWdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>int n = 0;&#xD;
+     for (Player player : game.getLivePlayers(null)) {&#xD;
+         ServerPlayer sp = (ServerPlayer)player;&#xD;
+         if (!sp.isAI() &amp;&amp; sp.isConnected()) n++;&#xD;
+     }&#xD;
+     return n;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8KqdlJPEeiyW7NaN4qWdw" name="saveGame" specification="_D7t-gFJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8Kqd1JPEeiyW7NaN4qWdw" name="file" type="_D6rcsVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D8KqeFJPEeiyW7NaN4qWdw" name="options" type="_D7DQIVJPEeiyW7NaN4qWdw"/>
+                <language>java</language>
+                <body>saveGame(file, options, null);&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8KqeVJPEeiyW7NaN4qWdw" name="saveMapEditorGame" specification="_D7ulkFJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8KqelJPEeiyW7NaN4qWdw" name="file" type="_D6rcsVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D8Kqe1JPEeiyW7NaN4qWdw" name="image" type="_D6q1oFJPEeiyW7NaN4qWdw"/>
+                <language>java</language>
+                <body>this.setAIMain(null);&#xD;
+     saveGame(file, null, image);&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8KqfFJPEeiyW7NaN4qWdw" name="saveGame" specification="_D7vMoFJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8KqfVJPEeiyW7NaN4qWdw" name="file" type="_D6rcsVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D8KqflJPEeiyW7NaN4qWdw" name="options" type="_D7DQIVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D8Kqf1JPEeiyW7NaN4qWdw" name="image" type="_D6q1oFJPEeiyW7NaN4qWdw"/>
+                <language>java</language>
+                <body>final ServerGame game = getGame();&#xD;
+     try (&#xD;
+         JarOutputStream fos = new JarOutputStream(new FileOutputStream(file));&#xD;
+     ) {&#xD;
+         if (image != null) {&#xD;
+             fos.putNextEntry(new JarEntry(FreeColSavegameFile.THUMBNAIL_FILE));&#xD;
+             ImageIO.write(image, &quot;png&quot;, fos);&#xD;
+             fos.closeEntry();&#xD;
+         }&#xD;
+&#xD;
+         if (options != null) {&#xD;
+             fos.putNextEntry(new JarEntry(FreeColSavegameFile.CLIENT_OPTIONS));&#xD;
+             options.save(fos, FreeColXMLWriter.WriteScope.toSave(), true);&#xD;
+             fos.closeEntry();&#xD;
+         }&#xD;
+&#xD;
+         Properties properties = new Properties();&#xD;
+         properties.put(&quot;map.width&quot;, Integer.toString(game.getMap().getWidth()));&#xD;
+         properties.put(&quot;map.height&quot;, Integer.toString(game.getMap().getHeight()));&#xD;
+         fos.putNextEntry(new JarEntry(FreeColSavegameFile.SAVEGAME_PROPERTIES));&#xD;
+         properties.store(fos, null);&#xD;
+         fos.closeEntry();&#xD;
+&#xD;
+         // save the actual game data&#xD;
+         fos.putNextEntry(new JarEntry(FreeColSavegameFile.SAVEGAME_FILE));&#xD;
+         try (&#xD;
+             FreeColXMLWriter xw = new FreeColXMLWriter(fos,&#xD;
+                 FreeColXMLWriter.WriteScope.toSave(), false);&#xD;
+         ) {&#xD;
+             xw.writeStartDocument(&quot;UTF-8&quot;, &quot;1.0&quot;);&#xD;
+&#xD;
+             xw.writeComment(FreeCol.getConfiguration().toString());&#xD;
+&#xD;
+             xw.writeStartElement(SAVED_GAME_TAG);&#xD;
+&#xD;
+             // Add the attributes:&#xD;
+             xw.writeAttribute(OWNER_TAG, FreeCol.getName());&#xD;
+&#xD;
+             xw.writeAttribute(PUBLIC_SERVER_TAG, publicServer);&#xD;
+&#xD;
+             xw.writeAttribute(SINGLE_PLAYER_TAG, singlePlayer);&#xD;
+&#xD;
+             xw.writeAttribute(FreeColSavegameFile.VERSION_TAG,&#xD;
+                               SAVEGAME_VERSION);&#xD;
+&#xD;
+             xw.writeAttribute(RANDOM_STATE_TAG, Utils.getRandomState(random));&#xD;
+&#xD;
+             xw.writeAttribute(DEBUG_TAG, FreeColDebugger.getDebugModes());&#xD;
+&#xD;
+             if (getActiveUnit() != null) {&#xD;
+                 xw.writeAttribute(ACTIVE_UNIT_TAG, getActiveUnit());&#xD;
+             }&#xD;
+         &#xD;
+             // Add server side model information:&#xD;
+             xw.writeStartElement(SERVER_OBJECTS_TAG);&#xD;
+&#xD;
+             for (ServerModelObject smo : game.getServerModelObjects()) {&#xD;
+                 xw.writeStartElement(smo.getServerXMLElementTagName());&#xD;
+&#xD;
+                 xw.writeAttribute(FreeColObject.ID_ATTRIBUTE_TAG, smo.getId());&#xD;
+&#xD;
+                 xw.writeEndElement();&#xD;
+             }&#xD;
+&#xD;
+             xw.writeEndElement();&#xD;
+&#xD;
+             game.toXML(xw); // Add the game&#xD;
+&#xD;
+             if (aiMain != null) aiMain.toXML(xw); // Add the AIObjects&#xD;
+&#xD;
+             xw.writeEndElement();&#xD;
+             xw.writeEndDocument();&#xD;
+             xw.flush();&#xD;
+         }&#xD;
+         fos.closeEntry();&#xD;
+     } catch (XMLStreamException e) {&#xD;
+         throw new IOException(&quot;Failed to save (XML)&quot;, e);&#xD;
+     } catch (Exception e) {&#xD;
+         throw new IOException(&quot;Failed to save&quot;, e);&#xD;
+     }&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8LRgFJPEeiyW7NaN4qWdw" name="loadGame" specification="_D7vzsFJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8LRgVJPEeiyW7NaN4qWdw" name="fis" type="_D644EFJPEeiyW7NaN4qWdw">
+                  <eAnnotations xmi:id="_D8LRglJPEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_D8LRg1JPEeiyW7NaN4qWdw" key="final"/>
+                  </eAnnotations>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D8LRhFJPEeiyW7NaN4qWdw" type="_D7LzAVJPEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>return loadGame(fis, null, getServer());&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8LRhVJPEeiyW7NaN4qWdw" name="readGame" specification="_D7waxFJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8LRhlJPEeiyW7NaN4qWdw" name="file" type="_D6rcsVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D8LRh1JPEeiyW7NaN4qWdw" name="spec" type="_D6--sVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D8LRiFJPEeiyW7NaN4qWdw" name="server" type="_D0fVIFJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D8LRiVJPEeiyW7NaN4qWdw" type="_D7LzAVJPEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>ServerGame g = null;&#xD;
+     try {&#xD;
+         g = FreeColServer.readGame(new FreeColSavegameFile(file),&#xD;
+                                    spec, server);&#xD;
+         logger.info(&quot;Imported file &quot; + file.getPath());&#xD;
+     } catch (Exception e) {&#xD;
+         logger.log(Level.WARNING, &quot;Import failed for &quot; + file.getPath(), e);&#xD;
+     }&#xD;
+&#xD;
+     // If importing as a result of &quot;Start Game&quot; in the map editor,&#xD;
+     // consume the file.&#xD;
+     File startGame = FreeColDirectories.getStartMapFile();&#xD;
+     if (startGame != null&#xD;
+         &amp;&amp; startGame.getPath().equals(file.getPath())) {&#xD;
+         file.delete();&#xD;
+     }&#xD;
+     return g;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8LRilJPEeiyW7NaN4qWdw" name="readGame" specification="_D7xB1FJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8LRi1JPEeiyW7NaN4qWdw" name="fis" type="_D644EFJPEeiyW7NaN4qWdw">
+                  <eAnnotations xmi:id="_D8LRjFJPEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_D8LRjVJPEeiyW7NaN4qWdw" key="final"/>
+                  </eAnnotations>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D8LRjlJPEeiyW7NaN4qWdw" name="specification" type="_D6--sVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D8LRj1JPEeiyW7NaN4qWdw" name="server" type="_D0fVIFJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D8LRkFJPEeiyW7NaN4qWdw" type="_D7LzAVJPEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>final int savegameVersion = fis.getSavegameVersion();&#xD;
+     if (savegameVersion &lt; MINIMUM_SAVEGAME_VERSION) {&#xD;
+         throw new FreeColException(&quot;server.incompatibleVersions&quot;);&#xD;
+     }&#xD;
+     logger.info(&quot;Found savegame version &quot; + savegameVersion);&#xD;
+&#xD;
+     ServerGame game = null;&#xD;
+     try (&#xD;
+         FreeColXMLReader xr = fis.getFreeColXMLReader();&#xD;
+     ) {&#xD;
+         // Switch to the read scope that creates server objects.&#xD;
+         xr.setReadScope(FreeColXMLReader.ReadScope.SERVER);&#xD;
+         &#xD;
+         String active = null;&#xD;
+         xr.nextTag();&#xD;
+&#xD;
+         if (server != null) {&#xD;
+             server.setSinglePlayer(xr.getAttribute(SINGLE_PLAYER_TAG,&#xD;
+                                                    true));&#xD;
+&#xD;
+             server.setPublicServer(xr.getAttribute(PUBLIC_SERVER_TAG,&#xD;
+                                                    false));&#xD;
+&#xD;
+             String r = xr.getAttribute(RANDOM_STATE_TAG, (String)null);&#xD;
+             server.setServerRandom(Utils.restoreRandomState(r));&#xD;
+                 &#xD;
+             FreeColDebugger.setDebugModes(xr.getAttribute(DEBUG_TAG,&#xD;
+                                                           (String)null));&#xD;
+&#xD;
+             active = xr.getAttribute(ACTIVE_UNIT_TAG, (String)null);&#xD;
+         }&#xD;
+&#xD;
+         while (xr.nextTag() != XMLStreamConstants.END_ELEMENT) {&#xD;
+             final String tag = xr.getLocalName();&#xD;
+             if (SERVER_OBJECTS_TAG.equals(tag)) { // No longer used&#xD;
+                 while (xr.nextTag() != XMLStreamConstants.END_ELEMENT) {&#xD;
+                     xr.nextTag();&#xD;
+                 }&#xD;
+&#xD;
+             } else if (Game.getXMLElementTagName().equals(tag)) {&#xD;
+                 // Read the game&#xD;
+                 game = new ServerGame(null, xr, specification);&#xD;
+                 game.setCurrentPlayer(null);&#xD;
+                 if (server != null) server.setGame(game);&#xD;
+&#xD;
+             } else if (AIMain.getXMLElementTagName().equals(tag)) {&#xD;
+                 if (server == null) break;&#xD;
+                 server.setAIMain(new AIMain(server, xr));&#xD;
+&#xD;
+             } else {&#xD;
+                 throw new XMLStreamException(&quot;Unknown tag&quot;&#xD;
+                     + &quot; reading server game: &quot; + tag);&#xD;
+             }&#xD;
+         }&#xD;
+&#xD;
+         if (server != null &amp;&amp; active != null &amp;&amp; game != null) {&#xD;
+             // Now units are all present, set active unit.&#xD;
+             Unit u = game.getFreeColGameObject(active, Unit.class);&#xD;
+             server.setActiveUnit(u);&#xD;
+         }&#xD;
+     }&#xD;
+     return game;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8LRkVJPEeiyW7NaN4qWdw" name="loadGame" specification="_D7yP8FJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8LRklJPEeiyW7NaN4qWdw" name="fis" type="_D644EFJPEeiyW7NaN4qWdw">
+                  <eAnnotations xmi:id="_D8LRk1JPEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_D8LRlFJPEeiyW7NaN4qWdw" key="final"/>
+                  </eAnnotations>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D8LRlVJPEeiyW7NaN4qWdw" name="specification" type="_D6--sVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D8LRllJPEeiyW7NaN4qWdw" name="server" type="_D7O2UVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D8LRl1JPEeiyW7NaN4qWdw" type="_D7LzAVJPEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>ServerGame game = readGame(fis, specification, this);&#xD;
+     gameState = GameState.IN_GAME;&#xD;
+     integrity = game.checkIntegrity(true);&#xD;
+     if (integrity &lt; 0) {&#xD;
+         logger.warning(&quot;Game integrity test failed.&quot;);&#xD;
+     } else {&#xD;
+         logger.info(&quot;Game integrity test &quot;&#xD;
+             + ((integrity > 0) ? &quot;succeeded&quot; : &quot;failed, but fixed&quot;) + &quot;.&quot;);&#xD;
+     }&#xD;
+&#xD;
+     int savegameVersion = fis.getSavegameVersion();&#xD;
+     // @compat 0.10.x&#xD;
+     if (savegameVersion &lt; 12) {&#xD;
+         for (Player p : game.getPlayers()) {&#xD;
+             // @compat 0.10.5&#xD;
+             if (p.isIndian()) {&#xD;
+                 for (IndianSettlement is : p.getIndianSettlements()) {&#xD;
+                     ((ServerIndianSettlement)is).updateMostHated();&#xD;
+                 }&#xD;
+             }&#xD;
+             // end @compat 0.10.5&#xD;
+&#xD;
+             if (!p.isIndian() &amp;&amp; p.getEurope() != null) {&#xD;
+                 p.initializeHighSeas();&#xD;
+&#xD;
+                 for (Unit u : p.getEurope().getUnitList()) {&#xD;
+                     // Move units to high seas.  Use setLocation()&#xD;
+                     // so that units are removed from Europe, and&#xD;
+                     // appear in correct panes in the EuropePanel&#xD;
+                     // do not set the UnitState, as this clears&#xD;
+                     // workLeft.&#xD;
+                     if (u.getState() == Unit.UnitState.TO_EUROPE) {&#xD;
+                         logger.info(&quot;Found unit on way to europe: &quot; + u);&#xD;
+                         u.setLocation(p.getHighSeas());//-vis: safe!map&#xD;
+                         u.setDestination(p.getEurope());&#xD;
+                     } else if (u.getState() == Unit.UnitState.TO_AMERICA) {&#xD;
+                         logger.info(&quot;Found unit on way to new world: &quot; + u);&#xD;
+                         u.setLocation(p.getHighSeas());//-vis: safe!map&#xD;
+                         u.setDestination(game.getMap());&#xD;
+                     }&#xD;
+                 }&#xD;
+             }&#xD;
+         }&#xD;
+&#xD;
+         for (Tile tile : game.getMap().getAllTiles()) {&#xD;
+             TerrainGenerator.encodeStyle(tile);&#xD;
+         }&#xD;
+     }&#xD;
+     // end @compat 0.10.x&#xD;
+&#xD;
+     // @compat 0.10.x&#xD;
+     game.getMap().resetContiguity();&#xD;
+     // end @compat&#xD;
+&#xD;
+     // @compat 0.10.x&#xD;
+     Player unknown = game.getUnknownEnemy();&#xD;
+     if (unknown == null) {&#xD;
+         establishUnknownEnemy(game);&#xD;
+     } else {&#xD;
+         unknown.setName(Nation.UNKNOWN_NATION_ID);&#xD;
+     }&#xD;
+     // end @compat&#xD;
+&#xD;
+     // Ensure that critical option groups can not be edited.&#xD;
+     specification = getSpecification();&#xD;
+     specification.disableEditing();&#xD;
+&#xD;
+     // AI initialization.&#xD;
+     AIMain aiMain = getAIMain();&#xD;
+     int aiIntegrity = (aiMain == null) ? -1 : aiMain.checkIntegrity(true);&#xD;
+     if (aiIntegrity &lt; 0) {&#xD;
+         aiMain = new AIMain(this);&#xD;
+         aiMain.findNewObjects(true);&#xD;
+         logger.warning(&quot;AI integrity test failed, replaced AIMain.&quot;);&#xD;
+     } else {&#xD;
+         logger.info(&quot;AI integrity test &quot;&#xD;
+             + ((aiIntegrity > 0) ? &quot;succeeded&quot; : &quot;failed, but fixed&quot;));&#xD;
+     }&#xD;
+     game.setFreeColGameObjectListener(aiMain);&#xD;
+&#xD;
+     Collections.sort(game.getPlayers(), Player.playerComparator);&#xD;
+     for (Player player : game.getLivePlayers(null)) {&#xD;
+         if (player.isAI()) {&#xD;
+             ServerPlayer serverPlayer = (ServerPlayer)player;&#xD;
+             DummyConnection theConnection&#xD;
+                 = new DummyConnection(&quot;Server-Server-&quot; + player.getName(),&#xD;
+                     getInGameInputHandler());&#xD;
+             DummyConnection aiConnection&#xD;
+                 = new DummyConnection(&quot;Server-AI-&quot; + player.getName(),&#xD;
+                     new AIInGameInputHandler(this, serverPlayer, aiMain));&#xD;
+             aiConnection.setConnection(theConnection);&#xD;
+             theConnection.setConnection(aiConnection);&#xD;
+             server.addDummyConnection(theConnection);&#xD;
+             serverPlayer.setConnection(theConnection);&#xD;
+             serverPlayer.setConnected(true);&#xD;
+         }&#xD;
+         if (player.isEuropean()) {&#xD;
+             // The map will be invalid, so trigger a recalculation of the&#xD;
+             // canSeeTiles, by calling canSee for an arbitrary tile.&#xD;
+             player.canSee(game.getMap().getTile(0, 0));&#xD;
+         }&#xD;
+     }&#xD;
+&#xD;
+     return game;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8L4kFJPEeiyW7NaN4qWdw" name="establishUnknownEnemy" specification="_D7y3AVJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8L4kVJPEeiyW7NaN4qWdw" name="game" type="_D66tQVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D8L4klJPEeiyW7NaN4qWdw" type="_D7NoMVJPEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>final Specification spec = game.getSpecification();&#xD;
+&#xD;
+     ServerPlayer enemy = new ServerPlayer(game, false,&#xD;
+         spec.getNation(Nation.UNKNOWN_NATION_ID), null, null);&#xD;
+     game.setUnknownEnemy(enemy);&#xD;
+     return enemy;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8L4k1JPEeiyW7NaN4qWdw" name="createEmptyMap" specification="_D7zeEFJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8L4lFJPEeiyW7NaN4qWdw" name="game" type="_D66tQVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D8L4lVJPEeiyW7NaN4qWdw" name="width">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D8L4llJPEeiyW7NaN4qWdw" name="height">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D8L4l1JPEeiyW7NaN4qWdw" type="_D677YVJPEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>return getMapGenerator().createEmptyMap(width, height,&#xD;
+                                             new LogBuilder(-1));&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8L4mFJPEeiyW7NaN4qWdw" name="buildGame" specification="_D0tXkFJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8L4mVJPEeiyW7NaN4qWdw" type="_D66tQVJPEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>final ServerGame game = getGame();&#xD;
+     final Specification spec = game.getSpecification();&#xD;
+     final AIMain aiMain = new AIMain(this);&#xD;
+     setAIMain(aiMain);&#xD;
+&#xD;
+     List&lt;ServerPlayer> newAI = new ArrayList&lt;>();&#xD;
+     game.setFreeColGameObjectListener(aiMain);&#xD;
+     for (Entry&lt;Nation, NationState> entry&#xD;
+              : game.getNationOptions().getNations().entrySet()) {&#xD;
+         if (entry.getKey().isUnknownEnemy()) continue;&#xD;
+         if (entry.getValue() != NationState.NOT_AVAILABLE&#xD;
+             &amp;&amp; game.getPlayerByNation(entry.getKey()) == null) {&#xD;
+             newAI.add(makeAIPlayer(entry.getKey()));&#xD;
+         }&#xD;
+     }&#xD;
+     Collections.sort(game.getPlayers(), Player.playerComparator);&#xD;
+     game.updatePlayers(newAI);&#xD;
+&#xD;
+     // We need a fake unknown enemy player&#xD;
+     establishUnknownEnemy(game);&#xD;
+&#xD;
+     // Create the map.&#xD;
+     LogBuilder lb = new LogBuilder(256);&#xD;
+     game.setMap(getMapGenerator().createMap(lb));&#xD;
+     lb.log(logger, Level.FINER);&#xD;
+     &#xD;
+     // Initial stances and randomizations for all players.&#xD;
+     spec.generateDynamicOptions();&#xD;
+     Random random = getServerRandom();&#xD;
+     for (Player player : game.getLivePlayers(null)) {&#xD;
+         ((ServerPlayer)player).randomizeGame(random);&#xD;
+         if (player.isIndian()) {&#xD;
+             // Indian players know about each other, but European colonial&#xD;
+             // players do not.&#xD;
+             final int alarm = (Tension.Level.HAPPY.getLimit()&#xD;
+                 + Tension.Level.CONTENT.getLimit()) / 2;&#xD;
+             for (Player other : game.getLiveNativePlayers(player)) {&#xD;
+                 player.setStance(other, Stance.PEACE);&#xD;
+                 for (IndianSettlement is : player.getIndianSettlements()) {&#xD;
+                     is.setAlarm(other, new Tension(alarm));&#xD;
+                 }&#xD;
+             }&#xD;
+         }&#xD;
+     }&#xD;
+&#xD;
+     // Ensure that option groups can not be edited any more.&#xD;
+     spec.getMapGeneratorOptions().setEditable(false);&#xD;
+     spec.getGameOptions().setEditable(false);&#xD;
+     spec.getOptionGroup(&quot;difficultyLevels&quot;).setEditable(false);&#xD;
+&#xD;
+     // Let the AIMain scan for objects it should be managing.&#xD;
+     aiMain.findNewObjects(true);&#xD;
+&#xD;
+     return game;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8L4mlJPEeiyW7NaN4qWdw" name="makeAIPlayer" specification="_D70FIVJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8L4m1JPEeiyW7NaN4qWdw" name="nation" type="_D68icVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D8L4nFJPEeiyW7NaN4qWdw" type="_D7NoMVJPEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>DummyConnection theConnection&#xD;
+         = new DummyConnection(&quot;Server connection - &quot; + nation.getId(),&#xD;
+             getInGameInputHandler());&#xD;
+     ServerPlayer aiPlayer = new ServerPlayer(getGame(), false, nation,&#xD;
+                                              null, theConnection);&#xD;
+     aiPlayer.setAI(true);&#xD;
+     DummyConnection aiConnection&#xD;
+         = new DummyConnection(&quot;AI connection - &quot; + nation.getId(),&#xD;
+             new AIInGameInputHandler(this, aiPlayer, getAIMain()));&#xD;
+     aiConnection.setConnection(theConnection);&#xD;
+     theConnection.setConnection(aiConnection);&#xD;
+     getServer().addDummyConnection(theConnection);&#xD;
+&#xD;
+     getGame().addPlayer(aiPlayer);&#xD;
+     // Add to the AI, which was previously deferred because the&#xD;
+     // player type was unknown.&#xD;
+     getAIMain().setFreeColGameObject(aiPlayer.getId(), aiPlayer);&#xD;
+     return aiPlayer;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8L4nVJPEeiyW7NaN4qWdw" name="removeAutosaves" specification="_D0tXkVJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8L4nlJPEeiyW7NaN4qWdw" name="prefix">
+                  <eAnnotations xmi:id="_D8L4n1JPEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_D8L4oFJPEeiyW7NaN4qWdw" key="final"/>
+                  </eAnnotations>
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>for (File autosaveFile : FreeColDirectories.getAutosaveDirectory().listFiles()) {&#xD;
+         if (autosaveFile.getName().startsWith(prefix)) {&#xD;
+             autosaveFile.delete();&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8MfoFJPEeiyW7NaN4qWdw" name="exploreMapForAllPlayers" specification="_D0t-o1JPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8MfoVJPEeiyW7NaN4qWdw" name="reveal">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>for (Player player : getGame().getLiveEuropeanPlayers(null)) {&#xD;
+         ((ServerPlayer)player).exploreMap(reveal);&#xD;
+     }&#xD;
+  &#xD;
+     // Removes fog of war when revealing the whole map&#xD;
+     // Restores previous setting when hiding it back again&#xD;
+     BooleanOption fogOfWarSetting = game.getSpecification()&#xD;
+         .getBooleanOption(GameOptions.FOG_OF_WAR);&#xD;
+     if (reveal) {&#xD;
+         FreeColDebugger.setNormalGameFogOfWar(fogOfWarSetting.getValue());&#xD;
+         fogOfWarSetting.setValue(Boolean.FALSE); &#xD;
+     } else {&#xD;
+         fogOfWarSetting.setValue(FreeColDebugger.getNormalGameFogOfWar());&#xD;
+     }&#xD;
+&#xD;
+     for (Player player : getGame().getLiveEuropeanPlayers(null)) {&#xD;
+         try {&#xD;
+             ((ServerPlayer)player).getConnection()&#xD;
+                 .send(DOMMessage.createMessage(&quot;reconnect&quot;));&#xD;
+         } catch (IOException e) {&#xD;
+             logger.log(Level.WARNING, &quot;Error sending reconnect.&quot;, e);&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8MfolJPEeiyW7NaN4qWdw" name="getPlayer" specification="_D71TQFJPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8Mfo1JPEeiyW7NaN4qWdw" name="connection" type="_D7Ba8VJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D8MfpFJPEeiyW7NaN4qWdw" type="_D7NoMVJPEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>return (ServerPlayer)find(game.getPlayers(),&#xD;
+         p -> ((ServerPlayer)p).getConnection() == connection);&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8MfpVJPEeiyW7NaN4qWdw" name="getAIPlayer" specification="_D71TQ1JPEeiyW7NaN4qWdw">
+                <ownedParameter xmi:id="_D8MfplJPEeiyW7NaN4qWdw" name="player" type="_D6-XoFJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D8Mfp1JPEeiyW7NaN4qWdw" type="_D7G6gFJPEeiyW7NaN4qWdw" direction="return"/>
+                <language>java</language>
+                <body>return getAIMain().getAIPlayer(player);&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D8MfqFJPEeiyW7NaN4qWdw" name="shutdown" specification="_D0ulsFJPEeiyW7NaN4qWdw">
+                <language>java</language>
+                <body>server.shutdown();&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_D0mC0FJPEeiyW7NaN4qWdw" name="getPublicServer" method="_D8IOOFJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8OU1FJPEeiyW7NaN4qWdw">
+                  <body>Get the public server state.&#xD;
+     *&#xD;
+     * @return The public server state.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D0mC0VJPEeiyW7NaN4qWdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D0mC0lJPEeiyW7NaN4qWdw" name="setPublicServer" method="_D8IOOlJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8OU1VJPEeiyW7NaN4qWdw">
+                  <body>Sets the public server state.&#xD;
+     *&#xD;
+     * @param publicServer The new public server state.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D0mC01JPEeiyW7NaN4qWdw" name="publicServer">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D0mp4FJPEeiyW7NaN4qWdw" name="setName" method="_D8I1QFJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8OU1lJPEeiyW7NaN4qWdw">
+                  <body>Sets the name of this server.&#xD;
+     *&#xD;
+     * @param name The new name.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D0mp4VJPEeiyW7NaN4qWdw" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D0mp4lJPEeiyW7NaN4qWdw" name="getHost" method="_D8I1QlJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8OU11JPEeiyW7NaN4qWdw">
+                  <body>Gets the host this server was started on.&#xD;
+     *&#xD;
+     * @return The host.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D0mp41JPEeiyW7NaN4qWdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D0nQ8FJPEeiyW7NaN4qWdw" name="getPort" method="_D8I1RFJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8OU2FJPEeiyW7NaN4qWdw">
+                  <body>Gets the port this server was started on.&#xD;
+     *&#xD;
+     * @return The port.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D0nQ8VJPEeiyW7NaN4qWdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D0nQ8lJPEeiyW7NaN4qWdw" name="serverStart" visibility="private" method="_D8I1RlJPEeiyW7NaN4qWdw" raisedException="_D6sq0VJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8OU2VJPEeiyW7NaN4qWdw">
+                  <body>Start a Server at port.&#xD;
+     *&#xD;
+     * If the port is specified, just try once.&#xD;
+     *&#xD;
+     * If the port is unspecified (negative), try multiple times.&#xD;
+     *&#xD;
+     * @param firstPort The port to start trying to connect at.&#xD;
+     * @return A started &lt;code>Server&lt;/code>.&#xD;
+     * @exception IOException on failure to open the port.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D0nQ81JPEeiyW7NaN4qWdw" name="firstPort">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D7qUIFJPEeiyW7NaN4qWdw" type="_D7O2UVJPEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D0n4AFJPEeiyW7NaN4qWdw" name="getSpecification" method="_D8I1SVJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8OU2lJPEeiyW7NaN4qWdw">
+                  <body>Gets the specification from the game run by this server.&#xD;
+     *&#xD;
+     * @return The specification from the game.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7qUIVJPEeiyW7NaN4qWdw" type="_D6--sVJPEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D0n4AVJPEeiyW7NaN4qWdw" name="getUserConnectionHandler" method="_D8I1S1JPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8OU21JPEeiyW7NaN4qWdw">
+                  <body>Gets the &lt;code>UserConnectionHandler&lt;/code>.&#xD;
+     *&#xD;
+     * @return The &lt;code>UserConnectionHandler&lt;/code> that is beeing used when&#xD;
+     *         new client connect.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7q7MFJPEeiyW7NaN4qWdw" type="_D7JWwVJPEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D0ofEFJPEeiyW7NaN4qWdw" name="getController" method="_D8I1TVJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8O74FJPEeiyW7NaN4qWdw">
+                  <body>Gets the &lt;code>Controller&lt;/code>.&#xD;
+     *&#xD;
+     * @return The &lt;code>Controller&lt;/code>.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7q7MVJPEeiyW7NaN4qWdw" type="_D7G6glJPEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D0ofEVJPEeiyW7NaN4qWdw" name="getPreGameInputHandler" method="_D8JcUVJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8O74VJPEeiyW7NaN4qWdw">
+                  <body>Gets the &lt;code>PreGameInputHandler&lt;/code>.&#xD;
+     *&#xD;
+     * @return The &lt;code>PreGameInputHandler&lt;/code>.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7q7MlJPEeiyW7NaN4qWdw" type="_D7IvsVJPEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D0ofElJPEeiyW7NaN4qWdw" name="getInGameInputHandler" method="_D8JcU1JPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8O74lJPEeiyW7NaN4qWdw">
+                  <body>Gets the &lt;code>InGameInputHandler&lt;/code>.&#xD;
+     *&#xD;
+     * @return The &lt;code>InGameInputHandler&lt;/code>.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7q7M1JPEeiyW7NaN4qWdw" type="_D7IIoFJPEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D0pGIFJPEeiyW7NaN4qWdw" name="getInGameController" method="_D8JcVVJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8O741JPEeiyW7NaN4qWdw">
+                  <body>Gets the controller being used while the game is running.&#xD;
+     *&#xD;
+     * @return The controller from making a new turn etc.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7q7NFJPEeiyW7NaN4qWdw" type="_D7HhkVJPEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D0pGIVJPEeiyW7NaN4qWdw" name="getAIMain" method="_D8JcWVJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8O75VJPEeiyW7NaN4qWdw">
+                  <body>Gets the main AI-object.&#xD;
+     *&#xD;
+     * @return The main AI-object which is responsible for controlling, updating&#xD;
+     *         and saving the AI objects.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7riQlJPEeiyW7NaN4qWdw" type="_D7GTcVJPEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D0ptMFJPEeiyW7NaN4qWdw" name="getIntegrity" method="_D8JcXVJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8O751JPEeiyW7NaN4qWdw">
+                  <body>Gets the integrity check result.&#xD;
+     *&#xD;
+     * @return The integrity check result.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D0ptMVJPEeiyW7NaN4qWdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D0ptMlJPEeiyW7NaN4qWdw" name="getServerRandom" method="_D8KDYlJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8O76VJPEeiyW7NaN4qWdw">
+                  <body>Gets the server random number generator.&#xD;
+     *&#xD;
+     * @return The server random number generator.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7sJUVJPEeiyW7NaN4qWdw" type="_D6w8QVJPEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D0qUQFJPEeiyW7NaN4qWdw" name="updateMetaServer" method="_D8KDaFJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8O77FJPEeiyW7NaN4qWdw">
+                  <body>Sends information about this server to the meta-server.&#xD;
+     *&#xD;
+     * Publically visible version, that is called in game.&#xD;
+     *&#xD;
+     * @return True if the MetaServer was updated.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D0qUQVJPEeiyW7NaN4qWdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D0qUQlJPEeiyW7NaN4qWdw" name="updateMetaServer" visibility="private" method="_D8KDalJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8O77VJPEeiyW7NaN4qWdw">
+                  <body>Sends information about this server to the meta-server.&#xD;
+     *&#xD;
+     * This is the master routine with private `firstTime' access&#xD;
+     * when called from the constructors.&#xD;
+     *&#xD;
+     * @param firstTime Must be true when called for the first time.&#xD;
+     * @return True if the MetaServer was updated.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D0qUQ1JPEeiyW7NaN4qWdw" name="firstTime">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D0q7UFJPEeiyW7NaN4qWdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D0q7UVJPEeiyW7NaN4qWdw" name="removeFromMetaServer" method="_D8KqcFJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8O77lJPEeiyW7NaN4qWdw">
+                  <body>Removes this server from the metaserver's list. The information is only&#xD;
+     * sent if &lt;code>public == true&lt;/code>.&#xD;
+     *&#xD;
+     * @return True if the MetaServer was updated.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D0q7UlJPEeiyW7NaN4qWdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D0q7U1JPEeiyW7NaN4qWdw" name="getSlotsAvailable" method="_D8KqclJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8O771JPEeiyW7NaN4qWdw">
+                  <body>Gets the number of player that may connect.&#xD;
+     *&#xD;
+     * @return The number of available slots for human players.  This&#xD;
+     *     number also includes european players currently controlled&#xD;
+     *     by the AI.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D0q7VFJPEeiyW7NaN4qWdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D0riYFJPEeiyW7NaN4qWdw" name="getNumberOfLivingHumanPlayers" method="_D8KqdFJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8O78FJPEeiyW7NaN4qWdw">
+                  <body>Gets the number of human players in this game that is still playing.&#xD;
+     *&#xD;
+     * @return The number of living human players.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D0riYVJPEeiyW7NaN4qWdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D0tXkFJPEeiyW7NaN4qWdw" name="buildGame" method="_D8L4mFJPEeiyW7NaN4qWdw" raisedException="_D62b0VJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8Pi91JPEeiyW7NaN4qWdw">
+                  <body>Builds a new game using the parameters that exist in the game&#xD;
+     * as it stands.&#xD;
+     *&#xD;
+     * @return The updated game.&#xD;
+     * @exception FreeColException on map generation failure.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D70FIFJPEeiyW7NaN4qWdw" type="_D66tQVJPEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D0tXkVJPEeiyW7NaN4qWdw" name="removeAutosaves" isStatic="true" method="_D8L4nVJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8Pi-VJPEeiyW7NaN4qWdw">
+                  <body>Removes automatically created save games.&#xD;
+     * Call this function to delete the automatically created save games from&#xD;
+     * a previous game.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D0t-oFJPEeiyW7NaN4qWdw" name="prefix">
+                  <eAnnotations xmi:id="_D0t-oVJPEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_D0t-olJPEeiyW7NaN4qWdw" key="final"/>
+                  </eAnnotations>
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D0t-o1JPEeiyW7NaN4qWdw" name="exploreMapForAllPlayers" method="_D8MfoFJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8Pi-lJPEeiyW7NaN4qWdw">
+                  <body>Reveals or hides the entire map for all players.&#xD;
+     * Debug menu helper.&#xD;
+     *&#xD;
+     * @param reveal If true, reveal, if false, hide.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D0t-pFJPEeiyW7NaN4qWdw" name="reveal">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D0ulsFJPEeiyW7NaN4qWdw" name="shutdown" method="_D8MfqFJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8Pi_VJPEeiyW7NaN4qWdw">
+                  <body>Shut down this FreeColServer.</body>
+                </ownedComment>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D7R5oFJPEeiyW7NaN4qWdw" name="setGameState" method="_D8JcW1JPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8O75lJPEeiyW7NaN4qWdw">
+                  <body>Sets the current state of the game.&#xD;
+     *&#xD;
+     * @param state The new state to be set.  One of:&#xD;
+     *     {@link GameState#STARTING_GAME}, {@link GameState#IN_GAME}&#xD;
+     *     and {@link GameState#ENDING_GAME}.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7R5oVJPEeiyW7NaN4qWdw" name="state" type="_D0i_gFJPEeiyW7NaN4qWdw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D7n34FJPEeiyW7NaN4qWdw" name="FreeColServer" method="_D8HnI1JPEeiyW7NaN4qWdw" raisedException="_D6sq0VJPEeiyW7NaN4qWdw">
+                <eAnnotations xmi:id="_D7oe8FJPEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_D7oe8VJPEeiyW7NaN4qWdw" key="create"/>
+                </eAnnotations>
+                <ownedComment xmi:id="_D8OU0lJPEeiyW7NaN4qWdw">
+                  <body>Starts a new server, with a new game.&#xD;
+     *&#xD;
+     * @param publicServer If true, add to the meta-server.&#xD;
+     * @param singlePlayer True if this is a single player game.&#xD;
+     * @param specification The &lt;code>Specification&lt;/code> to use in this game.&#xD;
+     * @param port The TCP port to use for the public socket.&#xD;
+     * @param name An optional name for the server.&#xD;
+     * @exception IOException If the public socket cannot be created.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7n34VJPEeiyW7NaN4qWdw" name="publicServer">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D7n34lJPEeiyW7NaN4qWdw" name="singlePlayer">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D7n341JPEeiyW7NaN4qWdw" name="specification" type="_D6--sVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D7n35FJPEeiyW7NaN4qWdw" name="port">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D7n35VJPEeiyW7NaN4qWdw" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D7oe8lJPEeiyW7NaN4qWdw" type="_D0fVIFJPEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D7pGAFJPEeiyW7NaN4qWdw" name="FreeColServer" method="_D8IOMFJPEeiyW7NaN4qWdw" raisedException="_D62b0VJPEeiyW7NaN4qWdw _D6sq0VJPEeiyW7NaN4qWdw _D61NsVJPEeiyW7NaN4qWdw">
+                <eAnnotations xmi:id="_D7ptEFJPEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_D7ptEVJPEeiyW7NaN4qWdw" key="create"/>
+                </eAnnotations>
+                <ownedComment xmi:id="_D8OU01JPEeiyW7NaN4qWdw">
+                  <body>Starts a new networked server, initializing from a saved game.&#xD;
+     *&#xD;
+     * The specification is usually null, which means it will be&#xD;
+     * initialized by extracting it from the saved game.  However&#xD;
+     * MapConverter does call this with an overriding specification.&#xD;
+     *&#xD;
+     * @param savegame The file where the game data is located.&#xD;
+     * @param specification An optional &lt;code>Specification&lt;/code> to use.&#xD;
+     * @param port The TCP port to use for the public socket.&#xD;
+     * @param name An optional name for the server.&#xD;
+     * @exception IOException If save game can not be found.&#xD;
+     * @exception FreeColException If the savegame could not be loaded.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7pGAVJPEeiyW7NaN4qWdw" name="savegame" type="_D644EFJPEeiyW7NaN4qWdw">
+                  <eAnnotations xmi:id="_D7ptE1JPEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_D7ptFFJPEeiyW7NaN4qWdw" key="final"/>
+                  </eAnnotations>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D7pGAlJPEeiyW7NaN4qWdw" name="specification" type="_D6--sVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D7pGA1JPEeiyW7NaN4qWdw" name="port">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D7pGBFJPEeiyW7NaN4qWdw" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D7ptElJPEeiyW7NaN4qWdw" type="_D0fVIFJPEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D7riQFJPEeiyW7NaN4qWdw" name="setAIMain" method="_D8JcV1JPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8O75FJPEeiyW7NaN4qWdw">
+                  <body>Sets the main AI-object.&#xD;
+     *&#xD;
+     * @param aiMain The main AI-object which is responsible for controlling,&#xD;
+     *            updating and saving the AI objects.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7riQVJPEeiyW7NaN4qWdw" name="aiMain" type="_D7GTcVJPEeiyW7NaN4qWdw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D7riQ1JPEeiyW7NaN4qWdw" name="setMapGenerator" method="_D8KDYFJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8O76FJPEeiyW7NaN4qWdw">
+                  <body>Set the map generator.&#xD;
+     *&#xD;
+     * @param mapGenerator The new &lt;code>MapGenerator&lt;/code>.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7sJUFJPEeiyW7NaN4qWdw" name="mapGenerator" type="_D7J90VJPEeiyW7NaN4qWdw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D7swYFJPEeiyW7NaN4qWdw" name="setServerRandom" method="_D8KDZFJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8O76lJPEeiyW7NaN4qWdw">
+                  <body>Sets the server random number generator.&#xD;
+     *&#xD;
+     * @param random The new random number generator.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7swYVJPEeiyW7NaN4qWdw" name="random" type="_D6w8QVJPEeiyW7NaN4qWdw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D7tXcFJPEeiyW7NaN4qWdw" name="setActiveUnit" method="_D8KDZlJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8O761JPEeiyW7NaN4qWdw">
+                  <body>Gets the active unit specified in a saved game, if any.&#xD;
+     *&#xD;
+     * @param unit The active unit to save.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7tXcVJPEeiyW7NaN4qWdw" name="unit" type="_D7Az4VJPEeiyW7NaN4qWdw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D7t-gFJPEeiyW7NaN4qWdw" name="saveGame" method="_D8KqdlJPEeiyW7NaN4qWdw" raisedException="_D6sq0VJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8O78VJPEeiyW7NaN4qWdw">
+                  <body>Saves a game.&#xD;
+     *&#xD;
+     * @param file The file where the data will be written.&#xD;
+     * @exception IOException If a problem was encountered while trying&#xD;
+     *     to open, write or close the file.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7t-gVJPEeiyW7NaN4qWdw" name="file" type="_D6rcsVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D7t-glJPEeiyW7NaN4qWdw" name="options" type="_D7DQIVJPEeiyW7NaN4qWdw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D7ulkFJPEeiyW7NaN4qWdw" name="saveMapEditorGame" method="_D8KqeVJPEeiyW7NaN4qWdw" raisedException="_D6sq0VJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8O78lJPEeiyW7NaN4qWdw">
+                  <body>Save a game from the map editor.&#xD;
+     *&#xD;
+     * @param file The file where the data will be written.&#xD;
+     * @param image A thumbnail image for the map.&#xD;
+     * @exception IOException If a problem was encountered while trying&#xD;
+     *     to open, write or close the file.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7ulkVJPEeiyW7NaN4qWdw" name="file" type="_D6rcsVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D7ulklJPEeiyW7NaN4qWdw" name="image" type="_D6q1oFJPEeiyW7NaN4qWdw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D7vMoFJPEeiyW7NaN4qWdw" name="saveGame" method="_D8KqfFJPEeiyW7NaN4qWdw" raisedException="_D6sq0VJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8Pi8FJPEeiyW7NaN4qWdw">
+                  <body>Saves a game.&#xD;
+     *&#xD;
+     * @param file The file where the data will be written.&#xD;
+     * @param options Optional client options to save in the game.&#xD;
+     * @param image A thumbnail &lt;code>Image&lt;/code> value to save in the game.&#xD;
+     * @exception IOException If a problem was encountered while trying&#xD;
+     *     to open, write or close the file.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7vMoVJPEeiyW7NaN4qWdw" name="file" type="_D6rcsVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D7vMolJPEeiyW7NaN4qWdw" name="options" type="_D7DQIVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D7vMo1JPEeiyW7NaN4qWdw" name="image" type="_D6q1oFJPEeiyW7NaN4qWdw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D7vzsFJPEeiyW7NaN4qWdw" name="loadGame" method="_D8LRgFJPEeiyW7NaN4qWdw" raisedException="_D6sq0VJPEeiyW7NaN4qWdw _D62b0VJPEeiyW7NaN4qWdw _D61NsVJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8Pi8VJPEeiyW7NaN4qWdw">
+                  <body>Loads a game.&#xD;
+     *&#xD;
+     * @param fis The file where the game data is located.&#xD;
+     * @return The game found in the stream.&#xD;
+     * @exception FreeColException if the savegame contains incompatible data.&#xD;
+     * @exception IOException if the stream can not be created.&#xD;
+     * @exception XMLStreamException if there is a problem reading the stream.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7wawFJPEeiyW7NaN4qWdw" name="fis" type="_D644EFJPEeiyW7NaN4qWdw">
+                  <eAnnotations xmi:id="_D7wawlJPEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_D7waw1JPEeiyW7NaN4qWdw" key="final"/>
+                  </eAnnotations>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D7wawVJPEeiyW7NaN4qWdw" type="_D7LzAVJPEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D7waxFJPEeiyW7NaN4qWdw" name="readGame" isStatic="true" method="_D8LRhVJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8Pi8lJPEeiyW7NaN4qWdw">
+                  <body>Read just the game part from a file.&#xD;
+     *&#xD;
+     * When the specification is not supplied, the one found in the saved&#xD;
+     * game will be used.&#xD;
+     *&#xD;
+     * @param file The &lt;code>File&lt;/code> to read from.&#xD;
+     * @param spec An optional &lt;code>Specification&lt;/code> to use.&#xD;
+     * @param server Use this (optional) server to load into.&#xD;
+     * @return The game found in the stream.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7xB0FJPEeiyW7NaN4qWdw" name="file" type="_D6rcsVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D7xB0VJPEeiyW7NaN4qWdw" name="spec" type="_D6--sVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D7xB0lJPEeiyW7NaN4qWdw" name="server" type="_D0fVIFJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D7xB01JPEeiyW7NaN4qWdw" type="_D7LzAVJPEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D7xB1FJPEeiyW7NaN4qWdw" name="readGame" isStatic="true" method="_D8LRilJPEeiyW7NaN4qWdw" raisedException="_D6sq0VJPEeiyW7NaN4qWdw _D62b0VJPEeiyW7NaN4qWdw _D61NsVJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8Pi81JPEeiyW7NaN4qWdw">
+                  <body>Reads just the game part from a save game from a stream.&#xD;
+     *&#xD;
+     * When the specification is not supplied, the one found in the saved&#xD;
+     * game will be used.&#xD;
+     *&#xD;
+     * @param fis The stream to read from.&#xD;
+     * @param specification An optional &lt;code>Specification&lt;/code> to use.&#xD;
+     * @param server Use this (optional) server to load into.&#xD;
+     * @return The game found in the stream.&#xD;
+     * @exception FreeColException if the format is incompatible.&#xD;
+     * @exception IOException if the stream can not be created.&#xD;
+     * @exception XMLStreamException if there is a problem reading the stream.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7xo4FJPEeiyW7NaN4qWdw" name="fis" type="_D644EFJPEeiyW7NaN4qWdw">
+                  <eAnnotations xmi:id="_D7xo5FJPEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_D7xo5VJPEeiyW7NaN4qWdw" key="final"/>
+                  </eAnnotations>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D7xo4VJPEeiyW7NaN4qWdw" name="specification" type="_D6--sVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D7xo4lJPEeiyW7NaN4qWdw" name="server" type="_D0fVIFJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D7xo41JPEeiyW7NaN4qWdw" type="_D7LzAVJPEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D7yP8FJPEeiyW7NaN4qWdw" name="loadGame" visibility="private" method="_D8LRkVJPEeiyW7NaN4qWdw" raisedException="_D62b0VJPEeiyW7NaN4qWdw _D6sq0VJPEeiyW7NaN4qWdw _D61NsVJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8Pi9FJPEeiyW7NaN4qWdw">
+                  <body>Loads a game.&#xD;
+     *&#xD;
+     * @param fis The file where the game data is located.&#xD;
+     * @param specification The &lt;code>Specification&lt;/code> to refer to.&#xD;
+     * @param server The server to connect the AI players to.&#xD;
+     * @return The new game.&#xD;
+     * @exception FreeColException if the savegame contains incompatible data.&#xD;
+     * @exception IOException if the stream can not be created.&#xD;
+     * @exception XMLStreamException if there a problem reading the stream.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7yP8VJPEeiyW7NaN4qWdw" name="fis" type="_D644EFJPEeiyW7NaN4qWdw">
+                  <eAnnotations xmi:id="_D7yP9VJPEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_D7y3AFJPEeiyW7NaN4qWdw" key="final"/>
+                  </eAnnotations>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D7yP8lJPEeiyW7NaN4qWdw" name="specification" type="_D6--sVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D7yP81JPEeiyW7NaN4qWdw" name="server" type="_D7O2UVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D7yP9FJPEeiyW7NaN4qWdw" type="_D7LzAVJPEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D7y3AVJPEeiyW7NaN4qWdw" name="establishUnknownEnemy" visibility="private" method="_D8L4kFJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8Pi9VJPEeiyW7NaN4qWdw">
+                  <body>Add option to capture units under repair in a colony.&#xD;
+     * Establish a new unknown enemy player.&#xD;
+     *&#xD;
+     * @param game The &lt;code>Game&lt;/code> to establish the enemy within.&#xD;
+     * @return The new unknown enemy &lt;code>Player&lt;/code>.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7y3AlJPEeiyW7NaN4qWdw" name="game" type="_D66tQVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D7y3A1JPEeiyW7NaN4qWdw" type="_D7NoMVJPEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D7zeEFJPEeiyW7NaN4qWdw" name="createEmptyMap" method="_D8L4k1JPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8Pi9lJPEeiyW7NaN4qWdw">
+                  <body>Create an empty map.&#xD;
+     *&#xD;
+     * Public for the map generator.&#xD;
+     *&#xD;
+     * @param game The &lt;code>Game&lt;/code> to create the map for.&#xD;
+     * @param width The map width.&#xD;
+     * @param height The map height.&#xD;
+     * @return The new empty &lt;code>Map&lt;/code>.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D7zeEVJPEeiyW7NaN4qWdw" name="game" type="_D66tQVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D7zeElJPEeiyW7NaN4qWdw" name="width">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D7zeE1JPEeiyW7NaN4qWdw" name="height">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_D7zeFFJPEeiyW7NaN4qWdw" type="_D677YVJPEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D70FIVJPEeiyW7NaN4qWdw" name="makeAIPlayer" method="_D8L4mlJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8Pi-FJPEeiyW7NaN4qWdw">
+                  <body>Make a new AI player and add it to the game.&#xD;
+     *&#xD;
+     * Public so the controller can add REF players.&#xD;
+     *&#xD;
+     * @param nation The &lt;code>Nation&lt;/code> to add.&#xD;
+     * @return The new AI &lt;code>ServerPlayer&lt;/code>.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D70sMFJPEeiyW7NaN4qWdw" name="nation" type="_D68icVJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D70sMVJPEeiyW7NaN4qWdw" type="_D7NoMVJPEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D71TQFJPEeiyW7NaN4qWdw" name="getPlayer" method="_D8MfolJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8Pi-1JPEeiyW7NaN4qWdw">
+                  <body>Gets a &lt;code>Player&lt;/code> specified by a connection.&#xD;
+     *&#xD;
+     * @param connection The connection to use while searching for a&#xD;
+     *            &lt;code>ServerPlayer&lt;/code>.&#xD;
+     * @return The player.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D71TQVJPEeiyW7NaN4qWdw" name="connection" type="_D7Ba8VJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D71TQlJPEeiyW7NaN4qWdw" type="_D7NoMVJPEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_D71TQ1JPEeiyW7NaN4qWdw" name="getAIPlayer" method="_D8MfpVJPEeiyW7NaN4qWdw">
+                <ownedComment xmi:id="_D8Pi_FJPEeiyW7NaN4qWdw">
+                  <body>Gets the AI player corresponding to a given player.&#xD;
+     *&#xD;
+     * @param player The &lt;code>Player&lt;/code> to look up.&#xD;
+     * @return The corresponding AI player, or null if not found.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_D716UFJPEeiyW7NaN4qWdw" name="player" type="_D6-XoFJPEeiyW7NaN4qWdw"/>
+                <ownedParameter xmi:id="_D716UVJPEeiyW7NaN4qWdw" type="_D7G6gFJPEeiyW7NaN4qWdw" direction="return"/>
+              </ownedOperation>
+              <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_D0i_gFJPEeiyW7NaN4qWdw" name="GameState">
+                <eAnnotations xmi:id="_D0i_gVJPEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_D0i_glJPEeiyW7NaN4qWdw" key="static"/>
+                </eAnnotations>
+                <ownedComment xmi:id="_D8NtwVJPEeiyW7NaN4qWdw">
+                  <body>Games are either starting, ending or being played.</body>
+                </ownedComment>
+                <ownedLiteral xmi:id="_D0jmkVJPEeiyW7NaN4qWdw" name="STARTING_GAME"/>
+                <ownedLiteral xmi:id="_D0jmklJPEeiyW7NaN4qWdw" name="IN_GAME"/>
+                <ownedLiteral xmi:id="_D0jmk1JPEeiyW7NaN4qWdw" name="ENDING_GAME"/>
+              </nestedClassifier>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_D8OU0FJPEeiyW7NaN4qWdw" name="" memberEnd="_D8DVs1JPEeiyW7NaN4qWdw _D8OU0VJPEeiyW7NaN4qWdw">
+              <ownedEnd xmi:id="_D8OU0VJPEeiyW7NaN4qWdw" name="" type="_D0fVIFJPEeiyW7NaN4qWdw" association="_D8OU0FJPEeiyW7NaN4qWdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_D8R_MFJPEeiyW7NaN4qWdw" name="" memberEnd="_D8R_MVJPEeiyW7NaN4qWdw _D78A8FJPEeiyW7NaN4qWdw">
+              <ownedEnd xmi:id="_D8R_MVJPEeiyW7NaN4qWdw" name="" type="_D0fVIFJPEeiyW7NaN4qWdw" association="_D8R_MFJPEeiyW7NaN4qWdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_D8SmQVJPEeiyW7NaN4qWdw" name="" memberEnd="_D8SmQlJPEeiyW7NaN4qWdw _D8A5c1JPEeiyW7NaN4qWdw">
+              <ownedEnd xmi:id="_D8SmQlJPEeiyW7NaN4qWdw" name="" type="_D0fVIFJPEeiyW7NaN4qWdw" association="_D8SmQVJPEeiyW7NaN4qWdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_D8TNUVJPEeiyW7NaN4qWdw" name="" memberEnd="_D8TNUlJPEeiyW7NaN4qWdw _D8BggFJPEeiyW7NaN4qWdw">
+              <ownedEnd xmi:id="_D8TNUlJPEeiyW7NaN4qWdw" name="" type="_D0fVIFJPEeiyW7NaN4qWdw" association="_D8TNUVJPEeiyW7NaN4qWdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_D8TNVFJPEeiyW7NaN4qWdw" name="" memberEnd="_D8TNVVJPEeiyW7NaN4qWdw _D8BgglJPEeiyW7NaN4qWdw">
+              <ownedEnd xmi:id="_D8TNVVJPEeiyW7NaN4qWdw" name="" type="_D0fVIFJPEeiyW7NaN4qWdw" association="_D8TNVFJPEeiyW7NaN4qWdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_D8T0YVJPEeiyW7NaN4qWdw" name="" memberEnd="_D8T0YlJPEeiyW7NaN4qWdw _D8CHkVJPEeiyW7NaN4qWdw">
+              <ownedEnd xmi:id="_D8T0YlJPEeiyW7NaN4qWdw" name="" type="_D0fVIFJPEeiyW7NaN4qWdw" association="_D8T0YVJPEeiyW7NaN4qWdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_D8UbcVJPEeiyW7NaN4qWdw" name="" memberEnd="_D8UbclJPEeiyW7NaN4qWdw _D8CuoFJPEeiyW7NaN4qWdw">
+              <ownedEnd xmi:id="_D8UbclJPEeiyW7NaN4qWdw" name="" type="_D0fVIFJPEeiyW7NaN4qWdw" association="_D8UbcVJPEeiyW7NaN4qWdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_D8UbdFJPEeiyW7NaN4qWdw" name="" memberEnd="_D8UbdVJPEeiyW7NaN4qWdw _D8CuolJPEeiyW7NaN4qWdw">
+              <ownedEnd xmi:id="_D8UbdVJPEeiyW7NaN4qWdw" name="" type="_D0fVIFJPEeiyW7NaN4qWdw" association="_D8UbdFJPEeiyW7NaN4qWdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_D8VCgVJPEeiyW7NaN4qWdw" name="" memberEnd="_D8VCglJPEeiyW7NaN4qWdw _D8DVsVJPEeiyW7NaN4qWdw">
+              <ownedEnd xmi:id="_D8VCglJPEeiyW7NaN4qWdw" name="" type="_D0fVIFJPEeiyW7NaN4qWdw" association="_D8VCgVJPEeiyW7NaN4qWdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_D8VpkFJPEeiyW7NaN4qWdw" name="" memberEnd="_D8VpkVJPEeiyW7NaN4qWdw _D8D8wFJPEeiyW7NaN4qWdw">
+              <ownedEnd xmi:id="_D8VpkVJPEeiyW7NaN4qWdw" name="" type="_D0fVIFJPEeiyW7NaN4qWdw" association="_D8VpkFJPEeiyW7NaN4qWdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_D8Vpk1JPEeiyW7NaN4qWdw" name="" memberEnd="_D8VplFJPEeiyW7NaN4qWdw _D8D8wlJPEeiyW7NaN4qWdw">
+              <ownedEnd xmi:id="_D8VplFJPEeiyW7NaN4qWdw" name="" type="_D0fVIFJPEeiyW7NaN4qWdw" association="_D8Vpk1JPEeiyW7NaN4qWdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_D8WQoVJPEeiyW7NaN4qWdw" name="" memberEnd="_D8WQolJPEeiyW7NaN4qWdw _D8FK4FJPEeiyW7NaN4qWdw">
+              <ownedEnd xmi:id="_D8WQolJPEeiyW7NaN4qWdw" name="" type="_D0fVIFJPEeiyW7NaN4qWdw" association="_D8WQoVJPEeiyW7NaN4qWdw"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_D610wVJPEeiyW7NaN4qWdw" name="FreeCol"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_D0FsglJPEeiyW7NaN4qWdw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_D0Fsg1JPEeiyW7NaN4qWdw" name="awt">
+        <packagedElement xmi:type="uml:Package" xmi:id="_D0FshFJPEeiyW7NaN4qWdw" name="image">
+          <packagedElement xmi:type="uml:Class" xmi:id="_D6q1oFJPEeiyW7NaN4qWdw" name="BufferedImage"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_D0FshVJPEeiyW7NaN4qWdw" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_D6rcsVJPEeiyW7NaN4qWdw" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_D6sDwVJPEeiyW7NaN4qWdw" name="FileOutputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_D6sq0VJPEeiyW7NaN4qWdw" name="IOException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_D0FshlJPEeiyW7NaN4qWdw" name="net">
+        <packagedElement xmi:type="uml:Class" xmi:id="_D6tR4VJPEeiyW7NaN4qWdw" name="BindException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_D6t48FJPEeiyW7NaN4qWdw" name="InetAddress"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_D0Fsh1JPEeiyW7NaN4qWdw" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_D0FsiFJPEeiyW7NaN4qWdw" name="Map">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_D6vuIVJPEeiyW7NaN4qWdw" name="Entry"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_D0GTkFJPEeiyW7NaN4qWdw" name="jar">
+          <packagedElement xmi:type="uml:Class" xmi:id="_D6yKYVJPEeiyW7NaN4qWdw" name="JarEntry"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_D6yxcVJPEeiyW7NaN4qWdw" name="JarOutputStream"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_D0GTkVJPEeiyW7NaN4qWdw" name="logging">
+          <packagedElement xmi:type="uml:Class" xmi:id="_D6zYgVJPEeiyW7NaN4qWdw" name="Level"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_D6z_kVJPEeiyW7NaN4qWdw" name="Logger"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_D6t48lJPEeiyW7NaN4qWdw" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_D6ugAVJPEeiyW7NaN4qWdw" name="Collections"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_D6vHEVJPEeiyW7NaN4qWdw" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_D6wVMVJPEeiyW7NaN4qWdw" name="Properties"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_D6w8QVJPEeiyW7NaN4qWdw" name="Random"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_D6xjUFJPEeiyW7NaN4qWdw" name="Timer"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_D6xjUlJPEeiyW7NaN4qWdw" name="TimerTask"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_D0GTklJPEeiyW7NaN4qWdw" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_D0GTk1JPEeiyW7NaN4qWdw" name="imageio">
+        <packagedElement xmi:type="uml:Class" xmi:id="_D6z_k1JPEeiyW7NaN4qWdw" name="ImageIO"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_D0GTlFJPEeiyW7NaN4qWdw" name="xml">
+        <packagedElement xmi:type="uml:Package" xmi:id="_D0GTlVJPEeiyW7NaN4qWdw" name="stream">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_D60moVJPEeiyW7NaN4qWdw" name="XMLStreamConstants"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_D61NsVJPEeiyW7NaN4qWdw" name="XMLStreamException"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_D0IIw1JPEeiyW7NaN4qWdw" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_D0IIxFJPEeiyW7NaN4qWdw" name="w3c">
+        <packagedElement xmi:type="uml:Package" xmi:id="_D0IIxVJPEeiyW7NaN4qWdw" name="dom">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_D7PdYVJPEeiyW7NaN4qWdw" name="Element"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_DWNds1JPEeiyW7NaN4qWdw">
+      <eAnnotations xmi:id="_DWNdtFJPEeiyW7NaN4qWdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_DWOEwFJPEeiyW7NaN4qWdw" base_Package="_CyMKoFJPEeiyW7NaN4qWdw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_D0jmkFJPEeiyW7NaN4qWdw" base_Element="_D0i_gFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D6rcsFJPEeiyW7NaN4qWdw" base_Element="_D6q1oFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D6sDwFJPEeiyW7NaN4qWdw" base_Element="_D6rcsVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D6sq0FJPEeiyW7NaN4qWdw" base_Element="_D6sDwVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D6tR4FJPEeiyW7NaN4qWdw" base_Element="_D6sq0VJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D6tR4lJPEeiyW7NaN4qWdw" base_Element="_D6tR4VJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D6t48VJPEeiyW7NaN4qWdw" base_Element="_D6t48FJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D6ugAFJPEeiyW7NaN4qWdw" base_Element="_D6t48lJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D6vHEFJPEeiyW7NaN4qWdw" base_Element="_D6ugAVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D6vuIFJPEeiyW7NaN4qWdw" base_Element="_D6vHEVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D6wVMFJPEeiyW7NaN4qWdw" base_Element="_D6vuIVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D6w8QFJPEeiyW7NaN4qWdw" base_Element="_D6wVMVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D6w8QlJPEeiyW7NaN4qWdw" base_Element="_D6w8QVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D6xjUVJPEeiyW7NaN4qWdw" base_Element="_D6xjUFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D6yKYFJPEeiyW7NaN4qWdw" base_Element="_D6xjUlJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D6yxcFJPEeiyW7NaN4qWdw" base_Element="_D6yKYVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D6zYgFJPEeiyW7NaN4qWdw" base_Element="_D6yxcVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D6z_kFJPEeiyW7NaN4qWdw" base_Element="_D6zYgVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D6z_klJPEeiyW7NaN4qWdw" base_Element="_D6z_kVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D60moFJPEeiyW7NaN4qWdw" base_Element="_D6z_k1JPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D61NsFJPEeiyW7NaN4qWdw" base_Element="_D60moVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D610wFJPEeiyW7NaN4qWdw" base_Element="_D61NsVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D62b0FJPEeiyW7NaN4qWdw" base_Element="_D610wVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D63C4FJPEeiyW7NaN4qWdw" base_Element="_D62b0VJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D63C4lJPEeiyW7NaN4qWdw" base_Element="_D63C4VJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D64RAFJPEeiyW7NaN4qWdw" base_Element="_D63p8FJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D64RAlJPEeiyW7NaN4qWdw" base_Element="_D64RAVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D644EVJPEeiyW7NaN4qWdw" base_Element="_D644EFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D65fIFJPEeiyW7NaN4qWdw" base_Element="_D644ElJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D66GMFJPEeiyW7NaN4qWdw" base_Element="_D65fIVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D66tQFJPEeiyW7NaN4qWdw" base_Element="_D66GMVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D67UUFJPEeiyW7NaN4qWdw" base_Element="_D66tQVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D67UUlJPEeiyW7NaN4qWdw" base_Element="_D67UUVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D677YFJPEeiyW7NaN4qWdw" base_Element="_D67UU1JPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D68icFJPEeiyW7NaN4qWdw" base_Element="_D677YVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D69JgFJPEeiyW7NaN4qWdw" base_Element="_D68icVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D69wkFJPEeiyW7NaN4qWdw" base_Element="_D69JgVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D69wklJPEeiyW7NaN4qWdw" base_Element="_D69wkVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D6-XoVJPEeiyW7NaN4qWdw" base_Element="_D6-XoFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D6--sFJPEeiyW7NaN4qWdw" base_Element="_D6-XolJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D6_lwFJPEeiyW7NaN4qWdw" base_Element="_D6--sVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7AM0FJPEeiyW7NaN4qWdw" base_Element="_D6_lwVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7Az4FJPEeiyW7NaN4qWdw" base_Element="_D7AM0VJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7Ba8FJPEeiyW7NaN4qWdw" base_Element="_D7Az4VJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7CCAFJPEeiyW7NaN4qWdw" base_Element="_D7Ba8VJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7CpEFJPEeiyW7NaN4qWdw" base_Element="_D7CCAVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7DQIFJPEeiyW7NaN4qWdw" base_Element="_D7CpEVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7DQIlJPEeiyW7NaN4qWdw" base_Element="_D7DQIVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7D3MVJPEeiyW7NaN4qWdw" base_Element="_D7D3MFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7EeQVJPEeiyW7NaN4qWdw" base_Element="_D7EeQFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7FFUFJPEeiyW7NaN4qWdw" base_Element="_D7EeQlJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7GTcFJPEeiyW7NaN4qWdw" base_Element="_D7FsYFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7GTclJPEeiyW7NaN4qWdw" base_Element="_D7GTcVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7G6gVJPEeiyW7NaN4qWdw" base_Element="_D7G6gFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7HhkFJPEeiyW7NaN4qWdw" base_Element="_D7G6glJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7HhklJPEeiyW7NaN4qWdw" base_Element="_D7HhkVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7IIoVJPEeiyW7NaN4qWdw" base_Element="_D7IIoFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7IvsFJPEeiyW7NaN4qWdw" base_Element="_D7IIolJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7JWwFJPEeiyW7NaN4qWdw" base_Element="_D7IvsVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7J90FJPEeiyW7NaN4qWdw" base_Element="_D7JWwVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7Kk4FJPEeiyW7NaN4qWdw" base_Element="_D7J90VJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7LL8FJPEeiyW7NaN4qWdw" base_Element="_D7Kk4VJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7LzAFJPEeiyW7NaN4qWdw" base_Element="_D7LL8VJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7MaEFJPEeiyW7NaN4qWdw" base_Element="_D7LzAVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7MaElJPEeiyW7NaN4qWdw" base_Element="_D7MaEVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7NoMFJPEeiyW7NaN4qWdw" base_Element="_D7NBIFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7NoMlJPEeiyW7NaN4qWdw" base_Element="_D7NoMVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7OPQFJPEeiyW7NaN4qWdw" base_Element="_D7NoM1JPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7O2UFJPEeiyW7NaN4qWdw" base_Element="_D7OPQVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7PdYFJPEeiyW7NaN4qWdw" base_Element="_D7O2UVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D7QEcFJPEeiyW7NaN4qWdw" base_Element="_D7PdYVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_D7_EQFJPEeiyW7NaN4qWdw" base_Element="_D7-dNlJPEeiyW7NaN4qWdw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_D7_EQVJPEeiyW7NaN4qWdw" name="getSinglePlayer" method="_D8HAEFJPEeiyW7NaN4qWdw">
+      <ownedParameter xmi:id="_D7_rUlJPEeiyW7NaN4qWdw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_D7_rUFJPEeiyW7NaN4qWdw" name="setSinglePlayer" method="_D8HnIVJPEeiyW7NaN4qWdw">
+      <ownedParameter xmi:id="_D7_rUVJPEeiyW7NaN4qWdw" name="singlePlayer">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_D8ASYlJPEeiyW7NaN4qWdw" base_Element="_D8ASYFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_D8BggVJPEeiyW7NaN4qWdw" base_Element="_D8BggFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_D8CHkFJPEeiyW7NaN4qWdw" base_Element="_D8BgglJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_D8CHklJPEeiyW7NaN4qWdw" base_Element="_D8CHkVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_D8CuoVJPEeiyW7NaN4qWdw" base_Element="_D8CuoFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_D8DVsFJPEeiyW7NaN4qWdw" base_Element="_D8CuolJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_D8DVslJPEeiyW7NaN4qWdw" base_Element="_D8DVsVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_D8Ej0FJPEeiyW7NaN4qWdw" base_Element="_D8D8wlJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_D8Ej01JPEeiyW7NaN4qWdw" base_Element="_D8Ej0VJPEeiyW7NaN4qWdw"/>
+  <uml:OpaqueBehavior xmi:id="_D8HAEFJPEeiyW7NaN4qWdw" name="getSinglePlayer" specification="_D7_EQVJPEeiyW7NaN4qWdw">
+    <ownedParameter xmi:id="_D8HnIFJPEeiyW7NaN4qWdw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return this.singlePlayer;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_D8HnIVJPEeiyW7NaN4qWdw" name="setSinglePlayer" specification="_D7_rUFJPEeiyW7NaN4qWdw">
+    <ownedParameter xmi:id="_D8HnIlJPEeiyW7NaN4qWdw" name="singlePlayer">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.singlePlayer = singlePlayer;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_D8SmQFJPEeiyW7NaN4qWdw" base_Element="_D8R_MFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D8TNUFJPEeiyW7NaN4qWdw" base_Element="_D8SmQVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D8TNU1JPEeiyW7NaN4qWdw" base_Element="_D8TNUVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D8T0YFJPEeiyW7NaN4qWdw" base_Element="_D8TNVFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D8UbcFJPEeiyW7NaN4qWdw" base_Element="_D8T0YVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D8Ubc1JPEeiyW7NaN4qWdw" base_Element="_D8UbcVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D8VCgFJPEeiyW7NaN4qWdw" base_Element="_D8UbdFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D8VCg1JPEeiyW7NaN4qWdw" base_Element="_D8VCgVJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D8VpklJPEeiyW7NaN4qWdw" base_Element="_D8VpkFJPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D8WQoFJPEeiyW7NaN4qWdw" base_Element="_D8Vpk1JPEeiyW7NaN4qWdw"/>
+  <UMLLabProfile:Reference xmi:id="_D8W3sFJPEeiyW7NaN4qWdw" base_Element="_D8WQoVJPEeiyW7NaN4qWdw"/>
+</xmi:XMI>

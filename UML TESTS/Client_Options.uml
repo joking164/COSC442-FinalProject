@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_cVAzgFIhEeibjuLm5_lcNQ" name="Client_Options">
+    <eAnnotations xmi:id="_cfassFIhEeibjuLm5_lcNQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_cfassVIhEeibjuLm5_lcNQ" source="codegen">
+        <details xmi:id="_cfasslIhEeibjuLm5_lcNQ" key="codegenDirectory" value="/COSC442-FinalProject/src"/>
+        <details xmi:id="_dmbYEFIhEeibjuLm5_lcNQ" key="AssociatedSourceCode" value="/COSC442-FinalProject/src/net/sf/freecol/client/ClientOptions.java;3633054031/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_dS0fkFIhEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_dS1GoFIhEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_dS1GoVIhEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_dS1GolIhEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_dS1Go1IhEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_dS1GpFIhEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_dS1GpVIhEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_dS1GplIhEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_dS1Gp1IhEeibjuLm5_lcNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_dRtFQFIhEeibjuLm5_lcNQ" name="net">
+      <packagedElement xmi:type="uml:Package" xmi:id="_dRtsUFIhEeibjuLm5_lcNQ" name="sf">
+        <packagedElement xmi:type="uml:Package" xmi:id="_dRtsUVIhEeibjuLm5_lcNQ" name="freecol">
+          <packagedElement xmi:type="uml:Package" xmi:id="_dRwvo1IhEeibjuLm5_lcNQ" name="common">
+            <packagedElement xmi:type="uml:Package" xmi:id="_dRwvpFIhEeibjuLm5_lcNQ" name="io">
+              <packagedElement xmi:type="uml:Class" xmi:id="_dcy68VIhEeibjuLm5_lcNQ" name="FreeColDirectories"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_dcziAVIhEeibjuLm5_lcNQ" name="FreeColModFile"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_dc0wIVIhEeibjuLm5_lcNQ" name="FreeColSavegameFile"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_dc1-QVIhEeibjuLm5_lcNQ" name="FreeColXMLReader"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_dc3MYFIhEeibjuLm5_lcNQ" name="Mods"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_dRxWsFIhEeibjuLm5_lcNQ" name="model">
+              <packagedElement xmi:type="uml:Class" xmi:id="_dc3zcFIhEeibjuLm5_lcNQ" name="Colony"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_dc4agFIhEeibjuLm5_lcNQ" name="Europe"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_dc5BkFIhEeibjuLm5_lcNQ" name="FreeColGameObject"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_dc5BklIhEeibjuLm5_lcNQ" name="Game"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_dc5ooVIhEeibjuLm5_lcNQ" name="Location"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_dc6PsVIhEeibjuLm5_lcNQ" name="ModelMessage"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_dc7d0FIhEeibjuLm5_lcNQ" name="Player"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_dc8E4VIhEeibjuLm5_lcNQ" name="Unit"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_dRx9wFIhEeibjuLm5_lcNQ" name="option">
+              <packagedElement xmi:type="uml:Class" xmi:id="_dc8r8VIhEeibjuLm5_lcNQ" name="BooleanOption"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_dc96EFIhEeibjuLm5_lcNQ" name="IntegerOption"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_dc-hIVIhEeibjuLm5_lcNQ" name="ModListOption"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_dc_IMVIhEeibjuLm5_lcNQ" name="OptionGroup"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_dc_vQVIhEeibjuLm5_lcNQ" name="RangeOption"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_ddAWUVIhEeibjuLm5_lcNQ" name="TextOption"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_dRyk0FIhEeibjuLm5_lcNQ" name="util">
+              <packagedElement xmi:type="uml:Class" xmi:id="_ddA9YVIhEeibjuLm5_lcNQ" name="Utils"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_dSRF8FIhEeibjuLm5_lcNQ" name="client">
+            <packagedElement xmi:type="uml:Class" xmi:id="_dSwOIFIhEeibjuLm5_lcNQ" name="ClientOptions">
+              <ownedComment xmi:id="_dflJMFIhEeibjuLm5_lcNQ">
+                <body>Defines how available client options are displayed on the Setting&#xD;
+dialog from File/Preferences Also contains several Comparators used&#xD;
+for display purposes.&#xD;
+ *&#xD;
+Most available client options and their default values are defined&#xD;
+in the file &lt;code>base/client-options.xml&lt;/code> in the FreeCol&#xD;
+data directory. They are overridden by the player's personal&#xD;
+settings in the file &lt;code>options.xml&lt;/code> in the user&#xD;
+directory. Note that some options are generated and added dynamically.&#xD;
+ *&#xD;
+Each option should be given an unique identifier (defined as a&#xD;
+constant in this class). In general, the options are called&#xD;
+something like &quot;model.option.UNIQUENAME&quot;. Since the options must&#xD;
+also be represented by the GUI, they following two keys must be&#xD;
+added to the file &lt;code>FreeColMessages.properties&lt;/code>:&#xD;
+ *&#xD;
+&lt;ul>&lt;li>model.option.UNIQUENAME.name&lt;/li>&#xD;
+&lt;li>model.option.UNIQUENAME.shortDescription&lt;/li>&lt;/ul></body>
+              </ownedComment>
+              <generalization xmi:id="_deJl0lIhEeibjuLm5_lcNQ" general="_dc_IMVIhEeibjuLm5_lcNQ"/>
+              <ownedAttribute xmi:id="_degLIFIhEeibjuLm5_lcNQ" name="logger" visibility="private" isLeaf="true" isStatic="true" type="_dcxFwFIhEeibjuLm5_lcNQ" isReadOnly="true" association="_dfzLoFIhEeibjuLm5_lcNQ">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_degyMFIhEeibjuLm5_lcNQ" value="Logger.getLogger(ClientOptions.class.getName())"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_degyMVIhEeibjuLm5_lcNQ" name="NAME" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_degyMlIhEeibjuLm5_lcNQ" value="&quot;model.option.playerName&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dehZQFIhEeibjuLm5_lcNQ" name="LANGUAGE" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dehZQVIhEeibjuLm5_lcNQ" value="&quot;model.option.languageOption&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dehZQlIhEeibjuLm5_lcNQ" name="AUTOMATIC" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dehZQ1IhEeibjuLm5_lcNQ" value="&quot;clientOptions.gui.languageOption.autoDetectLanguage&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_deiAUFIhEeibjuLm5_lcNQ" name="MIN_NUMBER_FOR_DISPLAYING_GOODS_COUNT" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_deiAUVIhEeibjuLm5_lcNQ" value="&quot;model.option.guiMinNumberToDisplayGoodsCount&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_deiAUlIhEeibjuLm5_lcNQ" name="MAX_NUMBER_OF_GOODS_IMAGES" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_deiAU1IhEeibjuLm5_lcNQ" value="&quot;model.option.guiMaxNumberOfGoodsImages&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_deiAVFIhEeibjuLm5_lcNQ" name="MIN_NUMBER_FOR_DISPLAYING_GOODS" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_deinYFIhEeibjuLm5_lcNQ" value="&quot;model.option.guiMinNumberToDisplayGoods&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_deinYVIhEeibjuLm5_lcNQ" name="ALWAYS_CENTER" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_deinYlIhEeibjuLm5_lcNQ" value="&quot;model.option.alwaysCenter&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_deinY1IhEeibjuLm5_lcNQ" name="JUMP_TO_ACTIVE_UNIT" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_deinZFIhEeibjuLm5_lcNQ" value="&quot;model.option.jumpToActiveUnit&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dejOcFIhEeibjuLm5_lcNQ" name="MAP_SCROLL_ON_DRAG" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dejOcVIhEeibjuLm5_lcNQ" value="&quot;model.option.mapScrollOnDrag&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dejOclIhEeibjuLm5_lcNQ" name="AUTO_SCROLL" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dejOc1IhEeibjuLm5_lcNQ" value="&quot;model.option.autoScroll&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dej1gFIhEeibjuLm5_lcNQ" name="DISPLAY_COMPASS_ROSE" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dej1gVIhEeibjuLm5_lcNQ" value="&quot;model.option.displayCompassRose&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dej1glIhEeibjuLm5_lcNQ" name="DISPLAY_MAP_CONTROLS" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dekckFIhEeibjuLm5_lcNQ" value="&quot;model.option.displayMapControls&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dekckVIhEeibjuLm5_lcNQ" name="DISPLAY_GRID" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dekcklIhEeibjuLm5_lcNQ" value="&quot;model.option.displayGrid&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dekck1IhEeibjuLm5_lcNQ" name="DISPLAY_BORDERS" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_delDoFIhEeibjuLm5_lcNQ" value="&quot;model.option.displayBorders&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_delDoVIhEeibjuLm5_lcNQ" name="UNIT_LAST_MOVE_DELAY" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_delDolIhEeibjuLm5_lcNQ" value="&quot;model.option.unitLastMoveDelay&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_delqsFIhEeibjuLm5_lcNQ" name="USE_PIXMAPS" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_delqsVIhEeibjuLm5_lcNQ" value="&quot;model.option.usePixmaps&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_delqslIhEeibjuLm5_lcNQ" name="REMEMBER_PANEL_POSITIONS" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_demRwFIhEeibjuLm5_lcNQ" value="&quot;model.option.rememberPanelPositions&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_demRwVIhEeibjuLm5_lcNQ" name="REMEMBER_PANEL_SIZES" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_demRwlIhEeibjuLm5_lcNQ" value="&quot;model.option.rememberPanelSizes&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_demRw1IhEeibjuLm5_lcNQ" name="SMOOTH_MINIMAP_RENDERING" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dem40FIhEeibjuLm5_lcNQ" value="&quot;model.option.smoothRendering&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dem40VIhEeibjuLm5_lcNQ" name="DISABLE_GRAY_LAYER" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dem40lIhEeibjuLm5_lcNQ" value="&quot;model.option.disableGrayLayer&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_denf4FIhEeibjuLm5_lcNQ" name="MINIMAP_TOGGLE_FOG_OF_WAR" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_denf4VIhEeibjuLm5_lcNQ" value="&quot;model.option.miniMapToggleFogOfWar&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_denf4lIhEeibjuLm5_lcNQ" name="MINIMAP_TOGGLE_BORDERS" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_denf41IhEeibjuLm5_lcNQ" value="&quot;model.option.miniMapToggleBorders&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_deoG8FIhEeibjuLm5_lcNQ" name="MAP_CONTROLS" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_deoG8VIhEeibjuLm5_lcNQ" value="&quot;model.option.mapControls&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_deouAFIhEeibjuLm5_lcNQ" name="MAP_CONTROLS_CORNERS" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_deouAVIhEeibjuLm5_lcNQ" value="&quot;clientOptions.gui.mapControls.CornerMapControls&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_deouAlIhEeibjuLm5_lcNQ" name="MAP_CONTROLS_CLASSIC" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_deouA1IhEeibjuLm5_lcNQ" value="&quot;clientOptions.gui.mapControls.ClassicMapControls&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_depVEFIhEeibjuLm5_lcNQ" name="MINIMAP_BACKGROUND_COLOR" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_depVEVIhEeibjuLm5_lcNQ" value="&quot;model.option.color.background&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_depVElIhEeibjuLm5_lcNQ" name="DISPLAY_TILE_TEXT" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dep8IFIhEeibjuLm5_lcNQ" value="&quot;model.option.displayTileText&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dep8IVIhEeibjuLm5_lcNQ" name="DISPLAY_TILE_TEXT_EMPTY" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dep8IlIhEeibjuLm5_lcNQ" value="0"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_derKQFIhEeibjuLm5_lcNQ" name="COLONY_LABELS" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_derKQVIhEeibjuLm5_lcNQ" value="&quot;model.option.displayColonyLabels&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_derxUFIhEeibjuLm5_lcNQ" name="COLONY_LABELS_NONE" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_desYYFIhEeibjuLm5_lcNQ" value="0"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_desYYVIhEeibjuLm5_lcNQ" name="COLONY_LABELS_CLASSIC" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_desYYlIhEeibjuLm5_lcNQ" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_des_cFIhEeibjuLm5_lcNQ" name="COLONY_LABELS_MODERN" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_devbsFIhEeibjuLm5_lcNQ" value="2"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dewCwFIhEeibjuLm5_lcNQ" name="COLONY_COMPARATOR" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dewCwVIhEeibjuLm5_lcNQ" value="&quot;model.option.colonyComparator&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dewp0FIhEeibjuLm5_lcNQ" name="COLONY_COMPARATOR_NAME" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dewp0VIhEeibjuLm5_lcNQ" value="0"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dex38FIhEeibjuLm5_lcNQ" name="DEFAULT_MINIMAP_ZOOM" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_deyfAFIhEeibjuLm5_lcNQ" value="&quot;model.option.defaultZoomLevel&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_deyfAVIhEeibjuLm5_lcNQ" name="MOVE_ANIMATION_SPEED" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_deyfAlIhEeibjuLm5_lcNQ" value="&quot;model.option.moveAnimationSpeed&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dezGEFIhEeibjuLm5_lcNQ" name="ENEMY_MOVE_ANIMATION_SPEED" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dezGEVIhEeibjuLm5_lcNQ" value="&quot;model.option.enemyMoveAnimationSpeed&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dezGElIhEeibjuLm5_lcNQ" name="MESSAGES_GROUP_BY" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_deztIFIhEeibjuLm5_lcNQ" value="&quot;model.option.guiMessagesGroupBy&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_deztIVIhEeibjuLm5_lcNQ" name="MESSAGES_GROUP_BY_NOTHING" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_deztIlIhEeibjuLm5_lcNQ" value="0"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_de07QFIhEeibjuLm5_lcNQ" name="SHOW_GOODS_MOVEMENT" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_de1iUFIhEeibjuLm5_lcNQ" value="&quot;model.option.guiShowGoodsMovement&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_de1iUVIhEeibjuLm5_lcNQ" name="SHOW_COLONY_WARNINGS" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_de1iUlIhEeibjuLm5_lcNQ" value="&quot;model.option.guiShowColonyWarnings&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_de2JYFIhEeibjuLm5_lcNQ" name="SHOW_PRECOMBAT" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_de2JYVIhEeibjuLm5_lcNQ" value="&quot;model.option.guiShowPreCombat&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_de2JYlIhEeibjuLm5_lcNQ" name="SHOW_NOT_BEST_TILE" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_de2wcFIhEeibjuLm5_lcNQ" value="&quot;model.option.guiShowNotBestTile&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_de2wcVIhEeibjuLm5_lcNQ" name="COLONY_REPORT" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_de2wclIhEeibjuLm5_lcNQ" value="&quot;model.option.colonyReport&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_de3XgFIhEeibjuLm5_lcNQ" name="COLONY_REPORT_CLASSIC" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_de3XgVIhEeibjuLm5_lcNQ" value="0"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_de3XglIhEeibjuLm5_lcNQ" name="COLONY_REPORT_COMPACT" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_de5MsFIhEeibjuLm5_lcNQ" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_de5MsVIhEeibjuLm5_lcNQ" name="LABOUR_REPORT" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_de5MslIhEeibjuLm5_lcNQ" value="&quot;model.option.labourReport&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_de5zwFIhEeibjuLm5_lcNQ" name="LABOUR_REPORT_CLASSIC" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_de5zwVIhEeibjuLm5_lcNQ" value="0"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_de5zwlIhEeibjuLm5_lcNQ" name="LABOUR_REPORT_COMPACT" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_de5zw1IhEeibjuLm5_lcNQ" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_de6a0FIhEeibjuLm5_lcNQ" name="SHOW_SAVEGAME_SETTINGS" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_de6a0VIhEeibjuLm5_lcNQ" value="&quot;model.option.showSavegameSettings&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_de6a0lIhEeibjuLm5_lcNQ" name="SHOW_SAVEGAME_SETTINGS_NEVER" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_de7B4FIhEeibjuLm5_lcNQ" value="0"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_de8QAFIhEeibjuLm5_lcNQ" name="AUTOSAVE_PERIOD" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_de8QAVIhEeibjuLm5_lcNQ" value="&quot;model.option.autosavePeriod&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_de83EFIhEeibjuLm5_lcNQ" name="AUTOSAVE_VALIDITY" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_de83EVIhEeibjuLm5_lcNQ" value="&quot;model.option.autosaveValidity&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_de83ElIhEeibjuLm5_lcNQ" name="AUTOSAVE_DELETE" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_de83E1IhEeibjuLm5_lcNQ" value="&quot;model.option.autosaveDelete&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_de9eIFIhEeibjuLm5_lcNQ" name="CONFIRM_SAVE_OVERWRITE" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_de9eIVIhEeibjuLm5_lcNQ" value="&quot;model.option.confirmSaveOverwrite&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_de9eIlIhEeibjuLm5_lcNQ" name="AUTO_SAVE_PREFIX" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_de-FMFIhEeibjuLm5_lcNQ" value="&quot;model.option.autoSavePrefix&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_de-FMVIhEeibjuLm5_lcNQ" name="LAST_TURN_NAME" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_de-FMlIhEeibjuLm5_lcNQ" value="&quot;model.option.lastTurnName&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_de-sQFIhEeibjuLm5_lcNQ" name="BEFORE_LAST_TURN_NAME" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_de-sQVIhEeibjuLm5_lcNQ" value="&quot;model.option.beforeLastTurnName&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_de-sQlIhEeibjuLm5_lcNQ" name="CUSTOM_STOCK" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_de_TUFIhEeibjuLm5_lcNQ" value="&quot;model.option.customStock&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_de_TUVIhEeibjuLm5_lcNQ" name="LOW_LEVEL" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_de_TUlIhEeibjuLm5_lcNQ" value="&quot;model.option.lowLevel&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_de_6YFIhEeibjuLm5_lcNQ" name="HIGH_LEVEL" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_de_6YVIhEeibjuLm5_lcNQ" value="&quot;model.option.highLevel&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_de_6YlIhEeibjuLm5_lcNQ" name="STOCK_ACCOUNTS_FOR_PRODUCTION" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfAhcFIhEeibjuLm5_lcNQ" value="&quot;model.option.stockAccountsForProduction&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfAhcVIhEeibjuLm5_lcNQ" name="AUDIO_MIXER" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfAhclIhEeibjuLm5_lcNQ" value="&quot;model.option.audioMixer&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfBIgFIhEeibjuLm5_lcNQ" name="AUDIO_VOLUME" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfBIgVIhEeibjuLm5_lcNQ" value="&quot;model.option.audioVolume&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfBIglIhEeibjuLm5_lcNQ" name="AUDIO_ALERTS" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfBIg1IhEeibjuLm5_lcNQ" value="&quot;model.option.audioAlerts&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfBvkFIhEeibjuLm5_lcNQ" name="AUTOLOAD_EMIGRANTS" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfBvkVIhEeibjuLm5_lcNQ" value="&quot;model.option.autoloadEmigrants&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfBvklIhEeibjuLm5_lcNQ" name="AUTOLOAD_SENTRIES" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfCWoFIhEeibjuLm5_lcNQ" value="&quot;model.option.autoloadSentries&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfCWoVIhEeibjuLm5_lcNQ" name="AUTO_END_TURN" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfC9sFIhEeibjuLm5_lcNQ" value="&quot;model.option.autoEndTurn&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfC9sVIhEeibjuLm5_lcNQ" name="SHOW_END_TURN_DIALOG" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfC9slIhEeibjuLm5_lcNQ" value="&quot;model.option.showEndTurnDialog&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfDkwFIhEeibjuLm5_lcNQ" name="INDIAN_DEMAND_RESPONSE" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfDkwVIhEeibjuLm5_lcNQ" value="&quot;model.option.indianDemandResponse&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfDkwlIhEeibjuLm5_lcNQ" name="INDIAN_DEMAND_RESPONSE_ASK" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfEL0FIhEeibjuLm5_lcNQ" value="0"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfEL0VIhEeibjuLm5_lcNQ" name="INDIAN_DEMAND_RESPONSE_ACCEPT" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfEL0lIhEeibjuLm5_lcNQ" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfEy4FIhEeibjuLm5_lcNQ" name="INDIAN_DEMAND_RESPONSE_REJECT" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfEy4VIhEeibjuLm5_lcNQ" value="2"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfEy4lIhEeibjuLm5_lcNQ" name="UNLOAD_OVERFLOW_RESPONSE" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfEy41IhEeibjuLm5_lcNQ" value="&quot;model.option.unloadOverflowResponse&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfFZ8FIhEeibjuLm5_lcNQ" name="UNLOAD_OVERFLOW_RESPONSE_ASK" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfGBAFIhEeibjuLm5_lcNQ" value="0"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfGBAVIhEeibjuLm5_lcNQ" name="UNLOAD_OVERFLOW_RESPONSE_NEVER" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfJEUFIhEeibjuLm5_lcNQ" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfJrYFIhEeibjuLm5_lcNQ" name="UNLOAD_OVERFLOW_RESPONSE_ALWAYS" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfJrYVIhEeibjuLm5_lcNQ" value="2"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfMusFIhEeibjuLm5_lcNQ" name="USER_MODS" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfPK8FIhEeibjuLm5_lcNQ" value="&quot;clientOptions.mods.userMods&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfPK8VIhEeibjuLm5_lcNQ" name="colonyAgeComparator" visibility="private" isLeaf="true" isStatic="true" type="_dcupgFIhEeibjuLm5_lcNQ" isReadOnly="true" association="_dfzLo1IhEeibjuLm5_lcNQ">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfQZEFIhEeibjuLm5_lcNQ" value="Comparator.comparingInt(c -> c.getEstablished().getNumber())"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfQZEVIhEeibjuLm5_lcNQ" name="colonyNameComparator" visibility="private" isLeaf="true" isStatic="true" type="_dcupgFIhEeibjuLm5_lcNQ" isReadOnly="true" association="_dfzysVIhEeibjuLm5_lcNQ">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfRAIVIhEeibjuLm5_lcNQ" value="Comparator.comparing(Colony::getName)"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfRnMFIhEeibjuLm5_lcNQ" name="colonySizeComparator" visibility="private" isLeaf="true" isStatic="true" type="_dcupgFIhEeibjuLm5_lcNQ" isReadOnly="true" association="_df0ZwVIhEeibjuLm5_lcNQ">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfSOQVIhEeibjuLm5_lcNQ" value="Comparator.comparingInt(Colony::getUnitCount)&#xD;&#xA;            .thenComparingInt(Colony::getSoL)&#xD;&#xA;            .reversed()"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfSOQlIhEeibjuLm5_lcNQ" name="colonySoLComparator" visibility="private" isLeaf="true" isStatic="true" type="_dcupgFIhEeibjuLm5_lcNQ" isReadOnly="true" association="_df1A0VIhEeibjuLm5_lcNQ">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfTcYVIhEeibjuLm5_lcNQ" value="Comparator.comparingInt(Colony::getSoL)&#xD;&#xA;            .thenComparingInt(Colony::getUnitCount)&#xD;&#xA;            .reversed()"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfUDcFIhEeibjuLm5_lcNQ" name="colonyPositionComparator" visibility="private" isLeaf="true" isStatic="true" type="_dcupgFIhEeibjuLm5_lcNQ" isReadOnly="true" association="_df1n4FIhEeibjuLm5_lcNQ">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfVRkFIhEeibjuLm5_lcNQ" value="Comparator.comparingInt(c -> Location.getRank(c))"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfV4oFIhEeibjuLm5_lcNQ" name="messageTypeComparator" visibility="private" isLeaf="true" isStatic="true" type="_dcupgFIhEeibjuLm5_lcNQ" isReadOnly="true" association="_df22AFIhEeibjuLm5_lcNQ">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfXGwVIhEeibjuLm5_lcNQ" value="(m1, m2) -> m1.getMessageType().ordinal()&#xD;&#xA;                    - m2.getMessageType().ordinal()"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dflwQFIhEeibjuLm5_lcNQ" name="DISPLAY_TILE_TEXT_NAMES">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfmXUlIhEeibjuLm5_lcNQ" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfmXU1IhEeibjuLm5_lcNQ" name="DISPLAY_TILE_TEXT_OWNERS">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfm-YVIhEeibjuLm5_lcNQ" value="2"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfm-YlIhEeibjuLm5_lcNQ" name="DISPLAY_TILE_TEXT_REGIONS">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfm-ZVIhEeibjuLm5_lcNQ" value="3"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfnlcFIhEeibjuLm5_lcNQ" name="COLONY_COMPARATOR_AGE">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfnlc1IhEeibjuLm5_lcNQ" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfnldFIhEeibjuLm5_lcNQ" name="COLONY_COMPARATOR_POSITION">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfoMglIhEeibjuLm5_lcNQ" value="2"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfoMg1IhEeibjuLm5_lcNQ" name="COLONY_COMPARATOR_SIZE">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfozkVIhEeibjuLm5_lcNQ" value="3"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfozklIhEeibjuLm5_lcNQ" name="COLONY_COMPARATOR_SOL">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfozlVIhEeibjuLm5_lcNQ" value="4"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfpaoFIhEeibjuLm5_lcNQ" name="MESSAGES_GROUP_BY_TYPE">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfpao1IhEeibjuLm5_lcNQ" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfqBsFIhEeibjuLm5_lcNQ" name="MESSAGES_GROUP_BY_SOURCE">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfqBs1IhEeibjuLm5_lcNQ" value="2"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfqowFIhEeibjuLm5_lcNQ" name="SHOW_SAVEGAME_SETTINGS_MULTIPLAYER">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfrP0lIhEeibjuLm5_lcNQ" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_dfr24FIhEeibjuLm5_lcNQ" name="SHOW_SAVEGAME_SETTINGS_ALWAYS">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_dfr241IhEeibjuLm5_lcNQ" value="2"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dfebg1IhEeibjuLm5_lcNQ" name="ClientOptions" specification="_dS_esFIhEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_dfebhFIhEeibjuLm5_lcNQ" type="_dSwOIFIhEeibjuLm5_lcNQ" direction="return"/>
+                <language>java</language>
+                <body>super(getXMLElementTagName());&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dffCkFIhEeibjuLm5_lcNQ" name="load" specification="_dduvEFIhEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_dffCkVIhEeibjuLm5_lcNQ" name="xr" type="_dc1-QVIhEeibjuLm5_lcNQ"/>
+                <ownedParameter xmi:id="_dffCklIhEeibjuLm5_lcNQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>if (xr == null) return false;&#xD;
+     try {&#xD;
+         xr.nextTag();&#xD;
+         readFromXML(xr);&#xD;
+     } catch (XMLStreamException xse) {&#xD;
+         logger.log(Level.WARNING, &quot;Failed to read client option&quot;, xse);&#xD;
+     }&#xD;
+     return true;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dffCk1IhEeibjuLm5_lcNQ" name="load" specification="_ddv9MFIhEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_dffClFIhEeibjuLm5_lcNQ" name="bis" type="_dcoi4FIhEeibjuLm5_lcNQ"/>
+                <ownedParameter xmi:id="_dffClVIhEeibjuLm5_lcNQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>if (bis == null) return false;&#xD;
+     try {&#xD;
+         return load(new FreeColXMLReader(bis));&#xD;
+     } catch (IOException ioe) {&#xD;
+         logger.log(Level.WARNING, &quot;Failed to open FreeColXMLReader&quot;, ioe);&#xD;
+     }&#xD;
+     return false;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dffCllIhEeibjuLm5_lcNQ" name="load" specification="_ddwkQFIhEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_dffCl1IhEeibjuLm5_lcNQ" name="is" type="_dctbYFIhEeibjuLm5_lcNQ"/>
+                <ownedParameter xmi:id="_dffCmFIhEeibjuLm5_lcNQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return (is == null) ? false : load(new BufferedInputStream(is));&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dffCmVIhEeibjuLm5_lcNQ" name="load" specification="_ddxLUVIhEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_dffCmlIhEeibjuLm5_lcNQ" name="file" type="_dcqYEFIhEeibjuLm5_lcNQ"/>
+                <ownedParameter xmi:id="_dffCm1IhEeibjuLm5_lcNQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>if (file == null) return false;&#xD;
+     try {&#xD;
+         return load(new FileInputStream(file));&#xD;
+     } catch (FileNotFoundException fnfe) {&#xD;
+         logger.log(Level.WARNING, &quot;Could not open file input stream&quot;, fnfe);&#xD;
+     }&#xD;
+     return false;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dffpoFIhEeibjuLm5_lcNQ" name="merge" specification="_ddxyYVIhEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_dffpoVIhEeibjuLm5_lcNQ" name="file" type="_dcqYEFIhEeibjuLm5_lcNQ"/>
+                <ownedParameter xmi:id="_dffpolIhEeibjuLm5_lcNQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>ClientOptions clop = new ClientOptions();&#xD;
+     return (!clop.load(file)) ? false : this.merge(clop);&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dffpo1IhEeibjuLm5_lcNQ" name="load" specification="_ddyZcVIhEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_dffppFIhEeibjuLm5_lcNQ" name="save" type="_dc0wIVIhEeibjuLm5_lcNQ"/>
+                <ownedParameter xmi:id="_dffppVIhEeibjuLm5_lcNQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>if (save == null) return false;&#xD;
+     try {&#xD;
+         return load(save.getInputStream(FreeColSavegameFile.CLIENT_OPTIONS));&#xD;
+     } catch (IOException ioe) {&#xD;
+         logger.log(Level.WARNING, &quot;Could not open options input stream&quot;, ioe);&#xD;
+     }&#xD;
+     return false;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dffpplIhEeibjuLm5_lcNQ" name="merge" specification="_ddzAgVIhEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_dffpp1IhEeibjuLm5_lcNQ" name="save" type="_dc0wIVIhEeibjuLm5_lcNQ"/>
+                <ownedParameter xmi:id="_dffpqFIhEeibjuLm5_lcNQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>ClientOptions clop = new ClientOptions();&#xD;
+     return (!clop.load(save)) ? false : this.merge(clop);&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dfgQsFIhEeibjuLm5_lcNQ" name="getActiveMods" specification="_dTBT4FIhEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_dfgQsVIhEeibjuLm5_lcNQ" type="_dcziAVIhEeibjuLm5_lcNQ" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dfgQslIhEeibjuLm5_lcNQ" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>List&lt;FreeColModFile> active = new ArrayList&lt;>();&#xD;
+     ModListOption option = (ModListOption)getOption(ClientOptions.USER_MODS);&#xD;
+     if (option != null) {&#xD;
+         for (FreeColModFile modInfo : option.getOptionValues()) {&#xD;
+             if (modInfo != null &amp;&amp; modInfo.getId() != null) {&#xD;
+                 FreeColModFile f = Mods.getFreeColModFile(modInfo.getId());&#xD;
+                 if (f != null) active.add(f);&#xD;
+             }&#xD;
+         }&#xD;
+     }&#xD;
+     return active;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dfgQs1IhEeibjuLm5_lcNQ" name="getLanguageOption" specification="_dTB68FIhEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_dfgQtFIhEeibjuLm5_lcNQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>File options = FreeColDirectories.getClientOptionsFile();&#xD;
+     if (options.canRead()) {&#xD;
+         try (&#xD;
+             FileInputStream fis = new FileInputStream(options);&#xD;
+             FreeColXMLReader xr = new FreeColXMLReader(fis);&#xD;
+         ) {&#xD;
+             xr.nextTag();&#xD;
+             for (int type = xr.getEventType();&#xD;
+                  type != XMLEvent.END_DOCUMENT; type = xr.getEventType()) {&#xD;
+                 if (type == XMLEvent.START_ELEMENT&#xD;
+                     &amp;&amp; LANGUAGE.equals(xr.readId())) {&#xD;
+                     return xr.getAttribute(&quot;value&quot;, null);&#xD;
+                 }&#xD;
+                 xr.nextTag();&#xD;
+             }&#xD;
+             // We don't have a language option in our file, it is&#xD;
+             // either not there or the file is corrupt&#xD;
+         } catch (Exception e) {&#xD;
+             logger.log(Level.WARNING, &quot;Failure getting language.&quot;, e);&#xD;
+         }&#xD;
+     }&#xD;
+     return null;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dfgQtVIhEeibjuLm5_lcNQ" name="getDisplayTileText" specification="_dTB68lIhEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_dfg3wFIhEeibjuLm5_lcNQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return getInteger(DISPLAY_TILE_TEXT);&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dfg3wVIhEeibjuLm5_lcNQ" name="getSortedColonies" specification="_ddznkVIhEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_dfg3wlIhEeibjuLm5_lcNQ" name="p" type="_dc7d0FIhEeibjuLm5_lcNQ"/>
+                <ownedParameter xmi:id="_dfg3w1IhEeibjuLm5_lcNQ" type="_dc3zcFIhEeibjuLm5_lcNQ" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dfg3xFIhEeibjuLm5_lcNQ" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return p.getSortedColonies(getColonyComparator());&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dfg3xVIhEeibjuLm5_lcNQ" name="getColonyComparator" specification="_dTCiAVIhEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_dfg3xlIhEeibjuLm5_lcNQ" type="_dcupgFIhEeibjuLm5_lcNQ" direction="return"/>
+                <language>java</language>
+                <body>return getColonyComparator(getInteger(COLONY_COMPARATOR));&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dfg3x1IhEeibjuLm5_lcNQ" name="getColonyComparator" specification="_dTDwIFIhEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_dfg3yFIhEeibjuLm5_lcNQ" name="type">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_dfg3yVIhEeibjuLm5_lcNQ" type="_dcupgFIhEeibjuLm5_lcNQ" direction="return"/>
+                <language>java</language>
+                <body>switch (type) {&#xD;
+     case COLONY_COMPARATOR_AGE:&#xD;
+         return colonyAgeComparator;&#xD;
+     case COLONY_COMPARATOR_POSITION:&#xD;
+         return colonyPositionComparator;&#xD;
+     case COLONY_COMPARATOR_SIZE:&#xD;
+         return colonySizeComparator;&#xD;
+     case COLONY_COMPARATOR_SOL:&#xD;
+         return colonySoLComparator;&#xD;
+     case COLONY_COMPARATOR_NAME:&#xD;
+         return colonyNameComparator;&#xD;
+     default:&#xD;
+         throw new IllegalStateException(&quot;Unknown comparator&quot;);&#xD;
+     }&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dfhe0FIhEeibjuLm5_lcNQ" name="getModelMessageComparator" specification="_deHwoFIhEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_dfhe0VIhEeibjuLm5_lcNQ" name="game" type="_dc5BklIhEeibjuLm5_lcNQ"/>
+                <ownedParameter xmi:id="_dfhe0lIhEeibjuLm5_lcNQ" type="_dcupgFIhEeibjuLm5_lcNQ" direction="return"/>
+                <language>java</language>
+                <body>switch (getInteger(MESSAGES_GROUP_BY)) {&#xD;
+     case MESSAGES_GROUP_BY_SOURCE:&#xD;
+         return new MessageSourceComparator(game);&#xD;
+     case MESSAGES_GROUP_BY_TYPE:&#xD;
+         return messageTypeComparator;&#xD;
+     default:&#xD;
+         return null;&#xD;
+     }&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dfhe01IhEeibjuLm5_lcNQ" name="getBooleanOption" specification="_deI-wFIhEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_dfhe1FIhEeibjuLm5_lcNQ" name="message" type="_dc6PsVIhEeibjuLm5_lcNQ"/>
+                <ownedParameter xmi:id="_dfhe1VIhEeibjuLm5_lcNQ" type="_dc8r8VIhEeibjuLm5_lcNQ" direction="return"/>
+                <language>java</language>
+                <body>return (BooleanOption) getOption(message.getMessageType()&#xD;
+         .getOptionName());&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dfhe1lIhEeibjuLm5_lcNQ" name="fixClientOptions" specification="_dTFlUFIhEeibjuLm5_lcNQ">
+                <language>java</language>
+                <body>// @compat 0.10.1&#xD;
+     addIntegerOption(COLONY_REPORT,&#xD;
+         &quot;clientOptions.messages&quot;, 0);&#xD;
+     addBooleanOption(USE_PIXMAPS,&#xD;
+         &quot;clientOptions.gui&quot;, true);&#xD;
+     // end @compat 0.10.1&#xD;
+     // @compat 0.10.7&#xD;
+     addBooleanOption(CONFIRM_SAVE_OVERWRITE,&#xD;
+         &quot;clientOptions.savegames&quot;, false);&#xD;
+     addBooleanOption(DISABLE_GRAY_LAYER,&#xD;
+         &quot;clientOptions.gui&quot;, false);&#xD;
+     addBooleanOption(REMEMBER_PANEL_SIZES,&#xD;
+         &quot;clientOptions.gui&quot;, true);&#xD;
+     // end @compat 0.10.7&#xD;
+     // @compact 0.11.0&#xD;
+     addBooleanOption(MINIMAP_TOGGLE_BORDERS,&#xD;
+         &quot;clientOptions.gui&quot;, true);    &#xD;
+     addBooleanOption(MINIMAP_TOGGLE_FOG_OF_WAR,&#xD;
+         &quot;clientOptions.gui&quot;, true);&#xD;
+     addTextOption(AUTO_SAVE_PREFIX,&#xD;
+         &quot;clientOptions.savegames&quot;, &quot;Autosave&quot;);&#xD;
+     addTextOption(LAST_TURN_NAME,&#xD;
+         &quot;clientOptions.savegames&quot;, &quot;last-turn&quot;);&#xD;
+     addTextOption(BEFORE_LAST_TURN_NAME,&#xD;
+         &quot;clientOptions.savegames&quot;, &quot;before-last-turn&quot;);&#xD;
+     // end @compact 0.11.0&#xD;
+&#xD;
+     // @compat 0.11.1&#xD;
+     addBooleanOption(STOCK_ACCOUNTS_FOR_PRODUCTION,&#xD;
+         &quot;clientOptions.warehouse&quot;, false);&#xD;
+     // end @compat 0.11.1&#xD;
+&#xD;
+     // @compat 0.11.3&#xD;
+     addBooleanOption(AUTOLOAD_SENTRIES,&#xD;
+         &quot;clientOptions.other&quot;, false);&#xD;
+     try { // Zoom range was increased&#xD;
+         RangeOption ro = (RangeOption)getOption(DEFAULT_MINIMAP_ZOOM);&#xD;
+         if (ro.getItemValues().size() != 6) {&#xD;
+             Integer value = ro.getValue();&#xD;
+             ro.clearItemValues();&#xD;
+             ro.addItemValue(1, &quot;1&quot;);&#xD;
+             ro.addItemValue(2, &quot;2&quot;);&#xD;
+             ro.addItemValue(3, &quot;3&quot;);&#xD;
+             ro.addItemValue(4, &quot;4&quot;);&#xD;
+             ro.addItemValue(5, &quot;5&quot;);&#xD;
+             ro.addItemValue(6, &quot;6&quot;);&#xD;
+             ro.setValue(value); // Make sure the value is valid&#xD;
+         }&#xD;
+     } catch (Exception e) {&#xD;
+         logger.log(Level.WARNING, &quot;Failed to fix &quot; + DEFAULT_MINIMAP_ZOOM&#xD;
+             + &quot; option&quot;, e);&#xD;
+     }&#xD;
+     // end @compat 0.11.3&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dfhe11IhEeibjuLm5_lcNQ" name="addBooleanOption" specification="_dTGMYFIhEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_dfhe2FIhEeibjuLm5_lcNQ" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_dfhe2VIhEeibjuLm5_lcNQ" name="gr">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_dfhe2lIhEeibjuLm5_lcNQ" name="val">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>if (getOption(id) == null) {&#xD;
+         BooleanOption op = new BooleanOption(id, null);&#xD;
+         op.setGroup(gr);&#xD;
+         op.setValue(val);&#xD;
+         add(op);&#xD;
+     }&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dfiF4FIhEeibjuLm5_lcNQ" name="addIntegerOption" specification="_dTGzcFIhEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_dfiF4VIhEeibjuLm5_lcNQ" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_dfiF4lIhEeibjuLm5_lcNQ" name="gr">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_dfiF41IhEeibjuLm5_lcNQ" name="val">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>if (getOption(id) == null) {&#xD;
+         IntegerOption op = new IntegerOption(id, null);&#xD;
+         op.setGroup(gr);&#xD;
+         op.setValue(val);&#xD;
+         add(op);&#xD;
+     }&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dfiF5FIhEeibjuLm5_lcNQ" name="addTextOption" specification="_dTHagFIhEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_dfiF5VIhEeibjuLm5_lcNQ" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_dfiF5lIhEeibjuLm5_lcNQ" name="gr">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_dfiF51IhEeibjuLm5_lcNQ" name="val">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>if (getOption(id) == null) {&#xD;
+         TextOption op = new TextOption(id, null);&#xD;
+         op.setGroup(gr);&#xD;
+         op.setValue(val);&#xD;
+         add(op);&#xD;
+     }&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dfiF6FIhEeibjuLm5_lcNQ" name="getXMLElementTagName" specification="_dTHahFIhEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_dfiF6VIhEeibjuLm5_lcNQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return &quot;clientOptions&quot;;&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_dS_esFIhEeibjuLm5_lcNQ" name="ClientOptions" method="_dfebg1IhEeibjuLm5_lcNQ">
+                <eAnnotations xmi:id="_dTAFwFIhEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_dTAFwVIhEeibjuLm5_lcNQ" key="create"/>
+                </eAnnotations>
+                <ownedComment xmi:id="_dfsd8FIhEeibjuLm5_lcNQ">
+                  <body>Creates a new &lt;code>ClientOptions&lt;/code>.&#xD;
+     *&#xD;
+     * Unlike other OptionGroup classes, ClientOptions can not supply a&#xD;
+     * specification as it is needed before the specification is available.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_dTAFwlIhEeibjuLm5_lcNQ" type="_dSwOIFIhEeibjuLm5_lcNQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_dTBT4FIhEeibjuLm5_lcNQ" name="getActiveMods" method="_dfgQsFIhEeibjuLm5_lcNQ">
+                <ownedComment xmi:id="_dftFBVIhEeibjuLm5_lcNQ">
+                  <body>Gets a list of active mods in this ClientOptions.&#xD;
+     *&#xD;
+     * @return A list of active mods.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_dTBT4VIhEeibjuLm5_lcNQ" type="_dcziAVIhEeibjuLm5_lcNQ" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dTBT4lIhEeibjuLm5_lcNQ" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_dTB68FIhEeibjuLm5_lcNQ" name="getLanguageOption" isStatic="true" method="_dfgQs1IhEeibjuLm5_lcNQ">
+                <ownedComment xmi:id="_dftFBlIhEeibjuLm5_lcNQ">
+                  <body>Extracts the value of the LANGUAGE option from the client options file.&#xD;
+     *&#xD;
+     * @return The language option value, or null if none or IO error.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_dTB68VIhEeibjuLm5_lcNQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_dTB68lIhEeibjuLm5_lcNQ" name="getDisplayTileText" method="_dfgQtVIhEeibjuLm5_lcNQ">
+                <ownedComment xmi:id="_dftFB1IhEeibjuLm5_lcNQ">
+                  <body>Get the client's preferred tile text type.&#xD;
+     *&#xD;
+     * @return A &lt;code>DISPLAY_TILE_TEXT_&lt;/code> value</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_dTCiAFIhEeibjuLm5_lcNQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_dTCiAVIhEeibjuLm5_lcNQ" name="getColonyComparator" method="_dfg3xVIhEeibjuLm5_lcNQ">
+                <ownedComment xmi:id="_dftFCVIhEeibjuLm5_lcNQ">
+                  <body>Return the client's preferred comparator for colonies.&#xD;
+     *&#xD;
+     * @return a &lt;code>Comparator&lt;/code> value</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_dd0OolIhEeibjuLm5_lcNQ" type="_dcupgFIhEeibjuLm5_lcNQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_dTDwIFIhEeibjuLm5_lcNQ" name="getColonyComparator" isStatic="true" method="_dfg3x1IhEeibjuLm5_lcNQ">
+                <ownedComment xmi:id="_dftFClIhEeibjuLm5_lcNQ">
+                  <body>Return the colony comparator identified by type.&#xD;
+     *&#xD;
+     * @param type an &lt;code>int&lt;/code> value&#xD;
+     * @return a &lt;code>Comparator&lt;/code> value</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_dTDwIVIhEeibjuLm5_lcNQ" name="type">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_deHJkFIhEeibjuLm5_lcNQ" type="_dcupgFIhEeibjuLm5_lcNQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_dTFlUFIhEeibjuLm5_lcNQ" name="fixClientOptions" method="_dfhe1lIhEeibjuLm5_lcNQ">
+                <ownedComment xmi:id="_dftFDVIhEeibjuLm5_lcNQ">
+                  <body>Perform backward compatibility fixups on new client options as&#xD;
+     * they are introduced.  Annotate with introduction version so we&#xD;
+     * can clean these up as they become standard.</body>
+                </ownedComment>
+              </ownedOperation>
+              <ownedOperation xmi:id="_dTGMYFIhEeibjuLm5_lcNQ" name="addBooleanOption" visibility="private" method="_dfhe11IhEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_dTGMYVIhEeibjuLm5_lcNQ" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_dTGMYlIhEeibjuLm5_lcNQ" name="gr">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_dTGMY1IhEeibjuLm5_lcNQ" name="val">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_dTGzcFIhEeibjuLm5_lcNQ" name="addIntegerOption" visibility="private" method="_dfiF4FIhEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_dTGzcVIhEeibjuLm5_lcNQ" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_dTGzclIhEeibjuLm5_lcNQ" name="gr">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_dTGzc1IhEeibjuLm5_lcNQ" name="val">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_dTHagFIhEeibjuLm5_lcNQ" name="addTextOption" visibility="private" method="_dfiF5FIhEeibjuLm5_lcNQ">
+                <ownedParameter xmi:id="_dTHagVIhEeibjuLm5_lcNQ" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_dTHaglIhEeibjuLm5_lcNQ" name="gr">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_dTHag1IhEeibjuLm5_lcNQ" name="val">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_dTHahFIhEeibjuLm5_lcNQ" name="getXMLElementTagName" isStatic="true" method="_dfiF6FIhEeibjuLm5_lcNQ">
+                <ownedComment xmi:id="_dftsEFIhEeibjuLm5_lcNQ">
+                  <body>Gets the tag name of the root element representing this object.&#xD;
+     *&#xD;
+     * @return &quot;clientOptions&quot;.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_dTIBkFIhEeibjuLm5_lcNQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_dduvEFIhEeibjuLm5_lcNQ" name="load" visibility="private" method="_dffCkFIhEeibjuLm5_lcNQ">
+                <ownedComment xmi:id="_dfsd8VIhEeibjuLm5_lcNQ">
+                  <body>Loads the options from the given reader.&#xD;
+     *&#xD;
+     * @param xr The &lt;code>FreeColXMLReader&lt;/code> to read from.&#xD;
+     * @return True if the options were loaded without error.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_dduvEVIhEeibjuLm5_lcNQ" name="xr" type="_dc1-QVIhEeibjuLm5_lcNQ"/>
+                <ownedParameter xmi:id="_ddvWIFIhEeibjuLm5_lcNQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_ddv9MFIhEeibjuLm5_lcNQ" name="load" visibility="private" method="_dffCk1IhEeibjuLm5_lcNQ">
+                <ownedComment xmi:id="_dfsd8lIhEeibjuLm5_lcNQ">
+                  <body>Loads the options from the given buffered input stream.&#xD;
+     *&#xD;
+     * @param bis The &lt;code>BufferedInputStream&lt;/code> to read the&#xD;
+     *     options from.&#xD;
+     * @return True if the options were loaded without error.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_ddv9MVIhEeibjuLm5_lcNQ" name="bis" type="_dcoi4FIhEeibjuLm5_lcNQ"/>
+                <ownedParameter xmi:id="_ddv9MlIhEeibjuLm5_lcNQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_ddwkQFIhEeibjuLm5_lcNQ" name="load" visibility="private" method="_dffCllIhEeibjuLm5_lcNQ">
+                <ownedComment xmi:id="_dftFAFIhEeibjuLm5_lcNQ">
+                  <body>Loads the options from the given input stream.&#xD;
+     *&#xD;
+     * @param is The &lt;code>InputStream&lt;/code> to read the options from.&#xD;
+     * @return True if the options were loaded without error.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_ddwkQVIhEeibjuLm5_lcNQ" name="is" type="_dctbYFIhEeibjuLm5_lcNQ"/>
+                <ownedParameter xmi:id="_ddxLUFIhEeibjuLm5_lcNQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_ddxLUVIhEeibjuLm5_lcNQ" name="load" method="_dffCmVIhEeibjuLm5_lcNQ">
+                <ownedComment xmi:id="_dftFAVIhEeibjuLm5_lcNQ">
+                  <body>Loads the options from the given file.&#xD;
+     *&#xD;
+     * @param file The &lt;code>File&lt;/code> to read the options from.&#xD;
+     * @return True if the options were loaded without error.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_ddxLUlIhEeibjuLm5_lcNQ" name="file" type="_dcqYEFIhEeibjuLm5_lcNQ"/>
+                <ownedParameter xmi:id="_ddxyYFIhEeibjuLm5_lcNQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_ddxyYVIhEeibjuLm5_lcNQ" name="merge" method="_dffpoFIhEeibjuLm5_lcNQ">
+                <ownedComment xmi:id="_dftFAlIhEeibjuLm5_lcNQ">
+                  <body>Merge the options from the given file game.&#xD;
+     *&#xD;
+     * @param file The &lt;code>File&lt;/code> to merge the options from.&#xD;
+     * @return True if the options were merge without error.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_ddxyYlIhEeibjuLm5_lcNQ" name="file" type="_dcqYEFIhEeibjuLm5_lcNQ"/>
+                <ownedParameter xmi:id="_ddyZcFIhEeibjuLm5_lcNQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_ddyZcVIhEeibjuLm5_lcNQ" name="load" visibility="private" method="_dffpo1IhEeibjuLm5_lcNQ">
+                <ownedComment xmi:id="_dftFA1IhEeibjuLm5_lcNQ">
+                  <body>Loads the options from the given save game.&#xD;
+     *&#xD;
+     * @param save The &lt;code>FreeColSaveGame&lt;/code> to read the options from.&#xD;
+     * @return True if the options were loaded without error.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_ddyZclIhEeibjuLm5_lcNQ" name="save" type="_dc0wIVIhEeibjuLm5_lcNQ"/>
+                <ownedParameter xmi:id="_ddzAgFIhEeibjuLm5_lcNQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_ddzAgVIhEeibjuLm5_lcNQ" name="merge" method="_dffpplIhEeibjuLm5_lcNQ">
+                <ownedComment xmi:id="_dftFBFIhEeibjuLm5_lcNQ">
+                  <body>Merge the options from the given save game.&#xD;
+     *&#xD;
+     * @param save The &lt;code>FreeColSaveGame&lt;/code> to merge from.&#xD;
+     * @return True if the options were merge without error.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_ddzAglIhEeibjuLm5_lcNQ" name="save" type="_dc0wIVIhEeibjuLm5_lcNQ"/>
+                <ownedParameter xmi:id="_ddznkFIhEeibjuLm5_lcNQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_ddznkVIhEeibjuLm5_lcNQ" name="getSortedColonies" method="_dfg3wVIhEeibjuLm5_lcNQ">
+                <ownedComment xmi:id="_dftFCFIhEeibjuLm5_lcNQ">
+                  <body>Gets a fresh list of sorted colonies for a player.&#xD;
+     * Helper function for a common idiom.&#xD;
+     *&#xD;
+     * @param p The &lt;code>Player&lt;/code> to get the colony list for.&#xD;
+     * @return A fresh list of colonies sorted according to the&#xD;
+     *    current comparator.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_ddznklIhEeibjuLm5_lcNQ" name="p" type="_dc7d0FIhEeibjuLm5_lcNQ"/>
+                <ownedParameter xmi:id="_dd0OoFIhEeibjuLm5_lcNQ" type="_dc3zcFIhEeibjuLm5_lcNQ" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dd0OoVIhEeibjuLm5_lcNQ" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_deHwoFIhEeibjuLm5_lcNQ" name="getModelMessageComparator" method="_dfhe0FIhEeibjuLm5_lcNQ">
+                <ownedComment xmi:id="_dftFC1IhEeibjuLm5_lcNQ">
+                  <body>Return the client's preferred comparator for ModelMessages.&#xD;
+     *&#xD;
+     * @return a &lt;code>Comparator&lt;/code> value</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_deHwoVIhEeibjuLm5_lcNQ" name="game" type="_dc5BklIhEeibjuLm5_lcNQ"/>
+                <ownedParameter xmi:id="_deIXsVIhEeibjuLm5_lcNQ" type="_dcupgFIhEeibjuLm5_lcNQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_deI-wFIhEeibjuLm5_lcNQ" name="getBooleanOption" method="_dfhe01IhEeibjuLm5_lcNQ">
+                <ownedComment xmi:id="_dftFDFIhEeibjuLm5_lcNQ">
+                  <body>Returns the boolean option associated with a ModelMessage.&#xD;
+     *&#xD;
+     * @param message a &lt;code>ModelMessage&lt;/code> value&#xD;
+     * @return a &lt;code>BooleanOption&lt;/code> value</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_deJl0FIhEeibjuLm5_lcNQ" name="message" type="_dc6PsVIhEeibjuLm5_lcNQ"/>
+                <ownedParameter xmi:id="_deJl0VIhEeibjuLm5_lcNQ" type="_dc8r8VIhEeibjuLm5_lcNQ" direction="return"/>
+              </ownedOperation>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_dS70UFIhEeibjuLm5_lcNQ" name="MessageSourceComparator" visibility="private">
+                <ownedAttribute xmi:id="_dfVRkVIhEeibjuLm5_lcNQ" name="game" visibility="private" isLeaf="true" type="_dc5BklIhEeibjuLm5_lcNQ" isReadOnly="true" association="_df1n41IhEeibjuLm5_lcNQ"/>
+                <interfaceRealization xmi:id="_ddllIFIhEeibjuLm5_lcNQ" client="_dS70UFIhEeibjuLm5_lcNQ" supplier="_dcupgFIhEeibjuLm5_lcNQ" contract="_dcupgFIhEeibjuLm5_lcNQ"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dfd0cFIhEeibjuLm5_lcNQ" name="MessageSourceComparator" specification="_ddpPgFIhEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_dfd0cVIhEeibjuLm5_lcNQ" name="game" type="_dc5BklIhEeibjuLm5_lcNQ"/>
+                  <ownedParameter xmi:id="_dfd0clIhEeibjuLm5_lcNQ" type="_dS70UFIhEeibjuLm5_lcNQ" direction="return"/>
+                  <language>java</language>
+                  <body>this.game = game;&#xD;
+     </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dfd0c1IhEeibjuLm5_lcNQ" name="compare" specification="_ddqdoFIhEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_dfd0dFIhEeibjuLm5_lcNQ" name="message1" type="_dc6PsVIhEeibjuLm5_lcNQ"/>
+                  <ownedParameter xmi:id="_dfd0dVIhEeibjuLm5_lcNQ" name="message2" type="_dc6PsVIhEeibjuLm5_lcNQ"/>
+                  <ownedParameter xmi:id="_dfd0dlIhEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>String sourceId1 = message1.getSourceId();&#xD;
+         String sourceId2 = message2.getSourceId();&#xD;
+         if (Utils.equals(sourceId1, sourceId2)) {&#xD;
+             return messageTypeComparator.compare(message1, message2);&#xD;
+         }&#xD;
+         FreeColGameObject source1 = game.getMessageSource(message1);&#xD;
+         FreeColGameObject source2 = game.getMessageSource(message2);&#xD;
+         int base = getClassIndex(source1) - getClassIndex(source2);&#xD;
+         if (base == 0) {&#xD;
+             if (source1 instanceof Colony) {&#xD;
+                 return getColonyComparator().compare((Colony) source1, (Colony) source2);&#xD;
+             }&#xD;
+         }&#xD;
+         return base;&#xD;
+     </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dfebgFIhEeibjuLm5_lcNQ" name="getClassIndex" specification="_ddtg8VIhEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_dfebgVIhEeibjuLm5_lcNQ" name="object" type="_dds54VIhEeibjuLm5_lcNQ"/>
+                  <ownedParameter xmi:id="_dfebglIhEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>if (object instanceof Player) {&#xD;
+             return 10;&#xD;
+         } else if (object instanceof Colony) {&#xD;
+             return 20;&#xD;
+         } else if (object instanceof Europe) {&#xD;
+             return 30;&#xD;
+         } else if (object instanceof Unit) {&#xD;
+             return 40;&#xD;
+         } else if (object instanceof FreeColGameObject) {&#xD;
+             return 50;&#xD;
+         } else {&#xD;
+             return 1000;&#xD;
+         }&#xD;
+     </body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_ddpPgFIhEeibjuLm5_lcNQ" name="MessageSourceComparator" visibility="private" method="_dfd0cFIhEeibjuLm5_lcNQ">
+                  <eAnnotations xmi:id="_ddpPglIhEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_ddpPg1IhEeibjuLm5_lcNQ" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_ddpPgVIhEeibjuLm5_lcNQ" name="game" type="_dc5BklIhEeibjuLm5_lcNQ"/>
+                  <ownedParameter xmi:id="_ddpPhFIhEeibjuLm5_lcNQ" type="_dS70UFIhEeibjuLm5_lcNQ" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_ddqdoFIhEeibjuLm5_lcNQ" name="compare" method="_dfd0c1IhEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_ddqdoVIhEeibjuLm5_lcNQ" name="message1" type="_dc6PsVIhEeibjuLm5_lcNQ"/>
+                  <ownedParameter xmi:id="_ddqdolIhEeibjuLm5_lcNQ" name="message2" type="_dc6PsVIhEeibjuLm5_lcNQ"/>
+                  <ownedParameter xmi:id="_ddqdo1IhEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_ddtg8VIhEeibjuLm5_lcNQ" name="getClassIndex" visibility="private" method="_dfebgFIhEeibjuLm5_lcNQ">
+                  <ownedParameter xmi:id="_ddtg8lIhEeibjuLm5_lcNQ" name="object" type="_dds54VIhEeibjuLm5_lcNQ"/>
+                  <ownedParameter xmi:id="_dduIAFIhEeibjuLm5_lcNQ" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </nestedClassifier>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_dfzLoFIhEeibjuLm5_lcNQ" name="" memberEnd="_dfzLoVIhEeibjuLm5_lcNQ _degLIFIhEeibjuLm5_lcNQ">
+              <ownedEnd xmi:id="_dfzLoVIhEeibjuLm5_lcNQ" name="" type="_dSwOIFIhEeibjuLm5_lcNQ" association="_dfzLoFIhEeibjuLm5_lcNQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_dfzLo1IhEeibjuLm5_lcNQ" name="" memberEnd="_dfzLpFIhEeibjuLm5_lcNQ _dfPK8VIhEeibjuLm5_lcNQ">
+              <ownedEnd xmi:id="_dfzLpFIhEeibjuLm5_lcNQ" name="" type="_dSwOIFIhEeibjuLm5_lcNQ" association="_dfzLo1IhEeibjuLm5_lcNQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_dfzysVIhEeibjuLm5_lcNQ" name="" memberEnd="_dfzyslIhEeibjuLm5_lcNQ _dfQZEVIhEeibjuLm5_lcNQ">
+              <ownedEnd xmi:id="_dfzyslIhEeibjuLm5_lcNQ" name="" type="_dSwOIFIhEeibjuLm5_lcNQ" association="_dfzysVIhEeibjuLm5_lcNQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_df0ZwVIhEeibjuLm5_lcNQ" name="" memberEnd="_df0ZwlIhEeibjuLm5_lcNQ _dfRnMFIhEeibjuLm5_lcNQ">
+              <ownedEnd xmi:id="_df0ZwlIhEeibjuLm5_lcNQ" name="" type="_dSwOIFIhEeibjuLm5_lcNQ" association="_df0ZwVIhEeibjuLm5_lcNQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_df1A0VIhEeibjuLm5_lcNQ" name="" memberEnd="_df1A0lIhEeibjuLm5_lcNQ _dfSOQlIhEeibjuLm5_lcNQ">
+              <ownedEnd xmi:id="_df1A0lIhEeibjuLm5_lcNQ" name="" type="_dSwOIFIhEeibjuLm5_lcNQ" association="_df1A0VIhEeibjuLm5_lcNQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_df1n4FIhEeibjuLm5_lcNQ" name="" memberEnd="_df1n4VIhEeibjuLm5_lcNQ _dfUDcFIhEeibjuLm5_lcNQ">
+              <ownedEnd xmi:id="_df1n4VIhEeibjuLm5_lcNQ" name="" type="_dSwOIFIhEeibjuLm5_lcNQ" association="_df1n4FIhEeibjuLm5_lcNQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_df1n41IhEeibjuLm5_lcNQ" name="" memberEnd="_df1n5FIhEeibjuLm5_lcNQ _dfVRkVIhEeibjuLm5_lcNQ">
+              <ownedEnd xmi:id="_df1n5FIhEeibjuLm5_lcNQ" name="" type="_dS70UFIhEeibjuLm5_lcNQ" association="_df1n41IhEeibjuLm5_lcNQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_df22AFIhEeibjuLm5_lcNQ" name="" memberEnd="_df22AVIhEeibjuLm5_lcNQ _dfV4oFIhEeibjuLm5_lcNQ">
+              <ownedEnd xmi:id="_df22AVIhEeibjuLm5_lcNQ" name="" type="_dSwOIFIhEeibjuLm5_lcNQ" association="_df22AFIhEeibjuLm5_lcNQ"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_dRvhgFIhEeibjuLm5_lcNQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_dRvhgVIhEeibjuLm5_lcNQ" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_dcoi4FIhEeibjuLm5_lcNQ" name="BufferedInputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_dcqYEFIhEeibjuLm5_lcNQ" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_dcq_IVIhEeibjuLm5_lcNQ" name="FileInputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_dcrmMVIhEeibjuLm5_lcNQ" name="FileNotFoundException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_dcsNQVIhEeibjuLm5_lcNQ" name="IOException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_dctbYFIhEeibjuLm5_lcNQ" name="InputStream"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_dRwIkFIhEeibjuLm5_lcNQ" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_dRwIkVIhEeibjuLm5_lcNQ" name="logging">
+          <packagedElement xmi:type="uml:Class" xmi:id="_dcv3oVIhEeibjuLm5_lcNQ" name="Level"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_dcxFwFIhEeibjuLm5_lcNQ" name="Logger"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_dcuCcFIhEeibjuLm5_lcNQ" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_dcupgFIhEeibjuLm5_lcNQ" name="Comparator"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_dcvQkVIhEeibjuLm5_lcNQ" name="List"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_dds54FIhEeibjuLm5_lcNQ" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_dds54VIhEeibjuLm5_lcNQ" name="Object"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_dRwvoFIhEeibjuLm5_lcNQ" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_dRwvoVIhEeibjuLm5_lcNQ" name="xml">
+        <packagedElement xmi:type="uml:Package" xmi:id="_dRwvolIhEeibjuLm5_lcNQ" name="stream">
+          <packagedElement xmi:type="uml:Package" xmi:id="_dRyk0VIhEeibjuLm5_lcNQ" name="events">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_ddCLgVIhEeibjuLm5_lcNQ" name="XMLEvent"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_dcyT4FIhEeibjuLm5_lcNQ" name="XMLStreamException"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_cfbTwFIhEeibjuLm5_lcNQ">
+      <eAnnotations xmi:id="_cfbTwVIhEeibjuLm5_lcNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_cfb60FIhEeibjuLm5_lcNQ" base_Package="_cVAzgFIhEeibjuLm5_lcNQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Generics xmi:id="_dTDJEFIhEeibjuLm5_lcNQ" genericsValue="Colony" base_Element="_dTCiAVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Generics xmi:id="_dTE-QFIhEeibjuLm5_lcNQ" genericsValue="Colony" base_Element="_dTDwIFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dcpxAFIhEeibjuLm5_lcNQ" base_Element="_dcoi4FIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dcq_IFIhEeibjuLm5_lcNQ" base_Element="_dcqYEFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dcrmMFIhEeibjuLm5_lcNQ" base_Element="_dcq_IVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dcsNQFIhEeibjuLm5_lcNQ" base_Element="_dcrmMVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dcs0UFIhEeibjuLm5_lcNQ" base_Element="_dcsNQVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dctbYVIhEeibjuLm5_lcNQ" base_Element="_dctbYFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dcuCcVIhEeibjuLm5_lcNQ" base_Element="_dcuCcFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dcvQkFIhEeibjuLm5_lcNQ" base_Element="_dcupgFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dcv3oFIhEeibjuLm5_lcNQ" base_Element="_dcvQkVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dcwesFIhEeibjuLm5_lcNQ" base_Element="_dcv3oVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dcxs0FIhEeibjuLm5_lcNQ" base_Element="_dcxFwFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dcy68FIhEeibjuLm5_lcNQ" base_Element="_dcyT4FIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dcziAFIhEeibjuLm5_lcNQ" base_Element="_dcy68VIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dc0wIFIhEeibjuLm5_lcNQ" base_Element="_dcziAVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dc1-QFIhEeibjuLm5_lcNQ" base_Element="_dc0wIVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dc2lUFIhEeibjuLm5_lcNQ" base_Element="_dc1-QVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dc3MYVIhEeibjuLm5_lcNQ" base_Element="_dc3MYFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dc3zcVIhEeibjuLm5_lcNQ" base_Element="_dc3zcFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dc4agVIhEeibjuLm5_lcNQ" base_Element="_dc4agFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dc5BkVIhEeibjuLm5_lcNQ" base_Element="_dc5BkFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dc5ooFIhEeibjuLm5_lcNQ" base_Element="_dc5BklIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dc6PsFIhEeibjuLm5_lcNQ" base_Element="_dc5ooVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dc62wFIhEeibjuLm5_lcNQ" base_Element="_dc6PsVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dc8E4FIhEeibjuLm5_lcNQ" base_Element="_dc7d0FIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dc8r8FIhEeibjuLm5_lcNQ" base_Element="_dc8E4VIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dc9TAFIhEeibjuLm5_lcNQ" base_Element="_dc8r8VIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dc-hIFIhEeibjuLm5_lcNQ" base_Element="_dc96EFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dc_IMFIhEeibjuLm5_lcNQ" base_Element="_dc-hIVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dc_vQFIhEeibjuLm5_lcNQ" base_Element="_dc_IMVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_ddAWUFIhEeibjuLm5_lcNQ" base_Element="_dc_vQVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_ddA9YFIhEeibjuLm5_lcNQ" base_Element="_ddAWUVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_ddCLgFIhEeibjuLm5_lcNQ" base_Element="_ddA9YVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_ddCykFIhEeibjuLm5_lcNQ" base_Element="_ddCLgVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Generics xmi:id="_ddoBYFIhEeibjuLm5_lcNQ" genericsValue="ModelMessage" base_Element="_ddllIFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ddrEsFIhEeibjuLm5_lcNQ" base_Element="_ddqdoFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_ddsS0FIhEeibjuLm5_lcNQ" base_Element="_ddqdoFIhEeibjuLm5_lcNQ">
+    <annotations xmi:id="_ddsS0VIhEeibjuLm5_lcNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_ddtg8FIhEeibjuLm5_lcNQ" base_Element="_dds54VIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Generics xmi:id="_deIXsFIhEeibjuLm5_lcNQ" genericsValue="ModelMessage" base_Element="_deHwoFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_dep8I1IhEeibjuLm5_lcNQ" base_Property="_dep8IVIhEeibjuLm5_lcNQ" siblings="_dflwQFIhEeibjuLm5_lcNQ _dfmXU1IhEeibjuLm5_lcNQ _dfm-YlIhEeibjuLm5_lcNQ" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_deqjMFIhEeibjuLm5_lcNQ" base_Element="_dep8IVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_dewp0lIhEeibjuLm5_lcNQ" base_Property="_dewp0FIhEeibjuLm5_lcNQ" siblings="_dfnlcFIhEeibjuLm5_lcNQ _dfnldFIhEeibjuLm5_lcNQ _dfoMg1IhEeibjuLm5_lcNQ _dfozklIhEeibjuLm5_lcNQ" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dexQ4FIhEeibjuLm5_lcNQ" base_Element="_dewp0FIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_de0UMFIhEeibjuLm5_lcNQ" base_Property="_deztIVIhEeibjuLm5_lcNQ" siblings="_dfpaoFIhEeibjuLm5_lcNQ _dfqBsFIhEeibjuLm5_lcNQ" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_de0UMVIhEeibjuLm5_lcNQ" base_Element="_deztIVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_de7B4VIhEeibjuLm5_lcNQ" base_Property="_de6a0lIhEeibjuLm5_lcNQ" siblings="_dfqowFIhEeibjuLm5_lcNQ _dfr24FIhEeibjuLm5_lcNQ" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_de7o8FIhEeibjuLm5_lcNQ" base_Element="_de6a0lIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Generics xmi:id="_dfPyAFIhEeibjuLm5_lcNQ" genericsValue="Colony" base_Element="_dfPK8VIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Generics xmi:id="_dfRAIFIhEeibjuLm5_lcNQ" genericsValue="Colony" base_Element="_dfQZEVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Generics xmi:id="_dfSOQFIhEeibjuLm5_lcNQ" genericsValue="Colony" base_Element="_dfRnMFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Generics xmi:id="_dfTcYFIhEeibjuLm5_lcNQ" genericsValue="Colony" base_Element="_dfSOQlIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Generics xmi:id="_dfUqgFIhEeibjuLm5_lcNQ" genericsValue="Colony" base_Element="_dfUDcFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dfVRklIhEeibjuLm5_lcNQ" base_Element="_dfVRkVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Generics xmi:id="_dfXGwFIhEeibjuLm5_lcNQ" genericsValue="ModelMessage" base_Element="_dfV4oFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_dfmXUFIhEeibjuLm5_lcNQ" base_Property="_dflwQFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dfmXUVIhEeibjuLm5_lcNQ" base_Element="_dflwQFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_dfmXVFIhEeibjuLm5_lcNQ" base_Property="_dfmXU1IhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dfm-YFIhEeibjuLm5_lcNQ" base_Element="_dfmXU1IhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_dfm-Y1IhEeibjuLm5_lcNQ" base_Property="_dfm-YlIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dfm-ZFIhEeibjuLm5_lcNQ" base_Element="_dfm-YlIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_dfnlcVIhEeibjuLm5_lcNQ" base_Property="_dfnlcFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dfnlclIhEeibjuLm5_lcNQ" base_Element="_dfnlcFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_dfoMgFIhEeibjuLm5_lcNQ" base_Property="_dfnldFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dfoMgVIhEeibjuLm5_lcNQ" base_Element="_dfnldFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_dfoMhFIhEeibjuLm5_lcNQ" base_Property="_dfoMg1IhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dfozkFIhEeibjuLm5_lcNQ" base_Element="_dfoMg1IhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_dfozk1IhEeibjuLm5_lcNQ" base_Property="_dfozklIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dfozlFIhEeibjuLm5_lcNQ" base_Element="_dfozklIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_dfpaoVIhEeibjuLm5_lcNQ" base_Property="_dfpaoFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dfpaolIhEeibjuLm5_lcNQ" base_Element="_dfpaoFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_dfqBsVIhEeibjuLm5_lcNQ" base_Property="_dfqBsFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dfqBslIhEeibjuLm5_lcNQ" base_Element="_dfqBsFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_dfrP0FIhEeibjuLm5_lcNQ" base_Property="_dfqowFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dfrP0VIhEeibjuLm5_lcNQ" base_Element="_dfqowFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_dfr24VIhEeibjuLm5_lcNQ" base_Property="_dfr24FIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dfr24lIhEeibjuLm5_lcNQ" base_Element="_dfr24FIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dfzLolIhEeibjuLm5_lcNQ" base_Element="_dfzLoFIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_dfzysFIhEeibjuLm5_lcNQ" base_Element="_dfzLo1IhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_df0ZwFIhEeibjuLm5_lcNQ" base_Element="_dfzysVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_df1A0FIhEeibjuLm5_lcNQ" base_Element="_df0ZwVIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_df1A01IhEeibjuLm5_lcNQ" base_Element="_df1A0VIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_df1n4lIhEeibjuLm5_lcNQ" base_Element="_df1n4FIhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_df2O8FIhEeibjuLm5_lcNQ" base_Element="_df1n41IhEeibjuLm5_lcNQ"/>
+  <UMLLabProfile:Reference xmi:id="_df22AlIhEeibjuLm5_lcNQ" base_Element="_df22AFIhEeibjuLm5_lcNQ"/>
+</xmi:XMI>

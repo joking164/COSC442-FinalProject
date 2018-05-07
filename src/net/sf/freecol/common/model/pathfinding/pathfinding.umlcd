@@ -1,0 +1,1170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_DB-lAFJNEeiyW7NaN4qWdw">
+  <modelElement href="pathfinding.uml#_Dsx1gFJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EiHiEVJNEeiyW7NaN4qWdw" targetItem="_EiLMcFJNEeiyW7NaN4qWdw" sourceItem="_EiHiEFJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EiU9cVJNEeiyW7NaN4qWdw" targetItem="_EiXZsFJNEeiyW7NaN4qWdw" sourceItem="_EiU9cFJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_EiVkgFJNEeiyW7NaN4qWdw" sourceAnchor="405.0,0.0" targetAnchor="0.0,84.0" dashed="true" superClass="_EiXZsFJNEeiyW7NaN4qWdw" subClass="_EiLMcFJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_D_xqAVJNEeiyW7NaN4qWdw"/>
+    <bendpoints xmi:id="_FSl8wFJNEeiyW7NaN4qWdw" sourceY="-138" targetX="-888"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_EibrIFJNEeiyW7NaN4qWdw" sourceAnchor="262.0,0.0" targetAnchor="689.0,84.0" target="_EiXZsFJNEeiyW7NaN4qWdw" source="_Ein4YFJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBbP0FJNEeiyW7NaN4qWdw"/>
+    <bendpoints xmi:id="_FSmj0FJNEeiyW7NaN4qWdw" sourceY="-674" targetX="637"/>
+    <stereotypes xmi:id="_Eif8kVJNEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="pathfinding.uml#_EBcd8FJNEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_EifVgFJNEeiyW7NaN4qWdw" text="">
+      <visualProperties xmi:id="_FSrcUVJNEeiyW7NaN4qWdw" position="-28.921575829242556,574.8218802389777"/>
+    </nameVisual>
+    <sourceRole xmi:id="_EifVgVJNEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="pathfinding.uml#_EBbP0VJNEeiyW7NaN4qWdw"/>
+      <visualProperties xmi:id="_FSrcUFJNEeiyW7NaN4qWdw" position="-17.307497570282976,-76.19445685744802"/>
+      <visibility xmi:id="_EikOAFJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_Eijm8FJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Eif8kFJNEeiyW7NaN4qWdw" aggregationKind="NONE" name="avoidIllegalCostDecider" navigable="true">
+      <modelElement href="pathfinding.uml#_EA1Z8FJNEeiyW7NaN4qWdw"/>
+      <visualProperties xmi:id="_FSsDYFJNEeiyW7NaN4qWdw" position="541.3901183530947,509.56774759058794"/>
+      <visibility xmi:id="_EikOAlJNEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_EikOAVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Eic5QFJNEeiyW7NaN4qWdw" sourceAnchor="292.0,0.0" targetAnchor="689.0,54.0" target="_EiXZsFJNEeiyW7NaN4qWdw" source="_Ein4YFJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBcd8VJNEeiyW7NaN4qWdw"/>
+    <bendpoints xmi:id="_FSmj0VJNEeiyW7NaN4qWdw" sourceY="-704" targetX="667"/>
+    <stereotypes xmi:id="_EigjolJNEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="pathfinding.uml#_EBdFAFJNEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Eif8klJNEeiyW7NaN4qWdw" text="">
+      <visualProperties xmi:id="_FStRgVJNEeiyW7NaN4qWdw" position="-28.921575829242556,604.8218802389777"/>
+    </nameVisual>
+    <sourceRole xmi:id="_EigjoFJNEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="pathfinding.uml#_EBcd8lJNEeiyW7NaN4qWdw"/>
+      <visualProperties xmi:id="_FStRgFJNEeiyW7NaN4qWdw" position="-17.307497570282976,-76.19445685744802"/>
+      <visibility xmi:id="_EikOBFJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EikOA1JNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_EigjoVJNEeiyW7NaN4qWdw" aggregationKind="NONE" name="trivialCostDecider" navigable="true">
+      <modelElement href="pathfinding.uml#_EA2BAFJNEeiyW7NaN4qWdw"/>
+      <visualProperties xmi:id="_FSt4kFJNEeiyW7NaN4qWdw" position="591.3901183530947,539.5677475905879"/>
+      <visibility xmi:id="_EikOBlJNEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_EikOBVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_EidgUFJNEeiyW7NaN4qWdw" sourceAnchor="232.0,0.0" targetAnchor="689.0,114.0" target="_EiXZsFJNEeiyW7NaN4qWdw" source="_Ein4YFJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBdFAVJNEeiyW7NaN4qWdw"/>
+    <bendpoints xmi:id="_FSnK4FJNEeiyW7NaN4qWdw" sourceY="-644" targetX="607"/>
+    <stereotypes xmi:id="_EigjplJNEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="pathfinding.uml#_EBeTIFJNEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Eigjo1JNEeiyW7NaN4qWdw" text="">
+      <visualProperties xmi:id="_FSvGsVJNEeiyW7NaN4qWdw" position="-28.921575829242556,544.8218802389777"/>
+    </nameVisual>
+    <sourceRole xmi:id="_EigjpFJNEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="pathfinding.uml#_EBdFAlJNEeiyW7NaN4qWdw"/>
+      <visualProperties xmi:id="_FSvGsFJNEeiyW7NaN4qWdw" position="-17.307497570282976,-76.19445685744802"/>
+      <visibility xmi:id="_EikOCFJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EikOB1JNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_EigjpVJNEeiyW7NaN4qWdw" aggregationKind="NONE" name="tileCostDecider" navigable="true">
+      <modelElement href="pathfinding.uml#_EA2oEFJNEeiyW7NaN4qWdw"/>
+      <visualProperties xmi:id="_FSvtwFJNEeiyW7NaN4qWdw" position="538.5002020437655,479.8807416348112"/>
+      <visibility xmi:id="_Eik1EVJNEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_Eik1EFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_EidgUVJNEeiyW7NaN4qWdw" sourceAnchor="322.0,0.0" targetAnchor="689.0,24.0" target="_EiXZsFJNEeiyW7NaN4qWdw" source="_Ein4YFJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBeTIVJNEeiyW7NaN4qWdw"/>
+    <bendpoints xmi:id="_FSnK4VJNEeiyW7NaN4qWdw" sourceY="-734" targetX="697"/>
+    <stereotypes xmi:id="_EihKs1JNEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="pathfinding.uml#_EBe6MFJNEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_EihKsFJNEeiyW7NaN4qWdw" text="">
+      <visualProperties xmi:id="_FSw74VJNEeiyW7NaN4qWdw" position="-28.921575829242556,634.8218802389777"/>
+    </nameVisual>
+    <sourceRole xmi:id="_EihKsVJNEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="pathfinding.uml#_EBeTIlJNEeiyW7NaN4qWdw"/>
+      <visualProperties xmi:id="_FSw74FJNEeiyW7NaN4qWdw" position="-17.307497570282976,-76.19445685744802"/>
+      <visibility xmi:id="_Eik1E1JNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_Eik1ElJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_EihKslJNEeiyW7NaN4qWdw" aggregationKind="NONE" name="serverAvoidIllegalCostDecider" navigable="true">
+      <modelElement href="pathfinding.uml#_EA3PIFJNEeiyW7NaN4qWdw"/>
+      <visualProperties xmi:id="_FSxi8FJNEeiyW7NaN4qWdw" position="580.5002020437655,569.8807416348112"/>
+      <visibility xmi:id="_Eik1FVJNEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_Eik1FFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EieucVJNEeiyW7NaN4qWdw" targetItem="_Ein4YFJNEeiyW7NaN4qWdw" sourceItem="_EieucFJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_EimqQFJNEeiyW7NaN4qWdw" sourceAnchor="202.0,0.0" targetAnchor="675.0,44.0" target="_EjA58FJNEeiyW7NaN4qWdw" source="_Ein4YFJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBe6MVJNEeiyW7NaN4qWdw"/>
+    <bendpoints xmi:id="_FSpAEFJNEeiyW7NaN4qWdw" sourceY="-269" targetX="947"/>
+    <stereotypes xmi:id="_EimqQVJNEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="pathfinding.uml#_EBgIUFJNEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_EimqQlJNEeiyW7NaN4qWdw" text="">
+      <visualProperties xmi:id="_FSzYIFJNEeiyW7NaN4qWdw" position="-24.884199045763125,134.7756327625301"/>
+    </nameVisual>
+    <sourceRole xmi:id="_EimqQ1JNEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="pathfinding.uml#_EBe6MlJNEeiyW7NaN4qWdw"/>
+      <visualProperties xmi:id="_FSyxEFJNEeiyW7NaN4qWdw" position="-15.72013520397013,-71.57231354372038"/>
+      <visibility xmi:id="_EimqRFJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EimqRVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_EimqRlJNEeiyW7NaN4qWdw" aggregationKind="NONE" name="avoidSettlementsCostDecider" navigable="true">
+      <modelElement href="pathfinding.uml#_EA3PIlJNEeiyW7NaN4qWdw"/>
+      <visualProperties xmi:id="_FSz_MFJNEeiyW7NaN4qWdw" position="833.4007271279661,32.8434059423231"/>
+      <visibility xmi:id="_EimqR1JNEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_EimqSFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_EinRUFJNEeiyW7NaN4qWdw" sourceAnchor="172.0,0.0" targetAnchor="675.0,44.0" target="_EjFLYFJNEeiyW7NaN4qWdw" source="_Ein4YFJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBgIUVJNEeiyW7NaN4qWdw"/>
+    <bendpoints xmi:id="_FSpnIFJNEeiyW7NaN4qWdw" sourceY="-99" targetX="245"/>
+    <stereotypes xmi:id="_EinRUVJNEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="pathfinding.uml#_EBgvYFJNEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_EinRUlJNEeiyW7NaN4qWdw" text="">
+      <visualProperties xmi:id="_FS2bcFJNEeiyW7NaN4qWdw" position="-22.96005298836917,-53.34580831383619"/>
+    </nameVisual>
+    <sourceRole xmi:id="_EinRU1JNEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="pathfinding.uml#_EBgIUlJNEeiyW7NaN4qWdw"/>
+      <visualProperties xmi:id="_FS10YFJNEeiyW7NaN4qWdw" position="-14.075616017752054,-70.69517943635867"/>
+      <visibility xmi:id="_EinRVFJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EinRVVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_EinRVlJNEeiyW7NaN4qWdw" aggregationKind="NONE" name="avoidSettlementsAndBlockingUnitsCostDecider" navigable="true">
+      <modelElement href="pathfinding.uml#_EA32MVJNEeiyW7NaN4qWdw"/>
+      <visualProperties xmi:id="_FS2bcVJNEeiyW7NaN4qWdw" position="73.4152465457164,-173.28444413474034"/>
+      <visibility xmi:id="_EinRV1JNEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_EinRWFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Ei1TwFJNEeiyW7NaN4qWdw" sourceAnchor="337.0,0.0" targetAnchor="405.0,168.0" superClass="_EiLMcFJNEeiyW7NaN4qWdw" subClass="_Ei4-IFJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_D_6M4FJNEeiyW7NaN4qWdw"/>
+    <bendpoints xmi:id="_FSpnIVJNEeiyW7NaN4qWdw" sourceY="-188" targetX="197" targetY="27"/>
+    <bendpoints xmi:id="_FSpnIlJNEeiyW7NaN4qWdw" sourceX="-197" sourceY="-188" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Ei160VJNEeiyW7NaN4qWdw" targetItem="_Ei4-IFJNEeiyW7NaN4qWdw" sourceItem="_Ei160FJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Ei8ogFJNEeiyW7NaN4qWdw" sourceAnchor="337.0,0.0" targetAnchor="405.0,168.0" superClass="_EiLMcFJNEeiyW7NaN4qWdw" subClass="_EjA58FJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_D_7bAFJNEeiyW7NaN4qWdw"/>
+    <bendpoints xmi:id="_FSqOMFJNEeiyW7NaN4qWdw" sourceY="-28" targetX="869" targetY="27"/>
+    <bendpoints xmi:id="_FSqOMVJNEeiyW7NaN4qWdw" sourceX="-869" sourceY="-28" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Ei8oglJNEeiyW7NaN4qWdw" targetItem="_EjA58FJNEeiyW7NaN4qWdw" sourceItem="_Ei8ogVJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Ei8og1JNEeiyW7NaN4qWdw" sourceAnchor="0.0,44.0" targetAnchor="337.0,88.0" superClass="_EjA58FJNEeiyW7NaN4qWdw" subClass="_EjFLYFJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_D_8pIFJNEeiyW7NaN4qWdw"/>
+    <bendpoints xmi:id="_FSqOMlJNEeiyW7NaN4qWdw" sourceX="-335" targetY="126"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Ei_EwVJNEeiyW7NaN4qWdw" targetItem="_EjFLYFJNEeiyW7NaN4qWdw" sourceItem="_Ei_EwFJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_EjJc0FJNEeiyW7NaN4qWdw" sourceAnchor="337.0,0.0" targetAnchor="337.0,88.0" superClass="_EjFLYFJNEeiyW7NaN4qWdw" subClass="_EjKq8FJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_D_93QFJNEeiyW7NaN4qWdw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EjJc0lJNEeiyW7NaN4qWdw" targetItem="_EjKq8FJNEeiyW7NaN4qWdw" sourceItem="_EjJc0VJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EjNuQVJNEeiyW7NaN4qWdw" targetItem="_EjPjclJNEeiyW7NaN4qWdw" sourceItem="_EjNuQFJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EjOVUVJNEeiyW7NaN4qWdw" targetItem="_EjQKgVJNEeiyW7NaN4qWdw" sourceItem="_EjOVUFJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EjO8YVJNEeiyW7NaN4qWdw" targetItem="_EjQKhlJNEeiyW7NaN4qWdw" sourceItem="_EjO8YFJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EjPjcVJNEeiyW7NaN4qWdw" targetItem="_EjQKi1JNEeiyW7NaN4qWdw" sourceItem="_EjPjcFJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EjTN0VJNEeiyW7NaN4qWdw" targetItem="_EjeM8FJNEeiyW7NaN4qWdw" sourceItem="_EjTN0FJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EjT04VJNEeiyW7NaN4qWdw" targetItem="_EjeM9FJNEeiyW7NaN4qWdw" sourceItem="_EjT04FJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EjUb8VJNEeiyW7NaN4qWdw" targetItem="_EjeM-VJNEeiyW7NaN4qWdw" sourceItem="_EjUb8FJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EjVDAVJNEeiyW7NaN4qWdw" targetItem="_EjeM_lJNEeiyW7NaN4qWdw" sourceItem="_EjVDAFJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EjaikVJNEeiyW7NaN4qWdw" targetItem="_EjeNA1JNEeiyW7NaN4qWdw" sourceItem="_EjaikFJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EjbJoVJNEeiyW7NaN4qWdw" targetItem="_EjeNFlJNEeiyW7NaN4qWdw" sourceItem="_EjbJoFJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EjbwsFJNEeiyW7NaN4qWdw" targetItem="_EjeNH1JNEeiyW7NaN4qWdw" sourceItem="_EjbJolJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EjbwslJNEeiyW7NaN4qWdw" targetItem="_EjeNJ1JNEeiyW7NaN4qWdw" sourceItem="_EjbwsVJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EjcXwVJNEeiyW7NaN4qWdw" targetItem="_Eje0AVJNEeiyW7NaN4qWdw" sourceItem="_EjcXwFJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Ejc-0VJNEeiyW7NaN4qWdw" targetItem="_Eje0ClJNEeiyW7NaN4qWdw" sourceItem="_Ejc-0FJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Ejdl4VJNEeiyW7NaN4qWdw" targetItem="_Eje0E1JNEeiyW7NaN4qWdw" sourceItem="_Ejdl4FJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Ejn98FJNEeiyW7NaN4qWdw" sourceAnchor="259.0,0.0" targetAnchor="0.0,68.0" target="_EjPjclJNEeiyW7NaN4qWdw" source="_EjtdiVJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBgvYVJNEeiyW7NaN4qWdw"/>
+    <bendpoints xmi:id="_FSq1QFJNEeiyW7NaN4qWdw" sourceY="-123" targetX="-347"/>
+    <stereotypes xmi:id="_EjpzIFJNEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="pathfinding.uml#_EBh9gFJNEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_EjpMElJNEeiyW7NaN4qWdw" text="">
+      <visualProperties xmi:id="_FTGTEFJNEeiyW7NaN4qWdw" position="-16.45583745857016,19.860212861459217"/>
+    </nameVisual>
+    <sourceRole xmi:id="_EjpME1JNEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="pathfinding.uml#_EBgvYlJNEeiyW7NaN4qWdw"/>
+      <visualProperties xmi:id="_FTFsAFJNEeiyW7NaN4qWdw" position="1.444929311693727,-71.95386334503303"/>
+      <visibility xmi:id="_EjrBQVJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EjrBQFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_EjpMFFJNEeiyW7NaN4qWdw" aggregationKind="NONE" name="gd" navigable="true">
+      <modelElement href="pathfinding.uml#_EA5EUFJNEeiyW7NaN4qWdw"/>
+      <visualProperties xmi:id="_FTGTEVJNEeiyW7NaN4qWdw" position="-353.67491733425345,-50.54729487519319"/>
+      <visibility xmi:id="_EjrBQ1JNEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_EjrBQlJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EjpMEVJNEeiyW7NaN4qWdw" targetItem="_EjtdiVJNEeiyW7NaN4qWdw" sourceItem="_EjpMEFJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EjqaMVJNEeiyW7NaN4qWdw" targetItem="_Ejtdo1JNEeiyW7NaN4qWdw" sourceItem="_EjqaMFJNEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_EjtdgFJNEeiyW7NaN4qWdw" source="_EjtdiVJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBh9gVJNEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_EjtdgVJNEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="pathfinding.uml#_EBikkFJNEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_EjtdglJNEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_Ejtdg1JNEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="pathfinding.uml#_EBh9glJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_EjtdhFJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EjtdhVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_EjtdhlJNEeiyW7NaN4qWdw" aggregationKind="NONE" name="results" navigable="true">
+      <modelElement href="pathfinding.uml#_EA5rYVJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_Ejtdh1JNEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_EjtdiFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_EiHiEFJNEeiyW7NaN4qWdw" sourceConnectionVisual="_EiHiEVJNEeiyW7NaN4qWdw" text="Class for determining the cost of a single move.&#xD;&#xA;&#xD;&#xA;This {@link CostDecider} is used as a default by&#xD;&#xA;{@link net.sf.freecol.common.model.Map#findPath} and &#xD;&#xA;{@link net.sf.freecol.common.model.Map#search} &#xD;&#xA;if no other &lt;code>CostDecider&lt;/code> has been specified." item="_EiLMcFJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBHt0FJNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_EiU9cFJNEeiyW7NaN4qWdw" sourceConnectionVisual="_EiU9cVJNEeiyW7NaN4qWdw" text="Determines the cost of a single move.&#xD;&#xA;Used by {@link net.sf.freecol.common.model.Map#findPath}&#xD;&#xA;and {@link net.sf.freecol.common.model.Map#search}." item="_EiXZsFJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBHt0VJNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_EieucFJNEeiyW7NaN4qWdw" sourceConnectionVisual="_EieucVJNEeiyW7NaN4qWdw" text="Cost deciders to be used while finding paths." item="_Ein4YFJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBHt0lJNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Ei160FJNEeiyW7NaN4qWdw" sourceConnectionVisual="_Ei160VJNEeiyW7NaN4qWdw" text="A &lt;code>CostDecider&lt;/code> that uses server-side knowledge of where&#xD;&#xA;     * a player has explored to limit searches." item="_Ei4-IFJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBHt01JNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Ei8ogVJNEeiyW7NaN4qWdw" sourceConnectionVisual="_Ei8oglJNEeiyW7NaN4qWdw" text="A &lt;code>CostDecider&lt;/code> that costs unit moves normally while&#xD;&#xA;     * avoiding other player settlements." item="_EjA58FJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBIU4FJNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Ei_EwFJNEeiyW7NaN4qWdw" sourceConnectionVisual="_Ei_EwVJNEeiyW7NaN4qWdw" text="A &lt;code>CostDecider&lt;/code> that costs unit moves normally while&#xD;&#xA;     * avoiding other player settlements and units, and does not explore&#xD;&#xA;     * if it is trading." item="_EjFLYFJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBIU4VJNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_EjJc0VJNEeiyW7NaN4qWdw" sourceConnectionVisual="_EjJc0lJNEeiyW7NaN4qWdw" text="A &lt;code>CostDecider&lt;/code> to avoid naval danger." item="_EjKq8FJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBIU4lJNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_EjNuQFJNEeiyW7NaN4qWdw" sourceConnectionVisual="_EjNuQVJNEeiyW7NaN4qWdw" text="Used by {@link net.sf.freecol.common.model.Map#search} in order to&#xD;&#xA;determine a goal.&#xD;&#xA;&#xD;&#xA;&lt;br />&lt;br />&#xD;&#xA;&#xD;&#xA;The method {@link #check(Unit, PathNode)} will be called by {@link&#xD;&#xA;net.sf.freecol.common.model.Map#search} until:&#xD;&#xA;&#xD;&#xA;&lt;ol>&#xD;&#xA;  &lt;li>The method returns &lt;code>true&lt;/code> and there is &#xD;&#xA;      {@link #hasSubGoals() no sub goals}.&lt;/li>&#xD;&#xA;  &lt;li>The maximum distance of the search has been reached.&lt;/li>&#xD;&#xA;&lt;/ol>&#xD;&#xA;&#xD;&#xA;The method {@link #getGoal()} will get called after this." item="_EjPjclJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBIU41JNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_EjOVUFJNEeiyW7NaN4qWdw" sourceConnectionVisual="_EjOVUVJNEeiyW7NaN4qWdw" text="Gets the &lt;code>PathNode&lt;/code> containing the goal.&#xD;&#xA;     *&#xD;&#xA;     * @return The &lt;code>PathNode&lt;/code> where the &lt;code>Tile&lt;/code>&#xD;&#xA;     *     returned by &lt;code>pathNode.getTile()&lt;/code> is the goal." item="_EjQKgVJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBIU5FJNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_EjO8YFJNEeiyW7NaN4qWdw" sourceConnectionVisual="_EjO8YVJNEeiyW7NaN4qWdw" text="Determines whether this &lt;code>GoalDecider&lt;/code> has any&#xD;&#xA;     * sub goals.&#xD;&#xA;     * &#xD;&#xA;     * @return &lt;code>true&lt;/code> if there are any sub goals&#xD;&#xA;     *     and &lt;code>false&lt;/code> otherwise." item="_EjQKhlJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBIU5VJNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_EjPjcFJNEeiyW7NaN4qWdw" sourceConnectionVisual="_EjPjcVJNEeiyW7NaN4qWdw" text="Checks whether the given &lt;code>PathNode&lt;/code> is a &#xD;&#xA;     * goal/sub-goal.&#xD;&#xA;     * &#xD;&#xA;     * @param u The &lt;code>Unit&lt;/code> which we are trying &#xD;&#xA;     *     to find a path for.&#xD;&#xA;     * @param pathNode The &lt;code>PathNode&lt;/code> where the&#xD;&#xA;     *     &lt;code>Tile&lt;/code> returned by&#xD;&#xA;     *     &lt;code>pathNode.getTile()&lt;/code> is the tile to be checked.&#xD;&#xA;     * @return &lt;code>true&lt;/code> if the &lt;code>PathNode&lt;/code> was&#xD;&#xA;     *     either a goal or a sub goal and &lt;code>false&lt;/code>&#xD;&#xA;     *     otherwise. The goal should be returned by {@link #getGoal()}&#xD;&#xA;     *     right after a call to this method, if this method returns&#xD;&#xA;     *     &lt;code>true&lt;/code> and {@link #hasSubGoals()} returns&#xD;&#xA;     *     &lt;code>false&lt;/code>." item="_EjQKi1JNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBIU5lJNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_EjTN0FJNEeiyW7NaN4qWdw" sourceConnectionVisual="_EjTN0VJNEeiyW7NaN4qWdw" text="Handy library of GoalDeciders." item="_EjeM8FJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBI78FJNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_EjT04FJNEeiyW7NaN4qWdw" sourceConnectionVisual="_EjT04VJNEeiyW7NaN4qWdw" text="Gets a GoalDecider to find the `closest' settlement owned by the&#xD;&#xA;     * searching unit player, with connected ports weighted double.&#xD;&#xA;     *&#xD;&#xA;     * @return The closest settlement goal decider." item="_EjeM9FJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBI78VJNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_EjUb8FJNEeiyW7NaN4qWdw" sourceConnectionVisual="_EjUb8VJNEeiyW7NaN4qWdw" text="Gets a GoalDecider to find the closest high seas tile to a target.&#xD;&#xA;     * Used when arriving on the map from Europe.&#xD;&#xA;     *&#xD;&#xA;     * @return The high seas goal decider." item="_EjeM-VJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBI78lJNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_EjVDAFJNEeiyW7NaN4qWdw" sourceConnectionVisual="_EjVDAVJNEeiyW7NaN4qWdw" text="Build a simple goal decider to find the first high seas tile&#xD;&#xA;     * without using the unit parameter.&#xD;&#xA;     *&#xD;&#xA;     * @return A &lt;code>GoalDecider&lt;/code> that finds the nearest high seas tile." item="_EjeM_lJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBI781JNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_EjaikFJNEeiyW7NaN4qWdw" sourceConnectionVisual="_EjaikVJNEeiyW7NaN4qWdw" text="Get a goal decider to find tiles on river corners, preferring ones&#xD;&#xA;     * closest to the high seas.  This is useful when a unit is stuck on&#xD;&#xA;     * a river.  By moving to a corner (i.e. where another unit can get&#xD;&#xA;     * past it) the chance that the blockage clears is enhanced.&#xD;&#xA;     *&#xD;&#xA;     * @return A suitable goal decider." item="_EjeNA1JNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBTUBVJNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_EjbJoFJNEeiyW7NaN4qWdw" sourceConnectionVisual="_EjbJoVJNEeiyW7NaN4qWdw" text="Builds a simple goal decider to find a single target location.&#xD;&#xA;     *&#xD;&#xA;     * @param target The target &lt;code>Location&lt;/code>.&#xD;&#xA;     * @return A &lt;code>GoalDecider&lt;/code> that only succeeds for the&#xD;&#xA;     *     target location." item="_EjeNFlJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBI79FJNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_EjbJolJNEeiyW7NaN4qWdw" sourceConnectionVisual="_EjbwsFJNEeiyW7NaN4qWdw" text="Builds a goal decider to find an adjacent tile to a target location.&#xD;&#xA;     *&#xD;&#xA;     * @param target The target &lt;code>Location&lt;/code>.&#xD;&#xA;     * @return A &lt;code>GoalDecider&lt;/code> that only succeeds for tiles&#xD;&#xA;     *     adjacent to the target location." item="_EjeNH1JNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBTUAFJNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_EjbwsVJNEeiyW7NaN4qWdw" sourceConnectionVisual="_EjbwslJNEeiyW7NaN4qWdw" text="Get a goal decider that succeeds for settlements owned by one&#xD;&#xA;     * of a given list of enemies.&#xD;&#xA;     *&#xD;&#xA;     * @param enemies The list of enemy &lt;code>Player&lt;/code>s.&#xD;&#xA;     * @return A suitable &lt;code>GoalDecider&lt;/code>.&#xD;&#xA;     *" item="_EjeNJ1JNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBTUAVJNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_EjcXwFJNEeiyW7NaN4qWdw" sourceConnectionVisual="_EjcXwVJNEeiyW7NaN4qWdw" text="Goal decider to find the best land tile to disembark a unit that&#xD;&#xA;     * is planning to attack a given target.&#xD;&#xA;     *&#xD;&#xA;     * The result must be:&#xD;&#xA;     * - Unoccupied&#xD;&#xA;     * - Have at least one unoccupied high-seas-connected neighbour&#xD;&#xA;     * - Favour the best natural defence of the alternatives&#xD;&#xA;     * - Favour a short journey to the target&#xD;&#xA;     * - Prioritize not landing next to a hostile fort/fortress.&#xD;&#xA;     *&#xD;&#xA;     * @param target The target &lt;code>Tile&lt;/code>.&#xD;&#xA;     * @return A suitable &lt;code>GoalDecider&lt;/code>." item="_Eje0AVJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBTUAlJNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Ejc-0FJNEeiyW7NaN4qWdw" sourceConnectionVisual="_Ejc-0VJNEeiyW7NaN4qWdw" text="Get a goal decider to find tiles that an enemy player can not see.&#xD;&#xA;     *&#xD;&#xA;     * @param enemy The enemy &lt;code>Player&lt;/code> to avoid.&#xD;&#xA;     * @return A suitable &lt;code>GoalDecider&lt;/code>." item="_Eje0ClJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBTUA1JNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Ejdl4FJNEeiyW7NaN4qWdw" sourceConnectionVisual="_Ejdl4VJNEeiyW7NaN4qWdw" text="Get a goal decider to find tiles with a settlement with a lower&#xD;&#xA;     * high seas count than a unit currently has.  Useful for tunnelling&#xD;&#xA;     * out of intermittantly blocked rivers.&#xD;&#xA;     *&#xD;&#xA;     * @param unit The &lt;code>Unit&lt;/code> to get the goal decider for.&#xD;&#xA;     * @return A suitable &lt;code>GoalDecider&lt;/code>." item="_Eje0E1JNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBTUBFJNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_EjpMEFJNEeiyW7NaN4qWdw" sourceConnectionVisual="_EjpMEVJNEeiyW7NaN4qWdw" text="A class to wrap a goal decider that searches for paths to an&#xD;&#xA;     * adjacent tile to a set of locations, and the results of such a&#xD;&#xA;     * search." item="_EjtdiVJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBT7EFJNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_EjqaMFJNEeiyW7NaN4qWdw" sourceConnectionVisual="_EjqaMVJNEeiyW7NaN4qWdw" text="Create a multiple decider.&#xD;&#xA;         *&#xD;&#xA;         * @param locs The list of &lt;code>Location&lt;/code>s to search for&#xD;&#xA;         *     paths to an adjacent location for." item="_Ejtdo1JNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_EBT7EVJNEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_EiLMcFJNEeiyW7NaN4qWdw" comments="_EiHiEFJNEeiyW7NaN4qWdw" targetConnectionVisual="_EiHiEVJNEeiyW7NaN4qWdw" name="BaseCostDecider" generalizations="_EiVkgFJNEeiyW7NaN4qWdw" subclassedBy="_Ei1TwFJNEeiyW7NaN4qWdw _Ei8ogFJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_DuDA0FJNEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_EiLMcVJNEeiyW7NaN4qWdw" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_EiLMclJNEeiyW7NaN4qWdw" label="~"/>
+    <attributes xmi:id="_EiLMc1JNEeiyW7NaN4qWdw" name="movesLeft">
+      <modelElement href="pathfinding.uml#_EAy9sFJNEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_EiLMdFJNEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="pathfinding.uml#_EA0L0FJNEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_EiLMdVJNEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_EiLMdlJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_EiLMd1JNEeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EiLMeFJNEeiyW7NaN4qWdw" name="newTurns">
+      <modelElement href="pathfinding.uml#_EA0L0VJNEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_EiLMeVJNEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="pathfinding.uml#_EA0y4FJNEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_EiLMelJNEeiyW7NaN4qWdw" label="#"/>
+      <cardinality xmi:id="_EiLMe1JNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_EiLMfFJNEeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_EiLMfVJNEeiyW7NaN4qWdw" name="getMovesLeft">
+      <modelElement href="pathfinding.uml#_DuKVkFJNEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_EiLMflJNEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="pathfinding.uml#_DuMKwFJNEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EiLMf1JNEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="pathfinding.uml#_DuoPoFJNEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_EiLMgFJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EiLMgVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EiLMglJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_DuK8oFJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_EiLMg1JNEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_EiLMhFJNEeiyW7NaN4qWdw" name="getNewTurns">
+      <modelElement href="pathfinding.uml#_Duo2sVJNEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_EiLMhVJNEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="pathfinding.uml#_DuqE0FJNEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EiLMhlJNEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="pathfinding.uml#_Duqr4FJNEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_EiLMh1JNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EiLMiFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EiLMiVJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_DupdwFJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_EiLMilJNEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_EiLMi1JNEeiyW7NaN4qWdw" name="getCost">
+      <modelElement href="pathfinding.uml#_EAZ8IFJNEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_EiLMjFJNEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="pathfinding.uml#_EAajMVJNEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EiLMjVJNEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="pathfinding.uml#_EAbKQVJNEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_EiLMjlJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EiLMj1JNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EiLMkFJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EAajMFJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_EiLMkVJNEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_EiLMklJNEeiyW7NaN4qWdw" name="unit">
+        <modelElement href="pathfinding.uml#_EAZ8IVJNEeiyW7NaN4qWdw"/>
+        <keywords xmi:id="_EiLMk1JNEeiyW7NaN4qWdw" keyword="final"/>
+        <cardinality xmi:id="_EiLMlFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EiLMlVJNEeiyW7NaN4qWdw" name="Unit">
+          <modelElement href="pathfinding.uml#_D_wb4FJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EiLMllJNEeiyW7NaN4qWdw" name="oldLocation">
+        <modelElement href="pathfinding.uml#_EAZ8IlJNEeiyW7NaN4qWdw"/>
+        <keywords xmi:id="_EiLMl1JNEeiyW7NaN4qWdw" keyword="final"/>
+        <cardinality xmi:id="_EiLMmFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EiLMmVJNEeiyW7NaN4qWdw" name="Location">
+          <modelElement href="pathfinding.uml#_D_t_oFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EiLMmlJNEeiyW7NaN4qWdw" name="newLocation">
+        <modelElement href="pathfinding.uml#_EAZ8I1JNEeiyW7NaN4qWdw"/>
+        <keywords xmi:id="_EiLMm1JNEeiyW7NaN4qWdw" keyword="final"/>
+        <cardinality xmi:id="_EiLMnFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EiLMnVJNEeiyW7NaN4qWdw" name="Location">
+          <modelElement href="pathfinding.uml#_D_t_oFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EiLMnlJNEeiyW7NaN4qWdw" name="movesLeftBefore">
+        <modelElement href="pathfinding.uml#_EAZ8JFJNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_EiLMn1JNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EiLMoFJNEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_EiXZsFJNEeiyW7NaN4qWdw" comments="_EiU9cFJNEeiyW7NaN4qWdw" targetConnectionVisual="_EiU9cVJNEeiyW7NaN4qWdw" name="CostDecider" associationsIn="_EibrIFJNEeiyW7NaN4qWdw _Eic5QFJNEeiyW7NaN4qWdw _EidgUFJNEeiyW7NaN4qWdw _EidgUVJNEeiyW7NaN4qWdw" subclassedBy="_EiVkgFJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_DuuWQFJNEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_EiXZsVJNEeiyW7NaN4qWdw" position="1323.0,-192.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_EiXZslJNEeiyW7NaN4qWdw" label="+"/>
+    <attributes xmi:id="_EiXZs1JNEeiyW7NaN4qWdw" defaultValue="-1" name="ILLEGAL_MOVE" staticAttribute="true">
+      <modelElement href="pathfinding.uml#_DuvkYFJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_EiXZtFJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EiXZtVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_EiXZtlJNEeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EiXZt1JNEeiyW7NaN4qWdw" name="movesLeft">
+      <modelElement href="pathfinding.uml#_DuxZkFJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_EiXZuFJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EiXZuVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_EiXZulJNEeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EiXZu1JNEeiyW7NaN4qWdw" name="newTurns">
+      <modelElement href="pathfinding.uml#_DuyAoFJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_EiXZvFJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EiXZvVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_EiXZvlJNEeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_EiXZv1JNEeiyW7NaN4qWdw" name="getCost">
+      <modelElement href="pathfinding.uml#_EAcYYFJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_EiXZwFJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EiXZwVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EiXZwlJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EAcYZVJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_EiXZw1JNEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_EiXZxFJNEeiyW7NaN4qWdw" name="unit">
+        <modelElement href="pathfinding.uml#_EAcYYVJNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_EiXZxVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EiXZxlJNEeiyW7NaN4qWdw" name="Unit">
+          <modelElement href="pathfinding.uml#_D_wb4FJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EiXZx1JNEeiyW7NaN4qWdw" name="oldLocation">
+        <modelElement href="pathfinding.uml#_EAcYYlJNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_EiXZyFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EiXZyVJNEeiyW7NaN4qWdw" name="Location">
+          <modelElement href="pathfinding.uml#_D_t_oFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EiXZylJNEeiyW7NaN4qWdw" name="newLocation">
+        <modelElement href="pathfinding.uml#_EAcYY1JNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_EiXZy1JNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EiXZzFJNEeiyW7NaN4qWdw" name="Location">
+          <modelElement href="pathfinding.uml#_D_t_oFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EiXZzVJNEeiyW7NaN4qWdw" name="movesLeftBefore">
+        <modelElement href="pathfinding.uml#_EAcYZFJNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_EiXZzlJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EiXZz1JNEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Ein4YFJNEeiyW7NaN4qWdw" comments="_EieucFJNEeiyW7NaN4qWdw" targetConnectionVisual="_EieucVJNEeiyW7NaN4qWdw" name="CostDeciders" associationsOut="_EibrIFJNEeiyW7NaN4qWdw _Eic5QFJNEeiyW7NaN4qWdw _EidgUFJNEeiyW7NaN4qWdw _EidgUVJNEeiyW7NaN4qWdw _EimqQFJNEeiyW7NaN4qWdw _EinRUFJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_DuzOwFJNEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_Ein4YVJNEeiyW7NaN4qWdw" position="2387.0,566.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Ein4YlJNEeiyW7NaN4qWdw" name="Patch">
+      <modelElement href="pathfinding.uml#_EgntQFJNEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <visibility xmi:id="_Ein4Y1JNEeiyW7NaN4qWdw" label="+"/>
+    <attributes xmi:id="_Ein4ZFJNEeiyW7NaN4qWdw" defaultValue="new BaseCostDecider()" name="avoidIllegalCostDecider" staticAttribute="true">
+      <modelElement href="pathfinding.uml#_EA1Z8FJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_Ein4ZVJNEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_Ein4ZlJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_Ein4Z1JNEeiyW7NaN4qWdw" name="CostDecider">
+        <modelElement href="pathfinding.uml#_DuuWQFJNEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ein4aFJNEeiyW7NaN4qWdw" defaultValue="new CostDecider() {&#xD;&#xA;            @Override&#xD;&#xA;            public int getCost(Unit unit, Location oldLocation,&#xD;&#xA;                               Location newLocation, int movesLeft) {&#xD;&#xA;                return (newLocation == null) ? ILLEGAL_MOVE&#xD;&#xA;                    : (newLocation instanceof Europe) ? 1&#xD;&#xA;                    : (newLocation.getTile() == null) ? ILLEGAL_MOVE&#xD;&#xA;                    : 1;&#xD;&#xA;            }&#xD;&#xA;            @Override&#xD;&#xA;            public int getMovesLeft() { return 0; }&#xD;&#xA;            @Override&#xD;&#xA;            public int getNewTurns() { return 0; }&#xD;&#xA;        }" name="trivialCostDecider" staticAttribute="true">
+      <modelElement href="pathfinding.uml#_EA2BAFJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_Ein4aVJNEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_Ein4alJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_Ein4a1JNEeiyW7NaN4qWdw" name="CostDecider">
+        <modelElement href="pathfinding.uml#_DuuWQFJNEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ein4bFJNEeiyW7NaN4qWdw" defaultValue="new CostDecider() {&#xD;&#xA;            @Override&#xD;&#xA;            public int getCost(Unit unit, Location oldLocation,&#xD;&#xA;                               Location newLocation, int movesLeft) {&#xD;&#xA;                return (newLocation == null) ? ILLEGAL_MOVE&#xD;&#xA;                    : (newLocation instanceof Europe) ? 1&#xD;&#xA;                    : (newLocation.getTile() == null) ? ILLEGAL_MOVE&#xD;&#xA;                    : (unit.isTileAccessible(newLocation.getTile())) ? 1&#xD;&#xA;                    : ILLEGAL_MOVE;&#xD;&#xA;            }&#xD;&#xA;            @Override&#xD;&#xA;            public int getMovesLeft() { return 0; }&#xD;&#xA;            @Override&#xD;&#xA;            public int getNewTurns() { return 1; }&#xD;&#xA;        }" name="tileCostDecider" staticAttribute="true">
+      <modelElement href="pathfinding.uml#_EA2oEFJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_Ein4bVJNEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_Ein4blJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_Ein4b1JNEeiyW7NaN4qWdw" name="CostDecider">
+        <modelElement href="pathfinding.uml#_DuuWQFJNEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ein4cFJNEeiyW7NaN4qWdw" defaultValue="new ServerBaseCostDecider()" name="serverAvoidIllegalCostDecider" staticAttribute="true">
+      <modelElement href="pathfinding.uml#_EA3PIFJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_Ein4cVJNEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_Ein4clJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_Ein4c1JNEeiyW7NaN4qWdw" name="CostDecider">
+        <modelElement href="pathfinding.uml#_DuuWQFJNEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ein4dFJNEeiyW7NaN4qWdw" defaultValue="new AvoidSettlementsCostDecider()" name="avoidSettlementsCostDecider" staticAttribute="true">
+      <modelElement href="pathfinding.uml#_EA3PIlJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_Ein4dVJNEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_Ein4dlJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_Ein4d1JNEeiyW7NaN4qWdw" name="AvoidSettlementsCostDecider">
+        <modelElement href="pathfinding.uml#_Du5VYFJNEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ein4eFJNEeiyW7NaN4qWdw" defaultValue="new AvoidSettlementsAndBlockingUnitsCostDecider()" name="avoidSettlementsAndBlockingUnitsCostDecider" staticAttribute="true">
+      <modelElement href="pathfinding.uml#_EA32MVJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_Ein4eVJNEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_Ein4elJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_Ein4e1JNEeiyW7NaN4qWdw" name="AvoidSettlementsAndBlockingUnitsCostDecider">
+        <modelElement href="pathfinding.uml#_Du7xoFJNEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Ein4fFJNEeiyW7NaN4qWdw" name="numberOfTiles" staticOperation="true">
+      <modelElement href="pathfinding.uml#_DvAqIFJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_Ein4fVJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_Ein4flJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ein4f1JNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EAA6kFJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_Ein4gFJNEeiyW7NaN4qWdw" name="CostDecider">
+          <modelElement href="pathfinding.uml#_DuuWQFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ein4gVJNEeiyW7NaN4qWdw" name="numberOfLegalTiles" staticOperation="true">
+      <modelElement href="pathfinding.uml#_DvB4QFJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_Ein4glJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_Ein4g1JNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ein4hFJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EAA6kVJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_Ein4hVJNEeiyW7NaN4qWdw" name="CostDecider">
+          <modelElement href="pathfinding.uml#_DuuWQFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ein4hlJNEeiyW7NaN4qWdw" name="avoidIllegal" staticOperation="true">
+      <modelElement href="pathfinding.uml#_DvCfUFJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_Ein4h1JNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_Ein4iFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ein4iVJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EAA6klJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_Ein4ilJNEeiyW7NaN4qWdw" name="CostDecider">
+          <modelElement href="pathfinding.uml#_DuuWQFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ein4i1JNEeiyW7NaN4qWdw" name="serverAvoidIllegal" staticOperation="true">
+      <modelElement href="pathfinding.uml#_DvDGYFJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_Ein4jFJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_Ein4jVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ein4jlJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EABhoFJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_Ein4j1JNEeiyW7NaN4qWdw" name="CostDecider">
+          <modelElement href="pathfinding.uml#_DuuWQFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ein4kFJNEeiyW7NaN4qWdw" name="avoidSettlements" staticOperation="true">
+      <modelElement href="pathfinding.uml#_DvDtcFJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_Ein4kVJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_Ein4klJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ein4k1JNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EABhoVJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_Ein4lFJNEeiyW7NaN4qWdw" name="CostDecider">
+          <modelElement href="pathfinding.uml#_DuuWQFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ein4lVJNEeiyW7NaN4qWdw" name="avoidSettlementsAndBlockingUnits" staticOperation="true">
+      <modelElement href="pathfinding.uml#_DvEUgFJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_Ein4llJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_Ein4l1JNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ein4mFJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EABholJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_Ein4mVJNEeiyW7NaN4qWdw" name="CostDecider">
+          <modelElement href="pathfinding.uml#_DuuWQFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ein4mlJNEeiyW7NaN4qWdw" name="avoidNavalDanger" staticOperation="true">
+      <modelElement href="pathfinding.uml#_DvE7kFJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_Ein4m1JNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_Ein4nFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ein4nVJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EABho1JNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_Ein4nlJNEeiyW7NaN4qWdw" name="CostDecider">
+          <modelElement href="pathfinding.uml#_DuuWQFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ein4n1JNEeiyW7NaN4qWdw" name="getComposedCostDecider" staticOperation="true">
+      <modelElement href="pathfinding.uml#_D_-eUFJNEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_Ein4oFJNEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="pathfinding.uml#_D__scFJNEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_Ein4oVJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_Ein4olJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ein4o1JNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_D__FYVJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_Ein4pFJNEeiyW7NaN4qWdw" name="CostDecider">
+          <modelElement href="pathfinding.uml#_DuuWQFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ein4pVJNEeiyW7NaN4qWdw" name="cds">
+        <modelElement href="pathfinding.uml#_D__FYFJNEeiyW7NaN4qWdw"/>
+        <keywords xmi:id="_Ein4plJNEeiyW7NaN4qWdw" keyword="final"/>
+        <cardinality xmi:id="_Ein4p1JNEeiyW7NaN4qWdw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_Ein4qFJNEeiyW7NaN4qWdw" name="CostDecider">
+          <modelElement href="pathfinding.uml#_DuuWQFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ein4qVJNEeiyW7NaN4qWdw" name="defaultCostDeciderFor" staticOperation="true">
+      <modelElement href="pathfinding.uml#_EAliUVJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_Ein4qlJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_Ein4q1JNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ein4rFJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EAmJYFJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_Ein4rVJNEeiyW7NaN4qWdw" name="CostDecider">
+          <modelElement href="pathfinding.uml#_DuuWQFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ein4rlJNEeiyW7NaN4qWdw" name="unit">
+        <modelElement href="pathfinding.uml#_EAliUlJNEeiyW7NaN4qWdw"/>
+        <keywords xmi:id="_Ein4r1JNEeiyW7NaN4qWdw" keyword="final"/>
+        <cardinality xmi:id="_Ein4sFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_Ein4sVJNEeiyW7NaN4qWdw" name="Unit">
+          <modelElement href="pathfinding.uml#_D_wb4FJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Ei4-IFJNEeiyW7NaN4qWdw" comments="_Ei160FJNEeiyW7NaN4qWdw" targetConnectionVisual="_Ei160VJNEeiyW7NaN4qWdw" name="ServerBaseCostDecider" generalizations="_Ei1TwFJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_Du2SEFJNEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_Ei4-IVJNEeiyW7NaN4qWdw" position="295.0,413.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_Ei4-IlJNEeiyW7NaN4qWdw" keyword="static"/>
+    <visibility xmi:id="_Ei4-I1JNEeiyW7NaN4qWdw" label="-"/>
+    <operations xmi:id="_Ei4-JFJNEeiyW7NaN4qWdw" name="getCost">
+      <modelElement href="pathfinding.uml#_EAdmgFJNEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_Ei4-JVJNEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="pathfinding.uml#_EAe0oFJNEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ei4-JlJNEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="pathfinding.uml#_EAfbsFJNEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_Ei4-J1JNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_Ei4-KFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ei4-KVJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EAeNlFJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_Ei4-KlJNEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ei4-K1JNEeiyW7NaN4qWdw" name="unit">
+        <modelElement href="pathfinding.uml#_EAeNkFJNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_Ei4-LFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_Ei4-LVJNEeiyW7NaN4qWdw" name="Unit">
+          <modelElement href="pathfinding.uml#_D_wb4FJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ei4-LlJNEeiyW7NaN4qWdw" name="oldLocation">
+        <modelElement href="pathfinding.uml#_EAeNkVJNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_Ei4-L1JNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_Ei4-MFJNEeiyW7NaN4qWdw" name="Location">
+          <modelElement href="pathfinding.uml#_D_t_oFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ei4-MVJNEeiyW7NaN4qWdw" name="newLocation">
+        <modelElement href="pathfinding.uml#_EAeNklJNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_Ei4-MlJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_Ei4-M1JNEeiyW7NaN4qWdw" name="Location">
+          <modelElement href="pathfinding.uml#_D_t_oFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ei4-NFJNEeiyW7NaN4qWdw" name="movesLeft">
+        <modelElement href="pathfinding.uml#_EAeNk1JNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_Ei4-NVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_Ei4-NlJNEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_EjA58FJNEeiyW7NaN4qWdw" comments="_Ei8ogVJNEeiyW7NaN4qWdw" targetConnectionVisual="_Ei8oglJNEeiyW7NaN4qWdw" name="AvoidSettlementsCostDecider" associationsIn="_EimqQFJNEeiyW7NaN4qWdw" generalizations="_Ei8ogFJNEeiyW7NaN4qWdw" subclassedBy="_Ei8og1JNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_Du5VYFJNEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_EjA58VJNEeiyW7NaN4qWdw" position="967.0,253.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_EjA58lJNEeiyW7NaN4qWdw" keyword="static"/>
+    <visibility xmi:id="_EjA581JNEeiyW7NaN4qWdw" label="-"/>
+    <operations xmi:id="_EjA59FJNEeiyW7NaN4qWdw" name="getCost">
+      <modelElement href="pathfinding.uml#_EAgCwFJNEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_EjA59VJNEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="pathfinding.uml#_EAgp0VJNEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EjA59lJNEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="pathfinding.uml#_EAhQ4FJNEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_EjA591JNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EjA5-FJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EjA5-VJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EAgp0FJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_EjA5-lJNEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_EjA5-1JNEeiyW7NaN4qWdw" name="unit">
+        <modelElement href="pathfinding.uml#_EAgCwVJNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_EjA5_FJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EjA5_VJNEeiyW7NaN4qWdw" name="Unit">
+          <modelElement href="pathfinding.uml#_D_wb4FJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EjA5_lJNEeiyW7NaN4qWdw" name="oldLocation">
+        <modelElement href="pathfinding.uml#_EAgCwlJNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_EjA5_1JNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EjA6AFJNEeiyW7NaN4qWdw" name="Location">
+          <modelElement href="pathfinding.uml#_D_t_oFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EjA6AVJNEeiyW7NaN4qWdw" name="newLocation">
+        <modelElement href="pathfinding.uml#_EAgCw1JNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_EjA6AlJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EjA6A1JNEeiyW7NaN4qWdw" name="Location">
+          <modelElement href="pathfinding.uml#_D_t_oFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EjA6BFJNEeiyW7NaN4qWdw" name="movesLeft">
+        <modelElement href="pathfinding.uml#_EAgCxFJNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_EjA6BVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EjA6BlJNEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_EjFLYFJNEeiyW7NaN4qWdw" comments="_Ei_EwFJNEeiyW7NaN4qWdw" targetConnectionVisual="_Ei_EwVJNEeiyW7NaN4qWdw" name="AvoidSettlementsAndBlockingUnitsCostDecider" associationsIn="_EinRUFJNEeiyW7NaN4qWdw" generalizations="_Ei8og1JNEeiyW7NaN4qWdw" subclassedBy="_EjJc0FJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_Du7xoFJNEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_EjFLYVJNEeiyW7NaN4qWdw" position="1639.0,423.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_EjFLYlJNEeiyW7NaN4qWdw" keyword="static"/>
+    <visibility xmi:id="_EjFLY1JNEeiyW7NaN4qWdw" label="-"/>
+    <operations xmi:id="_EjFLZFJNEeiyW7NaN4qWdw" name="getCost">
+      <modelElement href="pathfinding.uml#_EAh38FJNEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_EjFLZVJNEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="pathfinding.uml#_EAifAVJNEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EjFLZlJNEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="pathfinding.uml#_EAjGEFJNEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_EjFLZ1JNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EjFLaFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EjFLaVJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EAifAFJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_EjFLalJNEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_EjFLa1JNEeiyW7NaN4qWdw" name="unit">
+        <modelElement href="pathfinding.uml#_EAh38VJNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_EjFLbFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EjFLbVJNEeiyW7NaN4qWdw" name="Unit">
+          <modelElement href="pathfinding.uml#_D_wb4FJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EjFLblJNEeiyW7NaN4qWdw" name="oldLocation">
+        <modelElement href="pathfinding.uml#_EAh38lJNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_EjFLb1JNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EjFLcFJNEeiyW7NaN4qWdw" name="Location">
+          <modelElement href="pathfinding.uml#_D_t_oFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EjFLcVJNEeiyW7NaN4qWdw" name="newLocation">
+        <modelElement href="pathfinding.uml#_EAh381JNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_EjFLclJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EjFLc1JNEeiyW7NaN4qWdw" name="Location">
+          <modelElement href="pathfinding.uml#_D_t_oFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EjFLdFJNEeiyW7NaN4qWdw" name="movesLeft">
+        <modelElement href="pathfinding.uml#_EAh39FJNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_EjFLdVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EjFLdlJNEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_EjKq8FJNEeiyW7NaN4qWdw" comments="_EjJc0VJNEeiyW7NaN4qWdw" targetConnectionVisual="_EjJc0lJNEeiyW7NaN4qWdw" name="AvoidNavalDangerCostDecider" generalizations="_EjJc0FJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_Du-N4FJNEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_EjKq8VJNEeiyW7NaN4qWdw" position="1639.0,609.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_EjKq8lJNEeiyW7NaN4qWdw" keyword="static"/>
+    <visibility xmi:id="_EjKq81JNEeiyW7NaN4qWdw" label="-"/>
+    <operations xmi:id="_EjKq9FJNEeiyW7NaN4qWdw" name="getCost">
+      <modelElement href="pathfinding.uml#_EAjtIFJNEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_EjKq9VJNEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="pathfinding.uml#_EAk7QFJNEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EjKq9lJNEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="pathfinding.uml#_EAk7QVJNEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_EjKq91JNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EjKq-FJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EjKq-VJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EAkUNFJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_EjKq-lJNEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_EjKq-1JNEeiyW7NaN4qWdw" name="unit">
+        <modelElement href="pathfinding.uml#_EAkUMFJNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_EjKq_FJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EjKq_VJNEeiyW7NaN4qWdw" name="Unit">
+          <modelElement href="pathfinding.uml#_D_wb4FJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EjKq_lJNEeiyW7NaN4qWdw" name="oldLocation">
+        <modelElement href="pathfinding.uml#_EAkUMVJNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_EjKq_1JNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EjKrAFJNEeiyW7NaN4qWdw" name="Location">
+          <modelElement href="pathfinding.uml#_D_t_oFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EjKrAVJNEeiyW7NaN4qWdw" name="newLocation">
+        <modelElement href="pathfinding.uml#_EAkUMlJNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_EjKrAlJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EjKrA1JNEeiyW7NaN4qWdw" name="Location">
+          <modelElement href="pathfinding.uml#_D_t_oFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EjKrBFJNEeiyW7NaN4qWdw" name="movesLeft">
+        <modelElement href="pathfinding.uml#_EAkUM1JNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_EjKrBVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EjKrBlJNEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_EjPjclJNEeiyW7NaN4qWdw" comments="_EjNuQFJNEeiyW7NaN4qWdw" targetConnectionVisual="_EjNuQVJNEeiyW7NaN4qWdw" name="GoalDecider" associationsIn="_Ejn98FJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_DvWBUFJNEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_EjPjc1JNEeiyW7NaN4qWdw" position="1099.0,735.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_EjQKgFJNEeiyW7NaN4qWdw" label="+"/>
+    <operations xmi:id="_EjQKgVJNEeiyW7NaN4qWdw" comments="_EjOVUFJNEeiyW7NaN4qWdw" targetConnectionVisual="_EjOVUVJNEeiyW7NaN4qWdw" name="getGoal">
+      <modelElement href="pathfinding.uml#_DvWoYFJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_EjQKglJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EjQKg1JNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EjQKhFJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EAnXgFJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_EjQKhVJNEeiyW7NaN4qWdw" name="PathNode">
+          <modelElement href="pathfinding.uml#_EAGaIFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_EjQKhlJNEeiyW7NaN4qWdw" comments="_EjO8YFJNEeiyW7NaN4qWdw" targetConnectionVisual="_EjO8YVJNEeiyW7NaN4qWdw" name="hasSubGoals">
+      <modelElement href="pathfinding.uml#_DvXPcFJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_EjQKh1JNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EjQKiFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EjQKiVJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_DvXPcVJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_EjQKilJNEeiyW7NaN4qWdw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_EjQKi1JNEeiyW7NaN4qWdw" comments="_EjPjcFJNEeiyW7NaN4qWdw" targetConnectionVisual="_EjPjcVJNEeiyW7NaN4qWdw" name="check">
+      <modelElement href="pathfinding.uml#_EAoloFJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_EjQKjFJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EjQKjVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EjQKjlJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EAolo1JNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_EjQKj1JNEeiyW7NaN4qWdw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_EjQKkFJNEeiyW7NaN4qWdw" name="u">
+        <modelElement href="pathfinding.uml#_EAoloVJNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_EjQKkVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EjQKklJNEeiyW7NaN4qWdw" name="Unit">
+          <modelElement href="pathfinding.uml#_D_wb4FJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EjQKk1JNEeiyW7NaN4qWdw" name="pathNode">
+        <modelElement href="pathfinding.uml#_EAololJNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_EjQKlFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EjQKlVJNEeiyW7NaN4qWdw" name="PathNode">
+          <modelElement href="pathfinding.uml#_EAGaIFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_EjeM8FJNEeiyW7NaN4qWdw" comments="_EjTN0FJNEeiyW7NaN4qWdw" targetConnectionVisual="_EjTN0VJNEeiyW7NaN4qWdw" name="GoalDeciders">
+    <modelElement href="pathfinding.uml#_DvZEoFJNEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_EjeM8VJNEeiyW7NaN4qWdw" position="1651.0,760.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_EjeM8lJNEeiyW7NaN4qWdw" name="Patch">
+      <modelElement href="pathfinding.uml#_EgpicFJNEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <visibility xmi:id="_EjeM81JNEeiyW7NaN4qWdw" label="+"/>
+    <operations xmi:id="_EjeM9FJNEeiyW7NaN4qWdw" comments="_EjT04FJNEeiyW7NaN4qWdw" targetConnectionVisual="_EjT04VJNEeiyW7NaN4qWdw" name="getOurClosestSettlementGoalDecider" staticOperation="true">
+      <modelElement href="pathfinding.uml#_Dva50FJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_EjeM9VJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EjeM9lJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EjeM91JNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EAQyMFJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_EjeM-FJNEeiyW7NaN4qWdw" name="GoalDecider">
+          <modelElement href="pathfinding.uml#_DvWBUFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_EjeM-VJNEeiyW7NaN4qWdw" comments="_EjUb8FJNEeiyW7NaN4qWdw" targetConnectionVisual="_EjUb8VJNEeiyW7NaN4qWdw" name="getHighSeasGoalDecider" staticOperation="true">
+      <modelElement href="pathfinding.uml#_Dvbg4FJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_EjeM-lJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EjeM-1JNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EjeM_FJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EAQyMVJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_EjeM_VJNEeiyW7NaN4qWdw" name="GoalDecider">
+          <modelElement href="pathfinding.uml#_DvWBUFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_EjeM_lJNEeiyW7NaN4qWdw" comments="_EjVDAFJNEeiyW7NaN4qWdw" targetConnectionVisual="_EjVDAVJNEeiyW7NaN4qWdw" name="getSimpleHighSeasGoalDecider" staticOperation="true">
+      <modelElement href="pathfinding.uml#_DvcH8FJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_EjeM_1JNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EjeNAFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EjeNAVJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EAQyMlJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_EjeNAlJNEeiyW7NaN4qWdw" name="GoalDecider">
+          <modelElement href="pathfinding.uml#_DvWBUFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_EjeNA1JNEeiyW7NaN4qWdw" comments="_EjaikFJNEeiyW7NaN4qWdw" targetConnectionVisual="_EjaikVJNEeiyW7NaN4qWdw" name="getCornerGoalDecider" staticOperation="true">
+      <modelElement href="pathfinding.uml#_DvfLQFJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_EjeNBFJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EjeNBVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EjeNBlJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EASAUFJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_EjeNB1JNEeiyW7NaN4qWdw" name="GoalDecider">
+          <modelElement href="pathfinding.uml#_DvWBUFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_EjeNCFJNEeiyW7NaN4qWdw" name="getComposedGoalDecider" staticOperation="true">
+      <modelElement href="pathfinding.uml#_EAO9AVJNEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_EjeNCVJNEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="pathfinding.uml#_EAPkElJNEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_EjeNClJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EjeNC1JNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EjeNDFJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EAPkEVJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_EjeNDVJNEeiyW7NaN4qWdw" name="GoalDecider">
+          <modelElement href="pathfinding.uml#_DvWBUFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_EjeNDlJNEeiyW7NaN4qWdw" name="all">
+        <modelElement href="pathfinding.uml#_EAO9AlJNEeiyW7NaN4qWdw"/>
+        <keywords xmi:id="_EjeND1JNEeiyW7NaN4qWdw" keyword="final"/>
+        <cardinality xmi:id="_EjeNEFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EjeNEVJNEeiyW7NaN4qWdw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EjeNElJNEeiyW7NaN4qWdw" name="gds">
+        <modelElement href="pathfinding.uml#_EAPkEFJNEeiyW7NaN4qWdw"/>
+        <keywords xmi:id="_EjeNE1JNEeiyW7NaN4qWdw" keyword="final"/>
+        <cardinality xmi:id="_EjeNFFJNEeiyW7NaN4qWdw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_EjeNFVJNEeiyW7NaN4qWdw" name="GoalDecider">
+          <modelElement href="pathfinding.uml#_DvWBUFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_EjeNFlJNEeiyW7NaN4qWdw" comments="_EjbJoFJNEeiyW7NaN4qWdw" targetConnectionVisual="_EjbJoVJNEeiyW7NaN4qWdw" name="getLocationGoalDecider" staticOperation="true">
+      <modelElement href="pathfinding.uml#_EApMsFJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_EjeNF1JNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EjeNGFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EjeNGVJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EApzwFJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_EjeNGlJNEeiyW7NaN4qWdw" name="GoalDecider">
+          <modelElement href="pathfinding.uml#_DvWBUFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_EjeNG1JNEeiyW7NaN4qWdw" name="target">
+        <modelElement href="pathfinding.uml#_EApMsVJNEeiyW7NaN4qWdw"/>
+        <keywords xmi:id="_EjeNHFJNEeiyW7NaN4qWdw" keyword="final"/>
+        <cardinality xmi:id="_EjeNHVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EjeNHlJNEeiyW7NaN4qWdw" name="Location">
+          <modelElement href="pathfinding.uml#_D_t_oFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_EjeNH1JNEeiyW7NaN4qWdw" comments="_EjbJolJNEeiyW7NaN4qWdw" targetConnectionVisual="_EjbwsFJNEeiyW7NaN4qWdw" name="getAdjacentLocationGoalDecider" staticOperation="true">
+      <modelElement href="pathfinding.uml#_EApzw1JNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_EjeNIFJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EjeNIVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EjeNIlJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EAqa0FJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_EjeNI1JNEeiyW7NaN4qWdw" name="GoalDecider">
+          <modelElement href="pathfinding.uml#_DvWBUFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_EjeNJFJNEeiyW7NaN4qWdw" name="target">
+        <modelElement href="pathfinding.uml#_EApzxFJNEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_EjeNJVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EjeNJlJNEeiyW7NaN4qWdw" name="Location">
+          <modelElement href="pathfinding.uml#_D_t_oFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_EjeNJ1JNEeiyW7NaN4qWdw" comments="_EjbwsVJNEeiyW7NaN4qWdw" targetConnectionVisual="_EjbwslJNEeiyW7NaN4qWdw" name="getEnemySettlementGoalDecider" staticOperation="true">
+      <modelElement href="pathfinding.uml#_EArB4FJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_EjeNKFJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EjeNKVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EjeNKlJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EArB4lJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_EjeNK1JNEeiyW7NaN4qWdw" name="GoalDecider">
+          <modelElement href="pathfinding.uml#_DvWBUFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_EjeNLFJNEeiyW7NaN4qWdw" name="enemies">
+        <modelElement href="pathfinding.uml#_EArB4VJNEeiyW7NaN4qWdw"/>
+        <keywords xmi:id="_EjeNLVJNEeiyW7NaN4qWdw" keyword="final"/>
+        <cardinality xmi:id="_EjeNLlJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_Eje0AFJNEeiyW7NaN4qWdw" name="Collection">
+          <modelElement href="pathfinding.uml#_EAIPUFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Eje0AVJNEeiyW7NaN4qWdw" comments="_EjcXwFJNEeiyW7NaN4qWdw" targetConnectionVisual="_EjcXwVJNEeiyW7NaN4qWdw" name="getDisembarkGoalDecider" staticOperation="true">
+      <modelElement href="pathfinding.uml#_EAsQAFJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_Eje0AlJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_Eje0A1JNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Eje0BFJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EAsQAlJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_Eje0BVJNEeiyW7NaN4qWdw" name="GoalDecider">
+          <modelElement href="pathfinding.uml#_DvWBUFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Eje0BlJNEeiyW7NaN4qWdw" name="target">
+        <modelElement href="pathfinding.uml#_EAsQAVJNEeiyW7NaN4qWdw"/>
+        <keywords xmi:id="_Eje0B1JNEeiyW7NaN4qWdw" keyword="final"/>
+        <cardinality xmi:id="_Eje0CFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_Eje0CVJNEeiyW7NaN4qWdw" name="Tile">
+          <modelElement href="pathfinding.uml#_D_vNwFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Eje0ClJNEeiyW7NaN4qWdw" comments="_Ejc-0FJNEeiyW7NaN4qWdw" targetConnectionVisual="_Ejc-0VJNEeiyW7NaN4qWdw" name="getStealthyGoalDecider" staticOperation="true">
+      <modelElement href="pathfinding.uml#_EAs3ElJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_Eje0C1JNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_Eje0DFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Eje0DVJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EAs3FFJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_Eje0DlJNEeiyW7NaN4qWdw" name="GoalDecider">
+          <modelElement href="pathfinding.uml#_DvWBUFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Eje0D1JNEeiyW7NaN4qWdw" name="enemy">
+        <modelElement href="pathfinding.uml#_EAs3E1JNEeiyW7NaN4qWdw"/>
+        <keywords xmi:id="_Eje0EFJNEeiyW7NaN4qWdw" keyword="final"/>
+        <cardinality xmi:id="_Eje0EVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_Eje0ElJNEeiyW7NaN4qWdw" name="Player">
+          <modelElement href="pathfinding.uml#_D_3woVJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Eje0E1JNEeiyW7NaN4qWdw" comments="_Ejdl4FJNEeiyW7NaN4qWdw" targetConnectionVisual="_Ejdl4VJNEeiyW7NaN4qWdw" name="getReduceHighSeasCountGoalDecider" staticOperation="true">
+      <modelElement href="pathfinding.uml#_EAteIlJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_Eje0FFJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_Eje0FVJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Eje0FlJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EAuFMFJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_Eje0F1JNEeiyW7NaN4qWdw" name="GoalDecider">
+          <modelElement href="pathfinding.uml#_DvWBUFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Eje0GFJNEeiyW7NaN4qWdw" name="unit">
+        <modelElement href="pathfinding.uml#_EAteI1JNEeiyW7NaN4qWdw"/>
+        <keywords xmi:id="_Eje0GVJNEeiyW7NaN4qWdw" keyword="final"/>
+        <cardinality xmi:id="_Eje0GlJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_Eje0G1JNEeiyW7NaN4qWdw" name="Unit">
+          <modelElement href="pathfinding.uml#_D_wb4FJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_EjtdiVJNEeiyW7NaN4qWdw" comments="_EjpMEFJNEeiyW7NaN4qWdw" targetConnectionVisual="_EjpMEVJNEeiyW7NaN4qWdw" name="MultipleAdjacentDecider" associationsOut="_Ejn98FJNEeiyW7NaN4qWdw _EjtdgFJNEeiyW7NaN4qWdw">
+    <modelElement href="pathfinding.uml#_DvfyUFJNEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_EjtdilJNEeiyW7NaN4qWdw" position="493.0,926.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_Ejtdi1JNEeiyW7NaN4qWdw" keyword="static"/>
+    <visibility xmi:id="_EjtdjFJNEeiyW7NaN4qWdw" label="+"/>
+    <attributes xmi:id="_EjtdjVJNEeiyW7NaN4qWdw" name="gd">
+      <modelElement href="pathfinding.uml#_EA5EUFJNEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_EjtdjlJNEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="pathfinding.uml#_EA5rYFJNEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_Ejtdj1JNEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_EjtdkFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_EjtdkVJNEeiyW7NaN4qWdw" name="GoalDecider">
+        <modelElement href="pathfinding.uml#_DvWBUFJNEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EjtdklJNEeiyW7NaN4qWdw" defaultValue="new HashMap&lt;>()" name="results">
+      <modelElement href="pathfinding.uml#_EA5rYVJNEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_Ejtdk1JNEeiyW7NaN4qWdw" name="Generics">
+        <modelElement href="pathfinding.uml#_EA65gFJNEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EjtdlFJNEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="pathfinding.uml#_EA7gkFJNEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_EjtdlVJNEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_EjtdllJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_Ejtdl1JNEeiyW7NaN4qWdw" name="HashMap">
+        <modelElement href="pathfinding.uml#_EAJdcVJNEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_EjtdmFJNEeiyW7NaN4qWdw" name="getGoalDecider">
+      <modelElement href="pathfinding.uml#_DvhngFJNEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_EjtdmVJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EjtdmlJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ejtdm1JNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EASnYFJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_EjtdnFJNEeiyW7NaN4qWdw" name="GoalDecider">
+          <modelElement href="pathfinding.uml#_DvWBUFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_EjtdnVJNEeiyW7NaN4qWdw" name="getResults">
+      <modelElement href="pathfinding.uml#_DviOkFJNEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_EjtdnlJNEeiyW7NaN4qWdw" name="Generics">
+        <modelElement href="pathfinding.uml#_Dv73MFJNEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_Ejtdn1JNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EjtdoFJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EjtdoVJNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EAwhcFJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_EjtdolJNEeiyW7NaN4qWdw" name="HashMap">
+          <modelElement href="pathfinding.uml#_EAJdcVJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ejtdo1JNEeiyW7NaN4qWdw" comments="_EjqaMFJNEeiyW7NaN4qWdw" targetConnectionVisual="_EjqaMVJNEeiyW7NaN4qWdw" name="MultipleAdjacentDecider">
+      <modelElement href="pathfinding.uml#_EAusQFJNEeiyW7NaN4qWdw"/>
+      <keywords xmi:id="_EjtdpFJNEeiyW7NaN4qWdw" keyword="create"/>
+      <visibility xmi:id="_EjtdpVJNEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_EjtdplJNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ejtdp1JNEeiyW7NaN4qWdw">
+        <modelElement href="pathfinding.uml#_EAvTUlJNEeiyW7NaN4qWdw"/>
+        <type xmi:id="_EjtdqFJNEeiyW7NaN4qWdw" name="MultipleAdjacentDecider">
+          <modelElement href="pathfinding.uml#_DvfyUFJNEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_EjtdqVJNEeiyW7NaN4qWdw" name="locs">
+        <modelElement href="pathfinding.uml#_EAusQVJNEeiyW7NaN4qWdw"/>
+        <keywords xmi:id="_EjtdqlJNEeiyW7NaN4qWdw" keyword="final"/>
+        <cardinality xmi:id="_Ejtdq1JNEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_EjtdrFJNEeiyW7NaN4qWdw" name="List">
+          <modelElement href="pathfinding.uml#_EANH0FJNEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

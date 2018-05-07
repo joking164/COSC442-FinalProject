@@ -1,0 +1,1662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_imRcwFJOEeiyW7NaN4qWdw">
+  <modelElement href="common_sound.uml#_jIYEQFJOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kNVhMVJOEeiyW7NaN4qWdw" targetItem="_kNWvUFJOEeiyW7NaN4qWdw" sourceItem="_kNVhMFJOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kNWIQVJOEeiyW7NaN4qWdw" targetItem="_kNWvW1JOEeiyW7NaN4qWdw" sourceItem="_kNWIQFJOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kNZyoVJOEeiyW7NaN4qWdw" targetItem="_kN9MQVJOEeiyW7NaN4qWdw" sourceItem="_kNZyoFJOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kNbAwFJOEeiyW7NaN4qWdw" targetItem="_kN9MvVJOEeiyW7NaN4qWdw" sourceItem="_kNaZsFJOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kNbAwlJOEeiyW7NaN4qWdw" targetItem="_kN9M11JOEeiyW7NaN4qWdw" sourceItem="_kNbAwVJOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kNbAxFJOEeiyW7NaN4qWdw" targetItem="_kN9M3FJOEeiyW7NaN4qWdw" sourceItem="_kNbAw1JOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kNbAxlJOEeiyW7NaN4qWdw" targetItem="_kN9M4VJOEeiyW7NaN4qWdw" sourceItem="_kNbAxVJOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kNbn0VJOEeiyW7NaN4qWdw" targetItem="_kN9M5lJOEeiyW7NaN4qWdw" sourceItem="_kNbn0FJOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kNbn01JOEeiyW7NaN4qWdw" targetItem="_kN9M91JOEeiyW7NaN4qWdw" sourceItem="_kNbn0lJOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kNeEEFJOEeiyW7NaN4qWdw" source="_kN9MQVJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNJ2kFJOEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_kNeEEVJOEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="common_sound.uml#_jNKdoFJOEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kNeEElJOEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_kNeEE1JOEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="common_sound.uml#_jNJ2kVJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kNeEFFJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kNeEFVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kNeEFlJOEeiyW7NaN4qWdw" aggregationKind="NONE" name="oggPacket" navigable="true">
+      <modelElement href="common_sound.uml#_jMr8g1JOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kNeEF1JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kNeEGFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kNeEGVJOEeiyW7NaN4qWdw" source="_kN9MQVJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNKdoVJOEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_kNeEGlJOEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="common_sound.uml#_jNLEsFJOEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kNeEG1JOEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_kNeEHFJOEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="common_sound.uml#_jNKdolJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kNeEHVJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kNeEHlJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kNeEH1JOEeiyW7NaN4qWdw" aggregationKind="NONE" name="oggPage" navigable="true">
+      <modelElement href="common_sound.uml#_jMsjkVJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kNeEIFJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kNeEIVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kNerIFJOEeiyW7NaN4qWdw" source="_kN9MQVJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNLEsVJOEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_kNerIVJOEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="common_sound.uml#_jNLrwFJOEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kNerIlJOEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_kNerI1JOEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="common_sound.uml#_jNLEslJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kNerJFJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kNerJVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kNerJlJOEeiyW7NaN4qWdw" aggregationKind="NONE" name="oggStreamState" navigable="true">
+      <modelElement href="common_sound.uml#_jMtKoFJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kNerJ1JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kNerKFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kNerKVJOEeiyW7NaN4qWdw" source="_kN9MQVJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNLrwVJOEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_kNerKlJOEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="common_sound.uml#_jNMS0FJOEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kNerK1JOEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_kNerLFJOEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="common_sound.uml#_jNLrwlJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kNerLVJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kNerLlJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kNerL1JOEeiyW7NaN4qWdw" aggregationKind="NONE" name="oggSyncState" navigable="true">
+      <modelElement href="common_sound.uml#_jMtxsFJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kNerMFJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kNerMVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kNfSMFJOEeiyW7NaN4qWdw" source="_kN9MQVJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNMS0VJOEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_kNfSMVJOEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="common_sound.uml#_jNM54FJOEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kNfSMlJOEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_kNfSM1JOEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="common_sound.uml#_jNMS0lJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kNfSNFJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kNfSNVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kNfSNlJOEeiyW7NaN4qWdw" aggregationKind="NONE" name="orbisDspState" navigable="true">
+      <modelElement href="common_sound.uml#_jMtxs1JOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kNfSN1JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kNfSOFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kNfSOVJOEeiyW7NaN4qWdw" source="_kN9MQVJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNM54VJOEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_kNfSOlJOEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="common_sound.uml#_jNM541JOEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kNfSO1JOEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_kNfSPFJOEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="common_sound.uml#_jNM54lJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kNfSPVJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kNfSPlJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kNfSP1JOEeiyW7NaN4qWdw" aggregationKind="NONE" name="orbisBlock" navigable="true">
+      <modelElement href="common_sound.uml#_jMtxtlJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kNfSQFJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kNfSQVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kNf5QFJOEeiyW7NaN4qWdw" source="_kN9MQVJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNNg8FJOEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_kNf5QVJOEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="common_sound.uml#_jNNg8lJOEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kNf5QlJOEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_kNf5Q1JOEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="common_sound.uml#_jNNg8VJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kNf5RFJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kNf5RVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kNf5RlJOEeiyW7NaN4qWdw" aggregationKind="NONE" name="orbisComment" navigable="true">
+      <modelElement href="common_sound.uml#_jMuYwlJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kNf5R1JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kNf5SFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kN7-IFJOEeiyW7NaN4qWdw" source="_kN9MQVJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNOIAFJOEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_kN7-IVJOEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="common_sound.uml#_jNOIAlJOEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kN7-IlJOEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_kN7-I1JOEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="common_sound.uml#_jNOIAVJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kN7-JFJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kN7-JVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kN7-JlJOEeiyW7NaN4qWdw" aggregationKind="NONE" name="orbisInfo" navigable="true">
+      <modelElement href="common_sound.uml#_jMu_0FJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kN7-J1JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN7-KFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kN8lMFJOEeiyW7NaN4qWdw" source="_kN9MQVJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNOIA1JOEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_kN8lMVJOEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="common_sound.uml#_jNOvEFJOEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kN8lMlJOEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_kN8lM1JOEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="common_sound.uml#_jNOIBFJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kN8lNFJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kN8lNVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kN8lNlJOEeiyW7NaN4qWdw" aggregationKind="NONE" name="audioFormat" navigable="true">
+      <modelElement href="common_sound.uml#_jMu_01JOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kN8lN1JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN8lOFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kN8lOVJOEeiyW7NaN4qWdw" source="_kN9MQVJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNOvEVJOEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_kN8lOlJOEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="common_sound.uml#_jNPWIFJOEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kN8lO1JOEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_kN8lPFJOEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="common_sound.uml#_jNOvElJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kN8lPVJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kN8lPlJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kN8lP1JOEeiyW7NaN4qWdw" aggregationKind="NONE" name="inputStream" navigable="true">
+      <modelElement href="common_sound.uml#_jMxcE1JOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kN8lQFJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN8lQVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_kN9MQFJOEeiyW7NaN4qWdw" subClass="_kN9MQVJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jMa2wlJOEeiyW7NaN4qWdw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kOQuQFJOEeiyW7NaN4qWdw" target="_kN9MQVJOEeiyW7NaN4qWdw" source="_kOUYoFJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNPWIVJOEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_kOR8Y1JOEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="common_sound.uml#_jNP9MFJOEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kOR8YFJOEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_kOR8YVJOEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="common_sound.uml#_jNPWIlJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kOTKgVJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOTKgFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kOR8YlJOEeiyW7NaN4qWdw" aggregationKind="NONE" name="os" navigable="true">
+      <modelElement href="common_sound.uml#_jMyqMFJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kOTKg1JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kOTKglJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kORVUVJOEeiyW7NaN4qWdw" targetItem="_kOUYoFJOEeiyW7NaN4qWdw" sourceItem="_kORVUFJOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_kOR8ZFJOEeiyW7NaN4qWdw" subClass="_kOUYoFJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jMdTAFJOEeiyW7NaN4qWdw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kOSjcVJOEeiyW7NaN4qWdw" targetItem="_kOUY9lJOEeiyW7NaN4qWdw" sourceItem="_kOSjcFJOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kObGUVJOEeiyW7NaN4qWdw" targetItem="_kOewslJOEeiyW7NaN4qWdw" sourceItem="_kObGUFJOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kObGUlJOEeiyW7NaN4qWdw" source="_kOewslJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNP9MVJOEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_kOdik1JOEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="common_sound.uml#_jNQkQFJOEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kOdikFJOEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_kOdikVJOEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="common_sound.uml#_jNP9MlJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kOeJoVJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOeJoFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kOdiklJOEeiyW7NaN4qWdw" aggregationKind="NONE" name="soundFiles" navigable="true">
+      <modelElement href="common_sound.uml#_jM1GcVJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kOeJo1JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kOeJolJOEeiyW7NaN4qWdw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kObtYVJOEeiyW7NaN4qWdw" targetItem="_kOfYBVJOEeiyW7NaN4qWdw" sourceItem="_kObtYFJOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kObtY1JOEeiyW7NaN4qWdw" targetItem="_kOfYC1JOEeiyW7NaN4qWdw" sourceItem="_kObtYlJOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kObtZVJOEeiyW7NaN4qWdw" targetItem="_kOfYEVJOEeiyW7NaN4qWdw" sourceItem="_kObtZFJOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kOcUcFJOEeiyW7NaN4qWdw" targetItem="_kOfYFlJOEeiyW7NaN4qWdw" sourceItem="_kObtZlJOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kOcUclJOEeiyW7NaN4qWdw" targetItem="_kOfYJVJOEeiyW7NaN4qWdw" sourceItem="_kOcUcVJOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kOqW4VJOEeiyW7NaN4qWdw" targetItem="_kOtaOVJOEeiyW7NaN4qWdw" sourceItem="_kOqW4FJOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kOqW41JOEeiyW7NaN4qWdw" targetItem="_kOuBWVJOEeiyW7NaN4qWdw" sourceItem="_kOqW4lJOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kOq98VJOEeiyW7NaN4qWdw" targetItem="_kOuBXFJOEeiyW7NaN4qWdw" sourceItem="_kOq98FJOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kOq981JOEeiyW7NaN4qWdw" targetItem="_kOuBaFJOEeiyW7NaN4qWdw" sourceItem="_kOq98lJOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kOrlAFJOEeiyW7NaN4qWdw" targetItem="_kOuBdlJOEeiyW7NaN4qWdw" sourceItem="_kOq99FJOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kOszIFJOEeiyW7NaN4qWdw" source="_kOtaOVJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNQkQVJOEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_kOszIVJOEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="common_sound.uml#_jNRLUFJOEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kOszIlJOEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_kOszI1JOEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="common_sound.uml#_jNQkQlJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kOszJFJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOszJVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kOszJlJOEeiyW7NaN4qWdw" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="common_sound.uml#_jM3isFJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kOszJ1JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kOszKFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kOszKVJOEeiyW7NaN4qWdw" source="_kOtaOVJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNRLUVJOEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_kOszKlJOEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="common_sound.uml#_jNRyYFJOEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kOszK1JOEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_kOszLFJOEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="common_sound.uml#_jNRLUlJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kOszLVJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOszLlJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kOszL1JOEeiyW7NaN4qWdw" aggregationKind="NONE" name="mixer" navigable="true">
+      <modelElement href="common_sound.uml#_jM4JwFJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kOszMFJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOszMVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kOtaMFJOEeiyW7NaN4qWdw" target="_kO3LMFJOEeiyW7NaN4qWdw" source="_kOtaOVJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNRyYVJOEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_kOtaMVJOEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="common_sound.uml#_jNSZcFJOEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kOtaMlJOEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_kOtaM1JOEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="common_sound.uml#_jNRyYlJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kOtaNFJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOtaNVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kOtaNlJOEeiyW7NaN4qWdw" aggregationKind="NONE" name="soundPlayerThread" navigable="true">
+      <modelElement href="common_sound.uml#_jM4JwlJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kOtaN1JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kOtaOFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kO0H4FJOEeiyW7NaN4qWdw" source="_kO3LMFJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNSZcVJOEeiyW7NaN4qWdw"/>
+    <stereotypes xmi:id="_kO0u9FJOEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="common_sound.uml#_jNSZc1JOEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kO0u8VJOEeiyW7NaN4qWdw" text=""/>
+    <sourceRole xmi:id="_kO0u8lJOEeiyW7NaN4qWdw" aggregationKind="NONE" name="">
+      <modelElement href="common_sound.uml#_jNSZclJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kO19EVJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kO19EFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kO0u81JOEeiyW7NaN4qWdw" aggregationKind="NONE" name="playList" navigable="true">
+      <modelElement href="common_sound.uml#_jM5X4FJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kO19E1JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kO19ElJOEeiyW7NaN4qWdw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kO0u8FJOEeiyW7NaN4qWdw" targetItem="_kO3LMFJOEeiyW7NaN4qWdw" sourceItem="_kO0H4VJOEeiyW7NaN4qWdw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_kO1WAVJOEeiyW7NaN4qWdw" targetItem="_kO3LhlJOEeiyW7NaN4qWdw" sourceItem="_kO1WAFJOEeiyW7NaN4qWdw"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kNVhMFJOEeiyW7NaN4qWdw" sourceConnectionVisual="_kNVhMVJOEeiyW7NaN4qWdw" text="Rewritten from the JCraft JOrbisPlayer example (GPLv2+), fixing a&#xD;&#xA;bunch of bugs that prevent it from playing short files and recasting&#xD;&#xA;into a read()-driven AudioInputStream form.&#xD;&#xA; *&#xD;&#xA;FreeCol has a few short files.  We can notice when this fails." item="_kNWvUFJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNB6wFJOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kNWIQFJOEeiyW7NaN4qWdw" sourceConnectionVisual="_kNWIQVJOEeiyW7NaN4qWdw" text="Gets a new audio input stream to decode Ogg/Vorbis Audio from&#xD;&#xA;     * an input stream.&#xD;&#xA;     *&#xD;&#xA;     * @param file The &lt;code>File&lt;/code> containing the content.&#xD;&#xA;     * @return A new &lt;code>AudioInputStream&lt;/code> to decode the input.&#xD;&#xA;     * @throws java.io.IOException" item="_kNWvW1JOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNCh2FJOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kNZyoFJOEeiyW7NaN4qWdw" sourceConnectionVisual="_kNZyoVJOEeiyW7NaN4qWdw" text="Core JOgg/JOrbis magic handled here." item="_kN9MQVJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNB6wVJOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kNaZsFJOEeiyW7NaN4qWdw" sourceConnectionVisual="_kNbAwFJOEeiyW7NaN4qWdw" text="Reads into the supplied buffer.&#xD;&#xA;         *&#xD;&#xA;         * @param buf The buffer to read to.&#xD;&#xA;         * @param n The number of bytes to read.&#xD;&#xA;         * @return Negative on error, zero on end of stream, otherwise the&#xD;&#xA;         *     number of bytes added to the buffer.&#xD;&#xA;         * @throws IOException if JOrbis loses." item="_kN9MvVJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNCh0FJOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kNbAwVJOEeiyW7NaN4qWdw" sourceConnectionVisual="_kNbAwlJOEeiyW7NaN4qWdw" text="Gets the OGG header (first three packets) which must contain vorbis&#xD;&#xA;         * audio content.&#xD;&#xA;         * This routine is public so it can be used as a check if the a file&#xD;&#xA;         * really does contain vorbis.&#xD;&#xA;         *&#xD;&#xA;         * @return An error message if a page not is available, null on success." item="_kN9M11JOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNCh0VJOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kNbAw1JOEeiyW7NaN4qWdw" sourceConnectionVisual="_kNbAxFJOEeiyW7NaN4qWdw" text="Gets another chunk of input into the oggSyncState.&#xD;&#xA;         *&#xD;&#xA;         * @return An error message if input is not available, null on success." item="_kN9M3FJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNCh0lJOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kNbAxVJOEeiyW7NaN4qWdw" sourceConnectionVisual="_kNbAxlJOEeiyW7NaN4qWdw" text="Gets the next page from the oggSyncState into the oggStreamState.&#xD;&#xA;         *&#xD;&#xA;         * @return An error message if a page not is available, null on success." item="_kN9M4VJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNCh01JOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kNbn0FJOEeiyW7NaN4qWdw" sourceConnectionVisual="_kNbn0VJOEeiyW7NaN4qWdw" text="Decode the PCM data.&#xD;&#xA;         *&#xD;&#xA;         * @return The number of bytes waiting in the conversion buffer to&#xD;&#xA;         *     be written." item="_kN9M5lJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNCh1VJOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kNbn0lJOEeiyW7NaN4qWdw" sourceConnectionVisual="_kNbn01JOEeiyW7NaN4qWdw" text="Refills the conversion buffer.&#xD;&#xA;         *&#xD;&#xA;         * @return The number of bytes waiting in the convBuf." item="_kN9M91JOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNCh1FJOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kORVUFJOEeiyW7NaN4qWdw" sourceConnectionVisual="_kORVUVJOEeiyW7NaN4qWdw" text="The AudioInputStream extension to handle decoding Ogg/Vorbis Audio&#xD;&#xA;     * input." item="_kOUYoFJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNCh1lJOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kOSjcFJOEeiyW7NaN4qWdw" sourceConnectionVisual="_kOSjcVJOEeiyW7NaN4qWdw" text="Create a new player.&#xD;&#xA;         *&#xD;&#xA;         * @param os The &lt;code>OggStream&lt;/code> to read from." item="_kOUY9lJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNCh11JOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kObGUFJOEeiyW7NaN4qWdw" sourceConnectionVisual="_kObGUVJOEeiyW7NaN4qWdw" text="Represent a set of sounds that will be presented to a SoundPlayer in a&#xD;&#xA;certain order as defined by the Playlists playmodes." item="_kOewslJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNCh2VJOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kObtYFJOEeiyW7NaN4qWdw" sourceConnectionVisual="_kObtYVJOEeiyW7NaN4qWdw" text="Sets the repeat-mode for this playlist.&#xD;&#xA;     * @param repeatMode The method this &lt;code>PlayList&lt;/code>&#xD;&#xA;     *      should be repeated." item="_kOfYBVJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNE-FVJOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kObtYlJOEeiyW7NaN4qWdw" sourceConnectionVisual="_kObtY1JOEeiyW7NaN4qWdw" text="Sets the pick-mode for this playlist. &#xD;&#xA;     * @param pickMode The method to be used for picking&#xD;&#xA;     *      the songs." item="_kOfYC1JOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNFlIFJOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kObtZFJOEeiyW7NaN4qWdw" sourceConnectionVisual="_kObtZVJOEeiyW7NaN4qWdw" text="Returns the next sound file on this Playlist or null if there is no such sound.&#xD;&#xA;    * @return The next sound file on this Playlist or null if there is no such sound." item="_kOfYEVJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNFlIVJOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kObtZlJOEeiyW7NaN4qWdw" sourceConnectionVisual="_kOcUcFJOEeiyW7NaN4qWdw" text="Returns &lt;i>false&lt;/i> if this Playlist is exhausted, &lt;i>true&lt;/i> otherwise.&#xD;&#xA;    * @return &lt;i>false&lt;/i> if this Playlist is exhausted, &lt;i>true&lt;/i> otherwise." item="_kOfYFlJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNFlIlJOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kOcUcVJOEeiyW7NaN4qWdw" sourceConnectionVisual="_kOcUclJOEeiyW7NaN4qWdw" text="The constructor to use.&#xD;&#xA;    * @param soundFiles The sounds that will make up this Playlist. The order of the sounds may be important.&#xD;&#xA;    * @param repeatMode Determines how, which and if songs will be repeated. Should be one of {PLAY_ALL, REPEAT_ALL, PLAY_ONE, REPEAT_ONE}.&#xD;&#xA;    * @param pickMode The way in which sounds will be picked from the list. Should be one of {FORWARDS, BACKWARDS, SHUFFLE}." item="_kOfYJVJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNE-FFJOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kOqW4FJOEeiyW7NaN4qWdw" sourceConnectionVisual="_kOqW4VJOEeiyW7NaN4qWdw" text="Stripped down class for playing sound." item="_kOtaOVJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNFlI1JOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kOqW4lJOEeiyW7NaN4qWdw" sourceConnectionVisual="_kOqW41JOEeiyW7NaN4qWdw" text="Stops the current sound." item="_kOuBWVJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNFlJ1JOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kOq98FJOEeiyW7NaN4qWdw" sourceConnectionVisual="_kOq98VJOEeiyW7NaN4qWdw" text="Creates a sound player.&#xD;&#xA;     *&#xD;&#xA;     * @param mixerOption The option for setting the mixer to use.&#xD;&#xA;     * @param volumeOption The volume option to use when playing audio." item="_kOuBXFJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNFlJFJOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kOq98lJOEeiyW7NaN4qWdw" sourceConnectionVisual="_kOq981JOEeiyW7NaN4qWdw" text="Gets an audio input stream given a file, hopefully containing audio data.&#xD;&#xA;     *&#xD;&#xA;     * @param file The &lt;code>File&lt;/code> to test.&#xD;&#xA;     * @return An &lt;code>AudioInputStream&lt;/code>, or null on failure.&#xD;&#xA;     * @throws Exception if the file does not contain valid audio." item="_kOuBaFJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNFlJVJOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kOq99FJOEeiyW7NaN4qWdw" sourceConnectionVisual="_kOrlAFJOEeiyW7NaN4qWdw" text="Plays a file once.&#xD;&#xA;     *&#xD;&#xA;     * @param file The &lt;code>File&lt;/code> to be played." item="_kOuBdlJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNFlJlJOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kO0H4VJOEeiyW7NaN4qWdw" sourceConnectionVisual="_kO0u8FJOEeiyW7NaN4qWdw" text="Thread for playing sound files." item="_kO3LMFJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNFlKFJOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_kO1WAFJOEeiyW7NaN4qWdw" sourceConnectionVisual="_kO1WAVJOEeiyW7NaN4qWdw" text="Play a sound.&#xD;&#xA;         *&#xD;&#xA;         * @param in The &lt;code>AudioInputStream&lt;/code> to play.&#xD;&#xA;         * @return True if the stream was played without incident." item="_kO3LhlJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jNFlKVJOEeiyW7NaN4qWdw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kNWvUFJOEeiyW7NaN4qWdw" comments="_kNVhMFJOEeiyW7NaN4qWdw" targetConnectionVisual="_kNVhMVJOEeiyW7NaN4qWdw" name="OggVorbisDecoderFactory">
+    <modelElement href="common_sound.uml#_jI96IFJOEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_kNWvUVJOEeiyW7NaN4qWdw" position="30.0,30.0"/>
+    <stereotypes xmi:id="_kNWvUlJOEeiyW7NaN4qWdw" name="Patch">
+      <modelElement href="common_sound.uml#_kC_SYFJOEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <visibility xmi:id="_kNWvU1JOEeiyW7NaN4qWdw" label="+"/>
+    <operations xmi:id="_kNWvVFJOEeiyW7NaN4qWdw" name="OggVorbisDecoderFactory">
+      <modelElement href="common_sound.uml#_jJjwAFJOEeiyW7NaN4qWdw"/>
+      <keywords xmi:id="_kNWvVVJOEeiyW7NaN4qWdw" keyword="create"/>
+      <stereotypes xmi:id="_kNWvVlJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jJkXEFJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kNWvV1JOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kNWvWFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kNWvWVJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jJkXEVJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kNWvWlJOEeiyW7NaN4qWdw" name="OggVorbisDecoderFactory">
+          <modelElement href="common_sound.uml#_jI96IFJOEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kNWvW1JOEeiyW7NaN4qWdw" comments="_kNWIQFJOEeiyW7NaN4qWdw" targetConnectionVisual="_kNWIQVJOEeiyW7NaN4qWdw" name="getOggStream">
+      <modelElement href="common_sound.uml#_jMd6EFJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kNWvXFJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kNWvXVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kNWvXlJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jMd6ElJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kNWvX1JOEeiyW7NaN4qWdw" name="AudioInputStream">
+          <modelElement href="common_sound.uml#_jL0Z0FJOEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kNWvYFJOEeiyW7NaN4qWdw" name="file">
+        <modelElement href="common_sound.uml#_jMd6EVJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kNWvYVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kNWvYlJOEeiyW7NaN4qWdw" name="File">
+          <modelElement href="common_sound.uml#_jLxWgFJOEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kN9MQVJOEeiyW7NaN4qWdw" comments="_kNZyoFJOEeiyW7NaN4qWdw" targetConnectionVisual="_kNZyoVJOEeiyW7NaN4qWdw" name="OggStream" associationsIn="_kOQuQFJOEeiyW7NaN4qWdw" associationsOut="_kNeEEFJOEeiyW7NaN4qWdw _kNeEGVJOEeiyW7NaN4qWdw _kNerIFJOEeiyW7NaN4qWdw _kNerKVJOEeiyW7NaN4qWdw _kNfSMFJOEeiyW7NaN4qWdw _kNfSOVJOEeiyW7NaN4qWdw _kNf5QFJOEeiyW7NaN4qWdw _kN7-IFJOEeiyW7NaN4qWdw _kN8lMFJOEeiyW7NaN4qWdw _kN8lOVJOEeiyW7NaN4qWdw" generalizations="_kN9MQFJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jI_vUFJOEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_kN9MQlJOEeiyW7NaN4qWdw" position="50.0,50.0"/>
+    <keywords xmi:id="_kN9MQ1JOEeiyW7NaN4qWdw" keyword="static"/>
+    <visibility xmi:id="_kN9MRFJOEeiyW7NaN4qWdw" label="-"/>
+    <attributes xmi:id="_kN9MRVJOEeiyW7NaN4qWdw" defaultValue="&quot;End-of-stream&quot;" name="EOS" staticAttribute="true">
+      <modelElement href="common_sound.uml#_jMrVcFJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kN9MRlJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN9MR1JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kN9MSFJOEeiyW7NaN4qWdw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kN9MSVJOEeiyW7NaN4qWdw" defaultValue="4096" name="BUFSIZ" staticAttribute="true">
+      <modelElement href="common_sound.uml#_jMr8gVJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kN9MSlJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN9MS1JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kN9MTFJOEeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kN9MTVJOEeiyW7NaN4qWdw" defaultValue="new Packet()" name="oggPacket">
+      <modelElement href="common_sound.uml#_jMr8g1JOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kN9MTlJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jMsjkFJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kN9MT1JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN9MUFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kN9MUVJOEeiyW7NaN4qWdw" name="Packet">
+        <modelElement href="common_sound.uml#_jL1A4VJOEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kN9MUlJOEeiyW7NaN4qWdw" defaultValue="new Page()" name="oggPage">
+      <modelElement href="common_sound.uml#_jMsjkVJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kN9MU1JOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jMsjk1JOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kN9MVFJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN9MVVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kN9MVlJOEeiyW7NaN4qWdw" name="Page">
+        <modelElement href="common_sound.uml#_jL1n8VJOEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kN9MV1JOEeiyW7NaN4qWdw" defaultValue="new StreamState()" name="oggStreamState">
+      <modelElement href="common_sound.uml#_jMtKoFJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kN9MWFJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jMtKolJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kN9MWVJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN9MWlJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kN9MW1JOEeiyW7NaN4qWdw" name="StreamState">
+        <modelElement href="common_sound.uml#_jL2PAVJOEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kN9MXFJOEeiyW7NaN4qWdw" defaultValue="new SyncState()" name="oggSyncState">
+      <modelElement href="common_sound.uml#_jMtxsFJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kN9MXVJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jMtxslJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kN9MXlJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN9MX1JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kN9MYFJOEeiyW7NaN4qWdw" name="SyncState">
+        <modelElement href="common_sound.uml#_jL2PA1JOEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kN9MYVJOEeiyW7NaN4qWdw" defaultValue="new DspState()" name="orbisDspState">
+      <modelElement href="common_sound.uml#_jMtxs1JOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kN9MYlJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jMtxtVJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kN9MY1JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN9MZFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kN9MZVJOEeiyW7NaN4qWdw" name="DspState">
+        <modelElement href="common_sound.uml#_jL3dI1JOEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kN9MZlJOEeiyW7NaN4qWdw" defaultValue="new Block(orbisDspState)" name="orbisBlock">
+      <modelElement href="common_sound.uml#_jMtxtlJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kN9MZ1JOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jMuYwVJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kN9MaFJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN9MaVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kN9MalJOEeiyW7NaN4qWdw" name="Block">
+        <modelElement href="common_sound.uml#_jL22EVJOEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kN9Ma1JOEeiyW7NaN4qWdw" defaultValue="new Comment()" name="orbisComment">
+      <modelElement href="common_sound.uml#_jMuYwlJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kN9MbFJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jMuYxFJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kN9MbVJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN9MblJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kN9Mb1JOEeiyW7NaN4qWdw" name="Comment">
+        <modelElement href="common_sound.uml#_jL3dIVJOEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kN9McFJOEeiyW7NaN4qWdw" defaultValue="new Info()" name="orbisInfo">
+      <modelElement href="common_sound.uml#_jMu_0FJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kN9McVJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jMu_0lJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kN9MclJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN9Mc1JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kN9MdFJOEeiyW7NaN4qWdw" name="Info">
+        <modelElement href="common_sound.uml#_jL4EMVJOEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kN9MdVJOEeiyW7NaN4qWdw" name="audioFormat">
+      <modelElement href="common_sound.uml#_jMu_01JOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kN9MdlJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jMvm4FJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kN9Md1JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN9MeFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kN9MeVJOEeiyW7NaN4qWdw" name="AudioFormat">
+        <modelElement href="common_sound.uml#_jLzywVJOEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kN9MelJOEeiyW7NaN4qWdw" defaultValue="new byte[BUFSIZ]" name="convBuf">
+      <modelElement href="common_sound.uml#_jMvm4VJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kN9Me1JOEeiyW7NaN4qWdw" name="Array">
+        <modelElement href="common_sound.uml#_jMvm41JOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kN9MfFJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jMvm5VJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kN9MfVJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN9MflJOEeiyW7NaN4qWdw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_kN9Mf1JOEeiyW7NaN4qWdw" name="byte">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kN9MgFJOEeiyW7NaN4qWdw" defaultValue="0" name="bufCount">
+      <modelElement href="common_sound.uml#_jMwN8FJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kN9MgVJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jMwN8lJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kN9MglJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN9Mg1JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kN9MhFJOEeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kN9MhVJOEeiyW7NaN4qWdw" defaultValue="0" name="offset">
+      <modelElement href="common_sound.uml#_jMwN81JOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kN9MhlJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jMw1AFJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kN9Mh1JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN9MiFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kN9MiVJOEeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kN9MilJOEeiyW7NaN4qWdw" name="pcmi">
+      <modelElement href="common_sound.uml#_jMw1AVJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kN9Mi1JOEeiyW7NaN4qWdw" name="Array">
+        <modelElement href="common_sound.uml#_jMw1A1JOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kN9MjFJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jMw1BFJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kN9MjVJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN9MjlJOEeiyW7NaN4qWdw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_kN9Mj1JOEeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kN9MkFJOEeiyW7NaN4qWdw" name="pcmData">
+      <modelElement href="common_sound.uml#_jMw1BVJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kN9MkVJOEeiyW7NaN4qWdw" name="Array">
+        <modelElement href="common_sound.uml#_jMxcEVJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kN9MklJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jMxcElJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kN9Mk1JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN9MlFJOEeiyW7NaN4qWdw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_kN9MlVJOEeiyW7NaN4qWdw" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kN9MllJOEeiyW7NaN4qWdw" defaultValue="null" name="inputStream">
+      <modelElement href="common_sound.uml#_jMxcE1JOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kN9Ml1JOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jMyDIFJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kN9MmFJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN9MmVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kN9MmlJOEeiyW7NaN4qWdw" name="InputStream">
+        <modelElement href="common_sound.uml#_jLzLsVJOEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kN9Mm1JOEeiyW7NaN4qWdw" name="close">
+      <modelElement href="common_sound.uml#_jJDZsFJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kN9MnFJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jJEAwFJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kN9MnVJOEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="common_sound.uml#_jJEAwVJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kN9MnlJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kN9Mn1JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kN9MoFJOEeiyW7NaN4qWdw" name="getFormat">
+      <modelElement href="common_sound.uml#_jJEn0FJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kN9MoVJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kN9MolJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kN9Mo1JOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jMaPsFJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kN9MpFJOEeiyW7NaN4qWdw" name="AudioFormat">
+          <modelElement href="common_sound.uml#_jLzywVJOEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kN9MpVJOEeiyW7NaN4qWdw" name="available">
+      <modelElement href="common_sound.uml#_jJEn0VJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kN9MplJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jJFO4VJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kN9Mp1JOEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="common_sound.uml#_jJF18FJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kN9MqFJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kN9MqVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kN9MqlJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jJFO4FJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kN9Mq1JOEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kN9MrFJOEeiyW7NaN4qWdw" name="read">
+      <modelElement href="common_sound.uml#_jJF18lJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kN9MrVJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jJGdAFJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kN9MrlJOEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="common_sound.uml#_jJGdAVJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kN9Mr1JOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kN9MsFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kN9MsVJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jJF181JOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kN9MslJOEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kN9Ms1JOEeiyW7NaN4qWdw" name="read">
+      <modelElement href="common_sound.uml#_jJHrIFJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kN9MtFJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jJHrI1JOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kN9MtVJOEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="common_sound.uml#_jJL8kFJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kN9MtlJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kN9Mt1JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kN9MuFJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jJHrIlJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kN9MuVJOEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kN9MulJOEeiyW7NaN4qWdw" name="buf">
+        <modelElement href="common_sound.uml#_jJHrIVJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kN9Mu1JOEeiyW7NaN4qWdw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_kN9MvFJOEeiyW7NaN4qWdw" name="byte">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kN9MvVJOEeiyW7NaN4qWdw" comments="_kNaZsFJOEeiyW7NaN4qWdw" targetConnectionVisual="_kNbAwFJOEeiyW7NaN4qWdw" name="read">
+      <modelElement href="common_sound.uml#_jJMjoFJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kN9MvlJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kN9Mv1JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kN9MwFJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jJNxwVJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kN9MwVJOEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kN9MwlJOEeiyW7NaN4qWdw" name="buf">
+        <modelElement href="common_sound.uml#_jJNKsFJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kN9Mw1JOEeiyW7NaN4qWdw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_kN9MxFJOEeiyW7NaN4qWdw" name="byte">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kN9MxVJOEeiyW7NaN4qWdw" name="n">
+        <modelElement href="common_sound.uml#_jJNxwFJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kN9MxlJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kN9Mx1JOEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kN9MyFJOEeiyW7NaN4qWdw" name="skip">
+      <modelElement href="common_sound.uml#_jJOY0VJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kN9MyVJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jJO_4VJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kN9MylJOEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="common_sound.uml#_jJQOAFJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kN9My1JOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kN9MzFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kN9MzVJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jJO_4FJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kN9MzlJOEeiyW7NaN4qWdw" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kN9Mz1JOEeiyW7NaN4qWdw" name="n">
+        <modelElement href="common_sound.uml#_jJOY0lJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kN9M0FJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kN9M0VJOEeiyW7NaN4qWdw" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kN9M0lJOEeiyW7NaN4qWdw" name="reset">
+      <modelElement href="common_sound.uml#_jJQOAlJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kN9M01JOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jJQOA1JOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kN9M1FJOEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="common_sound.uml#_jJRcIFJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kN9M1VJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kN9M1lJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kN9M11JOEeiyW7NaN4qWdw" comments="_kNbAwVJOEeiyW7NaN4qWdw" targetConnectionVisual="_kNbAwlJOEeiyW7NaN4qWdw" name="getHeader">
+      <modelElement href="common_sound.uml#_jJRcIlJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kN9M2FJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN9M2VJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kN9M2lJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jJSDMFJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kN9M21JOEeiyW7NaN4qWdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kN9M3FJOEeiyW7NaN4qWdw" comments="_kNbAw1JOEeiyW7NaN4qWdw" targetConnectionVisual="_kNbAxFJOEeiyW7NaN4qWdw" name="getInput">
+      <modelElement href="common_sound.uml#_jJSqQFJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kN9M3VJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN9M3lJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kN9M31JOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jJSqQVJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kN9M4FJOEeiyW7NaN4qWdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kN9M4VJOEeiyW7NaN4qWdw" comments="_kNbAxVJOEeiyW7NaN4qWdw" targetConnectionVisual="_kNbAxlJOEeiyW7NaN4qWdw" name="getPage">
+      <modelElement href="common_sound.uml#_jJSqQlJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kN9M4lJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN9M41JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kN9M5FJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jJT4YFJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kN9M5VJOEeiyW7NaN4qWdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kN9M5lJOEeiyW7NaN4qWdw" comments="_kNbn0FJOEeiyW7NaN4qWdw" targetConnectionVisual="_kNbn0VJOEeiyW7NaN4qWdw" name="decodePacket">
+      <modelElement href="common_sound.uml#_jJVGgFJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kN9M51JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kN9M6FJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kN9M6VJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jJVGglJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kN9M6lJOEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kN9M61JOEeiyW7NaN4qWdw" name="samples">
+        <modelElement href="common_sound.uml#_jJVGgVJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kN9M7FJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kN9M7VJOEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kN9M7lJOEeiyW7NaN4qWdw" name="OggStream">
+      <modelElement href="common_sound.uml#_jMZBkFJOEeiyW7NaN4qWdw"/>
+      <keywords xmi:id="_kN9M71JOEeiyW7NaN4qWdw" keyword="create"/>
+      <visibility xmi:id="_kN9M8FJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kN9M8VJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kN9M8lJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jMZoo1JOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kN9M81JOEeiyW7NaN4qWdw" name="OggStream">
+          <modelElement href="common_sound.uml#_jI_vUFJOEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kN9M9FJOEeiyW7NaN4qWdw" name="inputStream">
+        <modelElement href="common_sound.uml#_jMZooFJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kN9M9VJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kN9M9lJOEeiyW7NaN4qWdw" name="InputStream">
+          <modelElement href="common_sound.uml#_jLzLsVJOEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kN9M91JOEeiyW7NaN4qWdw" comments="_kNbn0lJOEeiyW7NaN4qWdw" targetConnectionVisual="_kNbn01JOEeiyW7NaN4qWdw" name="getBody">
+      <modelElement href="common_sound.uml#_jMaPsVJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kN9M-FJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kN9M-VJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kN9M-lJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jMa2wVJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kN9M-1JOEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kN9M_FJOEeiyW7NaN4qWdw" name="is">
+        <modelElement href="common_sound.uml#_jMa2wFJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kN9M_VJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kN9M_lJOEeiyW7NaN4qWdw" name="InputStream">
+          <modelElement href="common_sound.uml#_jLzLsVJOEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kOQHMFJOEeiyW7NaN4qWdw" name="IOException">
+    <modelElement href="common_sound.uml#_jLykoVJOEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_kOQHMVJOEeiyW7NaN4qWdw" position="70.0,70.0"/>
+    <stereotypes xmi:id="_kOQHMlJOEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="common_sound.uml#_jLzLsFJOEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <visibility xmi:id="_kOQHM1JOEeiyW7NaN4qWdw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kOUYoFJOEeiyW7NaN4qWdw" comments="_kORVUFJOEeiyW7NaN4qWdw" targetConnectionVisual="_kORVUVJOEeiyW7NaN4qWdw" name="OggVorbisAudioInputStream" associationsOut="_kOQuQFJOEeiyW7NaN4qWdw" generalizations="_kOR8ZFJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jJbNIFJOEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_kOUYoVJOEeiyW7NaN4qWdw" position="90.0,90.0"/>
+    <keywords xmi:id="_kOUYolJOEeiyW7NaN4qWdw" keyword="static"/>
+    <visibility xmi:id="_kOUYo1JOEeiyW7NaN4qWdw" label="-"/>
+    <attributes xmi:id="_kOUYpFJOEeiyW7NaN4qWdw" defaultValue="null" name="os">
+      <modelElement href="common_sound.uml#_jMyqMFJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kOUYpVJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jMyqMlJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOUYplJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kOUYp1JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kOUYqFJOEeiyW7NaN4qWdw" name="OggStream">
+        <modelElement href="common_sound.uml#_jI_vUFJOEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kOUYqVJOEeiyW7NaN4qWdw" name="getFormat">
+      <modelElement href="common_sound.uml#_jJb0MFJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kOUYqlJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jJcbQFJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kOUYq1JOEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="common_sound.uml#_jJcbQVJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOUYrFJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOUYrVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kOUYrlJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jMcr8FJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kOUYr1JOEeiyW7NaN4qWdw" name="AudioFormat">
+          <modelElement href="common_sound.uml#_jLzywVJOEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kOUYsFJOEeiyW7NaN4qWdw" name="available">
+      <modelElement href="common_sound.uml#_jJdCUFJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kOUYsVJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jJdCUlJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kOUYslJOEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="common_sound.uml#_jJdpYFJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOUYs1JOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOUYtFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kOUYtVJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jJdCUVJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kOUYtlJOEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kOUYt1JOEeiyW7NaN4qWdw" name="read">
+      <modelElement href="common_sound.uml#_jJdpYlJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kOUYuFJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jJeQcFJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kOUYuVJOEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="common_sound.uml#_jJeQcVJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOUYulJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOUYu1JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kOUYvFJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jJdpY1JOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kOUYvVJOEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kOUYvlJOEeiyW7NaN4qWdw" name="read">
+      <modelElement href="common_sound.uml#_jJeQc1JOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kOUYv1JOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jJe3gVJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kOUYwFJOEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="common_sound.uml#_jJfekFJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOUYwVJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOUYwlJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kOUYw1JOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jJe3gFJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kOUYxFJOEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kOUYxVJOEeiyW7NaN4qWdw" name="buf">
+        <modelElement href="common_sound.uml#_jJeQdFJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kOUYxlJOEeiyW7NaN4qWdw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_kOUYx1JOEeiyW7NaN4qWdw" name="byte">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kOUYyFJOEeiyW7NaN4qWdw" name="read">
+      <modelElement href="common_sound.uml#_jJfeklJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kOUYyVJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOUYylJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kOUYy1JOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jJgFoFJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kOUYzFJOEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kOUYzVJOEeiyW7NaN4qWdw" name="buf">
+        <modelElement href="common_sound.uml#_jJfek1JOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kOUYzlJOEeiyW7NaN4qWdw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_kOUYz1JOEeiyW7NaN4qWdw" name="byte">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kOUY0FJOEeiyW7NaN4qWdw" name="n">
+        <modelElement href="common_sound.uml#_jJfelFJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kOUY0VJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kOUY0lJOEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kOUY01JOEeiyW7NaN4qWdw" name="close">
+      <modelElement href="common_sound.uml#_jJgFolJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kOUY1FJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jJgFo1JOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kOUY1VJOEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="common_sound.uml#_jJgssFJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOUY1lJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOUY11JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kOUY2FJOEeiyW7NaN4qWdw" name="skip">
+      <modelElement href="common_sound.uml#_jJgsslJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kOUY2VJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jJhTwFJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kOUY2lJOEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="common_sound.uml#_jJhTwVJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOUY21JOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOUY3FJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kOUY3VJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jJgstFJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kOUY3lJOEeiyW7NaN4qWdw" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kOUY31JOEeiyW7NaN4qWdw" name="n">
+        <modelElement href="common_sound.uml#_jJgss1JOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kOUY4FJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kOUY4VJOEeiyW7NaN4qWdw" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kOUY4lJOEeiyW7NaN4qWdw" name="mark">
+      <modelElement href="common_sound.uml#_jJhTw1JOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kOUY41JOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jJh60VJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kOUY5FJOEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="common_sound.uml#_jJh60lJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOUY5VJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOUY5lJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kOUY51JOEeiyW7NaN4qWdw" name="readLimit">
+        <modelElement href="common_sound.uml#_jJh60FJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kOUY6FJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kOUY6VJOEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kOUY6lJOEeiyW7NaN4qWdw" name="markSupported">
+      <modelElement href="common_sound.uml#_jJh61FJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kOUY61JOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jJih4VJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kOUY7FJOEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="common_sound.uml#_jJih4lJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOUY7VJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOUY7lJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kOUY71JOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jJih4FJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kOUY8FJOEeiyW7NaN4qWdw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kOUY8VJOEeiyW7NaN4qWdw" name="reset">
+      <modelElement href="common_sound.uml#_jJih5FJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kOUY8lJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jJjI8FJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kOUY81JOEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="common_sound.uml#_jJjI8VJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOUY9FJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOUY9VJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kOUY9lJOEeiyW7NaN4qWdw" comments="_kOSjcFJOEeiyW7NaN4qWdw" targetConnectionVisual="_kOSjcVJOEeiyW7NaN4qWdw" name="OggVorbisAudioInputStream">
+      <modelElement href="common_sound.uml#_jL55YFJOEeiyW7NaN4qWdw"/>
+      <keywords xmi:id="_kOUY91JOEeiyW7NaN4qWdw" keyword="create"/>
+      <visibility xmi:id="_kOUY-FJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOUY-VJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kOUY-lJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jL6gclJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kOUY-1JOEeiyW7NaN4qWdw" name="OggVorbisAudioInputStream">
+          <modelElement href="common_sound.uml#_jJbNIFJOEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kOUY_FJOEeiyW7NaN4qWdw" name="os">
+        <modelElement href="common_sound.uml#_jL55YVJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kOUY_VJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kOUY_lJOEeiyW7NaN4qWdw" name="OggStream">
+          <modelElement href="common_sound.uml#_jI_vUFJOEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kOewslJOEeiyW7NaN4qWdw" comments="_kObGUFJOEeiyW7NaN4qWdw" targetConnectionVisual="_kObGUVJOEeiyW7NaN4qWdw" name="Playlist" associationsOut="_kObGUlJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jJrEwFJOEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_kOews1JOEeiyW7NaN4qWdw" position="110.0,110.0"/>
+    <visibility xmi:id="_kOewtFJOEeiyW7NaN4qWdw" label="+"/>
+    <attributes xmi:id="_kOfXwFJOEeiyW7NaN4qWdw" defaultValue="0" name="PLAY_ALL" staticAttribute="true">
+      <modelElement href="common_sound.uml#_jMz4UFJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kOfXwVJOEeiyW7NaN4qWdw" name="MultiDeclaration">
+        <modelElement href="common_sound.uml#_jMz4UlJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kOfXwlJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jM0fYFJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOfXw1JOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOfXxFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kOfXxVJOEeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kOfXxlJOEeiyW7NaN4qWdw" defaultValue="0" name="FORWARDS" staticAttribute="true">
+      <modelElement href="common_sound.uml#_jM0fYVJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kOfXx1JOEeiyW7NaN4qWdw" name="MultiDeclaration">
+        <modelElement href="common_sound.uml#_jM0fY1JOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kOfXyFJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jM1GcFJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOfXyVJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOfXylJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kOfXy1JOEeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kOfXzFJOEeiyW7NaN4qWdw" name="soundFiles">
+      <modelElement href="common_sound.uml#_jM1GcVJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kOfXzVJOEeiyW7NaN4qWdw" name="Array">
+        <modelElement href="common_sound.uml#_jM1tgFJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kOfXzlJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jM1tgVJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOfXz1JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kOfX0FJOEeiyW7NaN4qWdw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_kOfX0VJOEeiyW7NaN4qWdw" name="File">
+        <modelElement href="common_sound.uml#_jLxWgFJOEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kOfX0lJOEeiyW7NaN4qWdw" name="num">
+      <modelElement href="common_sound.uml#_jM1tglJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kOfX01JOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jM1tg1JOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOfX1FJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kOfX1VJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kOfX1lJOEeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kOfX11JOEeiyW7NaN4qWdw" name="repeatMode">
+      <modelElement href="common_sound.uml#_jM1thFJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kOfX2FJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jM2UkFJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOfX2VJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kOfX2lJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kOfX21JOEeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kOfX3FJOEeiyW7NaN4qWdw" name="pickMode">
+      <modelElement href="common_sound.uml#_jM2UkVJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kOfX3VJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jM2UklJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOfX3lJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kOfX31JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kOfX4FJOEeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kOfX4VJOEeiyW7NaN4qWdw" name="playedSounds">
+      <modelElement href="common_sound.uml#_jM2Uk1JOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kOfX4lJOEeiyW7NaN4qWdw" name="Array">
+        <modelElement href="common_sound.uml#_jM27oFJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kOfX41JOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jM27oVJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOfX5FJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kOfX5VJOEeiyW7NaN4qWdw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_kOfX5lJOEeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kOfX51JOEeiyW7NaN4qWdw" defaultValue="1" name="REPEAT_ALL">
+      <modelElement href="common_sound.uml#_jNCh2lJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kOfX6FJOEeiyW7NaN4qWdw" name="MultiDeclaration">
+        <modelElement href="common_sound.uml#_jNDI4FJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kOfX6VJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jNDI4VJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOfX6lJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOfX61JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kOfX7FJOEeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kOfX7VJOEeiyW7NaN4qWdw" defaultValue="2" name="PLAY_ONE">
+      <modelElement href="common_sound.uml#_jNDI41JOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kOfX7lJOEeiyW7NaN4qWdw" name="MultiDeclaration">
+        <modelElement href="common_sound.uml#_jNDI5FJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kOfX71JOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jNDv8FJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOfX8FJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOfX8VJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kOfX8lJOEeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kOfX81JOEeiyW7NaN4qWdw" defaultValue="3" name="REPEAT_ONE">
+      <modelElement href="common_sound.uml#_jNDv8lJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kOfX9FJOEeiyW7NaN4qWdw" name="MultiDeclaration">
+        <modelElement href="common_sound.uml#_jNDv81JOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kOfX9VJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jNDv9FJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOfX9lJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOfX91JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kOfX-FJOEeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kOfX-VJOEeiyW7NaN4qWdw" defaultValue="1" name="BACKWARDS">
+      <modelElement href="common_sound.uml#_jNEXAFJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kOfX-lJOEeiyW7NaN4qWdw" name="MultiDeclaration">
+        <modelElement href="common_sound.uml#_jNEXAVJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kOfX-1JOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jNEXAlJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOfX_FJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOfX_VJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kOfX_lJOEeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kOfX_1JOEeiyW7NaN4qWdw" defaultValue="2" name="SHUFFLE">
+      <modelElement href="common_sound.uml#_jNE-EFJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kOfYAFJOEeiyW7NaN4qWdw" name="MultiDeclaration">
+        <modelElement href="common_sound.uml#_jNE-EVJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kOfYAVJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jNE-ElJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOfYAlJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOfYA1JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kOfYBFJOEeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kOfYBVJOEeiyW7NaN4qWdw" comments="_kObtYFJOEeiyW7NaN4qWdw" targetConnectionVisual="_kObtYVJOEeiyW7NaN4qWdw" name="setRepeatMode">
+      <modelElement href="common_sound.uml#_jJsS4FJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kOfYBlJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOfYB1JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kOfYCFJOEeiyW7NaN4qWdw" name="repeatMode">
+        <modelElement href="common_sound.uml#_jJsS4VJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kOfYCVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kOfYClJOEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kOfYC1JOEeiyW7NaN4qWdw" comments="_kObtYlJOEeiyW7NaN4qWdw" targetConnectionVisual="_kObtY1JOEeiyW7NaN4qWdw" name="setPickMode">
+      <modelElement href="common_sound.uml#_jJsS4lJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kOfYDFJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOfYDVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kOfYDlJOEeiyW7NaN4qWdw" name="pickMode">
+        <modelElement href="common_sound.uml#_jJs58FJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kOfYD1JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kOfYEFJOEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kOfYEVJOEeiyW7NaN4qWdw" comments="_kObtZFJOEeiyW7NaN4qWdw" targetConnectionVisual="_kObtZVJOEeiyW7NaN4qWdw" name="next">
+      <modelElement href="common_sound.uml#_jJs58VJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kOfYElJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOfYE1JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kOfYFFJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jMiLg1JOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kOfYFVJOEeiyW7NaN4qWdw" name="File">
+          <modelElement href="common_sound.uml#_jLxWgFJOEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kOfYFlJOEeiyW7NaN4qWdw" comments="_kObtZlJOEeiyW7NaN4qWdw" targetConnectionVisual="_kOcUcFJOEeiyW7NaN4qWdw" name="hasNext">
+      <modelElement href="common_sound.uml#_jJs58lJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kOfYF1JOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOfYGFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kOfYGVJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jJs581JOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kOfYGlJOEeiyW7NaN4qWdw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kOfYG1JOEeiyW7NaN4qWdw" name="Playlist">
+      <modelElement href="common_sound.uml#_jMg9YFJOEeiyW7NaN4qWdw"/>
+      <keywords xmi:id="_kOfYHFJOEeiyW7NaN4qWdw" keyword="create"/>
+      <stereotypes xmi:id="_kOfYHVJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jMg9ZFJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOfYHlJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOfYH1JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kOfYIFJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jMg9ZVJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kOfYIVJOEeiyW7NaN4qWdw" name="Playlist">
+          <modelElement href="common_sound.uml#_jJrEwFJOEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kOfYIlJOEeiyW7NaN4qWdw" name="soundFiles">
+        <modelElement href="common_sound.uml#_jMg9YVJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kOfYI1JOEeiyW7NaN4qWdw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_kOfYJFJOEeiyW7NaN4qWdw" name="File">
+          <modelElement href="common_sound.uml#_jLxWgFJOEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kOfYJVJOEeiyW7NaN4qWdw" comments="_kOcUcVJOEeiyW7NaN4qWdw" targetConnectionVisual="_kOcUclJOEeiyW7NaN4qWdw" name="Playlist">
+      <modelElement href="common_sound.uml#_jMhkcVJOEeiyW7NaN4qWdw"/>
+      <keywords xmi:id="_kOfYJlJOEeiyW7NaN4qWdw" keyword="create"/>
+      <visibility xmi:id="_kOfYJ1JOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOfYKFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kOfYKVJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jMiLgFJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kOfYKlJOEeiyW7NaN4qWdw" name="Playlist">
+          <modelElement href="common_sound.uml#_jJrEwFJOEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kOfYK1JOEeiyW7NaN4qWdw" name="soundFiles">
+        <modelElement href="common_sound.uml#_jMhkclJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kOfYLFJOEeiyW7NaN4qWdw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_kOfYLVJOEeiyW7NaN4qWdw" name="File">
+          <modelElement href="common_sound.uml#_jLxWgFJOEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kOfYLlJOEeiyW7NaN4qWdw" name="repeatMode">
+        <modelElement href="common_sound.uml#_jMhkc1JOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kOfYL1JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kOfYMFJOEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kOfYMVJOEeiyW7NaN4qWdw" name="pickMode">
+        <modelElement href="common_sound.uml#_jMhkdFJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kOfYMlJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kOfYM1JOEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kOtaOVJOEeiyW7NaN4qWdw" comments="_kOqW4FJOEeiyW7NaN4qWdw" targetConnectionVisual="_kOqW4VJOEeiyW7NaN4qWdw" name="SoundPlayer" associationsOut="_kOszIFJOEeiyW7NaN4qWdw _kOszKVJOEeiyW7NaN4qWdw _kOtaMFJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jJuvIFJOEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_kOuBQFJOEeiyW7NaN4qWdw" position="130.0,130.0"/>
+    <visibility xmi:id="_kOuBQVJOEeiyW7NaN4qWdw" label="+"/>
+    <attributes xmi:id="_kOuBQlJOEeiyW7NaN4qWdw" defaultValue="Logger.getLogger(SoundPlayer.class.getName())" name="logger" staticAttribute="true">
+      <modelElement href="common_sound.uml#_jM3isFJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kOuBQ1JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kOuBRFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kOuBRVJOEeiyW7NaN4qWdw" name="Logger">
+        <modelElement href="common_sound.uml#_jMDqYVJOEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kOuBRlJOEeiyW7NaN4qWdw" name="mixer">
+      <modelElement href="common_sound.uml#_jM4JwFJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kOuBR1JOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOuBSFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kOuBSVJOEeiyW7NaN4qWdw" name="Mixer">
+        <modelElement href="common_sound.uml#_jME4gVJOEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kOuBSlJOEeiyW7NaN4qWdw" name="volume">
+      <modelElement href="common_sound.uml#_jM4JwVJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kOuBS1JOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOuBTFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kOuBTVJOEeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kOuBTlJOEeiyW7NaN4qWdw" name="soundPlayerThread">
+      <modelElement href="common_sound.uml#_jM4JwlJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kOuBT1JOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jM4Jw1JOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kOuBUFJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kOuBUVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kOuBUlJOEeiyW7NaN4qWdw" name="SoundPlayerThread">
+        <modelElement href="common_sound.uml#_jJwkUVJOEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kOuBU1JOEeiyW7NaN4qWdw" name="setVolume">
+      <modelElement href="common_sound.uml#_jJv9QFJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kOuBVFJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kOuBVVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kOuBVlJOEeiyW7NaN4qWdw" name="volume">
+        <modelElement href="common_sound.uml#_jJv9QVJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kOuBV1JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kOuBWFJOEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kOuBWVJOEeiyW7NaN4qWdw" comments="_kOqW4lJOEeiyW7NaN4qWdw" targetConnectionVisual="_kOqW41JOEeiyW7NaN4qWdw" name="stop">
+      <modelElement href="common_sound.uml#_jJwkUFJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kOuBWlJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOuBW1JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kOuBXFJOEeiyW7NaN4qWdw" comments="_kOq98FJOEeiyW7NaN4qWdw" targetConnectionVisual="_kOq98VJOEeiyW7NaN4qWdw" name="SoundPlayer">
+      <modelElement href="common_sound.uml#_jMjZoFJOEeiyW7NaN4qWdw"/>
+      <keywords xmi:id="_kOuBXVJOEeiyW7NaN4qWdw" keyword="create"/>
+      <visibility xmi:id="_kOuBXlJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOuBX1JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kOuBYFJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jMjZpVJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kOuBYVJOEeiyW7NaN4qWdw" name="SoundPlayer">
+          <modelElement href="common_sound.uml#_jJuvIFJOEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kOuBYlJOEeiyW7NaN4qWdw" name="mixerOption">
+        <modelElement href="common_sound.uml#_jMjZoVJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kOuBY1JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kOuBZFJOEeiyW7NaN4qWdw" name="AudioMixerOption">
+          <modelElement href="common_sound.uml#_jMGGolJOEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kOuBZVJOEeiyW7NaN4qWdw" name="volumeOption">
+        <modelElement href="common_sound.uml#_jMjZolJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kOuBZlJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kOuBZ1JOEeiyW7NaN4qWdw" name="PercentageOption">
+          <modelElement href="common_sound.uml#_jMHUwVJOEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kOuBaFJOEeiyW7NaN4qWdw" comments="_kOq98lJOEeiyW7NaN4qWdw" targetConnectionVisual="_kOq981JOEeiyW7NaN4qWdw" name="getAudioInputStream" staticOperation="true">
+      <modelElement href="common_sound.uml#_jMknwVJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kOuBaVJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOuBalJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kOuBa1JOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jMknw1JOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kOuBbFJOEeiyW7NaN4qWdw" name="AudioInputStream">
+          <modelElement href="common_sound.uml#_jL0Z0FJOEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kOuBbVJOEeiyW7NaN4qWdw" name="file">
+        <modelElement href="common_sound.uml#_jMknwlJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kOuBblJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kOuBb1JOEeiyW7NaN4qWdw" name="File">
+          <modelElement href="common_sound.uml#_jLxWgFJOEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kOuBcFJOEeiyW7NaN4qWdw" name="setMixer">
+      <modelElement href="common_sound.uml#_jMknxFJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kOuBcVJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kOuBclJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kOuBc1JOEeiyW7NaN4qWdw" name="mw">
+        <modelElement href="common_sound.uml#_jMknxVJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kOuBdFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kOuBdVJOEeiyW7NaN4qWdw" name="MixerWrapper">
+          <modelElement href="common_sound.uml#_jMGtsVJOEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kOuBdlJOEeiyW7NaN4qWdw" comments="_kOq99FJOEeiyW7NaN4qWdw" targetConnectionVisual="_kOrlAFJOEeiyW7NaN4qWdw" name="playOnce">
+      <modelElement href="common_sound.uml#_jMlO0FJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kOuBd1JOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kOuBeFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kOuBeVJOEeiyW7NaN4qWdw" name="file">
+        <modelElement href="common_sound.uml#_jMlO0VJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kOuBelJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kOuBe1JOEeiyW7NaN4qWdw" name="File">
+          <modelElement href="common_sound.uml#_jLxWgFJOEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kOy5wFJOEeiyW7NaN4qWdw" name="Exception">
+    <modelElement href="common_sound.uml#_jMkAsVJOEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_kOy5wVJOEeiyW7NaN4qWdw" position="150.0,150.0"/>
+    <stereotypes xmi:id="_kOy5wlJOEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="common_sound.uml#_jMknwFJOEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <visibility xmi:id="_kOy5w1JOEeiyW7NaN4qWdw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kO3LMFJOEeiyW7NaN4qWdw" comments="_kO0H4VJOEeiyW7NaN4qWdw" targetConnectionVisual="_kO0u8FJOEeiyW7NaN4qWdw" name="SoundPlayerThread" associationsIn="_kOtaMFJOEeiyW7NaN4qWdw" associationsOut="_kO0H4FJOEeiyW7NaN4qWdw">
+    <modelElement href="common_sound.uml#_jJwkUVJOEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_kO3LMVJOEeiyW7NaN4qWdw" position="170.0,170.0"/>
+    <visibility xmi:id="_kO3LMlJOEeiyW7NaN4qWdw" label="-"/>
+    <attributes xmi:id="_kO3LM1JOEeiyW7NaN4qWdw" defaultValue="8192" name="BUFSIZ" staticAttribute="true">
+      <modelElement href="common_sound.uml#_jM4w0FJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kO3LNFJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kO3LNVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kO3LNlJOEeiyW7NaN4qWdw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kO3LN1JOEeiyW7NaN4qWdw" defaultValue="new byte[BUFSIZ]" name="data">
+      <modelElement href="common_sound.uml#_jM4w0lJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kO3LOFJOEeiyW7NaN4qWdw" name="Array">
+        <modelElement href="common_sound.uml#_jM4w1FJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kO3LOVJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jM4w1lJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kO3LOlJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kO3LO1JOEeiyW7NaN4qWdw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_kO3LPFJOEeiyW7NaN4qWdw" name="byte">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kO3LPVJOEeiyW7NaN4qWdw" defaultValue="new ArrayList&lt;>()" name="playList">
+      <modelElement href="common_sound.uml#_jM5X4FJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kO3LPlJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jM5X41JOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kO3LP1JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kO3LQFJOEeiyW7NaN4qWdw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_kO3LQVJOEeiyW7NaN4qWdw" name="AudioInputStream">
+        <modelElement href="common_sound.uml#_jL0Z0FJOEeiyW7NaN4qWdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kO3LQlJOEeiyW7NaN4qWdw" defaultValue="true" name="playDone">
+      <modelElement href="common_sound.uml#_jM5-8FJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kO3LQ1JOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jM5-8lJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kO3LRFJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kO3LRVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <type xmi:id="_kO3LRlJOEeiyW7NaN4qWdw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kO3LR1JOEeiyW7NaN4qWdw" name="SoundPlayerThread">
+      <modelElement href="common_sound.uml#_jJxLYFJOEeiyW7NaN4qWdw"/>
+      <keywords xmi:id="_kO3LSFJOEeiyW7NaN4qWdw" keyword="create"/>
+      <visibility xmi:id="_kO3LSVJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kO3LSlJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kO3LS1JOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jJxycFJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kO3LTFJOEeiyW7NaN4qWdw" name="SoundPlayerThread">
+          <modelElement href="common_sound.uml#_jJwkUVJOEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kO3LTVJOEeiyW7NaN4qWdw" name="awaken">
+      <modelElement href="common_sound.uml#_jJxycVJOEeiyW7NaN4qWdw"/>
+      <keywords xmi:id="_kO3LTlJOEeiyW7NaN4qWdw" keyword="synchronized"/>
+      <visibility xmi:id="_kO3LT1JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kO3LUFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kO3LUVJOEeiyW7NaN4qWdw" name="goToSleep">
+      <modelElement href="common_sound.uml#_jJxydFJOEeiyW7NaN4qWdw"/>
+      <keywords xmi:id="_kO3LUlJOEeiyW7NaN4qWdw" keyword="synchronized"/>
+      <visibility xmi:id="_kO3LU1JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kO3LVFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kO3LVVJOEeiyW7NaN4qWdw" name="keepPlaying">
+      <modelElement href="common_sound.uml#_jJyZgFJOEeiyW7NaN4qWdw"/>
+      <keywords xmi:id="_kO3LVlJOEeiyW7NaN4qWdw" keyword="synchronized"/>
+      <visibility xmi:id="_kO3LV1JOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kO3LWFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kO3LWVJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jJyZg1JOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kO3LWlJOEeiyW7NaN4qWdw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kO3LW1JOEeiyW7NaN4qWdw" name="startPlaying">
+      <modelElement href="common_sound.uml#_jJyZhFJOEeiyW7NaN4qWdw"/>
+      <keywords xmi:id="_kO3LXFJOEeiyW7NaN4qWdw" keyword="synchronized"/>
+      <visibility xmi:id="_kO3LXVJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kO3LXlJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kO3LX1JOEeiyW7NaN4qWdw" name="stopPlaying">
+      <modelElement href="common_sound.uml#_jJyZh1JOEeiyW7NaN4qWdw"/>
+      <keywords xmi:id="_kO3LYFJOEeiyW7NaN4qWdw" keyword="synchronized"/>
+      <visibility xmi:id="_kO3LYVJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kO3LYlJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kO3LY1JOEeiyW7NaN4qWdw" name="run">
+      <modelElement href="common_sound.uml#_jJzAkFJOEeiyW7NaN4qWdw"/>
+      <stereotypes xmi:id="_kO3LZFJOEeiyW7NaN4qWdw" name="LegacyStyledElement">
+        <modelElement href="common_sound.uml#_jJzAkVJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kO3LZVJOEeiyW7NaN4qWdw" name="Annotations">
+        <modelElement href="common_sound.uml#_jJzAklJOEeiyW7NaN4qWdw"/>
+      </stereotypes>
+      <visibility xmi:id="_kO3LZlJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kO3LZ1JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kO3LaFJOEeiyW7NaN4qWdw" name="sleep">
+      <modelElement href="common_sound.uml#_jJznoFJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kO3LaVJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kO3LalJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kO3La1JOEeiyW7NaN4qWdw" name="t">
+        <modelElement href="common_sound.uml#_jJznoVJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kO3LbFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kO3LbVJOEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kO3LblJOEeiyW7NaN4qWdw" name="add">
+      <modelElement href="common_sound.uml#_jMnEAVJOEeiyW7NaN4qWdw"/>
+      <keywords xmi:id="_kO3Lb1JOEeiyW7NaN4qWdw" keyword="synchronized"/>
+      <visibility xmi:id="_kO3LcFJOEeiyW7NaN4qWdw" label="+"/>
+      <cardinality xmi:id="_kO3LcVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kO3LclJOEeiyW7NaN4qWdw" name="ais">
+        <modelElement href="common_sound.uml#_jMnEAlJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kO3Lc1JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kO3LdFJOEeiyW7NaN4qWdw" name="AudioInputStream">
+          <modelElement href="common_sound.uml#_jL0Z0FJOEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kO3LdVJOEeiyW7NaN4qWdw" name="setVolume">
+      <modelElement href="common_sound.uml#_jMnrEFJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kO3LdlJOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kO3Ld1JOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kO3LeFJOEeiyW7NaN4qWdw" name="line">
+        <modelElement href="common_sound.uml#_jMnrEVJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kO3LeVJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kO3LelJOEeiyW7NaN4qWdw" name="SourceDataLine">
+          <modelElement href="common_sound.uml#_jMFfkVJOEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kO3Le1JOEeiyW7NaN4qWdw" name="vol">
+        <modelElement href="common_sound.uml#_jMnrElJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kO3LfFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kO3LfVJOEeiyW7NaN4qWdw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kO3LflJOEeiyW7NaN4qWdw" name="openLine">
+      <modelElement href="common_sound.uml#_jMnrE1JOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kO3Lf1JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kO3LgFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kO3LgVJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jMnrFVJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kO3LglJOEeiyW7NaN4qWdw" name="SourceDataLine">
+          <modelElement href="common_sound.uml#_jMFfkVJOEeiyW7NaN4qWdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kO3Lg1JOEeiyW7NaN4qWdw" name="audioFormat">
+        <modelElement href="common_sound.uml#_jMnrFFJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kO3LhFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kO3LhVJOEeiyW7NaN4qWdw" name="AudioFormat">
+          <modelElement href="common_sound.uml#_jLzywVJOEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kO3LhlJOEeiyW7NaN4qWdw" comments="_kO1WAFJOEeiyW7NaN4qWdw" targetConnectionVisual="_kO1WAVJOEeiyW7NaN4qWdw" name="playSound">
+      <modelElement href="common_sound.uml#_jMoSIFJOEeiyW7NaN4qWdw"/>
+      <visibility xmi:id="_kO3Lh1JOEeiyW7NaN4qWdw" label="-"/>
+      <cardinality xmi:id="_kO3LiFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kO3LiVJOEeiyW7NaN4qWdw">
+        <modelElement href="common_sound.uml#_jMoSIlJOEeiyW7NaN4qWdw"/>
+        <type xmi:id="_kO3LilJOEeiyW7NaN4qWdw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kO3Li1JOEeiyW7NaN4qWdw" name="in">
+        <modelElement href="common_sound.uml#_jMoSIVJOEeiyW7NaN4qWdw"/>
+        <cardinality xmi:id="_kO3LjFJOEeiyW7NaN4qWdw" label="1" max="1" min="1"/>
+        <type xmi:id="_kO3LjVJOEeiyW7NaN4qWdw" name="AudioInputStream">
+          <modelElement href="common_sound.uml#_jL0Z0FJOEeiyW7NaN4qWdw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kO_HAFJOEeiyW7NaN4qWdw" name="InterruptedException">
+    <modelElement href="common_sound.uml#_jMmc8FJOEeiyW7NaN4qWdw"/>
+    <visualProperties xmi:id="_kO_HAVJOEeiyW7NaN4qWdw" position="190.0,190.0"/>
+    <stereotypes xmi:id="_kO_HAlJOEeiyW7NaN4qWdw" name="Reference">
+      <modelElement href="common_sound.uml#_jMnEAFJOEeiyW7NaN4qWdw"/>
+    </stereotypes>
+    <visibility xmi:id="_kO_HA1JOEeiyW7NaN4qWdw" label="+"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

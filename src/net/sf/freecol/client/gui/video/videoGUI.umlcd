@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_1mLjgFImEeibjuLm5_lcNQ">
+  <modelElement href="videoGUI.uml#_2L-YMFImEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_22MZ4VImEeibjuLm5_lcNQ" targetItem="_22PdOVImEeibjuLm5_lcNQ" sourceItem="_22MZ4FImEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_22OPEVImEeibjuLm5_lcNQ" targetItem="_22PdSlImEeibjuLm5_lcNQ" sourceItem="_22OPEFImEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_22OPE1ImEeibjuLm5_lcNQ" targetItem="_22PdTVImEeibjuLm5_lcNQ" sourceItem="_22OPElImEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_22OPFVImEeibjuLm5_lcNQ" targetItem="_22PdVVImEeibjuLm5_lcNQ" sourceItem="_22OPFFImEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_22O2IFImEeibjuLm5_lcNQ" source="_22PdOVImEeibjuLm5_lcNQ">
+    <modelElement href="videoGUI.uml#_2MnRYFImEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_22O2IVImEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="videoGUI.uml#_2MnRYlImEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_22O2IlImEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_22O2I1ImEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="videoGUI.uml#_2MnRYVImEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_22O2JFImEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_22O2JVImEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_22O2JlImEeibjuLm5_lcNQ" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="videoGUI.uml#_2MlcM1ImEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_22O2J1ImEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_22O2KFImEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_22PdMFImEeibjuLm5_lcNQ" source="_22PdOVImEeibjuLm5_lcNQ">
+    <modelElement href="videoGUI.uml#_2Mn4cFImEeibjuLm5_lcNQ"/>
+    <stereotypes xmi:id="_22PdMVImEeibjuLm5_lcNQ" name="Reference">
+      <modelElement href="videoGUI.uml#_2Mn4clImEeibjuLm5_lcNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_22PdMlImEeibjuLm5_lcNQ" text=""/>
+    <sourceRole xmi:id="_22PdM1ImEeibjuLm5_lcNQ" aggregationKind="NONE" name="">
+      <modelElement href="videoGUI.uml#_2Mn4cVImEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_22PdNFImEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_22PdNVImEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_22PdNlImEeibjuLm5_lcNQ" aggregationKind="NONE" name="applet" navigable="true">
+      <modelElement href="videoGUI.uml#_2MmDQFImEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_22PdN1ImEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_22PdOFImEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_22SggVImEeibjuLm5_lcNQ" targetItem="_22THklImEeibjuLm5_lcNQ" sourceItem="_22SggFImEeibjuLm5_lcNQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_22THkVImEeibjuLm5_lcNQ" targetItem="_22THlVImEeibjuLm5_lcNQ" sourceItem="_22THkFImEeibjuLm5_lcNQ"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_22MZ4FImEeibjuLm5_lcNQ" sourceConnectionVisual="_22MZ4VImEeibjuLm5_lcNQ" text="A component for playing video." item="_22PdOVImEeibjuLm5_lcNQ">
+    <modelElement href="videoGUI.uml#_2MmqWVImEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_22OPEFImEeibjuLm5_lcNQ" sourceConnectionVisual="_22OPEVImEeibjuLm5_lcNQ" text="Start playing the video." item="_22PdSlImEeibjuLm5_lcNQ">
+    <modelElement href="videoGUI.uml#_2MmqW1ImEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_22OPElImEeibjuLm5_lcNQ" sourceConnectionVisual="_22OPE1ImEeibjuLm5_lcNQ" text="Stop playing the video." item="_22PdTVImEeibjuLm5_lcNQ">
+    <modelElement href="videoGUI.uml#_2MmqXFImEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_22OPFFImEeibjuLm5_lcNQ" sourceConnectionVisual="_22OPFVImEeibjuLm5_lcNQ" text="Creates a component for displaying the given video.&#xD;&#xA;     * @param video The &lt;code>Video&lt;/code> to be displayed.&#xD;&#xA;     *&#xD;&#xA;     * @param mute boolean silence" item="_22PdVVImEeibjuLm5_lcNQ">
+    <modelElement href="videoGUI.uml#_2MmqWlImEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_22SggFImEeibjuLm5_lcNQ" sourceConnectionVisual="_22SggVImEeibjuLm5_lcNQ" text="A listener for video playback events." item="_22THklImEeibjuLm5_lcNQ">
+    <modelElement href="videoGUI.uml#_2MmqXVImEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_22THkFImEeibjuLm5_lcNQ" sourceConnectionVisual="_22THkVImEeibjuLm5_lcNQ" text="Called when a playback has stopped." item="_22THlVImEeibjuLm5_lcNQ">
+    <modelElement href="videoGUI.uml#_2MmqXlImEeibjuLm5_lcNQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_22PdOVImEeibjuLm5_lcNQ" comments="_22MZ4FImEeibjuLm5_lcNQ" targetConnectionVisual="_22MZ4VImEeibjuLm5_lcNQ" name="VideoComponent" associationsOut="_22O2IFImEeibjuLm5_lcNQ _22PdMFImEeibjuLm5_lcNQ">
+    <modelElement href="videoGUI.uml#_2MA0cFImEeibjuLm5_lcNQ"/>
+    <visualProperties xmi:id="_22PdOlImEeibjuLm5_lcNQ" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_22PdO1ImEeibjuLm5_lcNQ" label="+"/>
+    <attributes xmi:id="_22PdPFImEeibjuLm5_lcNQ" defaultValue="Logger.getLogger(VideoComponent.class.getName())" name="logger" staticAttribute="true">
+      <modelElement href="videoGUI.uml#_2MlcM1ImEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_22PdPVImEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_22PdPlImEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_22PdP1ImEeibjuLm5_lcNQ" name="Logger">
+        <modelElement href="videoGUI.uml#_2MfVk1ImEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_22PdQFImEeibjuLm5_lcNQ" name="applet">
+      <modelElement href="videoGUI.uml#_2MmDQFImEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_22PdQVImEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="videoGUI.uml#_2MmDQVImEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_22PdQlImEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_22PdQ1ImEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_22PdRFImEeibjuLm5_lcNQ" name="Cortado">
+        <modelElement href="videoGUI.uml#_2MhKwVImEeibjuLm5_lcNQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_22PdRVImEeibjuLm5_lcNQ" name="createBorder">
+      <modelElement href="videoGUI.uml#_2MBbh1ImEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_22PdRlImEeibjuLm5_lcNQ" label="-"/>
+      <cardinality xmi:id="_22PdR1ImEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_22PdSFImEeibjuLm5_lcNQ">
+        <modelElement href="videoGUI.uml#_2MkOFFImEeibjuLm5_lcNQ"/>
+        <type xmi:id="_22PdSVImEeibjuLm5_lcNQ" name="Border">
+          <modelElement href="videoGUI.uml#_2MgjslImEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_22PdSlImEeibjuLm5_lcNQ" comments="_22OPEFImEeibjuLm5_lcNQ" targetConnectionVisual="_22OPEVImEeibjuLm5_lcNQ" name="play">
+      <modelElement href="videoGUI.uml#_2MCCkFImEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_22PdS1ImEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_22PdTFImEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_22PdTVImEeibjuLm5_lcNQ" comments="_22OPElImEeibjuLm5_lcNQ" targetConnectionVisual="_22OPE1ImEeibjuLm5_lcNQ" name="stop">
+      <modelElement href="videoGUI.uml#_2MCCkVImEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_22PdTlImEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_22PdT1ImEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_22PdUFImEeibjuLm5_lcNQ" name="removeNotify">
+      <modelElement href="videoGUI.uml#_2MCCklImEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_22PdUVImEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="videoGUI.uml#_2MCCk1ImEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_22PdUlImEeibjuLm5_lcNQ" name="Annotations">
+        <modelElement href="videoGUI.uml#_2MCClFImEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_22PdU1ImEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_22PdVFImEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_22PdVVImEeibjuLm5_lcNQ" comments="_22OPFFImEeibjuLm5_lcNQ" targetConnectionVisual="_22OPFVImEeibjuLm5_lcNQ" name="VideoComponent">
+      <modelElement href="videoGUI.uml#_2Mi_8FImEeibjuLm5_lcNQ"/>
+      <keywords xmi:id="_22PdVlImEeibjuLm5_lcNQ" keyword="create"/>
+      <visibility xmi:id="_22PdV1ImEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_22PdWFImEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_22PdWVImEeibjuLm5_lcNQ">
+        <modelElement href="videoGUI.uml#_2MkOE1ImEeibjuLm5_lcNQ"/>
+        <type xmi:id="_22PdWlImEeibjuLm5_lcNQ" name="VideoComponent">
+          <modelElement href="videoGUI.uml#_2MA0cFImEeibjuLm5_lcNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_22PdW1ImEeibjuLm5_lcNQ" name="video">
+        <modelElement href="videoGUI.uml#_2MjnAFImEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_22PdXFImEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_22PdXVImEeibjuLm5_lcNQ" name="Video">
+          <modelElement href="videoGUI.uml#_2Mhx0VImEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_22PdXlImEeibjuLm5_lcNQ" name="mute">
+        <modelElement href="videoGUI.uml#_2MkOEFImEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_22PdX1ImEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_22PdYFImEeibjuLm5_lcNQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_22PdYVImEeibjuLm5_lcNQ" name="addMouseListener">
+      <modelElement href="videoGUI.uml#_2MkOFVImEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_22PdYlImEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="videoGUI.uml#_2Mk1IFImEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_22PdY1ImEeibjuLm5_lcNQ" name="Annotations">
+        <modelElement href="videoGUI.uml#_2Mk1IVImEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_22PdZFImEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_22PdZVImEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_22PdZlImEeibjuLm5_lcNQ" name="l">
+        <modelElement href="videoGUI.uml#_2MkOFlImEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_22PdZ1ImEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_22PdaFImEeibjuLm5_lcNQ" name="MouseListener">
+          <modelElement href="videoGUI.uml#_2MeugVImEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_22PdaVImEeibjuLm5_lcNQ" name="removeMouseListener">
+      <modelElement href="videoGUI.uml#_2Mk1I1ImEeibjuLm5_lcNQ"/>
+      <stereotypes xmi:id="_22PdalImEeibjuLm5_lcNQ" name="LegacyStyledElement">
+        <modelElement href="videoGUI.uml#_2Mk1JVImEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_22Pda1ImEeibjuLm5_lcNQ" name="Annotations">
+        <modelElement href="videoGUI.uml#_2MlcMFImEeibjuLm5_lcNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_22PdbFImEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_22PdbVImEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_22PdblImEeibjuLm5_lcNQ" name="l">
+        <modelElement href="videoGUI.uml#_2Mk1JFImEeibjuLm5_lcNQ"/>
+        <cardinality xmi:id="_22Pdb1ImEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_22PdcFImEeibjuLm5_lcNQ" name="MouseListener">
+          <modelElement href="videoGUI.uml#_2MeugVImEeibjuLm5_lcNQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_22THklImEeibjuLm5_lcNQ" comments="_22SggFImEeibjuLm5_lcNQ" targetConnectionVisual="_22SggVImEeibjuLm5_lcNQ" name="VideoListener">
+    <modelElement href="videoGUI.uml#_2MDQsFImEeibjuLm5_lcNQ"/>
+    <visualProperties xmi:id="_22THk1ImEeibjuLm5_lcNQ" position="622.0,206.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_22THlFImEeibjuLm5_lcNQ" label="+"/>
+    <operations xmi:id="_22THlVImEeibjuLm5_lcNQ" comments="_22THkFImEeibjuLm5_lcNQ" targetConnectionVisual="_22THkVImEeibjuLm5_lcNQ" name="stopped">
+      <modelElement href="videoGUI.uml#_2MDQsVImEeibjuLm5_lcNQ"/>
+      <visibility xmi:id="_22THllImEeibjuLm5_lcNQ" label="+"/>
+      <cardinality xmi:id="_22THl1ImEeibjuLm5_lcNQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
