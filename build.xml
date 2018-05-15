@@ -3,7 +3,7 @@
 <!-- This file includes targets for building FreeCol,
      the metaserver, distribution packages, running tests
      and creating documentation. -->
-<project name="FreeCol" default="package">
+<project name="FreeCol" default="package" xmlns:sonar="antlib:org.sonar.ant">
     <description>
         This file includes targets for building FreeCol,
         the metaserver, distribution packages, running tests
@@ -32,6 +32,30 @@
               value="jars/miglayout-core-4.2.jar"/>
     <property name="cli.jar" value="jars/commons-cli-1.1.jar"/>
     <property name="cortado.jar" value="jars/cortado-0.6.0.jar"/>
+	
+	<property name="sonar.host.url" value="https://sonarcloud.io" />
+	<property name="sonar.organization" value="nickschleicher-github" />
+	<property name="sonar.login" value="e3478255173e75e79193532e70939b4822b1403b" />
+	
+	  
+	<!-- Define the SonarQube project properties -->
+	<property name="sonar.projectKey" value="nickschleicher-github" />
+	<property name="sonar.projectName" value="COSC442-FinalProject" />
+	<property name="sonar.projectVersion" value="1.0" />
+	<property name="sonar.sources" value="src" />
+	<property name="sonar.java.binaries" value="build" />
+	<property name="sonar.java.libraries" value="jars/*.jar" />
+
+	<!-- Define SonarQube Scanner for Ant Target -->
+	<target name="sonar">
+	    <taskdef uri="antlib:org.sonar.ant" resource="org/sonar/ant/antlib.xml">
+	        <!-- Update the following line, or put the "sonarqube-ant-task-*.jar" file in your "$HOME/.ant/lib" folder -->
+	        <classpath path="sonarqube-ant-task-2.5.jar" />
+	    </taskdef>
+	 
+	    <!-- Execute SonarQube Scanner for Ant Analysis -->
+	    <sonar:sonar />
+	</target>
 
 
     <path id="libraries.classpath">
